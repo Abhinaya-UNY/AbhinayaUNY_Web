@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Camera, ExternalLink, Image as ImageIcon, Filter, Sparkles, X, PlusCircle } from 'lucide-react';
+import { Camera, Image as ImageIcon, Filter, Sparkles, X } from 'lucide-react';
 import { GALLERY_ITEMS, GALLERY_CATEGORIES, GalleryItem } from '@/data/galleryData';
 
 export const DocumentationGallerySection: React.FC = () => {
@@ -21,38 +21,22 @@ export const DocumentationGallerySection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
-        {/* Header Title & GitHub Upload CTA */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 border-b border-[#26180E] pb-6 sm:pb-8">
-          <div className="space-y-2.5 max-w-2xl">
-            <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
-              <Camera className="w-3.5 h-3.5" />
-              <span>DOKUMENTASI &amp; GALERI TIM</span>
-            </div>
-            <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
-              Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-300">
-              Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika FT UNY.
-            </p>
+        {/* Header Title */}
+        <div className="text-center space-y-2.5 max-w-3xl mx-auto border-b border-[#26180E] pb-6 sm:pb-8">
+          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
+            <Camera className="w-3.5 h-3.5" />
+            <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
-
-          {/* Upload CTA on GitHub */}
-          <div className="flex-shrink-0">
-            <a
-              href="https://github.com/Abhinaya-UNY/AbhinayaUNY_Web/blob/main/PANDUAN_UPLOAD_DOKUMENTASI.md"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-2xl bg-[#1C120A] hover:bg-brand-orange text-amber-200 hover:text-black font-bold text-xs border border-brand-orange/40 hover:border-brand-orange transition shadow-lg group"
-            >
-              <PlusCircle className="w-4 h-4 text-brand-orange group-hover:text-black transition" />
-              <span>Upload Foto Tim di GitHub</span>
-              <ExternalLink className="w-3.5 h-3.5 opacity-60" />
-            </a>
-          </div>
+          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
+            Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-300">
+            Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika FT UNY.
+          </p>
         </div>
 
         {/* Filter Category Pills */}
-        <div className="flex flex-wrap gap-2 items-center">
+        <div className="flex flex-wrap gap-2 items-center justify-center">
           <div className="flex items-center space-x-1 text-slate-400 text-xs font-bold mr-2">
             <Filter className="w-3.5 h-3.5 text-brand-orange" />
             <span>Kategori:</span>
