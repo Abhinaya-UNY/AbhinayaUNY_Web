@@ -13,6 +13,7 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { href: '/', label: 'HOME' },
     { href: '/#about-tim', label: 'ABOUT US' },
+    { href: '/#dokumentasi-tim', label: 'GALLERY' },
     { href: '/krtmi', label: 'KRTMI ARCHIVES' },
     { href: '/divisi', label: 'DIVISI TIM' },
     { href: '/prestasi', label: 'ACHIEVEMENTS' },
@@ -69,7 +70,7 @@ export const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`px-4 py-1.5 rounded-full text-xs font-black tracking-wider transition ${
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-black tracking-wider transition ${
                     isActive
                       ? 'bg-brand-orange text-black shadow-[0_0_15px_rgba(255,107,0,0.5)]'
                       : 'text-slate-300 hover:text-white hover:bg-[#20150D]'

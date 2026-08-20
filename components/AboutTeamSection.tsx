@@ -54,19 +54,19 @@ export const AboutTeamSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Genuine Photo Collage */}
+          {/* Genuine Photo Collage with WEB_5721.jpg on Left */}
           <div className="grid grid-cols-2 gap-4">
             <div className="rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group">
               <img
-                src={`${basePath}/assets/team_podium_1.jpg`}
-                alt="Tim Abhinaya di Podium Kejuaraan Nasional"
+                src={`${basePath}/assets/WEB_5721.jpg`}
+                alt="Robot Abhinaya di Arena KRTMI"
                 className="w-full h-52 object-cover group-hover:scale-105 transition duration-500"
               />
             </div>
             <div className="rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group">
               <img
                 src={`${basePath}/assets/robot_action_1.jpg`}
-                alt="Robot Abhinaya di Arena Lomba"
+                alt="Tim Abhinaya Memantau Robot di Arena"
                 className="w-full h-52 object-cover group-hover:scale-105 transition duration-500"
               />
             </div>
