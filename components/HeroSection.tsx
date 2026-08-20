@@ -15,14 +15,14 @@ export const HeroSection: React.FC = () => {
       />
 
       {/* 2. Balanced Transparent Vignette Overlay (Photo clearly visible) */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#070503] via-[#070503]/40 to-[#070503]/20" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.1)_0%,_rgba(7,5,3,0.65)_85%)]" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#070503] via-[#070503]/35 to-[#070503]/20" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.1)_0%,_rgba(7,5,3,0.6)_85%)]" />
 
       {/* 3. Orange Ambient Glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-brand-orange/15 blur-[150px] pointer-events-none rounded-full" />
 
-      {/* 4. Main Hero Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-8">
+      {/* 4. Minimalist Main Hero Content (Matching VI-ROSE ITS caliber) */}
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-7">
         
         {/* Real Abhinaya Emblem Badge with Crisp White Background */}
         <div className="flex flex-col items-center justify-center space-y-3">
@@ -41,24 +41,18 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Massive Bold Title with High-Contrast Drop Shadow */}
-        <div className="space-y-3">
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white tracking-tight uppercase drop-shadow-[0_8px_25px_rgba(0,0,0,0.95)]">
+        <div className="space-y-2">
+          <h1 className="text-6xl sm:text-8xl lg:text-9xl font-black text-white tracking-tight uppercase drop-shadow-[0_8px_30px_rgba(0,0,0,0.95)]">
             ABHINAYA <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">UNY</span>
           </h1>
-          <p className="text-sm sm:text-xl font-black text-white tracking-wide uppercase max-w-2xl mx-auto drop-shadow-[0_4px_15px_rgba(0,0,0,0.95)]">
-            Kontes Robot Tematik Indonesia • Universitas Negeri Yogyakarta
+          {/* Simple Minimalist Subtitle ala VI-ROSE ITS */}
+          <p className="text-base sm:text-2xl font-bold text-slate-100 tracking-widest uppercase drop-shadow-[0_4px_15px_rgba(0,0,0,0.95)]">
+            Kontes Robot Tematik Indonesia
           </p>
         </div>
 
-        {/* Descriptive Intro with High-Contrast Dark Backdrop Pill */}
-        <div className="max-w-3xl mx-auto p-4 sm:p-5 rounded-2xl bg-[#080503]/80 border border-brand-orange/35 backdrop-blur-md shadow-2xl">
-          <p className="text-xs sm:text-base text-slate-200 leading-relaxed font-medium">
-            Wadah riset mahasiswa Fakultas Teknik UNY dalam merancang, membangun, dan memprogram robot-robot otonom cerdas untuk menjawab tantangan isu nasional di ajang <strong>Kontes Robot Indonesia (KRI Puspresnas)</strong>.
-          </p>
-        </div>
-
-        {/* Pill Button CTA */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+        {/* Minimalist Pill Button CTA (Like VI-ROSE ITS) */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link
             href="/#krtmi-story"
             className="w-full sm:w-auto px-10 py-4 rounded-full bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2 shadow-[0_0_35px_rgba(255,107,0,0.6)] hover:scale-105 transition"
