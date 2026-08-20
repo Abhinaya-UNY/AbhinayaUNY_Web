@@ -1,117 +1,85 @@
 import React from 'react';
 import Link from 'next/link';
-import { Bot, Shield, Trophy, ExternalLink, Heart, Video, Instagram, Youtube, Compass } from 'lucide-react';
+import { Bot, Trophy, Instagram, Youtube, Heart, ExternalLink } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="border-t border-brand-border bg-[#04060B] text-slate-400 py-12 mt-20 font-sans">
+    <footer className="border-t border-[#26180E] bg-[#070503] text-slate-400 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
-          {/* Col 1: Brand Info */}
+          {/* Brand Info */}
           <div className="space-y-3 md:col-span-2">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-brand-cyan via-brand-emerald to-sky-400 p-0.5 shadow-[0_0_20px_rgba(0,245,212,0.3)]">
-                <div className="w-full h-full bg-[#070B12] rounded-[14px] flex items-center justify-center">
-                  <Bot className="w-5 h-5 text-brand-cyan" />
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-orange via-amber-500 to-red-600 p-0.5 shadow-md">
+                <div className="w-full h-full bg-[#0E0B08] rounded-[10px] flex items-center justify-center">
+                  <Bot className="w-5 h-5 text-brand-orange" />
                 </div>
               </div>
-              <span className="font-black text-lg text-white font-mono">
+              <span className="font-black text-lg text-white">
                 TIM ROBOTIKA ABHINAYA UNY
               </span>
             </div>
             <p className="text-xs leading-relaxed text-slate-400 max-w-md">
-              Tim Riset dan Pengembangan Robotika Universitas Negeri Yogyakarta pada divisi Kontes Robot Tematik Indonesia (KRTMI) Puspresnas Kemendikbudristek — mengintegrasikan kecerdasan buatan, visi komputer, dan sistem kinematika otonom untuk memecahkan tantangan teknologi nasional.
+              Tim Riset &amp; Pengembangan Robotika Universitas Negeri Yogyakarta pada divisi Kontes Robot Tematik Indonesia (KRTMI) — mewadahi mahasiswa berkreasi, berinovasi, dan meraih prestasi di kancah robotika nasional.
             </p>
-            <div className="flex items-center space-x-3 pt-2">
-              <a
-                href="https://www.instagram.com/abhinaya.uny/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-pink-500 text-slate-400 hover:text-pink-400 transition"
-                title="Instagram @abhinaya.uny"
-              >
-                <Instagram className="w-4 h-4" />
-              </a>
-              <a
-                href="https://www.tiktok.com/@abhinaya.uny"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-brand-cyan text-slate-400 hover:text-brand-cyan transition"
-                title="TikTok @abhinaya.uny"
-              >
-                <Video className="w-4 h-4" />
-              </a>
-              <a
-                href="https://youtu.be/3yr5uNkxA_8"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-red-500 text-slate-400 hover:text-red-400 transition"
-                title="YouTube Video"
-              >
-                <Youtube className="w-4 h-4" />
-              </a>
-            </div>
           </div>
 
-          {/* Col 2: Navigasi Cepat */}
+          {/* Navigasi */}
           <div className="space-y-2.5">
-            <h4 className="text-xs font-black uppercase text-white tracking-wider font-mono">
-              Arsip &amp; Dokumentasi
+            <h4 className="text-xs font-black uppercase text-amber-400 tracking-wider">
+              Navigasi Halaman
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <Link href="/krtmi" className="hover:text-brand-cyan transition">
-                  Arsip Regulasi KRTMI (2019 – 2024)
+                <Link href="/" className="hover:text-brand-orange transition">
+                  Beranda Tim
                 </Link>
               </li>
               <li>
-                <Link href="/krtmi#technocorner2026" className="hover:text-brand-cyan transition">
-                  Technocorner 2026 FT UGM
+                <Link href="/krtmi" className="hover:text-brand-orange transition">
+                  Cerita KRTMI (2019 – 2026)
                 </Link>
               </li>
               <li>
-                <Link href="/teknis" className="hover:text-brand-cyan transition">
-                  Laboratorium Kinematika &amp; PID
+                <Link href="/divisi" className="hover:text-brand-orange transition">
+                  Divisi &amp; Kultur Tim
                 </Link>
               </li>
               <li>
-                <Link href="/prestasi" className="hover:text-brand-cyan transition">
-                  Kabinet Juara Nasional &amp; Pers UNY
+                <Link href="/prestasi" className="hover:text-brand-orange transition">
+                  Prestasi Kejuaraan
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Col 3: Institusi & Penyelenggara */}
+          {/* Media Sosial & Kampus */}
           <div className="space-y-2.5">
-            <h4 className="text-xs font-black uppercase text-white tracking-wider font-mono">
-              Afiliasi &amp; Kompetisi
+            <h4 className="text-xs font-black uppercase text-amber-400 tracking-wider">
+              Media Sosial &amp; Afiliasi
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <a href="https://uny.ac.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition flex items-center space-x-1">
+                <a href="https://www.instagram.com/abhinaya.uny/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition flex items-center space-x-1.5">
+                  <Instagram className="w-3.5 h-3.5 text-pink-500" />
+                  <span>Instagram @abhinaya.uny</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@abhinaya.uny" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition flex items-center space-x-1.5">
+                  <span>TikTok @abhinaya.uny</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://uny.ac.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition flex items-center space-x-1.5">
                   <span>Universitas Negeri Yogyakarta</span>
-                  <ExternalLink className="w-3 h-3 text-slate-500" />
                 </a>
               </li>
               <li>
-                <a href="https://pusatprestasinasional.kemdikbud.go.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition flex items-center space-x-1">
-                  <span>Puspresnas / BPTI Kemdikbudristek</span>
-                  <ExternalLink className="w-3 h-3 text-slate-500" />
-                </a>
-              </li>
-              <li>
-                <a href="https://ft.uny.ac.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition flex items-center space-x-1">
-                  <span>Fakultas Teknik UNY</span>
-                  <ExternalLink className="w-3 h-3 text-slate-500" />
-                </a>
-              </li>
-              <li>
-                <a href="https://kri.kemdikbud.go.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition flex items-center space-x-1">
-                  <span>Kontes Robot Indonesia (KRI)</span>
-                  <ExternalLink className="w-3 h-3 text-slate-500" />
+                <a href="https://pusatprestasinasional.kemdikbud.go.id" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition flex items-center space-x-1.5">
+                  <span>BPTI Puspresnas</span>
                 </a>
               </li>
             </ul>
@@ -119,12 +87,12 @@ export const Footer: React.FC = () => {
 
         </div>
 
-        <div className="border-t border-slate-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-mono">
+        <div className="border-t border-[#1C120A] pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            &copy; {new Date().getFullYear()} Tim Robotika Abhinaya UNY. 100% Data Tim Resmi.
+            &copy; {new Date().getFullYear()} Tim Robotika Abhinaya Universitas Negeri Yogyakarta.
           </div>
-          <div className="flex items-center space-x-1">
-            <span>Dirancang untuk Riset &amp; Edukasi Robotika Indonesia</span>
+          <div>
+            Dibuat untuk Mengenalkan Robotika Tematik UNY kepada Mahasiswa &amp; Publik
           </div>
         </div>
 
