@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Trophy, ArrowRight, Play, Flame, FileText } from 'lucide-react';
+import { Trophy, ArrowRight, Play, Flame } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -24,13 +24,13 @@ export const HeroSection: React.FC = () => {
       {/* 4. Main Hero Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center space-y-8">
         
-        {/* Real Abhinaya Emblem Badge */}
+        {/* Real Abhinaya Emblem Badge with Crisp White Background */}
         <div className="flex flex-col items-center justify-center space-y-3">
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-gradient-to-b from-brand-orange/30 to-black p-1 border-2 border-brand-orange/60 shadow-[0_0_40px_rgba(255,107,0,0.5)] flex items-center justify-center">
+          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-white p-2.5 border-2 border-brand-orange shadow-[0_0_40px_rgba(255,107,0,0.6)] flex items-center justify-center transform hover:scale-105 transition duration-300">
             <img
               src={`${basePath}/assets/logo_abhinaya.png`}
               alt="Logo Abhinaya UNY"
-              className="w-20 h-20 sm:w-24 sm:h-24 object-contain drop-shadow-[0_0_15px_rgba(255,107,0,0.7)]"
+              className="w-full h-full object-contain"
             />
           </div>
           

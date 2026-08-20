@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Bot, Sparkles, Cpu } from 'lucide-react';
 
 export const Preloader: React.FC = () => {
   const [progress, setProgress] = useState(0);
@@ -43,14 +42,16 @@ export const Preloader: React.FC = () => {
 
       <div className="relative z-10 flex flex-col items-center space-y-6 max-w-md w-full text-center">
         
-        {/* Real Logo with Neon Ring */}
+        {/* Real Logo with Clean White Background & Animated Spinner */}
         <div className="relative w-28 h-28 flex items-center justify-center">
-          <div className="absolute inset-0 rounded-full border-2 border-brand-orange/40 border-t-brand-orange animate-spin" />
-          <img
-            src={`${basePath}/assets/logo_abhinaya.png`}
-            alt="Logo Abhinaya UNY"
-            className="w-20 h-20 object-contain drop-shadow-[0_0_20px_rgba(255,107,0,0.8)] animate-pulse"
-          />
+          <div className="absolute -inset-1.5 rounded-3xl border-2 border-brand-orange/40 border-t-brand-orange animate-spin" />
+          <div className="w-24 h-24 rounded-2xl bg-white p-2 flex items-center justify-center shadow-[0_0_35px_rgba(255,107,0,0.8)]">
+            <img
+              src={`${basePath}/assets/logo_abhinaya.png`}
+              alt="Logo Abhinaya UNY"
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
 
         {/* Brand Text */}

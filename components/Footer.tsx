@@ -1,21 +1,25 @@
 import React from 'react';
 import Link from 'next/link';
-import { Bot, Trophy, Instagram, Youtube, Heart, ExternalLink } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 export const Footer: React.FC = () => {
+  const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+
   return (
     <footer className="border-t border-[#26180E] bg-[#070503] text-slate-400 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
-          {/* Brand Info */}
+          {/* Brand Info with Real Logo White Badge */}
           <div className="space-y-3 md:col-span-2">
             <div className="flex items-center space-x-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-orange via-amber-500 to-red-600 p-0.5 shadow-md">
-                <div className="w-full h-full bg-[#0E0B08] rounded-[10px] flex items-center justify-center">
-                  <Bot className="w-5 h-5 text-brand-orange" />
-                </div>
+              <div className="w-10 h-10 rounded-xl bg-white p-1 flex items-center justify-center border border-brand-orange shadow-md">
+                <img
+                  src={`${basePath}/assets/logo_abhinaya.png`}
+                  alt="Logo Abhinaya UNY"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="font-black text-lg text-white">
                 TIM ROBOTIKA ABHINAYA UNY

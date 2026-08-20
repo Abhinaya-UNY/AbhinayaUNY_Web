@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Bot, Trophy, History, Users, Instagram, Phone, Menu, X, Sparkles } from 'lucide-react';
+import { Instagram, Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -23,13 +23,13 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Real Abhinaya Logo Left */}
+          {/* Real Abhinaya Logo with Clean White Background */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-orange/30 to-amber-600/20 p-1 flex items-center justify-center border border-brand-orange/40 group-hover:scale-105 transition flex-shrink-0 shadow-[0_0_20px_rgba(255,107,0,0.3)]">
+            <div className="w-12 h-12 rounded-2xl bg-white p-1 flex items-center justify-center border-2 border-brand-orange group-hover:scale-105 transition flex-shrink-0 shadow-[0_0_20px_rgba(255,107,0,0.5)]">
               <img
                 src={`${basePath}/assets/logo_abhinaya.png`}
                 alt="Logo Abhinaya UNY"
-                className="w-9 h-9 object-contain drop-shadow-md"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col">
