@@ -6,23 +6,23 @@ export const HeroSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
-    <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[94vh] flex items-center justify-center overflow-hidden">
       
-      {/* 1. Background Team Photo (Brighter & Crisp) */}
+      {/* 1. Fixed Parallax Background Photo */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-100 transform duration-1000 brightness-95 contrast-105"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed brightness-95 contrast-105 transform will-change-transform"
         style={{ backgroundImage: `url('${basePath}/assets/hero_abhinaya.jpg')` }}
       />
 
-      {/* 2. Balanced Transparent Vignette Overlay (Photo clearly visible like VI-ROSE ITS) */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#070503] via-[#070503]/45 to-[#070503]/20" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.15)_0%,_rgba(7,5,3,0.65)_85%)]" />
+      {/* 2. Balanced Transparent Vignette Overlay (Photo clearly visible) */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#070503] via-[#070503]/40 to-[#070503]/20" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.1)_0%,_rgba(7,5,3,0.65)_85%)]" />
 
-      {/* 3. Orange Ambient Highlights */}
+      {/* 3. Orange Ambient Glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-brand-orange/15 blur-[150px] pointer-events-none rounded-full" />
 
       {/* 4. Main Hero Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center space-y-8">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-8">
         
         {/* Real Abhinaya Emblem Badge with Crisp White Background */}
         <div className="flex flex-col items-center justify-center space-y-3">
@@ -51,7 +51,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Descriptive Intro with High-Contrast Dark Backdrop Pill */}
-        <div className="max-w-3xl mx-auto p-4 sm:p-5 rounded-2xl bg-[#080503]/75 border border-brand-orange/30 backdrop-blur-md shadow-2xl">
+        <div className="max-w-3xl mx-auto p-4 sm:p-5 rounded-2xl bg-[#080503]/80 border border-brand-orange/35 backdrop-blur-md shadow-2xl">
           <p className="text-xs sm:text-base text-slate-200 leading-relaxed font-medium">
             Wadah riset mahasiswa Fakultas Teknik UNY dalam merancang, membangun, dan memprogram robot-robot otonom cerdas untuk menjawab tantangan isu nasional di ajang <strong>Kontes Robot Indonesia (KRI Puspresnas)</strong>.
           </p>
@@ -78,8 +78,8 @@ export const HeroSection: React.FC = () => {
 
       </div>
 
-      {/* Bottom Gradient Fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#070503] to-transparent pointer-events-none" />
+      {/* Smooth Bottom Transition into Solid Dark Content */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#070503] via-[#070503]/80 to-transparent pointer-events-none" />
 
     </section>
   );
