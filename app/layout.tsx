@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { Preloader } from '@/components/Preloader';
 
 export const metadata: Metadata = {
-  title: 'Abhinaya Robotics Team UNY — Kontes Robot Tematik Indonesia (KRTMI)',
-  description: 'Portal resmi dokumentasi inovasi, riset, dan kompetisi Kontes Robot Tematik Indonesia (KRTMI) 2019 - 2024 dan Technocorner 2026 oleh Tim Robotika Abhinaya Universitas Negeri Yogyakarta.',
-  keywords: ['Abhinaya UNY', 'KRTMI', 'Kontes Robot Tematik Indonesia', 'Kontes Robot Indonesia', 'KRI', 'UNY', 'Technocorner UGM 2026', 'Robot Otonom', 'Mecanum Kinematics'],
+  title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia (KRTMI)',
+  description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Arsip dokumentasi lomba KRTMI 2019-2024 dan Technocorner 2026.',
+  keywords: ['Abhinaya UNY', 'KRTMI', 'Kontes Robot Tematik Indonesia', 'KRI', 'UNY', 'Technocorner UGM', 'Robot Otonom', 'Mecanum'],
 };
 
 export default function RootLayout({
@@ -15,8 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
-      <body className="antialiased selection:bg-brand-cyan selection:text-black">
+    <html lang="id" className="scroll-smooth">
+      <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#070503] text-slate-100 min-h-screen">
+        <Preloader />
         <Navbar />
         <main className="min-h-[85vh]">
           {children}

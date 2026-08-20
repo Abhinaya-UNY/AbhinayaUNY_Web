@@ -1,10 +1,10 @@
 import React from 'react';
 import { KRTMI_STORIES } from '@/data/krtmiData';
-import { History, Trophy, MapPin, Sparkles, CheckCircle2, Flame, FileText, Download } from 'lucide-react';
+import { History, Trophy, MapPin, Sparkles, CheckCircle2, Flame, FileText, Download, Compass, Cpu, Layers } from 'lucide-react';
 
 export const metadata = {
-  title: 'Cerita & Buku Panduan KRTMI (2019 – 2026) — Tim Robotika Abhinaya UNY',
-  description: 'Rekapitulasi lengkap sejarah lomba, misi arena, kisah seru tim Abhinaya UNY, dan unduhan resmi PDF Buku Panduan KRTMI 2019-2026.',
+  title: 'Bedah Regulasi & Arsip KRTMI (2019 – 2026) — Tim Robotika Abhinaya UNY',
+  description: 'Rekapitulasi lengkap sejarah lomba, spesifikasi arena, regulasi robot, sistem penilaian, dan unduhan resmi PDF Buku Panduan KRTMI 2019-2026.',
 };
 
 export default function KrtmiPage() {
@@ -20,21 +20,24 @@ export default function KrtmiPage() {
           <span>ARSIP RESMI &amp; GUIDEBOOK KRTMI</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Perjalanan Lomba &amp; Buku Panduan KRTMI (2019 – 2026) 📜
+          Perjalanan Lomba &amp; Buku Panduan KRTMI (2026 ➔ 2019) 📜
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
           Pelajari aturan resmi, layout arena, mekanisme penilaian, dan unduh dokumen PDF buku pedoman resmi dari Balai Pengembangan Talenta Indonesia (BPTI) Kemendikbudristek untuk setiap edisi lomba!
         </p>
       </div>
 
-      {/* Stories List */}
+      {/* Stories List (2026 to 2019) */}
       <div className="space-y-12">
         {KRTMI_STORIES.map((story) => (
           <div
             key={story.year}
             id={`tahun-${story.year}`}
-            className="p-6 sm:p-10 rounded-3xl bg-[#140E09] border-2 border-brand-orange/30 shadow-xl space-y-6 relative overflow-hidden"
+            className="p-6 sm:p-10 rounded-3xl bg-[#140E09] border-2 border-brand-orange/30 shadow-xl space-y-8 relative overflow-hidden"
           >
+            {/* Top Orange Line */}
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400" />
+
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#2A1B10] pb-4">
               <div className="flex items-center space-x-3">
                 <span className="text-3xl sm:text-4xl font-black text-brand-orange font-mono">
@@ -63,43 +66,75 @@ export default function KrtmiPage() {
               </div>
             </div>
 
-            {/* Story Details */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Narrative */}
+            <div className="p-6 rounded-2xl bg-[#0A0704] border border-[#241508] space-y-3">
+              <h3 className="text-xs font-black text-amber-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <Sparkles className="w-4 h-4 text-brand-orange" />
+                <span>Misi Lomba &amp; Tema Masalah</span>
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                {story.storySummary}
+              </p>
+            </div>
+
+            {/* 3-Columns: Arena, Robot Specs, Scoring */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               
-              {/* Mission and Narrative */}
-              <div className="space-y-3 p-5 rounded-2xl bg-[#0A0704] border border-[#241508]">
-                <h3 className="text-xs font-black text-amber-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Sparkles className="w-4 h-4 text-brand-orange" />
-                  <span>Misi Lomba &amp; Tema Masalah</span>
-                </h3>
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  {story.storySummary}
-                </p>
-                <div className="pt-2 space-y-2">
-                  <span className="text-[10px] font-black uppercase text-amber-400 tracking-wider block">
-                    Kisah Tim di Balik Layar:
-                  </span>
-                  <ul className="space-y-1.5">
-                    {story.teamRoleAndFunFacts.map((fact, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 text-xs text-slate-300">
-                        <Flame className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
-                        <span>{fact}</span>
-                      </li>
-                    ))}
-                  </ul>
+              {/* Arena Specs */}
+              <div className="p-5 rounded-2xl bg-[#0A0704] border border-[#241508] space-y-3 text-xs">
+                <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
+                  <Compass className="w-4 h-4 text-brand-orange" />
+                  <span>Spesifikasi Arena</span>
+                </h4>
+                <div className="space-y-2">
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Dimensi:</span>
+                    <span className="text-white font-semibold">{story.arenaSpecs.dimensions}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Permukaan:</span>
+                    <span className="text-slate-300">{story.arenaSpecs.surface}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Zona:</span>
+                    <span className="text-amber-200">{story.arenaSpecs.zones}</span>
+                  </div>
                 </div>
               </div>
 
-              {/* Robot Mechanism */}
-              <div className="space-y-3 p-5 rounded-2xl bg-[#0A0704] border border-[#241508]">
-                <h3 className="text-xs font-black text-amber-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-brand-orange" />
-                  <span>Cara Robot Bekerja Menyelesaikan Misi</span>
-                </h3>
-                <ul className="space-y-2.5">
-                  {story.howItWorks.map((work, idx) => (
-                    <li key={idx} className="p-3 rounded-xl bg-[#140E09] border border-[#26170B] text-xs text-slate-300 space-y-1">
-                      <span className="font-semibold text-white block">{work}</span>
+              {/* Robot Specs */}
+              <div className="p-5 rounded-2xl bg-[#0A0704] border border-[#241508] space-y-3 text-xs">
+                <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
+                  <Cpu className="w-4 h-4 text-brand-orange" />
+                  <span>Regulasi Robot</span>
+                </h4>
+                <div className="space-y-2">
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Dimensi:</span>
+                    <span className="text-white font-semibold">{story.robotSpecs.dimensions}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Bobot &amp; Daya:</span>
+                    <span className="text-slate-300">{story.robotSpecs.weight} • {story.robotSpecs.power}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Mekanisme:</span>
+                    <span className="text-amber-200">{story.robotSpecs.mechanism}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Scoring System */}
+              <div className="p-5 rounded-2xl bg-[#0A0704] border border-[#241508] space-y-3 text-xs">
+                <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
+                  <Layers className="w-4 h-4 text-brand-orange" />
+                  <span>Sistem Penilaian</span>
+                </h4>
+                <ul className="space-y-1.5">
+                  {story.scoringSystem.map((score, idx) => (
+                    <li key={idx} className="flex items-start space-x-1.5 text-slate-300">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
+                      <span>{score}</span>
                     </li>
                   ))}
                 </ul>
@@ -126,7 +161,7 @@ export default function KrtmiPage() {
                 href={`${basePath}/guidebooks/${story.pdfFile}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center justify-center space-x-2 transition shadow-md whitespace-nowrap"
+                className="w-full sm:w-auto px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center justify-center space-x-2 transition shadow-md whitespace-nowrap uppercase tracking-wider"
               >
                 <Download className="w-4 h-4" />
                 <span>Unduh PDF Panduan Resmi</span>
