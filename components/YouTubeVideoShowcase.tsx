@@ -3,7 +3,7 @@ import { Play, Youtube, Sparkles, Trophy, ExternalLink } from 'lucide-react';
 
 export const YouTubeVideoShowcase: React.FC = () => {
   return (
-    <section id="video-aksi" className="py-16 bg-[#0E0905] border-y border-[#2B1B10]">
+    <section id="video-aksi" className="py-20 bg-[#070503] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
         
         {/* Section Header */}
@@ -22,7 +22,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
 
         {/* Video Embed Card */}
         <div className="max-w-4xl mx-auto">
-          <div className="p-3 sm:p-5 rounded-3xl bg-[#171008] border-2 border-brand-orange/40 shadow-[0_0_50px_rgba(255,107,0,0.25)] space-y-4">
+          <div className="p-3 sm:p-5 rounded-3xl bg-[#140E09] border border-brand-orange/30 shadow-[0_0_50px_rgba(255,107,0,0.2)] space-y-4">
             
             {/* Responsive 16:9 Video Frame */}
             <div className="relative w-full pb-[56.25%] rounded-2xl overflow-hidden bg-black border border-slate-800 shadow-inner">
@@ -36,7 +36,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
             </div>
 
             {/* Video Subtitle & Call to Action */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 p-3 rounded-2xl bg-[#0F0B07] text-xs">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 p-3 rounded-2xl bg-[#0B0704] text-xs">
               <div className="flex items-center space-x-2 text-amber-200">
                 <Trophy className="w-4 h-4 text-brand-gold flex-shrink-0" />
                 <span>Dokumentasi Uji Coba &amp; Laga Robot Otonom Abhinaya UNY</span>

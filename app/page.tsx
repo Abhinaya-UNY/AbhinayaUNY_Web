@@ -10,7 +10,7 @@ import { SocialMediaHub } from '@/components/SocialMediaHub';
 
 export default function HomePage() {
   return (
-    <div className="space-y-4">
+    <div className="flex flex-col w-full overflow-x-hidden">
       <HeroSection />
       <YouTubeVideoShowcase />
       <AboutTeamSection />
