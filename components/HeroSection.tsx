@@ -1,9 +1,25 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, Play, Flame } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      const topOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  };
 
   return (
     <section className="relative min-h-[94vh] flex items-center justify-center overflow-hidden">
@@ -46,19 +62,21 @@ export const HeroSection: React.FC = () => {
           </p>
         </div>
 
-        {/* Minimalist Pill Button CTA (Like VI-ROSE ITS) */}
+        {/* Minimalist Pill Button CTA with Smooth Scroll Actions */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Link
-            href="/#krtmi-story"
-            className="w-full sm:w-auto px-10 py-4 rounded-full bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2 shadow-[0_0_35px_rgba(255,107,0,0.6)] hover:scale-105 transition"
+          <a
+            href="#krtmi-story"
+            onClick={(e) => scrollToSection(e, 'krtmi-story')}
+            className="w-full sm:w-auto px-10 py-4 rounded-full bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2 shadow-[0_0_35px_rgba(255,107,0,0.6)] hover:scale-105 transition cursor-pointer"
           >
             <Flame className="w-4 h-4 text-black fill-black" />
             <span>EXPLORE TEAM &amp; GUIDEBOOKS</span>
             <ArrowRight className="w-4 h-4" />
-          </Link>
+          </a>
           <a
             href="#video-aksi"
-            className="w-full sm:w-auto px-8 py-4 rounded-full bg-[#171008]/90 hover:bg-[#251A0D] border border-brand-orange/50 text-amber-200 hover:text-white font-bold text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2 transition backdrop-blur-md shadow-lg"
+            onClick={(e) => scrollToSection(e, 'video-aksi')}
+            className="w-full sm:w-auto px-8 py-4 rounded-full bg-[#171008]/90 hover:bg-[#251A0D] border border-brand-orange/50 text-amber-200 hover:text-white font-bold text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2 transition backdrop-blur-md shadow-lg cursor-pointer"
           >
             <Play className="w-4 h-4 text-brand-orange fill-brand-orange" />
             <span>WATCH ROBOT IN ACTION</span>

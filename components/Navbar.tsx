@@ -18,6 +18,24 @@ export const Navbar: React.FC = () => {
     { href: '/prestasi', label: 'ACHIEVEMENTS' },
   ];
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('/#') && pathname === '/') {
+      e.preventDefault();
+      const targetId = href.replace('/#', '');
+      const element = document.getElementById(targetId);
+      if (element) {
+        const topOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }
+    }
+    setIsOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full bg-[#080503]/90 backdrop-blur-md border-b border-[#241508]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,6 +68,7 @@ export const Navbar: React.FC = () => {
                 <Link
                   key={link.href}
                   href={link.href}
+                  onClick={(e) => handleNavClick(e, link.href)}
                   className={`px-4 py-1.5 rounded-full text-xs font-black tracking-wider transition ${
                     isActive
                       ? 'bg-brand-orange text-black shadow-[0_0_15px_rgba(255,107,0,0.5)]'
@@ -105,7 +124,7 @@ export const Navbar: React.FC = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className={`block px-4 py-3 rounded-xl text-xs font-black tracking-wider transition ${
                   isActive
                     ? 'bg-brand-orange text-black'

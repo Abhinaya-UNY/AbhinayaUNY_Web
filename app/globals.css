@@ -8,6 +8,11 @@
   --background-end-rgb: 4, 6, 12;
 }
 
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 5.5rem;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: radial-gradient(circle at 50% 0%, #171008 0%, #0c0905 40%, #06070a 100%);
@@ -24,7 +29,7 @@ body {
   background: #070B12;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1E293B;
+  background: #2D1B10;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
