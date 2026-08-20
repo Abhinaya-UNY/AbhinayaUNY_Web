@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Trophy, ArrowRight, Play, Flame } from 'lucide-react';
+import { ArrowRight, Play, Flame } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -22,10 +22,10 @@ export const HeroSection: React.FC = () => {
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-brand-orange/15 blur-[150px] pointer-events-none rounded-full" />
 
       {/* 4. Minimalist Main Hero Content (Matching VI-ROSE ITS caliber) */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-7">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-6">
         
         {/* Real Abhinaya Emblem Badge with Crisp White Background */}
-        <div className="flex flex-col items-center justify-center space-y-3">
+        <div className="flex flex-col items-center justify-center">
           <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-white p-2.5 border-2 border-brand-orange shadow-[0_0_40px_rgba(255,107,0,0.7)] flex items-center justify-center transform hover:scale-105 transition duration-300">
             <img
               src={`${basePath}/assets/logo_abhinaya.png`}
@@ -33,20 +33,15 @@ export const HeroSection: React.FC = () => {
               className="w-full h-full object-contain"
             />
           </div>
-          
-          <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-[#180F08]/90 border border-brand-orange/60 text-amber-300 text-xs font-black uppercase tracking-wider shadow-[0_4px_20px_rgba(0,0,0,0.8)] backdrop-blur-sm">
-            <Trophy className="w-4 h-4 text-brand-gold animate-bounce" />
-            <span>JUARA 1 REGIONAL I &amp; JUARA 2 NASIONAL KRTMI 2024</span>
-          </div>
         </div>
 
-        {/* Massive Bold Title with High-Contrast Drop Shadow */}
+        {/* Massive Bold Title on a Single Line with High-Contrast Drop Shadow */}
         <div className="space-y-2">
-          <h1 className="text-6xl sm:text-8xl lg:text-9xl font-black text-white tracking-tight uppercase drop-shadow-[0_8px_30px_rgba(0,0,0,0.95)]">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white tracking-tight uppercase drop-shadow-[0_8px_30px_rgba(0,0,0,0.95)] whitespace-nowrap">
             ABHINAYA <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">UNY</span>
           </h1>
           {/* Simple Minimalist Subtitle ala VI-ROSE ITS */}
-          <p className="text-base sm:text-2xl font-bold text-slate-100 tracking-widest uppercase drop-shadow-[0_4px_15px_rgba(0,0,0,0.95)]">
+          <p className="text-sm sm:text-xl lg:text-2xl font-bold text-slate-100 tracking-widest uppercase drop-shadow-[0_4px_15px_rgba(0,0,0,0.95)]">
             Kontes Robot Tematik Indonesia
           </p>
         </div>
