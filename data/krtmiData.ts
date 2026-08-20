@@ -10,6 +10,9 @@ export interface KrtmiStory {
   teamRoleAndFunFacts: string[];
   achievement: string;
   isChampion?: boolean;
+  pdfFile: string;
+  pdfSize: string;
+  pdfTitle: string;
 }
 
 export const KRTMI_STORIES: KrtmiStory[] = [
@@ -32,6 +35,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🥇 JUARA 1 REGIONAL I WILAYAH & 🥈 JUARA 2 TINGKAT NASIONAL KRTMI 2024',
     isChampion: true,
+    pdfFile: 'Panduan_KRTMI_2024.pdf',
+    pdfSize: '0.56 MB',
+    pdfTitle: 'Buku 7 Panduan Resmi KRTMI 2024 (BPTI Kemendikbudristek)',
   },
   {
     year: '2023',
@@ -52,6 +58,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🥉 JUARA 3 WILAYAH & 🏅 FINALIS TINGKAT NASIONAL KRTMI 2023',
     isChampion: false,
+    pdfFile: 'Panduan_KRI_2023.pdf',
+    pdfSize: '6.06 MB',
+    pdfTitle: 'Buku Pedoman Lengkap KRI & KRTMI 2023 (Puspresnas)',
   },
   {
     year: '2022',
@@ -72,6 +81,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 TAHAP NASIONAL KRTMI 2022 (ITS SURABAYA)',
     isChampion: false,
+    pdfFile: 'Panduan_KRI_2022.pdf',
+    pdfSize: '4.41 MB',
+    pdfTitle: 'Buku Panduan Kontes Robot Indonesia (KRI) 2022',
   },
   {
     year: '2021',
@@ -92,6 +104,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 FINALIS DARING NASIONAL KRTMI 2021',
     isChampion: false,
+    pdfFile: 'Panduan_KRI_2021.pdf',
+    pdfSize: '18.41 MB',
+    pdfTitle: 'Pedoman Kontes Robot Indonesia (KRI) 2021 (UGM & Kemendikbud)',
   },
   {
     year: '2020',
@@ -112,6 +127,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 FINALIS TINGKAT NASIONAL KRTMI 2020',
     isChampion: false,
+    pdfFile: 'Panduan_KRI_2020.pdf',
+    pdfSize: '5.08 MB',
+    pdfTitle: 'Petunjuk Pelaksanaan KRI & KRTMI 2020 (Puspresnas & ITB)',
   },
   {
     year: '2019',
@@ -132,6 +150,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🌱 PIONIR RISET DIVISI TEMATIK KRTMI UNY 2019',
     isChampion: false,
+    pdfFile: 'Panduan_KRTMI_2019.pdf',
+    pdfSize: '0.24 MB',
+    pdfTitle: 'Panduan Resmi Kontes Robot Tematik Indonesia (KRTMI) 2019',
   },
   {
     year: '2026',
@@ -152,6 +173,9 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🤖 PESERTA TINGKAT NASIONAL TECHNOCORNER 2026 FT UGM',
     isChampion: false,
+    pdfFile: 'Panduan_Technocorner_2026.pdf',
+    pdfSize: '40.83 MB',
+    pdfTitle: 'Guidebook Transporter Technocorner 2026 (FT UGM)',
   },
 ];
 

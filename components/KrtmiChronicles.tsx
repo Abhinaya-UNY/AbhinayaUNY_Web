@@ -2,13 +2,14 @@
 
 import React, { useState } from 'react';
 import { KRTMI_STORIES, KrtmiStory } from '@/data/krtmiData';
-import { Trophy, History, MapPin, Sparkles, CheckCircle2, Flame, ArrowRight } from 'lucide-react';
+import { Trophy, History, MapPin, Sparkles, CheckCircle2, Flame, ArrowRight, FileText, Download, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
 export const KrtmiChronicles: React.FC = () => {
   const [activeYear, setActiveYear] = useState<string>('2024');
 
   const activeStory = KRTMI_STORIES.find((s) => s.year === activeYear) || KRTMI_STORIES[0];
+  const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
     <section id="krtmi-story" className="py-16 space-y-10">
@@ -23,7 +24,7 @@ export const KrtmiChronicles: React.FC = () => {
           Cerita KRTMI dari Tahun ke Tahun (2019 – 2026) 📜
         </h2>
         <p className="text-xs sm:text-sm text-slate-300">
-          Apa sih sebenarnya Kontes Robot Tematik Indonesia (KRTMI) itu? Mengapa temanya selalu berganti setiap tahun? Yuk jelajahi kisah seru dan tantangan robot Abhinaya di setiap musim kejuaraan!
+          Apa sih sebenarnya Kontes Robot Tematik Indonesia (KRTMI) itu? Mengapa temanya selalu berganti setiap tahun? Yuk jelajahi kisah seru, tantangan robot Abhinaya, dan unduh buku panduan resminya!
         </p>
       </div>
 
@@ -130,8 +131,34 @@ export const KrtmiChronicles: React.FC = () => {
 
           </div>
 
+          {/* Guidebook PDF Download Card */}
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#0E0905] border border-brand-orange/40 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 rounded-xl bg-red-500/20 text-red-400 flex items-center justify-center border border-red-500/30 flex-shrink-0">
+                <FileText className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-xs font-black text-white">
+                  {activeStory.pdfTitle}
+                </div>
+                <div className="text-[11px] text-amber-200/60 font-semibold">
+                  Ukuran File: {activeStory.pdfSize} • Dokumen Resmi Asli
+                </div>
+              </div>
+            </div>
+            <a
+              href={`${basePath}/guidebooks/${activeStory.pdfFile}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center justify-center space-x-2 transition shadow-md whitespace-nowrap"
+            >
+              <Download className="w-4 h-4" />
+              <span>Buka &amp; Unduh PDF Guidebook</span>
+            </a>
+          </div>
+
           {/* Link to Full Archive */}
-          <div className="pt-2 text-center">
+          <div className="pt-1 text-center">
             <Link
               href="/krtmi"
               className="inline-flex items-center space-x-2 text-xs font-bold text-brand-orange hover:text-amber-300 transition"
