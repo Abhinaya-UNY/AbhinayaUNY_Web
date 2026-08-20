@@ -21,8 +21,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tim Robotika Abhinaya UNY' }],
   icons: {
-    icon: '/AbhinayaUNY_Web/assets/logo_abhinaya.png',
-    apple: '/AbhinayaUNY_Web/assets/logo_abhinaya.png',
+    icon: [
+      { url: '/AbhinayaUNY_Web/favicon.png', type: 'image/png' },
+      { url: '/AbhinayaUNY_Web/favicon.ico', sizes: 'any' }
+    ],
+    shortcut: '/AbhinayaUNY_Web/favicon.png',
+    apple: '/AbhinayaUNY_Web/apple-icon.png',
   },
   openGraph: {
     title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
@@ -56,6 +60,9 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/AbhinayaUNY_Web/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/AbhinayaUNY_Web/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/AbhinayaUNY_Web/apple-icon.png" />
         <meta property="og:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
