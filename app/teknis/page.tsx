@@ -1,9 +1,13 @@
 import React from 'react';
-import { Cpu, Zap, Activity, Radio, GitBranch, Layers, CheckCircle2 } from 'lucide-react';
+import { Cpu, Zap, Activity, Radio, GitBranch, Layers, CheckCircle2, Compass, Sliders, Eye } from 'lucide-react';
+import { KinematicsLab } from '@/components/KinematicsLab';
+import { PIDTunerLab } from '@/components/PIDTunerLab';
+import { FreeRTOSSchedulerLab } from '@/components/FreeRTOSSchedulerLab';
+import { CVPipelineLab } from '@/components/CVPipelineLab';
 
 export const metadata = {
-  title: 'Spesifikasi & Kinematika — Abhinaya UNY Robotics Team',
-  description: 'Dokumentasi teknis kinematika invers roda mecanum, arsitektur sirkuit kendali closed-loop PID, dan sistem visi komputer robotika Abhinaya UNY.',
+  title: 'Laboratorium Kinematika & Rekayasa Teknis — Abhinaya UNY',
+  description: 'Dokumentasi komprehensif kinematika invers roda Mecanum, simulasi FreeRTOS dual-core, closed-loop PID tuner dinamis, dan pipeline visi komputer Edge AI robot Abhinaya UNY.',
 };
 
 export default function TeknisPage() {
@@ -12,106 +16,107 @@ export default function TeknisPage() {
       
       {/* Header */}
       <div className="text-center space-y-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-cyan/15 text-brand-cyan text-xs font-black uppercase tracking-wider border border-brand-cyan/30">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-cyan/15 text-brand-cyan text-xs font-black uppercase tracking-wider border border-brand-cyan/30 font-mono">
           <Cpu className="w-4 h-4" />
-          <span>REKAYASA SISTEM ROBOTIKA</span>
+          <span>BLUEPRINT REKAYASA &amp; LABORATORIUM DINAMIS</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Spesifikasi Teknis &amp; Matematika Kinematika
+          Spesifikasi Teknis, Kinematika &amp; Kontrol Cerdas
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-          Dokumentasi mendalam mengenai perumusan matematis penggerak holonomik, sistem kendali lup tertutup, arsitektur kelistrikan tenaga tinggi, dan implementasi visi komputer tepi (Edge AI).
+          Dokumentasi mendalam mengenai perumusan matematis penggerak holonomik, simulasi penjadwalan multithreading real-time FreeRTOS, tuning lup tertutup PID, dan sistem visi komputer Edge AI.
         </p>
       </div>
 
-      {/* 1. Kinematika Invers */}
-      <div className="p-6 sm:p-10 rounded-3xl bg-[#090F1A] border-2 border-brand-border space-y-6">
-        <div className="flex items-center space-x-3 border-b border-slate-800 pb-4">
-          <div className="w-10 h-10 rounded-xl bg-brand-cyan/20 text-brand-cyan flex items-center justify-center border border-brand-cyan/40">
-            <Activity className="w-5 h-5" />
+      {/* 1. Interactive Mecanum & Omni Kinematics Lab */}
+      <section className="space-y-6">
+        <div className="flex items-center space-x-3 border-b border-slate-800 pb-3">
+          <div className="w-8 h-8 rounded-xl bg-brand-cyan/20 text-brand-cyan flex items-center justify-center font-bold font-mono">
+            01
           </div>
-          <div>
-            <h2 className="text-xl sm:text-2xl font-black text-white">
-              1. Kinematika Invers 4-Wheel Mecanum Drive
-            </h2>
-            <p className="text-xs text-slate-400">
-              Transformasi kecepatan vektor planar (\(v_x, v_y, \omega_z\)) ke kecepatan angular masing-masing roda (\(\omega_1, \omega_2, \omega_3, \omega_4\)).
-            </p>
-          </div>
+          <h2 className="text-xl sm:text-2xl font-black text-white">
+            Kinematika Invers &amp; Vektor Penggerak Holonomik
+          </h2>
         </div>
+        
+        <KinematicsLab />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
-          <div className="space-y-4 text-xs text-slate-300 leading-relaxed">
-            <p>
-              Roda Mecanum memiliki roller bebas bersudut 45&deg; terhadap sumbu putar. Hal ini memungkinkan robot bergerak secara <strong>holonomik omnidirectional</strong> (maju, mundur, geser samping / strafe, dan rotasi) secara simultan tanpa memerlukan mekanisme kemudi belok roda depan.
+        {/* Matrix Derivation Deep Dive */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
+          <div className="p-6 rounded-2xl bg-[#060A12] border border-slate-800 space-y-3 text-xs text-slate-300">
+            <h4 className="font-mono font-bold text-white uppercase text-sm text-brand-cyan">
+              Prinsip Dekomposisi Vektor 4WD Mecanum:
+            </h4>
+            <p className="leading-relaxed">
+              Roda Mecanum memiliki sub-roller bebas bersudut 45 derajat terhadap bidang roda. Gaya kontak permukaan terurai menjadi gaya traksi longitudinal dan gaya selip lateral. Sasis mencapai derajat kebebasan planar penuh (3 DOF: Vx, Vy, Wz) tanpa memerlukan sistem kemudi mekanik.
             </p>
-            <p>
-              Di mana \(R\) adalah jari-jari roda, \(L_x\) adalah jarak sumbu roda ke pusat robot pada sumbu X, dan \(L_y\) adalah jarak pada sumbu Y.
-            </p>
-            <ul className="space-y-2 pt-2">
+            <ul className="space-y-1.5 font-mono text-[11px]">
               <li className="flex items-center space-x-2">
                 <CheckCircle2 className="w-3.5 h-3.5 text-brand-cyan" />
-                <span>Frekuensi komputasi matriks invers: <strong>100 Hz (10 ms)</strong></span>
+                <span>Radius Roda: Rw = 38.0 mm, Setengah Lebar: ly = 160 mm, Setengah Panjang: lx = 160 mm</span>
               </li>
               <li className="flex items-center space-x-2">
                 <CheckCircle2 className="w-3.5 h-3.5 text-brand-cyan" />
-                <span>Kompensasi yaw drift terintegrasi IMU 6-DOF dengan Digital Motion Processor (DMP).</span>
+                <span>Frekuensi Kalkulasi Matriks: 100 Hz pada interrupt timer STM32F4</span>
               </li>
             </ul>
           </div>
 
-          {/* Matrix Formula Card */}
-          <div className="p-6 rounded-2xl bg-[#050811] border border-slate-800 space-y-3 font-mono">
-            <div className="text-xs text-slate-400 uppercase font-bold tracking-wider">
-              Persamaan Matriks Kinematika:
+          <div className="p-6 rounded-2xl bg-slate-950 border border-slate-800 space-y-2 font-mono">
+            <div className="text-xs text-slate-400 uppercase font-bold">
+              Formulasi Matriks Invers:
             </div>
-            <pre className="text-xs sm:text-sm text-brand-cyan bg-slate-950 p-4 rounded-xl overflow-x-auto border border-slate-800">
-{`[ ω1 ]       [  1  -1  -(Lx + Ly) ]   [ vx ]
-[ ω2 ] = 1/R [  1   1   (Lx + Ly) ] * [ vy ]
-[ ω3 ]       [  1   1  -(Lx + Ly) ]   [ ωz ]
-[ ω4 ]       [  1  -1   (Lx + Ly) ]`}
+            <pre className="text-xs text-brand-cyan bg-[#060A12] p-4 rounded-xl overflow-x-auto border border-slate-800">
+{`[ ω_FL ]       [  1  -1  -(lx + ly) ]   [ Vx ]
+[ ω_FR ] = 1/R [  1   1   (lx + ly) ] * [ Vy ]
+[ ω_BL ]       [  1   1  -(lx + ly) ]   [ ωz ]
+[ ω_BR ]       [  1  -1   (lx + ly) ]`}
             </pre>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* 2. Closed-Loop PID Control & Microcontroller */}
-      <div className="p-6 sm:p-10 rounded-3xl bg-[#090F1A] border-2 border-brand-border space-y-6">
-        <div className="flex items-center space-x-3 border-b border-slate-800 pb-4">
-          <div className="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center border border-sky-500/40">
-            <Zap className="w-5 h-5" />
+      {/* 2. FreeRTOS Multithreading Task Scheduler */}
+      <section className="space-y-6">
+        <div className="flex items-center space-x-3 border-b border-slate-800 pb-3">
+          <div className="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold font-mono">
+            02
           </div>
-          <div>
-            <h2 className="text-xl sm:text-2xl font-black text-white">
-              2. Sistem Kendali Loop Tertutup PID &amp; Embedded Real-Time
-            </h2>
-            <p className="text-xs text-slate-400">
-              Arsitektur kontrol mikrokontroler ganda (Dual ESP32-S3 + STM32 ARM Cortex-M4) dengan algoritma Proportional-Integral-Derivative.
-            </p>
-          </div>
+          <h2 className="text-xl sm:text-2xl font-black text-white">
+            Arsitektur Multithreading FreeRTOS &amp; Alokasi CPU
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-5 rounded-2xl bg-[#060A12] border border-slate-800 space-y-2">
-            <div className="text-sm font-black text-white">Proportional (\(K_p\))</div>
-            <p className="text-xs text-slate-300">
-              Memberikan respons torsi seketika sebanding dengan selisih kecepatan target dan kecepatan riil roda.
-            </p>
+        <FreeRTOSSchedulerLab />
+      </section>
+
+      {/* 3. Closed-Loop PID Velocity Tuner */}
+      <section className="space-y-6">
+        <div className="flex items-center space-x-3 border-b border-slate-800 pb-3">
+          <div className="w-8 h-8 rounded-xl bg-brand-emerald/20 text-brand-emerald flex items-center justify-center font-bold font-mono">
+            03
           </div>
-          <div className="p-5 rounded-2xl bg-[#060A12] border border-slate-800 space-y-2">
-            <div className="text-sm font-black text-white">Integral (\(K_i\))</div>
-            <p className="text-xs text-slate-300">
-              Mengeliminasi galat kondisi tunak (*steady-state error*) akibat gesekan mekanik dan beban muatan objek sampah.
-            </p>
-          </div>
-          <div className="p-5 rounded-2xl bg-[#060A12] border border-slate-800 space-y-2">
-            <div className="text-sm font-black text-white">Derivative (\(K_d\))</div>
-            <p className="text-xs text-slate-300">
-              Meredam lonjakan akselerasi (*overshoot*) dan osilasi saat robot melakukan akselerasi mendadak di arena.
-            </p>
-          </div>
+          <h2 className="text-xl sm:text-2xl font-black text-white">
+            Sistem Kendali Loop Tertutup PID Kecepatan Motor
+          </h2>
         </div>
-      </div>
+
+        <PIDTunerLab />
+      </section>
+
+      {/* 4. Computer Vision Edge AI Pipeline */}
+      <section className="space-y-6">
+        <div className="flex items-center space-x-3 border-b border-slate-800 pb-3">
+          <div className="w-8 h-8 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold font-mono">
+            04
+          </div>
+          <h2 className="text-xl sm:text-2xl font-black text-white">
+            Pipeline Visi Komputer Edge AI &amp; Transformasi IPM
+          </h2>
+        </div>
+
+        <CVPipelineLab />
+      </section>
 
     </div>
   );
