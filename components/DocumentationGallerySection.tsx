@@ -14,21 +14,21 @@ export const DocumentationGallerySection: React.FC = () => {
     : GALLERY_ITEMS.filter((item) => item.category === activeCategory);
 
   return (
-    <section id="dokumentasi-tim" className="py-20 bg-[#0A0704] border-y border-[#26180E] relative overflow-hidden">
+    <section id="dokumentasi-tim" className="py-10 sm:py-16 md:py-20 bg-[#0A0704] border-y border-[#26180E] relative overflow-hidden">
       
       {/* Background Subtle Glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-orange/10 blur-[140px] pointer-events-none rounded-full" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title & GitHub Upload CTA */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-[#26180E] pb-8">
-          <div className="space-y-3 max-w-2xl">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 border-b border-[#26180E] pb-6 sm:pb-8">
+          <div className="space-y-2.5 max-w-2xl">
             <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
               <Camera className="w-3.5 h-3.5" />
               <span>DOKUMENTASI &amp; GALERI TIM</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
               Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
             </h2>
             <p className="text-xs sm:text-sm text-slate-300">
@@ -42,7 +42,7 @@ export const DocumentationGallerySection: React.FC = () => {
               href="https://github.com/Abhinaya-UNY/AbhinayaUNY_Web/blob/main/PANDUAN_UPLOAD_DOKUMENTASI.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-[#1C120A] hover:bg-brand-orange text-amber-200 hover:text-black font-bold text-xs border border-brand-orange/40 hover:border-brand-orange transition shadow-lg group"
+              className="inline-flex items-center space-x-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-2xl bg-[#1C120A] hover:bg-brand-orange text-amber-200 hover:text-black font-bold text-xs border border-brand-orange/40 hover:border-brand-orange transition shadow-lg group"
             >
               <PlusCircle className="w-4 h-4 text-brand-orange group-hover:text-black transition" />
               <span>Upload Foto Tim di GitHub</span>
@@ -62,7 +62,7 @@ export const DocumentationGallerySection: React.FC = () => {
               key={cat}
               type="button"
               onClick={() => setActiveCategory(cat)}
-              className={`px-4 py-1.5 rounded-full text-xs font-bold transition duration-200 ${
+              className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition duration-200 ${
                 activeCategory === cat
                   ? 'bg-brand-orange text-black font-black shadow-[0_0_15px_rgba(255,107,0,0.5)]'
                   : 'bg-[#140E09] text-slate-300 hover:text-white hover:bg-[#22160E] border border-[#2B1B10]'
@@ -74,14 +74,14 @@ export const DocumentationGallerySection: React.FC = () => {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {filteredItems.map((item) => (
             <div
               key={item.id}
               onClick={() => setSelectedPhoto(item)}
-              className="group cursor-pointer rounded-3xl overflow-hidden bg-[#140E09] border border-[#2B1B10] hover:border-brand-orange/70 transition-all duration-300 flex flex-col shadow-lg hover:shadow-[0_10px_30px_rgba(255,107,0,0.2)]"
+              className="group cursor-pointer rounded-2xl sm:rounded-3xl overflow-hidden bg-[#140E09] border border-[#2B1B10] hover:border-brand-orange/70 transition-all duration-300 flex flex-col shadow-lg hover:shadow-[0_10px_30px_rgba(255,107,0,0.2)]"
             >
-              <div className="relative h-48 overflow-hidden bg-black/40">
+              <div className="relative h-44 sm:h-48 overflow-hidden bg-black/40">
                 <img
                   src={`${basePath}${item.image}`}
                   alt={item.title}
@@ -95,9 +95,9 @@ export const DocumentationGallerySection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="p-4 space-y-1.5 flex-1 flex flex-col justify-between">
+              <div className="p-3.5 sm:p-4 space-y-1.5 flex-1 flex flex-col justify-between">
                 <div className="space-y-1">
-                  <h3 className="text-sm font-bold text-white group-hover:text-brand-orange transition line-clamp-1">
+                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-brand-orange transition line-clamp-1">
                     {item.title}
                   </h3>
                   <p className="text-[11px] text-slate-400 line-clamp-2 leading-relaxed">

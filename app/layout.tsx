@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'Tim Robotika Abhinaya UNY' }],
   icons: {
     icon: [
-      { url: '/AbhinayaUNY_Web/favicon.png?v=3', type: 'image/png' },
-      { url: '/AbhinayaUNY_Web/favicon.ico?v=3', sizes: 'any' }
+      { url: '/AbhinayaUNY_Web/favicon.png?v=4', type: 'image/png' },
+      { url: '/AbhinayaUNY_Web/favicon.ico?v=4', sizes: 'any' }
     ],
-    shortcut: '/AbhinayaUNY_Web/favicon.png?v=3',
-    apple: '/AbhinayaUNY_Web/apple-icon.png?v=3',
+    shortcut: '/AbhinayaUNY_Web/favicon.png?v=4',
+    apple: '/AbhinayaUNY_Web/apple-icon.png?v=4',
   },
   openGraph: {
     title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Abhinaya UNY Robotics Team',
     images: [
       {
-        url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v3.jpg',
+        url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg',
         width: 1200,
         height: 630,
         alt: 'ABHINAYA UNY — Kontes Robot Tematik Indonesia',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
     description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).',
-    images: ['https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v3.jpg'],
+    images: ['https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg'],
   },
 };
 
@@ -60,17 +60,17 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/AbhinayaUNY_Web/favicon.png?v=3" type="image/png" />
-        <link rel="shortcut icon" href="/AbhinayaUNY_Web/favicon.png?v=3" type="image/png" />
-        <link rel="apple-touch-icon" href="/AbhinayaUNY_Web/apple-icon.png?v=3" />
+        <link rel="icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
+        <link rel="shortcut icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
+        <link rel="apple-touch-icon" href="/AbhinayaUNY_Web/apple-icon.png?v=4" />
         
         {/* OpenGraph & Twitter Meta for WhatsApp, Telegram, Discord, LinkedIn Preview */}
         <meta property="og:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
         <meta property="og:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI)." />
         <meta property="og:url" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v3.jpg" />
-        <meta property="og:image:secure_url" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v3.jpg" />
+        <meta property="og:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
+        <meta property="og:image:secure_url" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -79,7 +79,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
         <meta name="twitter:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta." />
-        <meta name="twitter:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v3.jpg" />
+        <meta name="twitter:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
         <meta name="theme-color" content="#FF6B00" />
       </head>
       <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#070503] text-slate-100 min-h-screen">

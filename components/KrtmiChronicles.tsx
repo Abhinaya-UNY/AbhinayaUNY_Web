@@ -12,7 +12,7 @@ export const KrtmiChronicles: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
-    <section id="krtmi-story" className="py-20 space-y-12 bg-[#0A0704] border-t border-[#241508]">
+    <section id="krtmi-story" className="py-10 sm:py-16 md:py-20 space-y-8 sm:space-y-12 bg-[#0A0704] border-t border-[#241508]">
       
       {/* Section Header */}
       <div className="text-center space-y-3 max-w-3xl mx-auto px-4">

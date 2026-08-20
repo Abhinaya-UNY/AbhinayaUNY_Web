@@ -3,8 +3,8 @@ import { Instagram, Youtube, Sparkles, ArrowRight, Heart } from 'lucide-react';
 
 export const SocialMediaHub: React.FC = () => {
   return (
-    <section className="py-16 bg-[#0E0905] border-t border-[#2B1B10]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+    <section className="py-10 sm:py-16 md:py-20 bg-[#0E0905] border-t border-[#2B1B10]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
         
         {/* Header */}
         <div className="text-center space-y-3 max-w-3xl mx-auto">
