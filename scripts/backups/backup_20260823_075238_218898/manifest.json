@@ -1,0 +1,10 @@
+{
+  "backup_id": "backup_20260823_075238_218898",
+  "timestamp": "2026-08-23T07:52:38.222598",
+  "reason": "Remove team member: audit-test-member",
+  "files": [
+    "teamData.ts",
+    "krtmiData.ts",
+    "galleryData.ts"
+  ]
+}

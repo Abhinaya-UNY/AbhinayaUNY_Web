@@ -1,0 +1,360 @@
+
+======================================== YEAR 2020 ========================================
+
+--- THEME & BACKGROUND ---
+  [THEME] Tema dan Aturan 
+  [THEME] Tema 
+ 
+Tema Kontes Robot Seni Tari Indonesia 2020 adalah: 
+  [THEME] Tema Kontes 
+
+--- ARENA / LAPANGAN ---
+  [ARENA] t Handler (Operator  robot di lapangan) ke posisi seperti dalam Gambar 4b. Kemudian Robot melakukan  positioning secara AUTO menuju posisi seperti pada Gambar 4b. 
+  [ARENA] jang masing-masing mempunyai  ukuran panjang 3000 mm dan lebar 2000 mm per arena, dengan tinggi 500 mm dari  lantai dan diletakkan berdampingan. Terdapa
+  [ARENA] 3000 mm dan lebar 2000 mm per arena, dengan tinggi 500 mm dari  lantai dan diletakkan berdampingan. Terdapat pembatas arena antara tim merah dan  biru berupa
+  [ARENA] a, dengan tinggi 500 mm dari  lantai dan diletakkan berdampingan. Terdapat pembatas arena antara tim merah dan  biru berupa dinding kayu berwarna Coklat lebar 100 mm dan tinggi 60 mm. Arena  sebelah k
+  [ARENA] dengan vynil.   Masing-masing arena akan dibagi  dalam tiga zona yaitu ZONA A, ZONA B dan  ZONA C. ZONA A akan terdapat ZONA MULAI robot 1 dan zona mulai 
+  [ARENA] untuk tim merah dan tim biru. Zona C masing-masing tim terdapat ZONA TUTUP.    4.2. ZONA A:  ZONA A berukuran 1000×2000 mm, dalam ZONA A terdapat tempat z
+  [ARENA]  ZONA TUTUP.    4.2. ZONA A:  ZONA A berukuran 1000×2000 mm, dalam ZONA A terdapat tempat zona mulai  untuk robot pertama dan robot kedua dengan ukuran masing-
+  [ARENA] ertama dan robot kedua dengan ukuran masing-masing 400x400 mm.    --- PAGE 118 ---     KRTMI - 6    Waktu persiapan maksimal selama satu (1) menit menjelang lomb
+  [ARENA]  sendiri oleh Tim.  Di tempat zona mulai dalam ZONA A, setelah musik pengiring berbunyi, robot harus  bisa melakukan gerak pambuka dan gerak Nganj
+  [ARENA] gerak Nganjat.      Gambar 2: ZONA A (diwakili tim Biru)      4.3 ZONA B:  ZONA B berukuran 1000 x 2000 mm   Di ZONA B robot harus dapat melakukan ger
+  [ARENA] i tim Biru)      4.3 ZONA B:  ZONA B berukuran 1000 x 2000 mm   Di ZONA B robot harus dapat melakukan gerak “Nganjat dan ngasai”. Gerakan  dilakukan berulang hin
+  [ARENA] : ZONA B        4.4. ZONA C:  ZONA C berukuran 1000 x 2000 mm   Di ZONA C terdapat juga ZONA Tutup yang digunakan untuk robot mengakhiri  kegiatan menari. Di ZON
+  [ARENA] ng-masing (3000x2000)mm. Tiap arena satu tim robot memiliki lima ZONA,  bila diurutkan dari awal hingga akhir adalah ZONA MULAI, ZONA A, ZONA B,
+  [ARENA] kan diletakkan diatas arena  (lapangan perlombaan) sesuai dengan warna tim awal, yaitu merah atau biru.  5.4 Aba-aba ”Persiapan” diberikan waktu 60 detik.  5.5 Musik pengirin
+  [ARENA] ecara vertikal  keluar daerah/arena pasangannya, maka tim akan dikenakan penalti, untuk sepuluh  detik pertama akan dikenakan pengurangan nilai 2 dan untuk t
+  [ARENA] erak  memasuki sawah pertama (zona tanam) lalu menanam tiga batang bibit padi. Setelah selesai  menanam bibit padi robot bergerak menuju saw
+  [ARENA]   “PANEN RAYA”  6  Zona Awal  Zona dimana robot diletakkan sesaat sebelum pertandingan  dimulai.  7  Zona Tanam  Zona tanam merupakan ladang untuk menanam padi. Permukaan  s
+  [ARENA] um pertandingan  dimulai.  7  Zona Tanam  Zona tanam merupakan ladang untuk menanam padi. Permukaan  sawah ini dibuat dari busa yang dibungk
+  [ARENA] gan  dimulai.  7  Zona Tanam  Zona tanam merupakan ladang untuk menanam padi. Permukaan  sawah ini dibuat dari busa yang dibungkus dengan ka
+  [ARENA] erair saat musim  tanam. Pada zona ini robot ditugaskan untuk setidaknya menanam  sepuluh batang Bibit Padi pada tempat tertentu untuk dapat  melajutkan ke zona selanjutnya.   8  Z
+  [ARENA] .1  Robot harus di-start dari ZONA AWAL. Robot harus berada tepat di dalam  ruang ZONA AWAL.  1.2.2  Semua anggota tim harus berada di luar lapangan pertandingan saat robot d
+  [ARENA] saat memuatkan  BIBIT PADI di zona awal, robot boleh tersentuh oleh anggota tim.    1.4 Membawa BIBIT PADI  1.4.1  Saat robot bergerak dari ZONA AWAL menuju ke ZONA TANAM apabila 
+  [ARENA] 4.1  Saat robot bergerak dari ZONA AWAL menuju ke ZONA TANAM apabila BIBIT  PADI terjatuh di perjalanan maka boleh diambil oleh anggota tim setelah  diijinkan o
+  [ARENA] --- KRTMI - 7    1.5 Tugas di ZONA TANAM  1.5.1  Sesampainya di ZONA TANAM robot harus menanam satu per satu BIBIT PADI  pada lokasi tertent
+  [ARENA]  TANAM  1.5.1  Sesampainya di ZONA TANAM robot harus menanam satu per satu BIBIT PADI  pada lokasi tertentu. Pada robot ada mekanisme yang d
+  [ARENA] ang tidak berhasil ditanam di ZONA TANAM tidak boleh diambil  dan dikembalikan ke ZONA AWAL.  1.5.3  BIBIT PADI yang terjatuh boleh dipindah
+  [ARENA] tuh boleh dipindahkan ke luar ZONA TANAM agar tidak  mengganggu robot saat tim minta PENGULANGAN.  1.5.4  Saat PENGULANGAN, BIBIT PADI yang 
+  [ARENA] tuh atau  tidak tertanam pada ZONA TANAM tidak boleh dibawa kembali ke ZONA  AWAL.  1.5.5  BIBIT PADI dinyatakan tertanam bila berdiri di te
+  [ARENA] ADI, robot boleh keluar  dari ZONA TANAM melalui lintasan tertentu menuju ZONA PENYIANGAN.  1.5.7  Robot boleh menanam lebih dari 10 (sepulu
+  [ARENA] alami gangguan saat berada di zona ini, tim boleh meminta  PENGULANGAN kepada wasit, dan robot di start ulang di tempat setelah  ZONA TANAM.  1
+  [ARENA] tart ulang di tempat setelah  ZONA TANAM.  1.6.5  Robot tidak diperkenankan melanjutkan ke zona berikutnya bila belum  menyelesaikan seluruh
+  [ARENA]  diperkenankan melanjutkan ke zona berikutnya bila belum  menyelesaikan seluruh tugas pada ZONA PENYIANGAN  1.6.6  Setelah Robot menyelesaikan seluruh tugas
+  [ARENA] h dulu menyelesaikan tugas di ZONA TANAM,  atau bila tidak ada  3.3.2.4 Pada kasus dimana waktu untuk menyelesaikan tugas di semua ZONA  ada
+  [ARENA] t Pertanian harus berada pada zona AWAL (lebar 500mm x panjang  500mm). Robot harus memiliki dimensi tidak lebih dari 1000 mm pada lebar,  panjang dan t
+  [ARENA]  500mm). Robot harus memiliki dimensi tidak lebih dari 1000 mm pada lebar,  panjang dan tinggi selama pertandingan.  4.7.3  Robot  diperbolehkan  untuk  memperbes
+  [ARENA] n  atau  memperpanjang selama dimensinya masih dalam batas dimensi yang  diijinkan.  4.7.4  Robot dioperasikan oleh operator melalui koneksi nir kabel. 
+  [ARENA] an  5.2 Bagian robot masuk ke zona berikutnya sebelum menyelesaikan tugas pada zona  sebelumnya.  5.3 Anggota tim masuk ke lapangan saat pertandingan (ka
+  [ARENA]  pit, untuk membawa  robot ke lapangan, dan ikut dalam pengaturan robot. Anggota kru pit harus mahasiswa  yang berasal dari perguruan tinggi yang sama den
+  [ARENA] uali dinyatakan lain. Namun,  dimensi dan berat robot sebagaimana ditunjukkan dalam buku aturan ini adalah nilai  maksimum dan tidak ada toleransi.  9.3 Semua pertanyaan harus ditujuk
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT] r posisi SELURUH bagian tubuh robot tersebut berada di daerah lawan.   e. Begitu READY selesai Referee akan memberikan aba-aba PLAY yang ditandai  dengan penekan
+  [ROBOT] mudian diangkat  keluar, maka robot ini boleh masuk kembali setelah 30 detik melalui tepi lapangan  (tidak boleh langsung diletakkan di bawah mistar gawang, kecuali te
+  [ROBOT] engan unsur-unsur seni  dan budaya bangsa Indonesia khususnya seni tari yang telah terkenal di bumi pertiwi.  KRSTI pertamakali diadakan pada tahun 2010 dengan tema “Robot Penari Jai
+  [ROBOT] ng”,  tahun 2019 dengan tema “Robot Penari Jaipong”, dan tahun 2020 dengan tema “Robot  Penari Engang”. Setiap tim peserta yang terdiri dari 3(tiga) mahasiswa a
+  [ROBOT] aan dan pelestarian budaya- budaya Nasional maka tema yang diangkat adalah “Robot Penari Enggang” dari  Kalimantan Timur. Kegiatan KRSTI 2020 ini dilaksanakan bersamaan denga
+  [ROBOT] an dengan  pelaksanaan Kontes Robot Indonesia (KRI) tingkat Wilayah dan KRI tingkat Nasional  yang dikoordinasi dan didanai oleh Pusat Prestasi Nasional, Kementerian P
+  [ROBOT] tunjuk.    Tujuan dari kontes robot ini adalah untuk menumbuh kembangkan kreatifitas dan minat  para mahasiswa dalam teknologi maju khususnya bida
+  [ROBOT]  3    2.  Tema    Tema Kontes Robot Seni Tari Indonesia 2020 adalah:    “Robot Penari Enggang”            Tari Burung Enggang atau biasa disebut Tari Enggang adalah se
+  [ROBOT] lam setiap upacara adat Suku  Dayak Kenyah. Tari ini menggambarkan kehidupan sehari-hari burung enggang.    Menurut kepercayaan orang Dayak Ke
+  [ROBOT]     Menurut kepercayaan orang Dayak Kenyah, nenek moyang mereka berasal dari langit dan  turun ke bumi menyerupai burung Enggang. Oleh karena 
+  [ROBOT] . Oleh karena itu, masyarakat Dayak Kenyah sangat  menghormati dan memuliakan burung Enggang, sehingga Tari Enggang dapat dimaknakan  sebagai 
+  [ROBOT] an  sebagai penghormatan Suku Dayak Kenyah terhadap asal usul leluhur mereka.    Selain itu, ada pula yang mengartikan Tari Enggang sebagai si
+  [ROBOT]  oleh wanita-wanita muda Suku Dayak Kenyah. Ketika menari, mereka  mengenakan hiasan diatas kepala bermotif burung Enggang dan anting-anting b
+  [ROBOT] Transmiter  Bloetooth.  3.4.  Robot harus direncang untuk mampu mendengar perubahan musik sebagai dasar  perubahan gerak tari.  3.5.  Robot harus memiliki bagian yang dapat disebut 
+  [ROBOT] 10. Selama Lomba berlangsung, robot tidak boleh memecah diri menjadi beberapa robot  dan bagian-bagian robot yang tidak dapat bergerak.  3.11. Tinggi robot
+  [ROBOT]  tidak dapat bergerak.  3.11. Tinggi robot 55±5cm tidak termasuk asesori  3.12. Rentang tangan atau kaki robot maksimal 600 mm diukur dari ujung jari
+  [ROBOT] buka selebar-lebarnya.  3.13. Lebar telapak kaki maksimum 150 cm2 yang dapat berbentuk lingkaran, elip atau  persegi empat.  3.14. Berat satu robot maksimal 20 kg. 
+  [ROBOT] p atau  persegi empat.  3.14. Berat satu robot maksimal 20 kg.  3.15. Tegangan catudaya DC tidak dibatasi dan harus menempel pada robot dan dihitung  sebagai ber
+  [ROBOT] ai arah hadap penonton) untuk robot di bagian merah, sedang  arena sebelah kiri untuk robot dibagian biru. Arena lomba juga dikelilingi dengan  fance b
+  [ROBOT]  fance berwarna coklat dengan lebar 30 mm dan tinggi 60 mm. Bahan lapangan dari  multi-plek 20mm dan dilapis dengan vynil.   Masing-masing arena akan dibagi  dalam
+  [ROBOT]  zona tutup. Pada  Zona Tutup robot harus melakukan gerakan “sembah penutup Tari Enggang”.       --- PAGE 119 ---     KRTMI - 7        Gambar 4: ZONA C dan ZONA TUTUP 
+  [ROBOT] babak penyisihan.   5.11 Bagi robot yang telah menampilkan kepiawaian dalam menari tiga(3) kali  berpenampilan lengkap dan memiliki nilai teknik s
+  [ROBOT]  berikut ini  6.1.1 Kemampuan robot melakukan ”gerak sembah pambuka tari Enggang”  pada daerah mulai di ZONA MULAI, akan mendapatkan nilai dengan  rentang nila
+  [ROBOT] i  sempurna.  6.1.5 Kemampuan robot melakukan ” sembah panutup tari Enggang” pada  ZONA TUTUP, akan mendapatkan nilai dengan rentang nilai 1 hingga 10  un
+  [ROBOT] an nilai 1-10.  6.3 Kemampuan robot yang telah mencapai ZONA A, ZONA B, ZONA C dan ZONA  TUTUP, maka masing-masing zona akan mendapat tambahan nil
+  [ROBOT]  tersebut diatas.  6.5 Setiap robot yang melakukan keindahan gerak dan selaras dengan tari "Enggang",  maka robot akan mendapatkan nilai 1 hingga 10 untuk nil
+  [ROBOT] .3 Tim peserta yang menyentuh robot setelah pertandingan dimulai dapat dikenakan  diskualifikasi kecuali dalam masa Retry.  8.4 Tim peserta tid
+  [ROBOT]  Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 sebagian besar mengadopsi kontes  robot sejenis yang diselenggarakan di luar negeri. Melihat
+  [ROBOT] pohon padi dan memanen padi.  Robot dirancang agar mampu melewati tanah lembek saat menanam padi dan mencabut rumput.  Pada langkah pertama robot harus bergerak untuk mena
+  [ROBOT] rumput.  Pada langkah pertama robot harus bergerak untuk menanam padi. Permukaan sawah dimana padi  akan ditanam adalah berupa lembaran busa terbungkus kain dengan tebal 100 mm. Di tenga
+  [ROBOT] h selesai  menanam bibit padi robot bergerak menuju sawah kedua (zona penyiangan) untuk mencabut rumput  yang tumbuh di antara pohon padi. Setelah selesai me
+  [ROBOT]   Keselamatan dalam merancang robot adalah isu pertama dan utama untuk prinsip keselamatan pada  kontes. Tim peserta, yang merupakan perancang
+  [ROBOT] eka sebelum mengikuti kontes  Robot tersebut harus dapat diamati apakah rancangan robot memenuhi keselamatan saat  pemeriksaan video dan uji coba.  Anggota tim harus mengg
+  [ROBOT] si yang digunakan pada Kontes Robot Tematik 2020 adalah dinyatakan pada tabel  berikut ini.  #  Sebutan  Definisi  1  Robot Padi   Adalah satu robot yang d
+  [ROBOT] PENGULANGAN kepada wasit, dan robot di start ulang di tempat setelah  ZONA TANAM.  1.6.5  Robot tidak diperkenankan melanjutkan ke zona berikutnya bila belum  menyelesa
+  [ROBOT]  Anggota tim harus meletakkan robot di tempat yang telah ditentukan untuk pengulangan.  2.3 Tidak ada batas untuk pengulangan. Pengulangan diperbolehkan ole
+  [ROBOT] im yang memiliki  nilai lebih tinggi adalah pemenangnya. Nilai untuk setiap tugas dinayatakan sebagai  berikut:    Tugas  Nilai  Satu batang pa
+  [ROBOT] im membangun satu robot.  4.2 Robot tidak boleh terbelah menjadi sub-bagian yang dihubungkan dengan kabel.  4.3 Robot pada kontes ini harus dibangun oleh an
+  [ROBOT] an tinggi.  4.4 Berat robot.  Berat total robot, kontroller, kabel, wadah BIBIT PADI (catridge) dan baterai yang  digunakan pada pertandingan tidak boleh melebihi 25 kg. Per
+  [ROBOT] andingan harus tidak melebihi tegangan nominal 24V. Bila baterai  dihubungan secara seri atau parallel, tegangan total harus 24 V atau kurang.  4.5.4 
+  [ROBOT] an secara seri atau parallel, tegangan total harus 24 V atau kurang.  4.5.4  Tim yang menggunakan udara tekan harus menggunakan wadah yang dibuat  untuk tu
+  [ROBOT] melebihi 600kPa.  4.5.5  Catu daya  lain yang dianggap berbahaya dapat dilarang digunakan.    4.6 Rancangan Aman Gagal  4.6.1  Bila digunakan beberapa sistem cat
+  [ROBOT] g sirkuit dan  mekanisme agar robot tidak lepas kendali atau bergerak dengan berbahaya,  tidak peduli pasokan daya mana yang hilang, atau terlepas dari urutan  menyalakan daya.  4.6.2
+  [ROBOT] l Wifi dan Bluetooth.  4.7.6  Kendali jarak jauh menggunakan inframerah, sinar tampak, sonar, suara atau  frekuensi radio tidak diperbolehkan.    4.8 Pemeriksaan robot  4.
+  [ROBOT]  sama.    7  Keselamatan  7.1 Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun  bagi orang di tempat pertandingan.  7.2 Robot harus dirancang dan dibuat agar tidak meny
+  [ROBOT] i darurat harus disediakan di robot pada posisi yang mudah dijangkau.  7.4 Penggunaan bahan peledak, api, atau bahan kimia berbahaya dilarang.  7.5 Penggunaan
+  [ROBOT] aya dilarang.  7.5 Penggunaan baterai basah dilarang.  7.6 Dalam semua tahapan rancang bangun, penggunaan laser atau inframerah, harus  dilakuk
+  [ROBOT] u di area pit, untuk membawa  robot ke lapangan, dan ikut dalam pengaturan robot. Anggota kru pit harus mahasiswa  yang berasal dari perguruan tinggi yang sama dengan tim.  8.4 Partisipasi mahasiswa pascasar
+  [ROBOT] uali dinyatakan lain. Namun,  dimensi dan berat robot sebagaimana ditunjukkan dalam buku aturan ini adalah nilai  maksimum dan tidak ada toleransi.  9.3 Semua pertanyaan harus ditujukan ke situs web resmi K
+
+--- SCORING & RULES ---
+  [SCORE] PAGE 118 ---     KRTMI - 6    Waktu persiapan maksimal selama satu (1) menit menjelang lomba dimulai, melalui  aba-aba persiapan yang diberikan oleh Juri, kedua robot diletakka
+  [SCORE] Aba-aba ”Persiapan” diberikan waktu 60 detik.  5.5 Musik pengiring diperdengarkan langsung dari laptop melalui transmitter Bluetooth  dan sistem
+  [SCORE] ring tari Jaipong.  5.7 Dalam waktu 4 menit, musik pengiring akan berhenti sebanyak satu kali selama 10- 15 detik.  5.8 Setiap tim pada setiap 
+  [SCORE] apatkan nilai dengan  rentang nilai 1 hingga 10 untuk nilai sempurna.  6.1.2 Kemampuan robot melakukan gerak tari “Nganjat” pada ZONA A, akan  mendapatkan nila
+  [SCORE] ada ZONA A, akan  mendapatkan nilai dengan rentang nilai 1 hingga 10 untuk nilai sempurna.  6.1.3 Kemampuan robot melakukan ” NGanjat dan Ngasai” pada ZONA 
+  [SCORE] ada ZONA B, akan  mendapatkan nilai dengan rentang nilai 1 hingga 10 untuk nilai sempurna.  6.1.4 Kemampuan robot melakukan ” Ngasai dan Purak Barik”, pada 
+  [SCORE] pada ZONA C  akan mendapatkan nilai dengan rentang nilai 1 hingga 10 untuk nilai  sempurna.  6.1.5 Kemampuan robot melakukan ” sembah panutup tari Enggang” 
+  [SCORE]  ZONA TUTUP, akan mendapatkan nilai dengan rentang nilai 1 hingga 10  untuk nilai sempurna.  6.2 Kemampuan mulai gerak dan sinkronisasi gerak tarian robot s
+  [SCORE]   maka robot akan mendapatkan nilai 1 hingga 10 untuk nilai sempurna dengan faktor  pengali 2.  6.6 Pemenang setiap perlombaan ditentukan dari perolehan nilai 
+  [SCORE] nakan penalti, untuk sepuluh  detik pertama akan dikenakan pengurangan nilai 2 dan untuk tiap 5(lima) detik  berikutnya, tim akan dikenakan pengurangan nilai sebesar 2.  8.2 Ji
+  [SCORE] enyelesaikan pengaturan dalam waktu satu menit,  mereka dapat melanjutkannya setelah pertandingan dimulai. Setelah  pengaturan selesai dilakukan, 
+  [SCORE] kumpulkan. Tim yang memiliki  nilai lebih tinggi adalah pemenangnya. Nilai untuk setiap tugas dinayatakan sebagai  berikut:    Tugas  Nilai  Satu batang padi yang berhasil di
+
+======================================== YEAR 2021 ========================================
+
+--- THEME & BACKGROUND ---
+  [THEME] Tema Kontes
+  [THEME] Tema yang merupakan komponen utama pada Industri 
+
+--- ARENA / LAPANGAN ---
+  [ARENA] n sebagai pemenang. Gambar 2. Lapangan Dam-daman 3.	 Rancangan Kontes  --- PAGE 128 --- ii122 Pedoman KRI 2021 Pedoman KRI 2021 Kontes ini mer
+  [ARENA]  koin di posisi yang sah pada lapangan digital. Tim  yang yang paling cepat berhasil menempatkan 3 (tiga) koin berjajar pada  posisi yang sah di lapang
+  [ARENA] gan warna  biru atau merah  5 ZONA NON-DAM Zona pada lapangan digital dimana  penempatan tiga koin tidak langsung  menjadikan kemenangan. # Se
+  [ARENA] emain  harus dikeluarkan dari Lapangan Phisik. Tim dapat  melanjutkannya persiapan di luar Lapangan Phisik  setelah pertandingan dimulai. Setelah pers
+  [ARENA] ngkat dan diperbaiki di luar  lapangan. Tim menyampai tanda pemberitahuan ke  wasit sebelum mengangkat ROBOT PEMAIN. 4.2.6.2	 Robot yang telah 
+  [ARENA] 4.2.8.6	 Robot harus memiliki dimensi pada lebar 20cm,  panjang 25cm dan tinggi 20cm dengan panjang  gripper 20cm. 4.2.8.7	 Robot dioperasikan oleh opera
+  [ARENA] KRI 2021 Pedoman KRI 2021 133 ZONA NON-DAM pada LAPANGAN DIGITAL yang ditandai oleh silang  garis sesuai warna tim. Pada zona tersebut tidak b
+  [ARENA] AL yang ditandai oleh silang  garis sesuai warna tim. Pada zona tersebut tidak berlaku kemenangan  DAM bagi tim sesuai warna saat kontes ROBOT PEMAIN Uk
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT] Robot  Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi  kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004  ditamb
+  [ROBOT]  Serikat. Divisi  pada Kontes Robot Indonesia selajutnya bertambah hingga tahun 2018  terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot  Pemada
+  [ROBOT]  Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018  sebagian besar mengadopsi kontes robot sejenis yang diselenggarakan  di luar negeri. Meliha
+  [ROBOT] ma pada Industri  4.0. Kontes Robot Tematik Indonesia 2021 ini diharapkan menjadi wadah  untuk mengembangkan dan menyemaikan ide-ide dalam memberikan  kontribusi pada penerapan konsep Ind
+  [ROBOT] sar. Teknologi  komputasi dan komunikasi tingkat lanjut telah mencapai tingkat  kematangan sedemikian rupa sehingga produsen mesin membuat  perubahan dramatis da
+  [ROBOT]  kamera utama menangkap citra robot, citra robot dikirim ke pengolah  citra pada lapangan digital, citra lapangan digital dikirimkan ke layar  peserta sebagai acuan per
+  [ROBOT] an KRI 2021 127 4.2.6.1	 Bila ROBOT PEMAIN mengalami masalah saat kontes  diperbolehkan dilakukan pengulangan dengan cara  diangkat dengan tongkat dan diperbaik
+  [ROBOT] angkat ROBOT PEMAIN. 4.2.6.2	 Robot yang telah diperbaiki boleh diletakkan kembali  ke ZONA AWAL dengan menggunakan tongkat  dengan lebih dahulu m
+  [ROBOT] maksimal 3 (tiga) kali. Bila  ROBOT PEMAIN mengalami masalah setelah tiga kali  pengulangan ROBOT PEMAIN tidak diperbolehkan  melanjutkan kontes.  4.2.7	 MEMUTU
+  [ROBOT] embangun satu robot. 4.2.8.2	 Robot tidak boleh terbelah menjadi subbagian yang  dihubungkan dengan kabel. 4.2.8.3	 Robot pada kontes ini harus dibangun ole
+  [ROBOT] arak jauh nir kabel. 4.2.8.6	 Robot harus memiliki dimensi pada lebar 20cm,  panjang 25cm dan tinggi 20cm dengan panjang  gripper 20cm. 4.2.8.7	 Robot dioperasikan oleh opera
+  [ROBOT] iki dimensi pada lebar 20cm,  panjang 25cm dan tinggi 20cm dengan panjang  gripper 20cm. 4.2.8.7	 Robot dioperasikan oleh operator melalui kon
+  [ROBOT] lebar 20cm,  panjang 25cm dan tinggi 20cm dengan panjang  gripper 20cm. 4.2.8.7	 Robot dioperasikan oleh operator melalui koneksi  nirkabel. 
+  [ROBOT]  nirkabel. 4.2.8.8	 Kecepatan robot dibatasi tidak lebih dari 40 cm/s. 4.2.9	 PELANGGARAN  --- PAGE 135 --- ii Pedoman KRI 2021 Pedoman KRI 2021 129 PENGULANGAN adalah
+  [ROBOT] )  diulang kembali.  4.2.9.7	 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s. 4.2.9.8	 Tindakan lain yang melanggar aturan yang tidak  termasuk dalam diskualifikasi dianggap 
+
+--- SCORING & RULES ---
+  [SCORE] 21 Pedoman KRI 2021 125 dalam waktu satu menit, maka Robot Pemain  harus dikeluarkan dari Lapangan Phisik. Tim dapat  melanjutkannya persiapan di 
+  [SCORE] KOIN berjajar atau DAM hingga waktu kontes 3 menit  dilewati, maka penilaian dilakukan dengan menghitung  jumlah nilai KOIN yang berhasil diletakkan d
+
+======================================== YEAR 2022 ========================================
+
+--- THEME & BACKGROUND ---
+  [THEME] Tema Kontes 
+  [THEME] Tema yang merupakan komponen utama pada Industri 4.0. Pada KRI 2022, tema Kontes 
+
+--- ARENA / LAPANGAN ---
+  [ARENA]   129          Gambar Lay-out lapangan peserta tim merah pada saat lomba KRSTI 2022                                  Gambar Lay-out lapangan peserta t
+  [ARENA]                Gambar Lay-out lapangan peserta tim biru pada saat lomba KRSTI 2022    Camera Laptop/ desktop Tx Tx Speaker Mic  --- PAGE 131 ---      
+  [ARENA] ai pemenang.        Gambar 2. Lapangan Dam-daman     --- PAGE 136 --- Buku Panduan KRI 2022  -  135    3. Rancangan Kontes    Kontes ini merup
+  [ARENA]  koin di posisi yang sah pada lapangan digital. Tim yang yang paling cepat  berhasil menempatkan 3 (tiga) koin berjajar pada posisi yang sah di lapanga
+  [ARENA] uter juri  3  LAPANGAN FISIK  Lapangan fisik adalah lapangan tempat tiap-tiap tim akan  menggerakkan robot pemain yang berupa lapangan  berwarna hijau polos dengan empat penanda bat
+  [ARENA] an warna biru atau merah   5  ZONA NON-DAM  Zona pada lapangan digital dimana penempatan tiga koin  tidak langsung menjadikan kemenangan.  6  
+  [ARENA] Pemain harus dikeluarkan dari Lapangan Fisik. Tim dapat   --- PAGE 138 --- Buku Panduan KRI 2022  -  137    melanjutkannya persiapan di luar Lapangan
+  [ARENA] ngkat dan  diperbaiki di luar lapangan. Tim menyampaikan tanda pemberitahuan ke  wasit sebelum mengangkat ROBOT PEMAIN.  4.2.6.2 Robot yang tel
+  [ARENA] ai KOIN berdasarkan posisi di Lapangan Digital untuk Tim Biru, untuk Tim  Merah akan berlaku sebaliknya      4.2.8 RANCANGAN DAN PENGEMBANGAN ROBOT  4.2.8.1
+  [ARENA]  4.2.8.6 Robot harus memiliki dimensi pada lebar 20cm, panjang 25cm dan tinggi  20cm dengan panjang gripper 20cm.  4.2.8.7 Robot dioperasikan oleh operat
+  [ARENA]  dengan LAPANGAN FISIK        ZONA NON-DAM pada LAPANGAN DIGITAL berada di separoh lapangan digital di dekatTim  lawan. Pada zona yang berwarn
+  [ARENA] ISIK        ZONA NON-DAM pada LAPANGAN DIGITAL berada di separoh lapangan digital di dekatTim  lawan. Pada zona yang berwarna sama dengan TIM tidak berlaku kemenangan DAM atau  disebut Zona Non
+  [ARENA] ital di dekatTim  lawan. Pada zona yang berwarna sama dengan TIM tidak berlaku kemenangan DAM atau  disebut Zona Non DAM      Dia 250cm Dia 17 cm 0 Dia 90cm Zona  D
+  [ARENA]  kemenangan DAM atau  disebut Zona Non DAM      Dia 250cm Dia 17 cm 0 Dia 90cm Zona  DAM Tim  Merah Zona DAM Tim Biru  --- PAGE 144 --- Buku P
+  [ARENA] IK pada ketinggian  tertentu. LAPANGAN FISIK harus dilengkapi dengan sistem penerangan yang yang memadai.      Zona No-Entry tidak boleh dimasuki pemain  300cm 400cm 15cm x 15
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT] rakat, mulai  mendanai Kontes Robot Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi  kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004 ditamba
+  [ROBOT] s Serikat. Divisi pada Kontes Robot Indonesia selajutnya bertambah hingga  tahun 2018 terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot  Pemada
+  [ROBOT]  Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 sebagian besar  mengadopsi kontes robot sejenis yang diselenggarakan di luar negeri. Melihat
+  [ROBOT] . Pada KRI 2022, tema Kontes  Robot Tematik Indonesia 2022 sama dengan tema tahun 2021 yakni Robo Game – DIGITAL  TWIN dengan permainan yang lebih rumit. Kontes Robot Tematik Indo
+  [ROBOT] sar. Teknologi komputasi dan  komunikasi tingkat lanjut telah mencapai tingkat kematangan sedemikian rupa sehingga  produsen mesin membuat perubahan dramatis dal
+  [ROBOT] isik, kamera menangkap citra  robot, citra robot dikirim ke pengolah citra pada lapangan digital, citra lapangan digital  dikirimkan ke layar peserta sebagai acuan perg
+  [ROBOT] si yang digunakan pada Kontes Robot Tematik 2022 adalah  dinyatakan pada tabel berikut ini.    #  Sebutan  Definisi  1  ROBOT PEMAIN  Adalah satu robot yan
+  [ROBOT] 2.6 PENGULANGAN  4.2.6.1 Bila ROBOT PEMAIN mengalami masalah saat kontes, diperbolehkan  dilakukan pengulangan dengan cara diangkat dengan tongkat dan  diperbai
+  [ROBOT] angkat ROBOT PEMAIN.  4.2.6.2 Robot yang telah diperbaiki boleh diletakkan kembali ke ZONA AWAL  dengan menggunakan tongkat dengan lebih dahulu me
+  [ROBOT] embangun satu robot.  4.2.8.2 Robot tidak boleh terbelah menjadi subbagian yang dihubungkan dengan  kabel.  4.2.8.3 Robot pada kontes ini harus dibangun ole
+  [ROBOT] rak  jauh nir kabel.  4.2.8.6 Robot harus memiliki dimensi pada lebar 20cm, panjang 25cm dan tinggi  20cm dengan panjang gripper 20cm.  4.2.8.7 Robot dioperasikan oleh operat
+  [ROBOT] liki dimensi pada lebar 20cm, panjang 25cm dan tinggi  20cm dengan panjang gripper 20cm.  4.2.8.7 Robot dioperasikan oleh operator melalui kon
+  [ROBOT]  25cm dan tinggi  20cm dengan panjang gripper 20cm.  4.2.8.7 Robot dioperasikan oleh operator melalui koneksi nirkabel.  4.2.8.8 Kecepatan robot dibat
+  [ROBOT]  nirkabel.  4.2.8.8 Kecepatan robot dibatasi tidak lebih dari 40 cm/s.    4.2.9 PELANGGARAN  PENGULANGAN adalah keharusan bagi setiap pelanggaran. Yang  dikategorikan 
+  [ROBOT] m) diulang kembali.   4.2.9.7 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s.  3 3 3 4 4 4 5 5 5 6 6 6 6 6 6 7 7 7 8 8 8 9 9 9  --- PAGE 141 --- Buku Panduan KRI 2022  -  140
+  [ROBOT] ontes.    4.2.12 KESELAMATAN  Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun  bagi orang atau peserta di tiap-tiap Tim.      5. Seleksi Wilayah Secara Daring    Selek
+
+--- SCORING & RULES ---
+  [SCORE] menyelesaikan persiapan dalam waktu satu menit,  maka Robot Pemain harus dikeluarkan dari Lapangan Fisik. Tim dapat   --- PAGE 138 --- Buku Pandua
+  [SCORE] OIN berjajar atau DAM  hingga waktu kontes 3 menit dilewati, maka penilaian dilakukan dengan  menghitung jumlah nilai KOIN yang berhasil diletakkan di
+  [SCORE] g nilai KOIN.  4.2.7.2.2 Bila nilai KOIN kedua tim sama, maka tim dengan jumlah KOIN nilai  tertingi terbanyak dinyatakan menang, begitu seterusnya diperiksa  untuk jumlah KOIN nilai berikut
+
+======================================== YEAR 2023 ========================================
+
+--- THEME & BACKGROUND ---
+  [THEME] Tema Kontes 
+  [THEME] Tema yang merupakan komponen utama pada Industri 4.0. Pada KRI 2023, tema 
+  [THEME] Tema KonteKontes Robot Tematik Indonesia 2023 ini diharapkan 
+
+--- ARENA / LAPANGAN ---
+  [ARENA]  KOIN di posisi yang sah pada lapangan digital. Pada tahap pertama Tim harus  menempatkan minimal 3 roda gigi planet bagian dalam hingga posisi masing-masing roda gigi  p
+  [ARENA] uter juri  3  LAPANGAN FISIK  Lapangan fisik adalah lapangan tempat tiap-tiap tim akan  menggerakkan robot pemain yang berupa lapangan  berwarna hijau polos dengan empat penanda bat
+  [ARENA] PEMAIN harus dikeluarkan dari LAPANGAN FISIK. Tim dapat  melanjutkannya persiapan di luar LAPANGAN FISIK setelah pertandingan  dimulai. Setelah persi
+  [ARENA] ngkat dan  diperbaiki di luar lapangan. Tim menyampaikan tanda pemberitahuan ke  wasit sebelum mengangkat ROBOT PEMAIN.  4.2.6.2 Robot yang tel
+  [ARENA] ai KOIN berdasarkan posisi di Lapangan Digital untuk Tim Biru, untuk Tim  Merah akan berlaku sebaliknya    4.2.9 RANCANGAN DAN PENGEMBANGAN ROBOT  4.2.9.1 S
+  [ARENA]  4.2.9.6 Robot harus memiliki dimensi pada lebar 20 cm, panjang 25 cm dan tinggi  20 cm dengan panjang gripper 20 cm.  4.2.9.7 Robot dioperasikan oleh ope
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT] rakat, mulai  mendanai Kontes Robot Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi  kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004 ditamba
+  [ROBOT] s Serikat. Divisi pada Kontes Robot Indonesia selajutnya bertambah hingga  tahun 2018 terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot  Pemada
+  [ROBOT]  Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 sebagian besar  mengadopsi kontes robot sejenis yang diselenggarakan di luar negeri. Melihat
+  [ROBOT] . Pada KRI 2023, tema  Kontes Robot Tematik Indonesia 2023 sama dengan tema tahun 2021 dan 2022 yakni Robo  Game – DIGITAL TWIN dengan permainan yang lebih rumit dengan inspirasi 
+  [ROBOT] sar. Teknologi komputasi dan  komunikasi tingkat lanjut telah mencapai tingkat kematangan sedemikian rupa sehingga  produsen mesin membuat perubahan dramatis dal
+  [ROBOT] al atau otomatais  menggunkab robot. Langkah-langkah perakitan ini diadopsi untuk dijadikan permainan yang  mengadu strategi dan kosentrasi anta
+  [ROBOT] isik, kamera menangkap citra  robot, citra robot dikirim ke pengolah citra pada lapangan digital, citra lapangan digital  dikirimkan ke layar peserta sebagai acuan perg
+  [ROBOT] si yang digunakan pada Kontes Robot Tematik 2023 adalah  dinyatakan pada tabel berikut ini.    #  Sebutan  Definisi  1  ROBOT PEMAIN  Adalah satu robot yan
+  [ROBOT] 2.6 PENGULANGAN  4.2.6.1 Bila ROBOT PEMAIN mengalami masalah saat kontes, diperbolehkan  dilakukan pengulangan dengan cara diangkat dengan tongkat dan  diperbai
+  [ROBOT] angkat ROBOT PEMAIN.  4.2.6.2 Robot yang telah diperbaiki boleh diletakkan kembali ke ZONA AWAL  dengan menggunakan tongkat dengan lebih dahulu me
+  [ROBOT] embangun satu robot.  4.2.9.2 Robot tidak boleh terbelah menjadi subbagian yang dihubungkan dengan  kabel atau tali.  4.2.9.3 Robot pada kontes ini harus di
+  [ROBOT] rak  jauh nir kabel.  4.2.9.6 Robot harus memiliki dimensi pada lebar 20 cm, panjang 25 cm dan tinggi  20 cm dengan panjang gripper 20 cm.  4.2.9.7 Robot dioperasikan oleh ope
+  [ROBOT] iki dimensi pada lebar 20 cm, panjang 25 cm dan tinggi  20 cm dengan panjang gripper 20 cm.  4.2.9.7 Robot dioperasikan oleh operator melalui k
+  [ROBOT] 5 cm dan tinggi  20 cm dengan panjang gripper 20 cm.  4.2.9.7 Robot dioperasikan oleh operator melalui koneksi nirkabel.  4.2.9.8 Kecepatan robot dibat
+  [ROBOT]  nirkabel.  4.2.9.8 Kecepatan robot dibatasi tidak lebih dari 40 cm/s.    4.2.10 PELANGGARAN  PENGULANGAN atau PINALTI, yakni ROBOT PEMAIN kembali ke ZONA  AWAL dan di
+  [ROBOT] ) diulang kembali.   4.2.10.7 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s secara terus  menerus dalam 2 detik akan menerima satu PINALTI atau akumulasi per   --- PAGE 136 
+  [ROBOT] ontes.    4.2.13 KESELAMATAN  Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun  bagi orang atau peserta di tiap-tiap Tim.        5. Seleksi Wilayah Secara Daring    Sel
+
+--- SCORING & RULES ---
+  [SCORE] menyelesaikan persiapan dalam waktu satu menit,  maka ROBOT PEMAIN harus dikeluarkan dari LAPANGAN FISIK. Tim dapat  melanjutkannya persiapan di l
+  [SCORE] NA AWAL  dan mendapat pinalti waktu sebesar selisih jumlah KOIN dikalikan 10 detik.   4.2.7.5 Tim yang tidak berhasil menempatkan KOIN di roda gigi planet dalam tidak  boleh menempat
+  [SCORE]  planet luar atau DONE hingga waktu kontes 3 menit dilewati, maka  penilaian dilakukan dengan menghitung jumlah nilai KOIN yang berhasil  diletakkan d
+  [SCORE] ontes 3 menit dilewati, maka  penilaian dilakukan dengan menghitung jumlah nilai KOIN yang berhasil  diletakkan di tempat yang sah dengan pembobotan sebagai berikut:  4.2.8.2.1 KOI
+  [SCORE] Pedoman KRI 2023  -  135    2 detik dalam selang waktu 8 detik yang mana setiap akumulasi 2 detik  mendapat satu PINALTI.  4.2.10.8 Tindakan lain yang melanggar a
+  [SCORE] tempatkan dan waktu 3 (tiga)  menit. Tim yang mampu menyelesaikan tugas dalam waktu tersingkat akan memperoleh nilai  tertinggi. Tim yang akan bertanding di Kontes Nasional ditentukan berdasarkan nilai tertinggi.  Se
+
+======================================== YEAR 2024 ========================================
+
+--- THEME & BACKGROUND ---
+  [THEME] Tema Kontes 
+  [THEME] Tema Kontes Robot Tematik Indonesia 2024 ini diharapkan menjadi wadah untuk 
+
+--- ARENA / LAPANGAN ---
+  [ARENA] tuh ke KOTAK  PEMBUANGAN.  9  ZONA UMUM  Adalah zona dimana dapat diakses oleh ROBOT PENGUMPAN oleh  kedua Tim. Pada ZONA UMUM diletakkan K
+  [ARENA] NGUMPAN oleh  kedua Tim. Pada ZONA UMUM diletakkan KOTAK SAMPAH.  10  ZONA AWAL  Adalah zona dimana awal ROBOT bergerak.  11  ZONA KOTAK  A
+  [ARENA] anggota Tim harus keluar dari lapangan. Tim dapat melanjutkannya  persiapan setelah pertandingan dimulai dan segera meninggalkan lapangan  bila
+  [ARENA]      KOTAK SAMPAH berada pada ZONA UMUM yang boleh diangkat oleh kedua  Tim.     4.2.4.2      Setiap KONTAK SAMPAH berisi 4 sampah yang aca
+  [ARENA] a robot lawan tidak berada di ZONA UMUM.  4.2.4.3  ROBOT PENGUMPAN boleh mengambil KOTAK SAMPAH yang berada di sisi  lawan bilamana ROBOT P
+  [ARENA] PAH saat robot lawan memasuki ZONA UMUM.  4.2.4.4  ROBOT PENGUMPAN hanya boleh mengambil 1 (satu) kotak sampah saat di  ZONA UMUM, tidak bo
+  [ARENA]  (satu) kotak sampah saat di  ZONA UMUM, tidak boleh memindahkan kotak sampah selain yang diambil.  4.2.4.5  ROBOT PENGUMPAN mengangkat KOT
+  [ARENA] ENGUMPAN hanya boleh memasuki ZONA UMUM untuk  mengambil KOTAK SAMPAH dan segera keluar dari ZONA UMUM, tidak  boleh melakukan aktifitas la
+  [ARENA] SAMPAH dan segera keluar dari ZONA UMUM, tidak  boleh melakukan aktifitas lain untuk menghalangi robot lawan mengambil  KOTAK SAMPAH.    4.
+  [ARENA] e lapangan lawan,  kecuali di ZONA UMUM.  4.2.9.2  ROBOT PENGUMPAN diam di ZONA UMUM, setiap 10 detik adalah 1 (satu)  pelanggaran.  4.2.9.
+  [ARENA] .9.2  ROBOT PENGUMPAN diam di ZONA UMUM, setiap 10 detik adalah 1 (satu)  pelanggaran.  4.2.9.3  ROBOT PENGUMPAN mengambil KOTAK SAMPAH di 
+  [ARENA] n saat robot  lawan berada di ZONA UMUM, pengambilan KOTAK SAMPAH tidak sah.  4.2.9.4  Robot menyentuh robot lawan.  4.2.9.5  Anggota Tim m
+  [ARENA] OT  KRTMI 2024    Gambar A.1. Lapangan KRTMI 2024 Nasional. Sebelah kiri Tim Biru dan sebelah kanan  adalah Tim Merah. Ukuran lapangan adalah 6x6 meter. Garis penanda untuk    
+  [ARENA] elah kanan  adalah Tim Merah. Ukuran lapangan adalah 6x6 meter. Garis penanda untuk     ▪  Ukuran luas ROBOT PEMILAH dan ROBOT PENGUMPAN saat mulai (start) harus 
+  [ARENA]  dipres.   ▪  KOTAK SAMPAH berukuran (P x L x T) 21 x 17 x 31 cm (3 liter).  ▪  KOTAK PEMILAHAN berukuran (P x L x T) 25 x 19 x 36 cm (10 liter).  ▪  KOTAK PEMILAHA
+  [ARENA] iter).  ▪  KOTAK PEMILAHAN berukuran (P x L x T) 25 x 19 x 36 cm (10 liter).  ▪  KOTAK PEMILAHAN: 1-Daun, 2-Plastik, 3-Logam ferro, 4-Kertas, dan 5-Logam non- ferro
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT]   132            Tema Kontes  Robot Pemilah Sampah  Slogan:  ” Penguasaan Teknologi,   Kemakmuran Negara”                                      
+  [ROBOT] bih canggih dan boros  sumber daya dalam jumlah yang lebih besar. Sistem persampahan publik di perkotaan tidak  dapat mengimbangi perkembangan perk
+  [ROBOT] ah yang tidak sehat mempunyai dimensi sosial. Seperti kebanyakan bahaya lingkungan,  kelemahan dalam pengelolaan sampah berdampak besar pada masyarakat miskin karena  s
+  [ROBOT] .  Pada KRI 2024, tema Kontes Robot Tematik Indonesia 2024 adalah ROBOT PEMILAH SAMPAH.  Tema Kontes Robot Tematik Indonesia 2024 ini diharapkan menjadi wadah untuk 
+  [ROBOT] Tematik Indonesia 2024 adalah ROBOT PEMILAH SAMPAH.  Tema Kontes Robot Tematik Indonesia 2024 ini diharapkan menjadi wadah untuk  mengembangkan
+  [ROBOT]  PEMILAH SAMPAH.  Tema Kontes Robot Tematik Indonesia 2024 ini diharapkan menjadi wadah untuk  mengembangkan dan menyemaikan ide-ide dalam memberikan kontribusi pada pemecahan  masalah sa
+  [ROBOT] zat atau bau yang berbahaya.  Robot pemilah sampah adalah robot yang dirancang untuk memilah sampah sesuai dengan  jenis sampah yang telah dite
+  [ROBOT]   Robot pemilah sampah adalah robot yang dirancang untuk memilah sampah sesuai dengan  jenis sampah yang telah ditentukan, misal sampah dapur, sampah daun, kertas, 
+  [ROBOT] m  dan sebagainya. Penggunaan robot untuk memilah sampah memungkinkan untuk mengolah  sampah dengan cepat selama 24 jam sehari tanpa henti sehingga j
+  [ROBOT] di berbagai negara  yang mana robot akan memilah sampah yang mengalir melalu konveyor seperti diilustrasikan  pada gambar 1.   --- PAGE 5 ---   Pedo
+  [ROBOT]  135      Gambar 1. Ilustrasi robot pemilah sampah  https://pitchbook.com/news/articles/robots-are-ready-to-sort-our-trash-but-will-vcs-be-inte
+  [ROBOT]  world-of-recycling    Kontes Robot Tematik Indonesia 2024 mengusung Robot Pemilah Sampah sebagai tema  kontes dalam rangka memperkenalkan dan menyiapkan kepada peserta kontes untuk 
+  [ROBOT] rada pada  konveyor berjalan. Robot harus mampu mendeteksi posisi, jenis sampah dan mengambilnya  lalu menempatkan sampah tersebut pada wadah tertentu sesuai jenisnya.     --- PAG
+  [ROBOT] a dua Tim dalam menggerakkan  robotnya, mengambil sampah yang bergerak pada konveyor lalu memasukkanya pada wadah  yang sesuai dengan jenis sampah. Tim haru
+  [ROBOT] atu ROBOT  PENGUMPAN dan satu ROBOT PEMILAH.   Pada saat kontes dimulai ROBOT PENGUMPAN akan bergerak mengambil KOTAK SAMPAH  dan kemudian berg
+  [ROBOT] H.   Pada saat kontes dimulai ROBOT PENGUMPAN akan bergerak mengambil KOTAK SAMPAH  dan kemudian bergerak membawa KOTAK SAMPAH untuk ditumpahkan isinya pada  konveryor pengumpan yang
+  [ROBOT] itumpahkan ke konveyor datar. ROBOT PEMILAH selanjutnya akan  mengambil sampah pada pada konveyor dan memindahkan ke KOTAK PEMILAHAN sesuai  de
+  [ROBOT] mpah ke konveyor datar dimana ROBOT PEMILAH akan memungut sampah  dan memasukkan ke kotak hasil pemilahan sesuai jenis sampah.      Setiap pena
+  [ROBOT]  menit. Saat  kontes dimulai, ROBOT PENGUMPAN dan ROBOT PEMILAH bergerak menuju posisinya di  lapangan. Setelah sampah ditumpahkan ke konveyor getar, sampah secara
+  [ROBOT] e konveyor datar. Selanjutnya ROBOT PEMILAH akan mengambil  dan menempatkan sampah pada wadah sesuai jenisnya. Laju gerak konveyor akan selalu 
+  [ROBOT] si yang digunakan pada Kontes Robot Tematik 2024 adalah dinyatakan  pada tabel berikut ini.    #  Sebutan  Definisi  1  ROBOT PENGUMPAN  Adalah satu robot 
+  [ROBOT] sinya di konveyor getar.   2  ROBOT PEMILAH  Adalah satu robot yang bergerak secara otomatis. Robot ini  berfungsi untuk memilah sampah dan men
+  [ROBOT] ana pemilahan  dilakukan oleh ROBOT PEMILAH.  6  SAMPAH  Adalah obyek yang akan dipilah yang terdiri dari beberapa jenis  material, yakni: daun
+  [ROBOT]  tidak berhasil diambil oleh  ROBOT PEMILAH maka sampah akan jatuh ke KOTAK  PEMBUANGAN.  9  ZONA UMUM  Adalah zona dimana dapat diakses oleh R
+  [ROBOT] ONA KOTAK  Adalah zona dimana ROBOT meletak KOTAK SAMPAH yang telah  kosong.      4.2  Tata Cara Pertandingan dan Tugas Kontes  Setiap tim harus menyelesaik
+  [ROBOT] letakkan ROBOT  PENGUMPAN dan ROBOT PEMILAH.  4.2.1.2  Sebanyak 4 (empat) anggota Tim diperbolehkan untuk melakukan proses  persiapan ini.   --
+  [ROBOT] a Tim selama kontes  4.2.2.1  ROBOT PENGUMPAN dan PEMILAH harus di-start dari ZONA AWAL. Robot  harus berada tepat di dalam ruang ZONA AWAL.  4.2.2.2  Semua 
+  [ROBOT] h yang acak isinya.  4.2.4.2  ROBOT PENGUMPAN boleh mengambil KOTAK SAMPAH yang berada di sisi  lawan, bila robot lawan tidak berada di ZONA UMUM.  4.2.4.3  ROBOT PENGUMPAN b
+  [ROBOT] erada di ZONA UMUM.  4.2.4.3  ROBOT PENGUMPAN boleh mengambil KOTAK SAMPAH yang berada di sisi  lawan bilamana ROBOT PENGUMPAN telah berhasil mengangkat KOTAK  SAMPAH saat ro
+  [ROBOT] erada di sisi  lawan bilamana ROBOT PENGUMPAN telah berhasil mengangkat KOTAK  SAMPAH saat robot lawan memasuki ZONA UMUM.  4.2.4.4  ROBOT PENGUMPAN ha
+  [ROBOT] memasuki ZONA UMUM.  4.2.4.4  ROBOT PENGUMPAN hanya boleh mengambil 1 (satu) kotak sampah saat di  ZONA UMUM, tidak boleh memindahkan kotak sampah selain yang diambil.  4.2.4.5  ROBOT PENGU
+  [ROBOT] elain yang diambil.  4.2.4.5  ROBOT PENGUMPAN mengangkat KOTAK SAMPAH, membawa keluar ZONA  UMUM lalu menumpahkan sampah ke KONVEYOR GETAR.   4.2.4.6  Setelah ditumpahka
+  [ROBOT] ke ZONA KOTAK.  4.2.4.7  Bila ROBOT PENGUMPAN gagal menumpahkan sampah pada KONVEYOR  GETAR, SAMPAH yang terjatuh di lapangan boleh diambil oleh ROBOT   --- PAG
+  [ROBOT] .2.5 Memilah SAMPAH  4.2.5.1  ROBOT PEMILAH memilah sampah, mengambilnya dan menempatkannya di  KOTAK PEMILAH.  4.2.5.2  Bila SAMPAH gagal diam
+  [ROBOT]  diambil dan jatuh di lantai, ROBOT PEMILAH boleh  mengambilnya.  4.2.5.3  Sampah yang telah dimasukkan ke KOTAK PEMILAH tidak boleh diambil la
+  [ROBOT] idak boleh diambil lagi  oleh ROBOT PEMILAH.  4.2.5.4  Sampah yang telah masuk ke dalam KOTAK PEMBUANGAN tidak boleh  diambil oleh ROBOT PEMILA
+  [ROBOT] GAN tidak boleh  diambil oleh ROBOT PEMILAH.    4.2.6 PENILAIAN  4.2.6.1  Setiap SAMPAH yang berhasil dipilah dan dimasukkan ke dalam KOTAK  PE
+  [ROBOT] embangun dua robot.  4.2.8.2  Robot tidak boleh terbelah menjadi sub-bagian yang dihubungkan dengan  kabel atau tali.  4.2.8.3  Robot pada kontes ini harus 
+  [ROBOT]  oleh anggota Tim.   4.2.8.5  ROBOT PEMILAH bekerja secara otomatis.  4.2.8.6  ROBOT PENGUMPAN dioperasikan oleh operator melalui koneksi nirka
+  [ROBOT] cuali di ZONA UMUM.  4.2.9.2  ROBOT PENGUMPAN diam di ZONA UMUM, setiap 10 detik adalah 1 (satu)  pelanggaran.  4.2.9.3  ROBOT PENGUMPAN mengambil KOTAK SAMPAH di sisi lawan saat robot  l
+  [ROBOT] satu)  pelanggaran.  4.2.9.3  ROBOT PENGUMPAN mengambil KOTAK SAMPAH di sisi lawan saat robot  lawan berada di ZONA UMUM, pengambilan KOTAK SAMPAH tidak sah.  4.2.9.4  
+  [ROBOT] tes.    4.2.12 KESELAMATAN    Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun bagi orang  atau peserta di tiap-tiap Tim.  5. Seleksi Wilayah Secara Daring  Seleksi Wil
+  [ROBOT] ra dipasang di atas lapangan. ROBOT PEMILAH ditugaskan untuk mengambil  SAMPAH dan menempatkan pada KOTAK PEMILAHAN yang sesuai. Bila penempata
+  [ROBOT]  jenisnya maka tidak dinilai. ROBOT PEMILAH bergerak secara otomatis.  Penilaian seleksi berdasarkan jumlah SAMPAH yang berhasil dipilah dan di
+  [ROBOT]  diletakkan pada meja SAMPAH (tinggi 40cm), ROBOT PEMILAH mengambil dan  memasukkan SAMPAH sejenis pada KOTAK PEMILAHAN yang sama.   --- PAGE
+  [ROBOT] da meja SAMPAH (tinggi 40cm), ROBOT PEMILAH mengambil dan  memasukkan SAMPAH sejenis pada KOTAK PEMILAHAN yang sama.   --- PAGE 12 ---   Pedoma
+  [ROBOT] elah kanan  adalah Tim Merah. Ukuran lapangan adalah 6x6 meter. Garis penanda untuk     ▪  Ukuran luas ROBOT PEMILAH dan ROBOT PENGUMPAN saat mulai (sta
+  [ROBOT] r. Garis penanda untuk     ▪  Ukuran luas ROBOT PEMILAH dan ROBOT PENGUMPAN saat mulai (start) harus bisa  masuk dalam area dengan 90x80 cm. Tinggi ROBOT t
+  [ROBOT] k air 300 ml, diameter 5,8cm, tinggi 17cm dalam keadaan dipres.   ▪  KOTAK SAMPAH berukuran (P x L x T) 21 x 17 x 31 cm (3 liter).  ▪  KOTAK 
+  [ROBOT]  dipres.   ▪  KOTAK SAMPAH berukuran (P x L x T) 21 x 17 x 31 cm (3 liter).  ▪  KOTAK PEMILAHAN berukuran (P x L x T) 25 x 19 x 36 cm (10 liter).  ▪  KOTAK PEMILAHA
+  [ROBOT] iter).  ▪  KOTAK PEMILAHAN berukuran (P x L x T) 25 x 19 x 36 cm (10 liter).  ▪  KOTAK PEMILAHAN: 1-Daun, 2-Plastik, 3-Logam ferro, 4-Kertas, dan 5-Logam non- ferro
+  [ROBOT] at dengan tebal < 0,5 mm.  ▪  Tinggi konveyor 40 cm dari lantai.   --- PAGE 14 ---   Pedoman KRI 2024  -  144        Gambar A2. Ukuran lapangan KRTMI 2
+  [ROBOT] Lapangan KRTMI 2024 regional. Robot pemilah melakukan pengambilan  dan penempatan sampah di KOTAK PEMILAHAN. Penempatan SAMPAH di meja  sampah 
+
+--- SCORING & RULES ---
+  [SCORE] menyelesaikan persiapan dalam waktu satu menit,  seluruh anggota Tim harus keluar dari lapangan. Tim dapat melanjutkannya  persiapan setelah perta
+  [SCORE] k ke KOTAK  PEMBUANGAN hingga waktu kontes 4 menit terlewati, maka penilaian  dilakukan dengan menghitung nilai SAMPAH yang berhasil dipilah dan  dima
+  [SCORE] .7.3  Bila kedua Tim memiliki nilai yang sama, Tim dengan nilai SAMPAH di KOTAK  PEMBUANGAN dan di lantai yang lebih rendah akan memenangkan kontes.   --- PAGE 10 
+  [SCORE]   4.2.9 PELANGGARAN    Setiap PELANGGARAN akan mendapatkan pengurangan 1 (satu) nilai. Yang  dikategorikan sebagai PELANGGARAN adalah sebagai berikut:  4.2.9.1  Bagian dari ROBOT keluar
+  [SCORE] ipilah dan ditempatkan dalam  waktu 3 (tiga) menit. Tim yang mampu menyelesaikan tugas dalam waktu tersingkat dengan  benar akan memperoleh nilai tert
+
+======================================== YEAR 2026 ========================================
+
+--- THEME & BACKGROUND ---
+
+--- ARENA / LAPANGAN ---
+  [ARENA]  Robot  Peraturan Perlombaan  Arena & Sistem Perlombaan Pelanggaran & Sanksi  Hadiah  Penutup  Contact Person  2 3 4 5 7 9 10 12 14 18 28 29 30 
+  [ARENA] s terlihat jelas  oleh wasit. Dimensi robot maksimum (sebelum ekstensi/perpanjangan) : a. Panjang : 20 cm b. Lebar : 20 cm c. Tinggi : tidak dibatasi d.
+  [ARENA] uh bagian box telah masuk ke  zona yang telah ditentukan seperti yang dijelaskan pada bagian sistem  perlombaan. 10 Robot tidak boleh memecah diri menjadi beberapa robot selama  perlombaan berlangsun
+  [ARENA] N PETUNJUK ARENA PERTANDINGAN Ukuran arena pertandingan transporter pada Technocorner 2026 adalah 3 meter x  3 meter, dengan bentuk sebagai berikut: Dimensi box yang digunakan adalah 10 cm X 10 cm X 10 cm.
+  [ARENA] engan bentuk sebagai berikut: Dimensi box yang digunakan adalah 10 cm X 10 cm X 10 cm. Dimensi drop zone box yang digunakan adalah 12 cm X 12 cm X 5 cm. SISTEM PERLOMBAA
+  [ARENA] adalah 10 cm X 10 cm X 10 cm. Dimensi drop zone box yang digunakan adalah 12 cm X 12 cm X 5 cm. SISTEM PERLOMBAAN Peraturan Umum Robot harus diposisikan pada area Start (area berw
+  [ARENA]  melakukan perusakan terhadap arena lomba dalam bentuk apapun,  kerusakan akan dikenakan sanksi diskualifikasi. Posisi robot harus tetap berada pad
+
+--- ROBOT SPECIFICATIONS ---
+  [ROBOT] m ekstensi/perpanjangan) : a. Panjang : 20 cm b. Lebar : 20 cm c. Tinggi : tidak dibatasi d. Berat : tidak dibatasi Robot tidak boleh merusak lin
+  [ROBOT] ngan) : a. Panjang : 20 cm b. Lebar : 20 cm c. Tinggi : tidak dibatasi d. Berat : tidak dibatasi Robot tidak boleh merusak lintasan. Robot tida
+  [ROBOT] AAN LOMBA SPESIFIKASI ROBOT 8 Baterai yang digunakan maksimal 13 volt. 9 Robot bebas dari unsur yang dapat membahayakan keselamatan. 10 Robot harus buatan sendiri, tidak
+  [ROBOT] digunakan maksimal 13 volt. 9 Robot bebas dari unsur yang dapat membahayakan keselamatan. 10 Robot harus buatan sendiri, tidak boleh menggunakan kit PABRIKAN. 11 Kit pabr
+  [ROBOT] ngga sesuai ketentuan.)   Pengukuran voltase baterai robot (Jika voltase melebihi batas  maksimal, peserta wajib menurunkannya sesuai ketentu
+  [ROBOT] entuan.)   Pengukuran voltase baterai robot (Jika voltase melebihi batas  maksimal, peserta wajib menurunkannya sesuai ketentuan.) 3 Peserta dan robot yan
+  [ROBOT] own yang diberikan panitia. 4 Robot memulai pertandingan dari area start dan setelah ada perintah  dari wasit pertandingan. 30 @technocornerugm technocorner.id  --- PAGE 16 --- TECHNOC
+  [ROBOT] ma pertandingan berlangsung 9 Robot akan memperoleh poin apabila seluruh bagian box telah masuk ke  zona yang telah ditentukan seperti yang dijelaskan pada bagian sistem  perlombaan. 10 Rob
+  [ROBOT] bagian sistem  perlombaan. 10 Robot tidak boleh memecah diri menjadi beberapa robot selama  perlombaan berlangsung. 11 Robot dinyatakan FINISH apabila selu
+  [ROBOT] a  perlombaan berlangsung. 11 Robot dinyatakan FINISH apabila seluruh bagian dari robot telah  memasuki garis FINISH. 30 @technocornerugm technocorner.id  --- PAGE 17 --- TECHNOCORNER TECHNOCOR
+  [ROBOT] an  sportifitas bertanding. 2 Robot diperbolehkan diambil kembali apabila sudah diperbolehkan atau  ada arahan dari panitia. 3 Setiap bentuk keputusan panitia adalah hal yang mutl
+  [ROBOT] N PETUNJUK ARENA PERTANDINGAN Ukuran arena pertandingan transporter pada Technocorner 2026 adalah 3 meter x  3 meter, dengan bentuk sebagai berikut: Dimensi box yang digunakan adalah 10 cm X 10 cm 
+  [ROBOT] engan bentuk sebagai berikut: Dimensi box yang digunakan adalah 10 cm X 10 cm X 10 cm. Dimensi drop zone box yang digunakan adalah 12 cm X 12 cm X 5 cm. SISTEM PER
+  [ROBOT] adalah 10 cm X 10 cm X 10 cm. Dimensi drop zone box yang digunakan adalah 12 cm X 12 cm X 5 cm. SISTEM PERLOMBAAN Peraturan Umum Robot harus diposisikan pada area Start (are
+  [ROBOT] untuk menggeser box tersebut. Robot harus memindahkan box berwarna ke dalam drop zone dengan warna  yang sama. Jika box terlepas atau terjatuh saat di
+
+--- SCORING & RULES ---
+  [SCORE] arus senantiasa berpijak pada nilai-nilai luhur Nusantara sebagai  fondasi yang menguatkan arah dan tujuan. Melalui  penyelenggaraan  Technoc
+  [SCORE] n robot pihak lain. 4 Alokasi waktu yang diberikan sebelum bertanding adalah 2 menit,  dengan rincian bahwa 1 menit merupakan waktu pemanggilan dan 1  menit waktu persiapan. 5 Pemanggi

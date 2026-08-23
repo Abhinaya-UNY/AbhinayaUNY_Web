@@ -1,0 +1,533 @@
+
+--- PAGE 120 ---
+ii114 Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 121 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 115
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 7
+KONTES ROBOT TEMATIK INDONESIA
+(KRTMI)
+Disusun oleh:
+Ir. Indrawanto, M. Eng., Ph.D.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 122 ---
+ii116 Pedoman KRI 2021
+Pedoman KRI 2021
+Tema Kontes
+Robo Game – Digital Twin
+Slogan:
+” Penguasaan Teknologi, 
+Kemakmuran Negara”
+Ver 0.0, 31032021
+Disiapkan oleh Indrawanto
+Juri Kontes Robot Indonesia 
+
+--- PAGE 123 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 117
+DAFTAR ISI BUKU 7
+1.	 Latar Belakang........................................................................................................118
+2.	 Konsep dari Kontes...............................................................................................119
+3.	 Rancangan Kontes................................................................................................122
+4.	 Aturan Kontes.........................................................................................................123
+5.	 Hak Kekayaan Intelektual...................................................................................130
+6.	 Lain-lain....................................................................................................................130
+7.	 Penutup....................................................................................................................131
+Lampiran..........................................................................................................................132
+
+--- PAGE 124 ---
+ii118 Pedoman KRI 2021
+Pedoman KRI 2021
+1.	 Latar Belakang
+Pada tahun 2003, Direktorat Jenderal Pendidikan Tinggi Departemen 
+Pendidikan dan Kebudayaan, melalui Direktorat Penelitian dan 
+Pengabdian kepada Masyarakat, mulai mendanai Kontes Robot 
+Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi 
+kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004 
+ditambahkan divisi Kontes Robot Cerdas Indonesia yang mengadopsi 
+kontes Robot Pemadam Api di Trinity College Amerikas Serikat. Divisi 
+pada Kontes Robot Indonesia selajutnya bertambah hingga tahun 2018 
+terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot 
+Pemadam Api Indonesia (KRPAI) Berkaki, Kontes Robot Seni Tari Indonesia 
+(KRSTI), Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid, Kontes 
+Robot Sepak Bola Indonesia (KRSBI) Beroda.
+Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 
+sebagian besar mengadopsi kontes robot sejenis yang diselenggarakan 
+di luar negeri. Melihat kondisi dan kebutuhan nasional, mulai tahun 
+2019, Direktorat Kemahasiswaan, Direktorat Jenderal Pembelajaran dan 
+Kemahasiswaan, Kementerian Riset, Teknologi dan Pendidikan Tinggi 
+memprakarsai penyelenggaraan divisi baru di Kontes Robot Indonesia 
+yakni Kontes Robot Tematik Indonesia (KRTMI) dengan mengambil tema 
+sesuai kebutuhan nasional yang mendesak untuk diselesaikan. Kemudian 
+mulai tahun 2020, kegiatan Kontes Robot Indonesia diselenggarakan 
+oleh Pusat Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan 
+Republik Indonesia.
+Pada KRI 2021, Kontes Robot Tematik Indonesia 2021 mengambil tema 
+DIGITAL – TWIN. Tema yang merupakan komponen utama pada Industri 
+4.0. Kontes Robot Tematik Indonesia 2021 ini diharapkan menjadi wadah 
+untuk mengembangkan dan menyemaikan ide-ide dalam memberikan 
+kontribusi pada penerapan konsep Industri 4.0 melalui otomasi dan 
+robotika.
+
+--- PAGE 125 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 119
+2.	 Konsep dari Kontes
+Dunia automasi industri sedang mengalami transformasi besar. Teknologi 
+komputasi dan komunikasi tingkat lanjut telah mencapai tingkat 
+kematangan sedemikian rupa sehingga produsen mesin membuat 
+perubahan dramatis dalam cara merancang produknya. Pergeseran 
+besar dari mekanisme khusus ke sistem mekatronika, atau phisik siber, 
+menjadikan rancangan tidak lagi dibatasi oleh desain mekanis suatu 
+mesin. Adanya aktuator servo dan perangkat lunak kontrol untuk 
+mengatur gerakan mekanismenya memberikan peluang signifikan 
+untuk merancang sistem manufaktur yang fleksibel, keluaran adaptif, 
+manajemen energi, dan nilai umur mesin yang lebih tinggi. 
+Penghematan biaya yang dihasilkan dan keunggulan kompetitif sangat 
+penting dalam industri saat ini, karenanya semakin banyak produsen 
+yang mengadopsi teknologi ini ke dalam produk generasi yang akan 
+datang. Evolusi dan konvergensi teknologi baru - sistem mekatronika, 
+pengontrol, komputasi on-board, Big Data, pembelajaran mesin, dan 
+Industrial Internet of Things (IIoT) - mendorong para peneliti untuk 
+merumuskan tentang Revolusi Industri Selanjutnya, atau disebut Industri 
+4.0.
+Digital Twin adalah inti dari seluruh pengembangan Industri 4.0, yang 
+mencakup otomatisasi, pertukaran data, dan proses manufaktur, 
+yang mana dapat menghasilkan peluang tak terbatas bagi industri 
+untuk tumbuh. Dengan kemajuan teknologi tersebut, Digital Twin 
+menghadirkan proses desain berbasis sistem yang lebih virtual yang 
+mengarah ke peran yang jauh lebih aktif pada peralatan atau sistem 
+apapun. Dengan menyediakan replika digital suatu mesin secara teliti, 
+teknologi tersebut dapat membantu operator memahami fitur unik, 
+kinerja, dan potensi masalah pada model simulasi virtual. Karena teknologi 
+ini mendukung pemantauan pada waktu riil dari pabrik fisik, dengan 
+bantuan sensor yang dipasang ke semua peralatan, ini memungkinkan 
+
+--- PAGE 126 ---
+ii120 Pedoman KRI 2021
+Pedoman KRI 2021
+operator untuk mendapatkan peringatan awal tentang kemungkinan 
+terjadinya kegagalan pada mesin dan/atau potensi waktu henti dan/
+atau kecelakaan. Dengan pembaruan operasi waktu riil, pekerja industri 
+mampu mengoptimalkan kinerja mesin dalam waktu riil, memantau 
+koordinasi antara semua perangkat, melakukan diagnosis di pabrik 
+virtual, dan memperbaiki kesalahan, sehingga dapat meminimalkan 
+kerugian pada produktivitas bila itu terjadi.
+Gambaran sistem Digital Twin ditunjukkan pada Gambar 1 yang mana 
+terdapat replika model digital dari sistem fisik. Sistem fisik dan model 
+digital akan bekerja bersama-sama yang mana sistem fisik melakukan 
+eksekusi perintah kemudian sensor-sensor yang dipasangkan pada 
+sistem fisik mengirimkan data ke model digital. Selanjutnya sistem digital 
+melakukan analisis dan hasilnya dikirimkan ke sistem fisik.
+Gambar 1 Konsep Digital – Twin : Interaksi mulus antara sistem phisik 
+dengan model digital
+https://www.vizexperts.com/blog/digital-twin-and-its-impact-on-industry-4-0
+
+--- PAGE 127 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 121
+Kontes Robot Tematik Indonesia 2021 mengusung Digital Twin sebagai 
+tema kontes dalam rangka memperkenalkan lebih dalam tentang 
+teknologi ini kepada peserta. Untuk merealisasikan konsep ini perlu 
+dipilih tema atau jenis aktivitas yang dapat direalisasikan dalam waktu 
+yang tersedia, dikenal di masyarakat dan mudah untuk dipahami sesuai 
+dengan konsep Digital Twin.
+Sebagai penerapan pada kontes ini dipilih konsep permainan 
+tradisional Dam-daman yang diterapkan dengan mengadopsi teknologi 
+Digital-Twin. Pilihan ini dipertimbangkan dari sisi keterealisiran antar 
+penyiapan model phisik dan model digital dalam waktu yang tersedia 
+namun tetap mengusung konsep Digital Twin. Permainan dam-daman 
+merupakan permainan yang mengadu strategi dan kosentrasi antara dua 
+pemain. Dengan menggunakan konsep Digital-Twin ini pemain dapat 
+menggunakan model digital dan memanfaatkan AI (Artificial Intelligence) 
+bila perlu untuk melakukan analisis guna memberikan saran kepada 
+pemain dalam mengambil langkah pada permainan.
+Jenis permainan Dam-daman ada beberapa varian di masyarakat. Salah 
+satu pola permainan Dam-daman yang sederhana adalah dengan bentuk 
+lapangan permainan ditunjukkan pada Gambar 2 di bawah ini. Dua orang 
+pemain akan meletakkan biji-
+bijian atau batu pada pertemuan 
+2 atau 3 garis di lapangan 
+permainan. Pemain yang berhasil 
+lebih dahulu meletakkan tiga 
+batu berjajar pada satu garis akan 
+dinyatakan sebagai pemenang.
+Gambar 2. Lapangan Dam-daman
+3.	
+Rancangan Kontes
+
+--- PAGE 128 ---
+ii122 Pedoman KRI 2021
+Pedoman KRI 2021
+Kontes ini merupakan permainan antara dua tim yang menggerakkan 
+robot di lapangan phisik untuk mengambil dan menempatkan koin pada 
+posisi tertentu di lapangan digital. Pada saat kontes dimulai kedua robot 
+akan bergerak mengambil koin di rak dan kemudian bergerak membawa 
+koin untuk ditempatkan pada titik-titik yang sah pada lapangan digital. 
+Lapangan phisik berupa lapangan datar segi empat yang berwarna 
+hijau dengan empat penanda pada keempat sudutnya. Satu kamera 
+akan diletakkan di atas lapangan phisik yang akan menangkap citra 
+lapangan, robot dan koin phisik dari peserta kontes. Citra ini dikirimkan 
+ke komputer juri untuk diolah menjadi model robot dan koin pada 
+lapangan digital yang berada pada komputer juri. Lapangan digital 
+selanjutnya dikirimkan ke peserta sebagai acuan untuk pergerakan robot 
+phisik dan penempatan koin phisik pada lapangan digital.
+Gambar 3. Rancangan Kontes, robot bergerak pada lapangan phisik, 
+kamera utama menangkap citra robot, citra robot dikirim ke pengolah 
+citra pada lapangan digital, citra lapangan digital dikirimkan ke layar 
+peserta sebagai acuan pergerakan robot.
+Pada permainan yang sebenarnya kedua pemain melangkah secara 
+bergantian. Pada kontes ini, kedua Tim akan bergerak pada saat yang 
+
+--- PAGE 129 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 123
+sama sehingga perlu untuk melakukan adaptasi aturan permainan 
+tradisional ini untuk diterapkan pada kontes ini. Masing-masing tim 
+boleh menempatkan koin di posisi yang sah pada lapangan digital. Tim 
+yang yang paling cepat berhasil menempatkan 3 (tiga) koin berjajar pada 
+posisi yang sah di lapangan digital akan memenangkan pertandingan 
+dan pertandingan langsung dihentikan.
+4.	 Aturan Kontes
+4.1	 Sebutan dan Definisi 
+Sebutan dan definisi yang digunakan pada Kontes Robot Tematik 
+2021 adalah dinyatakan pada tabel berikut ini.
+#
+Sebutan
+Definisi
+1
+ROBOT PEMAIN
+Adalah satu robot yang dikendalikan 
+dengan kendali jarak jauh nirkabel. Robot 
+ini berfungsi untuk mengambil koin dari rak 
+dan menempatkannya pada posisi tertentu di 
+lapangan digital.
+2
+LAPANGAN DIGITAL
+Lapangan digital adalah lapangan tempat 
+pertandingan antara kedua tim akan 
+berlangsung. Lapangan ini berada pada 
+komputer juri
+3
+LAPANGAN PHISIK
+Lapangan phisik adalah lapangan tempat tiap-
+tiap tim akan menggerakkan robot pemain 
+yang berupa lapangan berwarna hijau polos 
+dengan empat penanda batas lapangan pada 
+keempat sudutnya.
+4
+KOIN
+Koin adalah berupa silinder dengan warna 
+biru atau merah 
+5
+ZONA NON-DAM
+Zona pada lapangan digital dimana 
+penempatan tiga koin tidak langsung 
+menjadikan kemenangan.
+#
+Sebutan
+Definisi
+
+--- PAGE 130 ---
+ii124 Pedoman KRI 2021
+Pedoman KRI 2021
+6
+ZONA NO-ENTRY
+Zona hingga jarak tertentu dari luar lapangan 
+phisik yang tidak boleh dimasuki anggota tim. 
+Zona no-Entry untuk menjaga agar anggota 
+tim tidak tertangkap kamera utama selama 
+kontes berlangsung.
+7
+ZONA AWAL
+Zona tempat robot pemain diletakkan saat 
+awal mula kontes.
+8
+KAMERA UTAMA
+Kamera di atas lapangan phisik yang 
+menangkap citra lapangan, robot pemain dan 
+koin 
+4.2	 Tatacara Pertandingan dan Tugas Kontes
+Setiap tim harus menyelesaikan tugas dengan urutan sebagai berikut
+4.2.1	 Persiapan Robot.
+4.2.1.1	 Tim diberi kesempatan untuk mengatur ROBOT 
+PEMAIN selama satu menit sebelum kontes dimulai 
+yang ditandai dengan aba-aba untuk memulai dan 
+mengakhiri pengaturan. Pada pengaturan ini anggota 
+Tim boleh memasuki LAPANGAN PHISIK untuk 
+meletakkan ROBOT PEMAIN dan KOIN pada rak.
+4.2.1.2	 Sebelum kontes dimulai akan dilakukan kalibrasi 
+KAMERA UTAMA dan kondisi pencahayaan di 
+LAPANGAN PHISIK dilihat dari sisi LAPANGAN DIGITAL. 
+Tim yang tidak berhasil lulus tahap kalibrasi tidak 
+boleh melanjutkan kontes dan dinyatakan gagal pada 
+kontes tersebut.
+4.2.1.3	 Sebanyak  4 (empat) anggota Tim diperbolehkan untuk 
+melakukan proses persiapan ini.
+4.2.1.4	 Bila Tim tidak berhasil menyelesaikan persiapan 
+
+--- PAGE 131 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 125
+dalam waktu satu menit, maka Robot Pemain 
+harus dikeluarkan dari Lapangan Phisik. Tim dapat 
+melanjutkannya persiapan di luar Lapangan Phisik 
+setelah pertandingan dimulai. Setelah persiapan 
+selesai dilakukan, Tim dengan menggunakan tongkat 
+dapat meletakkan robotnya pada Zona Mulai dengan 
+memberi tanda pemberitahuan ke wasit.
+4.2.2	 Pergerakan 
+ROBOT 
+PEMAIN 
+pada 
+awal 
+dimulainya 
+pertandingan dan anggota Tim selama kontes.
+4.2.2.1	 ROBOT PEMAIN harus di-start dari ZONA AWAL. Robot 
+harus berada tepat di dalam ruang ZONA AWAL.
+4.2.2.2	 Semua anggota Tim harus berada di luar ZONA NO-
+ENTRY saat kontes dimulai hingga kontes berakhir.
+4.2.2.3	 Semua anggota Tim tidak boleh tertangkap oleh 
+KAMERA UTAMA selama kontes berlangsung.
+4.2.2.4	 Apabila ROBOT PEMAIN mengalami Error maka robot 
+hanya boleh diangkat dengan tongkat berwarna hijau 
+dan memberi tanda pemberitahuan ke wasit. Robot 
+dapat diperbaiki di luar lapangan dan apabila sudah 
+siap dapat diletakkan Kembali ke ZONA AWAL dengan 
+menggunakan tongkat setelah memberi tanda 
+pemberitahuan ke wasit.
+4.2.3	 KOIN
+4.2.3.1	 Setiap Tim menyiapkan 2 (dua) set KOIN warna merah 
+dan biru yang tiap-tiap set terdiri 12 (dua belas) KOIN.
+4.2.3.2	 Setiap Tim menyiapkan satu rak untuk menempatkan 
+KOIN di lapangan phisik.
+4.2.4	 Membawa KOIN
+
+--- PAGE 132 ---
+ii126 Pedoman KRI 2021
+Pedoman KRI 2021
+4.2.4.1	 Robot hanya boleh mengambil satu KOIN dari rak 
+lalu membawa dan menempatkan KOIN pada posisi 
+tertentu di LAPANGAN DIGITAL.
+4.2.4.2	 Robot hanya boleh mengambil KOIN berikutnya bila 
+KOIN yang diambil sebelumnya telah ditempatkan 
+pada posisi yang sah di LAPANGAN DIGITAL.
+4.2.4.3	 Saat membawa KOIN dari rak ke posisi yang dituju, 
+KOIN harus dipegang pada sisi diameternya dengan 
+orientasi diameter menghadap ke atas agar dapat 
+ditangkap oleh KAMERA UTAMA.
+4.2.5	 Meletakkan KOIN
+4.2.5.1	 KOIN dapat diletakkan pada posisi yang sah di 
+LAPANGAN DIGITAL.
+4.2.5.2	 Penempatan KOIN tidak sah bila pertemuan garis pada 
+LAPANGAN DIGITAL tampak secara visual pada layar.
+4.2.5.3	 Penempatan KOIN lapangan digital tidak sah bila pada 
+tempat tersebut sudah terdapat KOIN lawan, dan KOIN 
+tersebut harus dipindahkan.
+4.2.5.4	 Tim boleh menempatkan di sembarang posisi yang 
+sah pada LAPANGAN DIGITAL.
+4.2.5.5	 KOIN yang terjatuh atau tidak berada pada posisi yang 
+sah di LAPANGAN DIGITAL boleh diperbaiki posisinya 
+dengan cara mengangkat dan meletakkannya pada 
+posisi yang sah. DILARANG MENDORONG KOIN PADA 
+LAPANGAN PHISIK UNTUK MEMINDAHKAN KOIN.
+4.2.6	 PENGULANGAN
+
+--- PAGE 133 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 127
+4.2.6.1	 Bila ROBOT PEMAIN mengalami masalah saat kontes 
+diperbolehkan dilakukan pengulangan dengan cara 
+diangkat dengan tongkat dan diperbaiki di luar 
+lapangan. Tim menyampai tanda pemberitahuan ke 
+wasit sebelum mengangkat ROBOT PEMAIN.
+4.2.6.2	 Robot yang telah diperbaiki boleh diletakkan kembali 
+ke ZONA AWAL dengan menggunakan tongkat 
+dengan lebih dahulu menyampaikan pemberitahuan 
+kepada wasit.
+4.2.6.3	 Jumlah pengulangan maksimal 3 (tiga) kali. Bila 
+ROBOT PEMAIN mengalami masalah setelah tiga kali 
+pengulangan ROBOT PEMAIN tidak diperbolehkan 
+melanjutkan kontes. 
+4.2.7	 MEMUTUSKAN PEMENANG
+4.2.7.1	 Tim yang paling dahulu menempatkan tiga KOIN 
+berjajar di tempat yang sah pada LAPANGAN DIGITAL 
+akan langsung memenangkan kontes dan dinyatakan 
+dengan DAM.
+4.2.7.2	 Bila tidak ada Tim yang berhasil menempatkan tiga 
+KOIN berjajar atau DAM hingga waktu kontes 3 menit 
+dilewati, maka penilaian dilakukan dengan menghitung 
+jumlah nilai KOIN yang berhasil diletakkan di tempat 
+yang sah dengan pembobotan sebagai berikut:
+4.2.7.2.1	 KOIN yang diletakkan pada garis paling 
+dekat dengan ZONA AWAL robot bernilai 3, 
+kemudian untuk garis berikutnya masing-
+masing 4, 5, 6, 7, 8 dan 9.
+4.2.7.2.2	 Bila nilai KOIN kedua tim sama, maka tim 
+dengan jumlah KOIN nilai tertinggi terbanyak 
+dinyatakan 
+menang, 
+begitu 
+seterusnya 
+
+--- PAGE 134 ---
+ii128 Pedoman KRI 2021
+Pedoman KRI 2021
+diperiksa untuk jumlah KOIN nilai berikutnya.
+4.2.7.2.3	 Bila dari penilaian no 2 masih belum dapat 
+ditentukan pemenangnya, tim yang lebih 
+dahulu meletakkan KOIN terakhir akan 
+memenangkan pertandingan.
+4.2.7.2.4	 Bila dari penilaian no 3 masih belum dapat 
+ditentukan, pemenangnya akan ditentukan 
+berdasarkan penilaian juri.
+4.2.8	 RANCANGAN DAN PENGEMBANGAN ROBOT
+4.2.8.1	 Setiap tim membangun satu robot.
+4.2.8.2	 Robot tidak boleh terbelah menjadi subbagian yang 
+dihubungkan dengan kabel.
+4.2.8.3	 Robot pada kontes ini harus dibangun oleh anggota 
+Tim dari satu perguruan tinggi.
+4.2.8.4	 Berat total robot, kontroller, kabel, baterai yang 
+digunakan pada pertandingan tidak dibatasi namun 
+harus bisa diangkat oleh anggota Tim dengan tongkat 
+dari luar lapangan. 
+4.2.8.5	 Robot digital twin ini bekerja dengan cara manual 
+melalui kendali jarak jauh nir kabel.
+4.2.8.6	 Robot harus memiliki dimensi pada lebar 20cm, 
+panjang 25cm dan tinggi 20cm dengan panjang 
+gripper 20cm.
+4.2.8.7	 Robot dioperasikan oleh operator melalui koneksi 
+nirkabel.
+4.2.8.8	 Kecepatan robot dibatasi tidak lebih dari 40 cm/s.
+4.2.9	 PELANGGARAN
+
+--- PAGE 135 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 129
+PENGULANGAN adalah keharusan bagi setiap pelanggaran. 
+Yang dikategorikan pelanggaran adalah sebagai berikut:
+4.2.9.1	 Bagian dari ROBOT PEMAIN keluar lapangan kontes.
+4.2.9.2	 Robot menyentuh robot lawan di lapangan digital.
+4.2.9.3	 Robot menyentuh/melewati KOIN di lapangan digital.
+4.2.9.4	 ROBOT PEMAIN membawa KOIN tidak sesuai degan 
+tata cara yang yang harus diikuti.
+4.2.9.5	 Anggota Tim tertangkap KAMERA UTAMA.
+4.2.9.6	 Tim mulai menggerakkan ROBOT PEMAIN sebelum 
+aba-aba “mulai” diberikan. Pertandingan (kedua Tim) 
+diulang kembali. 
+4.2.9.7	 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s.
+4.2.9.8	 Tindakan lain yang melanggar aturan yang tidak 
+termasuk dalam diskualifikasi dianggap sebagai 
+pelanggaran.
+4.2.10	 DISKUALIFIKASI
+Suatu tim didiskualifikasikan bila melakukan hal-hal berikut 
+ini selama pertandingan:
+4.2.10.1	Anggota 
+Tim 
+menyentuh 
+ROBOT 
+PEMAIN 
+di 
+LAPANGAN PHISIK saat kontes berlangsung.
+4.2.10.2	Anggota Tim menggerakkan/mendorong KOIN di 
+LAPANGAN PHISIK.
+4.2.10.3	Anggota Tim masuk ke LAPANGAN PHISIK saat kontes 
+berlangsung.
+4.2.10.4	Tim tidak mematuhi instruksi atau peringatan yang 
+dikeluarkan oleh wasit.
+4.2.10.5	Tim telah menggerakkan ROBOT PEMAIN sebelum 
+
+--- PAGE 136 ---
+ii130 Pedoman KRI 2021
+Pedoman KRI 2021
+aba-aba mulai diberikan, sebanyak tiga kali dalam 
+satu kontes.
+4.2.11	 TIM
+4.2.11.1	Satu tim terdiri atas 4 (empat) orang mahasiswa, 
+disebut sebagai anggota tim, dan satu pembimbing 
+yang semuanya berasal dari perguruan tinggi yang 
+sama.
+4.2.11.2	Empat orang mahasiswa pada satu tim berhak untuk 
+berpartisipasi dalam kontes.
+4.2.12	 KESELAMATAN
+Robot harus dirancang dan dibuat agar tidak menimbulkan 
+bahaya apapun bagi orang atau peserta di tiap-tiap Tim.
+5.	 Hak Kekayaan Intelektual
+Hak Kekayaan Intelektual dari rancangan robot pada kontes ini 
+sepenuhnya milik tim peserta.
+6.	 Lain-lain
+6.1	 Keabsahan dari setiap tindakan yang tidak diatur dalam buku aturan 
+ini tunduk pada kebijaksanaan juri.
+6.2	 Semua pertanyaan harus ditujukan ke situs web resmi Kontes Robot 
+Tematik Indonesia 2021 http://kontesrobotindonesia.id.  Bagian FAQ 
+disediakan di situs tersebut. Pemberitahuan tambahan dan / atau 
+koreksi ke buku aturan ini adalah dibuat di situs web tersebut.
+
+--- PAGE 137 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 131
+7.	 Penutup
+Informasi lebih lanjut pelaksanaan Kontes Robot Tematik Indonesia 
+(KRTMI) akan diinformasikan melalui website http://pusatprestasinasional.
+kemdikbud.go.id dan melalui email resmi, yaitu dikti.puspresnas@
+kemdikbud.go.id. Pertanyaan teknis terkait KRTMI dapat disampaikan 
+melalui email: indrawanto@kontesrobotindonesia.id
+
+--- PAGE 138 ---
+ii132 Pedoman KRI 2021
+Pedoman KRI 2021
+LAMPIRAN
+ARENA KONTES DAN ROBOT
+LAPANGAN DIGITAL dengan ukuran setara dengan LAPANGAN PHISIK
+
+--- PAGE 139 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 133
+ZONA NON-DAM pada LAPANGAN DIGITAL yang ditandai oleh silang 
+garis sesuai warna tim. Pada zona tersebut tidak berlaku kemenangan 
+DAM bagi tim sesuai warna saat kontes
+ROBOT PEMAIN
+Ukuran ROBOT PEMAIN. Pada saat kontes, bagian samping ROBOT PEMAIN harus 
+
+--- PAGE 140 ---
+ii134 Pedoman KRI 2021
+Pedoman KRI 2021
+ditutup dengan penutup berwarna HIJAU sewarna dengan LAPANGAN PHISIK.
+RAK DAN KOIN
+ 
+Rak tempat koin, bisa dibuat dari kayu, plat atau batang dari logam. Koin 
+terbuat dari styrofoam dengan diameter 15 cm tebal 3 cm diberi warna 
+merah atau biru. Setiap tim menyiapkan 12 koin merah dan 12 koin biru
+
+--- PAGE 141 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 135
+LAPANGAN PHISIK
+LAPANGAN PHISIK bisa dibuat dari papan yang dicat dengan warna hijau atau 
+lantai yang ditutup dengan kain warna hijau (green screen). ROBOT PEMAIN 
+diletak pada ZONA AWAL seperti terlihat pada gambar dan KOIN yang disusun 
+pada rak diletakkan pada pinggir sisi lapangan. KAMERA UTAMA diletakkan 
+pada tengah LAPANGAN PHISIK pada ketinggian tertentu. LAPANGAN PHISIK 
+harus dilengkapi dengan sistem penerangan yang ditentukan. Letak kamera, 
+jenis kamera, sistem penerangan akan disampaikan pada aturan tambahan 
+(addendum) menyusul.

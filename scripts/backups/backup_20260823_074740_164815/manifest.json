@@ -1,0 +1,10 @@
+{
+  "backup_id": "backup_20260823_074740_164815",
+  "timestamp": "2026-08-23T07:47:40.168330",
+  "reason": "Remove team member: test-challenger2-senior-researcher",
+  "files": [
+    "teamData.ts",
+    "krtmiData.ts",
+    "galleryData.ts"
+  ]
+}

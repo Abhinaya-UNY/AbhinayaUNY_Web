@@ -1,0 +1,695 @@
+
+--- PAGE 1 ---
+Kontes Robot Tematik Indonesia 2019 
+ 
+ 
+ 
+ 
+ 
+Tema: Robot Pertanian Padi 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Juni 2019 
+Direktorat Kemahasiswaan 
+Direktorat Jenderal Pembelajaran dan Kemahasiswaan 
+Kementerian Riset, Teknologi dan Pendidikan Tinggi 
+ 
+ 
+ 
+
+--- PAGE 2 ---
+ 
+ 
+ 
+ 
+ 
+Tema Kontes 
+Robot Pertanian Padi 
+Slogan: 
+”Kecukupan Pangan, Ketahanan Negara” 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ver 0.0, 20122018 
+Disiapkan oleh Indrawanto 
+Juri Kontes Robot Indonesia 
+ 
+
+--- PAGE 3 ---
+Daftar Isi 
+1.  Latar Belakang 
+2. Konsep dari Kontes 
+3. Tentang Keselamatan 
+4. Aturan Kontes 
+5. Subsidi Biaya dan Pembuatan Robot  
+6. Lain-lain 
+7. Alamat Panitia 
+Lampiran 
+ 
+Arena Kontes 
+ 
+Formulir Pengajuan Peserta 
+ 
+
+--- PAGE 4 ---
+1. Latar Belakang 
+Pada tahun 2003, Direktorat Jenderal Pendidikan Tinggi Departemen Pendidikan dan Kebudayaan, 
+melalui Direktorat Penelitian dan Pengabdian kepada Masyarakat, mulai mendanai Kontes Robot 
+Indonesia. Kontes Robot Indonesia tahun 2003 ini mengadopsi kontes yang diselenggarakan oleh 
+ABU Robocon. Selanjutnya tahun 2004 ditambahkan divisi Kontes Robot Cerdas Indonesia yang 
+mengadopsi kontes Robot Pemadam Api di Trinity College Amerikas Serikat. Divisi pada Kontes 
+Robot Indonesia selajutnya bertambah hingga tahun 2018 terdapat 5 divisi yakni; Kontes Robot ABU 
+Indonesia (KRAI), Kontes Robot Pemadam Api Indonesia(KRPAI) Berkaki, Kontes Robot Seni Tari 
+Indonesia (KRSTI), Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid, Kontes Robot Sepak Bola 
+Indonesia (KRSBI) Beroda. 
+Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 sebagian besar mengadopsi 
+kontes robot sejenis yang diselenggarakan di luar negeri. Melihat kondisi dan kebutuhan nasional, 
+mulai tahun 2019, Direktorat Kemahasiswaan - Direktorat Jenderal Pembelajaran dan 
+Kemahasiswaan 
+- 
+Kementerian 
+Riset, 
+Teknologi 
+dan 
+Pendidikan 
+Tinggi 
+memprakarsai 
+penyelenggaraan divisi baru di Kontes Robot Indonesia yakni Kontes Robot Tematik Indonesia 
+(KRTMI) dengan mengambil tema sesuai kebutuhan nasional yang mendesak untuk diselesaikan. 
+Untuk tema Kontes Robot Tematik Indonesia 2019 ini mengambil tema Robot Pertanian Padi yang 
+mana masalah kecukupan pangan saat ini dinilai sangat penting bagi ketahanan bangsa dan negara. 
+Hingga saat ini ketersediaan pangan kita masih tergantung dari impor dari banyak negara, sementara 
+Indonesia memiliki wilayah yang luas yang secara optimal belum mampu menghasilkan bahan 
+pangan yang cukup bagi penduduknya. Kontes Robot Tematik Indonesia 2019 ini diharapakan 
+menjadi wadah untuk mengembangkan dan menyemaikan ide-ide untuk meningkatkan produktifitas 
+pertanian pangan melalui otomasi dan robotika. 
+ 
+ 
+
+--- PAGE 5 ---
+2. Konsep dari Kontes 
+Kecukupan Pangan bagi suatu bangsa merupakan salah satu tiang penopang ketahanan dan 
+kemajuan bangsa. Bahan pokok pangan dihasilkan dari pertanian. Kemajuan teknologi di bidang 
+robotika saat ini telah dimanfaatkan untuk pertanian di banyak negara.  Indoneia memiliki banyak 
+pulau dengan kondisi dan kontur tanah yang berbeda-beda. Pertanian di lahan sempit dan berbukit, 
+tanah lembek dan bergambut adalah tantangan untuk menciptakan robot pertanian yang dapat 
+membantu dalam tahap-tahapan pekerjaan pertanian. Dengan mempertimbangkan kondisi alam 
+tersebut guna untuk mengintensifkan dan mengekstensifkan pertanian bahan pangan, perlu 
+dikembangkan robot pertanian yang khas kondisi di Indonesia. 
+Pada kontes ini dirancang satu robot yang dikendalikan dari jarak jauh secara nir kabel yang mampu 
+untuk melakukan simulasi menanam padi, mencabut rumput di antara pohon padi dan memanen 
+padi. Robot dirancang agar mampu melewati tanah lembek saat menanam padi dan mencabut 
+rumput. 
+Pada langkah pertama robot harus bergerak untuk menanam padi. Permukaan sawah dimana padi 
+akan ditanam adalah berupa lembaran busa terbungkus kain dengan tebal 100 mm dengan daya 
+dukung permukaan sebesar 4x10-4 N/mm3. Robot harus bergerak memasuki sawah pertama (zona 
+tanam) lalu menanam bibit padi. Setelah selesai menanam bibit padi robot bergerak menuju sawah 
+kedua (zona penyiangan) untuk mencabut rumput yang tumbuh di antara pohon padi. Setelah 
+selesai mencabut semua rumput robot bergerak menuju sawah dengan padi yang telah siap panen 
+(zona panen). Pada sawah terakhir ini robot harus dapat memanen padi yakni memegang dan 
+memotong pohon padi. 
+ 
+3. TENTANG KESELAMATAN 
+Keselamatan adalah salah satu elemen penting pada keberlangsung Kontes Robot Tematik Indonesia 
+ini. 
+Keselamatan adalah yang pertama dalam merancang robot dan merupakan isu utama untuk prinsip 
+keselamatan pada kontes. Tim peserta, yang merupakan perancang robot, bertanggung jawab untuk 
+keselamatan robot mereka. 
+Tim harus bekerjasama dengan panitia untuk memastikan keselamatan selama kontes. 
+Keselamatan harus selalu menjadi prioritas utama dan harus menjadi perhatian bagi semua orang 
+yang terlibat pada kontes yang meliputi panitia, peserta dan penonton dalam semua keadaan. 
+Tim diminta untuk memperhatikan keselamatan robot mereka sebelum mengikuti kontes. 
+Robot yang akan mengikuti kontes harus dapat diamati apakah rancangan robot memenuhi 
+keselamatan melalui pemeriksaan video dan saat uji coba. 
+Anggota tim harus menggunakan sepatu, helm, dan kacamata pelindung selama perlombaan dan 
+uji coba. 
+ 
+
+--- PAGE 6 ---
+4. ATURAN KONTES 
+Sebutan dan Definisi  
+Sebutan dan definisi yang digunakan pada Kontes Robot Tematik 2019 adalah dinyatakan pada tabel 
+berikut ini. 
+# 
+Sebutan 
+Definisi 
+1 
+Robot Padi  
+Adalah satu robot yang dikendalikan dengan kendali jarak jauh nir 
+kabel. 
+Robot 
+ini 
+berfungsi 
+untuk 
+menanam 
+padi, 
+menyiangi/mencabut rumput di antara pohon padi dan memanen 
+padi 
+2 
+Bibit Padi 
+Pohon padi hasil penyemaian yang akan ditanah di sawah.  Pada 
+kontes ini robot wajib menanam 3 (tiga) pohon padi sebelum 
+melanjutkan ke area sawah berikutnya.  
+3 
+Rumput 
+Rumput adalah tanaman yang ikut tumbuh di ladang padi dan 
+harus dibuang agar tidak mengganggu pertumbuhan padi. Pada 
+kontes ini robot wajib mencabut 2 (dua) batang rumput.  
+4 
+Padi Kuning 
+Padi kuning adalah padi yang siap dipanen yang mana robot harus 
+memotong batang padi dan mengangkatnya.  
+5 
+Panen Raya 
+Robot yang pertama berhasil menyelesaikan semua misi tanpa ada 
+hukuman akan langsung dinyatakan menang dan disebut sebagai 
+“PANEN RAYA” 
+6 
+Zona Awal 
+Zona dimana robot diletakkan sesaat sebelum pertandingan 
+dimulai. 
+7 
+Zona Tanam 
+Zona tanam merupakan ladang untuk menanam padi. Permukaan 
+sawah ini dibuat dari busa yang dibungkus dengan kain untuk 
+mensimulasi kondisi tanah yang lembek dan berair saat musim 
+tanam. Pada zona ini robot ditugaskan untuk menanam 3 (tiga) 
+batang Bibit Padi pada tempat tertentu untuk dapat melajutkan ke 
+zona selanjutnya. Saat menanam bibit padi, robot harus masuk ke 
+Zona Tanam. Robot boleh menanam bibit padi lebih dari tiga. 
+8 
+Zona Penyiangan 
+Pada zona penyiangan terdapat pohon padi yang telah tumbuh 
+namun pada saat yang sama juga tumbuh rumput di antara pohon 
+padi. Pada zona ini robot ditugaskan untuk mencabut 2 (dua) 
+rumput di antara pohon padi. Kondisi permukaan zona ini sama 
+dengan zona tanam. Saat mencabut rumput robot harus berada di 
+dalam Zona Penyiangan. 
+9 
+Zona Panen 
+Pada zona panen terdapat satu pohon padi yang telah menguning. 
+Pada zona ini robot ditugaskan untuk memegang, memotong dan 
+mengangkat pohon padi yang telah dipotong.  Saat memotong padi 
+robot harus berada di dalam Zona Panen. 
+ 
+4.1 TATACARA PERTANDINGAN DAN TUGAS PERLOMBAAN 
+Setiap tim harus menyelesaikan tugas dengan urutan sebagai berikut 
+4.1.1 
+Pengaturan Robot 
+4.1.1.1 Tim diberi kesempatan untuk mengatur robotnya selama satu menit sebelum 
+robot dimulai yang ditandai dengan aba-aba untuk memulai dan mengakhiri 
+pengaturan 
+
+--- PAGE 7 ---
+4.1.1.2 3 (Tiga) anggota tim dan (1) satu anggota kru pit diperbolehkan untuk melalukan 
+proses pengaturan. 
+4.1.1.3 Bila tim tidak berhasil menyelesaikan pengaturan dalam waktu satu menit, 
+mereka dapat melanjutkannya setelah pertandingan dimulai. Setelah 
+pengaturan selesai dilakukan, tim dapat men-start robotnya dengan ijin wasit 
+4.1.2 
+Pergerakan robot pada awal dimulainya pertandingan dan anggota tim selama 
+pertandingan 
+4.1.2.1 Robot harus di-start dari ZONA AWAL. Robot harus berada tepat di dalam ruang 
+ZONA AWAL. 
+4.1.2.2 Semua anggota tim harus berada di luar lapangan pertandingan saat robot di-
+start. 
+4.1.2.3 Semua anggota tim harus berada di luar lapangan pertandingan, kecuali saat 
+PENGULANGAN (retry). 
+4.1.2.4 Robot dilarang memasuki ruang pertandingan lawan. 
+4.1.3 
+BIBIT PADI 
+4.1.3.1 Setiap tim akan diberikan 6 Bibit Padi padi oleh panitia. 
+4.1.3.2 Saat pertandingan dimulai robot boleh mengambil Bibit Padi atau dimuatkan 
+sebelumnya oleh anggota tim di zona awal. 
+4.1.3.3 Anggota tim tidak diperkenankan menyentuh robot, kecuali saat memuatkan 
+BIBIT PADI di zona awal, robot boleh tersentuh oleh anggota tim. 
+4.1.3.4 Robot paling banyak hanya membawa 3 (tiga) batang pohon BIBIT PADI sekali 
+ambil di zona AWAL. 
+ 
+4.1.4 
+Membawa BIBIT PADI 
+4.1.4.1 Saat robot bergerak dari ZONA AWAL menuju ke ZONA TANAM apabila BIBIT 
+PADI terjatuh di perjalanan maka boleh diambil oleh anggota tim setelah 
+diijinkan oleh wasit dan mengembalikannya ke ZONA AWAL. 
+4.1.4.2 Robot diperbolehkan untuk dimuati atau mengambil BIBIT PADI hanya di zona 
+awal. 
+ 
+4.1.5 
+Tugas di ZONA TANAM 
+4.1.5.1 Sesampainya di ZONA TANAM robot harus menanam satu per satu BIBIT PADI 
+pada lokasi tertentu. 
+4.1.5.2 BIBIT PADI yang tidak berhasil ditanam di ZONA TANAM tidak boleh diambil dan 
+dikembalikan ke ZONA AWAL. 
+4.1.5.3 BIBIT PADI yang terjatuh boleh dipindahkan ke luar ZONA TANAM agar tidak 
+mengganggu robot saat tim minta PENGULANGAN. 
+4.1.5.4 Saat PENGULANGAN, BIBIT PADI yang telah tertanam bila diperlukan boleh 
+diambil untuk dibawa ke ZONA AWAL, kecuali BIBIT PADI yang terjatuh atau 
+tidak tertanam pada ZONA TANAM tidak boleh dibawa kembali ke ZONA AWAL. 
+4.1.5.5 BIBIT PADI dinyatakan tertanam bila berdiri di tempat tertentu pada ZONA 
+TANAM. 
+4.1.5.6 Setelah selesai menanam 3 (tiga) batang BIBIT PADI, robot boleh keluar dari 
+ZONA TANAM melalui lintasan tertentu menuju ZONA PENYIANGAN. 
+4.1.5.7 Robot boleh menanam lebih dari 3 (tiga) batang BIBIT PADI. 
+
+--- PAGE 8 ---
+4.1.5.8 Bila tim meminta PENGULANGAN pada zona ini, robot harus dikembalikan ke 
+ZONA AWAL. 
+ 
+4.1.6 
+Tugas di ZONA PENYIANGAN 
+4.1.6.1 Pada ZONA PENYIANGAN robot harus mengambil/mencabut 2 (dua) rumput 
+yang berada di antara pohon padi. 
+4.1.6.2 Saat bergerak di ZONA PENYIANGAN robot tidak boleh melindas dan/atau 
+mencabut pohon padi. 
+4.1.6.3 Bila robot melindas dan/atau mencabut pohon padi maka mendapat 
+HUKUMAN, yakni bukan pengurangan nilai tetapi robot tidak bisa mencapai 
+PANEN RAYA. 
+4.1.6.4 Bila robot mengalami gangguan saat berada di zona ini, tim boleh meminta 
+PENGULANGAN kepada wasit, dan robot di start ulang di tempat setelah ZONA 
+TANAM. 
+4.1.6.5 Robot tidak diperkenankan melanjutkan ke zona berikutnya bila belum 
+menyelesaikan seluruh tugas pada ZONA PENYIANGAN 
+4.1.6.6 Setelah Robot menyelesaikan seluruh tugas di ZONA PENYIANGAN, robot boleh 
+melanjutkan misi menuju ke ZONA PANEN melalui lintasan yang telah 
+ditentukan. 
+ 
+4.1.7 
+Tugas di ZONA PANEN 
+4.1.7.1 Di ZONA PANEN robot harus memegang batang padi, memotongnya dan 
+mengangkatnya.. 
+4.1.7.2 Bila robot berhasil memegang, memotong dan mengangkat PADI KUNING tanpa 
+adanya HUKUMAN pada zona sebelumnya maka pertandingan selesai. 
+4.1.7.3 Robot yang paling dulu menyelesaikan pertandingan tanpa HUKUMAN akan 
+memenangkan pertandingan dan mendapat sebutan “PANEN RAYA” 
+4.1.7.4 Robot yang berhasil memotong padi namun terkena HUKUMAN tidak mendapat 
+“PANEN RAYA” namun nilainya dihitung berdasarkan tugas yang diselesaikan 
+dan HUKUMAN yang didapat. 
+4.1.7.5 Tim boleh minta PENGULANGAN bila robot mengalami gangguan di zona ini dan 
+di-start ulang di tempat setelah ZONA PENYIANGAN. 
+ 
+4.1.8 
+Anggota tim tidak boleh melakukan pengaturan ulang saat PENGULANGAN kecuali di 
+ZONA AWAL. 
+4.1.9 
+Pada keadaan darurat, dengan ijin dari wasit, satu orang anggota tim dapat 
+memasuki lapangan kontes untuk menekan tombol darurat. 
+4.1.10 Selama pertandingan anggota tim hanya boleh berada di ZONA PEMAIN kecuali bila 
+meminta PENGULANGAN. 
+ 
+4.2 PENGULANGAN ROBOT 
+4.2.1 
+Pengulangan dapat dilakukan hanya dengan ijin wasit. 
+4.2.2 
+Anggota tim harus meletakkan robot di tempat yang telah ditentukan untuk 
+pengulangan. 
+
+--- PAGE 9 ---
+4.2.3 
+Tidak ada batas untuk pengulangan. Pengulangan diperbolehkan oleh aturan dengan 
+persetujuan dari wasit. 
+4.2.4 
+Strategi dengan memanfaatkan pengulangan diperbolehkan 
+ 
+4.3 MEMUTUSKAN PEMENANG 
+4.3.1 
+Tim pertama yang berhasil melakukan tugas MENANAM PADI, MENYIANGI dan 
+MEMANEN PADI tanpa HUKUMAN yakni tidak ada POHON PADI yang terlindas 
+dan/atau tercabut di ZONA PENYIANGAN akan memenangkan pertandingan dan 
+pertandingan langsung dihentikan. Pemenangnya disebut “PANEN RAYA”. 
+4.3.2 
+Bila tidak ada tim yang mencapai “PANEN RAYA” pada akhir pertandingan 3 menit, 
+pemenangnya ditentukan berdasarkan nilai yang berhasil dikumpulkan. Tim yang 
+memiliki nilai lebih tinggi adalah pemenangnya. Nilai untuk setiap tigas dinayatakan 
+sebagai berikut: 
+ 
+Tugas 
+Nilai 
+Satu batang padi yang berhasil ditanam 
+10 
+Satu rumput yang berhasil dicabut 
+15 
+Padi yang dipanen 
+30 
+ 
+4.3.3 
+Hasil pertandingan  
+4.3.3.1 Hasil pertandingan diumumkan setelah 3-menit pertandingan setelah wasit 
+selesai memeriksa dan memastikan setiap tugas telah diselesaikan. 
+4.3.3.2 Akhir pertandingan: 
+4.3.3.2.1 
+3 menit telah berlalu. 
+4.3.3.2.2 
+Salah satu tim didiskualifikasi. 
+4.3.3.2.3 
+Salah satu tim mencapai “PANEN RAYA” 
+4.3.3.3 Pada kasus dimana tidak ada yang mencapai PANEN RAYA, pemenangnya 
+diputuskan berdasarkan urutan berikut ini: 
+4.3.3.3.1 
+Tim yang berhasil mengumpulkan nilai yang lebih tinggi 
+4.3.3.3.2 
+Tim yang berhasil lebih dulu menyelesaikan tugas di ZONA PANEN. 
+4.3.3.3.3 
+Tim yang berhasil lebih dulu menyelesaikan tugas di ZONA 
+PENYIANGAN. 
+4.3.3.3.4 
+Tim yang berhasil lebih dulu menyelesaikan tugas di ZONA TANAM. 
+4.3.3.3.5 
+Tim yang dinyatakan menang oleh JURI 
+ 
+4.4 RANCANGAN DAN PENGEMBANGAN ROBOT 
+4.4.1 
+Setiap tim membangun satu robot. 
+4.4.2 
+Robot tidak boleh terbelah menjadi sub-bagian yang dihubungkan dengan kabel. 
+4.4.3 
+Robot pada kontes ini harus dibangun oleh anggota tim dari satu perguruan tinggi. 
+4.4.4 
+Berat robot. 
+Berat total robot, kontroller, kabel, baterai yang digunakan pada pertandingan tidak 
+boleh melebihi 25 kg. Perlengkapan lain yang dibawa tim untuk keperluan persiapan 
+dan baterai cadangan (yang sejenis seperti yang terpasang di robot) tidak termasuk. 
+ 
+ 
+
+--- PAGE 10 ---
+4.4.5 
+Catu daya robot 
+4.4.5.1 Setiap tim harus menyiapkan catu daya sendiri 
+4.4.5.2 Tim hanya boleh menggunakan baterai dan/atau udara tekan sebagai catu daya. 
+4.4.5.3 Semua baterai yang digunakan di robot, kontroller, dan perangkat lainnya 
+selama pertandingan harus tidak melebihi tegangan nominal 24V. Bila baterai 
+dihubungan secara seri atau parallel, tegangan total harus 24 V atau kurang. 
+4.4.5.4 Tim yang menggunakan udara tekan harus menggunakan wadah yang dibuat 
+untuk tujuan tersebut, atau botol plastik dalam kondisi baik yang disiapkan 
+dengan tepat. Tekanan udara tidak boleh melebihi 600kPa. 
+4.4.5.5 Catu daya  lain yang dianggap berbahaya dapat dilarang digunakan. 
+ 
+4.4.6 
+Rancangan Aman Gagal 
+4.4.6.1 Bila digunakan beberapa sistem catu daya, maka harus dirancang sirkuit dan 
+mekanisme agar robot tidak lepas kendali atau bergerak dengan berbahaya, bila 
+ada satu atau lebih pasokan daya yang hilang, atau perubahan/kesalahan dari 
+urutan menyalakan daya. 
+4.4.6.2 Bila terjadi kegagalan transmisi sinyal untuk kendali, system harus dirancang 
+agar sirkuit dan mekanisme tidak lepas kendali atau bergerak dengan berbahaya 
+meskipun koneksi gagal. 
+4.4.6.3 Gunakan kabel, konektor, terminal, dll. dengan kapasitas arus yang sama 
+dengan, atau lebih tinggi dari asumsi arus maksimum. 
+ 
+4.4.7 
+Robot Pertanian Padi 
+4.4.7.1 Robot pertanian padi ini bekerja dengan cara manual dengan kendali jarak jauh 
+nir kabel. 
+4.4.7.2 Robot Pertanian harus pas pada zona AWAL (lebar 500mm x panjang 500mm). 
+Robot harus memiliki dimensi tidak lebih dari 1000 mm pada lebar, panjang dan 
+tinggi selama pertandingan. 
+4.4.7.3 Robot diperbolehkan untuk memperbesar, merentangkan atau memperpanjang 
+selama dimensinya masih dalam batas dimensi yang diijinkan. 
+4.4.7.4 Robot dioperasikan oleh operator melalui koneksi nir kabel. 
+4.4.7.5 Kontroller Wifi dan Bluetooth diperbolehkan untuk mengoperasikan Robot. 
+Panitia tidak akan mengontrol Wifi dan Bluetooth. 
+4.4.7.6 Kendali jarak jauh menggunakan inframerah, sinar tampak, sonar, suara atau 
+frekuensi radio tidak diperbolehkan. 
+ 
+4.4.8 
+Pemeriksaan robot 
+4.4.8.1 Robot yang berpartisipasi diperiksa sebelum uji coba pada hari sebelum kontes, 
+dan lagi pada hari kontes sebelum kontes dimulai. Tim yang tidak lulus uji tidak 
+diizinkan untuk berpartisipasi dalam uji coba atau kontes. 
+ 
+4.5 PELANGGARAN 
+PENGULANGAN adalah keharusan bagi setiap pelanggaran. Yang dikategorikan pelanggaran 
+adalah sebagai berikut: 
+4.5.1 
+Bagian dari robot keluar lapangan pertandingan. 
+
+--- PAGE 11 ---
+4.5.2 
+Bagian robot masuk ke zona berikutnya sebelum menyelesaikan tugas pada zona 
+sebelumnya. 
+4.5.3 
+Anggota tim masuk ke lapangan saat pertandingan (kaki menginjak lapangan 
+pertandingan). 
+4.5.4 
+Anggota tim menyentuh robot saat pertandingan. 
+4.5.5 
+Tim mulai menggerakkan robot sebelum aba-aba mulai diberikan. Pertandingan 
+(kedua tim) diulang kembali. 
+4.5.6 
+Tindakan lain yang melanggar aturan yang tidak termasuk dalam diskualifikasi 
+dianggap sebagai pelanggaran. 
+ 
+4.6 DISKUALIFIKASI 
+Suatu tim didiskualifikasikan bila melakukan hal-hal berikut ini selama pertandingan: 
+4.6.1 
+Tim secara sengaja merusak atau mencoba merusak lapangan, fasilitas, 
+perlengkapan atau robot lawan. 
+4.6.2 
+Robot memasuki lapangan pertandingan lawan (termasuk ruang di atasnya). 
+4.6.3 
+Tim melakukan tindakan yang tidak dalam semangat bermain yang adil. 
+4.6.4 
+Tim tidak mematuhi instruksi atau peringatan yang dikeluarkan oleh wasit. 
+4.6.5 
+Tim telah menggerakkan robot sebelum aba-aba mulai diberikan sebanyak tiga kali 
+dalam pertandingan yang sama. 
+ 
+4.7 KESELAMATAN 
+4.7.1 
+Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun 
+bagi orang di tempat pertandingan. 
+4.7.2 
+Robot harus dirancang dan dibuat agar tidak menyebabkan kerusakan apa pun pada 
+robot tim lawan atau lapangan. 
+4.7.3 
+Tombol berhenti darurat harus disediakan di robot pada posisi yang mudah 
+dijangkau. 
+4.7.4 
+Penggunaan bahan peledak, api, atau bahan kimia berbahaya dilarang. 
+4.7.5 
+Penggunaan aki basah dilarang. 
+4.7.6 
+Dalam semua tahapan merancang dan menggunakan laser atau inframerah, harus 
+dilakukan dengan sangat berhati-hati untuk melindungi semua orang terhadap 
+bahaya di tempat tersebut.  Khususnya, sinar harus diarahkan sehingga tidak akan 
+mengenai mata penonton. 
+4.7.7 
+Bila digunakan laser, maka harus kelas 2 atau kurang. 
+ 
+4.8 TIM 
+4.8.1 
+Satu tim terdiri atas tiga mahasiswa, disebut sebagai anggota tim, dan satu 
+pembimbing yang semuanya berasal dari perguruan tinggi yang sama. 
+4.8.2 
+Tiga mahasiswa di tim berhak untuk berpartisipasi dalam pertandingan. 
+4.8.3 
+Selain itu, dua anggota kru pit diizinkan untuk membantu di area pit, untuk 
+membawa robot ke lapangan, dan ikut dalam pengaturan robot. Anggota kru pit 
+harus mahasiswa yang berasal dari perguruan tinggi yang sama dengan tim. 
+4.8.4 
+Partisipasi mahasiswa pascasarjana tidak diijinkan. 
+ 
+ 
+
+--- PAGE 12 ---
+5. SUBSIDI BIAYA PEMBUATAN ROBOT 
+5.1. Tim Peserta yang lolos evaluasi dan mengikuti Kontes Nasional KRTMI–2019 akan 
+mendapatkan dana bantuan pembinaan dari panitia. 
+5.2. Bantuan biaya transportasi kendaraan darat kelas ekonomi untuk peserta dari Jawa dan 
+bantuan biaya transportasi pesawat kelas ekonomi untuk peserta dari luar Jawa dari 
+bandara tempat asal ke tempat pelaksanaan Kontes Nasional KRTMI-2019 dan akomodasi 
+Tim selama empat(4) hari bagi tiga(3) mahasiswa dan satu dosen pembimbing. 
+ 
+6. LAIN-LAIN 
+6.1. Keabsahan dari setiap tindakan yang tidak diatur dalam buku aturan ini tunduk pada 
+kebijaksanaan wasit. 
+6.2. Dimensi, berat, dll, dari lapangan, fasilitas dan peralatan yang dijelaskan di sini buku aturan 
+memiliki margin kesalahan plus atau minus 5% kecuali dinyatakan lain. Namun, dimensi dan 
+berat robot sebagaimana ditunjukkan dalam buku aturan ini adalah nilai maksimum dan 
+tidak bisa ditoleransi. 
+6.3. Semua pertanyaan harus ditujukan ke situs web resmi Kontes Robot Tematik Indonesia 2019 
+http://kontesrobotindonesia.id.  Bagian FAQ disediakan di situs tersebut. Pemberitahuan 
+tambahan dan / atau koreksi ke buku aturan ini adalah dibuat di situs web tersebut. 
+ 
+7. ALAMAT PANITIA 
+Panitia Kontes Robot Tematik Indonesia 2019, 
+Direktorat Kemahasiswaan, 
+Direktorat Jenderal Pembelajaran dan Kemahasiswaan, 
+Kementrian Riset, Teknologi, dan Pendidikan Tinggi 
+Gedung D lantai 4 
+Jln. Jenderal Sudirman, Pintu 1 Senayan 
+Jakarta Pusat 10270 
+Telp. 021-70322640 Fax. 021-5731846 
+Website : https://www.kontesrobotindonesia.id 
+E-mail : indrawanto@kontesrobotindonesia.id 
+harunnasrullah@gmail.com 
+ 
+ 
+ 
+ 
+
+--- PAGE 13 ---
+ARENA KONTES 
+ 
+Sketsa sementara arena kontes. Ukuran rinci serta kontur permukaan arena akan dijelaskan 
+menyusul. 
+ 
+Sketsa bibit padi dan padi kuning. Model rumput akan serupa dengan model bibit padi hanya 
+berbeda warna. Ukuran rinci akan diberikan menyusul. 
+ 
+
+--- PAGE 14 ---
+ 
+ 
+ 
+Formulir Pengajuan Peserta 
+KRTMI – 2019 
+ 
+ 
+
+--- PAGE 15 ---
+KONTES ROBOT TEMATIK INDONESIA 2019 
+“Robot Pertanian Padi” 
+ 
+1. Setiap Institusi hanya diperkenankan mengirimkan 1 (satu) tim saja. Tim tambahan yang 
+didaftarkan akan diabaikan. 
+2. Setiap Tim harus mengirim satu set syarat pendaftaran berupa Borang Aplikasi atau 
+Proposal. Format Borang Aplikasi atau proposal adalah seperti yang tertulis dalam panduan 
+ini dengan jumlah halaman tidak melebihi 25 (dua puluh lima) halaman. 
+3. Borang Aplikasi harus disahkan/ditandatangani oleh Wakil Rektor/Ketua/ Direktur/Dekan 
+Bidang Kemahasiswaan masing-masing Perguruan Tinggi. 
+4. Borang Aplikasi dan proposal harus sudah diterima oleh Panitia KRTMI 2019 paling lambat 
+pada 31 Januari 2019 dengan alamat pengiriman ke: 
+Panitia Kontes Robot Tematik Indonesia 2019 
+Direktorat Kemahasiswaan 
+Direktorat Jenderal Pembelajaran dan Kemahasiswaan 
+Kementrian Riset, Teknologi, dan Pendidikan Tinggi 
+Gedung D Lantai 4 
+Jln. Jenderal Sudirman, Pintu 1 Senayan 
+Jakarta Pusat 10270 
+Website : https://www.kontesrobotindonesia.id 
+E-mail : indrawanto@kontesrobotindonesia.id 
+harunnasrullah@kontesrobotindonesia.id 
+5. Borang Aplikasi atau Proposal setidaknya harus berisi informasi tentang anggota tim, 
+institusi, alamat lengkap, nomer telepon, alamat E-mail atau contact person, dan juga berisi 
+tentang deskripsi rinci tentang robot, meliputi: desain, gambar teknik, strategi untuk 
+melakukan tugas. 
+6. Panitia KRTMI 2019 akan melakukan evaluasi peserta dalam dua tahap, yaitu tahap pertama 
+berupa evaluasi proposal (administratif), dan kedua, evaluasi berdasarkan laporan kemajuan 
+pembuatan robot. Jadwal rinci dapat disimak dibagian jadwal kegiatan dalam panduan ini. 
+ 
+ 
+
+--- PAGE 16 ---
+BAGIAN SATU: INFORMASI TENTANG TIM PESERTA 
+ 
+1. TIM 
+Nama Tim (maksimum 15 karakter dan mudah untuk disebutkan) 
+……………………………………………………………………………. 
+1. Nama Ketua Tim : ............................................... (Mahasiswa) 
+2. Nama Anggota 1 : ................................................ (Mahasiswa) 
+3. Nama Anggota 2 : ................................................ (Mahasiswa) 
+4. Nama Pembimbing : ............................................ (Dosen) 
+ 
+ 
+2. INSTITUSI 
+Nama Lengkap Institusi : ……………………………………....... 
+Nama Departemen/Fakultas : ………………………………………… 
+Alamat Kontak : …………………………........................ 
+Nomer Telepon :………………… 
+Nomer FAX : …………………………. 
+Nomer Telepon Mobile (HP): ……………………………… 
+Alamat E-mail : ………………………. 
+ 
+3. Alamat lengkap, e-mail dan No. HP contact person untuk Tim dan pembimbing 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 17 ---
+BAGIAN DUA: INFORMASI TENTANG ROBOT 
+ 
+NAMA TIM ROBOT (hanya nama tim) : ______________________ 
+(Tidak boleh mencatumkan institusi tim) 
+ 
+SKETSA ROBOT 
+Gambarkan sketsa tentang rancangan robot Anda dilengkapi dengan perkiraan ukuran/dimensi serta 
+jelaskan cara kerja untuk menyelesaikan tugas pada kontes ini. Untuk diingat: dimohon untuk tidak 
+mencantumkan info apapun dalam gambar rancangan robot yang mengindikasikan nama institusi 
+pengusul. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 18 ---
+ 

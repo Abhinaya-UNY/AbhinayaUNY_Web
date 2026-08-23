@@ -1,0 +1,568 @@
+
+--- PAGE 1 ---
+ 
+ 
+ 
+ 
+PEDOMAN 
+KONTES ROBOT INDONESIA (KRI) 
+TAHUN 2024 
+ 
+ 
+BUKU 7 
+KONTES ROBOT TEMATIK INDONESIA 
+(KRTMI) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Balai Pengembangan Talenta Indonesia 
+Pusat Prestasi Nasional 
+Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi 
+Republik Indonesia  
+Desember 2023 
+ 
+ 
+
+--- PAGE 2 ---
+ 
+Pedoman KRI 2024  -  132 
+ 
+ 
+ 
+ 
+ 
+Tema Kontes 
+Robot Pemilah Sampah 
+Slogan: 
+” Penguasaan Teknologi,  
+Kemakmuran Negara” 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ver 0.0, 28122023 
+Disiapkan oleh Indrawanto 
+Juri Kontes Robot Indonesia  
+ 
+
+--- PAGE 3 ---
+ 
+Pedoman KRI 2024  -  133 
+ 
+BUKU 7. KONTES ROBOT TEMATIK 
+INDONESIA (KRTMI)  
+ 
+1. Latar Belakang 
+Masalah sampah kini menjadi salah satu masalah yang dihadapi di berbagai di kota besar 
+dunia. Sepuluh tahun lalu, berdasarkan data Bank Dunia, sekitar 1,3 miliar ton sampah kota 
+dihasilkan setiap tahunnya, dan volumenya diperkirakan akan meningkat menjadi 2,2 miliar 
+ton pada tahun 2025. Oleh karena itu, menurut data Bank Dunia, diperlukan tindakan segera 
+untuk mencegah ancaman terhadap lingkungan dan kesehatan manusia yang diakibatkan 
+oleh krisis sampah global ini. 
+Ancaman yang ditimbulkan oleh pengelolaan sampah yang buruk sangat menonjol di negara-
+negara berpendapatan rendah dimana tingkat pengumpulan sampah sering kali berada di 
+bawah 50 persen. Tumpukan sampah di sepanjang bantaran sungai; asap tebal dari 
+pembakaran terbuka limbah yang tercampur dan sebagian beracun; bau menyengat; lalat 
+dan hewan pengerat adalah pemandangan yang sangat umum. 
+Pertumbuhan penduduk yang semakin cepat, urbanisasi dan pembangunan ekonomi 
+menghasilkan peningkatan jumlah sampah yang membebani sistem pengelolaan sampah 
+yang ada. Tren ini akan terus berlangsung, yang mana pada tahun 2030, kelas menengah 
+global akan tumbuh dari 2 miliar menjadi 4,9 miliar, yang masing-masing merupakan 
+konsumen kaya baru yang mendambakan barang-barang yang lebih canggih dan boros 
+sumber daya dalam jumlah yang lebih besar. Sistem persampahan publik di perkotaan tidak 
+dapat mengimbangi perkembangan perkotaan; industrialisasi yang pesat terjadi di negara-
+negara yang belum mengembangkan sistem yang tepat untuk menangani limbah berbahaya 
+dan limbah khusus; dan meningkatnya perdagangan sampah menimbulkan tantangan yang 
+signifikan. Pengelolaan sampah adalah salah satu layanan publik yang paling kompleks dan 
+memakan banyak biaya, sehingga menghabiskan banyak anggaran kota meskipun dikelola 
+dan dijalankan dengan baik. 
+Kebutuhan dasar manusia seperti air bersih, udara bersih dan makanan yang aman terancam 
+oleh praktik pengelolaan limbah yang tidak tepat, yang berdampak buruk pada kesehatan 
+masyarakat. Pengumpulan sampah yang buruk dapat menyebabkan penyebaran penyakit 
+dan pembuangan sampah yang tidak tepat - misalnya, sampah berbahaya yang tercampur 
+dengan sampah rumah tangga bisa sangat berbahaya bagi pekerja di sektor sampah, 
+masyarakat sekitar, dan lingkungan. 
+Selain mempunyai dampak ekonomi, lingkungan dan kesehatan yang serius, pengelolaan 
+sampah yang tidak sehat mempunyai dimensi sosial. Seperti kebanyakan bahaya lingkungan, 
+kelemahan dalam pengelolaan sampah berdampak besar pada masyarakat miskin karena 
+sampah sering kali dibuang di lahan yang berdekatan dengan daerah kumuh. Karena 
+dihadapkan pada pilihan antara kelaparan atau memungut sampah, satu persen penduduk 
+perkotaan di negara-negara berkembang memilih untuk memulung sampah di tempat 
+pembuangan sampah dan jalan-jalan yang kotor. 
+
+--- PAGE 4 ---
+ 
+Pedoman KRI 2024  -  134 
+ 
+Jutaan pemulung ini terpapar zat-zat berbahaya ketika mereka berusaha menyelamatkan 
+kelangsungan hidup mereka dan keluarga mereka. Timbal, merkuri, dan zat penular dari 
+rumah sakit – serta dioksin dan emisi berbahaya lainnya yang dilepaskan pada pemurnian 
+logam berharga dari limbah elektronik – tidak hanya berdampak pada kesehatan pemulung, 
+namun juga berkontribusi terhadap kontaminasi udara, tanah, dan air. 
+Bahkan di negara-negara dengan sistem pengelolaan sampah yang baik, mengumpulkan dan 
+membuang sampah di tempat yang tidak terlihat bukanlah solusi. Dalam pengelolaan 
+sampah, tidak ada yang namanya ‘membuang’. Di kemudian hari ini mungkin akan menjadi 
+halaman belakang generasi yang akan datang atau, lebih buruk lagi, mungkin mengganggu 
+kesehatan generasi berikutnya. Banyaknya sampah yang kita buang dapat dicegah dengan 
+mengubah desain suatu produk, memproduksi lebih banyak dengan sumber daya yang lebih 
+sedikit, menggunakan kembali, mendaur ulang, dll. Namun, akan selalu ada sampah yang 
+tidak dapat dicegah dan memerlukan penanganan yang tepat. 
+Jika ditangani dengan benar, pengelolaan sampah mempunyai potensi besar untuk 
+mengubah permasalahan menjadi solusi dan “memimpin jalan menuju pembangunan 
+berkelanjutan” melalui pemulihan dan penggunaan kembali sumber daya yang berharga; 
+penciptaan peluang usaha dan lapangan kerja baru, termasuk bagi sektor informal; 
+pengurangan emisi gas rumah kaca dari operasi pengelolaan limbah, seperti tempat 
+pembuangan sampah; dan konversi limbah menjadi energi. 
+Pada KRI 2024, tema Kontes Robot Tematik Indonesia 2024 adalah ROBOT PEMILAH SAMPAH. 
+Tema Kontes Robot Tematik Indonesia 2024 ini diharapkan menjadi wadah untuk 
+mengembangkan dan menyemaikan ide-ide dalam memberikan kontribusi pada pemecahan 
+masalah sampah di kota-kota besar di masa depan melalui otomasi dan robotika. 
+ 
+2. Konsep Kontes 
+Pengolahan sampah dimulai dengan pengumpulan sampah dari penduduk kemudian dibawa 
+ke fasilitas pengolahan sampah. Sesampainya di lokasi pengolahan sampah, langkah pertama 
+yang sangat krusial adalah pemilahan sampah. Sebagian sampah dari penduduk mungkin 
+sudah terpilah sesuai dengan jenis-jenis tertentu, namun sebagian yang lain masih dalam 
+keadaan tercampur. Pemilahan sampah sesuai dengan jenis-jenisnya saat ini kebanyakan 
+masih dilakukan secara manual. Pekerjaan ini selain kotor juga tidak sehat bagi pekerja karena 
+berpotensi terpapar pada zat atau bau yang berbahaya. 
+Robot pemilah sampah adalah robot yang dirancang untuk memilah sampah sesuai dengan 
+jenis sampah yang telah ditentukan, misal sampah dapur, sampah daun, kertas, plastik, logam 
+dan sebagainya. Penggunaan robot untuk memilah sampah memungkinkan untuk mengolah 
+sampah dengan cepat selama 24 jam sehari tanpa henti sehingga jumlah sampah yang dipilah 
+untuk selanjutnya diproses menjadi lebih banyak dibanding dilakukan secara manual. 
+Pemilahan sampah dengan menggunakan robot saat mulai dikembangkan di berbagai negara 
+yang mana robot akan memilah sampah yang mengalir melalu konveyor seperti diilustrasikan 
+pada gambar 1. 
+
+--- PAGE 5 ---
+ 
+Pedoman KRI 2024  -  135 
+ 
+ 
+Gambar 1. Ilustrasi robot pemilah sampah 
+https://pitchbook.com/news/articles/robots-are-ready-to-sort-our-trash-but-will-vcs-be-interested-in-the-messy-
+world-of-recycling 
+ 
+Kontes Robot Tematik Indonesia 2024 mengusung Robot Pemilah Sampah sebagai tema 
+kontes dalam rangka memperkenalkan dan menyiapkan kepada peserta kontes untuk 
+menemukan solusi masalah sampah di masa depan. Pemilahan sampah adalah aktifitas yang 
+kompleks yang mana sistem pemilah tersebut harus mampu mengenali berbagai jenis 
+material pada sampah. Untuk melakukan pemilahan ini dapat melibatkan berbagai jenis 
+sensor/detektor termasuk pemrosesan citra, dan penggunaan kecerdasan tiruan.  
+Pada kontes ini setiap tim akan membuat dua robot untuk melakukan pengumpanan dan  
+pemilahan sampah. Sampah yang dipilah terdiri dari berbagai jenis material yang berada pada 
+konveyor berjalan. Robot harus mampu mendeteksi posisi, jenis sampah dan mengambilnya 
+lalu menempatkan sampah tersebut pada wadah tertentu sesuai jenisnya. 
+ 
+
+--- PAGE 6 ---
+ 
+Pedoman KRI 2024  -  136 
+ 
+3. Rancangan Kontes 
+Kontes ini mengadu kecekatan dan keakuratan antara dua Tim dalam menggerakkan 
+robotnya, mengambil sampah yang bergerak pada konveyor lalu memasukkanya pada wadah 
+yang sesuai dengan jenis sampah. Tim harus menyiapkan dua jenis robot, satu ROBOT 
+PENGUMPAN dan satu ROBOT PEMILAH.  
+Pada saat kontes dimulai ROBOT PENGUMPAN akan bergerak mengambil KOTAK SAMPAH 
+dan kemudian bergerak membawa KOTAK SAMPAH untuk ditumpahkan isinya pada 
+konveryor pengumpan yang berupa konveyor getar. Konveyor getar berfungsi untuk 
+membantu pemisahan awal sampah agar bisa terpisah antara satu dengan lainnya yang 
+selanjutnya sampah ditumpahkan ke konveyor datar. ROBOT PEMILAH selanjutnya akan 
+mengambil sampah pada pada konveyor dan memindahkan ke KOTAK PEMILAHAN sesuai 
+dengan jenis sampah. Sketsa system pemilahan sampah pada KRTMI 2024 ditunjukkan pada 
+Gambar 2. 
+ 
+ 
+ 
+Gambar 2. Sketsa sistem pemilahan sampah KRTMI 2024. ROBOT PENGUMPAN 
+menumpahkan sampah campuran ke konveyor getar. Konveyor getar selanjutnya 
+memindahkan sampah ke konveyor datar dimana ROBOT PEMILAH akan memungut sampah 
+dan memasukkan ke kotak hasil pemilahan sesuai jenis sampah. 
+ 
+ 
+Setiap penampilan Tim pada KRTMI 2024 akan berlangsung selama 4 (empat) menit. Saat 
+kontes dimulai, ROBOT PENGUMPAN dan ROBOT PEMILAH bergerak menuju posisinya di 
+lapangan. Setelah sampah ditumpahkan ke konveyor getar, sampah secara perlahan akan 
+dibawa dan dipindahkan ke konveyor datar. Selanjutnya ROBOT PEMILAH akan mengambil 
+dan menempatkan sampah pada wadah sesuai jenisnya. Laju gerak konveyor akan selalu 
+meningkat selama kontes, dari mula-mula pelan 50 cm/menit kemudian meningkat hingga 
+200 cm/menit pada akhir kontes. 
+ 
+ 
+
+--- PAGE 7 ---
+ 
+Pedoman KRI 2024  -  137 
+ 
+4. Aturan Kontes 
+4.1  
+Sebutan dan Definisi  
+Sebutan dan definisi yang digunakan pada Kontes Robot Tematik 2024 adalah dinyatakan 
+pada tabel berikut ini. 
+ 
+# 
+Sebutan 
+Definisi 
+1 
+ROBOT PENGUMPAN 
+Adalah satu robot yang bergerak secara otomatis atau 
+dikendalikan dengan kendali jarak jauh nirkabel. Robot ini 
+berfungsi untuk mengambil kotak sampah dan menumpahkan 
+isinya di konveyor getar.  
+2 
+ROBOT PEMILAH 
+Adalah satu robot yang bergerak secara otomatis. Robot ini 
+berfungsi untuk memilah sampah dan mengumpulkan pada kotak 
+pemilahan sesuai jenis sampah. 
+3 
+KOTAK SAMPAH 
+Adalah kotak yang berisi sampah untuk dipilah. 
+4 
+KONVEYOR GETAR 
+Adalah konveyor yang memindahkan sampah dengan melalui 
+gerak bolak-balik/getaran. 
+5 
+KONVEYOR DATAR 
+Adalah konveyor untuk memindahkan sampah dimana pemilahan 
+dilakukan oleh ROBOT PEMILAH. 
+6 
+SAMPAH 
+Adalah obyek yang akan dipilah yang terdiri dari beberapa jenis 
+material, yakni: daun, kertas, plastic, logam ferro dan non ferro, 
+botol platik. 
+7 
+KOTAK PEMILAHAN 
+Adalah wadah dimana sampah hasil pemilahan disimpan. 
+8 
+KOTAK PEMBUANGAN 
+Adalah wadah bilamana sampah yang tidak berhasil diambil oleh 
+ROBOT PEMILAH maka sampah akan jatuh ke KOTAK 
+PEMBUANGAN. 
+9 
+ZONA UMUM 
+Adalah zona dimana dapat diakses oleh ROBOT PENGUMPAN oleh 
+kedua Tim. Pada ZONA UMUM diletakkan KOTAK SAMPAH. 
+10 
+ZONA AWAL 
+Adalah zona dimana awal ROBOT bergerak. 
+11 
+ZONA KOTAK 
+Adalah zona dimana ROBOT meletak KOTAK SAMPAH yang telah 
+kosong. 
+ 
+ 
+4.2 
+Tata Cara Pertandingan dan Tugas Kontes 
+Setiap tim harus menyelesaikan tugas dengan urutan sebagai berikut: 
+ 
+4.2.1 Persiapan Robot 
+4.2.1.1 
+Tim diberi kesempatan untuk mengatur ROBOT PENGUMPAN dan ROBOT 
+PEMILAH selama satu menit sebelum kontes dimulai yang ditandai dengan 
+aba-aba untuk memulai dan mengakhiri pengaturan. Saat persiapan ini 
+anggota Tim boleh memasuki LAPANGAN untuk meletakkan ROBOT 
+PENGUMPAN dan ROBOT PEMILAH. 
+4.2.1.2 
+Sebanyak 4 (empat) anggota Tim diperbolehkan untuk melakukan proses 
+persiapan ini. 
+
+--- PAGE 8 ---
+ 
+Pedoman KRI 2024  -  138 
+ 
+4.2.1.3 
+Bila Tim tidak berhasil menyelesaikan persiapan dalam waktu satu menit, 
+seluruh anggota Tim harus keluar dari lapangan. Tim dapat melanjutkannya 
+persiapan setelah pertandingan dimulai dan segera meninggalkan lapangan 
+bila ROBOT akan berjalan. 
+ 
+4.2.2 Pergerakan ROBOT dan anggota Tim selama kontes 
+4.2.2.1 
+ROBOT PENGUMPAN dan PEMILAH harus di-start dari ZONA AWAL. Robot 
+harus berada tepat di dalam ruang ZONA AWAL. 
+4.2.2.2 
+Semua anggota Tim harus berada di luar LAPANGAN saat kontes dimulai 
+hingga kontes berakhir kecuali bila Tim meminta untuk memperbaiki robot. 
+4.2.2.3 
+Apabila ROBOT mengalami Error maka robot boleh diangkat oleh anggota 
+Tim dengan memberi tanda pemberitahuan ke wasit. Robot dapat 
+diperbaiki di ZONA AWAL dan apabila sudah siap dapat dapat langsung di-
+start. Selama perbaikan, waktu kontes terus berjalan. 
+ 
+4.2.3 SAMPAH 
+4.2.3.1 
+Sampah terdiri atas berbagai jenis material yakni; daun (basah dan kering), 
+kertas (warna putih dan warna), lembaran plastik (putih dan warna), logam 
+(ferro dan non ferro), dan botol plastik air (dipres). 
+4.2.3.2 
+Setiap Tim menyiapkan jenis-jenis sampah tersebut hanya untuk seleksi 
+wilayah. 
+ 
+4.2.4 Mengumpankan SAMPAH 
+4.2.4.1      KOTAK SAMPAH berada pada ZONA UMUM yang boleh diangkat oleh kedua 
+Tim.  
+ 
+4.2.4.2      Setiap KONTAK SAMPAH berisi 4 sampah yang acak isinya. 
+4.2.4.2 
+ROBOT PENGUMPAN boleh mengambil KOTAK SAMPAH yang berada di sisi 
+lawan, bila robot lawan tidak berada di ZONA UMUM. 
+4.2.4.3 
+ROBOT PENGUMPAN boleh mengambil KOTAK SAMPAH yang berada di sisi 
+lawan bilamana ROBOT PENGUMPAN telah berhasil mengangkat KOTAK 
+SAMPAH saat robot lawan memasuki ZONA UMUM. 
+4.2.4.4 
+ROBOT PENGUMPAN hanya boleh mengambil 1 (satu) kotak sampah saat di 
+ZONA UMUM, tidak boleh memindahkan kotak sampah selain yang diambil. 
+4.2.4.5 
+ROBOT PENGUMPAN mengangkat KOTAK SAMPAH, membawa keluar ZONA 
+UMUM lalu menumpahkan sampah ke KONVEYOR GETAR.  
+4.2.4.6 
+Setelah ditumpahkan, KOTAK SAMPAH diletakkan ke ZONA KOTAK. 
+4.2.4.7 
+Bila ROBOT PENGUMPAN gagal menumpahkan sampah pada KONVEYOR 
+GETAR, SAMPAH yang terjatuh di lapangan boleh diambil oleh ROBOT 
+
+--- PAGE 9 ---
+ 
+Pedoman KRI 2024  -  139 
+ 
+PENGUMPAN untuk diletakkan pada KONVEYOR GETAR. SAMPAH yang 
+terjatuh di lantai dan tidak diambil hingga waktu kontes berakhir akan 
+memberikan pengurangan nilai. 
+4.2.4.8 
+ROBOT PENGUMPAN hanya boleh memasuki ZONA UMUM untuk 
+mengambil KOTAK SAMPAH dan segera keluar dari ZONA UMUM, tidak 
+boleh melakukan aktifitas lain untuk menghalangi robot lawan mengambil 
+KOTAK SAMPAH. 
+ 
+4.2.5 Memilah SAMPAH 
+4.2.5.1 
+ROBOT PEMILAH memilah sampah, mengambilnya dan menempatkannya di 
+KOTAK PEMILAH. 
+4.2.5.2 
+Bila SAMPAH gagal diambil dan jatuh di lantai, ROBOT PEMILAH boleh 
+mengambilnya. 
+4.2.5.3 
+Sampah yang telah dimasukkan ke KOTAK PEMILAH tidak boleh diambil lagi 
+oleh ROBOT PEMILAH. 
+4.2.5.4 
+Sampah yang telah masuk ke dalam KOTAK PEMBUANGAN tidak boleh 
+diambil oleh ROBOT PEMILAH. 
+ 
+4.2.6 PENILAIAN 
+4.2.6.1 
+Setiap SAMPAH yang berhasil dipilah dan dimasukkan ke dalam KOTAK 
+PEMILAHAN yang benar akan mendapat nilai 3 (tiga). 
+4.2.6.2 
+Setiap SAMPAH yang tidak berhasil dipilah dan masuk ke KOTAK 
+PEMBUANGAN dan/atau SAMPAH yang jatuh ke lapangan hingga waktu 
+kontes berakhir mendapatkan nilai -1 (minus satu). 
+4.2.6.3 
+SAMPAH yang salah dimasukkan ke KOTAK PEMILAHAN mendapat nilai 0 
+(nol). 
+ 
+4.2.7 MEMUTUSKAN PEMENANG 
+4.2.7.1 
+Tim yang paling dahulu memilah SAMPAH dari 5 (lima) KOTAK SAMPAH 
+langsung, tanpa salah dan tanpa ada yang masuk ke KOTAK PEMBUANGAN 
+serta menempatkan SAMPAH pada KOTAK PEMILAHAN sesuai jenisnya akan 
+langsung memenangkan kontes dan dinyatakan dengan BERSIH. 
+4.2.7.2 
+Bila tidak ada Tim yang berhasil memilah dan dan menempatkan 5 (lima) 
+KOTAK SAMPAH tanpa salah dan tanpa ada yang masuk ke KOTAK 
+PEMBUANGAN hingga waktu kontes 4 menit terlewati, maka penilaian 
+dilakukan dengan menghitung nilai SAMPAH yang berhasil dipilah dan 
+dimasukkan ke KOTAK PEMISAH dengan benar dikurangi dengan nilai 
+SAMPAH yang masuk ke KOTAK PEMBUANGAN dan yang masih berada di 
+lantai. 
+4.2.7.3 
+Bila kedua Tim memiliki nilai yang sama, Tim dengan nilai SAMPAH di KOTAK 
+PEMBUANGAN dan di lantai yang lebih rendah akan memenangkan kontes. 
+
+--- PAGE 10 ---
+ 
+Pedoman KRI 2024  -  140 
+ 
+4.2.7.4 
+Bila penilaian pada 4.2.7.3 belum bisa menentukan pemenang, Tim dengan 
+jumlah yang lebih rendah SAMPAH salah masuk KOTAK PEMILAHAN akan 
+memenangkan kontes. 
+4.2.7.5 
+Bila penilaian 4.2.7.4 belum bisa menentukan pemenang, maka Tim yang 
+lebih dahulu memilah dan memasukkan SAMPAH pertama kali ke KOTAK 
+PEMILAHAN dengan benar maka akan memenangkan kontes. 
+4.2.7.6 
+Bila penilaian 4.2.7.5 belum bisa menentukan pemenang, maka Tim yang 
+paling dahulu memilah dan memasukkan SAMPAH ke KOTAK PEMILAHAN 
+dengan benar, maka akan memenangkan kontes. 
+4.2.7.7 
+Bila penilaian 4.2.7.6 belum bisa menentukan pemenang maka 
+pemenangnya ditentukan berdasarkan pertimbangan Juri. 
+ 
+4.2.8 RANCANGAN DAN PENGEMBANGAN ROBOT 
+4.2.8.1 
+Setiap tim membangun dua robot. 
+4.2.8.2 
+Robot tidak boleh terbelah menjadi sub-bagian yang dihubungkan dengan 
+kabel atau tali. 
+4.2.8.3 
+Robot pada kontes ini harus dibangun oleh anggota Tim dari satu perguruan 
+tinggi. 
+4.2.8.4 
+Berat total robot, kontroller, kabel, baterai yang digunakan pada 
+pertandingan tidak dibatasi namun harus bisa diangkat oleh anggota Tim.  
+4.2.8.5 
+ROBOT PEMILAH bekerja secara otomatis. 
+4.2.8.6 
+ROBOT PENGUMPAN dioperasikan oleh operator melalui koneksi nirkabel 
+atau automatis. 
+ 
+4.2.9 PELANGGARAN 
+ 
+Setiap PELANGGARAN akan mendapatkan pengurangan 1 (satu) nilai. Yang 
+dikategorikan sebagai PELANGGARAN adalah sebagai berikut: 
+4.2.9.1 
+Bagian dari ROBOT keluar lapangan kontes atau masuk ke lapangan lawan, 
+kecuali di ZONA UMUM. 
+4.2.9.2 
+ROBOT PENGUMPAN diam di ZONA UMUM, setiap 10 detik adalah 1 (satu) 
+pelanggaran. 
+4.2.9.3 
+ROBOT PENGUMPAN mengambil KOTAK SAMPAH di sisi lawan saat robot 
+lawan berada di ZONA UMUM, pengambilan KOTAK SAMPAH tidak sah. 
+4.2.9.4 
+Robot menyentuh robot lawan. 
+4.2.9.5 
+Anggota Tim memasuki lapangan tanpa ijin dari wasit.  
+4.2.9.6 
+Tindakan lain yang melanggar aturan yang tidak termasuk dalam 
+diskualifikasi dianggap sebagai pelanggaran. 
+
+--- PAGE 11 ---
+ 
+Pedoman KRI 2024  -  141 
+ 
+4.2.10 DISKUALIFIKASI 
+ 
+Suatu Tim didiskualifikasikan bila melakukan hal-hal berikut ini selama pertandingan: 
+4.2.10.1 Anggota Tim menyentuh ROBOT lawan saat kontes berlangsung. 
+4.2.10.2 Robot merusak lapangan atau Robot lawan. 
+4.2.10.3 Tim tidak mematuhi instruksi atau peringatan yang dikeluarkan oleh wasit. 
+4.2.10.4 Tim telah menggerakkan ROBOT sebelum aba-aba mulai diberikan, 
+sebanyak tiga kali dalam satu kontes. 
+ 
+4.2.11 TIM 
+4.2.11.1 Satu tim terdiri atas 4 (empat) mahasiswa, disebut sebagai anggota tim, dan 
+satu pembimbing yang semuanya berasal dari perguruan tinggi yang sama. 
+4.2.11.2 Empat mahasiswa pada satu tim berhak untuk berpartisipasi dalam kontes. 
+ 
+4.2.12 KESELAMATAN 
+ 
+Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun bagi orang 
+atau peserta di tiap-tiap Tim. 
+5. Seleksi Wilayah Secara Daring 
+Seleksi Wilayah Secara Daring ini ditujukan untuk menentukan TIM yang akan bertanding di 
+Kontes Nasional. Seleksi ini dilakukan dengan platform ZOOM-Meeting. Ukuran Robot dan 
+SAMPAH mengacu ke Panduan KRTMI 2024. Pada seleksi ini setiap TIM harus menyiapkan 
+lapangan di tempat masing-masing dengan dimensi sesuai pada Panduan KRTMI 2024 dengan 
+satu kamera dipasang di atas lapangan. ROBOT PEMILAH ditugaskan untuk mengambil 
+SAMPAH dan menempatkan pada KOTAK PEMILAHAN yang sesuai. Bila penempatan SAMPAH 
+tidak sesuai dengan jenisnya maka tidak dinilai. ROBOT PEMILAH bergerak secara otomatis. 
+Penilaian seleksi berdasarkan jumlah SAMPAH yang berhasil dipilah dan ditempatkan dalam 
+waktu 3 (tiga) menit. Tim yang mampu menyelesaikan tugas dalam waktu tersingkat dengan 
+benar akan memperoleh nilai tertinggi. Tim yang akan bertanding di Kontes Nasional 
+ditentukan berdasarkan nilai tertinggi. Setiap Tim diberikan kesempatan 2 (dua) kali untuk 
+menyelesaikan tugas dan nilai akhir adalah rerata dari 2 kali penyelesaian tugas.  
+ 
+Gambar 6. Skematik lapangan kontes untuk Seleksi Wilayah Secara Daring. Sampah 
+diletakkan pada meja SAMPAH (tinggi 40cm), ROBOT PEMILAH mengambil dan 
+memasukkan SAMPAH sejenis pada KOTAK PEMILAHAN yang sama. 
+
+--- PAGE 12 ---
+ 
+Pedoman KRI 2024  -  142 
+ 
+ 
+ 
+6. Hak Kekayaan Intelektual 
+Hak Kekayaan Intelektual dari rancangan robot pada kontes ini sepenuhnya milik Tim peserta. 
+ 
+7. Lain-lain 
+7.1 
+Keabsahan dari setiap tindakan yang tidak diatur dalam buku aturan ini tunduk pada 
+kebijaksanaan juri. 
+7.2 
+Semua pertanyaan harus ditujukan ke situs web resmi Kontes Robot Tematik 
+Indonesia 2024 https://kontesrobotindonesia.id.  Bagian FAQ disediakan di situs 
+tersebut. Pemberitahuan tambahan dan/ atau koreksi ke buku aturan ini adalah 
+dibuat di situs web tersebut. 
+ 
+8. Penutup 
+Informasi lebih lanjut pelaksanaan Kontes Robot Tematik Indonesia (KRTMI) akan 
+diinformasikan melalui website Kontes Robot Indonesia. 
+ 
+ 
+
+--- PAGE 13 ---
+ 
+Pedoman KRI 2024  -  143 
+ 
+LAMPIRAN: ARENA KONTES DAN ROBOT 
+KRTMI 2024 
+ 
+Gambar A.1. Lapangan KRTMI 2024 Nasional. Sebelah kiri Tim Biru dan sebelah kanan 
+adalah Tim Merah. Ukuran lapangan adalah 6x6 meter. Garis penanda untuk  
+ 
+▪ 
+Ukuran luas ROBOT PEMILAH dan ROBOT PENGUMPAN saat mulai (start) harus bisa 
+masuk dalam area dengan 90x80 cm. Tinggi ROBOT tidak dibatasi. 
+▪ 
+SAMPAH berbentuk lingkaran dengan diameter 15 cm. 
+▪ 
+Botol plastik air 300 ml, diameter 5,8cm, tinggi 17cm dalam keadaan dipres.  
+▪ 
+KOTAK SAMPAH berukuran (P x L x T) 21 x 17 x 31 cm (3 liter). 
+▪ 
+KOTAK PEMILAHAN berukuran (P x L x T) 25 x 19 x 36 cm (10 liter). 
+▪ 
+KOTAK PEMILAHAN: 1-Daun, 2-Plastik, 3-Logam ferro, 4-Kertas, dan 5-Logam non-
+ferro. Sampah logam berupa plat dengan tebal < 0,5 mm. 
+▪ 
+Tinggi konveyor 40 cm dari lantai. 
+
+--- PAGE 14 ---
+ 
+Pedoman KRI 2024  -  144 
+ 
+ 
+ 
+Gambar A2. Ukuran lapangan KRTMI 2024 Nasional 
+ 
+ 
+▪ 
+Gambar A3. Lapangan KRTMI 2024 regional. Robot pemilah melakukan pengambilan 
+dan penempatan sampah di KOTAK PEMILAHAN. Penempatan SAMPAH di meja 
+sampah dilakukan mengikuti instruksi Juri. 
+ 

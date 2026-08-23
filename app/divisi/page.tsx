@@ -1,47 +1,48 @@
 import React from 'react';
 import { TEAM_DIVISIONS } from '@/data/krtmiData';
-import { Users, Wrench, Zap, Code, Sparkles, Heart, CheckCircle2, Trophy, ArrowRight } from 'lucide-react';
+import { TeamRosterSection } from '@/components/TeamRosterSection';
+import { Users, Wrench, Zap, Code, Sparkles, Heart, CheckCircle2, Trophy, ArrowRight, ShieldCheck, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Divisi Tim & Kultur — Tim Robotika Abhinaya UNY',
-  description: 'Mengenal divisi-divisi di Tim Abhinaya UNY (Mekanik, Elektrik, Pemrograman, Manajerial) dan kultur belajar bersama di lab robotika.',
+  title: 'Divisi Tim & Roster Anggota — Tim Robotika Abhinaya UNY',
+  description: 'Mengenal divisi-divisi di Tim Abhinaya UNY (Mekanik, Elektrik, Programming & AI, Manajerial) dan susunan resmi anggota kontingen KRI.',
 };
 
 export default function DivisiPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-16 sm:space-y-20">
       
       {/* Header */}
       <div className="text-center space-y-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
           <Users className="w-4 h-4" />
           <span>DIVISI &amp; KULTUR RISET TIM</span>
         </div>
-        <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Divisi Tim Robotika Abhinaya UNY 🛠️
+        <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
+          Struktur Divisi &amp; Roster Anggota 🛠️
         </h1>
-        <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-          Tim Abhinaya adalah wadah kolaboratif mahasiswa Universitas Negeri Yogyakarta untuk belajar, berkarya, dan berprestasi bersama. Temukan divisi yang sesuai dengan minat dan kemampuanmu!
+        <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
+          Tim Abhinaya adalah wadah kolaboratif mahasiswa Universitas Negeri Yogyakarta untuk belajar, bereksperimen, dan berprestasi bersama di arena robotika nasional Puspresnas BPTI.
         </p>
       </div>
 
       {/* 4 Divisions Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {TEAM_DIVISIONS.map((div) => (
           <div
             key={div.id}
-            className="p-8 rounded-3xl bg-[#140E09] border-2 border-brand-orange/30 shadow-xl space-y-5"
+            className="p-6 sm:p-8 rounded-3xl bg-[#140E09] border-2 border-brand-orange/30 shadow-xl space-y-5 hover:border-brand-orange/60 transition duration-300"
           >
             <div className="flex items-center space-x-4">
-              <div className="w-14 h-14 rounded-2xl bg-brand-orange/20 text-brand-orange flex items-center justify-center border border-brand-orange/40 flex-shrink-0">
-                {div.id === 'mekanik' && <Wrench className="w-7 h-7" />}
-                {div.id === 'elektrik' && <Zap className="w-7 h-7" />}
-                {div.id === 'programming' && <Code className="w-7 h-7" />}
-                {div.id === 'manajerial' && <Users className="w-7 h-7" />}
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-brand-orange/20 text-brand-orange flex items-center justify-center border border-brand-orange/40 flex-shrink-0">
+                {div.id === 'mekanik' && <Wrench className="w-6 h-6 sm:w-7 sm:h-7" />}
+                {div.id === 'elektrik' && <Zap className="w-6 h-6 sm:w-7 sm:h-7" />}
+                {div.id === 'programming' && <Code className="w-6 h-6 sm:w-7 sm:h-7" />}
+                {div.id === 'manajerial' && <Users className="w-6 h-6 sm:w-7 sm:h-7" />}
               </div>
               <div>
-                <h2 className="text-xl font-black text-white">
+                <h2 className="text-lg sm:text-xl font-black text-white">
                   {div.name}
                 </h2>
                 <span className="text-xs text-amber-200/70 font-semibold uppercase">
@@ -75,8 +76,13 @@ export default function DivisiPage() {
         ))}
       </div>
 
+      {/* Interactive Team Roster Showcase */}
+      <div className="border-t border-[#26180E] pt-12">
+        <TeamRosterSection showHeader={true} showAllLink={false} />
+      </div>
+
       {/* Freshmen FAQ & Welcome Section */}
-      <div className="p-8 sm:p-12 rounded-3xl bg-[#0F0A06] border-2 border-brand-orange/40 space-y-6">
+      <div className="p-8 sm:p-12 rounded-3xl bg-[#0F0A06] border-2 border-brand-orange/40 space-y-6 shadow-2xl">
         <div className="space-y-2 text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 text-xs font-black uppercase text-brand-orange">
             <Sparkles className="w-4 h-4" />
@@ -130,3 +136,4 @@ export default function DivisiPage() {
     </div>
   );
 }
+

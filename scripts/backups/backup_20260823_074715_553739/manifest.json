@@ -1,0 +1,10 @@
+{
+  "backup_id": "backup_20260823_074715_553739",
+  "timestamp": "2026-08-23T07:47:15.556250",
+  "reason": "Add new team member: Ir. Hendra Kusuma, Ph.D. (Lead Robotics Engineer)",
+  "files": [
+    "teamData.ts",
+    "krtmiData.ts",
+    "galleryData.ts"
+  ]
+}

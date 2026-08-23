@@ -2,6 +2,7 @@ import React from 'react';
 import { HeroSection } from '@/components/HeroSection';
 import { YouTubeVideoShowcase } from '@/components/YouTubeVideoShowcase';
 import { AboutTeamSection } from '@/components/AboutTeamSection';
+import { TeamRosterSection } from '@/components/TeamRosterSection';
 import { DocumentationGallerySection } from '@/components/DocumentationGallerySection';
 import { KrtmiChronicles } from '@/components/KrtmiChronicles';
 import { KRIOverview } from '@/components/KRIOverview';
@@ -14,6 +15,7 @@ export default function HomePage() {
       <HeroSection />
       <YouTubeVideoShowcase />
       <AboutTeamSection />
+      <TeamRosterSection showAllLink={true} />
       <DocumentationGallerySection />
       <KrtmiChronicles />
       <KRIOverview />
@@ -22,3 +24,4 @@ export default function HomePage() {
     </div>
   );
 }
+

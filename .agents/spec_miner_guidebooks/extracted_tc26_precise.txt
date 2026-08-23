@@ -1,0 +1,3836 @@
+
+--- PAGE 1 ---
+TECHNOCORNER
+2026
+TRANSPORTER
+GUiDEBOOK
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 2 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+DAFTAR ISI
+Daftar Isi 
+Tentang Technocorner
+Deskripsi Umum 
+Persyaratan Umum 
+Ketentuan Peserta & Karya 
+Timeline & Biaya Pendaftaran
+Ketentuan dan Alur Pendaftaran
+Spesifikasi Robot 
+Peraturan Perlombaan 
+Arena & Sistem Perlombaan
+Pelanggaran & Sanksi 
+Hadiah 
+Penutup 
+Contact Person 
+2
+3
+4
+5
+7
+9
+10
+12
+14
+18
+28
+29
+30
+31
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 3 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+TECHNOCORNER
+2026
+Technocorner merupakan ajang kompetisi tahunan di bawah 
+naungan Departemen Teknik Elektro dan Teknologi Informasi 
+(DTETI), Fakultas Teknik, Universitas Gadjah Mada. Kegiatan ini 
+menghadirkan beragam cabang lomba tingkat nasional hingga 
+internasional yang berfokus pada inovasi teknologi dan robotika, 
+serta dilengkapi dengan rangkaian seminar inspiratif seputar 
+perkembangan dan tantangan terkini di dunia IT.
+Mengusung tema “The Eternal Flight of Nusantara: From 
+Heritage to Horizon”, Technocorner 2026 membawa semangat 
+bahwa kemajuan teknologi tidak dapat dipisahkan dari akar budaya 
+dan karakter bangsa. Perjalanan menuju masa depan yang unggul 
+harus senantiasa berpijak pada nilai-nilai luhur Nusantara sebagai 
+fondasi yang menguatkan arah dan tujuan.
+Melalui 
+penyelenggaraan 
+Technocorner 
+2026, 
+kami 
+berkomitmen membangun ekosistem kolaboratif yang inklusif bagi 
+pelajar, mahasiswa, praktisi, hingga penggiat teknologi dan robotika. 
+Technocorner diharapkan menjadi wadah lahirnya gagasan-gagasan 
+inovatif, solusi nyata bagi permasalahan bangsa, serta ruang 
+bertemunya jejaring lintas komunitas. Dengan langkah bersama ini, 
+kami optimis Indonesia mampu melesat menuju masa depan yang 
+unggul, berkarakter, dan berdaya saing global tanpa meninggalkan 
+jati diri bangsa.
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 4 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+deskripsi
+umum
+Transporter Technocorner 2026 merupakan pertandingan robot yang 
+dilakukan secara offline dengan memindahkan box ke zona yang telah 
+ditentukan sesuai dengan peraturan pertandingan. Robot yang digunakan 
+adalah robot yang dikendalikan menggunakan remote control.
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 5 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PERSYARATAN
+UMUM
+A. Administrasi & Pendaftaran
+Setiap tim wajib menyelesaikan alur pendaftaran dan melunasi biaya 
+pendaftaran sesuai kategori kompetisi sebelum batas waktu yang 
+ditentukan.
+Setiap peserta/tim juga diwajibkan untuk melakukan daftar ulang pada 
+saat sebelum pertandingan dimulai dengan menyiapkan kartu tanda 
+identitas yang masih berlaku.
+Peserta yang mengundurkan diri atau didiskualifikasi tidak dapat menarik 
+kembali (refund) biaya pendaftaran dengan alasan apa pun.
+Seluruh informasi resmi hanya akan disampaikan melalui website 
+www.technocorner.id atau media sosial resmi Technocorner 2026. Panitia 
+tidak bertanggung jawab atas informasi dari sumber lain.
+
+B. Etika & Integritas
+Nama tim dan konten karya dilarang mengandung unsur SARA, pornografi, 
+radikalisme, provokasi, atau melanggar norma hukum yang berlaku di 
+Indonesia.
+Peserta wajib menjunjung tinggi sportivitas. Segala bentuk kecurangan 
+(termasuk plagiarisme dan sabotase karya tim lain) akan dikenakan sanksi 
+diskualifikasi permanen.
+
+C. Teknis & Tanggung Jawab
+Seluruh peralatan, material, serta kebutuhan teknis pendukung lainnya 
+sepenuhnya menjadi tanggung jawab masing-masing tim.
+Panitia tidak bertanggung jawab atas kerusakan atau kehilangan alat 
+peserta sebelum, selama, dan setelah kompetisi berlangsung.
+Seluruh peserta wajib menggunakan kartu identitas (ID Card) resmi dari 
+panitia selama berada di area kompetisi (untuk tahap luring). 
+@technocornerugm
+@technocornerugm
+technocorner.id
+technocorner.id
+
+--- PAGE 6 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PERSYARATAN
+UMUM
+D. Ketentuan TM & Penjurian
+Perwakilan tim wajib mengikuti Technical Meeting. Tim yang tidak hadir 
+dianggap menyetujui seluruh hasil keputusan TM dan tidak berhak 
+mengajukan protes terkait aturan yang telah disepakati.
+Keputusan Dewan Juri bersifat mutlak, final, dan tidak dapat diganggu 
+gugat.
+Hal-hal yang belum diatur dalam pedoman ini akan ditentukan kemudian 
+oleh Panitia melalui kebijakan tambahan atau saat Technical Meeting. 
+@technocornerugm
+@technocornerugm
+technocorner.id
+technocorner.id
+
+--- PAGE 7 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+KETENTUAN UMUM
+Kategori lomba adalah umum.
+Setiap tim diwajibkan untuk melakukan pembayaran administrasi 
+pendaftaran sebesar Rp250.000,- /tim.
+Peserta yang mengundurkan diri pada saat pertandingan atau mendapat 
+sanksi diskualifikasi tidak dapat mengajukan refund biaya pendaftaran.
+Setiap individu dan robot hanya diperbolehkan terdaftar hanya pada satu 
+tim.
+Waktu pendaftaran dimulai pada tanggal 15 Maret 2026 hingga 25 Mei 
+2026. Dengan Technical Meeting online akan dilaksanakan pada Selasa, 2 
+Juni 2026.
+Perlombaan akan dilaksanakan pada Kamis, 25 Juni 2026.
+Setiap robot dan perlengkapan perlombaan menjadi tanggung jawab dan 
+disiapkan oleh masing-masing tim/peserta.
+Segala bentuk kerusakan baik pada robot atau perlengkapan lainnya 
+bukan menjadi tanggung jawab panitia baik sebelum, saat, sesudah 
+perlombaan.
+Setiap individu diwajibkan untuk menaati protokol kesehatan yang berlaku 
+dengan bijak. 
+@technocornerugm
+@technocornerugm
+technocorner.id
+technocorner.id
+
+--- PAGE 8 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+KETENTUAN DAN 
+PERSYARATAN PESERTA
+Peserta bersifat umum. Dimana peserta yang berstatus pelajar/mahasiswa/
+umum diperbolehkan untuk mendaftar perlombaan.
+Jumlah pendaftaran tim dari satu instansi tidak dibatasi.
+Peserta lomba dalam 1 tim terdiri dari maksimal 3 anggota dan 1 
+pembimbing (opsional). Dimana dalam satu tim diperbolehkan untuk 
+berbeda institusi pendidikan di seluruh Indonesia.
+Setiap peserta dan robot hanya diperkenankan terdaftar pada satu tim 
+saja.
+Jika ada perubahan pada anggota tim, revisi nama anggota tim, dan tim 
+maksimal dilakukan paling lambat saat Technical Meeting berlangsung 
+dan segera untuk melakukan konfirmasi segala bentuk perubahan 
+kepada panitia. Jika setelah Technical Meeting terdapat sebuah perubahan, 
+maka perubahan tersebut tidak akan diakui dan di luar tanggung jawab 
+dari panitia Technocorner 2026.
+Nama tim ataupun nama robot tidak diperkenankan mengandung unsur 
+SARA, penghinaan, pornografi, pelecehan, atau yang dapat menyinggung 
+perasaan orang lain.
+Jika terdapat nama tim ataupun nama robot dari peserta yang sama, maka 
+lebih 
+diutamakan 
+kepada 
+peserta 
+yang 
+telah 
+menyelesaikan 
+administrasinya terlebih dahulu.
+Ketentuan dan persyaratan diatas berlaku dan wajib ditaati kepada seluruh 
+peserta Technocorner 2026. Jika ada pelanggaran, maka sistem sanksi 
+akan berlaku.
+@technocornerugm
+@technocornerugm
+technocorner.id
+technocorner.id
+
+--- PAGE 9 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+TIMELINE
+REGISTRASI
+PESERTA
+17 Maret 2026 - 25 Mei 2026 (Online)
+Technical Meeting
+2 Juni 2026 (Online)
+perlombaan
+25 Juni 2026
+(Fakultas Teknik UGM)
+AWARDING CEREMONY
+27 Juni 2026
+(Fakultas Teknik UGM)
+BIAYA PENDAFTARAN
+Biaya pendaftaran lomba adalah Rp250.000,00 per tim.
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 10 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+ALUR PENDAFTARAN
+1
+Setiap peserta DIWAJIBKAN membaca dan memahami semua 
+ketentuan yang sudah termuat dalam Guidebook Technocorner 2026. 
+Setelah 
+itu 
+peserta 
+dapat 
+melakukan 
+registrasi 
+pada 
+link 
+www.technocorner.id 
+yang 
+merupakan 
+website 
+resmi 
+dari 
+Technocorner 2026. 
+Pembayaran dilakukan melalui website resmi Technocorner 2026.
+Peserta mengunggah twibbon pada masing-masing instagram 
+anggota tim dengan ketentuan:
+Peserta dapat mengunduh template twibbon pada link bit.ly/
+TwibbonTC2026
+Peserta wajib mengikuti akun Instagram @technocornerugm
+Pastikan juga akun dapat diakses oleh publik (tidak di-private).
+Unggah twibbon digunakan sebagai salah satu syarat untuk 
+pendaftaran sehingga tidak boleh dihapus sebelum waktu 
+pendaftaran berakhir. 
+Setelah melakukan registrasi, akan dilakukan proses verifikasi berkas 
+di website oleh admin Technocorner 2026 dalam 3x24 jam. 
+2
+3
+4
+@technocornerugm
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+technocorner.id
+
+--- PAGE 11 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+ALUR PENDAFTARAN
+5
+Segala informasi lebih lanjut mengenai Technocorner 2026 akan 
+diberitahukan melalui laman resmi, media sosial resmi, grup 
+WhatsApp cabang lomba, atau email yang terdaftar. 
+Seluruh peserta diharapkan dapat bergabung ke dalam grup 
+WhatsApp melalui link yang tertera pada dashboard laman peserta 
+sesuai dengan cabang lomba yang diikuti.
+Tim yang dinyatakan lolos ke babak selanjutnya akan mendapatkan 
+email konfirmasi dari panitia serta diumumkan di akun Instagram 
+@technocornerugm. 
+6
+7
+@technocornerugm
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+technocorner.id
+
+--- PAGE 12 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SPESIFIKASI ROBOT
+1
+Robot harus diberi label dengan nama masing-masing tim pada bagian 
+depan robot. Jenis font dan ukurannya bebas tetapi harus terlihat jelas 
+oleh wasit.
+Dimensi robot maksimum (sebelum ekstensi/perpanjangan) :
+a. Panjang : 20 cm
+b. Lebar : 20 cm
+c. Tinggi : tidak dibatasi
+d. Berat : tidak dibatasi
+Robot tidak boleh merusak lintasan.
+Robot tidak diperkenankan menggunakan magnet dan perekat/alat bantu 
+lainnya (box yang digunakan dalam pertandingan merupakan benda 
+nonmagnetis).
+Robot dioperasikan menggunakan remote control (secara wireless).
+Hanya boleh mempertandingkan 1 robot dalam perlombaan (tidak ada 
+robot transporter cadangan).
+Peserta diwajibkan menggunakan baterai sendiri.
+2
+3
+4
+5
+6
+7
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 13 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SPESIFIKASI ROBOT
+8
+Baterai yang digunakan maksimal 13 volt.
+9
+Robot bebas dari unsur yang dapat membahayakan keselamatan.
+10
+Robot harus buatan sendiri, tidak boleh menggunakan kit PABRIKAN.
+11
+Kit pabrikan yang dimaksud adalah robot yang seluruhnya buatan. - 
+Contoh full pabrikan: Robot lego
+12
+Jenis dan jumlah aktuator atau motor DC yang digunakan oleh robot 
+tidak dibatasi.
+13
+Apabila poin di atas dilanggar maka akan DIDISKUALIFIKASI.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 14 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+PERATURAN DAN KETENTUAN PERLOMBAAN
+Registrasi Ulang, Pengecekan Robot dan
+Perlengkapan Pertandingan
+1
+Pada saat registrasi ulang, peserta DIWAJIBKAN untuk menyiapkan 
+kartu identitas serta mengisi formulir registrasi ulang melalui e-form.
+2
+Setelah peserta melakukan registrasi ulang, maka selanjutnya akan 
+dilakukan pengecekan dan uji kelayakan, yaitu:
+Pengecekan dimensi robot (Jika dimensi melebihi batas yang 
+ditentukan, peserta wajib menyesuaikan hingga sesuai ketentuan.)  
+Pengukuran voltase baterai robot (Jika voltase melebihi batas 
+maksimal, peserta wajib menurunkannya sesuai ketentuan.)
+3
+Peserta dan robot yang tidak disetujui oleh panitia TIDAK 
+DIPERBOLEHKAN untuk mengikuti perlombaan Technocorner 2026.
+Sebelum Pertandingan
+1
+Setiap tim, peserta, dan robot WAJIB lulus administrasi serta uji 
+kelayakan.
+2
+Pemanggilan untuk uji kelayakan dan pengecekan robot dilakukan sekali 
+sebelum race (akan dilakukan pemanggilan oleh LO tiap tim).
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 15 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+PERATURAN DAN KETENTUAN PERLOMBAAN
+3
+Setiap tim dan peserta yang belum atau tidak bertanding, tidak 
+diperkenankan untuk mengganggu tim, peserta, ataupun robot pihak lain.
+4
+Alokasi waktu yang diberikan sebelum bertanding adalah 2 menit, 
+dengan rincian bahwa 1 menit merupakan waktu pemanggilan dan 1 
+menit waktu persiapan.
+5
+Pemanggilan akan dilakukan 1 kali pemanggilan untuk setiap tim.
+Saat Berlangsungnya Pertandingan
+1
+Setiap tim hanya diperbolehkan untuk diwakili 1 orang saja sebagai 
+“operator” robot saat berlangsungnya pertandingan.
+2
+Peserta lain yang ingin menyaksikan pertandingan wajib berada di luar 
+arena pertandingan.
+3
+Peserta diharapkan memahami urutan pemanggilan untuk pelaksanaan 
+pertandingan berdasarkan rundown yang diberikan panitia.
+4
+Robot memulai pertandingan dari area start dan setelah ada perintah 
+dari wasit pertandingan.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 16 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+PERATURAN DAN KETENTUAN PERLOMBAAN
+5
+Pada saat melakukan START tidak diperkenankan untuk memberikan 
+bantuan eksternal kepada robot baik bentuk dorongan maupun lainnya.
+6
+Posisi robot harus tetap berada pada posisi start sebelum tanda mulai 
+diberikan oleh panitia.
+7
+Robot TIDAK DIPERKENANKAN melakukan shortcut atau mengambil 
+jalan pintas pada lintasan arena pertandingan yang telah ditentukan.
+8
+Setiap peserta dan tim DILARANG untuk mengganti catu daya dan 
+komponen lainnya selama pertandingan berlangsung
+9
+Robot akan memperoleh poin apabila seluruh bagian box telah masuk ke 
+zona yang telah ditentukan seperti yang dijelaskan pada bagian sistem 
+perlombaan.
+10
+Robot tidak boleh memecah diri menjadi beberapa robot selama 
+perlombaan berlangsung.
+11
+Robot dinyatakan FINISH apabila seluruh bagian dari robot telah 
+memasuki garis FINISH.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 17 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+PERATURAN DAN KETENTUAN PERLOMBAAN
+5
+Segala bentuk kerusakan pada robot merupakan tanggung jawab 
+peserta.
+6
+Segala keputusan panitia, wasit, dan juri adalah hal yang mutlak serta 
+tidak bisa diganggu gugat.
+Sesudah Pertandingan
+1
+Setiap peserta dan tim tetap harus menjaga semangat, kesehatan, dan 
+sportifitas bertanding.
+2
+Robot diperbolehkan diambil kembali apabila sudah diperbolehkan atau 
+ada arahan dari panitia.
+3
+Setiap bentuk keputusan panitia adalah hal yang mutlak dan tidak dapat 
+diganggu gugat.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 18 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SPESIFIKASI DAN PETUNJUK ARENA PERTANDINGAN
+Ukuran arena pertandingan transporter pada Technocorner 2026 adalah 3 meter x 
+3 meter, dengan bentuk sebagai berikut:
+Dimensi box yang digunakan adalah 10 cm X 10 cm X 10 cm.
+Dimensi drop zone box yang digunakan adalah 12 cm X 12 cm X 5 cm.
+SISTEM PERLOMBAAN
+Peraturan Umum
+Robot harus diposisikan pada area Start (area berwarna hijau).
+Robot wajib mengangkat saat membawa box, bukan didorong maupun digeser.
+Khusus untuk obstacle box, diperbolehkan untuk menggeser box tersebut.
+Robot harus memindahkan box berwarna ke dalam drop zone dengan warna 
+yang sama.
+Jika box terlepas atau terjatuh saat dibawa oleh robot, diperbolehkan untuk 
+mengambil kembali box tersebut sesuai dengan ketentuan membawa box.
+Robot wajib memasuki area Finish (area berwarna biru muda) sebelum waktu 
+berakhir.
+Robot dianggap berhasil memasuki area Finish apabila seluruh bagian robot 
+berada di dalam area berwarna dan seluruh roda menyentuh area tersebut, 
+tidak ada toleransi.
+Apabila robot tergelincir di area finish dan mengakibatkan finish tidak 
+sempurna, peserta diperkenankan untuk melakukan retry sesuai dengan 
+mekanisme yang berlaku.
+Akan dilakukan pemeriksaan box pada akhir babak untuk menentukan apakah 
+box masuk pada dropzone.
+Box dianggap berhasil masuk ke drop zone apabila seluruh bagian box masuk 
+(tidak ada batas toleransi).
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 19 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Peserta akan diberikan jumlah poin berdasarkan jumlah box yang berhasil 
+dimasukkan ke dalam drop zone yang benar.
+Segala bentuk usaha dari peserta yang bertujuan untuk mempengaruhi proses 
+penentuan poin akan diberi sanksi diskualifikasi.
+Dilarang melakukan perusakan terhadap arena lomba dalam bentuk apapun, 
+kerusakan akan dikenakan sanksi diskualifikasi.
+Posisi robot harus tetap berada pada posisi pengecekan sebelum start dengan 
+arahan panitia
+Peserta diperbolehkan memindahkan robot kembali ke titik start (retry) 
+sebanyak tiga kali dalam kondisi apapun dengan syarat peserta mengangkat 
+tangan dan berseru “retry”, kondisi box diletakkan di posisi terakhir saat dibawa.
+Babak Penyisihan
+Babak penyisihan dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+Babak penyisihan dilakukan dengan sistem poin terbanyak dan waktu tercepat.
+Durasi pertandingan pada babak penyisihan adalah tiga menit.
+Jumlah box dan drop zone dalam babak penyisihan adalah sebanyak tiga 
+pasang. Warna yang digunakan adalah warna jingga, pink, dan biru tua.
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing. 
+Robot wajib berada di dalam area finish berwarna biru muda sebelum waktu 
+berakhir untuk menghindari pengurangan poin.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 20 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Akan dipilih sebanyak tiga puluh dua peserta dengan jumlah poin terbanyak 
+untuk melanjutkan lomba ke tahap 32 besar.
+Apabila terdapat kesamaan jumlah poin antara dua peserta atau lebih, maka 
+peserta yang mampu menyelesaikan babak dengan waktu yang lebih cepat akan 
+lebih diprioritaskan dalam penentuan peserta yang akan melanjutkan lomba ke 
+tahap 32 besar.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 21 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Babak 32 Besar
+Babak 32 besar dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+Babak 32 besar dilakukan dengan sistem poin terbanyak dan waktu tercepat.
+Durasi pertandingan pada babak 32 besar adalah tiga menit.
+Jumlah box dan drop zone dalam babak 32 besar adalah sebanyak tiga pasang. 
+Warna yang digunakan adalah warna jingga, pink, dan biru tua.
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing.
+Robot wajib berada di dalam area Finish berwarna biru muda sebelum waktu 
+berakhir untuk menghindari pengurangan poin.
+Akan dipilih sebanyak enam belas peserta dengan jumlah poin terbanyak untuk 
+melanjutkan lomba ke tahap 16 besar.
+Apabila terdapat kesamaan jumlah poin antara dua peserta atau lebih, maka 
+peserta yang mampu menyelesaikan babak dengan waktu yang lebih cepat akan 
+lebih diprioritaskan dalam penentuan peserta yang akan melanjutkan lomba ke 
+tahap 16 besar.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 22 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Babak 16 Besar
+Babak 16 besar dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+Babak 16 besar dilakukan dengan sistem gugur dimana pemenang ditentukan 
+berdasarkan poin terbanyak dan waktu tercepat.
+Peserta yang kalah tidak dapat melaju ke babak berikutnya.
+Penentuan bagan untuk setiap pertandingan duel pada babak 16 besar diundi 
+secara langsung sebelum dimulainya pertandingan dan proses pengundian 
+disaksikan oleh para peserta lomba.
+Durasi pertandingan pada babak 16 besar adalah tiga menit.
+Jumlah box dan drop zone dalam babak 16 besar adalah sebanyak empat 
+pasang. Warna yang digunakan adalah warna jingga, pink, biru tua, dan ungu. 
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 23 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing.
+Robot wajib berada di dalam area Finish berwarna biru muda sebelum waktu 
+berakhir untuk menghindari pengurangan poin.
+Pemenang duel adalah peserta dengan jumlah poin terbanyak. Apabila 
+terdapat kesamaan poin, maka peserta yang mampu menyelesaikan babak 
+lebih cepat akan dianggap sebagai pemenang.
+Delapan peserta yang memenangkan duel akan melanjutkan lomba ke babak 8 
+besar.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 24 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Babak 8 Besar
+Babak 8 besar dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+Babak 8 besar dilakukan dengan sistem gugur dimana pemenang ditentukan 
+berdasarkan poin terbanyak dan waktu tercepat.
+Peserta yang kalah tidak dapat melaju ke babak berikutnya.
+Durasi pertandingan pada babak 8 besar adalah dua menit.
+Jumlah box dan drop zone dalam babak 8 besar adalah sebanyak empat 
+pasang. Warna yang digunakan adalah warna jingga, pink, biru tua, dan ungu.
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing.
+Terdapat sebanyak dua box merah sebagai obstacle box dalam babak ini. 
+Khusus untuk obstacle box, diperbolehkan untuk menggeser box tersebut.
+Robot wajib berada di dalam area Finish berwarna biru muda sebelum waktu 
+berakhir untuk menghindari pengurangan poin.
+Pemenang duel adalah peserta dengan jumlah poin terbanyak. Apabila 
+terdapat kesamaan poin, maka peserta yang mampu menyelesaikan babak 
+lebih cepat akan dianggap sebagai pemenang.
+Empat peserta yang memenangkan duel akan melanjutkan lomba ke babak 
+Semifinal.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 25 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Babak Semifinal
+Babak semifinal dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+Babak semifinal dilakukan dengan sistem gugur dengan pemenang ditentukan 
+berdasarkan poin terbanyak dan waktu tercepat.
+Peserta yang kalah tidak dapat melaju ke babak berikutnya.
+Durasi pertandingan pada babak Semifinal adalah dua menit.
+Jumlah box dan drop zone dalam babak semifinal adalah sebanyak lima pasang. 
+Warna yang digunakan adalah warna jingga, pink, biru tua, ungu, dan kuning.
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing.
+Terdapat sebanyak dua box merah sebagai obstacle box dalam babak ini. 
+Khusus untuk obstacle box, diperbolehkan untuk menggeser box tersebut.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 26 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Pemenang duel adalah peserta dengan jumlah poin terbanyak. Apabila 
+terdapat kesamaan poin, maka peserta yang mampu menyelesaikan babak 
+lebih cepat akan dianggap sebagai pemenang.
+Dua peserta yang kalah akan bertanding pada Bronze Match untuk 
+memperebutkan posisi juara tiga.
+Dua peserta yang memenangkan duel akan melanjutkan lomba ke babak Grand 
+Final.
+Babak final
+Babak final terbagi menjadi dua pertandingan, yaitu Grand Final untuk mencari 
+juara satu dan dua, serta Bronze Match untuk mencari juara tiga.
+Babak final dilaksanakan dengan sistem panggilan sebanyak satu kali dan 
+kesempatan race sebanyak satu kali.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 27 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+SISTEM PERLOMBAAN
+Waktu yang diberikan kepada peserta untuk menyelesaikan misi pada babak 
+final adalah dua menit.
+Jumlah box dan drop zone dalam babak final adalah sebanyak lima pasang. 
+Warna yang digunakan adalah warna jingga, pink, biru tua, ungu, dan kuning.
+Robot mengangkat dan meletakkan setiap box ke dalam drop zone masing-
+masing.
+Terdapat sebanyak tiga box merah sebagai obstacle box dalam babak ini. 
+Khusus untuk obstacle box, diperbolehkan untuk menggeser box tersebut.
+Pemenang duel adalah peserta dengan jumlah poin terbanyak. Apabila terdapat 
+kesamaan poin, maka peserta yang mampu menyelesaikan babak   lebih cepat 
+akan dianggap sebagai pemenang.
+Perolehan JUARA 1, 2, dan 3 dalam lomba transporter Technocorner 2026 
+sebagai hasil dari pertandingan Grand Final maupun Bronze Match ditentukan 
+berdasarkan poin terbanyak dan waktu tercepat.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 28 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PELAKSANAAN LOMBA
+PELANGGARAN DAN SANKSI
+A
+Peserta akan DIDISKUALIFIKASI apabila melanggar tata tertib yang 
+telah ditentukan panitia.
+B
+Peserta akan DIDISKUALIFIKASI apabila membuat kegaduhan saat 
+berlangsungnya perlombaan.
+C
+Peserta akan DIDISKUALIFIKASI apabila tidak memenuhi syarat 
+perlombaan.
+D
+Peserta akan DIDISKUALIFIKASI apabila terlambat dari waktu 
+pemanggilan dengan toleransi maksimal satu menit.
+E
+Peserta akan DIDISKUALIFIKASI apabila mengganti catu daya ataupun 
+komponen lainnya saat pertandingan berlangsung.
+F
+Peserta akan DIDISKUALIFIKASI apabila memberikan bantuan 
+eksternal tanpa seizin wasit, juri, ataupun panitia.
+G
+Peserta akan DIDISKUALIFIKASI apabila mencuri start tanpa arahan 
+panitia.
+30
+@technocornerugm
+technocorner.id
+
+--- PAGE 29 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+HADIAH
+juara 1
+Rp. 3.500.000 
++ Sertifikat + Piala
+JUARA 2
+Rp. 2.500.000 
++ Sertifikat + Piala
+JUARA 3
+Rp. 1.500.000 
++ Sertifikat + Piala
+@technocornerugm
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+technocorner.id
+
+--- PAGE 30 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+PENUTUP
+Demikian panduan mengenai petunjuk teknis 
+perlombaan Transporter pada Technocorner 2026 ini 
+dibuat. Diharapkan segala persyaratan dan ketentuan 
+dapat ditaati dan dilaksanakan oleh setiap individu 
+dan tim baik sebelum, saat, maupun sesudah 
+perlombaan berlangsung. Tetap semangat para 
+petarung 
+untuk 
+menjadi 
+pemenang 
+dalam 
+Technocorner 2026 ini. Junjung segala kejujuran dan 
+semangat sportivitas serta selamat bertanding!
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id
+
+--- PAGE 31 ---
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER
+TECHNOCORNER 2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+CONTACT PERSON
+Untuk informasi lebih lanjut dan jika ada suatu pertanyaan 
+yang hendak diberikan, sekiranya bisa untuk menghubungi panitia 
+Transporter Technocorner 2026 dibawah ini:
+Refa
+      No. Telepon/Whatsapp : 082299849637
+
+Serta jangan lupa untuk terus ikuti perkembangan informasi 
+terbaru melalui media sosial resmi Technocorner 2026 berikut:
+E-mail : technocorner@ugm.ac.id
+Instagram : @technocornerugm
+Youtube : Technocorner
+Facebook : Technocorner
+Twitter : @technocornerUGM
+TikTok : @technocornerugm
+@technocornerugm
+@technocornerugm
+technocorner.id technocorner.id

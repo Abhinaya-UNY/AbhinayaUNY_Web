@@ -1,0 +1,634 @@
+
+--- PAGE 124 ---
+Buku Pedoman KRI 2023  -  123 
+ 
+LAMPIRAN 3: LAYOUT LAPANGAN KRSTI TINGKAT 
+NASIONAL (LURING) 
+ 
+Gambar lay-out untuk lomba KRSTI luring 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 8. Lay-out pada saat lomba KRSTI 2023 Luring 
+ 
+ZONA   
+A
+ZONA  
+B
+Zona 
+Mulai 
+Robot 1
+ZONA  
+B
+ZONA   
+A
+Zona 
+Mulai 
+Robot 2
+Zona 
+Mulai 
+Robot 1
+ZONA 
+TUTUP
+ZONA 
+TUTUP
+Zona 
+Mulai 
+Robot 2
+Lapangan 
+bagian Tim Biru
+Zona 
+Laran
+gan
+Zona 
+Laran
+gan
+Lapangan bagian 
+Tim Merah
+Meja Juri dgn 4 PC
+Tim Biru
+Tim Merah
+Speaker 
+kanan
+Speaker 
+kiri
+
+--- PAGE 125 ---
+ 
+ 
+ 
+ 
+PEDOMAN 
+KONTES ROBOT INDONESIA (KRI) 
+TAHUN 2023 
+ 
+ 
+BUKU 7 
+KONTES ROBOT TEMATIK INDONESIA 
+(KRTMI) 
+ 
+ 
+DIGITAL TWIN 
+ 
+ 
+ 
+ 
+ 
+Balai Pengembangan Talenta Indonesia 
+Pusat Prestasi Nasional 
+Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi 
+Republik Indonesia  
+2023 
+ 
+
+--- PAGE 126 ---
+Buku Pedoman KRI 2023  -  125 
+ 
+ 
+ 
+ 
+ 
+ 
+Tema Kontes 
+Robo Game – Digital Twin 
+Slogan: 
+” Penguasaan Teknologi,  
+Kemakmuran Negara” 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ver 0.0, 31012023 
+Disiapkan oleh Indrawanto 
+Juri Kontes Robot Indonesia  
+ 
+
+--- PAGE 127 ---
+Buku Pedoman KRI 2023  -  126 
+ 
+BUKU 7. KONTES ROBOT TEMATIK INDONESIA 
+(KRTMI)  
+ 
+1. Latar Belakang 
+Pada tahun 2003, Direktorat Jenderal Pendidikan Tinggi Departemen Pendidikan dan 
+Kebudayaan, melalui Direktorat Penelitian dan Pengabdian kepada Masyarakat, mulai 
+mendanai Kontes Robot Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi 
+kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004 ditambahkan divisi 
+Kontes Robot Cerdas Indonesia yang mengadopsi kontes Robot Pemadam Api di Trinity 
+College Amerikas Serikat. Divisi pada Kontes Robot Indonesia selajutnya bertambah hingga 
+tahun 2018 terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot 
+Pemadam Api Indonesia (KRPAI) Berkaki, Kontes Robot Seni Tari Indonesia (KRSTI), Kontes 
+Robot Sepak Bola Indonesia (KRSBI) Humanoid, Kontes Robot Sepak Bola Indonesia (KRSBI) 
+Beroda. 
+Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 sebagian besar 
+mengadopsi kontes robot sejenis yang diselenggarakan di luar negeri. Melihat kondisi dan 
+kebutuhan nasional, mulai tahun 2019, Direktorat Kemahasiswaan, Direktorat Jenderal 
+Pembelajaran dan Kemahasiswaan, Kementerian Riset, Teknologi dan Pendidikan Tinggi 
+memprakarsai penyelenggaraan divisi baru di Kontes Robot Indonesia yakni Kontes Robot 
+Tematik Indonesia (KRTMI) dengan mengambil tema sesuai kebutuhan nasional yang 
+mendesak untuk diselesaikan. Kemudian mulai tahun 2020, kegiatan Kontes Robot Indonesia 
+diselenggarakan oleh Pusat Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan 
+Republik Indonesia. 
+Pada KRI 2021 dan 2022, Kontes Robot Tematik Indonesia mengambil tema DIGITAL 
+TWIN. Tema yang merupakan komponen utama pada Industri 4.0. Pada KRI 2023, tema 
+Kontes Robot Tematik Indonesia 2023 sama dengan tema tahun 2021 dan 2022 yakni Robo 
+Game – DIGITAL TWIN dengan permainan yang lebih rumit dengan inspirasi proses perakitan 
+di industri manufaktur. Tema KonteKontes Robot Tematik Indonesia 2023 ini diharapkan 
+menjadi wadah untuk mengembangkan dan menyemaikan ide-ide dalam memberikan 
+kontribusi pada penerapan konsep Industri 4.0 melalui otomasi dan robotika. 
+ 
+2. Konsep Kontes 
+Dunia automasi industri sedang mengalami transformasi besar. Teknologi komputasi dan 
+komunikasi tingkat lanjut telah mencapai tingkat kematangan sedemikian rupa sehingga 
+produsen mesin membuat perubahan dramatis dalam cara merancang produknya. 
+Pergeseran besar dari mekanisme khusus ke sistem mekatronika, atau fisik siber, menjadikan 
+rancangan tidak lagi dibatasi oleh desain mekanis suatu mesin. Adanya aktuator servo dan 
+perangkat lunak kontrol untuk mengatur gerakan mekanismenya memberikan peluang 
+signifikan untuk merancang sistem manufaktur yang fleksibel, keluaran adaptif, manajemen 
+energi, dan nilai umur mesin yang lebih tinggi.  
+
+--- PAGE 128 ---
+Buku Pedoman KRI 2023  -  127 
+ 
+Penghematan biaya yang dihasilkan dan keunggulan kompetitif sangat penting dalam 
+industri saat ini, karenanya semakin banyak produsen yang mengadopsi teknologi ini ke 
+dalam produk generasi yang akan datang. Evolusi dan konvergensi teknologi baru - sistem 
+mekatronika, pengontrol, komputasi on-board, Big Data, pembelajaran mesin, dan Industrial 
+Internet of Things (IIoT) - mendorong para peneliti untuk merumuskan tentang Revolusi 
+Industri Selanjutnya, atau disebut Industri 4.0. 
+Digital Twin adalah inti dari seluruh pengembangan Industri 4.0, yang mencakup 
+otomatisasi, pertukaran data, dan proses manufaktur, yang mana dapat menghasilkan 
+peluang tak terbatas bagi industri untuk tumbuh. Dengan kemajuan teknologi tersebut, 
+Digital Twin menghadirkan proses desain berbasis sistem yang lebih virtual yang mengarah 
+ke peran yang jauh lebih aktif pada peralatan atau sistem apapun. Dengan menyediakan 
+replika digital suatu mesin secara teliti, teknologi tersebut dapat membantu operator 
+memahami fitur unik, kinerja, dan potensi masalah pada model simulasi virtual. Karena 
+teknologi ini mendukung pemantauan pada waktu riil dari pabrik fisik, dengan bantuan sensor 
+yang dipasang ke semua peralatan, ini memungkinkan operator untuk mendapatkan 
+peringatan awal tentang kemungkinan terjadinya kegagalan pada mesin dan/atau potensi 
+waktu henti dan/atau kecelakaan. Dengan pembaruan operasi waktu riil, pekerja industri 
+mampu mengoptimalkan kinerja mesin dalam waktu riil, memantau koordinasi antara semua 
+perangkat, melakukan diagnosis di pabrik virtual, dan memperbaiki kesalahan, sehingga 
+dapat meminimalkan kerugian pada produktivitas bila itu terjadi. 
+Gambaran sistem Digital Twin ditunjukkan pada Gambar 1 yang mana terdapat replika 
+model digital dari sistem fisik. Sistem fisik dan model digital akan bekerja bersama-sama yang 
+mana sistem fisik melakukan eksekusi perintah kemudian sensor-sensor yang dipasangkan 
+pada sistem fisik mengirimkan data ke model digital. Selanjutnya sistem digital melakukan 
+analisis dan hasilnya dikirimkan ke sistem fisik. 
+ 
+Gambar 1 Konsep Digital Twin: Interaksi mulus antara sistem fisik dengan model 
+digital 
+(https://www.vizexperts.com/blog/digital-twin-and-its-impact-on-industry-4-0) 
+
+--- PAGE 129 ---
+Buku Pedoman KRI 2023  -  128 
+ 
+ 
+Kontes Robot Tematik Indonesia 2023 mengusung Digital Twin sebagai tema kontes 
+dalam rangka memperkenalkan lebih dalam tentang teknologi ini kepada peserta. Untuk 
+merealisasikan konsep ini perlu dipilih tema atau jenis aktivitas yang dapat direalisasikan 
+dalam waktu yang tersedia, dikenal di masyarakat dan mudah untuk dipahami sesuai dengan 
+konsep Digital Twin. 
+Sebagai penerapan pada kontes ini dipilih konsep perakitan roda gigi planet yang 
+diterapkan dengan mengadopsi teknologi Digital Twin. Pilihan ini dipertimbangkan dari sisi 
+keterlaksanaan antara penyiapan model fisik dan model digital dalam waktu yang tersedia 
+namun tetap mengusung konsep Digital Twin. Perakitan roda gigi planet merupakan 
+perakitan biasa dilakukan di industri manufaktur baik secara manual atau otomatais 
+menggunkab robot. Langkah-langkah perakitan ini diadopsi untuk dijadikan permainan yang 
+mengadu strategi dan kosentrasi antara dua Tim. Dengan menggunakan konsep Digital Twin 
+ini, Tim dapat menggunakan model digital dan memanfaatkan AI (Artificial Intelligence) bila 
+perlu untuk melakukan analisis guna memberikan saran kepada Tim dalam mengambil 
+langkah pada kontes ini. 
+Sistem roda gigi planet dirancang untuk meneruskan daya putar dari suatu penggerak 
+mula ke sistem yang digerakkan. Sistem roda gigi planet memiliki empat komponen utama, 
+yakni roda gigi matahari (sun gear), roda gigi planet (planet gears), carrier yang menopang 
+roda gigi planet dan roda gigi cincin (ring gear). Sistem roda gigi planet memiliki fitur utama 
+yakni memiliki rasio kontak lebih dari satu yakni sebanding dengan dengan jumlah roda gigi 
+planet. Semakin banyak jumlah roda gigi planet sebakin besar gaya/torsi yang bisa diteruskan. 
+Selain itu terdapat dua rasio putaran/torsi yang dapat dipilih dengan memilih bagian 
+luarannya. Gambar 2 menunjukkan ilustrasi rakitan roda gigi planet. 
+ 
+ 
+Gambar 2. Ilustrasi rakitan roda gigi planet  
+(https://i.ytimg.com/vi/4HPtIXlno3w/hqdefault.jpg) 
+ 
+ 
+
+--- PAGE 130 ---
+Buku Pedoman KRI 2023  -  129 
+ 
+3. Rancangan Kontes 
+Kontes ini mengadu kecekatan dan keakuratan antara dua Tim dalam menggerakkan 
+robot, mengambil dan menempatkan koin (roda gigi) pada posisi tertentu di lapangan fisik 
+sesuai acuan pada lapangan digital. Pada saat kontes dimulai kedua robot akan bergerak 
+mengambil KOIN di rak dan kemudian bergerak membawa KOIN untuk ditempatkan pada 
+lokasi yang sah pada lapangan digital.  
+Pada kontes ini masing-masing Tim akan diberi tugas untuk merakit roda gigi planet yang 
+berupa KOIN pada lapangan fisik untuk ditempatkan pada lapangan digital. Rakitan roda gigi 
+planet pada lapangan digital ditunjukkan pada Gambar 3 yang berupa roda gigi planet ganda. 
+ 
+ 
+Gambar 3. Rakitan roda gigi planet ganda untuk kontes. 
+ 
+Lapangan fisik berupa lapangan datar segi empat yang berwarna hijau dengan empat 
+penanda pada keempat sudutnya. Satu kamera akan diletakkan di atas lapangan fisik yang 
+akan menangkap citra lapangan, robot dan koin fisik dari peserta kontes. Citra ini dikirimkan 
+ke komputer juri untuk diolah menjadi model robot dan koin pada lapangan digital yang 
+berada pada komputer juri. Citra lapangan digital berikut koin yang telah ditempatkan serta 
+robot, selanjutnya dikirimkan ke peserta sebagai acuan untuk pergerakan robot fisik dan 
+penempatan koin fisik. Gambar 4 menunjukkan skematik kontes KRTMI tingkat nasional 
+dengan tema Digital Twin. 
+
+--- PAGE 131 ---
+Buku Pedoman KRI 2023  -  130 
+ 
+ 
+Gambar 4. Rancangan Kontes, robot bergerak pada lapangan fisik, kamera menangkap citra 
+robot, citra robot dikirim ke pengolah citra pada lapangan digital, citra lapangan digital 
+dikirimkan ke layar peserta sebagai acuan pergerakan robot. 
+ 
+Pada kontes ini, kedua Tim akan bergerak pada saat yang sama. Masing-masing tim boleh 
+menempatkan KOIN di posisi yang sah pada lapangan digital. Pada tahap pertama Tim harus 
+menempatkan minimal 3 roda gigi planet bagian dalam hingga posisi masing-masing roda gigi 
+planet berjarak 120O di sekeliling roda gigi matahari. Tim yang berhasil menempatkan tiga 
+roda gigi planet di bagian dalam secara simetri dapat langsung melanjutkan untuk 
+menempatkan roda gigi planet di bagian luar. Tim yang berhasil lebih dahulu menempatkan 
+empat roda gigi planet luar dengan konfigurasi simetri yakni masing-masing berjarak 90O akan 
+memenangkan kontes. 
+ 
+4. Aturan Kontes 
+ 
+4.1 Sebutan dan Definisi  
+Sebutan dan definisi yang digunakan pada Kontes Robot Tematik 2023 adalah 
+dinyatakan pada tabel berikut ini. 
+ 
+# 
+Sebutan 
+Definisi 
+1 
+ROBOT PEMAIN 
+Adalah satu robot yang dikendalikan dengan kendali jarak 
+jauh nirkabel. Robot ini berfungsi untuk mengambil koin dari 
+rak dan menempatkannya pada posisi tertentu di lapangan 
+digital. 
+
+--- PAGE 132 ---
+Buku Pedoman KRI 2023  -  131 
+ 
+2 
+LAPANGAN DIGITAL 
+Lapangan digital adalah lapangan tempat pertandingan 
+antara kedua tim akan berlangsung. Lapangan ini berada 
+pada komputer juri 
+3 
+LAPANGAN FISIK 
+Lapangan fisik adalah lapangan tempat tiap-tiap tim akan 
+menggerakkan robot pemain yang berupa lapangan 
+berwarna hijau polos dengan empat penanda batas 
+lapangan pada keempat sudutnya. 
+4 
+KOIN 
+Koin adalah berupa silinder dengan warna biru atau merah 
+yang mewakili roa gigi planet. 
+5 
+ZONA NO-ENTRY 
+Zona hingga jarak tertentu dari luar lapangan fisik yang tidak 
+boleh dimasuki anggota tim. Zona no-Entry untuk menjaga 
+agar anggota tim tidak tertangkap kamera utama selama 
+kontes berlangsung. 
+6 
+ZONA AWAL 
+Zona tempat robot pemain diletakkan saat awal mula 
+kontes. 
+7 
+KAMERA  
+Kamera di atas lapangan fisik yang menangkap citra 
+lapangan, robot pemain dan koin  
+ 
+4.2 Tatacara Pertandingan dan Tugas Kontes 
+Setiap tim harus menyelesaikan tugas dengan urutan sebagai berikut 
+ 
+4.2.1 Persiapan Robot. 
+4.2.1.1 Tim diberi kesempatan untuk mengatur ROBOT PEMAIN selama satu menit 
+sebelum kontes dimulai yang ditandai dengan aba-aba untuk memulai dan 
+mengakhiri pengaturan. Pada pengaturan ini anggota Tim boleh memasuki 
+LAPANGAN FISIK untuk meletakkan ROBOT PEMAIN dan KOIN pada rak. 
+4.2.1.2 4 (empat) anggota Tim diperbolehkan untuk melalukan proses persiapan 
+ini. 
+4.2.1.3 Bila Tim tidak berhasil menyelesaikan persiapan dalam waktu satu menit, 
+maka ROBOT PEMAIN harus dikeluarkan dari LAPANGAN FISIK. Tim dapat 
+melanjutkannya persiapan di luar LAPANGAN FISIK setelah pertandingan 
+dimulai. Setelah persiapan selesai dilakukan, Tim dengan menggunakan 
+tongkat dapat meletakkan robotnya pada ZONA AWAL dengan memberi 
+tanda pemberitahuan ke wasit. 
+ 
+4.2.2 Pergerakan ROBOT PEMAIN dan anggota Tim selama kontes. 
+4.2.2.1 ROBOT PEMAIN harus di-start dari ZONA AWAL. Robot harus berada tepat 
+di dalam ruang ZONA AWAL. 
+4.2.2.2 Semua anggota Tim harus berada di luar ZONA NO-ENTRY saat kontes 
+dimulai hingga kontes berakhir. 
+4.2.2.3 Semua anggota Tim tidak boleh tertangkap oleh KAMERA selama kontes 
+berlangsung. 
+4.2.2.4 Apabila ROBOT PEMAIN mengalami Error maka robot hanya boleh 
+diangkat dengan tongkat berwarna hijau dan memberi tanda 
+pemberitahuan ke wasit. Robot dapat diperbaiki di luar lapangan dan 
+apabila sudah siap dapat diletakkan Kembali ke ZONA AWAL dengan 
+menggunakan tongkat setelah memberi tanda pemberitahuan ke wasit. 
+
+--- PAGE 133 ---
+Buku Pedoman KRI 2023  -  132 
+ 
+ 
+4.2.3 KOIN 
+4.2.3.1 Setiap Tim menyiapkan 1 (satu) set KOIN terdiri 12 (dua belas) KOIN. 
+4.2.3.2 Setiap Tim menyiapkan satu rak untuk menempatkan KOIN di lapangan 
+fisik. 
+ 
+4.2.4 Membawa KOIN 
+4.2.4.1 Robot hanya boleh mengambil satu KOIN dari rak lalu membawa dan 
+menempatkan KOIN pada posisi yang sah di LAPANGAN DIGITAL. 
+4.2.4.2 Robot hanya boleh mengambil KOIN berikutnya bila KOIN yang diambil 
+sebelumnya telah ditempatkan pada posisi yang sah di LAPANGAN 
+DIGITAL. 
+4.2.4.3 Saat membawa KOIN dari rak ke posisi yang dituju, KOIN harus dipegang 
+pada sisi lebarnya dengan sisi terlebar menghadap ke atas agar dapat 
+ditangkap oleh KAMERA. 
+ 
+4.2.5 Meletakkan KOIN 
+4.2.5.1 KOIN dapat diletakkan pada posisi yang sah di LAPANGAN DIGITAL. 
+4.2.5.2 Penempatan KOIN tidak sah bila “lingkaran koin” di LAPANGAN DIGITAL 
+tampak secara visual pada layar. 
+4.2.5.3 Penempatan KOIN lapangan digital tidak sah bila pada tempat tersebut 
+sudah terdapat KOIN lawan, dan KOIN tersebut harus dipindahkan. 
+4.2.5.4 Tim boleh menempatkan di sebarang posisi yang sah pada LAPANGAN 
+DIGITAL. 
+4.2.5.5 KOIN yang terjatuh atau tidak berada pada posisi yang sah di LAPANGAN 
+DIGITAL boleh diperbaiki posisinya dengan cara diangkat dengan robot dan 
+meletakkannya pada posisi yang sah. DILARANG MENDORONG KOIN PADA 
+LAPANGAN FISIK UNTUK MEMINDAHKAN KOIN. 
+ 
+4.2.6 PENGULANGAN 
+4.2.6.1 Bila ROBOT PEMAIN mengalami masalah saat kontes, diperbolehkan 
+dilakukan pengulangan dengan cara diangkat dengan tongkat dan 
+diperbaiki di luar lapangan. Tim menyampaikan tanda pemberitahuan ke 
+wasit sebelum mengangkat ROBOT PEMAIN. 
+4.2.6.2 Robot yang telah diperbaiki boleh diletakkan kembali ke ZONA AWAL 
+dengan menggunakan tongkat dengan lebih dahulu menyampaikan 
+pemberitahuan kepada wasit. 
+4.2.6.3 Jumlah pengulangan maksimal 3 (tiga) kali. Bila ROBOT PEMAIN mengalami 
+masalah setelah tiga kali pengulangan ROBOT PEMAIN tidak diperbolehkan 
+melanjutkan kontes bila bermasalah.  
+ 
+4.2.7 PENEMPATAN KOIN 
+4.2.7.1 Pada tahap pertama Tim harus menempatkan minimal 3 roda gigi planet 
+dalam konfigurasi simetri yang mana posisi masing-masing roda gigi planet 
+dalam berjarak 120O di sekeliling roda gigi matahari. 
+4.2.7.2 Tim yang berhasil menempatkan 3 roda gigi planet konfigurasi simetri 
+dapat melanjutkan untuk menempatkan roda gigi planet luar. 
+
+--- PAGE 134 ---
+Buku Pedoman KRI 2023  -  133 
+ 
+4.2.7.3 Bila Tim tidak berhasil menempatkan 3 roda gigi planet dalam konfigurasi 
+simetri, maka Tim dapat melanjutkan menempatkan roda gigi planet dalam 
+pada konfigurasi simetri atau menempatkan seluruh roda gigi planet 
+dalam. 
+4.2.7.4 Bila hingga 9 roda gigi planet dalam telah terpasang tanpa ada Tim yang 
+berhasil menempatkan 3 roda gigi pada konfigurasi simetri, maka Tim yang 
+berhasil menempatkan roda gigi planet dalam terbanyak akan dapat 
+langsung melanjutkan penempatan roda gigi planet luar, sedangkan Tim 
+dengan jumlah roda gigi planet dalam sedikit harus kembali ke ZONA AWAL 
+dan mendapat pinalti waktu sebesar selisih jumlah KOIN dikalikan 10 detik.  
+4.2.7.5 Tim yang tidak berhasil menempatkan KOIN di roda gigi planet dalam tidak 
+boleh menempatkan KOIN di roda gigi planet luar. 
+4.2.7.6 Tim boleh melanjutkan penempatan KOIN dan lebih dahulu berhasil 
+menempatkan 4 KOIN simetri di roda gigi planet luar yang masing-masing 
+berjarak 90O akan langsung memenangkan kontes, dan kontes dihentikan. 
+4.2.7.7 Bila Tim tidak berhasil menempatkan 4 roda gigi planet luar dalam 
+konfigurasi simetri, Tim dapat melanjutkan menempatkan roda gigi planet 
+luar hingga seluruh KOIN Tim dipakai atau waktu kontes telah mencapai 3 
+menit. 
+ 
+4.2.8 MEMUTUSKAN PEMENANG 
+4.2.8.1 Tim yang paling dahulu menempatkan empat KOIN simetri (roda gigi planet 
+luar) pada LAPANGAN DIGITAL akan langsung memenangkan kontes dan 
+dinyatakan dengan DONE. 
+4.2.8.2 Bila tidak ada Tim yang berhasil menempatkan empat KOIN simetri roda 
+gigi planet luar atau DONE hingga waktu kontes 3 menit dilewati, maka 
+penilaian dilakukan dengan menghitung jumlah nilai KOIN yang berhasil 
+diletakkan di tempat yang sah dengan pembobotan sebagai berikut: 
+4.2.8.2.1 KOIN yang diletakkan pada garis paling dekat dengan ZONA AWAL 
+robot bernilai 3, kemudian 4, 5, dan 6. Lihat Gambar 5 untuk 
+penjelasan tentang nilai KOIN. 
+4.2.8.2.2 PERTAMA, bila nilai KOIN kedua Tim sama, maka Tim yang lebih 
+dahulu menempatkan KOIN simetri pada roda gigi planet dalam 
+akan memenangkan kontes. 
+4.2.8.2.3 KEDUA, bila dari penilaian PERTAMA masih belum dapat ditentukan 
+pemenangnya, maka Tim dengan jumlah KOIN nilai tertingi 
+terbanyak dinyatakan sebagai pemenang, begitu seterusnya 
+diperiksa untuk jumlah KOIN nilai berikutnya. 
+4.2.8.2.4 KETIGA, bila dari penilaian KEDUA masih belum dapat ditentukan 
+pemenangnya, Tim yang lebih dahulu meletakkan KOIN terakhir 
+akan memenangkan kontes. 
+4.2.8.2.5 KEEMPAT, bila dari penilaian KETIGA masih belum dapat 
+ditentukan, pemenangnya akan ditentukan berdasarkan penilaian 
+juri. 
+ 
+
+--- PAGE 135 ---
+Buku Pedoman KRI 2023  -  134 
+ 
+ 
+ 
+Gambar 5. Nilai KOIN berdasarkan posisi di Lapangan Digital untuk Tim Biru, untuk Tim 
+Merah akan berlaku sebaliknya 
+ 
+4.2.9 RANCANGAN DAN PENGEMBANGAN ROBOT 
+4.2.9.1 Setiap tim membangun satu robot. 
+4.2.9.2 Robot tidak boleh terbelah menjadi subbagian yang dihubungkan dengan 
+kabel atau tali. 
+4.2.9.3 Robot pada kontes ini harus dibangun oleh anggota Tim dari satu 
+perguruan tinggi. 
+4.2.9.4 Berat total robot, kontroller, kabel, baterai yang digunakan pada 
+pertandingan tidak dibatasi namun harus bisa diangkat oleh anggota Tim 
+dengan tongkat dari luar lapangan.  
+4.2.9.5 Robot digital twin ini bekerja dengan cara manual melalui kendali jarak 
+jauh nir kabel. 
+4.2.9.6 Robot harus memiliki dimensi pada lebar 20 cm, panjang 25 cm dan tinggi 
+20 cm dengan panjang gripper 20 cm. 
+4.2.9.7 Robot dioperasikan oleh operator melalui koneksi nirkabel. 
+4.2.9.8 Kecepatan robot dibatasi tidak lebih dari 40 cm/s. 
+ 
+4.2.10 PELANGGARAN 
+PENGULANGAN atau PINALTI, yakni ROBOT PEMAIN kembali ke ZONA 
+AWAL dan diam selama 2 detik di ZONA AWAL, adalah keharusan bagi 
+setiap PELANGGARAN. Yang dikategorikan sebagai PELANGGARAN adalah 
+sebagai berikut: 
+4.2.10.1 Bagian dari ROBOT PEMAIN keluar lapangan kontes. 
+4.2.10.2 Robot menyentuh robot lawan di lapangan digital. 
+4.2.10.3 Robot menyentuh/melewati KOIN di lapangan digital. 
+4.2.10.4 ROBOT PEMAIN membawa KOIN tidak sesuai degan tata cara yang yang 
+harus diikuti. 
+4.2.10.5 Anggota Tim tertangkap KAMERA UTAMA. 
+4.2.10.6 Tim mulai menggerakkan ROBOT PEMAIN sebelum aba-aba “mulai” 
+diberikan. Pertandingan (kedua Tim) diulang kembali.  
+4.2.10.7 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s secara terus 
+menerus dalam 2 detik akan menerima satu PINALTI atau akumulasi per 
+
+--- PAGE 136 ---
+Buku Pedoman KRI 2023  -  135 
+ 
+2 detik dalam selang waktu 8 detik yang mana setiap akumulasi 2 detik 
+mendapat satu PINALTI. 
+4.2.10.8 Tindakan lain yang melanggar aturan yang tidak termasuk dalam 
+diskualifikasi dianggap sebagai pelanggaran. 
+ 
+4.2.11 DISKUALIFIKASI 
+Suatu Tim didiskualifikasikan bila melakukan hal-hal berikut ini selama 
+pertandingan: 
+4.2.11.1 Anggota Tim menyentuh ROBOT PEMAIN di LAPANGAN FISIK saat kontes 
+berlangsung. 
+4.2.11.2 Anggota Tim menggerakkan/mendorong KOIN di LAPANGAN FISIK. 
+4.2.11.3 Anggota Tim masuk ke LAPANGAN FISIK saat kontes berlangsung. 
+4.2.11.4 Tim tidak mematuhi instruksi atau peringatan yang dikeluarkan oleh 
+wasit. 
+4.2.11.5 Tim telah menggerakkan ROBOT PEMAIN sebelum aba-aba mulai 
+diberikan, sebanyak tiga kali dalam satu kontes. 
+4.2.11.6 ROBOT PEMAIN tidak sesuai dengan ketentuan aturan. 
+ 
+4.2.12 TIM 
+4.2.12.1 Satu tim terdiri atas 4 (empat) mahasiswa, disebut sebagai anggota tim, 
+dan satu pembimbing yang semuanya berasal dari perguruan tinggi yang 
+sama. 
+4.2.12.2 Empat mahasiswa pada satu tim berhak untuk berpartisipasi dalam 
+kontes. 
+ 
+4.2.13 KESELAMATAN 
+Robot harus dirancang dan dibuat agar tidak menimbulkan bahaya apapun 
+bagi orang atau peserta di tiap-tiap Tim. 
+ 
+ 
+ 
+5. Seleksi Wilayah Secara Daring 
+ 
+Seleksi Wilayah Secara Daring ini ditujukan untuk menentukan TIM yang akan bertanding 
+di Kontes Nasional. Seleksi ini dilakukan dengan platform ZOOM-Meeting. Ukuran Robot dan 
+koin mengacu ke Pedoman KRTMI 2023. Pada seleksi ini setiap TIM harus menyiapkan 
+lapangan fisik di tempat masing-masing dengan dimensi sesuai pada Pedoman KRTMI 2023 
+dengan satu kamera dipasang di atas lapangan. Robot ditugaskan untuk menempatkan KOIN 
+sesuai dengan tempat dan urutan tertentu pada lapangan fisik. Bila penempatan KOIN tidak 
+sesuai dengan urutan maka robot harus membawa KOIN tersebut kembali ke ZONA AWAL 
+dan kemudian bisa menempatkan kembali KOIN ke tempat sesuai urutan. Pada seleksi ini 
+batasan kecepatan robot tidak diberlakukan. 
+Penilaian seleksi berdasarkan jumlah KOIN yang berhasil ditempatkan dan waktu 3 (tiga) 
+menit. Tim yang mampu menyelesaikan tugas dalam waktu tersingkat akan memperoleh nilai 
+tertinggi. Tim yang akan bertanding di Kontes Nasional ditentukan berdasarkan nilai tertinggi. 
+Setiap Tim diberikan kesempatan 2 (dua) kali untuk menyelesaikan tugas dan nilai akhir 
+
+--- PAGE 137 ---
+Buku Pedoman KRI 2023  -  136 
+ 
+adalah rerata dari 2 kali penyelesaian tugas. Gambar 6 menunjukkan salah satu skematik 
+urutan penempatan koin Seleksi Wilayah Secara Daring. Ada 4 konfigurasi penempatan koin 
+yang setara yang dipilih secara acak saat seleksi wilayah. 
+ 
+ 
+ 
+ 
+Gambar 6. Skematik lapangan kontes untuk Seleksi Wilayah Secara Daring dengan 
+contoh nomor urutan penempatan koin. 
+ 
+6. Hak Kekayaan Intelektual 
+Hak Kekayaan Intelektual dari rancangan robot pada kontes ini sepenuhnya milik Tim 
+peserta. 
+ 
+7. Lain-lain 
+7.1 Keabsahan dari setiap tindakan yang tidak diatur dalam buku aturan ini tunduk 
+pada kebijaksanaan juri. 
+7.2 Semua pertanyaan harus ditujukan ke situs web resmi Kontes Robot Tematik 
+Indonesia 2023: http://kontesrobotindonesia.id.  Bagian FAQ disediakan di situs 
+tersebut. Pemberitahuan tambahan dan/ atau koreksi ke buku aturan ini adalah 
+dibuat di situs web tersebut. 
+ 
+8. Penutup 
+Informasi lebih lanjut pelaksanaan Kontes Robot Tematik Indonesia (KRTMI) akan 
+diinformasikan melalui website. Pertanyaan teknis terkait KRTMI dapat disampaikan melalui 
+email.  
+ 
+ 
+
+--- PAGE 138 ---
+Buku Pedoman KRI 2023  -  137 
+ 
+LAMPIRAN   
+ARENA KONTES DAN ROBOT 
+ 
+ 
+ 
+Gambar A.1. LAPANGAN DIGITAL dengan ukuran setara dengan LAPANGAN FISIK 
+
+--- PAGE 139 ---
+Buku Pedoman KRI 2023  -  138 
+ 
+ 
+ 
+ 
+ROBOT PEMAIN 
+ 
+ 
+Gambar A.2. Ukuran ROBOT PEMAIN. Pada saat kontes, bagian samping ROBOT PEMAIN 
+harus ditutup dengan penutup berwarna HIJAU sewarna dengan LAPANGAN FISIK. 
+ 
+RAK DAN KOIN 
+  
+ 
+Gambar A.3. Rak tempat koin (23 slot), bisa dibuat dari kayu, plat atau batang dari logam. 
+Koin terbuat dari stiroform berbentuk segi delapan 20 cm X 20 cm tebal 3 cm. Setiap tim 
+menyiapkan 12 koin  
+ 
+
+--- PAGE 140 ---
+Buku Pedoman KRI 2023  -  139 
+ 
+LAPANGAN FISIK 
+ 
+ 
+Gambar A.4. LAPANGAN FISIK (untuk Kontes Nasional) adalah lantai yang ditutup dengan 
+kain/karpet warna hijau (green screen). 
+ROBOT PEMAIN diletak pada ZONA AWAL seperti terlihat pada gambar dan KOIN yang 
+disusun pada rak diletakkan pada pinggir sisi lapangan. KAMERA UTAMA diletakkan pada 
+tengah LAPANGAN FISIK pada ketinggian tertentu. LAPANGAN FISIK harus dilengkapi dengan 
+sistem penerangan yang yang memadai.  
+ 
+ 
+Gambar A.5. Zona No-Entry adalah zona yang tidak boleh dimasuki pemain. 
+ 
+ 
+300cm
+400cm
+15cm x 15cm
+Robot
+koin
+Kamera

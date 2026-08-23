@@ -1,0 +1,70 @@
+Buku 7 Kontes Robot Tematik Indonesia (KRTMI)......................................113
+
+--- PAGE 5 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+v
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 1
+PETUNJUK UMUM
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 6 ---
+iivi
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI BUKU 1
+1.	 Latar Belakang.........................................................................................................1
+2.	 Tujuan KRI.................................................................................................................2
+3.	 Tema KRI ...................................................................................................................2
+4.	 Divisi dan Sistem Pelaksanaan KRI 2021........................................................3
+5.	 Waktu dan Tempat Pelaksanaan KRI  ..............................................................3
+6.	 Peserta KRI ...............................................................................................................4
+7.	 Mekanisme Pendaftaran Peserta KRI...............................................................5
+8.	 Pengiriman Proposal Calon Peserta KRI.........................................................5
+9.	 Tahapan Seleksi dan Kontes...............................................................................7
+10.	Penghargaan ...........................................................................................................8
+11.	Simposium ISRSC ...................................................................................................8
+12.	Jadwal Kegiatan .....................................................................................................9
+13.	Alamat Penyelenggara .....................................................................................10
+14.	Informasi Lanjut  .................................................................................................10
+Lampiran A: Borang Pendaftaran KRI  ................................................................11
+
+--- PAGE 7 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+1
+1.	  Latar Belakang
+Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi rancang bangun 
+dan rekayasa dalam bidang robotika yang diselenggarakan oleh Pusat 
+Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan Republik 
+Indonesia. Kegiatan KRI pada tahun 2020 berubah bentuk dari kegiatan 
+luring (luar jaringan/ offline) menjadi bentuk daring (dalam jaringan/ 
+online) sehubungan dengan adanya wabah Covid-19 yang melanda 
+seluruh dunia. Pada tahun 2021 ini, Pusat Prestasi Nasional masih 
+menyelenggarakan Kontes Robot Indonesia secara daring.
+Kegiatan KRI 2021 terdiri dari 6 (enam) divisi yang diselenggarakan secara 
+daring, yaitu:
+1.	 Kontes Robot ABU Indonesia (KRAI);
+2.	 Kontes Robot SAR Indonesia (KRSRI) – (dahulu adalah divisi KRPAI);
+3.	 Kontes Robot Sepak Bola Indonesia (KRSBI) Beroda;
+4.	 Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid;
+5.	 Kontes Robot Seni Tari Indonesia (KRSTI); dan
+6.	 Kontes Robot Tematik Indonesia (KRTMI).
+KRI 2021 diselenggarakan secara bertahap dimulai dengan Kontes Tingkat 
+Wilayah yang diselenggarakan di 2 (dua) wilayah. Wilayah I mencakup 
+Indonesia bagian Barat dan Wilayah II mencakup Indonesia bagian Timur. 
+Sejumlah tim terbaik pada Kontes Tingkat Wilayah akan diundang untuk 
+ikut serta pada Kontes Robot Indonesia 2021 Tingkat Nasional. 
+Pada KRI yang dilakukan secara daring ini, tim peserta menampilkan 
+robotnya di kampus masing-masing, yang ditayangkan secara daring 
+melalui mekanisme video conferencing. 
+Pedoman KRI 2021 ini dituangkan dalam 7 buku yang terdiri dari Buku 1, 
+Buku 2, dan seterusnya sampai dengan 

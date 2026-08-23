@@ -1,0 +1,3727 @@
+
+--- PAGE 1 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+i
+i
+
+--- PAGE 2 ---
+iiii
+Pedoman KRI 2021
+Pedoman KRI 2021
+ii
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI) TAHUN 2021
+Diterbitkan oleh:
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Kompleks Kemendikbud Gedung C Lantai 19, Senayan, Jakarta
+Pengarah:
+Asep Sukmayadi, M.Si.
+Muslih, S.Sos, M.Si.
+Rizal Alfian, S.Kom., M.A.
+Tim Penyusun:
+Prof. Dr.Eng. Drs. Benyamin Kusumoputro, M.Eng.
+Prof. Dr. Mauridhi Hery Purnomo
+Dr. Eril Mozef, M.S., D.E.A.
+Ir. Heru Santoso Budi Rochardjo, M. Eng., Ph.D.
+Ir. Gigih Prabowo, M.T.
+Dr. Ir. Djoko Purwanto, M.Eng.
+Dr. Ir. Endra Pitowarno, M.Eng.
+Ir. Indrawanto, M. Eng., Ph.D.
+Dr. Kusprasapta Mutijarsa, S.T., M.T.
+Dr. Abdul Muis, S.T., M.Eng.
+Penyunting:
+Ery Agus Kurnianto, S.Pd., M.Hum.
+Retno Hendrastuti, S.S., M.Hum.
+Dyah Susilawati, S.S., M.Hum.
+Dian Respati Pranawengtyas, S.S., M.Pd.
+Desain Sampul:
+Tri Istiwahyuningsih
+Bagas Aditya
+Tata Letak:
+Dina Fitriani
+Jundi Awaludin
+Cetakan Pertama, April 2021
+ISBN: 
+©2021 Kementerian Pendidikan dan Kebudayaan
+Hak Cipta Dilindungi Undang-Undang.
+All rights reserved.
+Dilarang memperbanyak buku ini dalam bentuk dan cara apapun
+tanpa izin tertulis dari penerbit.
+iiii
+
+--- PAGE 3 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+iii
+KATA PENGANTAR
+Peningkatan kualitas sumber daya manusia merupakan salah satu fokus pembangunan 
+pada Kabinet Indonesia Maju. Kualitas sumber daya manusia dapat ditingkatkan 
+melalui perencanaan, pelaksanaan, dan evaluasi secara terencana, terprogram, dan 
+tersistem. Sistem Pendidikan Tinggi diperkokoh dengan diterbitkannya Undang-
+Undang Nomor 12 Tahun 2012, yang melandasi pengembangan kualitas lulusan melalui 
+kegiatan intrakurikuler, kokurikuler, dan ekstrakurikuler. Mahasiswa tidak hanya dibekali 
+pengetahuan dan keterampilan, melainkan juga dua unsur yang menyempurnakan 
+kinerja di kehidupan masyarakat, yaitu hard skills dan soft skills, karena sinergi di antara 
+keduanya sangat diperlukan.
+Kehadiran pengembangan teknologi yang demikian cepat mendorong para lulusan 
+untuk mampu beradaptasi dengan perubahan, bersemangat untuk belajar sepanjang 
+hayat, dan memiliki kepedulian terhadap pembangunan yang berkelanjutan. Kebijakan 
+Merdeka Belajar Kampus Merdeka (MBKM) yang digagas oleh Menteri Pendidikan dan 
+Kebudayaan mendorong mahasiswa untuk tidak hanya unggul dalam akademik, namun 
+juga menjadi individu yang kreatif, inovatif, berdaya saing tinggi, dan berkarakter. 
+Sehubungan dengan itu, Pusat Prestasi Nasional (Puspresnas) bertugas untuk menyiapkan 
+kebijakan teknis, melaksanakan, memantau, mengevaluasi, dan melaporkan berbagai 
+program di bidang pengembangan prestasi satuan pendidikan. Salah satu program yang 
+berkaitan dengan tugas tersebut adalah Kontes Robot Indonesia atau disebut dengan KRI. 
+Semoga Pedoman Kontes Robot Indonesia Tahun 2021 di bawah koordinasi Puspresnas, 
+Sekretariat Jenderal Kementerian Pendidikan dan Kebudayaan, ini dapat disosialisasikan, 
+dipahami, diterapkan, serta dievaluasi untuk mendapatkan umpan balik dalam rangka 
+peningkatan program yang bermutu dan berkelanjutan. Kami mengucapkan terima kasih 
+dan apresiasi yang setinggi-tingginya kepada para kontributor dari berbagai perguruan 
+tinggi dan dedikasi semua staf Puspresnas. Semoga pedoman ini bermanfaat bagi 
+penyelenggaraan KRI.  
+	
+	
+	
+	
+	
+Jakarta, April 2021
+	
+	
+	
+	
+	
+plt. Kepala Pusat Prestasi Nasional 
+ 
+	
+	
+	
+	
+	
+Asep Sukmayadi 
+	
+	
+	
+	
+	
+NIP 197206062006041001
+
+--- PAGE 4 ---
+iiiv
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI 
+1.	 Buku 1 Petunjuk Umum...........................................................................................1
+2.	 Buku 2 Kontes Robot Abu Indonesia (KRAI)............................................ 19
+3.	 Buku 3  Kontes Robot SAR Indonesia (KRSRI)................................................ 45
+4.	 Buku 4 Kontes Robot Sepak Bola Indonesia (KRSBI) Beroda................... 67
+5.	 Buku 5 Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid............ 81
+6.	 Buku 6 Kontes Robot Seni Tari Indonesia (KRSTI) ....................................... 95
+7.	 Buku 7 Kontes Robot Tematik Indonesia (KRTMI)......................................113
+
+--- PAGE 5 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+v
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 1
+PETUNJUK UMUM
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 6 ---
+iivi
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI BUKU 1
+1.	 Latar Belakang.........................................................................................................1
+2.	 Tujuan KRI.................................................................................................................2
+3.	 Tema KRI ...................................................................................................................2
+4.	 Divisi dan Sistem Pelaksanaan KRI 2021........................................................3
+5.	 Waktu dan Tempat Pelaksanaan KRI  ..............................................................3
+6.	 Peserta KRI ...............................................................................................................4
+7.	 Mekanisme Pendaftaran Peserta KRI...............................................................5
+8.	 Pengiriman Proposal Calon Peserta KRI.........................................................5
+9.	 Tahapan Seleksi dan Kontes...............................................................................7
+10.	Penghargaan ...........................................................................................................8
+11.	Simposium ISRSC ...................................................................................................8
+12.	Jadwal Kegiatan .....................................................................................................9
+13.	Alamat Penyelenggara .....................................................................................10
+14.	Informasi Lanjut  .................................................................................................10
+Lampiran A: Borang Pendaftaran KRI  ................................................................11
+
+--- PAGE 7 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+1
+1.	  Latar Belakang
+Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi rancang bangun 
+dan rekayasa dalam bidang robotika yang diselenggarakan oleh Pusat 
+Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan Republik 
+Indonesia. Kegiatan KRI pada tahun 2020 berubah bentuk dari kegiatan 
+luring (luar jaringan/ offline) menjadi bentuk daring (dalam jaringan/ 
+online) sehubungan dengan adanya wabah Covid-19 yang melanda 
+seluruh dunia. Pada tahun 2021 ini, Pusat Prestasi Nasional masih 
+menyelenggarakan Kontes Robot Indonesia secara daring.
+Kegiatan KRI 2021 terdiri dari 6 (enam) divisi yang diselenggarakan secara 
+daring, yaitu:
+1.	 Kontes Robot ABU Indonesia (KRAI);
+2.	 Kontes Robot SAR Indonesia (KRSRI) – (dahulu adalah divisi KRPAI);
+3.	 Kontes Robot Sepak Bola Indonesia (KRSBI) Beroda;
+4.	 Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid;
+5.	 Kontes Robot Seni Tari Indonesia (KRSTI); dan
+6.	 Kontes Robot Tematik Indonesia (KRTMI).
+KRI 2021 diselenggarakan secara bertahap dimulai dengan Kontes Tingkat 
+Wilayah yang diselenggarakan di 2 (dua) wilayah. Wilayah I mencakup 
+Indonesia bagian Barat dan Wilayah II mencakup Indonesia bagian Timur. 
+Sejumlah tim terbaik pada Kontes Tingkat Wilayah akan diundang untuk 
+ikut serta pada Kontes Robot Indonesia 2021 Tingkat Nasional. 
+Pada KRI yang dilakukan secara daring ini, tim peserta menampilkan 
+robotnya di kampus masing-masing, yang ditayangkan secara daring 
+melalui mekanisme video conferencing. 
+Pedoman KRI 2021 ini dituangkan dalam 7 buku yang terdiri dari Buku 1, 
+Buku 2, dan seterusnya sampai dengan Buku 7, dengan rincian: 
+Buku 1 : penjelasan umum KRI, Tahapan Evaluasi, sampai dengan 
+
+--- PAGE 8 ---
+ii2
+Pedoman KRI 2021
+Pedoman KRI 2021
+pelaksanaan KRI Nasional Tahun 2021;
+Buku 2 : penjelasan Kontes Robot ABU Indonesia (KRAI) Tahun 2021;
+Buku 3 : penjelasan Kontes Robot SAR Indonesia (KRSRI) Tahun 2021;
+Buku 4 : penjelasan Kontes Robot Sepak Bola Indonesia (KRSBI) Beroda 
+Tahun 2021;
+Buku 5 : penjelasan Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid 
+Tahun 2021;
+Buku 6 : penjelasan Kontes Robot Seni Tari Indonesia (KRSTI) Tahun 2021; 
+dan
+Buku 7 : penjelasan Kontes Robot Tematik Indonesia (KRTMI) Tahun 2021.
+2.	 Tujuan KRI
+Tujuan KRI 2021 adalah
+1.1	 menumbuhkembangkan dan meningkatkan kreativitas mahasiswa 
+di perguruan tinggi; 
+1.2	 mengaplikasikan ilmu pengetahuan dan teknologi ke dalam dunia 
+nyata; 
+1.3	 meningkatkan kemampuan mahasiswa dalam pengembangan 
+bidang teknologi robotika; 
+1.4	 meningkatkan kepekaan mahasiswa dalam menyelesaikan masalah 
+bangsa dengan menggunakan teknologi robotika;
+1.5	 memperkenalkan unsur-unsur seni dan budaya bangsa Indonesia 
+khususnya seni tari yang telah terkenal di bumi pertiwi kepada 
+mahasiswa di perguruan tinggi; dan
+1.6	 membudayakan iklim kompetitif di lingkungan perguruan tinggi.
+3.	 Tema KRI 
+Tema untuk setiap divisi dalam Kontes Robot Indonesia 2021 dapat 
+dilihat dalam Buku 2 hingga Buku 7.
+4.	 Divisi dan Sistem Pelaksanaan KRI 2021
+
+--- PAGE 9 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+3
+KRI Daring 2021 ini mempertandingkan 6 divisi, yaitu Divisi KRAI, 
+KRSRI, KRSBI Beroda, KRSBI Humanoid, KRSTI dan KRTMI. Seluruh 
+divisi melakukan penyisihan pada KRI Tingkat Wilayah. Tim yang lolos 
+penyisihan KRI Tingkat Wilayah akan diundang untuk bertanding pada 
+KRI Tingkat Nasional. 
+No
+Divisi
+Penyelenggaraan di
+1.
+Kontes Robot ABU Indonesia (KRAI)
+KRI Tingkat Wilayah dan Nasional
+2.
+Kontes Robot SAR Indonesia (KRSRI)
+KRI Tingkat Wilayah dan Nasional
+3.
+Kontes Robot Sepak Bola Indonesia (KRSBI) 
+Beroda
+KRI Tingkat Wilayah dan Nasional
+4.
+Kontes Robot Sepak Bola Indonesia (KRSBI) 
+Humanoid
+KRI Tingkat Wilayah dan Nasional
+5.
+Kontes Robot Seni Tari Indonesia (KRSTI)
+KRI Tingkat Wilayah dan Nasional
+6.
+Kontes Robot Tematik Indonesia (KRTMI)
+KRI Tingkat Wilayah dan Nasional
+Sistem dan aturan pelaksanaan kontes robot dapat dilihat pada panduan 
+tiap-tiap  divisi, pada buku 2 hingga buku 7.
+5.	 Waktu dan Tempat Pelaksanaan KRI  
+Rangkaian kegiatan KRI daring 2021 dijadwalkan akan dilaksanakan 
+sebagai berikut :
+No
+Waktu*
+Kegiatan
+Tempat Pelaksanaan
+1.
+23-26 Agustus 2021
+Pelaksanaan KRI Wilayah I 
+daring
+2.
+27-29 Agustus 2021
+Pelaksanaan KRI Wilayah II
+daring
+3.
+22-26 September 2021
+Pelaksanaan KRI Nasional
+daring
+(*) Waktu Pelaksanaan masih tentatif, akan diumumkan pada laman resmi 
+Kementerian Pendidikan dan Kebudayaan dan Kontes Robot Indonesia
+Secara umum, Wilayah I mencakup Indonesia bagian Barat dan Wilayah 
+
+--- PAGE 10 ---
+ii4
+Pedoman KRI 2021
+Pedoman KRI 2021
+II mencakup Indonesia bagian Timur. Pembagian tim-tim yang akan 
+mengikuti kontes pada Wilayah I dan Wilayah II akan ditentukan saat 
+pengumuman peserta Kontes Robot Indonesia.
+6.	 Peserta KRI 
+KRI 2021 dapat diikuti tim mahasiswa dari institusi atau perguruan 
+tinggi negeri dan perguruan tinggi swasta yang terdaftar dan berada 
+dalam lingkungan Kementerian Pendidikan dan Kebudayaan Republik 
+Indonesia, serta terdaftar pada Pangkalan Data Pendidikan Tinggi 
+(PDDikti). 
+Persyaratan sebagai peserta KRI adalah
+1.	 berstatus mahasiswa aktif pada perguruan tinggi yang berada dalam 
+lingkungan Kementerian Pendidikan dan Kebudayaan Republik 
+Indonesia, serta terdaftar pada Pangkalan Data Pendidikan Tinggi 
+(PDDikti);
+2.	 mendapat persetujuan dari pimpinan perguruan tinggi;
+3.	 setiap perguruan tinggi hanya diperkenankan untuk mengirim satu 
+tim peserta untuk tiap-tiap divisi.
+Setiap tim terdiri dari mahasiswa sesuai dengan divisi masing-masing, 
+dengan jumlah yang ditentukan sebagai berikut:  
+No.
+Divisi
+Tim Peserta
+Pembimbing
+1
+Divisi KRAI
+4 (empat) Mahasiswa
+1 (satu) Dosen
+2
+Divisi KRSRI
+4 (empat) Mahasiswa
+1 (satu) Dosen
+3
+Divisi KRSBI Beroda
+4 (empat) Mahasiswa
+1 (satu) Dosen
+4
+Divisi KRSBI Humanoid
+4 (empat) Mahasiswa
+1 (satu) Dosen
+5
+Divisi KRSTI
+4 (empat) Mahasiswa
+1 (satu) Dosen
+6
+Divisi KRTMI
+4 (empat) Mahasiswa
+1 (satu) Dosen
+
+--- PAGE 11 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+5
+Mahasiswa yang menjadi peserta Kontes Robot Indonesia adalah 
+mahasiswa aktif yang ditunjukkan dengan Kartu Tanda Mahasiswa 
+masing-masing  yang masih berlaku.
+7.	  Mekanisme Pendaftaran Peserta KRI
+Untuk dapat mengikuti Kontes Robot Indonesia, calon peserta melakukan 
+tahapan sebagai berikut
+7.1	 memenuhi persyaratan sebagai peserta KRI ;
+7.2	 membuat dan mengirimkan proposal kepada Panitia Kontes Robot 
+Indonesia Tahun 2021 (pengiriman daring, dengan alamat sesuai 
+terlampir pada pedoman).
+8.	 Pengiriman Proposal Calon Peserta KRI
+8.1	 Calon tim peserta KRI membuat dan mengirimkan proposal dengan 
+kriteria sebagai berikut
+1.1.1.	 setiap tim calon peserta mengajukan proposal yang dikirimkan 
+secara daring (online) kepada Pusat Prestasi Nasional 
+Kementerian Pendidikan dan Kebudayaan, c.q. Panitia Pusat 
+KRI 2021;
+1.1.2.	 mekanisme pengiriman proposal sesuai petunjuk pada laman 
+resmi Pusat Prestasi Nasional, Kementerian Pendidikan dan 
+Kebudayaan Republik Indonesia dan laman Kontes Robot 
+Indonesia;
+1.1.3.	 proposal harus mendapat persetujuan pimpinan perguruan 
+tinggi masing-masing;
+1.1.4.	 Borang pendaftaran/proposal (Application Form) dapat 
+dilihat pada Lampiran A;
+1.1.5.	 Proposal yang lolos evaluasi dan seleksi akan diumumkan 
+melalui surat pemberitahuan dan melalui laman resmi Pusat 
+Prestasi Nasional dan Kontes Robot Indonesia sesuai dengan 
+jadwal yang sudah ditentukan.
+
+--- PAGE 12 ---
+ii6
+Pedoman KRI 2021
+Pedoman KRI 2021
+8.2	 Isi dan format proposal Kontes Robot Indonesia adalah sebagai 
+berikut:
+8.2.1. 	 proposal berisi: (a) Informasi lengkap tentang nama anggota 
+tim, nama pembimbing, institusi, alamat lengkap, nomor 
+telepon, email dan nomor telepon selular yang mudah 
+dihubungi;  (b) Informasi lengkap tentang robot yang akan 
+dibuat meliputi desain struktur robot, perangkat keras (sistem 
+sensor, sistem kendali, sistem penggerak) dan perangkat lunak 
+(strategi dan algoritma). Rincian lebih lanjut lihat lampiran A. 
+8.2.2. 	 jumlah halaman proposal tidak boleh lebih dari 25 (dua puluh 
+lima) halaman,  termasuk surat pengantar, daftar isi, gambar 
+dan lampiran.
+8.3	 Pengiriman proposal:
+8.3.1.	 Proposal dikirimkan secara daring dengan format dan 
+mekanisme sesuai petunjuk yang terdapat pada laman;
+8.3.2.	 Pengiriman 
+proposal 
+melalui 
+alamat 
+laman: 
+https://
+kontesrobotindonesia.id;
+8.3.3.	 Proposal dalam format pdf  termasuk pindaian (scan) kopi 
+surat pengantar resmi dari Pimpinan Perguruan Tinggi (dalam 
+satu file);
+8.3.4.	 Aturan penamaan file: <Nama Divisi> <Nama PT> <Nama 
+Tim>.pdf
+ 
+9.	 Tahapan Seleksi dan Kontes
+Tahapan Seleksi KRI dilakukan dalam tiga tahap yaitu:
+9.1	 Seleksi Tahap Pertama. Merupakan evaluasi administratif. Proposal 
+yang diterima dan disetujui oleh panitia pusat akan diberitahukan 
+kepada calon peserta melalui surat pemberitahuan ke alamat PT 
+masing-masing dan melalui laman Panitia pusat sesuai dengan 
+jadwal yang sudah ditentukan. 
+
+--- PAGE 13 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+7
+9.2	 Seleksi Tahap Kedua. Merupakan evaluasi kesiapan tim, yang 
+mencakup kesiapan robot, lapangan dan infrastruktur video conferencing 
+pada perguruan tinggi peserta. Tim peserta memperlihatkan robotnya, 
+lapangan kontes dan infrastuktur lainnya secara daring menggunakan 
+mekanisme video conferencing. Hasil evaluasi berupa daftar tim yang 
+dapat bertanding pada Kontes Tingkat Wilayah. 
+9.3	 Evaluasi Tahap Ketiga dilakukan melalui kontes KRI Tingkat Wilayah 
+yang akan dilaksanakan dalam dua wilayah, untuk menentukan tim-
+tim yang akan diundang pada KRI Tingkat Nasional. KRI Tingkat Wilayah 
+diikuti oleh seluruh divisi pada KRI 2021, yaitu divisi KRAI, KRPAI, KRSBI 
+Beroda, KRSBI Humanoid, KRSTI dan KRTMI.
+9.4	 KRI Tingkat Nasional diikuti oleh sejumlah tim terbaik pada KRI Tingkat 
+Wilayah. 
+9.4.1.	 Tim Peserta KRI Tingkat Wilayah yang memperoleh peringkat 
+Juara Pertama, Juara Kedua dan Juara Ketiga pada divisi KRAI, 
+KRPAI, KRSBI Beroda dan KRSBI Humanoid, KRTMI akan secara 
+langsung diundang ke KRI Tingkat Nasional. 
+9.4.2.	 Khusus untuk divisi KRSTI, tim peserta yang memperoleh 
+peringkat Juara Pertama dan Juara Kedua KRI Tingkat Wilayah 
+yang langsung diundang untuk tampil di KRI Tingkat Nasional. 
+9.4.3.	 Peserta KRI Tingkat Nasional adalah Juara pada KRI Tingkat wilayah 
+seperti ditentukan pada poin a-b, ditambah peserta terbaik 
+berdasarkan ranking yang diperoleh dari Wilayah I dan Wilayah 
+II. Jumlah peserta KRI Tingkat Nasional ditentukan berdasarkan 
+kuota peserta pada masing-masing divisi.
+Keputusan Juri pada setiap tahapan evaluasi ini adalah mutlak dan tidak 
+dapat diganggu gugat.
+10.	 Penghargaan 
+Panitia menyediakan penghargaan bagi tim robot yang menjadi pemenang 
+pada setiap divisi untuk tingkat Wilayah dan Nasional. Selain penghargaan 
+untuk Juara, juga diberikan penghargaan khusus yang akan ditentukan 
+oleh panitia kemudian. 
+11.	 Simposium ISRSC 
+
+--- PAGE 14 ---
+ii8
+Pedoman KRI 2021
+Pedoman KRI 2021
+Indonesian Symposium on Robotic, Systems and Control (ISRSC) 
+adalah kegiatan temu ilmiah yang merupakan bagian dari Kontes 
+Robot Indonesia Tingkat Nasional. ISRSC pertama kali diselenggarakan 
+pada tahun 2013 dengan nama Indonesia Symposium on Robot Soccer 
+Competition, yang merupakan kegiatan pendamping KRSBI. Sejak tahun 
+2017, kepanjangan ISRSC menjadi Indonesian Symposium on Robotic, 
+Systems and Control. ISRSC merupakan wadah dan ajang silaturahmi 
+para peneliti, praktisi, komunitas dan penggiat robotika, baik yang 
+terlibat dalam kegiatan Kontes Robot Indonesia maupun umum.
+Berikut informasi penting Simposium ISRSC:
+•	 Nama simposium: the 2021 Indonesian Symposium on Robotics, 
+Systems and Control (ISRSC 2021); 
+•	 Peserta/pemakalah wajib: seluruh tim peserta KRI yang lolos ke KRI 
+Tingkat Nasional; 
+•	 Peserta/pemakalah reguler: kelompok peneliti (mahasiswa, dosen, 
+praktisi); 
+•	 Pembicara kunci: (akan ditentukan kemudian); 
+•	 Topik simposium: mencakup pengembangan ilmu dan teknologi 
+robotika, aplikasi dan rekayasa robotika, serta aspek-aspek lainnya 
+yang terkait (tetapi tidak terbatas) dengan bidang robotika;
+•	 Format makalah: menggunakan format  penulisan makalah standar 
+IEEE (https://www.ieee.org/conferences/publishing/templates.html)
+•	 Pengiriman makalah: https://kontesrobotindonesia.id/simposium.
+html 
+•	 Tempat simposium: Simposium dilaksanakan secara daring 
+Tanggal penting ISRSC:
+•	 Batas akhir pengiriman full paper: 6 September 2021 
+•	 Pemberitahuan makalah yg lolos cetak ke proceeding: 13 September 
+2021 
+•	 Batas akhir pengiriman camera ready full paper: 17 September 2021 
+
+--- PAGE 15 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+9
+•	 Hari simposium: 21 September 2021. 
+12.	 Jadwal Kegiatan 
+Jadwal kegiatan KRI Daring 2021 adalah sebagai berikut:
+No.
+Kegiatan
+Tanggal *
+Lokasi
+1
+Sosialisasi pelaksanaan KRI 2021
+April 2021
+Daring
+2
+Pendaftaran proposal KRI 2021
+21 Mei 2021
+PUSPRESNAS
+3
+Pengumuman hasil seleksi proposal
+27 Mei 2021
+PUSPRESNAS
+4
+Seleksi tahap II – visitasi Daring
+8-11 Juli 2021
+DARING
+5
+Pengumuman peserta tingkat wilayah
+14 Juli 2021
+PUSPRESNAS
+6
+Kontes Tingkat Wilayah :
+             KRI Wilayah I 
+23-26 Agustus 2021
+Daring
+             KRI Wilayah II
+27-29 Agustus 2021
+Daring
+7
+Pengumuman peserta tingkat nasional
+1 September 2021
+PUSPRESNAS
+8
+Simposium ISRSC 2021
+21 September 2021
+Daring
+9
+Pelaksanaan KRI Tingkat Nasional
+22-26 September 2021
+Daring
+(*) Waktu Pelaksanaan masih tentatif, akan dimumkan pada laman resmi 
+Kementerian Pendidikan dan Kebudayaan dan Kontes Robot Indonesia.
+13.	 Alamat Penyelenggara 
+Panitia Kontes Robot Indonesia 2021,
+Pusat Prestasi Nasional
+Kementrian Pendidikan dan Kebudayaan
+Gedung C lantai 19
+Jln. Jenderal Sudirman, Pintu 1 Senayan
+
+--- PAGE 16 ---
+ii10
+Pedoman KRI 2021
+Pedoman KRI 2021
+Jakarta Pusat 10270
+Telp. 021-5721243
+laman : https://pusatprestasinasional.kemdikbud.go.id
+Posel (email) : (dengan subjek: KRI 2021 – <Divisi yang diikuti> dan tidak 
+disingkat)
+dikti.puspresnas@kemdikbud.go.id
+dengan tembusan (cc) ke email berikut:
+djoko@kontesrobotindonesia.id (KRAI)
+erilmozef@kontesrobotindonesia.id (KRSRI)
+herusbr@kontesrobotindonesia.id (KRSBI Beroda)
+epit@kontesrobotindonesia.id (KRSBI Humanoid)
+gigih@kontesrobotindonesia.id (KRSTI)
+indrawanto@kontesrobotindonesia.id (KRTMI)
+kusprasapta.mutijarsa@kontesrobotindonesia.id (ISRSC)
+Mailing list :  kri@groups.eepis-its.edu 
+14.	 Informasi Lanjut  
+•	 Panitia akan memberikan informasi lebih lanjut  dalam mailing list:
+kri@groups.eepis-its.edu,  
+•	 Tim peserta dapat juga membuka situs resmi KRI2021 di alamat : 
+https://kontesrobotindonesia.id
+LAMPIRAN A:
+BORANG PENDAFTARAN KRI 
+INFORMASI RINCI TIM 
+1. TIM PESERTA
+
+--- PAGE 17 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+11
+Nama Tim: (Maksimum 15 huruf, gunakan nama yang mudah dibaca.)
+Divisi: (KRAI/KRSRI/KRSBI-Beroda/KRSBI-Humanoid/KRSTI/KRTMI)
+Nama Ketua Tim (mahasiswa):
+……<Nama dan No Mahasiswa> …..
+No. HP. ……………………………….
+Email. …………………………………
+Nama Anggota Tim (mahasiswa):
+1……<Nama dan No Mahasiswa> ….
+2……………………………………….
+3……………………………………….
+Nama Pembimbing ( Contact 
+Person) 
+…………………………………
+NIDN/NIDK/NUP. ………………
+No. HP. …………………………
+Email. ………………………….
+2. INSTITUSI
+Nama lengkap Perguruan Tinggi
+Alamat Lengkap dan Jelas, dengan nama Kota:	
+Nomor Telepon:
+Nomor Fax. :
+Alamat e-mail  :
+3. 	 Alamat lengkap yang mudah dihubungi, hp, telepon, fax, e-mail. 
+(contact person address)INFORMASI DETIL ROBOT 
+
+--- PAGE 18 ---
+ii12
+Pedoman KRI 2021
+Pedoman KRI 2021
+1. 	 NAMA TIM  : ______________________________ 
+(gunakan nama tim yang mudah dibaca, maks. 15 karakter) 
+2. 	 INFORMASI UMUM ROBOT 
+Informasi jenis dan jumlah robot yang digunakan
+KRSRI: mencakup jumlah kaki yang digunakan
+KRSBI Humanoid: mencakup bentuk rekaan seluruh robot yang akan dibuat 
+disertai penjelasan tentang sistem prosesor, sensor dan aktuator, berat dan 
+dimensi masing-masing.
+KRSTI: mencakup jumlah robot, dan jumlah derajat kebebasan robot
+  
+
+--- PAGE 19 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+13
+3. 	 DESAIN ROBOT  
+Desain / bentuk rekaan robot yang dibuat, mencakup ukuran/ 
+dimensi robot, berat robot, struktur mekanik, bahan. Dilengkapi 
+dengan sketsa dan gambar bagian-bagian robot.
+KRSBI Humanoid: mencakup penjelasan detil tentang struktur dan dimensi 
+robot masing-masing termasuk ukuran telapak kaki (panjang x lebar). 
+KRSTI : rancangan desain yang mencakup dimensi, struktur, bahan yang 
+digunakan.
+Catatan: 
+Gambar dan penjelasan rancangan dasar robot yang mudah 
+dibaca dan dievaluasi. Gunakan halaman tambahan / terpisah bila 
+dibutuhkan.
+
+--- PAGE 20 ---
+ii14
+Pedoman KRI 2021
+Pedoman KRI 2021
+4. 	 SISTEM KENDALI  
+Penjelasan sistem prosesor/ mikrokontroler, sistem kendali, 
+pergerakan, aktuator / motor, effektor, dan lain-lain
+KRSBI Beroda: mencakup gerakan menggiring dan menendang
+KRSTI: mencakup jumlah derajat kebebasan (minimal 25 derajat kebebasan) 
+yang diajukan melalui gambar lengkap robot dengan dua derajat kebebasan 
+sebagai penggerak pinggul dan kaki berputar 270 derajat, sesuai gerak ma­
+nusia ke arah kanan dan kiri.
+  5. 	SISTEM SENSOR 
+Penjelasan tentang sensor yang digunakan serta  rangkaian 
+interface /antarmuka-nya
+KRSRI: mencakup sensor untuk mendeteksi dinding, target, dan lain-lain.
+KRSBI Beroda: mencakup sensor untuk mendeteksi bola, gawang, kamera 
+yang digunakan, dan lain-lain. 
+KRSTI: mencakup sensor untuk mendeteksi suara musik pengiring, dan lain-
+lain
+  
+
+--- PAGE 21 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+15
+6.  	ALGORITMA / STRATEGI 
+Penjelasan strategi yang digunakan untuk mendapatkan nilai 
+selama kontes	
+KRSBI: mencakup penjelasan secara singkat tentang strategi bermain, 
+metoda visualisasi dan lokalisasi terhadap bola, lapangan, gawang dan 
+robot-robot lawan 
+KRSTI: mencakup algoritma gerakan tari, deteksi suara musik pengiring, 
+strategi untuk mensinkronkan gerakan dengan waktu yang tersedia 
+7. 	 SKETSA GAMBAR 
+Sketsa gambar desain lengkap dengan ukuran / dimensi robot. (Gambar dan 
+keterangannya hanya terkait teknis desain robot. Tidak mencantumkan info 
+apapun dalam gambar yang mengindikasikan nama insititusi pengusul.)
+  Gunakan halaman tambahan bila dibutuhkan.
+
+--- PAGE 22 ---
+ii16
+Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 23 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+17
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 2
+KONTES ROBOT ABU INDONESIA (KRAI)
+Disusun oleh 
+Dr. Ir. Djoko Purwanto, M.Eng.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 24 ---
+ii18
+Pedoman KRI 2021
+Pedoman KRI 2021
+PEDOMAN
+Kontes Robot ABU Indonesia
+KRAI 2021
+Dengan Pelaksanaan Secara Daring
+Disusun berdasar panduan dari :
+ABU Asia-Pacific Robot Contest 2021 
+Online
+
+--- PAGE 25 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+19
+ABU Asia-Pacific Robot Contest 2021
+Online
+SDRT, China
+Theme and Rules
+Throwing Arrows Into Pots
+~The ABU Robocon 20th Anniversary Game~
+ABU Asia-Pacific Robot
+Contest 2021 China Host 
+Organizing Committee
+http://robocon2021.com
+Sep., 2020
+
+--- PAGE 26 ---
+ii20
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI BUKU 2
+Background....................................................................................................................... 22
+Game Rules....................................................................................................................... 23
+1.	 Term and Definitions............................................................................................... 23
+2.	 Game Procedure and Condition Tasks.............................................................. 25
+3.	 Deciding the winner ........................................................................................... 31
+4.	 Robot............................................................................................................................. 31
+5.	 Violations..................................................................................................................... 33
+6.	 Disqualifications..................................................................................................... 34
+7.	 Team.............................................................................................................................. 34
+8.	 Others........................................................................................................................... 34
+Appendix 1........................................................................................................................ 35
+Appendix 2........................................................................................................................ 36
+Appendix 3 Low Cost Field Options......................................................................... 39
+
+--- PAGE 27 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+21
+Revision History
+Revision
+Date
+Description
+0
+08/21/2020
+Submitted the draft to the ABU Robocon Secre­
+tariat
+1
+09/26/2020
+Release on the official website of ABU Robocon 
+2021
+2
+12/10/2020
+•	 2.1 b) - Corrected the total mass of arrow and 
+height of pot
+•	 2.4.1 b) i - More exact statement
+•	 2.4.2 g) - More clear description
+•	 4.3 - Supplementary
+3
+01/15/2021
+•	 2.1 b) - Corrected the total mass and length 
+of arrow
+4
+02/03/2021
+•	 2.5 a), b) and c) – Corrected the statement
+
+--- PAGE 28 ---
+ii22
+Pedoman KRI 2021
+Pedoman KRI 2021
+Background
+
+The epidemic situation in 2021 of new coronavirus pneumonia is hard 
+to be predicted. If we can't get together in China, we can only regret to 
+turn the game online again. Therefore, this online game rules as “Plan 
+B” will be released with ABU ROBOCON 2021 real game rules at the 
+same time. The online contest will use the same robots as those in the 
+real contest, but the game field and rules are simplified certainly. No 
+matter how the virus rages, our robots will still be active on the game 
+field shown in Fig. 1!
+Fig.1 Game Field and Its Function Areas
+Fig.2 Game Field (Perspective View)
+
+--- PAGE 29 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+23
+Game Rules
+1.	 Terms and Definitions
+Terms and definitions used in the rules of ABU Robocon 2021, Online, are 
+given in the following table.
+No.
+Term
+Definition
+1
+Throwing Robot TR
+A manual or automatic robot that can only move and 
+throw arrow into pot in the Throwing Area.
+2
+Arrowkid Robot AR
+A manual or automatic robot that assists the Throwing 
+Robot to earn the scores like a caddy who helps the 
+player on a golf course. AR can run in the Scoring Area 
+and Throwing Area.
+3
+Game Field
+The place where the Trowing Robot and Arrowkid Robot 
+run and complete their task. It consisits of a Throwing 
+Area sized in 2050mm×7000mm and a Scoring Area 
+sized in 5950mm×7000mm.
+4
+Throwing Area
+An area where TR and AR can run. It includes a TR Start 
+Zone and a Storage Zone.
+5
+Scoring Area
+An area where only AR can run. It includes a AR Start 
+Zone. There are four Scoring Spots in the Scoring Area.
+6
+Scoring Spot
+The place where the Arrow thrown by robot can enter 
+into the Pot to score. There are four Scoring Spots in the 
+Scoring Area. They are two I-type Pot Tables, one II-type 
+Pot Table and a III-type Pot Table, as shown in Fig. 1 and 
+Fig. 2.
+7
+Fence
+Barriers around the Throwing Area, used to restrict the 
+movement of the robots, 80mm in height and 50mm in 
+width. Robots cannot touch the top surface and outer 
+side of the Fence, but they can touch the inner side. There 
+are some white marks on the inner side of the Fence’s 
+section near the Scoring Zone, and they can be used as 
+reference points for robot positioning if needed.
+
+--- PAGE 30 ---
+ii24
+Pedoman KRI 2021
+Pedoman KRI 2021
+8
+Pot
+A cylindrical container for holding arrows thrown by robot. 
+It is made by PVC tube and colored in red or blue. In the 
+online contest, teams can use red and blue pots at will.
+9
+Ⅰ-type Pot Table
+Table setting on the ground of the Scoring Area. There are 
+two Ⅰ-type Pot Tables with a red Pot and a blue Pot each.
+10
+Ⅱ-type Pot Table
+A table of medium height setting in the scoring area. It 
+can horizontally rotate within the whole range of 360 ° 
+around its vertical axis under the action of external force. 
+There are a red Pot and a blue Pot on it.
+11
+Ⅲ-type Pot Table
+The highest table setting in the scoring area. It can hori­
+zontally rotate within the whole range of 360 ° around its 
+vertical axis under the action of external force. There are 
+a red Pot and a blue Pot on it.
+12
+Arrow
+Rod-like scoring object in the game, consisting of head, 
+body and plume wings. In the online contest, teams 
+should use the standard Arrow specified by the Organiz­
+ing Committee.
+13
+TR Start Zone (TRSZ)
+A square starting area for Robot TR sized in 
+1000mm×1000mm.
+When the robot retries, it is also the Retry Zone for TR.
+14
+AR Start Zone (ARSZ)
+A square starting area for Robot AR sized in 
+1000mm×1000mm. When the robot retries, it is also the 
+Retry Zone for AR.
+15
+Storage Zone (SZ)
+Area used for setting Arrow Rack.
+16
+Arrow Rack
+A rack where 5 arrows can lay up. In the online contest, 
+teams should use the Arrow Rack in accordance with the 
+regulations of the Organizing Committee.
+17
+Support
+A state between objects. If object A is in contact with 
+object B, and the removing object B will lead to a change 
+in the position or orientation of object A, it can be 
+considered that object B supports object A. The referee 
+will gently push away object B to check whether object A 
+is supported.
+18
+Twinning
+A state of having an Arrow in each of the two Pots on a 
+Scoring Spot.
+
+--- PAGE 31 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+25
+2.	 Game Procedure and Competition Tasks
+2.1	 Game Facilities and Score Objects
+a)	 In this game, the team's method to earn points is to throw Arrows 
+into the pot. Therefore, the main facilities involved in the game 
+procedure are the Arrow Racks, Pots and the Pot Tables which 
+support the Pots, and the scoring objects are Arrows.
+b)	 The Arrow, as shown in Fig. 3, is 600mm in total length and 107g 
+in total mass. Its body is made by carbon fiber tube and sized as 
+12mm in diameter. The arrow head is made of silicone rubber 
+and sized as 40mm in maximum diameter and about 80mm 
+in length. At the tail of the arrow, four plume wings are spaced 
+equally around the arrow body. They all are 130mm in length and 
+25mm in maximum radial width. In each game, the team itself 
+should prepare twenty (20) Arrows that meet the requirements.
+Fig.3 Arrow
+Fig.4 Pot Table
+
+--- PAGE 32 ---
+ii26
+Pedoman KRI 2021
+Pedoman KRI 2021
+c)	 There are four (4) Scoring Spots in the Scoring Area. Each Spot has 
+a Table for putting red and blue Pots, as shown in Fig. 4. The pot 
+is PVC round barrel with inner diameter of 305mm and height 
+of 464mm. There is a foam buffer with thickness of 30mm in 
+its bottom. The vertical axis of the Pot is perpendicular to the 
+ground. There are three types of Pot Tables, named as I, II and III. 
+Two (2) I-type Pot Tables are set in the Scoring Spots 1 and 3 
+respectively. A pair of red and blue Pots is fixed on the Table. The 
+bases of the Tables are fixed on the ground of the Scoring Area. 
+The opening of the Pots is 500mm above ground. One (1) II-type 
+Pot Tables and one (1) III-type Pot Table are set in the Scoring 
+Spots 2 and 4 respectively. A pair of red and blue Pots is also fixed 
+on each Table. Near each pot, there is a handle that the robot can 
+hold. The shape of the Pots on the II-type and III-type Table are 
+slightly different from that on the I-type Table. Each of them has 
+a neck with smaller opening. In the II-type Tables, the opening of 
+the Pot is 600mm above ground and 250mm in inner diameter, 
+and in the III-type Table, the opening of the Pot is 800mm above 
+ground and 160mm in inner diameter. The rotation resistance 
+moment of II-type or III-type Pot Table is within a range of 3Nm 
+~7Nm.
+d)	 Arrows that meet the specifications in 2.1 b) can be arranged 
+on the Arrow Rack made in Fig. 05.00, see ABU ROBOCON 2021 
+Figures of Game Field.
+e)	 Team members are not allowed to touch the Arrows, Pots or Pot 
+Tables during the game, except in retry and loading Arrows to the 
+Rack.
+2.2	 Before the Game Starts
+2.2.1	 Before getting online, team should prepare for robots and 
+game field.
+2.2.2	 Throwing Robot TR and Arrowkid AR must respectively and 
+completely fit into TR Start Zone and DR Start Zone before the 
+
+--- PAGE 33 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+27
+game starts. If the team has only one robot, it can choose 
+either TRSZ or ARSZ as the start zone at will.
+2.2.3	 All items unrelated to the game and debris on the Game Field 
+must be cleared out. The team members should withdraw from 
+the Game Field. Only three (3) team members are allowed to 
+operate the robot.
+2.2.4	 Before the game starts, five (5) Arrows are arranged in the 
+Arrow Rack. Other (5) Arrows are loaded on the robot TR or AR, 
+or on the two robots separately. The remaining ten (10) will be 
+arranged on the ground outside the field near the SZ .
+2.2.5	 If the referee is in doubt about the specifications of the game 
+facilities and/or score objects, the team may be asked to check.
+2.2.5	 After confirming that the team has completed the preparatory 
+work, the referee can announce the beginning of the game by 
+voice and start timer.
+2.3	 Start the Online Game
+a.)	 After the online game starts, the robots depart from their own 
+start zone to complete their respective tasks.
+b.)	 All team members must be outside the game field except 
+during start of operation or retry. 
+c.)	 During the game, when an Arrow Rack is completely empty, 
+one assigned team member can enter into the field near the 
+Arrow Rack to replenish the five (5) spare Arrows to the Rack, 
+at a time. In other words, the Rack can only be replenished 
+twice during the game at most. After putting Arrows, the team 
+member must leave out from the field immediately.
+2.4	 Tasks of Robots
+2.4.1	 Tasks of Robot TR
+a.)	 After the game starts, TR can move out from the TR Start 
+Zone.
+b.)	 TR can throw or launch Arrows to any Pot in the Scoring 
+Ara from any location in the throwing Area. But, it can only 
+
+--- PAGE 34 ---
+ii28
+Pedoman KRI 2021
+Pedoman KRI 2021
+throw one (1) Arrow each time. Before the Arrow enters into 
+a Pot or lands somewhere, it can’t throw out next Arrow.
+c.)	 Only after the five Arrows preloaded on TR and/or AR are 
+used up, TR can 
+i) pick up the Arrows from Arrow Rack; or;
+ii) pick up the Arrows that landed on the ground of the 
+Throwing Area; or
+iii) directly receive the Arrows delivered by AR.
+d.)	 During the game, TR is not allowed to enter or extend 
+into outside the Throwing Area including its above space.
+e.)	 Any activity of TR violating the above provisions will result 
+in compulsory retry. The Arrow having entered in any Pot 
+during the violation shall be taken out by the team leader 
+and shall not be used for this game.
+2.4.2	 Tasks of Robot TR
+a.)	 AR departing from AR Start Zone can enter into the Scoring 
+Area or Throwing Area directly.
+b.)	 AR can turn the ii-type Pot Table and/or iii-type Pot Table 
+to cooperate with TR that throws Arrow into a Pot. During 
+AR rotates any Pot Table, only the handle on the Table can 
+be utilized, and no contact with any part of the Table or Pot 
+shall be allowed, except accidental contact.
+c.)	 AR can pick up the Arrows that landed on the ground of the 
+Scoring Area or the Throwing Area and throw/put them into 
+the Throwing Area or directly deliver them to TR running in 
+the Throwing Area.
+d.)	 AR is allowed to extend its body partially out of the game 
+field when it picks up the arrows landed on the ground. 
+However, AR cannot be outside the Field completely. The 
+judgment criterion of completely being outside the field 
+is that the orthographic projection of the robot on the 
+ground does not intersect with the Game Field.
+e.)	 The Robot AR running in the Scoring Area shall not throw 
+
+--- PAGE 35 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+29
+any Arrow into any Pot. However, it can leave the Scoring 
+Area and run in own Throwing Area. During this period, it 
+can be regarded as another TR, that is, to be as TR, it can 
+complete TR's tasks according to rule 2.4.1, and is also 
+subjected by all restrictions to TR. There are no restrictions 
+on the number of times of AR's entering into or going out 
+from the Scoring Area.
+a.)	 g) Any activity of AR violating the above provisions will 
+result in compulsory retry. The Arrow having entered in 
+any Pot during the violation shall be taken out by the team 
+leader and shall not be used for this game.
+2.5	 Retry
+a.)	 If a robot falls in fault or a task is not completed, the team can 
+apply for a retry of the robot. The retry can be made only after 
+the referee’s permission.
+b.)	 If a robot violates the rules, it the robot should make a 
+compulsory retry as directed by the referee.
+c.)	 When preparing for a retry, the team members must place the 
+retried robot that needs to retry at an assigned location. The 
+retry location of TR or AR is TR or AR Start Zone, respectively. 
+If TR or AR makes a false start, then the TR and AR have to all 
+go back to their respective Start zones and restart when retry.
+d.)	 During retry, the team members can adjust and change the 
+position of the Arrows carried on the robot.
+e.)	 In the retry, the team members are not allowed to pick up 
+Arrows that have fallen to anywhere.
+f.)	 After necessary adjustments to the robot, the team members 
+can start the robot themselves.
+g.)	 There are no limits to the number of times for retry. Retry must 
+be done according to the rules with approval from the referee.
+2.6	 Scoring
+2.6.1	 After the game ends, the referee checks the scores of the 
+team.
+
+--- PAGE 36 ---
+ii30
+Pedoman KRI 2021
+Pedoman KRI 2021
+2.6.2	 After Any Arrows thrown out before the end of the game are 
+likely to score, but only those Arrows which meet all of the 
+following conditions can score:
+a)	 It contacts with a Pot or other scoring Arrow.
+b)	 It does not contact with the surface of the Game Field or the 
+Pot Table.
+c)	 It is not supported by any unscored Arrow.
+d)	 It does not contact with the robot.
+2.6.3	 If one (1) Arrow is in any Pot of a Scoring Spot, the team earns 
+1 point. If there is one (1) Arrow in each pot of a Scoring Spot, 
+called as a "twinning", the team earns 8 points. If an Arrow 
+contacts with both Pots and/or Arrows in these Pots, it can 
+score, but it is not the Arrow in a Pot and it is not considered as 
+an Arrow in a "twinning", shown in Fig. 5.
+Fig.5 An Arrow contacts with both Pots
+2.6.4	 Multiple "twinning" in a Scoring Spot is allowed. For example, 
+there are three (3) Arrows in a Pot of a Scoring Spot, two (2) 
+Arrows in another Pot of that Scoring Spot, then two times of 
+"twining" are achieved, each scores 8 points, and remainder 
+single Arrow scores 1 point. Thus, the total score in this Pot is 
+17 points.
+2.6.5	 In any Scoring Spot, the maximum times of "twinning" is 3. The 
+excess "twinning" is not considered as "twinning".
+2.6.6	 The total score of a team is the sum of the points that the team 
+earns in the four Scoring Spots.
+2.6.7	 The maximum possible total score is 80.
+
+--- PAGE 37 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+31
+2.7	 End of the game
+2.7.1	 In the game, if the team thinks it has earned 80 points or had 
+no arrows available, its member can raise his/her hand to signal 
+the referee to stop the timing and the game ends immediately. 
+For the team that finishes the game early, the referee needs to 
+record its remaining time in seconds. After post-game checking, 
+if the team does not get 80 points, then its remaining time is 0.
+2.7.2	 Otherwise, the game will last 3 minutes and then end.
+2.7.3	 The game may take N rounds. After each round, the 
+achievement, in that round, of each team is measured by its 
+total score and the remaining time. When all online games are 
+complete, the average score S and the average remaining time 
+T of each team are calculated.
+3.	 Deciding the winner
+All teams will be ranked on the basis of their average achievements:
+a.)	 For the teams whose average scores are 80, the team with bigger 
+average remaining time T is ahead. If a tie occurs, the team with 
+higher average score at the Score Spot 4 is ahead. If the tie is not 
+broken, the team with higher average score at the Score Spot 2 is 
+ahead. If tie again, the referee will determine the front-runner team.
+b.)	 For the teams whose average scores are less than 80, the team with 
+higher average score is ahead. If a tie occurs, the team with higher 
+average score at the Score Spot 4 is ahead. If the tie is not broken, the 
+team with higher average score at the Score Spot 2 is ahead. If tie 
+again, the referee will determine the front-runner team.
+4.	 Robot
+4.1	 Each team can build 2 robots at most. If a team has only one (1) robot, 
+in the game, it can be TR or AR, and it can also switch between TR 
+and AR at any time. In this Rulebook, it can be considered as TR and 
+/or AR.
+
+--- PAGE 38 ---
+ii32
+Pedoman KRI 2021
+Pedoman KRI 2021
+4.2	 The robots can be manual, semi-automatic or autonomous robot.
+4.3	 Each robot cannot be split into sub-units or connected by flexible 
+cords during the game. The robots are not allowed to suction or to 
+stick on the game field.
+4.4	 The robots in the contest must be built by the team members 
+from the same university or college or polytechnics.
+4.5	 Teams are not allowed to set up any equipment in the contest site, 
+except robots, spare parts used in the game and some tools.
+4.6	 Robot Size
+a)	 At the game beginning, TR and AR must all be less than 1000mm 
+in width and 1000mm in length, its height is unlimited.
+b)		 After the game starts, the robots are allowed to expand, stretch 
+or extend without any limitation, provided that it does not violate 
+other rules in this Rulebook.
+c.)	 The robot AR can only be operated remotely and wirelessly by 
+team member standing outside the game field. The robot TR 
+can be operated wirelessly or through cable. When using cable 
+control, the length of cable is unlimited. Teams should be 
+careful to avoid cable winding with the field facilities and game 
+objects. Both wireless or cable operation, the team members are 
+not allowed to enter the game field.
+4.7	 Weight of Robots
+Total weight of two robots, controllers, primary set of batteries used 
+in the game must not exceed 50 kg. Any other equipment that the 
+team brings for setup purposes, tools, air container and backup 
+batteries (of the same type as that originally installed in the robot) 
+are exempt.
+4.8	 Power Source of Robots
+a.)	 Teams can use only batteries, compressed air, and/or elastic force 
+as power source.
+b.)	 The nominal voltage of any battery used in the robot, controller, 
+and any other devices during the game shall not exceed of 24V. 
+However, when connecting batteries in series, the total voltage 
+
+--- PAGE 39 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+33
+must be 24V or less.
+c.)	 The voltage in the circuit should be set to 42 V or less by actual 
+measurement.
+d.)	 Teams using compressed air must use either a container made 
+for the purpose, or a plastic bottle in pristine condition that is 
+prepared appropriately. Air pressure must not exceed 600kPa.
+e.)	 Any power source deemed dangerous may be banned from use.
+4.9	Communication between Robots
+a.)	 It is allowed for two robots to cooperate with each other to 
+complete the task by means of communication.
+b.)	 There are not any restrictions on the way of communication.
+c.)	 	For radio frequency communication, it is only allowed to use 
+Wi-Fi (IEEE 802.11), Zigbee (IEEE 802.15) and Bluetooth for the 
+communications between controller and robot and between two 
+robots.
+4.10	 Some parts that may help the arrow to enter into the pot are not allowed 
+to fit on the robot AR. They include but are not limited to funnel and 
+slideway etc.
+4.11	Before the contest, referees will make online inspection to the 
+robots. Robots that do not meet the above requirements will not be 
+allowed to participate the game.
+5.	 Violations
+Team will subject to a compulsory retry for each violation. The violations 
+are categorized as follows:
+a.)	 Any part of any robot enters an area that is not allowed to enter.
+b.)	 Any team member touches any part of robot, except controller of the 
+manual robot and the situations this rulebook allows.
+c.)	 The robot violates the provisions in Rule 2.4.
+d.)	 Team makes a false start.
+e.)	 Other actions that infringe on the rules but without mentioning in 
+the disqualifications are considered as violation.
+
+--- PAGE 40 ---
+ii34
+Pedoman KRI 2021
+Pedoman KRI 2021
+6.	 Disqualifications
+A team will be disquali 2.7.2 fied if it takes any of following actions during 
+the game:
+a)	 The design and build of the robot are not in accordance with the 
+regulations in Section 4 .
+b)	 The team performs any acts that are not in the spirit of fair play.
+c)	 The team fails to obey instructions or warning issued by referees.
+7.	 Team
+7.1	 Only one (1) representing team from each country or region shall 
+participate in ABU Robocon 2021. China, as the host country, may be 
+represented by two (2) teams.
+7.2	 The student team members and instructors all belong to the 
+same college, university, or polytechnic.
+7.3	 Participation of graduated students is not permitted.
+8.	 Others
+8.1	 The contest rules maybe partially modified or changed according to 
+the circumstances.
+8.2	 The legitimacy of any actions not mentioned in this rulebook is 
+subject to the discretion of the referee.
+8.3	 The dimensions, weights, etc., of the field, facilities and equipment 
+described in this Rulebook have an error margin of ±5% unless 
+otherwise stated. However, the dimensions and weights of the robots 
+shown in the rulebook are the maximum and cannot be tolerated.
+8.4	 All questions should be addressed to the official website of the 
+ABU Asia-Pacific Robot Contest 2021, http://robocon2021.com, 
+FAQ section is provided on it. Notification of any additions and/or 
+corrections to this rulebook is made on the official website.
+
+--- PAGE 41 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+35
+Appendix 1
+Materials and colors of the game field, facilities and objects
+Item
+Color
+R
+G
+B
+Material
+Throwing Area
+105
+255
+255
+Plywood, Water Paint
+Scoring Area
+170
+255
+255
+TR Start Zone
+5
+5
+255
+AR Start Zone
+255
+255
+5
+Storage Zone
+5
+5
+255
+Fence
+227
+134
+75 Plywood, Water Paint
+Guideline
+255
+250
+245 Non-Shiny Vinyl Tape
+Arrow Rack
+255
+207
+151 Metal/Steel, Oil Paint
+Pot
+Red
+255
+5
+5
+PVC Tube and Connector
+Blue
+5
+5
+255
+i-type Pot Table
+Top
+255
+154
+154 Plywood, Water Paint
+170
+255
+255
+Side
+255
+250
+245
+ii or iii-type Pot Table
+255
+250
+245 Plywood, Water Paint
+Arrow
+Head
+255
+250
+245 Silicon Rubber
+Body
+0
+0
+0
+Carbon Fiber Pipe
+Plume
+255
+180
+0
+Silica
+
+--- PAGE 42 ---
+ii36
+Pedoman KRI 2021
+Pedoman KRI 2021
+Appendix 2
+ABU ROBOCON 2021 Figures of Game Field are suitable for online contest, 
+except 00.00, 00.01 and 00.03. Those three figures can be replaced by 
+following three figures.
+
+--- PAGE 43 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+37
+
+--- PAGE 44 ---
+ii38
+Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 45 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+39
+Appendix 3 Low Cost Field Options
+The online contest is played on the game field built by the team itself. This 
+is one of the differences between an online contest and an real contest. 
+Although the online game field and field facilities are described in detail 
+in the ABU ROBOCON 2021 Figures of Game Field and in the three figures 
+in Appendix 3, and some field facilities and scoring objects, such as the 
+Pot Table, Arrow Rack and Arrow, can be ordered on ABU ROBOCON 2021 
+website, teams may still choose the low coat field options.
+1.	 Transforming the real game field into an online game field
+Some teams may have made complete real game field or blue (red) outer 
+area plus complete inner area to prepare the real contest. If the real 
+contest can‘t be held, the original game field can be transformed into an 
+online game field when preparing for the online contest. Now, take the 
+blue outer area as an example to illustrate the transformation steps.
+
+--- PAGE 46 ---
+ii40
+Pedoman KRI 2021
+Pedoman KRI 2021
+a)	 Extend the octagonal baffle’s side parallel to the original fence to 
+form a fence of the throwing area. If not necessary, the inside of the 
+extended fence need not affix white circular marks.
+b)	 According to Figure 00.01 in Appendix 2, reduce the length of the 
+throwing area and rearrange the TR start zone and storage zone.
+c)	 Affix white tape of 30 mm in width to the throwing area as shown in 
+Figure 00.01 of Appendix 2,
+d)	 Affix the scoring area boundary with blue tape of 30 mm in width, 
+as shown in Figure 00.01 of Appendix 2.
+e)	 If the original octagonal baffle in the scoring area does not interfere 
+with the motion of the robot AR, it can be retained.
+f)	 The original red team inner area and the blue team outer area in 
+the scoring area can remain the original color.
+2.	 Direct fabrication of online game field
+Some teams are limited by various conditions and do not make complete 
+or partial real game field when preparing for real contest. But, in 
+preparation for the online contest, they have to make online game field 
+themselves. Teams may reduce the fabrication costs as far as possible, 
+according to their own conditions and Figure 00.01 in Appendix 2, 
+providing that the dimensions of the online game field are ensured.
+a)	 Whether the online game field is set on the wooden or cement floor, 
+teams need not lay the wooden field floor as long as they think that 
+it has no effect on the robot's movement and facilities' installation.
+b)	 If the original ground in the scoring and throwing areas is light 
+color, the ground needs not be painted, but the colors of the TR and 
+AR start zones must be clearly different from the ground.
+c)	 If not necessary, the inside of the fence need not affix white circular 
+marks.
+
+--- PAGE 47 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+41
+3.	 Low cost pot table
+Rule 2.4.2 b) allows AR to rotate II-type and III-type pot tables. If a team 
+does not think it necessary to rotate the pot table, it needs not to order 
+or make a rotatable pot table and needs only to design and make blocks 
+to lift the II-type and III-type pot tables. The heights of the openings of 
+II type kettle and Ⅲ type kettle must be raised to 600mm and 800 mm, 
+respectively. And, these two pots must be firmly set in the appointed 
+position as shown in Figure 00.02 of Appendix 2.
+4.	 Low cost arrow rack
+Teams can design and make the arrow rack, using any materials, according 
+to the dimensions in Figure 05.00 of the ABU ROBOCON 2021 Figures of 
+Game Field. The five arrows must be arranged in parallel on the rack with 
+the head down and the plume up. Distance between two arrows is 200 
+mm. The height of the head center is about 240 mm above ground. The 
+dip angle of the arrow body is about 10 degree.
+
+--- PAGE 48 ---
+ii42
+Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 49 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+43
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 3
+KONTES ROBOT SAR INDONESIA (KRSRI)
+ROBOT OTONOM BERKAKI
+PENANGGULANGAN KEBAKARAN
+Disusun oleh:
+Dr. Abdul Muis, S.T., M.Eng.
+Dr. Eril Mozef, M.S., D.E.A.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 50 ---
+ii44
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI BUKU 3
+1.	 Pendahuluan............................................................................................................. 45
+2.	 Tema dan Misi........................................................................................................... 46
+3.	 Istilah dan Definisi................................................................................................... 47
+4.	 Gambaran Umum Kontes..................................................................................... 48
+5.	 Robot........................................................................................................................... 51
+6.	 Arena............................................................................................................................ 52
+7.	 Kelengkapan Arena................................................................................................ 54
+8.	 Pelanggaran dan Bonus........................................................................................ 61
+9.	 Perhitungan Nilai Pelanggaran, Bonus dan Waktu .................................... 62
+10.	Adendum Aturan..................................................................................................... 63
+11.	Penutup...................................................................................................................... 64
+
+--- PAGE 51 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+45
+1.	 Pendahuluan
+KRSRI (Kontes Robot SAR Indonesia) ini merupakan pengganti Kontes 
+Robot Pemadam Api Indonesia (KRPAI) yang lebih menekankan 
+pada misi pencarian dan penyelamatan bencana yang umum terjadi 
+khususnya di Indonesia. Untuk tahun ini, jenis robot masih mengadopsi 
+robot berkaki yang sebelumnya digunakan di KRPAI. Seiring dengan 
+masih adanya Pandemi Covid-19, penyelenggaraan KRSRI tahun ini 
+akan diselenggarakan secara daring (online) dengan mengikuti protokol 
+kesehatan yang ditetapkan oleh Pemerintah seperti halnya pelaksanaan 
+KRPAI tahun 2020. 
+Berbeda dengan tugas robot pada KRPAI yang sejauh ini hanya meniup 
+lilin, robot pada KRSRI tahun ini ditugaskan tidak hanya meniup lilin juga 
+harus menyelamatkan calon korban dari potensi kebakaran ke tempat 
+yang aman. Seiring dengan nama kontes robot untuk mengedepankan 
+fungsi SAR dengan robot berkaki, setiap jalur lintasan diberikan 
+rintangan yang lebih menantang sebagai wujud lingkungan tak teratur 
+sebagaimana tantangan yang biasa dihadapi robot SAR pada wilayah 
+bencana.
+Sama seperti halnya ketentuan KRPAI sebelumnya, robot-robot yang 
+mengikuti KRSRI ini harus dapat memenuhi kriteria robot KRPAI serta 
+menyelamatkan calon korban sebagai berikut.
+1.	 Dapat bergerak sendiri tanpa operator dan tanpa garis penuntun.
+2.	 Dapat membuat keputusan sendiri berdasarkan variasi tantangan 
+yang diberikan.
+3.	 Dapat melewati rintangan-rintangan dalam perjalanan.
+4.	 Tidak terpengaruh oleh parameter-parameter pengganggu ruangan 
+seperti sorotan cahaya, permukaan dinding yang tidak rata dan yang 
+menyerap suara serta dinding yang memantulkan cahaya.
+5.	 Dapat bergerak pada permukaan lantai yang tidak rata dan dapat 
+menaiki anak tangga.
+
+--- PAGE 52 ---
+ii46
+Pedoman KRI 2021
+Pedoman KRI 2021
+6.	 Dapat menemukan keberadaan panas yang direpresentasikan 
+dengan lilin dan memadamkannya.
+7.	 Dapat mencegah jatuhnya lilin ataupun penyangganya ke arah calon 
+korban yang direpresentasikan dengan boneka.
+8.	 Dapat 
+mendeteksi 
+dan 
+mengangkat 
+calon 
+korban 
+tanpa 
+menjatuhkannya.
+9.	 Dapat menyelamatkan calon korban ke daerah aman di dekatnya 
+tanpa menjatuhkannya.
+Panduan Aturan Kontes (PAK) ini dibuat dengan tetap mempertimbangkan 
+karya robot yang telah dikembangkan sebelumnya untuk KRPAI berupa 
+robot berkaki otonom dengan rintangan yang lebih menantang dan 
+kemampuan menyelamatkan calon korban ke daerah aman (safety 
+zone) terdekat. Infrastruktur arena juga tetap mempertimbangkan karya 
+arena yang telah dikembangkan sebelumnya untuk KRPAI dengan tetap 
+menggunakan luas arena dan infrastruktur kamera yang sama dengan 
+arena KRPAI 2020.
+Gambaran pelaksanaan KRSRI daring ini adalah sebagai berikut. Peserta 
+menjalankan robotnya di institusinya masing-masing atas seijin Pimpinan 
+Perguruan Tinggi dengan tetap menerapkan protokol kesehatan. Evaluasi 
+dan penilaian oleh Juri dilaksanakan secara daring menggunakan aplikasi 
+pertemuan daring (Video Conferencing). 
+2.	 Tema dan Misi
+Tema
+Tema Kontes Robot SAR Indonesia (KRSRI) 2021 adalah:
+“Robot Otonom Berkaki Penanggulangan Kebakaran”
+Misi
+Robot berusaha memadamkan api dan menyelamatkan calon korban 
+
+--- PAGE 53 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+47
+di dua ruangan dalam sebuah gedung. Dalam menuju kedua ruangan 
+tersebut, robot harus dapat mengatasi rintangan di dinding dan di 
+lantai. Robot harus dapat bergerak sendiri dan membuat keputusannya 
+sendiri tanpa dikendalikan oleh operator manusia. Terdapat dua sesi 
+pertandingan dengan aturan yang sama yaitu memadamkan api 
+dan menyelamatkan calon korban dengan mekanisme cengkeram 
+secara mekanik dan mengangkatnya ke zona aman (safety zone) 
+tanpa menggeser ataupun menjatuhkannya diluar zona aman. Robot 
+boleh kembali ke home setelah berhasil melalukan pemadaman dan 
+penyelamatan di kedua ruangan. 
+3.	 Istilah dan Definisi
+Calon Korban
+Objek yang merepresentasikan calon korban kebakaran berbentuk anak 
+kecil yang sedang menangis, dibuat dengan 3D printer dengan ukuran 
+dan berat sesuai kriteria dan diberi cat warna orange. Objek model 3D 
+(stl) disediakan oleh panitia.
+Aktivasi Robot
+Aktivasi robot terdiri dari dua tahap : menghidupkan power dan 
+menjalankan robot. Aktivasi ini hanya boleh dilakukan pada tombol 
+ataupun saklar mekanik (open-short) bukan dengan layar sentuh ataupun 
+media lain. Baik menghidupkan power maupun menjalankan robot 
+hanya boleh dilakukan dengan satu kali sentuh (tekan). Lebih dari itu 
+dianggap robot gagal bergerak. 
+Masuk Ruangan
+Posisi yang menyatakan seluruh badan robot telah memasuki ruangan 
+ditandai dengan seluruh badan robot telah melewati batas garis pintu 
+luar dilihat dari tampak atas arena atau kamera mobile dari sisi samping 
+pintu.
+
+--- PAGE 54 ---
+ii48
+Pedoman KRI 2021
+Pedoman KRI 2021
+Pemadaman
+Pemadaman adalah pemadaman api hingga padam yang dilakukan 
+robot tanpa sebelumnya menyentuh atau menjatuhkan penyangga lilin, 
+lilin, ataupun calon korban di ruangan terkait. Pemadaman juga dianggap 
+tidak berhasil dilakukan jika setelah pemadaman, lilin, atau penyangga 
+lilin tergeser/jatuh menyentuh calon korban.
+Penyelamatan
+Penyelamatan adalah mengangkat calon korban tanpa terkena lilin 
+ataupun penyangganya. Robot tidak boleh menyentuh lilin ataupun 
+penyangganya jika api lilin belum padam. Penyelamatan boleh dilakukan 
+tanpa sebelumnya melakukan pemadaman. Robot harus menyelamatkan 
+calon korban dengan mekanisme cengkeram secara mekanik dan 
+mengangkatnya ke wilayah zona aman (safety zone) tanpa menggeser 
+ataupun menjatuhkannya di luar zona aman dengan seluruh bagian 
+calon korban berada di kotak zona aman.
+Kembali ke Home
+Posisi yang menyatakan robot telah kembali ke Home ditandai dengan 
+seluruh badan robot berada di dalam kotak wilayah Home dilihat dari 
+tampak atas Arena.
+4.	 Gambaran Umum Kontes
+Peserta mempersiapkan arena yang diwujudkan dengan miniatur 
+gedung terbuat dari kayu berdimensi luar 248 cm x 248 cm x 30 cm 
+yang memiliki 2 buah ruangan dengan rintangan sesuai kriteria. Peserta 
+juga mempersiapkan infrastruktur kontes daring berupa infrastruktur 
+2 kamera atas (fix) dan 2 kamera bawah (mobile) dengan provider 
+jaringan yang berbeda untuk masing-masing posisi atas/bawah. Semua 
+kamera harus memperlihatkan posisi landscape, serta kamera atas harus 
+mencakup seluruh permukaan arena dengan kualitas gambar robot, api, 
+dan objek yang jelas sebagai acuan penilaian kinerja robot.
+
+--- PAGE 55 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+49
+Peserta harus memasuki ruang daring yang disediakan tim Juri pada saat 
+dimulainya jadwal pertandingan tim peserta. Peserta memperlihatkan 
+kesesuaian dimensi dan berat robot, arena dan perlengkapannya sesuai 
+ketentuan yang dipandu oleh tim pemeriksa di sisi juri. Tim pemeriksa 
+juga akan memastikan kehandalan sarana komunikasi peserta baik 
+spesifikasi dan infrastruktur kamera maupun penyedia layanan jaringan.
+Saat pertandingan, peserta diminta meletakkan robot di posisi home 
+mengarah ke salah satu tembok sesuai permintaan tim juri. Lalu 
+peserta menyalakan robot hanya dengan satu tombol ataupun saklar 
+mekanik (open-short). Selanjutnya tim juri akan mengacak posisi calon 
+korban di tiap-tiap ruangan. Ketika diberikan aba-aba start, maka 
+peserta menjalankan robot hanya boleh dengan satu kali sentuh (tekan) 
+pada sebuah tombol atau sebuah saklar mekanik (open-short). Selanjutnya 
+robot berjalan otomatis menuju salah satu ruangan untuk memadamkan 
+api tanpa sebelumnya menyentuh penyangga lilin, lilin dan calon korban. 
+Selain memadamkan api, robot juga ditugaskan menyelamatkan calon 
+korban dengan menghampiri dan mengangkatnya tanpa menyentuh/
+tersentuh lilin ataupun penyangganya. Robot tidak boleh menyentuh 
+lilin ataupun penyangganya jika api belum padam. Robot harus 
+menyelamatkan calon korban dengan mekanisme cengkeram secara 
+mekanik dan mengangkatnya ke wilayah zona aman (safety zone) tanpa 
+menggeser ataupun menjatuhkannya di luar zona aman sampai seluruh 
+bagian calon korban berada di dalam kotak zona aman. Robot tidak 
+boleh kembali ke home sebelum berhasil melakukan pemadaman dan 
+penyelamatan di kedua ruangan.
+Setiap misi dalam kedua sesi diberikan waktu 5 menit (300 detik) untuk 
+menyelesaikan misi. Pelanggaran dalam misi meliputi: tidak berhasil 
+memasuki ruangan, tidak berhasil memadamkan api, dan tidak berhasil 
+menyelamatkan calon korban. Bonus diberikan jika berhasil kembali ke 
+home setelah berhasil memadamkan dan menyelamatkan calon korban 
+di kedua ruangan.
+
+--- PAGE 56 ---
+ii50
+Pedoman KRI 2021
+Pedoman KRI 2021
+Aturan Pertandingan
+1.	 Penyelenggaraan bersifat daring.
+2.	 Tema disesuaikan dengan penanggulangan kebakaran meliputi 
+pemadaman api dan penyelamatan calon korban.
+3.	 Peserta sudah memenuhi kelengkapan infrastruktur baik robot, 
+arena, dan perangkat daring sesuai kriteria dalam buku panduan ini.
+4.	 Misi yang ditargetkan tahun ini diutamakan pada kehandalan dan 
+kecepatan navigasi robot otonom terhadap rute perjalanan dengan 
+rintangan yang diberikan. Tingkat kesulitan misi dan kriteria robot 
+akan ditingkatkan seiring dengan keberlanjutan kontes pada tahun-
+tahun berikutnya.
+5.	 Terdapat rintangan 2 cermin dan 1 peredam suara (sound damper) di 
+lokasi dinding yang ditentukan.
+6.	 Terdapat 4 rintangan lantai tak beraturan dengan 3 variasi model 
+yang ditentukan pada lokasi lantai tertentu.
+7.	 Penyemprotan boleh dilakukan dengan gas ataupun air dengan 
+keberhasilan diukur dari padam tidaknya api.
+8.	 Terdapat pengacakan posisi calon korban terhadap posisi lilin di 
+kedua ruangan.
+9.	 Posisi awal robot menghadap salah satu dinding sesuai permintaan 
+juri.
+10.	 Pengaktifan robot harus sesuai kriteria yang ditentukan.
+11.	 Robot harus berjalan secara otonom tidak boleh ada interaksi peserta 
+selama menyelesaikan misi.
+12.	 Penilaian ditentukan oleh kombinasi waktu penyelesaian misi, 
+pelanggaran, dan bonus.
+13.	 Pelanggaran dalam misi meliputi; tidak berhasil memasuki ruangan, 
+tidak berhasil memadamkan, dan tidak berhasil menyelamatkan 
+calon korban (khusus sesi ke-2).
+14.	 Bonus diberikan jika berhasil kembali ke home setelah menyelesaikan 
+misi dikedua ruangan untuk pemadaman dan penyelamatan (khusus 
+sesi ke-2).
+
+--- PAGE 57 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+51
+15.	 Posisi kelengkapan arena sudah diketahui oleh peserta sejak buku 
+Panduan Final diterbitkan.
+5.	 Robot
+Definisi Kaki
+1.	 Yang dimaksud dengan kaki adalah suatu bagian robot yang bila 
+bergerak dengan pola dan urutan tertentu bersama-sama dengan 
+kaki-kaki lainnya, dapat menggerakkan dan memindahkan badan 
+robot.
+2.	 Hanya bagian dari kaki yang diperkenankan menempel di lantai 
+ketika robot telah aktif dan ketika robot bergerak atau berjalan. 
+Tidak ada bagian dari badan yang tidak masuk ke dalam definisi 
+kaki diperkenankan menempel di lantai misalnya penopang badan, 
+caster dan sejenisnya.
+3.	 Setiap kaki memiliki minimal dua derajat kebebasan dengan kata 
+lain memiliki minimal dua sendi atau tegasnya setiap kaki memiliki 
+minimal dua motor/aktuator.
+4.	 Jumlah kaki minimal dua.
+5.	 Satu kaki adalah independen satu sama lainnya, artinya tidak ada 2 
+kaki atau lebih yang digerakkan oleh motor/aktuator yang sama.
+6.	 Kaki tidak diperkenankan melakukan putaran 360 derajat (seperti 
+prinsip roda berputar) untuk memindahkan badan.
+Aktivasi Suara (Sound Activation) dan Aktivasi Robot
+Aktivasi suara tidak boleh digunakan khususnya untuk sistem daring 
+saat ini. Aktivasi robot terdiri dari dua tahap: menghidupkan power dan 
+menjalankan robot. Aktivasi ini hanya boleh dilakukan pada tombol 
+ataupun saklar mekanik (open-short) bukan dengan layar sentuh ataupun 
+media lain. Baik menghidupkan power maupun menjalankan robot hanya 
+boleh dilakukan dengan satu kali sentuh (tekan). Lebih dari itu dianggap 
+robot gagal bergerak. 
+
+--- PAGE 58 ---
+ii52
+Pedoman KRI 2021
+Pedoman KRI 2021
+6.	 Arena
+Infrastruktur Arena dan Perlengkapan Pertandingan (selain kamera 
+bawah/mobile)
+
+--- PAGE 59 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+53
+Kelengkapan Arena
+Ukuran Arena
+
+--- PAGE 60 ---
+ii54
+Pedoman KRI 2021
+Pedoman KRI 2021
+Dimensi arena luar: 2480 x 2480 x 300 mm
+Dimensi arena dalam: 2440 x 2440 x 280 mm
+Dinding multiplex ketebalan 20mm
+Warna Lantai: hitam dop (JOTUN, Majestic True, S-9000N)
+Warna dinding: putih dop (JOTUN, Jotaplast White, 1790896-1-*-1:2
+7.	 Kelengkapan Arena
+Karpet
+•	 Warna : Abu-abu
+•	 Merek : Buana
+•	 Nomor Kode : Ref 605
+Garis Pintu 
+•	 Lembar stiker putih, terlihat jelas dari kamera atas
+•	 Ruang 1 : di lantai
+•	 Ruang 2 : anak tangga Rintangan C
+Lilin
+Spek Lilin
+
+--- PAGE 61 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+55
+Dudukan Lilin
+Foto Lilin
+Spek Dudukan Lilin
+Foto Lilin dan Dudukannya di Arena
+
+--- PAGE 62 ---
+ii56
+Pedoman KRI 2021
+Pedoman KRI 2021
+Rintangan Lantai Tak Beraturan
+Dimensi 
+•	 Ketebalan : 20mm
+•	 Lebar : 45cm (boleh dikurang beberapa mm agar mudah masuk lorong
+•	 Panjang bagian atas : 50cm
+•	 Panjang baigan bawah : 54cm
+•	 Pola lubang kombinasi 5 – 10cm seperti tampak pada gambar
+•	 Diameter lubang : 20mm
+•	 Kedalaman lubang : 20mm (tembus)
+Jenis Rintangan
+A.	 Ketebalan 2cm, semua berlubang
+
+--- PAGE 63 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+57
+B.	 Ketabalan 2cm, semua lubang dipasang silinder diameter 19-20mm 
+dengan ketinggian 2cm dari permukaan papan
+C.	 Ketebalan 2cm, dengan kombinasi lubang dan halangan silinder 
+ketinggian 2cm dari permukaan papan
+Posisi Rintangan: Sesuai gambar ukuran Arena
+Rintangan Lantai Karpet
+•	 Warna Abu-abu
+•	 Merk : Buana
+•	 Kode : 605
+•	 Posisi : antara ruang 1 dan 2 sesuai gambar arena
+
+--- PAGE 64 ---
+ii58
+Pedoman KRI 2021
+Pedoman KRI 2021
+Sound Damper
+Bahan: Karpet 
+Warna: abu-abu 
+Merk: Buana 
+Kode: 605
+Posisi: di tempel di dinding dengan posisi seperti yang diberikan pada 
+gambar berikut.
+Bentuk dan Ukuran Sound Damper
+Cermin
+Bentuk dan Ukuran Cermin
+300 mm
+5 mm
+300 mm
+5-10 mm
+
+--- PAGE 65 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+59
+Pencahayaan
+Intensitas cahaya minimal yang terukur di lantai arena robot minimal 
+adalah 300 lux. Ini dapat diukur dengan aplikasi pengukur intensitas 
+cahaya yang dapat diunduh pada Play Store di Andoid.
+Lampu
+Bila lampu yang dipersyaratkan tidak ada maka bisa menggunakan lampu 
+tipe lain tetapi harus berwarna putih dan memenuhi ketentuan Intensitas 
+cahaya yang telah ditetapkan pada subbab Pencahayaan.
+
+--- PAGE 66 ---
+ii60
+Pedoman KRI 2021
+Pedoman KRI 2021
+Kap Lampu
+Tiang Lampu
+Ketinggian tiang lampu sekitar 2,5 sampai dengan 3 meter dan diatur 
+sedemikian sehingga ketika dipasang kamera memungkinkan seluruh 
+gambar arena (tampak atas) dapat masuk dalam tangkapan kamera.
+
+--- PAGE 67 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+61
+8.	 Pelanggaran dan Bonus
+Penilaian didasarkan pada seberapa cepat robot menyelesaikan misinya. 
+Semakin kecil waktu yang diperlukan dalam setiap sesi maka semakin 
+baik kinerja robot. Bila terdapat pelanggaran dalam misi tersebut, maka 
+waktu yang diperoleh ditambah sebagai konsekuensinya. Sebaliknya bila 
+robot mendapat bonus maka ini akan mengecilkan perolehan waktu dan 
+pelanggaran. Berikut ini akan dijelaskan tentang pelanggaran dan bonus, 
+cara mendapatkannya dan faktor-faktor yang dapat membatalkannya. 
+Pelanggaran pada Robot yang Tidak Bisa Memasuki Ruangan
+Robot dikatakan berhasil memasuki ruangan jika seluruh badan robot 
+sudah memasuki garis luar pintu ruangan berdasarkan yang terlihat 
+oleh Juri dari kamera atas atau kamera mobile tepat dari samping pintu 
+sehingga bisa meyakinkan sudah memenuhi kriteria memasuki ruangan.
+Pelanggaran Pada Tidak Bisa Memadamkan Api
+Pemadaman api dikatakan berhasil jika robot dapat mematikan api 
+dengan aksi penyemprotan hingga padam dengan semua syarat berikut 
+harus dipenuhi
+•	 Sebelumnya tidak menyentuh / menjatuhkan lilin, penyangga lilin 
+ataupun calon korban.
+•	 Setelahnya api tidak kembali menyala.
+•	 Setelahnya lilin ataupun penyangga tidak tergeser / terjatuh 
+menyentuh calon korban.
+Pelanggaran pada Robot yang Tidak Bisa Menyelamatkan Korban
+Penyelamatan korban dikatakan berhasil jika robot dapat mengangkat 
+korban dan membawanya serta meletakkannya pada zona aman dengan 
+semua syarat berikut harus dipenuhi
+•	 Sebelumnya tidak membuat calon korban terjatuh.
+•	 Sebelumnya tidak membuat calon korban terkena/tersentuh lilin 
+
+--- PAGE 68 ---
+ii62
+Pedoman KRI 2021
+Pedoman KRI 2021
+maupun penyangganya.
+•	 Mengangkat korban dengan mekanisme cengkeram secara mekanik.
+•	 Memindahkan sambil mengangkat bukan menggeser.
+•	 Tidak terjatuh / menyentuh lantai sejak pertama kali berhasil 
+mengangkat dan mulai memindahkan.
+•	 Semua badan korban masuk zona aman dengan verifikasi kamera atas 
+atau kamera mobile.
+Bonus Kembali Ke Home
+Bonus diberikan jika robot berhasil memadamkan api dan menyelamatkan 
+korban ke zona aman di kedua ruangan dan berhasil kembali ke home. 
+Besarnya bonus bernilai 0.5
+9.	 Perhitungan Nilai Pelanggaran, Bonus dan Waktu 
+Perhitungan Nilai Pelanggaran, Bonus dan Waktu pada Kedua Sesi
+Perhitungan Nilai Pelanggaran:
+Pelanggaran 1:
+1.	 Bila dari posisi Home, robot tidak keluar Home maka nilai pelanggaran 
+1 = 500 detik.
+2.	 Bila dari posisi Home, robot keluar Home tapi tidak masuk ke ruang 
+manapun maka nilai pelanggaran 1 = 450 detik.
+3.	 Bila dari posisi Home, robot keluar Home dan berhasil masuk ke salah 
+satu ruangan maka nilai pelanggaran 1 = 0 detik.
+Pelanggaran ruang 1:
+1.	 Bila robot berhasil masuk ke ruang 1, tidak berhasil melakukan 
+pemadaman maupun penyelamatan, maka nilai pelanggaran ruang 
+1 = 100 detik
+2.	 Bila robot berhasil masuk ke ruang 1, tidak berhasil melakukan 
+pemadaman tapi berhasil melakukan penyelamatan, maka nilai 
+pelanggaran ruang 1 = 30 detik
+3.	 Bila robot berhasil masuk ke ruang 1, berhasil melakukan pemadaman 
+tapi tidak berhasil melakukan penyelamatan, maka nilai pelanggaran 
+
+--- PAGE 69 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+63
+ruang 1 = 60 detik
+Pelanggaran ruang 2:
+1.	 Bila robot berhasil masuk ke ruang 2, tidak berhasil melakukan 
+pemadaman maupun penyelamatan, maka nilai pelanggaran ruang 
+1 = 140 detik
+2.	 Bila robot berhasil masuk ke ruang 2, tidak berhasil melakukan 
+pemadaman tapi berhasil melakukan penyelamatan, maka nilai 
+pelanggaran ruang 1 = 30 detik
+3.	 Bila robot berhasil masuk ke ruang 2, berhasil melakukan pemadaman 
+tapi tidak berhasil melakukan penyelamatan, maka nilai pelanggaran 
+ruang 1 = 60 detik
+Juri mencatat waktu Timer, pelanggaran dan bonus yang diperoleh robot.
+Juri melakukan penilaian.
+Retry dan Pass
+Tidak ada Retry.
+Pass diperbolehkan bila diinginkan oleh peserta. Peserta cukup 
+mengatakan “Pass” kapanpun saat sesi berlangsung dan mengambil 
+segera robotnya.
+Waktu Per Sesi dan Jumlah Sesi
+Satu sesi kontes bagi robot lamanya 5 menit (maksimum), persiapan 
+bagi peserta kurang lebih 2 menit. Terdapat 2 sesi kontes atau 2 kali 
+kesempatan bertanding dimana setiap sesinya proses kontesnya sama.
+10.	Adendum Aturan
+Bila dirasa perlu, dimungkinkan terjadi perubahan dan penambahan 
+aturan. Bila hal ini terjadi maka akan ditambahkan melalui Adendum 
+aturan.
+11.	Penutup
+
+--- PAGE 70 ---
+ii64
+Pedoman KRI 2021
+Pedoman KRI 2021
+Informasi lebih lanjut pelaksanaan Kontes Robot Pemadam Api Indonesia 
+(KRPAI) akan diinformasikan melalui website http://pusatprestasinasional.
+kemdikbud.go.id dan melalui email resmi, yaitu dikti.puspresnas@
+kemdikbud.go.id.
+
+--- PAGE 71 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+65
+
+--- PAGE 72 ---
+ii66
+Pedoman KRI 2021
+Pedoman KRI 2021
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 4
+KONTES ROBOT SEPAK BOLA INDONESIA
+(KRSBI) BERODA
+Disusun oleh:
+Ir. Heru Santoso Budi Rochardjo, M. Eng., Ph.D.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 73 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+67
+DAFTAR ISI BUKU 4
+Pendahuluan  ..........................................................................................69
+Aturan Main KRSBI Beroda  ...................................................................70
+1.	 Umum  ................................................................................................................... 70
+2.	 Robot.  ................................................................................................................... 70
+3.	 Lapangan ............................................................................................................. 72
+4.	 Gawang.................................................................................................................. 72
+5.	 Dummy Robot..................................................................................................... 73
+6.	 Konsep Kontes..................................................................................................... 73
+7.	 Pelanggaran ........................................................................................................ 76
+8.	 Denda..................................................................................................................... 76
+9.	 Kamera .................................................................................................................. 77
+10.	Penentuan Pemenang...................................................................................... 77
+11.	Keputusan Juri .................................................................................................... 78
+12.	Contoh Set-up Awal Pertandingan dan Posisi Sebelum Retry ........... 78 
+Penutup ...................................................................................................79
+
+--- PAGE 74 ---
+ii68
+Pedoman KRI 2021
+Pedoman KRI 2021
+KONTES ROBOT INDONESIA
+DIVISI
+KONTES ROBOT SEPAK BOLA INDONESIA BERODA
+KRSBI BERODA - 2021
+ 
+
+--- PAGE 75 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+69
+PENDAHULUAN
+Kontes Robot Sepak Bola Beroda adalah salah satu divisi dari Kontes 
+Robot Indonesia yang diselenggarakan setiap tahun. Secara normal, 
+penyelenggaraan KRSBI dilakukan secara langsung ketemu antar tim 
+di suatu tempat, baik regional maupun nasional. Akan tetapi tahun 
+ini, karena Covid-19 belum berakhir, maka tidak memungkikan untuk 
+bermain secara langsung seperti yang seharusnya. Oleh karena itu, KRSBI 
+beroda tahun ini masih dilakukan secara daring seperti tahun yang lalu. 
+Panduan ini akan menjelaskan pelaksanaan pertandingan KRSBI beroda 
+secara daring untuk tahun ini. Semoga dengan pertandingan ini, ide-ide 
+dan hasil penelitian tim KRSBI Beroda selama ini masih dapat diterapkan, 
+walaupun tidak saling bertemu. Di samping itu pertandingan diharapkan 
+tetap menarik walaupun secara daring.
+Salah satu hal penting dari permaian secara daring ini adalah 
+diperlukannya setiap tim untuk melaksanakan pertandingan sejujur 
+mungkin, menjunjung tinggi sportivitas, dan kejujuran.
+
+--- PAGE 76 ---
+ii70
+Pedoman KRI 2021
+Pedoman KRI 2021
+ATURAN MAIN KRSBI BERODA 2020
+1.	 Umum  
+Pertandingan ini akan menerapkan protokol penanggulangan Covid-19, 
+yaitu jaga jarak, menghindari berkumpulnya banyak orang di 
+suatu tempat, memakai masker, dan cuci tangan. Oleh karena itu, 
+pertandingan akan  berbentuk unjuk keterampilan di kampus masing-
+masing tim, dan dipantau oleh juri dan tim-tim yang lain secara daring. 
+Dengan demikian aturan main akan sangat berbeda dengan yang 
+dilaksanakan secara luring. 
+Pada dasarnya divisi ini tetap menerapkan aturan main yang ada di 
+Robocup. Oleh karena itu, peraturan-peraturan dasar dari Robocup, 
+seperti ukuran robot, ukuran bola, cara menggiring, membuat gol, dsb. 
+sejauh memungkinkan tetap dilaksanakan sesuai peraturan Robocup. 
+Detail pertandingan dijelaskan pada uraian berikut. 
+2.	 Robot.  
+Pada KRSBI Beroda tahun ini, robot yang digunakan adalah robot yang 
+sama dengan robot yang dipakai tahun 2019. Perbedaan yang ada  yaitu :
+2.1	 Jumlah robot : dua dan hanya boleh dua, yaitu Robot 1 (R1) dan 
+Robot 2 (R2) ;
+2.2	 Tipe robot : robot penyerang; 
+2.3	 Ukuran, berat dan bentuk robot:  
+Proyeksi robot ke lantai minimum 30 cm x 30 cm, dan maksimum : 
+52 cm x 52 cm. 
+Tinggi robot minimum 40 cm, dan maksimum 80 cm.  
+Jika tinggi robot lebih dari 60 cm, maka bagian robot di atas 60 cm 
+dari  tanah harus masuk ke dalam silinder berdiameter 25 cm.  
+Berat Robot : maksimum 40 kg.
+Bentuk robot : bebas.
+Warna Robot : hitam;
+
+--- PAGE 77 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+71
+2.4	 Identitas robot: 
+Nomor robot 1 (robot R1) atau robot 2 (robot R2) dipasang di tubuh 
+robot. Warna background angka 1 adalah magenta, dan background 
+angka 2 adalah cyan. Background ini harus berbentuk selendang 
+yang melingkupi seluruh badan robot sehingga mudah dilihat dari 
+jauh, seperti contoh pada Gambar 1.
+2.5	 Kontrol robot:
+Robot harus dapat di-start secara remote. Metode remote yang 
+digunakan memakai wifi dalam suatu jaringan. Jadi, dalam satu 
+jaringan, ada komputer kontroller (base station), R1 dan R2.     
+Setelah start, robot tidak boleh dikendalikan, tetapi harus 
+autonomous, baik saat menemukan bola, menggiring ataupun 
+menendang bola. 
+Robot harus dilengkapi alat penangkap dan penggiring bola 
+sehingga pada saat
+a.	 menggiring bola : bola tidak terangkat, bola harus berputar 
+natural, dan memenuhi syarat bahwa hanya sepertiga bagian 
+bola yang masuk ke robot; 
+b.	 menangkap bola dari operan : setengah bagian bola boleh 
+masuk ke robot.
+  
+                                            
+(a)	
+            		
+(b) 
+Gambar 1. Robot dengan selendang magenta untuk R1 (a) dan cyan 
+untuk R2 (b)
+
+--- PAGE 78 ---
+ii72
+Pedoman KRI 2021
+Pedoman KRI 2021
+3.	 Lapangan 
+Lapangan dan perlengkapannya harus dibuat oleh masing-masing tim. 
+Agar tidak memberatkan tim, lapangan dan perlengkapannya dibuat 
+semudah mungkin dengan bahan-bahan yang mudah didapat.
+3.1	 Lapangan adalah setengah dari lapangan yang dipakai untuk luring, 
+seperti pada Gambar 2. 
+3.2	  Lapangan dapat dibuat dari lantai biasa atau diberi karpet dengan 
+warna bebas, tidak harus hijau, dengan garis berwarna kontras 
+(sebaiknya putih). Ukuran garis selebar 49--50  mm (selebar lakban).
+3.3	 Pagar pembatas dihilangkan.
+Gambar 2. Bentuk dan ukuran lapangan
+4.	 Gawang
+4.1	 Gawang harus dibuat kuat sehingga tidak roboh jika terkena bola. 
+Jika gawang roboh karena bola dan terjadi gol, gol tersebut dianggap 
+tidak sah.
+4.2	 Gawang harus dipasangkan jala (net) sehingga jelas posisi ketika 
+bola masuk atau tidak.
+4.3	 Ukuran gawang seperti ditunjukkan pada Gambar 3.
+4.4	 Warna gawang: putih.
+•	 R1, R2 dan B adalah posisi 
+robot 1, robot 2 dan bola.
+•	 Titik biru bernomor 1 s.d. 
+8 adalah kandidat posisi 
+dummy robot
+•	 Ada 2 dummy robot yang 
+harus diletakkan  di titik itu. 
+Posisi ini  akan diundi.
+Satu lagi robot dummy di 
+bawah mistar gawang
+
+--- PAGE 79 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+73
+ 
+ 
+Gambar 3. Gawang                .
+5.	 Dummy Robot
+Dummy robot adalah benda berbentuk balok yang digunakan sebagai 
+simulasi robot lawan. Ukuran minimum 30 x 30, maksimum 52 x 52 cm. 
+Tinggi minimum 40 cm, dan maksimum 80 cm. Beratnya minimum 15 
+kg, dan diusahakan titik berat serendah mungkin agar tidak mudah 
+roboh. Untuk kiper, tingginya bisa 90 cm.
+Jumlah dummy robot 3 buah, dua diletakkan di lapangan, satu diletakkan 
+di bawah mistar gawang sebagai dummy robot kiper. Warna dummy 
+robot bebas.
+6.	 Konsep Kontes
+6.1 	 Kontes dilaksanakan dalam 3 (tiga) sesi. Tim diberi waktu 
+penampilan 3 menit dalam tiap sesi. Urutan penampilan ditentukan 
+dengan undian.
+6.2 	 Setelah satu tim menyelesaikan satu sesi, dilanjutkan dengan tim 
+berikutnya sesuai urutan sampai seluruh tim menyelesaikan sesi 
+tersebut. Setelah semua tim melaksanakan sesi tersebut, diteruskan 
+dengan sesi berikutnya dengan urutan tim yang sama, begitu 
+seterusnya.
+6.3 	 Tim yang berhak melanjutkan sesi ke-3 hanya tim yang berhasil 
+membuat minimum satu gol pada 2 sesi sebelumnya.
+
+--- PAGE 80 ---
+ii74
+Pedoman KRI 2021
+Pedoman KRI 2021
+6.4 	 Setiap sesi baru diawali dengan pengaturan konfigurasi lapangan 
+sesuai hasil undian.
+6.5 	 Setelah robot pemain, dummy robot, dan bola berada di posisinya, 
+semua operator harus keluar lapangan minimal 1 meter dari robot. 
+6.6 	 Juri akan memberi aba-aba mulai (start) untuk memulai 
+pertandingan. Operator kemudian men-start robot secara remote.
+6.7 	 Robot R1 menuju ke bola, kemudian mengoper ke R2. R2 harus 
+dapat menangkap bola, kemudian mengoper balik ke R1, tetapi R1 
+harus sudah berpindah mendekati gawang paling tidak 1 m dari 
+posisi saat mengoper bola. 
+6.8 	 Setelah bola diterima kembali oleh R1 lalu bola dioper lagi ke R2, 
+tetapi R2 harus sudah berpindah minimal 1 m dari posisi semula. 
+Setelah itu, gol baru boleh dibuat. Gol boleh dibuat oleh R1 ataupun 
+R2. Jadi operan minimum adalah : R1àR2àR1àR2àGol.
+6.9 	 Pada saat melakukan operan atau menerima operan, kedua robot 
+tidak boleh berpindah tempat. Menggeleng kiri atau kanan sedikit 
+diperbolehkan.
+6.10 	Moda pembuatan gol seperti dijelaskan pada 6.5 sampai dengan 
+6.8 disebut moda Kick off kanan.
+6.11 	Dalam satu sesi, tim diwajibkan melakukan 3 moda secara 
+berurutan, yaitu :
+a.	 Kick off kanan : R1àR2àR1àR2àGol
+b.	 Kick off kiri : R2àR1àR2àR1àGol
+c.	 Corner Kick kanan : R2àR1àR2àGol. 
+6.12 	Moda Kick off kiri adalah kebalikan dari kick off kanan, dilakukan 
+dengan urutan sebagai berikut : R1 dan R2 berada di kotak start. 
+Kedua robot di-start secara remote. Robot R2 menuju ke bola, 
+kemudian mengoper ke R1. R1 harus dapat menangkap bola, 
+kemudian mengoper balik ke R2, tetapi R2 harus sudah berpindah 
+mendekati gawang paling tidak 1 m dari posisi saat mengoper bola. 
+Setelah bola diterima kembali oleh R2, bola dioper lagi ke R1, tetapi 
+R1 harus sudah berpindah minimal 1 m dari posisi semula. Setelah 
+itu, gol baru boleh dibuat. Gol boleh dibuat oleh R1 ataupun R2. 
+
+--- PAGE 81 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+75
+Jadi operan minimum adalah : R2àR1àR2àR1àGol.
+6.13 	Moda Corner kick kanan dilakukan dengan urutan sebagai berikut 
+: R1 berada di posisi start, R2 di belakang bola yang berada di titik 
+corner kick kanan. Start kedua robot secara remote. R1 mendekati 
+bola sampai jaraknya tidak kurang dari 1 m. R2 mengoper bola 
+ke R1. R1 mengoper kembali ke R2, R2 membuat gol. Jadi operan 
+minimum adalah : R2àR1àR2àGol.
+6.14 	Setelah selesai moda Corner kick, dapat diulang dari moda Kick off 
+kanan jika waktu masih ada.
+6.15 	Perpindahan dari setiap moda hanya boleh dilakukan setelah 
+membuat gol pada moda sebelumnya. Perpindahan moda bisa 
+dilakukan secara langsung, tanpa menunggu aba-aba wasit.
+6.16 	Maksud kanan dan kiri adalah kanan dan kirinya kiper.
+6.17 	Jika bola keluar lapangan, maka disebut bola mati. Jika kondisi bola 
+mati, maka tim harus melakukan retry. 
+6.18 	Pada waktu retry, robot boleh diangkat secara manual. Anggota tim 
+yang boleh masuk ke lapangan pada waktu retry maksimal 5 orang.
+6.19 	Proses retry : Setelah robot berada pada kotak start, operator 
+menjauh dari robot dan robot di-start secara remote tanpa aba-aba 
+juri. 
+6.20 	Kondisi bola mati yang lain: 
+a.	 terjadi gol sah atau tidak sah, atau;
+b.	 terjadi pelanggaran, atau;
+c.	 robot tidak bergerak lebih dari 5 detik dan tim meminta retry.
+6.21 	Gol yang sah adalah:
+a.	 gol yang dilakukuan sesuai jatah urutan moda;
+b.	 gol yang terjadi setelah dilakukan operan minimum sesuai 
+moda yang dilakukan dan;
+c.	 gol yang dilakukan dengan tendangan dari luar daerah penalty, 
+dan;
+d.	 gol yang bukan pantulan dari robot (pemain maupun dummy), 
+tetapi karena tendangan masuk ke gawang, kecuali pantulan 
+dari kiper dummy.
+
+--- PAGE 82 ---
+ii76
+Pedoman KRI 2021
+Pedoman KRI 2021
+6.22 	Setelah terjadi gol, tim boleh langsung memulai moda berikutnya 
+tanpa menunggu aba-aba wasit sampai waktu tim habis dalam sesi 
+tersebut.
+6.23 	Setiap pergantian sesi dilakukan lagi undian konfigurasi lapangan.
+7.	 Pelanggaran 
+7.1	 Pada saat mengoper atau menerima operan bola, robot berpindah 
+tempat. 
+7.2	 Robot tidak berhasil menangkap bola dalam satu atau dua kali 
+tangkapan.
+7.3	 Pada saat menangkap bola setelah mengoper, robot tidak berpindah 
+dari posisi pada saat mengoper bola.
+7.4	 Pada waktu digiring, bola tidak berputar secara natural atau bola 
+terangkat. 
+7.5	 Jarak antara R1 dan R2 kurang dari 1 m
+7.6	 Robot tidak di-start secara remote
+7.7	 Operator memasuki lapangan atau menyentuh robot tanpa meminta 
+retry 
+  Tim yang melakukan pelanggaran harus melakukan retry.
+8.	 Denda
+8.1	 Denda 0,25 diberikan setiap dummy robot tersentuh oleh robot 
+pemain.
+8.2	 Denda 0,25 diberikan setiap kali robot tidak berhasil menangkap 
+bola dalam sekali tangkapan, tetapi dua kali. Lebih dari dua kali 
+dinyatakan gagal menangkap.
+8.3	 Denda ini akan dikurangkan dari jumlah gol yang dihasilkan. Nilai 
+akhir setelah dikuragi denda disebut nilai gol.
+
+--- PAGE 83 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+77
+9.	 Kamera
+Kamera harus disusun sedemikian rupa sehingga memenuhi hal-hal 
+sebagai berikut (lihat Gambar 4):
+a.	
+Semua garis lapangan harus kelihatan agar bila bola keluar 
+terlihat.
+b.	
+Gawang harus kelihatan agar jika terjadi gol terlihat. 
+c.	
+Komputer operator yang digunakan untuk megoperasikan robot 
+harus kelihatan, misalnya diletakkan di depan kamera. Jika tidak, 
+harus ada kamera satu lagi untuk memperlihatkan komputer 
+operator .
+d.	
+Suara juri harus bisa terdengar di lapangan.
+Gambar 4. Contoh pandangan dari  kamera yang betul : semua garis, 
+komputer, dan gawang terlihat. Bagian yang tidak terlihat harus 
+kelihatan dari kamera yang lain.
+10.	Penentuan Pemenang
+10.1	 Nilai gol sah pada setiap sesi akan dijumlahkan. Jumlah nilai gol 
+sah dalam 3 sesi dirangking dari nilai tertinggi ke nilai terendah. 
+10.2	 Dari rangking tersebut, 8 tim teratas masuk ke babak final.
+10.3	 Jika jumlah nilai gol rangking 8 dan 9 sama, maka yang masuk final 
+adalah 9 tim.
+
+--- PAGE 84 ---
+ii78
+Pedoman KRI 2021
+Pedoman KRI 2021
+10.4	 Jika jumlah nilai gol rangking 8,9 dan 10 sama, maka yang masuk 
+final 10 tim. Demikian seterusnya.
+10.5	 Pada babak final, semua nilai gol yang didapat dari sesi sebelumnya 
+tidak diperhitungkan.
+10.6	 Pertandingan final hanya dilakukan satu sesi.
+10.7	 Tim dengan nilai gol tertinggi dari pertandingan final  akan menjadi 
+pemenang 1, 2, dan 3.
+10.8	 Jika butir (10.7) ada nilai yang sama, maka pemenang adalah tim 
+yang membuat gol pertama tercepat pada sesi final.
+10.9	 Jika butir (10.8) sama, maka pemenang adalah tim yang mempunyai 
+denda terkecil.
+10.10	Jika butir (10.9) sama, maka cara penentuan pemenang akan 
+ditentukan oleh dewan juri
+11.	Keputusan Juri
+11.1	 Keputusan Juri hanya berdasarkan pada pengamatan monitor dari 
+kamera yang ada di lapangan. Karena itu gambar di kamera harus 
+jelas dan mencakup seluruh lapangan. 
+11.2	 Keputusan juri tidak bisa diganggu gugat.
+12.	Contoh Set-up Awal Pertandingan dan Posisi Sebelum Retry
+a.	 Contoh posisi robot dan dummy robot saat sebelum Kick off kanan 
+dan Kick off kiri
+
+--- PAGE 85 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+79
+b. 	 Contoh posisi robot dan dummy robot saat sebelum Corner kick 
+kanan
+PENUTUP
+Informasi lebih lanjut pelaksanaan Kontes Robot Sepak Bola Indonesia 
+Beroda (KRSBI Beroda) akan diinformasikan melalui laman http://
+pusatprestasinasional.kemdikbud.go.id dan melalui posel resmi, yaitu dikti.
+puspresnas@kemdikbud.go.id.
+ 
+
+--- PAGE 86 ---
+ii80
+Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 87 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+81
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 5
+KONTES ROBOT SEPAK BOLA INDONESIA
+(KRSBI) HUMANOID
+Disusun oleh:
+Dr. Ir. Endra Pitowarno, M.Eng.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 88 ---
+ii82
+Pedoman KRI 2021
+Pedoman KRI 2021
+DAFTAR ISI BUKU 5
+Peraturan Pertandingan (Laws Of Game)
+Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid 2021 ...........83 
+1.	 Pendahuluan ............................................................................................................ 83
+2.	 Tema ............................................................................................................................ 85
+3.	 Peraturan Pertandingan (Laws Of Game) ....................................................... 85
+4.	 Informasi Tambahan dan FAQ (Frequently Ask Questions) ........................ 93
+5.	 Pendaftaran Peserta .............................................................................................. 93
+6.	 Seleksi Kepesertaan Tingkat Wilayah dan Nasional ................................... 93
+7.	 Penutup ..................................................................................................................... 94
+
+--- PAGE 89 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+83
+PERATURAN PERTANDINGAN
+(LAWS OF GAME)
+KONTES ROBOT SEPAK BOLA INDONESIA (KRSBI) 
+HUMANOID
+2021
+1.	 PENDAHULUAN 
+KRSBI adalah salah satu program kreatifitas mahasiswa unggulan yang 
+berada di bawah Puspresnas (Pusat Prestasi Nasional) Kemendikbud 
+RI. KRSBI merupakan bagian dari kegiatan induk KRI (Kontes Robot 
+Indonesia) yang pada 2021 memasuki tahun ke-20. Sesuai dengan arah 
+kebijakan Puspresnas Kemendikbud, kegiatan KRSBI ini dinilai masih 
+sangat strategis untuk terus dijadikan salah satu unggulan, yaitu sebagai 
+sarana edukasi dan ajang latih kreatifitas mahasiswa di bidang rekayasa 
+robotika. KRSBI berkiblat pada komunitas yang sama di tingkat dunia, 
+yaitu RoboCup (http://www.robocup.org). Pemenang pertama KRSBI 
+mendapatkan kehormatan untuk mewakili Indonesia dalam ajang 
+Robocup dengan negara penyelenggara berbeda setiap tahun. 
+KRSBI merupakan salah satu divisi dalam Kontes Robot Indonesia yang 
+diselenggarakan setiap tahun. KRSBI telah berkembang dan berevolusi 
+sedemikian rupa sejak diadakan pertama kali pada 2013. KRSBI pertama 
+kali diadakan pada 2001 di bawah Dikti-Kemendikbud. Sebagai catatan, 
+cikal bakal KRSBI adalah Kontes Robot Cerdas Indonesia (KRCI) Robo 
+Soccer Humanoid League (RSHL) tahun 2012 yang sebelumnya -pada 
+2011- bernama KRCI Expert Battle. 
+Pada masa pandemi COVID-19 semua kegiatan kontes di tingkat 
+internasional yang terkait dengan robot sepakbola ini ditunda, bahkan 
+ditiadakan. Untuk itu banyak yang merubah rule-nya untuk dapat 
+
+--- PAGE 90 ---
+ii84
+Pedoman KRI 2021
+Pedoman KRI 2021
+diselenggarakan secara daring. Pada umumnya kompetisi bersifat 
+presentasi ataupun jaringan virtual robotics.
+Berdasarkan fakta tersebut, KRSBI 2020 dirancang untuk dapat 
+diselenggarakan secara daring juga. Acuannya adalah rule yang digunakan 
+dalam divisi Technical Challenge (TC) di Robot Soccer Humanoid League 
+Robocup 2016—2019. Dalam KRSBI 2020 tersebut dilombakan 3 (tiga) 
+kategori TC, yaitu Lomba Lari 12 m (LL), Lomba Menggiring Bola (LMB), 
+dan Lomba Kerjasama Robot (LKR). 
+Di tengah pandemi COVID-19 yang belum juga reda, pada 2021 Kontes 
+Robot Sepak Bola Indonesia (KRSBI) divisi Humanoid diputuskan tetap 
+akan diselenggarakan dalam bentuk kompetisi daring (dalam jaringan). 
+Kompetisi diadakan dalam bentuk kontes/pertandingan rekayasa 
+robotika dan kecerdasan buatan di suatu tempat/kampus namun 
+digelar secara simultan dengan dipandu secara daring oleh dewan juri 
+secara nasional. Sebagai catatan bahwa peraturan pertandingan KRSBI 
+Humanoid untuk tahun 2021 ini adalah sama seperti tahun sebelumnya 
+(2020) dengan penekanan pada peningkatan kualitas lapangan dan 
+penyelenggaraan.
+Adapun tujuan pelaksanaan kegiatan ini, sesuai dengan cita-cita 
+organisasi ROBOCUP (http://www.robocup.org), adalah pada 2050 atau 
+30 tahun lagi akan lahir tim sepakbola robot yang mampu melawan 
+tim juara dunia sepakbola sebagai puncak capaian bangsa Indonesia 
+dalam pengembangan teknologi robot. Kegiatan ini diharapkan juga 
+memberikan dampak positif secara nasional, terutama bagi mahasiswa 
+agar dapat semakin terpacu untuk berkreasi mengikuti perkembangan 
+dunia robotika. Oleh karena itu, mahasiswa Indonesia peminat robotika 
+seyogyanya ikut aktif berpartisipasi sebagai peneliti, bukan hanya 
+menjadi penonton. Hal ini secara tidak langsung juga akan meningkatkan 
+pemahaman dan penguasaan iptek dan aplikasi robotika dalam dunia 
+industri masa depan.
+
+--- PAGE 91 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+85
+2.	 TEMA 
+Tema KRSBI Humanoid 2021 adalah:
+“Kompetisi Olahraga Mandiri Robot Pemain Sepakbola menuju Era 
+Robot Humanoid Cerdas dan Tangkas” 
+3.	 PERATURAN PERTANDINGAN (LAWS OF GAME) 
+Aturan main dalam KRSBI tahun 2021 divisi KidSize Humanoid League 
+ini diadopsi dari Technical Challenge RoboCup Soccer Humanoid League 
+Rules yang digunakan dalam RoboCup 2016—2019. Beberapa perubahan 
+dilakukan disesuaikan dengan kondisi di KRI 2021 secara keseluruhan, 
+baik pada kualitas kepesertaan secara nasional, dukungan infrastruktur 
+dan teknologi kompetisi daring (jaringan LAN dan SDM IT tiap peserta), 
+maupun pengaturan lomba secara keseluruhan. 
+KRSBI 2021 Humanoid terdiri atas 3 (tiga) kategori Technical Challenge 
+(TC), yaitu Lomba Lari 12 m (LL), Lomba Menggiring Bola (LMB) dan 
+Lomba Kerjasama Robot (LKR). Masing-masing kategori diselenggarakan 
+dalam bentuk lomba dengan sistem setengah kompetisi, yaitu satu tim 
+berhadapan dengan tim lain. Mereka berlaga di tempat (perguruan 
+tinggi) masing-masing dan dipandu/dipantau oleh juri dan panitia secara 
+daring melalui video conference. Penilaian seluruh kategori TC KRSBI 2021 
+ditentukan berdasarkan waktu tercepat (seperti pada olahraga atletik). 
+Artinya, yang tercepat akan menjadi pemenang. Dari seluruh kategori 
+perlombaan TC KRSBI 2021 ini akan ditentukan Juara I, II dan III.
+Lapangan lomba seluruh kategori harus dibuat mirip, kompak, dan 
+dengan luas yang relatif kecil, yang pada umumnya setiap perguruan 
+tinggi memiliki ruangan yang dimaksud. Lapangan yang harus disediakan 
+adalah lantai datar yang minimal berukuran 5 m x 8 m dengan ketinggian 
+standar ruang laboratorium (sekitar 3—5 m). Lapangan tidak harus 
+
+--- PAGE 92 ---
+ii86
+Pedoman KRI 2021
+Pedoman KRI 2021
+menggunakan rumput (sintetis) (lapangan dengan lantai keramik juga 
+diperbolehkan). Pada pojok-pojok tertentu di lapangan harus dipasang 
+kamera pantau yang terhubung ke video conference ketika kompetisi 
+tengah berlangsung. Dari kamera-kamera inilah para juri dan panitia akan 
+memantau penampilan atau unjuk kerja dari suatu tim robot sekaligus 
+melakukan penjurian.
+Setiap perguruan tinggi hanya dapat mendaftarkan maksimum 1 (satu) 
+tim peserta. Tim beranggotakan 3 orang mahasiswa aktif dan 1 (satu) 
+dosen pembimbing. Setiap tim dapat mendaftarkan lebih dari 1 (satu) 
+robot untuk seluruh kategori lomba. Namun, dalam satu kategori hanya 
+satu robot yang boleh bertanding, yaitu robot yang sama hingga lomba 
+dalam kategori tersebut selesai. Jadi, tim dapat mendaftarkan satu robot 
+untuk mengikuti seluruh kategori, dengan catatan saat berlomba dalam 
+satu kategori pada satu kali RUN dilarang mengganti baterai. 
+Robot yang dilombakan untuk setiap kategori robot dalam divisi 
+Humanoid ini harus berukuran antara 40 cm hingga 90 cm. Peserta harus 
+menunjukkan proses pengukuran secara daring ketika diminta oleh Juri. 
+Untuk itu peserta harus menyediakan perangkat pengukuran yang cukup 
+memadai, seperti penggaris panjang atau meter ukur. Berat robot bebas, 
+namun ukuran-ukuran standar kid size humanoid robot harus memenuhi 
+rule standar Robo Soccer Humanoid League Kid Size.
+Pertandingan akan dipandu juri dengan menggunakan perintah suara 
+melalui video conference. Perangkat ukur/hitung yang digunakan juri 
+adalah stopwatch. Tidak seperti pada KRSBI 2019 atau sebelumnya, di 
+KRSBI 2021 robot tidak wajib memiliki kemampuan untuk mendengar 
+perintah GO atau START melalui wifi. Ini karena juri tidak menggunakan 
+Game Controller. Untuk itu, jika robot tidak memiliki fasilitas START dari 
+host computer (peserta), START melalui penekan tombol di tubuh robot 
+diperkenankan. Sebelum kompetisi dimulai akan dilakukan Technical 
+Meeting dan pengundian grup untuk menentukan urutan pertandingan 
+dan calon lawan.
+
+--- PAGE 93 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+87
+3.1	 Tim Robot 
+Tim terdiri atas tim robot (tim utama) dan tim pendukung tim 
+mekanik). Anggota tim robot (tim utama) harus berasal dari 
+perguruan tinggi yang sama, yang terdiri atas 3 (empat) mahasiswa 
+aktif, termasuk mahasiswa program pascasarjana, dan 1 (satu) 
+dosen pembimbing. Tim utama mendapatkan bantuan akomodasi 
+dan konsumsi selama penyelenggaraan kompetisi berlangsung. 
+Anggota tim pendukung (tim mekanik) yang berjumlah maksimum 
+3 (tiga) orang juga harus berasal dari perguruan tinggi yang sama. 
+Tim mekanik harus dicantumkan dalam proposal keikutsertaan.
+3.2	 Spesifikasi Robot 
+Robot harus menyerupai struktur tubuh manusia (human-like robot), 
+dengan ukuran seperti diterangkan dalam gambar berikut.
+3.2.1	 Ukuran Robot
+Gambar 1: Ukuran Robot
+Tabel 1: Ukuran Robot
+
+--- PAGE 94 ---
+ii88
+Pedoman KRI 2021
+Pedoman KRI 2021
+Htop
+40 cm ≤ Htop ≤ 90 cm
+tinggi robot 
+Hhead
+0.05•Htop ≤ Hhead ≤ 0.25•Htop
+tinggi kepala (termasuk 
+leher)
+Hleg
+0.35•Htop ≤ Hleg ≤ 0.7Htop
+tinggi kaki (diukur dari 
+telapak kaki hingga 
+batas pinggang)
+Hcom
+tinggi titik berat robot 
+(diukur waktu kontes)
+Luas Telapak Kaki
+((2.2•Hcom)2)/32 maks.
+(diukur waktu kontes)
+Perubahan ketinggian karena 
+bergerak
+tidak diukur
+Lebar robot ketika tangan 
+membentang
+1.5•Htop maks.
+Lebar robot ketika tangan lurus 
+ke bawah
+0.55•Htop maks.
+Ukuran minimum panjang tangan Htop – Hleg - Hhead
+Berat maksimum robot
+20 kg
+3.2.2	 Sensor pada Robot
+1.	 Robot wajib memiliki kamera sebagai sensor eksternal 
+yang diletakkan di kepala. Lebar jangkauan pandangan 
+sistem kamera maksimum 180 derajat dalam posisi diam. 
+Maksimum jumlah kamera (sebagai stereo vision) adalah 2 
+(dua).
+2.	 Jangkauan maksimum pergerakan/perputaran leher/
+kepala ke kiri dan kanan seperti pada manusia (sekitar 
+180 derajat), sedangkan pergerakan ke atas maksimum 90 
+derajat.
+3.	 Robot boleh memiliki sensor eksternal berupa mikropon 
+(sebagai telinga) dan atau speaker (sebagai mulut). Selain 
+sensor/aktuator suara tersebut (frekwensi 20 Hz s/d 
+20KHz), dilarang menggunakan sensor eksternal lain untuk 
+
+--- PAGE 95 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+89
+mendeteksi lingkungan, seperti emitting light, ultrasonic, 
+atau gelombang elektromagnetik.
+4.	 Sensor sentuh, sensor force, dan sensor temperatur boleh 
+dipasang di bagian tubuh robot manapun.
+5.	 Sensor-sensor internal seperti sensor tegangan, arus, 
+forces, movement, akselerasi, rotational speed, dsb. boleh 
+digunakan.
+6.	 Walaupun tidak terlihat, program sensor orientasi magnet 
+bumi (arah mata angin) dilarang digunakan dalam 
+software. Untuk itu, tim harus bersedia diinvestigasi jika 
+dibutuhkan oleh komite pertandingan.
+3.2.3	 Komunikasi dan Kontrol
+1.	 Robot yang bertanding harus punya kemampuan 
+autonomous. Peserta dilarang mengendalikan robot dari 
+peralatan luar dalam bentuk apapun.
+2.	 Perangkat luar, seperti laptop dan semacamnya, hanya 
+boleh dihubungkan dengan robot via kabel. Jika ini 
+dilakukan, robot akan dinyatakan dalam status NON-
+ACTIVE (tidak bertanding atau mengundurkan diri/ WO). 
+3.3	 Lapangan Pertandingan 
+3.3.1	 Kategori LOMBA LARI (LL)
+Lapangan KRSBI Humanoid 2021 kategori LL 12M dapat 
+dilihat pada gambar 2 berikut.
+
+--- PAGE 96 ---
+ii90
+Pedoman KRI 2021
+Pedoman KRI 2021
+Gambar 2: Lapangan KRSBI Humanoid 2021 Kategori LL 12M
+3.3.2	 Kategori LOMBA MENGGIRING BOLA (LMB)
+Lapangan KRSBI Humanoid 2021 kategori LMB dapat dilihat 
+pada Gambar 3 berikut.
+Gambar 3: Lapangan KRSBI Humanoid 2021 Kategori LMB
+
+--- PAGE 97 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+91
+3.3.3	 Kategori LOMBA KERJASAMA ROBOT (LKR)
+Lapangan KRSBI Humanoid 2021 kategori LMB dapat dilihat 
+pada Gambar 3 berikut.
+Gambar 4: Lapangan KRSBI Humanoid 2021 Kategori LKR
+3.4	 Bola 
+Bola yang digunakan dalam KRSBI Humanoid 2021 adalah bola kulit 
+atau kulit artifisial berwarna ORANGE dengan keliling ±43 cm (ukuran 
+antara mini ball dan size 1 standar FIFA). 
+3.5	 Sistem Pertandingan dan Penilaian 
+Pelaksanakan GAME atau kompetisi menggunakan prosedur sebagai 
+berikut.
+1.	 Juri/Panitia akan membuka saluran video conference (vicon) pada 
+hari dan waktu yang akan ditentukan dan mengundang seluruh 
+peserta untuk bergabung.
+
+--- PAGE 98 ---
+ii92
+Pedoman KRI 2021
+Pedoman KRI 2021
+2.	 Peserta menyiapkan lapangan dan robot di tempat masing-
+masing.
+3.	 Setiap tim hanya diberikan 2 (dua) kanal invitasi vicon (kanal A 
+dan kanal B) yang masing-masing diberi nama tim. Pada kanal A 
+kamera dipasang di sisi kanan tempat START robot sedemikian 
+rupa sehingga pandangan ke lapangan seperti pada perspektif 
+gambar lapangan sesuai panduan. Pada kanal B kamera bersifat 
+mobile untuk menyorot pergerakan robot (dan atau bola). Untuk 
+itu perlu dibuat 2 (dua) email atas nama tim.
+4.	 Setiap TIM diberi slot invitasi tambahan maksimum 3 kanal 
+dengan terlebih dahulu mendaftarkan akun yang akan 
+digunakan.
+5.	 Juri akan mengundi urutan tampil dari setiap peserta.
+6.	 Juri memulai lomba dengan memanggil peserta sesuai urutan.
+7.	 Setiap penampilan Tim diberi waktu 5 menit (tepat) untuk 
+memersiapkan diri. Selama persiapan 
+8.	 Juri akan memberikan aba-aba GO kepada Tim peserta untuk 
+memulai misi laga robotnya. Secara visual melalui tampilan video 
+conference juri akan melihat dan mulai menghitung durasi laga 
+menggunakan stopwatch.
+9.	 Juri akan menghentikan perhitungan waktu/penjurian untuk 
+suatu tim jika misi sukses atau dianggap selesai atau telah 
+melampaui 10 menit.
+10.	Pemenang ditentukan dari perolehan waktu tercepat dalam 
+menyelesaikan misi.
+11.	Ukuran waktu/kecepatan yang digunakan adalah detik.
+
+--- PAGE 99 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+93
+4.	 INFORMASI TAMBAHAN dan FAQ (FREQUENTLY ASK QUESTIONS) 
+Informasi tambahan dan kolom FAQ akan diberikan sesuai dengan 
+kebutuhan sampai hari pertandingan. 
+5.	 PENDAFTARAN PESERTA 
+Seluruh perguruan tinggi dapat melakukan pendaftaran dengan 
+mengirimkan proposal sesuai mekanisme pendaftaran KRI 2021.
+Proposal minimal mencantumkan informasi sebagai berikut. 
+1.	 Identitas tim yang terdiri atas satu pembimbing (dosen), 4 (empat) 
+anggota tim utama (mahasiswa aktif) dan 2 (dua) anggota tim 
+pendukung (mekanik).
+2.	 Lembar pengesahan dari pejabat di perguruan tinggi. 
+3.	 Bentuk rekaan seluruh robot yang akan dibuat, disertai penjelasan 
+tentang sistem prosesor, sensor dan aktuator, berat dan dimensi 
+masing-masing. 
+4.	 Penjelasan detil tentang struktur dan dimensi setiap robot, termasuk 
+ukuran telapak kaki (panjang x lebar).
+5.	 Penjelasan secara singkat tentang strategi bermain, metode 
+visualisasi, dan lokalisasi terhadap bola, lapangan, gawang, dan 
+robot-robot lawan.
+6.	 SELEKSI KEPESERTAAN TINGKAT WILAYAH DAN NASIONAL 
+Dalam setiap tahapan Seleksi Tim KRSBI Humanoid 2021 akan diterapkan 
+sistem seleksi berdasarkan capaian yang ditunjukkan baik melalui video 
+(jika diminta) maupun secara langsung (video streaming) melalui video 
+conference.
+
+--- PAGE 100 ---
+ii94
+Pedoman KRI 2021
+Pedoman KRI 2021
+7.	  PENUTUP 
+Informasi lebih lanjut mengenai pelaksanaan Kontes Robot Sepak Bola 
+Indonesia Humanoid (KRSBI Humanoid) akan disampaikan melalui 
+laman/website http://pusatprestasinasional.kemdikbud.go.id dan pos-el/
+email dikti.puspresnas@kemdikbud.go.id. 
+
+--- PAGE 101 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+95
+
+--- PAGE 102 ---
+ii96
+Pedoman KRI 2021
+Pedoman KRI 2021
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 6
+KONTES ROBOT SENI TARI INDONESIA
+(KRSTI)
+Disusun oleh:
+Ir. Gigih Prabowo, M.T.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 103 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+97
+DAFTAR ISI BUKU 6
+Tema dan Aturan Kontes Robot Seni Tari Indonesia (KRSTI) Tahun 2021... 98
+1.	 Pendahuluan............................................................................................................. 98
+2.	 Tema............................................................................................................................. 99
+3.	 Spesifikasi Robot...................................................................................................101
+4.	 Arena Lomba dan Urutan Gerakan Tarian....................................................103
+5.	 Sistem Perlombaan...............................................................................................106
+6.	 Penilaian...................................................................................................................107
+7.	 Retry............................................................................................................................108
+8.	 Penalti dan Diskualifikasi....................................................................................109
+9.	 Faktor Keselamatan..............................................................................................109
+10.	Penutup....................................................................................................................110
+Lampiran A: Ukuran Lapangan KRSTI 2021.........................................................111
+Lampiran B: Nama Ragam Gerak Tari Gambyong Pareanom........................112
+
+--- PAGE 104 ---
+ii98
+Pedoman KRI 2021
+Pedoman KRI 2021
+Tema dan Aturan
+Kontes Robot Seni Tari Indonesia (KRSTI)
+Tahun 2021
+1.	 Pendahuluan
+Pelaksanaan kontes robot yang telah berlangsung setiap tahun selama 
+lebih dari satu dekade di bumi pertiwi, telah melahirkan insan-insan 
+pemikir dan pembuat robot yang berkemampuan tinggi. Kontes robot 
+Indonesia (KRI) dan Kontes Robot Cerdas Indonesia (KRCI) telah menjadi 
+ajang kompetisi kemampuan masing-masing perguruan tinggi untuk 
+menunjukkan kepiawaian mahasiswanya dalam merancang, membuat, 
+memprogram dan menerapkan strategi robot-robot ciptaan-nya dalam 
+kompetisi tersebut.
+Kontes Robot Seni Tari Indonesia (KRSTI) merupakan suatu ajang 
+kompetisi perancangan, pembuatan dan pemrograman robot yang 
+disertai dengan unsur-unsur seni dan budaya bangsa Indonesia 
+khususnya seni tari yang telah terkenal di bumi pertiwi. KRSI pertama 
+kali diadakan pada tahun  2010 dengan tema “Robot Penari Jaipong”, 
+tahun 2011 dengan tema “Robot Penari Pendet”, tahun 2012 dengan tema 
+“Robot Penari Klono Topeng”, tahun 2013 mengangkat tema “Robot Penari 
+Piring”, tahun 2014 dengan tema “Robot Penari Hanuman Duto”, pada 
+tahun 2015 dengan tema “Robot Penari Bambangan Cakil”, pada tahun 
+2016 dengan tema “Robot Penari Jaipong”, pada tahun 2017 dengan tema 
+“Robot Penari Gending Sriwijaya”, tahun 2018 dengan tema “Robot Penari 
+Remo”, pada tahun 2019 dengan tema “Robot Penari Jaipong”, dan pada 
+tahun 2020 dengan tema “Robot Penari Enggang“ dari Kalimantan Timur. 
+Setiap tim peserta yang terdiri dari 3(tiga) mahasiswa dengan seorang 
+dosen pembimbing, diwajibkan untuk membuat dua atau lebih robot 
+
+--- PAGE 105 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021
+99
+yang terkoordinasi untuk menampilkan seni tari budaya yang diinginkan 
+sesuai tema kontes.
+Untuk KRSTI 2021, kembali guna membangkitkan kecintaan dan 
+pelestarian budaya-budaya Nasional maka tema yang diangkat adalah 
+“Robot Penari Gambyong Pareanom”. Kegiatan KRSTI 2021 ini dilaksanakan 
+bersamaan dengan pelaksanaan Kontes Robot Indonesia (KRI) tingkat 
+Wilayah dan KRI tingkat Nasional 2021 yang dikoordinasi dan didanai 
+oleh Pusat Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan 
+bekerja sama dengan institusi Perguruan Tinggi yang ditunjuk.
+Tujuan dari kontes robot ini adalah untuk menumbuh kembangkan 
+kreatifitas dan minat para mahasiswa dalam teknologi maju, khususnya 
+teknologi robotika yang selain diperuntukkan bagi industri juga 
+diharapkan dapat membantu kegiatan manusia sehari-hari dan seni 
+budaya khususnya seni tari.
+2.	 Tema
+Tema Kontes Robot Seni Tari Indonesia 2021 adalah:
+“Robot Penari Gambyong Pareanom”
+
+--- PAGE 106 ---
+ii100 Pedoman KRI 2021
+Pedoman KRI 2021
+Tari gambyong pareanom adalah salah satu tarian tradisional dari Jawa 
+Tengah yang namanya sudah tak asing lagi didengar. Tarian Indonesia 
+ini dipentaskan oleh para wanita. Pementasan tari gambyong pareanom 
+dilakukan sebagai sarana hiburan rakyat.
+Gerakan-gerakannya seirama dengan bunyi kendang. Hal ini tentu 
+menjadi daya tarik tersendiri dari gambyong pareanom. Tarian ini 
+sering dipertunjukan dalam acara-acar besar atau festival. Banyak 
+para wisatawan mancanegara menyukainya karena tarian ini memiliki 
+keunikan tersendiri. 
+Tari gambyong merupakan salah satu tari adat yang berasal dari daerah 
+sekitar Surakarta, Jawa Tengah. Tari ini awal mulanya hanyalah sebuah 
+tarian jalanan atau tarian rakyat dan merupakan tari kreasi baru dari 
+perkembangan Tari Tayub.
+Saat upacara hendak menanam padi dan panen, masyarakat Surakarta 
+tempo dulu akan mempertunjukan tarian ini sebagai undangan pada 
+Dewi Sri atau Dewi Padi agar ia memberkahi sawah mereka dengan hasil 
+panen yang maksimal.
+Nama gambyong sendiri sebetulnya berasal dari nama seorang penari 
+kondang pada masa itu. Sri Gambyong namanya. Sri Gambyong yang 
+memiliki suara merdu dan keluwesan dalam menari telah memikat 
+banyak orang. Pertunjukan seni tari tayub atau tari tledhek yang 
+dilakukannya di jalanan, bagi banyak orang dianggap memiliki ciri yang 
+sangat khas dan berbeda dari penari-penari biasanya. Sehingga seluruh 
+masyarakat di wilayah Kasunanan Surakarta pada masa itu tak ada yang 
+tidak mengenalnya.
+Pada perkembangannya saat ini, tari gambyong masih sering 
+dipertunjukan dalam acara-acara resmi, acara-acara kenegaraan, maupun 
+acara adat rakyat.
+
+--- PAGE 107 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 101
+Gerakan tari Gambyong sebetulnya merupakan hasil kreasi gerakan-
+gerakan dalam Tari Tayub. Berbeda dengan tari tayub, pada tari gambyong 
+umumnya dilakukan pada garis dan gerak yang jauh lebih besar. 
+Adapun unsur estetis dari gerakan tari ini terletak pada kekompakan 
+para penarinya. Para penari gambyong akan menggerakan tangan, kaki 
+dan kepala secara bersama-sama selaras dengan irama kendang yang 
+ditabuh. Gerakan mata yang selalu mengikuti gerakan tangan juga 
+semakin membuat harmonis gerakan tarian ini.
+Ketika menari, para penari gambyong wajib mengenakan kostum 
+khusus berupa kemben yang bahunya terbuka sampai bagian dada serta 
+bawahan berupa kain panjang bermotif. Para penari juga mengenakan 
+selendang berwarna kuning dan dirias dengan sangat cantik. Warna 
+kostum tari gambyong ini memang identik dengan warna kuning dan 
+hijau. Kuning melambangkan kekayaan, dan hijau melambangkan 
+kesuburan.
+Tari gambyong akan selalu diiringi dengan musik dari seperangkat 
+gamelan dan tembang Jawa. Gong, gambang, kenong, serta kendang 
+akan selalu dimainkan bersamaan dengan gerak para penari gambyong. 
+Dari beberapa alat musik tersebut, kendang menjadi yang paling 
+istimewa. Kendang adalah panduan bagi para pemusik dan penari untuk 
+melakukan gerak atau bunyi tertentu. Oleh karena hal tersebut, dalam 
+tari gembyong, kendang juga dijuluki sebagai otot tarian.
+3.	 Spesifikasi Robot
+3.1	 Setiap tim membuat robot humanoid sendiri, dengan dua robot 
+otomatis yang mampu melakukan gerak tari untuk mengikuti musik 
+kesenian "Gambyong Pareanom".
+3.2	 Robot harus memiliki kemampuan untuk bergerak mengikuti 
+alunan musik yang diperdengarkan dan dimainkan saat lomba 
+berlangsung.
+
+--- PAGE 108 ---
+ii102 Pedoman KRI 2021
+Pedoman KRI 2021
+3.3	 Robot harus dirancang untuk dapat mendengar alunan musik tari 
+yang ditemakan melalui transmitter Bluetooth.
+3.4	 Robot harus memiliki bagian yang dapat disebut sebagai sistem 
+kaki, tubuh, tangan dan kepala. 
+3.5	 Derajat kebebasan robot minimal 25 (dua puluh lima), dengan tiga 
+derajat kebebasan sebagai penggerak kepala, pinggul dan kaki 
+berputar 2700.
+3.6	 Komunikasi antar robot diperbolehkan.
+3.7	 Komunikasi langsung maupun tidak langsung diluar robot tidak 
+diperbolehkan.
+3.8	 Selama Lomba berlangsung, robot tidak boleh memecah diri 
+menjadi beberapa robot dan bagian-bagian robot yang tidak dapat 
+bergerak.
+3.9	 Tinggi robot 60±5cm tidak termasuk asesori
+3.10	Rentang tangan atau kaki robot maksimal 600 mm diukur dari ujung 
+jari tangan/kaki kanan ke kiri pada saat tangan/kaki membuka 
+selebar-lebarnya.
+3.11	Lebar telapak kaki maksimum 150 cm2 yang dapat berbentuk 
+lingkaran, elips atau persegi empat.
+3.12	Berat satu robot maksimal 20 kg.
+3.13	Tegangan catudaya DC tidak dibatasi dan harus menempel pada 
+robot dan dihitung sebagai berat.
+3.14	Sumber tegangan harus berasal dari baterai Accu Kering (lead 
+acid), NiCd, NiMH, Lit-Ion, atau Lit-Polymer. Tidak diperkenankan 
+menggunakan accu yang berisi cairan basah.
+3.15	Aktuator gerak dapat dirancang berbasis elektromotor, sistem 
+pneumatik maupun sistem hidrolik.
+3.16	Setiap Robot harus dapat di START hanya dengan satu tombol di 
+badan robot dengan posisi tombol start mudah terjangkau.
+3.17	Pakaian dan aksesorinya disesuaikan dengan tari “Gambyong 
+Pareanom”, dan juga masa pandemi Covid-19. 
+
+--- PAGE 109 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 103
+4.	 Arena Lomba dan Urutan Gerakan Tarian
+4.1	 Arena Lomba 
+Arena lomba dapat ditunjukkan pada gambar 1 berikut ini.
+Gambar 1: Lapangan Lomba KRSTI 2021
+Arena lomba terdiri dari dua buah arena persegi panjang masing-
+masing mempunyai ukuran panjang 2440 mm dan lebar 1220 
+mm per arena, dengan tinggi 50 mm dari lantai dan diletakkan 
+berdampingan. Arena sebelah kanan (sesuai arah hadap penonton) 
+untuk robot di bagian merah, sedang arena sebelah kiri untuk robot 
+di bagian biru. Arena lomba juga dikelilingi dengan dinding berwarna 
+coklat dengan lebar 30 mm dan tinggi 60 mm. Bahan lapangan dari 
+multiplek 20mm dan dilapis dengan vinyl. 
+Masing-masing arena akan dibagi  dalam tiga zona yaitu Zona A, Zona 
+B dan Zona C. Zona A adalah Zona MULAI bagi robot 1 dan robot 2, 
+baik untuk tim merah maupun tim biru. Pada Zona C terdapat Zona 
+TUTUP untuk masing-masing tim.
+
+--- PAGE 110 ---
+ii104 Pedoman KRI 2021
+Pedoman KRI 2021
+4.2	 Zona A:
+Zona A berukuran 1220×813 mm, dalam Zona A terdapat tempat 
+zona mulai untuk robot pertama dan robot kedua dengan ukuran 
+masing-masing 400x400 mm. 
+Waktu persiapan maksimal selama satu (1) menit menjelang lomba 
+dimulai, melalui aba-aba persiapan yang diberikan oleh Juri, kedua 
+robot diletakkan di tempat mulai. Arah hadap robot ketika di tempat 
+mulai dapat ditentukan sendiri oleh Tim.
+Di tempat zona mulai dalam Zona A, setelah musik pengiring 
+berbunyi, robot harus bisa melakukan ”gerak pembuka, gerak pasang 
+masker, gerak cuci tangan dan maju beksan”.
+Gambar 2: Zona A (diwakili tim Biru)
+4.3	 Zona B:
+Zona B berukuran 1220×813 mm. Di Zona B, robot harus dapat 
+melakukan gerak “Beksan”. Gerakan dilakukan berulang-ulang 
+hingga akhir zona B. 
+
+--- PAGE 111 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 105
+Gambar 3: ZONA B
+4.4	 Zona C:
+Zona C berukuran 1220×813 mm. Pada Zona C terdapat juga Zona 
+Tutup yang digunakan untuk robot mengakhiri kegiatan menari. 
+Di Zona C robot harus dapat melakukan “Mundur Beksan”. Gerakan 
+dapat dilakukan berulang-ulang hingga masuk zona tutup. 
+Pada zona tutup robot harus melakukan “Gerakan sembah penutup 
+tari gambyong pareanom dilanjutkan dengan gerak melepas masker 
+dan cuci tangan.  
+Gambar 4: Zona C dan Zona TUTUP 
+
+--- PAGE 112 ---
+ii106 Pedoman KRI 2021
+Pedoman KRI 2021
+5.	 Sistem Perlombaan
+5.1	 Robot harus dapat menari di atas arena persegi-panjang lantai 
+berwarna berukuran masing-masing (2440x12200) mm. Setiap arena 
+untuk satu tim robot terdiri dari lima ZONA, yang bila diurutkan dari 
+awal hingga akhir adalah: ZONA MULAI, ZONA A, ZONA B, ZONA C 
+dan ZONA TUTUP. Tiap ZONA berfungsi sebagai pemandu gerakan 
+tari. 
+5.2	 Gerak tari harus diselaraskan dengan irama musik pengiring tari 
+"Gambyong Pareanom".
+5.3	 Setiap sesi pertandingan, kedua robot tim peserta akan diletakkan 
+di atas arena (lapangan perlombaan) sesuai dengan warna tim awal, 
+yaitu merah atau biru.
+5.4	 Aba-aba ”Persiapan” diberikan waktu 60 detik.
+5.5	 Musik pengiring diperdengarkan langsung dari laptop dan 
+transmitter Bluetooth peserta bersamaan dengan tanda “mulai” dari 
+Juri.
+5.6	 Waktu yang disediakan untuk setiap unjuk kebolehan tari dalam 
+lomba ini adalah 3-4 menit sesuai dengan panjang atau durasi irama 
+pengiring tari "Gambyong Pareanom".
+5.7	 Setiap tim pada setiap game diberikan kesempatan “retry”. 
+5.8	 Setiap Retry akan dikenakan hukuman pengurangan nilai (penalty).
+5.9	 Setiap tim akan melakukan unjuk kebolehan tiga (3) kali secara 
+bergantian dalam babak penyisihan. 
+5.10	Bagi tim yang menampilkan kepiawaian tari ”Gambyong Pareanom” 
+tetapi setelah 1:30 menit terjadi masalah dengan jaringan di sisi 
+peserta sehingga tidak bisa menampilkan, maka penilaian dilakukan 
+selama 1:30 menit penampilan.
+5.11	Bagi tim yang menampilkan kepiwaian tari ”Gambyong Pareanom” 
+kurang dari 1:30 menit terjadi masalah jaringan di sisi peserta 
+sehingga tidak bisa menampilkan tari secara lengkap, maka 
+
+--- PAGE 113 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 107
+penilaian tidak dilakukan dan penampilan harus diulang.
+5.12	Bagi robot yang telah menampilkan kepiawaian dalam menari 
+tiga (3) kali berpenampilan lengkap dan memiliki nilai teknik serta 
+seni tari terbaik akan dinyatakan sebagai pemenang, untuk tingkat 
+Wilayah atau tingkat Nasional yang jumlah timnya kurang dari 
+delapan (8) tim.
+5.13	Untuk tingkat Wilayah atau tingkat Nasional yang jumlah timnya 
+di atas delapan (8) tim, penampilan tiga (3) kali ditahap awal 
+digunakan untuk menentukan maksimum delapan (8) tim terbaik 
+sesuai dengan nilai lolos yang diperoleh.
+5.14	Delapan (8) Tim terbaik dalam 5.13 akan melakukan unjuk kebolehan 
+satu kali untuk menentukan empat (4) tim terbaik sesuai dengan 
+urutan nilai lolos yang diperoleh. 
+5.15	Empat (4) tim terbaik hasil 5.14 akan melakukan unjuk kebolehan 
+tari dua kali untuk menentukan urutan juara pada tingkat Wilayah 
+atau tingkat Nasional.
+6.	 Penilaian
+6.1	 Tim Juri akan melakukan penilaian berdasarkan kategori berikut ini
+6.1.1	 Kemampuan robot melakukan ”gerak sembah pambuka tari 
+Gambyong Pareanom” pada daerah mulai di Zona Mulai, akan 
+mendapatkan nilai dengan rentang nilai 1 hingga 10 untuk 
+nilai sempurna.
+6.1.2	 Kemampuan robot melakukan gerak tari “Maju Beksan” pada 
+Zona A, akan mendapatkan nilai dengan rentang nilai 1 hingga 
+10 untuk nilai sempurna.
+6.1.3	 Kemampuan robot melakukan ”Beksan” pada Zona B, akan 
+mendapatkan nilai dengan rentang nilai 1 hingga 10 untuk 
+nilai sempurna.
+6.1.4	 Kemampuan robot melakukan ”Mundur Beksan”, pada Zona 
+C akan mendapatkan nilai dengan rentang nilai 1 hingga 10 
+untuk nilai sempurna.
+
+--- PAGE 114 ---
+ii108 Pedoman KRI 2021
+Pedoman KRI 2021
+6.1.5	 Kemampuan robot melakukan ” sembah panutup Gambyong 
+Pareanom dilanjutkan dengan gerak melepas masker dan 
+mencuci tangan” pada ZONA TUTUP, akan mendapatkan nilai 
+dengan rentang nilai 1 hingga 10 untuk nilai sempurna.
+6.2	 Kemampuan mulai gerak dan sinkronisasi gerak tarian robot sesuai 
+alunan musik pengiring akan memperoleh tambahan nilai 1-10.
+6.3	 Kemampuan robot yang telah mencapai Zona A, Zona B, Zona C dan 
+Zona Tutup, maka masing-masing zona akan mendapat tambahan 
+nilai 5.
+6.4	 Setiap Tim akan mendapatkan nilai jumlah dari kategori 6.1.1 s/d 
+6.1.5, 6.2 s/d 6.5 tersebut di atas.
+6.5	 Setiap robot yang melakukan keindahan gerak dan selaras dengan 
+tari "Gambyong Pareanom", maka robot akan mendapatkan nilai 1 
+hingga 10 untuk nilai sempurna dengan faktor pengali 2.
+6.6	 Pemenang setiap perlombaan ditentukan dari perolehan nilai rerata 
+akhir terbaik.
+6.7	 Keputusan Juri adalah mutlak dan tidak dapat diganggu gugat.
+7.	 Retry
+7.1	 Untuk setiap tim peserta, kesempatan retry diberikan bebas dengan 
+ketentuan sebagai berikut:
+7.1.1	 Bagi tim yang meminta retry pada saat posisi robot di zona 
+mulai retry dimulai dari tempat mulai dan nilai bonus yang 
+telah diperoleh pada zona mulai hilang.
+7.1.2	 Bagi tim yang meminta retry pada saat posisi robot diantara 
+zona mulai, retry dimulai dari zona mulai dan nilai bonus yang 
+telah diperoleh pada zona mulai hilang.
+7.1.3	 Bagi tim yang meminta retry pada saat posisi robot di zona A, 
+retry dilakukan di zona A dan nilai bonus yang telah diperoleh 
+pada zona A hilang.
+7.1.4	 Bagi tim yang meminta retry pada saat posisi robot di zona B, 
+retry dilakukan dari zona B nilai bonus yang telah diperoleh 
+
+--- PAGE 115 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 109
+pada zona B hilang.
+7.1.5	 Bagi tim yang meminta retry pada saat posisi robot di zona 
+tutup, retry dilakukan dari zona tutup dan nilai bonus yang 
+telah diperoleh pada zona tutup hilang.
+7.2	 Jika robot keluar dari arena, maka harus dilakukan retry sesuai 
+dengan zona yang ditinggalkan.
+7.3	 Jika robot terjatuh, maka robot harus dilakukan retry.
+7.4	 Jika robot tidak bergerak selama 30 detik, maka robot harus dilakukan 
+retry.
+7.5	 Ketika retry dilakukan, irama musik tidak dihentikan.
+8.	 Penalti dan Diskualifikasi
+8.1	 Jika dalam melakukan gerak tari, robot atau bagian robot diukur 
+secara vertikal keluar daerah/arena pasangannya, maka tim akan 
+dikenakan penalti, untuk sepuluh detik pertama akan dikenakan 
+pengurangan nilai 2 dan untuk tiap 5 (lima) detik berikutnya, tim 
+akan dikenakan pengurangan nilai sebesar 2.
+8.2	 Jika robot melakukan retry, maka tim  akan dikenakan pengurangan 
+nilai 2 setiap kali retry.
+8.3	 Tim peserta yang menyentuh robot setelah pertandingan dimulai 
+dapat dikenakan diskualifikasi kecuali dalam masa Retry.
+8.4	 Tim peserta tidak mengikuti arahan wasit dan/atau juri dapat 
+dikenakan diskualifikasi.
+8.5	 Tim peserta yang bertindak tidak sesuai dengan spirit of fair play, 
+dapat dikenakan diskualifikasi.
+9.	 Faktor Keselamatan
+Dalam merancang dan membuat robot, tim peserta wajib memperhatikan 
+faktor-faktor keamanan dan faktor keselamatan bagi operator maupun 
+bagi petugas yang bertugas mengawasi lomba tersebut.
+
+--- PAGE 116 ---
+ii110 Pedoman KRI 2021
+Pedoman KRI 2021
+10.	Penutup
+Informasi lebih lanjut pelaksanaan Kontes Robot Seni Tari Indonesia 
+(KRSTI) akan diinformasikan melalui website http://pusatprestasinasional.
+kemdikbud.go.id dan melalui email resmi, yaitu dikti.puspresnas@
+kemdikbud.go.id.
+Panitia memberikan panduan musik dan gerak tari dan FAQ (Frequently 
+Asked Questions) melalui alamat https://www.kontesrobotindonesia.id.  
+Email: gigih@pens.ac.id (dengan subjek: KRSTI 2021)
+
+--- PAGE 117 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 111
+Lampiran A: Ukuran Lapangan KRSTI 2021
+
+--- PAGE 118 ---
+ii112 Pedoman KRI 2021
+Pedoman KRI 2021
+Lampiran B: Nama Ragam Gerak Tari Gambyong Pareanom
+No
+Nama Ragam
+Uraian Gerak
+1
+Maju Beksan
+1.	 Gerak    srisik    kanan    kebyok 
+kebyak
+2.   Gerak kebar  1   = ulap = kanan, srisig 
+kiri
+3.   Gerak  sekaran  merong  
+(laras), enjer kanan, kebyak 
+kebyak
+4.   Gerak  kebar  II  (:   Penthangan 
+tangan (mandra) srising kiri
+5.   Gerak    panggel,    sindet    kiri, 
+batang
+6.   Gerak  pilesan   1      srising  kiri, 
+magak
+2
+Beksan
+7.	 Gerak  laku  telu,  enjer  
+rimong sampur, srising kiri 
+magak
+8.	 Gerak  ukel  pakis,   sindet  ukel 
+kamo
+9.	 Gerak kawilan, srisig, magak
+10.	 Gerak gajah oling, magak
+11.	 Gerak kawilan, srisig, magak
+12.	 Gerak tumpang tali bolak-
+balik, sindet ukel kamo
+
+--- PAGE 119 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 113
+3
+Mundur Beksan
+13.	 Gerak  laku  telu,   enjer  
+rimong sampur, srising kiri 
+magak
+14.	 Gerak   ukel  pakis,   sindet  
+ukel karno
+15.	Gerak kawilan,  srisig, magak
+16.	 Gerak gajah oling, magak
+17.	 Gerak kawilan, srisig, magak
+18.	 Gerak turnpang tali bolak-
+balik, sindet ukel karno
+
+--- PAGE 120 ---
+ii114 Pedoman KRI 2021
+Pedoman KRI 2021
+
+--- PAGE 121 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 115
+PEDOMAN
+KONTES ROBOT INDONESIA (KRI)
+TAHUN 2021
+BUKU 7
+KONTES ROBOT TEMATIK INDONESIA
+(KRTMI)
+Disusun oleh:
+Ir. Indrawanto, M. Eng., Ph.D.
+Pusat Prestasi Nasional
+Kementerian Pendidikan dan Kebudayaan
+Republik Indonesia 
+Diterbitkan: April 2021
+
+--- PAGE 122 ---
+ii116 Pedoman KRI 2021
+Pedoman KRI 2021
+Tema Kontes
+Robo Game – Digital Twin
+Slogan:
+” Penguasaan Teknologi, 
+Kemakmuran Negara”
+Ver 0.0, 31032021
+Disiapkan oleh Indrawanto
+Juri Kontes Robot Indonesia 
+
+--- PAGE 123 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 117
+DAFTAR ISI BUKU 7
+1.	 Latar Belakang........................................................................................................118
+2.	 Konsep dari Kontes...............................................................................................119
+3.	 Rancangan Kontes................................................................................................122
+4.	 Aturan Kontes.........................................................................................................123
+5.	 Hak Kekayaan Intelektual...................................................................................130
+6.	 Lain-lain....................................................................................................................130
+7.	 Penutup....................................................................................................................131
+Lampiran..........................................................................................................................132
+
+--- PAGE 124 ---
+ii118 Pedoman KRI 2021
+Pedoman KRI 2021
+1.	 Latar Belakang
+Pada tahun 2003, Direktorat Jenderal Pendidikan Tinggi Departemen 
+Pendidikan dan Kebudayaan, melalui Direktorat Penelitian dan 
+Pengabdian kepada Masyarakat, mulai mendanai Kontes Robot 
+Indonesia. Pada Kontes Robot Indonesia tahun 2003 ini mengadopsi 
+kontes yang diselenggarakan oleh ABU Robocon. Selanjutnya tahun 2004 
+ditambahkan divisi Kontes Robot Cerdas Indonesia yang mengadopsi 
+kontes Robot Pemadam Api di Trinity College Amerikas Serikat. Divisi 
+pada Kontes Robot Indonesia selajutnya bertambah hingga tahun 2018 
+terdapat 5 divisi yakni; Kontes Robot ABU Indonesia (KRAI), Kontes Robot 
+Pemadam Api Indonesia (KRPAI) Berkaki, Kontes Robot Seni Tari Indonesia 
+(KRSTI), Kontes Robot Sepak Bola Indonesia (KRSBI) Humanoid, Kontes 
+Robot Sepak Bola Indonesia (KRSBI) Beroda.
+Tema-tema pada divisi Kontes Robot Indonesia hingga tahun 2018 
+sebagian besar mengadopsi kontes robot sejenis yang diselenggarakan 
+di luar negeri. Melihat kondisi dan kebutuhan nasional, mulai tahun 
+2019, Direktorat Kemahasiswaan, Direktorat Jenderal Pembelajaran dan 
+Kemahasiswaan, Kementerian Riset, Teknologi dan Pendidikan Tinggi 
+memprakarsai penyelenggaraan divisi baru di Kontes Robot Indonesia 
+yakni Kontes Robot Tematik Indonesia (KRTMI) dengan mengambil tema 
+sesuai kebutuhan nasional yang mendesak untuk diselesaikan. Kemudian 
+mulai tahun 2020, kegiatan Kontes Robot Indonesia diselenggarakan 
+oleh Pusat Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan 
+Republik Indonesia.
+Pada KRI 2021, Kontes Robot Tematik Indonesia 2021 mengambil tema 
+DIGITAL – TWIN. Tema yang merupakan komponen utama pada Industri 
+4.0. Kontes Robot Tematik Indonesia 2021 ini diharapkan menjadi wadah 
+untuk mengembangkan dan menyemaikan ide-ide dalam memberikan 
+kontribusi pada penerapan konsep Industri 4.0 melalui otomasi dan 
+robotika.
+
+--- PAGE 125 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 119
+2.	 Konsep dari Kontes
+Dunia automasi industri sedang mengalami transformasi besar. Teknologi 
+komputasi dan komunikasi tingkat lanjut telah mencapai tingkat 
+kematangan sedemikian rupa sehingga produsen mesin membuat 
+perubahan dramatis dalam cara merancang produknya. Pergeseran 
+besar dari mekanisme khusus ke sistem mekatronika, atau phisik siber, 
+menjadikan rancangan tidak lagi dibatasi oleh desain mekanis suatu 
+mesin. Adanya aktuator servo dan perangkat lunak kontrol untuk 
+mengatur gerakan mekanismenya memberikan peluang signifikan 
+untuk merancang sistem manufaktur yang fleksibel, keluaran adaptif, 
+manajemen energi, dan nilai umur mesin yang lebih tinggi. 
+Penghematan biaya yang dihasilkan dan keunggulan kompetitif sangat 
+penting dalam industri saat ini, karenanya semakin banyak produsen 
+yang mengadopsi teknologi ini ke dalam produk generasi yang akan 
+datang. Evolusi dan konvergensi teknologi baru - sistem mekatronika, 
+pengontrol, komputasi on-board, Big Data, pembelajaran mesin, dan 
+Industrial Internet of Things (IIoT) - mendorong para peneliti untuk 
+merumuskan tentang Revolusi Industri Selanjutnya, atau disebut Industri 
+4.0.
+Digital Twin adalah inti dari seluruh pengembangan Industri 4.0, yang 
+mencakup otomatisasi, pertukaran data, dan proses manufaktur, 
+yang mana dapat menghasilkan peluang tak terbatas bagi industri 
+untuk tumbuh. Dengan kemajuan teknologi tersebut, Digital Twin 
+menghadirkan proses desain berbasis sistem yang lebih virtual yang 
+mengarah ke peran yang jauh lebih aktif pada peralatan atau sistem 
+apapun. Dengan menyediakan replika digital suatu mesin secara teliti, 
+teknologi tersebut dapat membantu operator memahami fitur unik, 
+kinerja, dan potensi masalah pada model simulasi virtual. Karena teknologi 
+ini mendukung pemantauan pada waktu riil dari pabrik fisik, dengan 
+bantuan sensor yang dipasang ke semua peralatan, ini memungkinkan 
+
+--- PAGE 126 ---
+ii120 Pedoman KRI 2021
+Pedoman KRI 2021
+operator untuk mendapatkan peringatan awal tentang kemungkinan 
+terjadinya kegagalan pada mesin dan/atau potensi waktu henti dan/
+atau kecelakaan. Dengan pembaruan operasi waktu riil, pekerja industri 
+mampu mengoptimalkan kinerja mesin dalam waktu riil, memantau 
+koordinasi antara semua perangkat, melakukan diagnosis di pabrik 
+virtual, dan memperbaiki kesalahan, sehingga dapat meminimalkan 
+kerugian pada produktivitas bila itu terjadi.
+Gambaran sistem Digital Twin ditunjukkan pada Gambar 1 yang mana 
+terdapat replika model digital dari sistem fisik. Sistem fisik dan model 
+digital akan bekerja bersama-sama yang mana sistem fisik melakukan 
+eksekusi perintah kemudian sensor-sensor yang dipasangkan pada 
+sistem fisik mengirimkan data ke model digital. Selanjutnya sistem digital 
+melakukan analisis dan hasilnya dikirimkan ke sistem fisik.
+Gambar 1 Konsep Digital – Twin : Interaksi mulus antara sistem phisik 
+dengan model digital
+https://www.vizexperts.com/blog/digital-twin-and-its-impact-on-industry-4-0
+
+--- PAGE 127 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 121
+Kontes Robot Tematik Indonesia 2021 mengusung Digital Twin sebagai 
+tema kontes dalam rangka memperkenalkan lebih dalam tentang 
+teknologi ini kepada peserta. Untuk merealisasikan konsep ini perlu 
+dipilih tema atau jenis aktivitas yang dapat direalisasikan dalam waktu 
+yang tersedia, dikenal di masyarakat dan mudah untuk dipahami sesuai 
+dengan konsep Digital Twin.
+Sebagai penerapan pada kontes ini dipilih konsep permainan 
+tradisional Dam-daman yang diterapkan dengan mengadopsi teknologi 
+Digital-Twin. Pilihan ini dipertimbangkan dari sisi keterealisiran antar 
+penyiapan model phisik dan model digital dalam waktu yang tersedia 
+namun tetap mengusung konsep Digital Twin. Permainan dam-daman 
+merupakan permainan yang mengadu strategi dan kosentrasi antara dua 
+pemain. Dengan menggunakan konsep Digital-Twin ini pemain dapat 
+menggunakan model digital dan memanfaatkan AI (Artificial Intelligence) 
+bila perlu untuk melakukan analisis guna memberikan saran kepada 
+pemain dalam mengambil langkah pada permainan.
+Jenis permainan Dam-daman ada beberapa varian di masyarakat. Salah 
+satu pola permainan Dam-daman yang sederhana adalah dengan bentuk 
+lapangan permainan ditunjukkan pada Gambar 2 di bawah ini. Dua orang 
+pemain akan meletakkan biji-
+bijian atau batu pada pertemuan 
+2 atau 3 garis di lapangan 
+permainan. Pemain yang berhasil 
+lebih dahulu meletakkan tiga 
+batu berjajar pada satu garis akan 
+dinyatakan sebagai pemenang.
+Gambar 2. Lapangan Dam-daman
+3.	
+Rancangan Kontes
+
+--- PAGE 128 ---
+ii122 Pedoman KRI 2021
+Pedoman KRI 2021
+Kontes ini merupakan permainan antara dua tim yang menggerakkan 
+robot di lapangan phisik untuk mengambil dan menempatkan koin pada 
+posisi tertentu di lapangan digital. Pada saat kontes dimulai kedua robot 
+akan bergerak mengambil koin di rak dan kemudian bergerak membawa 
+koin untuk ditempatkan pada titik-titik yang sah pada lapangan digital. 
+Lapangan phisik berupa lapangan datar segi empat yang berwarna 
+hijau dengan empat penanda pada keempat sudutnya. Satu kamera 
+akan diletakkan di atas lapangan phisik yang akan menangkap citra 
+lapangan, robot dan koin phisik dari peserta kontes. Citra ini dikirimkan 
+ke komputer juri untuk diolah menjadi model robot dan koin pada 
+lapangan digital yang berada pada komputer juri. Lapangan digital 
+selanjutnya dikirimkan ke peserta sebagai acuan untuk pergerakan robot 
+phisik dan penempatan koin phisik pada lapangan digital.
+Gambar 3. Rancangan Kontes, robot bergerak pada lapangan phisik, 
+kamera utama menangkap citra robot, citra robot dikirim ke pengolah 
+citra pada lapangan digital, citra lapangan digital dikirimkan ke layar 
+peserta sebagai acuan pergerakan robot.
+Pada permainan yang sebenarnya kedua pemain melangkah secara 
+bergantian. Pada kontes ini, kedua Tim akan bergerak pada saat yang 
+
+--- PAGE 129 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 123
+sama sehingga perlu untuk melakukan adaptasi aturan permainan 
+tradisional ini untuk diterapkan pada kontes ini. Masing-masing tim 
+boleh menempatkan koin di posisi yang sah pada lapangan digital. Tim 
+yang yang paling cepat berhasil menempatkan 3 (tiga) koin berjajar pada 
+posisi yang sah di lapangan digital akan memenangkan pertandingan 
+dan pertandingan langsung dihentikan.
+4.	 Aturan Kontes
+4.1	 Sebutan dan Definisi 
+Sebutan dan definisi yang digunakan pada Kontes Robot Tematik 
+2021 adalah dinyatakan pada tabel berikut ini.
+#
+Sebutan
+Definisi
+1
+ROBOT PEMAIN
+Adalah satu robot yang dikendalikan 
+dengan kendali jarak jauh nirkabel. Robot 
+ini berfungsi untuk mengambil koin dari rak 
+dan menempatkannya pada posisi tertentu di 
+lapangan digital.
+2
+LAPANGAN DIGITAL
+Lapangan digital adalah lapangan tempat 
+pertandingan antara kedua tim akan 
+berlangsung. Lapangan ini berada pada 
+komputer juri
+3
+LAPANGAN PHISIK
+Lapangan phisik adalah lapangan tempat tiap-
+tiap tim akan menggerakkan robot pemain 
+yang berupa lapangan berwarna hijau polos 
+dengan empat penanda batas lapangan pada 
+keempat sudutnya.
+4
+KOIN
+Koin adalah berupa silinder dengan warna 
+biru atau merah 
+5
+ZONA NON-DAM
+Zona pada lapangan digital dimana 
+penempatan tiga koin tidak langsung 
+menjadikan kemenangan.
+#
+Sebutan
+Definisi
+
+--- PAGE 130 ---
+ii124 Pedoman KRI 2021
+Pedoman KRI 2021
+6
+ZONA NO-ENTRY
+Zona hingga jarak tertentu dari luar lapangan 
+phisik yang tidak boleh dimasuki anggota tim. 
+Zona no-Entry untuk menjaga agar anggota 
+tim tidak tertangkap kamera utama selama 
+kontes berlangsung.
+7
+ZONA AWAL
+Zona tempat robot pemain diletakkan saat 
+awal mula kontes.
+8
+KAMERA UTAMA
+Kamera di atas lapangan phisik yang 
+menangkap citra lapangan, robot pemain dan 
+koin 
+4.2	 Tatacara Pertandingan dan Tugas Kontes
+Setiap tim harus menyelesaikan tugas dengan urutan sebagai berikut
+4.2.1	 Persiapan Robot.
+4.2.1.1	 Tim diberi kesempatan untuk mengatur ROBOT 
+PEMAIN selama satu menit sebelum kontes dimulai 
+yang ditandai dengan aba-aba untuk memulai dan 
+mengakhiri pengaturan. Pada pengaturan ini anggota 
+Tim boleh memasuki LAPANGAN PHISIK untuk 
+meletakkan ROBOT PEMAIN dan KOIN pada rak.
+4.2.1.2	 Sebelum kontes dimulai akan dilakukan kalibrasi 
+KAMERA UTAMA dan kondisi pencahayaan di 
+LAPANGAN PHISIK dilihat dari sisi LAPANGAN DIGITAL. 
+Tim yang tidak berhasil lulus tahap kalibrasi tidak 
+boleh melanjutkan kontes dan dinyatakan gagal pada 
+kontes tersebut.
+4.2.1.3	 Sebanyak  4 (empat) anggota Tim diperbolehkan untuk 
+melakukan proses persiapan ini.
+4.2.1.4	 Bila Tim tidak berhasil menyelesaikan persiapan 
+
+--- PAGE 131 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 125
+dalam waktu satu menit, maka Robot Pemain 
+harus dikeluarkan dari Lapangan Phisik. Tim dapat 
+melanjutkannya persiapan di luar Lapangan Phisik 
+setelah pertandingan dimulai. Setelah persiapan 
+selesai dilakukan, Tim dengan menggunakan tongkat 
+dapat meletakkan robotnya pada Zona Mulai dengan 
+memberi tanda pemberitahuan ke wasit.
+4.2.2	 Pergerakan 
+ROBOT 
+PEMAIN 
+pada 
+awal 
+dimulainya 
+pertandingan dan anggota Tim selama kontes.
+4.2.2.1	 ROBOT PEMAIN harus di-start dari ZONA AWAL. Robot 
+harus berada tepat di dalam ruang ZONA AWAL.
+4.2.2.2	 Semua anggota Tim harus berada di luar ZONA NO-
+ENTRY saat kontes dimulai hingga kontes berakhir.
+4.2.2.3	 Semua anggota Tim tidak boleh tertangkap oleh 
+KAMERA UTAMA selama kontes berlangsung.
+4.2.2.4	 Apabila ROBOT PEMAIN mengalami Error maka robot 
+hanya boleh diangkat dengan tongkat berwarna hijau 
+dan memberi tanda pemberitahuan ke wasit. Robot 
+dapat diperbaiki di luar lapangan dan apabila sudah 
+siap dapat diletakkan Kembali ke ZONA AWAL dengan 
+menggunakan tongkat setelah memberi tanda 
+pemberitahuan ke wasit.
+4.2.3	 KOIN
+4.2.3.1	 Setiap Tim menyiapkan 2 (dua) set KOIN warna merah 
+dan biru yang tiap-tiap set terdiri 12 (dua belas) KOIN.
+4.2.3.2	 Setiap Tim menyiapkan satu rak untuk menempatkan 
+KOIN di lapangan phisik.
+4.2.4	 Membawa KOIN
+
+--- PAGE 132 ---
+ii126 Pedoman KRI 2021
+Pedoman KRI 2021
+4.2.4.1	 Robot hanya boleh mengambil satu KOIN dari rak 
+lalu membawa dan menempatkan KOIN pada posisi 
+tertentu di LAPANGAN DIGITAL.
+4.2.4.2	 Robot hanya boleh mengambil KOIN berikutnya bila 
+KOIN yang diambil sebelumnya telah ditempatkan 
+pada posisi yang sah di LAPANGAN DIGITAL.
+4.2.4.3	 Saat membawa KOIN dari rak ke posisi yang dituju, 
+KOIN harus dipegang pada sisi diameternya dengan 
+orientasi diameter menghadap ke atas agar dapat 
+ditangkap oleh KAMERA UTAMA.
+4.2.5	 Meletakkan KOIN
+4.2.5.1	 KOIN dapat diletakkan pada posisi yang sah di 
+LAPANGAN DIGITAL.
+4.2.5.2	 Penempatan KOIN tidak sah bila pertemuan garis pada 
+LAPANGAN DIGITAL tampak secara visual pada layar.
+4.2.5.3	 Penempatan KOIN lapangan digital tidak sah bila pada 
+tempat tersebut sudah terdapat KOIN lawan, dan KOIN 
+tersebut harus dipindahkan.
+4.2.5.4	 Tim boleh menempatkan di sembarang posisi yang 
+sah pada LAPANGAN DIGITAL.
+4.2.5.5	 KOIN yang terjatuh atau tidak berada pada posisi yang 
+sah di LAPANGAN DIGITAL boleh diperbaiki posisinya 
+dengan cara mengangkat dan meletakkannya pada 
+posisi yang sah. DILARANG MENDORONG KOIN PADA 
+LAPANGAN PHISIK UNTUK MEMINDAHKAN KOIN.
+4.2.6	 PENGULANGAN
+
+--- PAGE 133 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 127
+4.2.6.1	 Bila ROBOT PEMAIN mengalami masalah saat kontes 
+diperbolehkan dilakukan pengulangan dengan cara 
+diangkat dengan tongkat dan diperbaiki di luar 
+lapangan. Tim menyampai tanda pemberitahuan ke 
+wasit sebelum mengangkat ROBOT PEMAIN.
+4.2.6.2	 Robot yang telah diperbaiki boleh diletakkan kembali 
+ke ZONA AWAL dengan menggunakan tongkat 
+dengan lebih dahulu menyampaikan pemberitahuan 
+kepada wasit.
+4.2.6.3	 Jumlah pengulangan maksimal 3 (tiga) kali. Bila 
+ROBOT PEMAIN mengalami masalah setelah tiga kali 
+pengulangan ROBOT PEMAIN tidak diperbolehkan 
+melanjutkan kontes. 
+4.2.7	 MEMUTUSKAN PEMENANG
+4.2.7.1	 Tim yang paling dahulu menempatkan tiga KOIN 
+berjajar di tempat yang sah pada LAPANGAN DIGITAL 
+akan langsung memenangkan kontes dan dinyatakan 
+dengan DAM.
+4.2.7.2	 Bila tidak ada Tim yang berhasil menempatkan tiga 
+KOIN berjajar atau DAM hingga waktu kontes 3 menit 
+dilewati, maka penilaian dilakukan dengan menghitung 
+jumlah nilai KOIN yang berhasil diletakkan di tempat 
+yang sah dengan pembobotan sebagai berikut:
+4.2.7.2.1	 KOIN yang diletakkan pada garis paling 
+dekat dengan ZONA AWAL robot bernilai 3, 
+kemudian untuk garis berikutnya masing-
+masing 4, 5, 6, 7, 8 dan 9.
+4.2.7.2.2	 Bila nilai KOIN kedua tim sama, maka tim 
+dengan jumlah KOIN nilai tertinggi terbanyak 
+dinyatakan 
+menang, 
+begitu 
+seterusnya 
+
+--- PAGE 134 ---
+ii128 Pedoman KRI 2021
+Pedoman KRI 2021
+diperiksa untuk jumlah KOIN nilai berikutnya.
+4.2.7.2.3	 Bila dari penilaian no 2 masih belum dapat 
+ditentukan pemenangnya, tim yang lebih 
+dahulu meletakkan KOIN terakhir akan 
+memenangkan pertandingan.
+4.2.7.2.4	 Bila dari penilaian no 3 masih belum dapat 
+ditentukan, pemenangnya akan ditentukan 
+berdasarkan penilaian juri.
+4.2.8	 RANCANGAN DAN PENGEMBANGAN ROBOT
+4.2.8.1	 Setiap tim membangun satu robot.
+4.2.8.2	 Robot tidak boleh terbelah menjadi subbagian yang 
+dihubungkan dengan kabel.
+4.2.8.3	 Robot pada kontes ini harus dibangun oleh anggota 
+Tim dari satu perguruan tinggi.
+4.2.8.4	 Berat total robot, kontroller, kabel, baterai yang 
+digunakan pada pertandingan tidak dibatasi namun 
+harus bisa diangkat oleh anggota Tim dengan tongkat 
+dari luar lapangan. 
+4.2.8.5	 Robot digital twin ini bekerja dengan cara manual 
+melalui kendali jarak jauh nir kabel.
+4.2.8.6	 Robot harus memiliki dimensi pada lebar 20cm, 
+panjang 25cm dan tinggi 20cm dengan panjang 
+gripper 20cm.
+4.2.8.7	 Robot dioperasikan oleh operator melalui koneksi 
+nirkabel.
+4.2.8.8	 Kecepatan robot dibatasi tidak lebih dari 40 cm/s.
+4.2.9	 PELANGGARAN
+
+--- PAGE 135 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 129
+PENGULANGAN adalah keharusan bagi setiap pelanggaran. 
+Yang dikategorikan pelanggaran adalah sebagai berikut:
+4.2.9.1	 Bagian dari ROBOT PEMAIN keluar lapangan kontes.
+4.2.9.2	 Robot menyentuh robot lawan di lapangan digital.
+4.2.9.3	 Robot menyentuh/melewati KOIN di lapangan digital.
+4.2.9.4	 ROBOT PEMAIN membawa KOIN tidak sesuai degan 
+tata cara yang yang harus diikuti.
+4.2.9.5	 Anggota Tim tertangkap KAMERA UTAMA.
+4.2.9.6	 Tim mulai menggerakkan ROBOT PEMAIN sebelum 
+aba-aba “mulai” diberikan. Pertandingan (kedua Tim) 
+diulang kembali. 
+4.2.9.7	 ROBOT PEMAIN bergerak melebihi kecepatan 40 cm/s.
+4.2.9.8	 Tindakan lain yang melanggar aturan yang tidak 
+termasuk dalam diskualifikasi dianggap sebagai 
+pelanggaran.
+4.2.10	 DISKUALIFIKASI
+Suatu tim didiskualifikasikan bila melakukan hal-hal berikut 
+ini selama pertandingan:
+4.2.10.1	Anggota 
+Tim 
+menyentuh 
+ROBOT 
+PEMAIN 
+di 
+LAPANGAN PHISIK saat kontes berlangsung.
+4.2.10.2	Anggota Tim menggerakkan/mendorong KOIN di 
+LAPANGAN PHISIK.
+4.2.10.3	Anggota Tim masuk ke LAPANGAN PHISIK saat kontes 
+berlangsung.
+4.2.10.4	Tim tidak mematuhi instruksi atau peringatan yang 
+dikeluarkan oleh wasit.
+4.2.10.5	Tim telah menggerakkan ROBOT PEMAIN sebelum 
+
+--- PAGE 136 ---
+ii130 Pedoman KRI 2021
+Pedoman KRI 2021
+aba-aba mulai diberikan, sebanyak tiga kali dalam 
+satu kontes.
+4.2.11	 TIM
+4.2.11.1	Satu tim terdiri atas 4 (empat) orang mahasiswa, 
+disebut sebagai anggota tim, dan satu pembimbing 
+yang semuanya berasal dari perguruan tinggi yang 
+sama.
+4.2.11.2	Empat orang mahasiswa pada satu tim berhak untuk 
+berpartisipasi dalam kontes.
+4.2.12	 KESELAMATAN
+Robot harus dirancang dan dibuat agar tidak menimbulkan 
+bahaya apapun bagi orang atau peserta di tiap-tiap Tim.
+5.	 Hak Kekayaan Intelektual
+Hak Kekayaan Intelektual dari rancangan robot pada kontes ini 
+sepenuhnya milik tim peserta.
+6.	 Lain-lain
+6.1	 Keabsahan dari setiap tindakan yang tidak diatur dalam buku aturan 
+ini tunduk pada kebijaksanaan juri.
+6.2	 Semua pertanyaan harus ditujukan ke situs web resmi Kontes Robot 
+Tematik Indonesia 2021 http://kontesrobotindonesia.id.  Bagian FAQ 
+disediakan di situs tersebut. Pemberitahuan tambahan dan / atau 
+koreksi ke buku aturan ini adalah dibuat di situs web tersebut.
+
+--- PAGE 137 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 131
+7.	 Penutup
+Informasi lebih lanjut pelaksanaan Kontes Robot Tematik Indonesia 
+(KRTMI) akan diinformasikan melalui website http://pusatprestasinasional.
+kemdikbud.go.id dan melalui email resmi, yaitu dikti.puspresnas@
+kemdikbud.go.id. Pertanyaan teknis terkait KRTMI dapat disampaikan 
+melalui email: indrawanto@kontesrobotindonesia.id
+
+--- PAGE 138 ---
+ii132 Pedoman KRI 2021
+Pedoman KRI 2021
+LAMPIRAN
+ARENA KONTES DAN ROBOT
+LAPANGAN DIGITAL dengan ukuran setara dengan LAPANGAN PHISIK
+
+--- PAGE 139 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 133
+ZONA NON-DAM pada LAPANGAN DIGITAL yang ditandai oleh silang 
+garis sesuai warna tim. Pada zona tersebut tidak berlaku kemenangan 
+DAM bagi tim sesuai warna saat kontes
+ROBOT PEMAIN
+Ukuran ROBOT PEMAIN. Pada saat kontes, bagian samping ROBOT PEMAIN harus 
+
+--- PAGE 140 ---
+ii134 Pedoman KRI 2021
+Pedoman KRI 2021
+ditutup dengan penutup berwarna HIJAU sewarna dengan LAPANGAN PHISIK.
+RAK DAN KOIN
+ 
+Rak tempat koin, bisa dibuat dari kayu, plat atau batang dari logam. Koin 
+terbuat dari styrofoam dengan diameter 15 cm tebal 3 cm diberi warna 
+merah atau biru. Setiap tim menyiapkan 12 koin merah dan 12 koin biru
+
+--- PAGE 141 ---
+ii
+Pedoman KRI 2021
+Pedoman KRI 2021 135
+LAPANGAN PHISIK
+LAPANGAN PHISIK bisa dibuat dari papan yang dicat dengan warna hijau atau 
+lantai yang ditutup dengan kain warna hijau (green screen). ROBOT PEMAIN 
+diletak pada ZONA AWAL seperti terlihat pada gambar dan KOIN yang disusun 
+pada rak diletakkan pada pinggir sisi lapangan. KAMERA UTAMA diletakkan 
+pada tengah LAPANGAN PHISIK pada ketinggian tertentu. LAPANGAN PHISIK 
+harus dilengkapi dengan sistem penerangan yang ditentukan. Letak kamera, 
+jenis kamera, sistem penerangan akan disampaikan pada aturan tambahan 
+(addendum) menyusul.
