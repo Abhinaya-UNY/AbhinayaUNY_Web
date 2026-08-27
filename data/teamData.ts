@@ -390,31 +390,6 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
   },
   {
-    id: 'edo-raja-saputra-siahaan',
-    name: 'Edo Raja Saputra Siahaan',
-    nim: '22508334033',
-    studyProgram: 'D4 Teknik Mesin',
-    faculty: 'Fakultas Vokasi (FV)',
-    division: 'Mekanik',
-    role: 'Mekanik (Aktuasi & Sasis Dynamics)',
-    subRole: 'Actuator & Mechanical Dynamics Engineer',
-    generation: 'Angkatan 2022',
-    specialization: [
-      'Pneumatic & Servo Actuation',
-      'Dynamic Vibration Testing',
-      'Mechanical Assembly & Tolerance',
-      'Obstacle Traversal Testing',
-    ],
-    bio: 'Menangani perakitan aktuator gripper dan mekanik dorong, pengujian getaran sasis saat melintasi rintangan arena KRTMI, serta kalibrasi toleransi mekanik.',
-    quote: 'Get the victory, win the trophy',
-    image: '/images/members/10_muhamad_ilham_sony_2.png',
-    badge: 'Aktuator & Sasis',
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-  {
     id: 'rionaldi-nugroho',
     name: 'Rionaldi Nugroho',
     nim: '23090620088',
@@ -449,7 +424,7 @@ export const DIVISION_CATEGORIES = [
   { id: 'Manager', label: 'Manager Tim', icon: 'Briefcase', count: 2 },
   { id: 'Program', label: 'Program (AI & Vision)', icon: 'Code', count: 3 },
   { id: 'Elektronik', label: 'Elektronik', icon: 'Zap', count: 4 },
-  { id: 'Mekanik', label: 'Mekanik', icon: 'Wrench', count: 4 },
+  { id: 'Mekanik', label: 'Mekanik', icon: 'Wrench', count: 3 },
   { id: 'Pembimbing', label: 'Dosen Pembimbing', icon: 'GraduationCap', count: 2 },
 ] as const;
 

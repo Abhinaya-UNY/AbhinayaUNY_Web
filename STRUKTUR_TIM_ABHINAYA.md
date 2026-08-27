@@ -52,7 +52,5 @@
   - Desain 3D CAD sasis utama, pemesinan bubut & milling plat aluminium 6061.
 - **Caesar Sokma Langgeng** (S1 Teknik Manufaktur - FT UNY) — **Mekanik (CAD & Laser Fabrication Engineer)**
   - Fabrikasi laser cutting akrilik presisi, bracket motor planetary, dan perakitan rangka.
-- **Edo Raja Saputra Siahaan** (D4 Teknik Mesin - FV UNY) — **Mekanik (Aktuasi, Sasis & Dynamic Testing)**
-  - Perakitan aktuator gripper dan pengujian durabilitas sasis melintasi rintangan.
 - **Rionaldi Nugroho** (D4 Teknik Elektronika - FV UNY) — **Mekanik (Hardware Assembly & Mechanical QA)**
   - Integrasi fisik mekatronika dan pengujian struktur sasis robot.
