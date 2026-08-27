@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Instagram, Menu, X } from 'lucide-react';
+import { Instagram, Menu, X, Trophy } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -13,7 +13,7 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { href: '/', label: 'HOME' },
     { href: '/#about-tim', label: 'ABOUT US' },
-    { href: '/#dokumentasi-tim', label: 'GALLERY' },
+    { href: '/pertandingan', label: 'MATCH & LAGA' },
     { href: '/krtmi', label: 'KRTMI ARCHIVES' },
     { href: '/divisi', label: 'DIVISI TIM' },
     { href: '/prestasi', label: 'ACHIEVEMENTS' },

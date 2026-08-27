@@ -21,6 +21,7 @@ import {
   Cpu,
   Layers,
   Award,
+  Quote,
 } from 'lucide-react';
 import {
   TeamMember,
@@ -45,6 +46,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   const [selectedDivision, setSelectedDivision] = useState<string>(initialDivision);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
+  const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
 
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
@@ -78,7 +80,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
       member.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (member.nim?.toLowerCase() || '').includes(searchQuery.toLowerCase()) ||
       member.studyProgram.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      member.specialization.some((s) => s.toLowerCase().includes(searchQuery.toLowerCase()));
+      member.specialization.some((s) => s.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (member.quote && member.quote.toLowerCase().includes(searchQuery.toLowerCase()));
 
     return matchesDivision && matchesSearch;
   });
@@ -166,7 +169,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari nama, NIM, divisi, skill..."
+              placeholder="Cari nama, NIM, divisi, quote..."
               className="w-full bg-[#180F08] text-xs text-white placeholder-slate-400 pl-9 pr-8 py-2.5 rounded-xl border border-[#2B1B10] focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange transition"
             />
             {searchQuery && (
@@ -203,6 +206,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {filteredMembers.map((member) => {
               const badgeStyle = DIVISION_BADGES[member.division] || DIVISION_BADGES['Mekanik'];
               const isAdvisor = member.division === 'Pembimbing';
+              const hasCustomPhoto = member.image && !member.image.includes('logo_abhinaya') && !imgErrors[member.id];
 
               return (
                 <div
@@ -236,21 +240,36 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                     {/* Member Profile Info */}
                     <div className="flex items-start space-x-3.5 pt-1">
-                      {/* Avatar Placeholder with Initials and Accent Ring */}
+                      {/* Avatar: Photo or Initials */}
                       <div
-                        className="w-12 h-12 rounded-2xl flex items-center justify-center font-black text-sm flex-shrink-0 border-2 transition group-hover:scale-105 shadow-md"
+                        className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl overflow-hidden flex items-center justify-center font-black text-sm flex-shrink-0 border-2 transition group-hover:scale-105 shadow-md relative bg-[#1B1109]"
                         style={{
-                          backgroundColor: `${badgeStyle.accent}20`,
                           borderColor: badgeStyle.accent,
-                          color: '#FFFFFF',
                         }}
                       >
-                        {member.name
-                          .split(' ')
-                          .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                          .slice(0, 2)
-                          .map((n) => n[0])
-                          .join('')}
+                        {hasCustomPhoto ? (
+                          <img
+                            src={`${basePath}${member.image}`}
+                            alt={member.name}
+                            onError={() => setImgErrors((prev) => ({ ...prev, [member.id]: true }))}
+                            className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+                          />
+                        ) : (
+                          <div
+                            className="w-full h-full flex items-center justify-center font-black text-base"
+                            style={{
+                              backgroundColor: `${badgeStyle.accent}25`,
+                              color: '#FFFFFF',
+                            }}
+                          >
+                            {member.name
+                              .split(' ')
+                              .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
+                              .slice(0, 2)
+                              .map((n) => n[0])
+                              .join('')}
+                          </div>
+                        )}
                       </div>
 
                       <div className="flex-1 min-w-0">
@@ -265,6 +284,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         </p>
                       </div>
                     </div>
+
+                    {/* Quote Pill if present */}
+                    {member.quote && (
+                      <div className="p-2.5 rounded-xl bg-[#1C120A] border border-amber-900/30 text-[11px] text-amber-200 italic flex items-start space-x-2">
+                        <Quote className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
+                        <span className="line-clamp-2">"{member.quote}"</span>
+                      </div>
+                    )}
 
                     {/* Academic Info */}
                     <div className="p-2.5 rounded-xl bg-[#1B1109] border border-[#2B1B10] text-[11px] space-y-0.5">
@@ -352,23 +379,37 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Modal Header */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-5 pr-8">
               <div
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-3xl flex items-center justify-center font-black text-xl sm:text-2xl border-2 flex-shrink-0 shadow-lg"
+                className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl overflow-hidden flex items-center justify-center font-black text-xl sm:text-2xl border-2 flex-shrink-0 shadow-lg relative bg-[#1C120A]"
                 style={{
-                  backgroundColor: `${
-                    (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).accent
-                  }25`,
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
                   ).accent,
-                  color: '#FFFFFF',
                 }}
               >
-                {selectedMember.name
-                  .split(' ')
-                  .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                  .slice(0, 2)
-                  .map((n) => n[0])
-                  .join('')}
+                {selectedMember.image && !selectedMember.image.includes('logo_abhinaya') && !imgErrors[selectedMember.id] ? (
+                  <img
+                    src={`${basePath}${selectedMember.image}`}
+                    alt={selectedMember.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div
+                    className="w-full h-full flex items-center justify-center font-black text-xl sm:text-2xl"
+                    style={{
+                      backgroundColor: `${
+                        (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).accent
+                      }25`,
+                      color: '#FFFFFF',
+                    }}
+                  >
+                    {selectedMember.name
+                      .split(' ')
+                      .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
+                      .slice(0, 2)
+                      .map((n) => n[0])
+                      .join('')}
+                  </div>
+                )}
               </div>
 
               <div className="space-y-1">
@@ -399,6 +440,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 </p>
               </div>
             </div>
+
+            {/* Quote banner if present */}
+            {selectedMember.quote && (
+              <div className="p-3.5 rounded-2xl bg-[#1F130B] border border-brand-orange/30 text-xs sm:text-sm text-amber-200 italic flex items-center space-x-3 shadow-inner">
+                <Quote className="w-5 h-5 text-brand-orange flex-shrink-0" />
+                <span className="font-medium">"{selectedMember.quote}"</span>
+              </div>
+            )}
 
             {/* Academic & Role Metadata Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 rounded-2xl bg-[#1B120A] border border-[#2B1B10] text-xs">

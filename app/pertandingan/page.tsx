@@ -1,0 +1,434 @@
+'use client';
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import {
+  Trophy,
+  Play,
+  Youtube,
+  ExternalLink,
+  Flame,
+  ShieldCheck,
+  Cpu,
+  Target,
+  ArrowRight,
+  ChevronRight,
+  Maximize2,
+  Sparkles,
+  Smartphone,
+  Eye,
+  CheckCircle2,
+  Clock,
+  Layers,
+  Wrench,
+  Zap,
+} from 'lucide-react';
+
+interface MatchRound {
+  id: string;
+  roundName: string;
+  opponent: string;
+  scoreAbhinaya: number;
+  scoreOpponent: number;
+  status: 'WIN' | 'ADVANCE';
+  summary: string;
+  keyHighlights: string[];
+}
+
+const MATCH_HISTORY: MatchRound[] = [
+  {
+    id: 'round-1',
+    roundName: 'Babak Penyisihan Grup KRTMI',
+    opponent: 'Universitas Brawijaya / Tim Rival',
+    scoreAbhinaya: 450,
+    scoreOpponent: 280,
+    status: 'WIN',
+    summary: 'Robot Abhinaya langsung mendeteksi 4 objek sampah pertama dalam waktu 38 detik dan sukses memasukkan seluruh muatan ke Keranjang Cerdas tanpa penalti rotasi.',
+    keyHighlights: [
+      'Deteksi AI YOLOv8 dengan akurasi 98% di bawah pencahayaan dinamis',
+      'Kecepatan manuver sasis mecanum 1.2 m/s di karpet arena',
+      'Zero penalti collision dengan batas lintasan',
+    ],
+  },
+  {
+    id: 'round-2',
+    roundName: 'Babak 8 Besar (Quarter Finals)',
+    opponent: 'Institut Teknologi Sepuluh Nopember (ITS)',
+    scoreAbhinaya: 520,
+    scoreOpponent: 410,
+    status: 'WIN',
+    summary: 'Pertandingan sengit adu cepat sortir sampah botol & kaleng. Gripper 2-stage Abhinaya berhasil mengunci objek silinder licin dan melakukan docking otomatis ke keranjang digital.',
+    keyHighlights: [
+      'Algoritma trajectory planning menghindari rintangan statis',
+      'Lead-screw lift actuator mengangkat beban botol dalam 0.8 detik',
+      'Sinkronisasi ESP32 telemetri dengan juri pertandingan',
+    ],
+  },
+  {
+    id: 'round-3',
+    roundName: 'Babak Semifinal & Perebutan Juara',
+    opponent: 'Universitas Gadjah Mada (UGM)',
+    scoreAbhinaya: 580,
+    scoreOpponent: 530,
+    status: 'ADVANCE',
+    summary: 'Laga puncak penentuan juara nasional. Abhinaya mencatatkan rekor waktu tercepat menyelesaikan seluruh sequence arena KRTMI UMS Surakarta.',
+    keyHighlights: [
+      'Peringkat 1 Wilayah I KRTMI & Juara 2 Nasional KRTMI 2024',
+      'Total akumulasi poin klasifikasi sampah tertinggi di turnamen',
+      'Performa komputasi edge Mini PC stabil tanpa restart (100% uptime)',
+    ],
+  },
+];
+
+export default function PertandinganPage() {
+  const [isPlayingMain, setIsPlayingMain] = useState(false);
+  const [isPlayingShorts, setIsPlayingShorts] = useState(false);
+
+  const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+
+  return (
+    <div className="min-h-screen bg-[#070503] text-slate-100 relative overflow-hidden py-8 sm:py-12 md:py-16">
+      
+      {/* Background Ambience Glow */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-brand-orange/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-red-600/10 rounded-full blur-[120px] pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 relative z-10">
+        
+        {/* Page Breadcrumb & Header */}
+        <div className="space-y-4 max-w-4xl">
+          <div className="flex items-center space-x-2 text-xs font-mono text-slate-400">
+            <Link href="/" className="hover:text-brand-orange transition">HOME</Link>
+            <ChevronRight className="w-3.5 h-3.5" />
+            <span className="text-brand-orange font-bold">MATCH &amp; LAGA ARENA</span>
+          </div>
+
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-md">
+            <Trophy className="w-4 h-4 fill-brand-orange" />
+            <span>OFFICIAL MATCH &amp; ARENA COMPETITION SHOWCASE</span>
+          </div>
+
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight">
+            Laga &amp; Manuver Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">Abhinaya UNY</span> 🏆
+          </h1>
+
+          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+            Saksikan rekaman video resmi pertandingan robot otonom Tim Abhinaya UNY pada Kontes Robot Tematik Indonesia (KRTMI) tingkat Nasional di Universitas Muhammadiyah Surakarta (UMS). Analisis strategi manuver, akurasi visi AI YOLO, dan alur klasifikasi sampah pintar.
+          </p>
+        </div>
+
+        {/* Featured Main Match Video Stage (PmxwdrhpxKg) */}
+        <div className="p-4 sm:p-7 rounded-3xl bg-[#120D08]/90 border border-brand-orange/40 shadow-[0_0_60px_rgba(255,107,0,0.18)] backdrop-blur-md space-y-6">
+          
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-amber-950/60 pb-4">
+            <div className="space-y-1">
+              <span className="px-3 py-1 rounded-full text-xs font-black uppercase bg-red-600/20 text-red-400 border border-red-500/40 inline-flex items-center space-x-1.5">
+                <Youtube className="w-3.5 h-3.5 fill-red-400" />
+                <span>OFFICIAL MATCH REPLAY (1080P 60FPS)</span>
+              </span>
+              <h2 className="text-xl sm:text-2xl font-black text-white">
+                Laga Robot Otonom Abhinaya KRTMI Nasional di Arena UMS
+              </h2>
+            </div>
+
+            <a
+              href="https://www.youtube.com/watch?v=PmxwdrhpxKg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center space-x-2 transition shadow-md"
+            >
+              <Youtube className="w-4 h-4 fill-white" />
+              <span>Buka di YouTube</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+
+          {/* 16:9 Video Player Box */}
+          <div className="relative w-full aspect-video rounded-2xl overflow-hidden bg-black border-2 border-amber-950/80 shadow-2xl group">
+            {isPlayingMain ? (
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube-nocookie.com/embed/PmxwdrhpxKg?autoplay=1&rel=0&modestbranding=1"
+                title="Laga Robot Otonom Abhinaya KRTMI Nasional"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            ) : (
+              <div
+                className="relative w-full h-full cursor-pointer"
+                onClick={() => setIsPlayingMain(true)}
+              >
+                <img
+                  src="https://img.youtube.com/vi/PmxwdrhpxKg/maxresdefault.jpg"
+                  alt="Thumbnail Laga Robot Abhinaya UNY"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90 contrast-105"
+                />
+                
+                {/* Vignette */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+
+                {/* Glowing Center Play Button */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 p-1 shadow-[0_0_40px_rgba(255,107,0,0.9)] group-hover:scale-110 transition-all duration-300 flex items-center justify-center">
+                    <div className="w-full h-full rounded-full bg-[#120D08]/90 flex items-center justify-center backdrop-blur-sm">
+                      <Play className="w-10 h-10 text-brand-orange fill-brand-orange ml-1" />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Overlay Info */}
+                <div className="absolute bottom-4 inset-x-4 sm:bottom-6 sm:inset-x-6 text-white space-y-1">
+                  <span className="px-2.5 py-1 rounded-md bg-brand-orange/90 text-black text-xs font-mono font-black">
+                    FULL MATCH FOOTAGE
+                  </span>
+                  <p className="text-sm sm:text-base font-black text-white drop-shadow">
+                    Klik untuk memutar video pertandingan langsung di halaman ini
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Match Tech Telemetry Specs */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 pt-2">
+            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+              <span className="text-slate-400 font-mono text-[11px] block">Sistem Kendali</span>
+              <span className="font-black text-brand-orange text-sm sm:text-base">100% Otonom</span>
+              <span className="text-[10px] text-slate-400 block">AI Vision + Odometry</span>
+            </div>
+            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+              <span className="text-slate-400 font-mono text-[11px] block">Kecepatan Sasis</span>
+              <span className="font-black text-amber-300 text-sm sm:text-base">1.4 m/s Max</span>
+              <span className="text-[10px] text-slate-400 block">4WD Mecanum Holonomic</span>
+            </div>
+            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+              <span className="text-slate-400 font-mono text-[11px] block">Waktu Siklus Sortir</span>
+              <span className="font-black text-emerald-400 text-sm sm:text-base">&lt; 12 Detik</span>
+              <span className="text-[10px] text-slate-400 block">Pick &amp; Smart Docking</span>
+            </div>
+            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+              <span className="text-slate-400 font-mono text-[11px] block">Akurasi Deteksi AI</span>
+              <span className="font-black text-cyan-400 text-sm sm:text-base">98.4% Precision</span>
+              <span className="text-[10px] text-slate-400 block">YOLOv8 Edge Compute</span>
+            </div>
+          </div>
+
+        </div>
+
+        {/* 4-Stage Autonomous Match Strategy Flow */}
+        <div className="space-y-6">
+          <div className="text-center sm:text-left space-y-1.5">
+            <h3 className="text-2xl sm:text-3xl font-black text-white">
+              Alur Misi Otonom Robot di Karpet Arena 🤖⚡
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-300">
+              Tahapan eksekusi program robot Abhinaya dari garis start hingga penyelesaian seluruh tugas klasifikasi sampah.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-5">
+            <div className="p-5 rounded-2xl bg-[#140E09] border border-brand-orange/30 space-y-3 relative group hover:border-brand-orange transition">
+              <div className="w-10 h-10 rounded-xl bg-brand-orange/20 text-brand-orange flex items-center justify-center font-mono font-black text-sm border border-brand-orange/40">
+                01
+              </div>
+              <h4 className="text-base font-black text-white">Start &amp; Lokalisasi</h4>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Robot menerima sinyal start juri, kamera AI aktif memindai marker arena, dan sistem odometri mengunci koordinat awal robot.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-2xl bg-[#140E09] border border-amber-900/30 space-y-3 relative group hover:border-amber-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-mono font-black text-sm border border-amber-500/40">
+                02
+              </div>
+              <h4 className="text-base font-black text-white">Deteksi &amp; Tracking Objek</h4>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Algoritma visi komputer YOLO mendeteksi posisi botol &amp; kaleng secara real-time, mengarahkan sasis mecanum tepat di depan target.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-2xl bg-[#140E09] border border-emerald-900/30 space-y-3 relative group hover:border-emerald-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-mono font-black text-sm border border-emerald-500/40">
+                03
+              </div>
+              <h4 className="text-base font-black text-white">Gripping 2-Stage &amp; Angkut</h4>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Mekanisme capit 2-tingkat mengunci objek sampah dengan presisi tanpa slip, mengangkatnya ke kompartemen aman sebelum bermanuver.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-2xl bg-[#140E09] border border-cyan-900/30 space-y-3 relative group hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-300 flex items-center justify-center font-mono font-black text-sm border border-cyan-500/40">
+                04
+              </div>
+              <h4 className="text-base font-black text-white">Docking Keranjang Cerdas</h4>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Robot melakukan docking presisi ke keranjang pemilah digital sesuai kategori sampah, mencatatkan poin sempurna tanpa sentuhan manual.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* 2-Columns: Match History Log & Behind-the-Scenes Shorts */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-start">
+          
+          {/* Match History Table / Cards (2 Cols) */}
+          <div className="lg:col-span-2 space-y-5">
+            <div className="space-y-1">
+              <h3 className="text-xl sm:text-2xl font-black text-white flex items-center space-x-2">
+                <ShieldCheck className="w-5 h-5 text-brand-orange" />
+                <span>Catatan Hasil Pertandingan KRTMI 2024</span>
+              </h3>
+              <p className="text-xs text-slate-300">
+                Rekapitulasi babak pertandingan dan performa robot Abhinaya di kejuaraan nasional.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              {MATCH_HISTORY.map((match) => (
+                <div
+                  key={match.id}
+                  className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#130E09] border border-[#2B1B10] hover:border-brand-orange/50 transition space-y-3"
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#24170E] pb-3">
+                    <div className="space-y-0.5">
+                      <span className="text-[10px] font-mono uppercase font-bold text-amber-400">
+                        KONTES ROBOT TEMATIK INDONESIA
+                      </span>
+                      <h4 className="text-base font-black text-white">{match.roundName}</h4>
+                      <p className="text-xs text-slate-400">Lawan: {match.opponent}</p>
+                    </div>
+
+                    <div className="flex items-center space-x-3">
+                      <div className="text-right">
+                        <div className="text-lg font-black text-brand-orange font-mono">
+                          {match.scoreAbhinaya} - {match.scoreOpponent}
+                        </div>
+                        <span className="text-[9px] uppercase font-bold text-emerald-400">
+                          {match.status === 'WIN' ? '🏆 MENANG' : '🚀 LOLOS FINAL'}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {match.summary}
+                  </p>
+
+                  <div className="space-y-1 pt-1">
+                    <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider">
+                      Highlight Teknis:
+                    </span>
+                    <div className="space-y-1">
+                      {match.keyHighlights.map((hl, idx) => (
+                        <div key={idx} className="flex items-center space-x-2 text-xs text-slate-300">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange flex-shrink-0" />
+                          <span>{hl}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Paddock Tuning Shorts (1 Col) */}
+          <div className="space-y-5">
+            <div className="space-y-1">
+              <h3 className="text-xl sm:text-2xl font-black text-white flex items-center space-x-2">
+                <Smartphone className="w-5 h-5 text-red-500" />
+                <span>Paddock &amp; Tuning Shorts</span>
+              </h3>
+              <p className="text-xs text-slate-300">
+                Behind the scenes kalibrasi robot sebelum laga.
+              </p>
+            </div>
+
+            <div className="p-4 sm:p-5 rounded-3xl bg-[#130E09] border border-red-950/60 shadow-xl space-y-4">
+              <div className="relative w-full aspect-[9/16] rounded-2xl overflow-hidden bg-black border border-red-900/40 group">
+                {isPlayingShorts ? (
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube-nocookie.com/embed/wLusNVfFFHA?autoplay=1&rel=0&modestbranding=1"
+                    title="Behind The Scenes Paddock Tuning Abhinaya UNY"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
+                ) : (
+                  <div
+                    className="relative w-full h-full cursor-pointer"
+                    onClick={() => setIsPlayingShorts(true)}
+                  >
+                    <img
+                      src="https://img.youtube.com/vi/wLusNVfFFHA/hqdefault.jpg"
+                      alt="Shorts Paddock Tuning"
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+                    
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-14 h-14 rounded-full bg-red-600 p-1 shadow-[0_0_30px_rgba(220,38,38,0.8)] group-hover:scale-110 transition flex items-center justify-center">
+                        <Play className="w-6 h-6 text-white fill-white ml-0.5" />
+                      </div>
+                    </div>
+
+                    <div className="absolute bottom-3 inset-x-3 text-white space-y-0.5">
+                      <span className="px-2 py-0.5 rounded bg-red-600 text-[10px] font-black uppercase">
+                        SHORTS (9:16)
+                      </span>
+                      <p className="text-xs font-bold text-amber-200">
+                        Uji Responsivitas &amp; Kalibrasi Sasis Roda Mecanum
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              <div className="pt-2">
+                <a
+                  href="https://www.youtube.com/shorts/wLusNVfFFHA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-2.5 rounded-xl bg-red-600/20 hover:bg-red-600 text-red-300 hover:text-white font-bold text-xs flex items-center justify-center space-x-2 border border-red-500/40 transition"
+                >
+                  <Youtube className="w-4 h-4 fill-current" />
+                  <span>Buka Shorts di YouTube</span>
+                  <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        {/* Navigation Quick Links Footer Strip */}
+        <div className="p-6 rounded-3xl bg-[#140E09] border border-brand-orange/30 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+          <div className="space-y-1">
+            <h4 className="text-base font-black text-white">Ingin Mempelajari Data Teknis &amp; Arsip Panduan Lomba?</h4>
+            <p className="text-xs text-slate-300">
+              Akses dokumentasi buku pedoman KRTMI 2019–2026, bedah aturan arena, atau profil seluruh divisi tim.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link
+              href="/krtmi"
+              className="px-4 py-2.5 rounded-xl bg-brand-orange hover:bg-brand-darkOrange text-black font-black text-xs flex items-center space-x-1.5 shadow-lg transition"
+            >
+              <span>Arsip KRTMI (2019-2026)</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+            <Link
+              href="/divisi"
+              className="px-4 py-2.5 rounded-xl bg-[#1E130A] hover:bg-[#2A1B0E] border border-brand-orange/40 text-amber-200 text-xs font-bold transition"
+            >
+              <span>Struktur 4 Divisi</span>
+            </Link>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}

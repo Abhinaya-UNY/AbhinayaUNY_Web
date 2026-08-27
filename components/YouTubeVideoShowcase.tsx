@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Play, Youtube, Trophy, ExternalLink, X, Maximize2, MonitorPlay, Smartphone, Flame, Sparkles, CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
+import { Play, Youtube, Trophy, ExternalLink, X, Maximize2, MonitorPlay, Smartphone, Flame, Sparkles, CheckCircle2, ArrowRight, ShieldCheck } from 'lucide-react';
 
 interface VideoItem {
   id: string;
@@ -18,15 +19,15 @@ interface VideoItem {
 
 const SHOWCASE_VIDEOS: VideoItem[] = [
   {
-    id: 'PmxwdrhpxKg',
-    title: 'Laga Robot Otonom Abhinaya KRTMI Nasional',
-    subtitle: 'Kontes Robot Tematik Indonesia di Universitas Muhammadiyah Surakarta',
-    description: 'Saksikan manuver otonom robot Abhinaya UNY bermanuver lincah di karpet arena, mendeteksi objek dengan AI Computer Vision YOLO, dan mengeksekusi misi pemilahan sampah dengan presisi serta kecepatan tinggi.',
+    id: '3yr5uNkxA_8',
+    title: 'Video Pengenalan & Riset Robotika Abhinaya UNY',
+    subtitle: 'Official Team & Technology Introduction Video • KRTMI UNY',
+    description: 'Mengenal lebih dekat Tim Robotika Abhinaya UNY: visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan bagaimana robot otonom dirancang dari nol di Laboratorium Robotika FT UNY untuk mengukir prestasi nasional.',
     type: 'action',
     aspect: '16:9',
-    url: 'https://www.youtube.com/watch?v=PmxwdrhpxKg',
-    tag: 'Match Action (16:9)',
-    stats: '1080p 60fps • Official Match',
+    url: 'https://youtu.be/3yr5uNkxA_8',
+    tag: 'Official Introduction (16:9)',
+    stats: '1080p 60fps • Profil Tim & Robot',
     badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
   },
   {
@@ -50,6 +51,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
   const [modalVideo, setModalVideo] = useState<VideoItem | null>(null);
   const [thumbError, setThumbError] = useState<Record<string, boolean>>({});
 
+  const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
   const currentVideo = SHOWCASE_VIDEOS.find((v) => v.type === activeTab) || SHOWCASE_VIDEOS[0];
 
   const handleOpenModal = (video: VideoItem) => {
@@ -101,15 +103,15 @@ export const YouTubeVideoShowcase: React.FC = () => {
         
         {/* Section Header */}
         <div className="text-center space-y-3 max-w-3xl mx-auto">
-          <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-red-600/15 text-red-400 text-xs font-black uppercase tracking-wider border border-red-500/30 shadow-[0_0_15px_rgba(239,68,68,0.2)]">
+          <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
             <Youtube className="w-4 h-4 text-red-500 fill-red-500" />
-            <span>OFFICIAL MULTIMEDIA &amp; YOUTUBE SHOWCASE</span>
+            <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
-            Lihat Robot Abhinaya UNY Beraksi di Arena! 🎬
+            Mengenal Abhinaya UNY Lewat Video Resmi! 🎬
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300">
-            Saksikan bagaimana robot otonom Tim Abhinaya bermanuver lincah, mendeteksi objek dengan kecerdasan buatan AI, dan mengeksekusi misi lomba dengan kecepatan tinggi.
+            Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi, dan teknologi robot otonom kami.
           </p>
         </div>
 
@@ -125,7 +127,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
               }`}
             >
               <MonitorPlay className="w-4 h-4" />
-              <span>Match Action (16:9)</span>
+              <span>Video Pengenalan (16:9)</span>
             </button>
             <button
               onClick={() => setActiveTab('shorts')}
@@ -284,14 +286,24 @@ export const YouTubeVideoShowcase: React.FC = () => {
 
               {/* Action Buttons Row */}
               <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-amber-950/40">
-                <button
-                  type="button"
-                  onClick={() => handleOpenModal(currentVideo)}
-                  className="px-4 py-2.5 rounded-xl bg-[#1D140D] hover:bg-[#281C12] border border-brand-orange/40 text-amber-200 hover:text-white font-bold text-xs flex items-center space-x-2 transition"
-                >
-                  <Maximize2 className="w-3.5 h-3.5 text-brand-orange" />
-                  <span>Buka Video di Layar Penuh</span>
-                </button>
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => handleOpenModal(currentVideo)}
+                    className="px-4 py-2.5 rounded-xl bg-[#1D140D] hover:bg-[#281C12] border border-brand-orange/40 text-amber-200 hover:text-white font-bold text-xs flex items-center space-x-2 transition"
+                  >
+                    <Maximize2 className="w-3.5 h-3.5 text-brand-orange" />
+                    <span>Layar Penuh</span>
+                  </button>
+
+                  <Link
+                    href="/pertandingan"
+                    className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center space-x-1.5 shadow-[0_0_15px_rgba(255,107,0,0.4)] transition"
+                  >
+                    <Flame className="w-3.5 h-3.5 fill-black" />
+                    <span>Lihat Laga Pertandingan ➔</span>
+                  </Link>
+                </div>
 
                 <a
                   href={currentVideo.url}
@@ -321,7 +333,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
                 <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange" />
               </p>
               <p className="text-[11px] sm:text-xs text-slate-400">
-                Subscribe untuk update dokumentasi riset, uji coba robot, dan laga Kontes Robot Indonesia.
+                Subscribe untuk update dokumentasi riset, uji coba robot, dan rekaman laga resmi KRTMI.
               </p>
             </div>
           </div>

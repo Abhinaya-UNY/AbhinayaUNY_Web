@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, Wrench, Zap, Code, Users, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Bot, Wrench, Zap, Code, Users, Sparkles, CheckCircle2, ArrowRight, Trophy, ShieldCheck, Camera } from 'lucide-react';
 import Link from 'next/link';
 import { TEAM_DIVISIONS } from '@/data/krtmiData';
 
@@ -22,6 +22,46 @@ export const AboutTeamSection: React.FC = () => {
           <p className="text-xs sm:text-base text-slate-300">
             Tim Abhinaya adalah tim robotika resmi di bawah Fakultas Teknik Universitas Negeri Yogyakarta yang berkompetisi di divisi <strong>Kontes Robot Tematik Indonesia (KRTMI)</strong>.
           </p>
+        </div>
+
+        {/* Featured UMS 2024 Post-Match Team Photo Banner */}
+        <div className="relative rounded-3xl overflow-hidden border-2 border-brand-orange/50 shadow-[0_0_50px_rgba(255,107,0,0.2)] bg-[#120D08] group">
+          <div className="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden">
+            <img
+              src={`${basePath}/images/team_ums_2024_web.jpg`}
+              alt="Tim Robotika Abhinaya UNY Pasca Laga KRTMI di UMS 2024"
+              className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 brightness-95 contrast-105"
+            />
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0704] via-[#0A0704]/40 to-transparent" />
+            
+            {/* Badge Top Left */}
+            <div className="absolute top-4 left-4 sm:top-6 sm:left-6 flex flex-wrap gap-2">
+              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl bg-brand-orange/90 text-black text-xs font-black uppercase tracking-wider shadow-lg">
+                <Trophy className="w-3.5 h-3.5 fill-black" />
+                <span>KONTINGEN RESMI KRTMI 2024</span>
+              </span>
+              <span className="px-3 py-1 rounded-xl bg-black/70 text-amber-200 text-xs font-mono font-bold border border-brand-orange/30 backdrop-blur-md">
+                Universitas Muhammadiyah Surakarta (UMS)
+              </span>
+            </div>
+
+            {/* Bottom Caption Box */}
+            <div className="absolute bottom-4 inset-x-4 sm:bottom-6 sm:inset-x-6 flex flex-col sm:flex-row items-start sm:items-end justify-between gap-3 text-white">
+              <div className="space-y-1 max-w-2xl">
+                <p className="text-sm sm:text-xl font-black text-amber-300 drop-shadow-md">
+                  Dokumentasi Tim Abhinaya UNY Pasca Kompetisi KRTMI Nasional 2024
+                </p>
+                <p className="text-xs sm:text-sm text-slate-200 line-clamp-2 drop-shadow">
+                  Solidaritas seluruh kontingen divisi Mekanik, Elektrik, Programming &amp; AI, serta Manajerial setelah berjuang menorehkan prestasi membanggakan bagi Universitas Negeri Yogyakarta.
+                </p>
+              </div>
+              <div className="flex items-center space-x-2 text-xs font-bold text-amber-400 bg-black/60 px-3 py-1.5 rounded-xl border border-white/10 backdrop-blur-md flex-shrink-0">
+                <Camera className="w-4 h-4" />
+                <span>Foto Resmi Paddock UMS 2024</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* 2-Columns Team Story & Workshop Photo Showcase */}

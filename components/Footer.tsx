@@ -42,6 +42,11 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/pertandingan" className="hover:text-brand-orange transition">
+                  Laga &amp; Match Showcase
+                </Link>
+              </li>
+              <li>
                 <Link href="/krtmi" className="hover:text-brand-orange transition">
                   Cerita KRTMI (2019 – 2026)
                 </Link>

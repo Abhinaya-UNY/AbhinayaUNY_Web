@@ -15,6 +15,7 @@ export interface TeamMember {
   generation?: string;
   specialization: string[];
   bio: string;
+  quote?: string;
   image: string;
   badge: string;
   socials?: {
@@ -42,6 +43,7 @@ export const DOSEN_PEMBIMBING: TeamMember = {
     'Power & Automation Engineering',
   ],
   bio: 'Guru Besar Fakultas Teknik Universitas Negeri Yogyakarta bidang Sistem Kontrol & Robotika. Mengarahkan riset otonom, strategi kompetisi, dan pembimbingan teknis Kontes Robot Indonesia (KRI) Wilayah & Nasional.',
+  quote: 'Inovasi robotika bermula dari dedikasi dan kerja keras tanpa henti.',
   image: '/assets/logo_abhinaya_solid.png',
   badge: 'Chief Advisor',
   socials: {
@@ -68,7 +70,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'ESP32 Low-Level Control',
     ],
     bio: 'Ketua Tim Abhinaya UNY periode 2024. Bertanggung jawab atas koordinasi umum tim, arsitektur firmware STM32F407, dan integrasi komunikasi serial Mini PC dengan ESP32 controller.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Adigang, adigung, adiguna.',
+    image: '/images/members/09_ilham_widyo_nugroho_1.png',
     badge: 'Team Leader',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -92,7 +95,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Team Operational Management',
     ],
     bio: 'Mengkoordinasikan manajemen operasional tim, analisis aturan pertandingan BPTI Puspresnas, serta pengkondisian arena dan paddock lomba selama Kontes Robot Indonesia.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Reconnecting...',
+    image: '/images/members/08_salsabila_azzahra_1.png',
     badge: 'Team Manager',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -116,7 +120,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'PAB Recruitment Administration',
     ],
     bio: 'Mengelola penyusunan Rencana Anggaran Biaya (RAB), surat-menyurat resmi universitas & kementerian, tata kelola administrasi tim, serta hubungan masyarakat dan penerimaan anggota baru (PAB).',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Just double tap',
+    image: '/images/members/04_mustika_wahyu_aprilia_1.png',
     badge: 'Finance & Admin',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -140,7 +145,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Competition Archive Curation',
     ],
     bio: 'Mengelola kanal media sosial resmi (@abhinaya.uny), kurasi visual foto dan video dokumentasi perlombaan, serta publikasi profil riset robotika Abhinaya UNY.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Life is a stage, and I am a screenwriter',
+    image: '/images/members/05_rose_pita_nur_afifah_1.png',
     badge: 'Media Specialist',
     socials: {
       instagram: 'https://instagram.com/abhinaya.uny',
@@ -163,7 +169,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Next.js Full-Stack Web Portal',
     ],
     bio: 'Memimpin riset algoritma deteksi objek sampah berbasis deep learning / YOLO, pemetaan lintasan otonom roda mecanum, komputasi edge pada Mini PC, dan perancangan portal web resmi Abhinaya UNY.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Anti turu, standby setiap waktu',
+    image: '/images/members/06_tri_wahyu_handoyo_1.png',
     badge: 'Lead Programmer',
     socials: {
       github: 'https://github.com/abhinaya-uny',
@@ -188,7 +195,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Lathe & CNC Fabrication',
     ],
     bio: 'Memimpin divisi mekanik dalam fabrikasi presisi plat aluminium 6061, pemesinan bubut & milling sasis utama robot, serta memastikan durabilitas mekanik saat bermanuver di arena KRTMI.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Bentar, masih cari quote',
+    image: '/images/members/10_muhamad_ilham_sony_1.png',
     badge: 'Mechanical Lead',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -212,7 +220,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Finite Element Analysis (FEA)',
     ],
     bio: 'Merancang mekanisme capit (gripper) presisi dua tingkat untuk klasifikasi sampah botol & kaleng, sistem suspensi roda mecanum peredam getaran, dan transmisi linear lead-screw.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Pejuang hibernasi',
+    image: '/images/members/07_farhan_yuda_mahendra_1.png',
     badge: 'Gripper Specialist',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -236,7 +245,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Structural Joint Optimization',
     ],
     bio: 'Fokus pada fabrikasi laser cutting akrilik presisi, manufaktur bracket motor gearbox planetary bertorsi tinggi, dan optimasi rigiditas struktural komponen robot.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Sometimes you win, sometimes you learn.',
+    image: '/images/members/11_caesar_sokma_langgeng_1.png',
     badge: 'Fabrication Engineer',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -260,7 +270,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Obstacle Traversal Testing',
     ],
     bio: 'Menangani perakitan aktuator gripper dan mekanik dorong, pengujian getaran sasis saat melintasi rintangan arena KRTMI, serta kalibrasi toleransi mekanik.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Get the victory, win the trophy',
+    image: '/images/members/10_muhamad_ilham_sony_2.png',
     badge: 'Dynamics Engineer',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -284,7 +295,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Multi-Rail Voltage Regulation (24V/12V/5V)',
     ],
     bio: 'Memimpin divisi elektrik dalam perancangan Power Distribution Board (PDB) berarus tinggi, sistem proteksi darurat (E-Stop), isolasi optocoupler driver motor BTS7960, dan manajemen baterai.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Focus on accuracy, power will follow.',
+    image: '/images/members/02_agus_bagaskoro_1.png',
     badge: 'Electrical Lead',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -308,7 +320,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'EMI / Noise Grounding Plane Design',
     ],
     bio: 'Merancang skematik dan layout custom PCB shield STM32, sirkuit pengkondisi sinyal rotary encoder optik, serta instalasi sensor proximity & limit switch.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Follow your dream',
+    image: '/images/members/01_abdul_hasib_adzdzin_nuha_1.png',
     badge: 'PCB Engineer',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -332,7 +345,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Power Noise Choke & Filtering',
     ],
     bio: 'Mengembangkan sistem komunikasi wireless ESP32, integrasi kendali darurat Bluetooth DualShock 4, monitoring telemetri tegangan baterai real-time, dan filtering derau daya.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Always connected, zero packet loss.',
+    image: '/images/members/03_ikhsan_nurrohman_1.png',
     badge: 'Telemetry Specialist',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -356,7 +370,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Electronics Lab Hardware QA',
     ],
     bio: 'Bertanggung jawab atas kerapian cable harness robot, monitoring pengisian baterai LiFePO4 berdaya tinggi, pengujian kontinuitas jalur sinyal, dan pemeliharaan instrumen lab elektrik.',
-    image: '/assets/logo_abhinaya_solid.png',
+    quote: 'Ikan tidak terbang dan burung tidak berenang, kecuali pinguin',
+    image: '/images/members/12_rionaldi_nugroho_1.png',
     badge: 'Embedded Hardware',
     socials: {
       linkedin: 'https://linkedin.com',
@@ -380,6 +395,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Electrical Fault Diagnostics',
     ],
     bio: 'Konsultan dan penasihat teknis perangkat keras robotika Abhinaya UNY. Memberikan transfer pengetahuan riset kelistrikan robotika dari generasi-generasi kompetisi sebelumnya.',
+    quote: 'Transfer knowledge adalah kunci konsistensi juara.',
     image: '/assets/logo_abhinaya_solid.png',
     badge: 'Senior Advisor',
     socials: {
