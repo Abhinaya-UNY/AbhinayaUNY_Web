@@ -17,6 +17,7 @@ import {
   Mail,
   X,
   ChevronRight,
+  ChevronLeft,
   ShieldCheck,
   Cpu,
   Layers,
@@ -24,6 +25,7 @@ import {
   Quote,
   Maximize2,
   CheckCircle2,
+  Images,
 } from 'lucide-react';
 import {
   TeamMember,
@@ -40,6 +42,164 @@ interface TeamRosterSectionProps {
   showAllLink?: boolean;
   className?: string;
 }
+
+/**
+ * Reusable Multi-Photo Crossfade Showcase Component
+ */
+const MemberPhotoFadeShowcase: React.FC<{
+  member: TeamMember;
+  basePath: string;
+  badgeStyle: { bg: string; text: string; border: string; accent: string };
+  isModal?: boolean;
+  onImageError?: (id: string) => void;
+  hasError?: boolean;
+}> = ({ member, basePath, badgeStyle, isModal = false, onImageError, hasError }) => {
+  const images = member.images && member.images.length > 0 ? member.images : [member.image];
+  const [currentIdx, setCurrentIdx] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+
+  // Auto-advance slideshow every 3.8s if multiple images exist
+  useEffect(() => {
+    if (images.length <= 1) return;
+
+    // Slight offset per member id to prevent synchronized jumping
+    const seed = member.id.charCodeAt(0) % 5;
+    const intervalTime = isModal ? 4500 : 3600 + seed * 200;
+
+    const timer = setInterval(() => {
+      setCurrentIdx((prev) => (prev + 1) % images.length);
+    }, intervalTime);
+
+    return () => clearInterval(timer);
+  }, [images.length, isModal, member.id]);
+
+  const hasCustomPhoto =
+    images.length > 0 &&
+    !images[0].includes('logo_abhinaya') &&
+    !hasError;
+
+  const nextSlide = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIdx((prev) => (prev + 1) % images.length);
+  };
+
+  const prevSlide = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  if (!hasCustomPhoto) {
+    return (
+      <div
+        className="w-full h-full flex flex-col items-center justify-center p-6 text-center"
+        style={{ backgroundColor: `${badgeStyle.accent}15` }}
+      >
+        <div
+          className={`${
+            isModal ? 'w-24 h-24 sm:w-28 sm:h-28 text-3xl sm:text-4xl' : 'w-20 h-20 sm:w-24 sm:h-24 text-2xl sm:text-3xl'
+          } rounded-3xl flex items-center justify-center font-black border-2 shadow-2xl mb-2`}
+          style={{
+            backgroundColor: `${badgeStyle.accent}30`,
+            borderColor: badgeStyle.accent,
+            color: '#FFFFFF',
+          }}
+        >
+          {member.name
+            .split(' ')
+            .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.') && !w.startsWith('Dr.'))
+            .slice(0, 2)
+            .map((n) => n[0])
+            .join('')}
+        </div>
+        <span className="text-xs font-mono font-bold text-amber-200/80">
+          {member.role}
+        </span>
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className="relative w-full h-full overflow-hidden select-none"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Stack of absolute images with smooth opacity & scale crossfade */}
+      {images.map((imgSrc, idx) => {
+        const isCurrent = idx === currentIdx;
+        return (
+          <img
+            key={imgSrc}
+            src={`${basePath}${imgSrc}`}
+            alt={`${member.name} - Foto ${idx + 1}`}
+            onError={() => onImageError && onImageError(member.id)}
+            className={`absolute inset-0 w-full h-full object-cover object-center transition-all duration-1000 ease-in-out ${
+              isCurrent
+                ? 'opacity-100 scale-100 z-10 brightness-95 contrast-105'
+                : 'opacity-0 scale-105 pointer-events-none z-0'
+            }`}
+          />
+        );
+      })}
+
+      {/* Smooth Bottom Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#130E09] via-[#130E09]/25 to-transparent pointer-events-none z-10" />
+
+      {/* Multiple Photos Slide Counter & Nav Arrows if > 1 photo */}
+      {images.length > 1 && (
+        <>
+          {/* Top-Right Multi-Photo Indicator Badge */}
+          <div className="absolute top-3.5 right-3.5 z-20 flex items-center space-x-1 px-2.5 py-1 rounded-xl bg-black/75 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/40 backdrop-blur-md shadow-lg">
+            <Images className="w-3 h-3 text-brand-orange" />
+            <span>{currentIdx + 1}/{images.length}</span>
+          </div>
+
+          {/* Interactive Arrow Buttons on Modal or Hover */}
+          {(isModal || isHovered) && (
+            <>
+              <button
+                type="button"
+                onClick={prevSlide}
+                className="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/80 hover:bg-brand-orange text-white hover:text-black flex items-center justify-center transition border border-white/20 shadow-lg backdrop-blur-sm"
+                aria-label="Foto sebelumnya"
+              >
+                <ChevronLeft className="w-4 h-4" />
+              </button>
+              <button
+                type="button"
+                onClick={nextSlide}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/80 hover:bg-brand-orange text-white hover:text-black flex items-center justify-center transition border border-white/20 shadow-lg backdrop-blur-sm"
+                aria-label="Foto berikutnya"
+              >
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </>
+          )}
+
+          {/* Bottom Pagination Dots */}
+          <div className="absolute bottom-3.5 inset-x-0 z-20 flex items-center justify-center space-x-1.5 pointer-events-auto">
+            {images.map((_, idx) => (
+              <button
+                key={idx}
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCurrentIdx(idx);
+                }}
+                className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                  idx === currentIdx
+                    ? 'w-6 bg-brand-orange shadow-[0_0_10px_rgba(255,107,0,0.9)]'
+                    : 'w-1.5 bg-white/40 hover:bg-white/75'
+                }`}
+                aria-label={`Lihat foto ${idx + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
 
 export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   initialDivision = 'All',
@@ -118,7 +278,6 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   const renderMemberCard = (member: TeamMember) => {
     const badgeStyle = DIVISION_BADGES[member.division] || DIVISION_BADGES['Mekanik'];
     const isAdvisor = member.division === 'Pembimbing';
-    const hasCustomPhoto = member.image && !member.image.includes('logo_abhinaya') && !imgErrors[member.id];
 
     return (
       <div
@@ -134,48 +293,18 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           style={{ backgroundColor: badgeStyle.accent }}
         />
 
-        {/* 1. Large Top Photo Banner / Showcase */}
+        {/* 1. Large Top Photo Banner / Showcase with Auto Crossfade */}
         <div className="relative w-full aspect-[4/3] sm:aspect-square overflow-hidden bg-[#180F08] border-b border-[#24170E]">
-          {hasCustomPhoto ? (
-            <img
-              src={`${basePath}${member.image}`}
-              alt={member.name}
-              onError={() => setImgErrors((prev) => ({ ...prev, [member.id]: true }))}
-              className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 contrast-105"
-            />
-          ) : (
-            <div
-              className="w-full h-full flex flex-col items-center justify-center p-6 text-center"
-              style={{
-                backgroundColor: `${badgeStyle.accent}15`,
-              }}
-            >
-              <div
-                className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl flex items-center justify-center font-black text-3xl sm:text-4xl border-2 shadow-2xl mb-2"
-                style={{
-                  backgroundColor: `${badgeStyle.accent}30`,
-                  borderColor: badgeStyle.accent,
-                  color: '#FFFFFF',
-                }}
-              >
-                {member.name
-                  .split(' ')
-                  .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                  .slice(0, 2)
-                  .map((n) => n[0])
-                  .join('')}
-              </div>
-              <span className="text-xs font-mono font-bold text-amber-200/80">
-                {member.role}
-              </span>
-            </div>
-          )}
-
-          {/* Gradient Overlay for Smooth Transition */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#130E09] via-[#130E09]/20 to-transparent pointer-events-none" />
+          <MemberPhotoFadeShowcase
+            member={member}
+            basePath={basePath}
+            badgeStyle={badgeStyle}
+            hasError={imgErrors[member.id]}
+            onImageError={(id) => setImgErrors((prev) => ({ ...prev, [id]: true }))}
+          />
 
           {/* Top Left Division Badge Floating */}
-          <div className="absolute top-3.5 left-3.5 z-10">
+          <div className="absolute top-3.5 left-3.5 z-20 pointer-events-none">
             <span
               className={`inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl text-[11px] font-black uppercase tracking-wider border backdrop-blur-md shadow-lg ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
             >
@@ -184,15 +313,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </span>
           </div>
 
-          {/* Top Right Role Badge Floating */}
-          <div className="absolute top-3.5 right-3.5 z-10">
-            <span className="px-2.5 py-1 rounded-xl bg-black/70 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 backdrop-blur-md shadow-lg">
-              {member.badge}
-            </span>
-          </div>
-
           {/* Bottom-right Quick Zoom Icon */}
-          <div className="absolute bottom-3 right-3 z-10 w-8 h-8 rounded-full bg-black/70 border border-white/20 text-white/80 group-hover:text-brand-orange group-hover:border-brand-orange group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md">
+          <div className="absolute bottom-3 right-3 z-20 w-8 h-8 rounded-full bg-black/70 border border-white/20 text-white/80 group-hover:text-brand-orange group-hover:border-brand-orange group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md">
             <Maximize2 className="w-4 h-4" />
           </div>
         </div>
@@ -200,11 +322,16 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         {/* 2. Card Body Content */}
         <div className="p-5 sm:p-6 space-y-4 flex-1 flex flex-col justify-between">
           <div className="space-y-3.5">
-            {/* Name & Role */}
+            {/* Name, Role & Badge */}
             <div>
-              <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-brand-orange transition line-clamp-1">
-                {member.name}
-              </h3>
+              <div className="flex items-center justify-between gap-2">
+                <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-brand-orange transition line-clamp-1">
+                  {member.name}
+                </h3>
+                <span className="px-2 py-0.5 rounded-md bg-[#25180E] text-brand-orange text-[10px] font-mono font-bold border border-brand-orange/30 flex-shrink-0">
+                  {member.badge}
+                </span>
+              </div>
               <p className="text-xs font-bold text-amber-300/95 leading-tight mt-0.5">
                 {member.role}
               </p>
@@ -496,7 +623,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
       </div>
 
-      {/* Profile Detail Modal with Large Photo Showcase */}
+      {/* Profile Detail Modal with Large Multi-Photo Fade Showcase */}
       {selectedMember && (
         <div
           role="dialog"
@@ -511,56 +638,31 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Modal Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 sm:top-6 sm:right-6 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-20"
+              className="absolute top-4 right-4 sm:top-6 sm:right-6 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-30"
               aria-label="Tutup modal"
             >
               <X className="w-5 h-5" />
             </button>
 
-            {/* Modal Top Showcase: Large Photo & Identity */}
+            {/* Modal Top Showcase: Large Photo Carousel & Identity */}
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 pt-2">
-              {/* Large Photo in Modal */}
+              {/* Large Photo Frame in Modal */}
               <div
-                className="w-44 h-44 sm:w-56 sm:h-56 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#1B1109] group"
+                className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#1B1109] group"
                 style={{
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
                   ).accent,
                 }}
               >
-                {selectedMember.image && !selectedMember.image.includes('logo_abhinaya') && !imgErrors[selectedMember.id] ? (
-                  <img
-                    src={`${basePath}${selectedMember.image}`}
-                    alt={selectedMember.name}
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <div
-                    className="w-full h-full flex flex-col items-center justify-center p-4 text-center"
-                    style={{
-                      backgroundColor: `${
-                        (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).accent
-                      }25`,
-                    }}
-                  >
-                    <div
-                      className="w-20 h-20 rounded-2xl flex items-center justify-center font-black text-2xl border-2 mb-2"
-                      style={{
-                        borderColor: (
-                          DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
-                        ).accent,
-                        color: '#FFFFFF',
-                      }}
-                    >
-                      {selectedMember.name
-                        .split(' ')
-                        .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                        .slice(0, 2)
-                        .map((n) => n[0])
-                        .join('')}
-                    </div>
-                  </div>
-                )}
+                <MemberPhotoFadeShowcase
+                  member={selectedMember}
+                  basePath={basePath}
+                  badgeStyle={DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']}
+                  isModal={true}
+                  hasError={imgErrors[selectedMember.id]}
+                  onImageError={(id) => setImgErrors((prev) => ({ ...prev, [id]: true }))}
+                />
               </div>
 
               {/* Name, Division & Quote */}
