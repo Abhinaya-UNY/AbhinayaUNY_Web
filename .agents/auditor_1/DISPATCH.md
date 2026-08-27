@@ -1,30 +1,21 @@
-## 2026-08-23T00:37:41Z
-You are the Forensic Integrity Auditor for the Abhinaya UNY Robotics Portal project.
+## 2026-08-27T16:36:01Z
+You are the Forensic Auditor for the Abhinaya UNY Web project.
 Your working directory is: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\auditor_1
 
-MANDATORY FIRST STEPS:
-1. Initialize your BRIEFING.md and progress.md in your working directory.
-2. Read:
-   - ORIGINAL_REQUEST.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\ORIGINAL_REQUEST.md
-   - PROJECT.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\PROJECT.md
-   - TEST_READY.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_READY.md
+Master Documents to Read:
+1. ORIGINAL_REQUEST.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\ORIGINAL_REQUEST.md
+2. PROJECT.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\PROJECT.md
+3. TEST_READY.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_READY.md
 
-SCOPE & AUDIT TASKS:
-Execute strict forensic integrity checks across the entire project:
-1. **Source Code & Data Authenticity**:
-   - Check for hardcoded cheat results, dummy video IDs (e.g. 3yr5uNkxA_8, dQw4w9WgXcQ, TODO, PLACEHOLDER), dummy member names (John Doe, Jane Doe), or fabricated credentials.
-   - Verify that YouTube video IDs (PmxwdrhpxKg, wLusNVfFFHA), channel @AbhinayaUNY, and Instagram @abhinaya.uny are authentic.
-   - Verify that team member names, NIMs, and divisions match official Surat Tugas KRI 2024 records.
-   - Verify that competition parameters (2019-2026) match official PDF rulebooks.
-2. **Security & Public Exposure Audit**:
-   - Verify zero public admin endpoints, exposed API tokens, or server-side admin routes exist in the web bundle.
-   - Verify scripts/manager_tool.py is strictly offline and excluded from client bundles.
-3. **Execution & Build Validation**:
-   - Run python scripts/test_e2e_suite.py
-   - Run python scripts/test_manager_tool.py
-   - Run 
-pm.cmd run build from project root.
-4. Record your comprehensive forensic audit evidence and deliver your binary verdict (CLEAN or INTEGRITY VIOLATION) in:
-   - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\auditor_1\report.md
-   - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\auditor_1\handoff.md
-5. Send completion message back to orchestrator (conversation ID: 0ba6ee0b-a10f-4075-93e6-8552bb10e849).
+Your Task:
+1. Perform exhaustive forensic integrity verification across the entire project:
+   - Check for any hardcoded test cheating, dummy/facade implementations, fake mock data, or shortcuts.
+   - Verify that all member photos in `public/images/members/` are genuine files extracted from Instagram archives and studio portraits, with real non-zero byte payloads.
+   - Verify that non-member graphics and grid slices are genuinely excluded.
+   - Verify that all 6 Leaders (2020, 2021, 2022, 2023, 2024, 2025) and Managers (2020-2025) represent authentic UNY robotics historical records.
+   - Verify that `data/teamData.ts` and `components/TeamRosterSection.tsx` implement genuine React state management, real filtering, real search, real modal dialog, and real CSS transitions.
+   - Verify git working directory status and ensure all modified and created files are clean, non-corrupt, and ready for commit.
+2. Execute independent static analysis and runtime tracing.
+3. Deliver a definitive binary verdict: CLEAN or INTEGRITY VIOLATION.
+4. Write your comprehensive audit evidence report to `D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\auditor_1\analysis.md` and handoff to `D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\auditor_1\handoff.md`.
+5. Send a message to parent with your verdict.

@@ -1,33 +1,65 @@
-# E2E Test Infra: Abhinaya UNY Robotics Portal
+# E2E Test Infrastructure: Abhinaya UNY Web — Team Roster & Historical Archive Upgrade
 
-## Test Philosophy
-- Opaque-box, requirement-driven testing directly derived from `ORIGINAL_REQUEST.md`.
-- Comprehensive multi-tier test methodology:
-  - **Tier 1**: Feature Coverage (Isolated happy-path verification of all 6 core features).
-  - **Tier 2**: Boundary & Corner Cases (Mobile 360px-420px viewports, ultra-wide 4K, video thumbnail fallback handling, offline manager corrupted data rejection, missing fields).
-  - **Tier 3**: Cross-Feature Combinations (Pairwise interactions: Hero CTA navigation to Guidebooks/Showcase, division filter with modal details, manager tool output leading to clean static build).
-  - **Tier 4**: Real-World Application Scenarios (Prospective member/maba user journey, competition researcher inspecting 2024 vs 2026 rules, team manager adding 2026 Technocorner update offline).
-  - **Tier 5**: Adversarial Coverage & Code Integrity (Zero dummy stubs, zero hardcoded cheat results, accurate data types, strict SSG zero-error compilation).
+## 1. Test Philosophy & Principles
+- **Opaque-box & Requirement-Driven**: Tests are designed directly from the core specifications and acceptance criteria in `ORIGINAL_REQUEST.md` and `PROJECT.md` without implementation coupling or tautological assertions.
+- **Multi-Tier Verification**: Strict 5-tier architecture ensuring comprehensive coverage from isolated feature units to end-to-end real-world user journeys.
+- **Zero External Dependencies**: Standalone test harnesses in pure Node.js (`scripts/run_e2e_tests.js`) and Python standard library unittest (`scripts/test_e2e_roster.py`), ensuring deterministic, lightweight execution in CI/CD and offline local environments.
+- **Forensic Integrity & Zero Cheating**: Strict zero-tolerance for dummy tokens (`John Doe`, `TODO`), hardcoded mocks, or facade tests. All assertions dynamically inspect live code ASTs, TypeScript contracts, catalog schemas, and disk image assets.
 
-## Feature Inventory & Tier Mapping
-| # | Feature | Source (Requirement) | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
-|---|---------|----------------------|:------:|:------:|:------:|:------:|
-| 1 | Hero Layout & Button Proportions | ORIGINAL_REQUEST §R1 | 5 | 5 | ✓ | ✓ |
-| 2 | YouTube Multimedia Showcase | ORIGINAL_REQUEST §R2 | 5 | 5 | ✓ | ✓ |
-| 3 | Team Roster & Division Cards | ORIGINAL_REQUEST §R3 | 5 | 5 | ✓ | ✓ |
-| 4 | Guidebook Alignment 2019-2026 | ORIGINAL_REQUEST §R4 | 5 | 5 | ✓ | ✓ |
-| 5 | Standalone Offline Manager Tool | ORIGINAL_REQUEST §R5 | 5 | 5 | ✓ | ✓ |
-| 6 | Static Build & Deployment | ORIGINAL_REQUEST §Verification | 5 | 5 | ✓ | ✓ |
+---
 
-## Test Architecture
-- **Test Runner**: Node.js / Python test runner executing automated DOM / AST / static export / CLI verification scripts.
-- **Pass / Fail Semantics**: Zero tolerance for build errors, zero broken links, zero overlapping CTA buttons, 100% test tier pass rate.
+## 2. Multi-Tier Test Architecture & Matrix
 
-## Real-World Application Scenarios (Tier 4)
-| # | Scenario | Features Exercised | Complexity |
-|---|----------|--------------------|------------|
-| 1 | Prospective Student Discovery Flow (Hero -> Watch Action -> Explore Divisions & Members) | F1, F2, F3 | Medium |
-| 2 | Competition Rulebook Research Flow (Explore 2024 KRTMI Dual-Robot Rules & 2026 Technocorner Transporter constraints) | F1, F4 | Medium |
-| 3 | Offline Team Data Management Flow (Team Manager adds member/competition via `manager_tool.py` and triggers clean SSG export) | F5, F6, F3, F4 | High |
-| 4 | Responsive Multi-Device Inspection (Mobile 390px, Tablet 768px, Desktop 1920px rendering) | F1, F2, F3, F4 | High |
-| 5 | Official Media & Shorts Playback (Modal opening, 16:9 widescreen vs 9:16 vertical Shorts aspect ratio verification) | F2 | Medium |
+| Tier | Focus / Scope | Core Test Target | Test Modules | Tests |
+|:---|:---|:---|:---|:---:|
+| **Tier 1** | **Feature Coverage** | Isolated verification of all 6 core features (>=5 tests per feature) | `tests/e2e/test_r1_photo_pipeline.js`<br>`tests/e2e/test_r2_leaders.js`<br>`tests/e2e/test_r2_managers.js`<br>`tests/e2e/test_r3_technical_squad.js`<br>`tests/e2e/test_r4_alumni_explorer.js`<br>`tests/e2e/test_r5_crossfade_engine.js` | **36** |
+| **Tier 2** | **Boundary & Corner Cases** | Extreme inputs, missing optional fields, image fallback handling, slide wrapping, regex search safety | `tests/e2e/test_tier2_boundaries.js` | **6** |
+| **Tier 3** | **Cross-Feature Combinations** | Pairwise interactions: division + search filter, modal + crossfade engine, leader/manager timeline sync | `tests/e2e/test_tier3_combinations.js` | **5** |
+| **Tier 4** | **Real-World Application Scenarios** | 5 complete end-to-end user workflows (historical timeline exploration, lightbox modal inspection, mobile responsive grid, SSG export) | `tests/e2e/test_tier4_scenarios.js` | **5** |
+| **Tier 5** | **Adversarial & Code Integrity** | Authentic student NIMs, zero dummy stubs, clean TypeScript interfaces, zero unauthorized admin routes | `tests/e2e/test_tier5_integrity.js` | **5** |
+| **TOTAL** | **Comprehensive Multi-Tier Suite** | **All 5 Core Requirements (§R1–§R5)** | **10 Test Suites** | **57** |
+
+---
+
+## 3. Feature Inventory & Coverage Mapping
+
+| # | Feature / Requirement | Source | Scope & Verifications | Tests |
+|---|-----------------------|--------|----------------------|:-----:|
+| 1 | **Instagram Photo Semantic Renaming Pipeline** | `ORIGINAL_REQUEST §R1` | Format compliance regex (`{tahun}_{divisi}_{nama}_{urutan}.ext`), non-member/grid graphic exclusion, 97 genuine member portraits, byte size integrity (>1KB), schema completeness. | 6 |
+| 2 | **All-Era Leaders Hall of Fame (2020–2025)** | `ORIGINAL_REQUEST §R2` | Chronological era completeness (2020-2025), authentic leader identities (Nurcholis, Iqbal, Salsabila, Ilham, Farhan), gold/amber theme styling (`#EAB308`), academic credentials, photo bindings. | 6 |
+| 3 | **All-Era Managers Showcase (2020–2025)** | `ORIGINAL_REQUEST §R2` | Chronological era coverage (2020-2025), authentic managers (Yuli, Mustika, Rose Pita, Zelfa), dual co-management eras (2024, 2025), operational specializations, emerald theme styling (`#10B981`). | 6 |
+| 4 | **Current Active Technical Squad** | `ORIGINAL_REQUEST §R3` | Program, Elektronik, Mekanik divisions, granular roles (CV Lead, PDB Lead, CAD Lead), robotics skill tags (YOLO, STM32, PCB, Mecanum), authentic student NIMs, multi-photo pose arrays. | 6 |
+| 5 | **Interactive Alumni & Generation Explorer** | `ORIGINAL_REQUEST §R4` | 6 generation eras (2020–2025), contingent member rosters, leadership linkages, historical competition milestones (UV-C 2020, Logistics 2021, Medical 2022, Digital Twin 2023, Waste Sorting 2024), tab filter state encapsulation. | 6 |
+| 6 | **Ultra-Smooth Crossfade Photo Engine** | `ORIGINAL_REQUEST §R5` | GPU-accelerated CSS transitions (`duration-1000 ease-in-out`), slide counter indicator (`1/N`), interactive dot pagination (`w-6 bg-brand-orange`), manual navigation arrows with `stopPropagation`, staggered interval timer offset, fallback monogram avatar. | 6 |
+
+---
+
+## 4. Test Harness Execution Commands
+
+### Primary Node.js Test Runner (Zero Dependencies)
+```powershell
+# Run entire 57-test suite
+node scripts/run_e2e_tests.js
+
+# Run specific tiers
+node scripts/run_e2e_tests.js --tier 1
+node scripts/run_e2e_tests.js --tier 2
+node scripts/run_e2e_tests.js --tier 3
+node scripts/run_e2e_tests.js --tier 4
+node scripts/run_e2e_tests.js --tier 5
+```
+
+### Alternative Python Test Runner (unittest Framework)
+```powershell
+# Run entire test suite
+python scripts/test_e2e_roster.py
+
+# Run specific tiers
+python scripts/test_e2e_roster.py --tier 1
+python scripts/test_e2e_roster.py --tier 4
+```
+
+### Static Site Generation Verification
+```powershell
+npm.cmd run build
+```

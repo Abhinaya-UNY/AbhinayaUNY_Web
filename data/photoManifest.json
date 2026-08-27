@@ -1,0 +1,3034 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "generatedAt": "2026-08-27T16:25:00Z",
+  "generator": "scripts/execute_semantic_renaming.py",
+  "version": "1.0.0",
+  "summary": {
+    "totalSurveyedAssets": 251,
+    "totalRosterPhotos": 97,
+    "totalUniqueMembers": 35,
+    "totalExcludedAssets": 154,
+    "generationsCovered": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "divisionsCovered": [
+      "leader",
+      "manager",
+      "program",
+      "elektronik",
+      "mekanik",
+      "desain",
+      "pembimbing"
+    ]
+  },
+  "members": {
+    "abdul-hasib-adzdzin-nuha": {
+      "id": "abdul-hasib-adzdzin-nuha",
+      "name": "Abdul Hasib Adzdzin Nuha",
+      "aliases": [
+        "abdul-hasib-adzdzin-nuha"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2023,
+        2024,
+        2025
+      ],
+      "roles": [
+        "Elektronik (PCB Design & Sensor Wiring)",
+        "Elektronik (Angkatan 2022)",
+        "Elektronik (Koordinator)",
+        "Elektronik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+      "photos": [
+        "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+        "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+          "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+          "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg"
+        ]
+      }
+    },
+    "agus-bagaskoro": {
+      "id": "agus-bagaskoro",
+      "name": "Agus Bagaskoro",
+      "aliases": [
+        "agus-bagaskoro"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2022,
+        2023,
+        2024
+      ],
+      "roles": [
+        "Elektronik (Lead Hardware & Power Management)",
+        "Elektronik (Anggota)",
+        "Elektronik (Angkatan 2021)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+      "photos": [
+        "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+          "/images/members/2024_elektronik_agus_bagaskoro_02.png",
+          "/images/members/2024_elektronik_agus_bagaskoro_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_elektronik_agus_bagaskoro_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_elektronik_agus_bagaskoro_01.jpg"
+        ]
+      }
+    },
+    "ikhsan-nurrohman": {
+      "id": "ikhsan-nurrohman",
+      "name": "Ikhsan Nurrohman",
+      "aliases": [
+        "ikhsan-nurrohman"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2024,
+        2025
+      ],
+      "roles": [
+        "Elektronik (Telemetri & Wireless Systems)",
+        "Elektronik (Anggota)",
+        "Elektronik (Koordinator 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+      "photos": [
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+        "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+          "/images/members/2024_elektronik_ikhsan_nurrohman_02.png",
+          "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg"
+        ]
+      }
+    },
+    "mustika-wahyu-aprilia": {
+      "id": "mustika-wahyu-aprilia",
+      "name": "Mustika Wahyu Aprilia",
+      "aliases": [
+        "mustika-wahyu-aprilia"
+      ],
+      "primaryDivision": "manager",
+      "yearsActive": [
+        2022,
+        2023,
+        2024
+      ],
+      "roles": [
+        "Manager (Keuangan, Administrasi & Sekretariat)",
+        "Manager (Keuangan & Administrasi)",
+        "Manager Tim (Angkatan 2021)"
+      ],
+      "isLeader": false,
+      "isManager": true,
+      "leadershipEras": [
+        "Manager 2024",
+        "Manager 2022",
+        "Manager 2023"
+      ],
+      "primaryPhoto": "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+      "photos": [
+        "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+          "/images/members/2024_manager_mustika_wahyu_aprilia_02.png",
+          "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg"
+        ]
+      }
+    },
+    "rose-pita-nur-afifah": {
+      "id": "rose-pita-nur-afifah",
+      "name": "Rose Pita Nur Afifah",
+      "aliases": [
+        "rose-pita-nur-afifah"
+      ],
+      "primaryDivision": "manager",
+      "yearsActive": [
+        2024,
+        2025
+      ],
+      "roles": [
+        "Manager (Media, Dokumentasi & Publikasi)",
+        "Manager (Media & Publikasi)",
+        "Manager (Koordinator 2025)"
+      ],
+      "isLeader": false,
+      "isManager": true,
+      "leadershipEras": [
+        "Manager 2024",
+        "Manager 2025"
+      ],
+      "primaryPhoto": "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+      "photos": [
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+        "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2024_manager_rose_pita_nur_afifah_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+        "/images/members/2024_manager_rose_pita_nur_afifah_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+          "/images/members/2024_manager_rose_pita_nur_afifah_02.png",
+          "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg"
+        ]
+      }
+    },
+    "tri-wahyu-handoyo": {
+      "id": "tri-wahyu-handoyo",
+      "name": "Tri Wahyu Handoyo",
+      "aliases": [
+        "tri-wahyu-handoyo"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2023,
+        2024,
+        2025
+      ],
+      "roles": [
+        "Program (Lead AI, Computer Vision & Web Systems)",
+        "Programmer (Angkatan 2022)",
+        "Programmer (Koordinator)",
+        "Programmer (Koordinator 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+      "photos": [
+        "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+        "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_tri_wahyu_handoyo_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2025_program_tri_wahyu_handoyo_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+          "/images/members/2024_program_tri_wahyu_handoyo_02.png",
+          "/images/members/2024_program_tri_wahyu_handoyo_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_program_tri_wahyu_handoyo_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_program_tri_wahyu_handoyo_01.jpg"
+        ]
+      }
+    },
+    "farhan-yuda-mahendra": {
+      "id": "farhan-yuda-mahendra",
+      "name": "Farhan Yuda Mahendra",
+      "aliases": [
+        "farhan-yuda-mahendra"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2023,
+        2024,
+        2025
+      ],
+      "roles": [
+        "Program (Embedded Control & Kinematika)",
+        "Programmer (Angkatan 2022)",
+        "Programmer (Anggota)",
+        "Programmer / Leader 2025",
+        "Ketua Tim (Team Leader 2025)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2025"
+      ],
+      "primaryPhoto": "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+      "photos": [
+        "/images/members/2023_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+        "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+        "/images/members/2024_program_farhan_yuda_mahendra_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2023_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+          "/images/members/2024_program_farhan_yuda_mahendra_02.png",
+          "/images/members/2024_program_farhan_yuda_mahendra_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_program_farhan_yuda_mahendra_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+          "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg"
+        ]
+      }
+    },
+    "salsabila-azzahra": {
+      "id": "salsabila-azzahra",
+      "name": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "aliases": [
+        "salsabila-azzahra-putri-sophia-dewi-utami",
+        "salsabila-azzahra",
+        "salsabila-azzahra-psdu"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2022,
+        2023,
+        2024
+      ],
+      "roles": [
+        "Program (Logika Sensor & Strategi Laga)",
+        "Programmer (Koordinator)",
+        "Programmer / Leader (Angkatan 2020)",
+        "Ketua Tim (Team Leader 2023)",
+        "Programmer (Anggota)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2023"
+      ],
+      "primaryPhoto": "/images/members/2024_program_salsabila_azzahra_01.png",
+      "photos": [
+        "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2024_program_salsabila_azzahra_01.png",
+        "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2024_program_salsabila_azzahra_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_program_salsabila_azzahra_01.png",
+        "/images/members/2024_program_salsabila_azzahra_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_program_salsabila_azzahra_01.png",
+          "/images/members/2024_program_salsabila_azzahra_02.png",
+          "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+          "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg"
+        ]
+      }
+    },
+    "ilham-widyo-nugroho": {
+      "id": "ilham-widyo-nugroho",
+      "name": "Ilham Widyo Nugroho",
+      "aliases": [
+        "ilham-widyo-nugroho"
+      ],
+      "primaryDivision": "leader",
+      "yearsActive": [
+        2022,
+        2023,
+        2024
+      ],
+      "roles": [
+        "Ketua Tim (Team Leader)",
+        "Mekanik (Anggota)",
+        "Mekanik (Angkatan 2021)",
+        "Mekanik / Ketua Tim (Koordinator)",
+        "Ketua Tim (Team Leader 2024)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2024"
+      ],
+      "primaryPhoto": "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+      "photos": [
+        "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+        "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_leader_ilham_widyo_nugroho_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+        "/images/members/2024_leader_ilham_widyo_nugroho_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+          "/images/members/2024_leader_ilham_widyo_nugroho_02.png",
+          "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+          "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg"
+        ]
+      }
+    },
+    "muhamad-ilham-sony": {
+      "id": "muhamad-ilham-sony",
+      "name": "Muhamad Ilham Sony",
+      "aliases": [
+        "muhamad-ilham-sony"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2023,
+        2024
+      ],
+      "roles": [
+        "Mekanik (Lead CAD & Precision Machining)",
+        "Mekanik (Angkatan 2020)",
+        "Mekanik (Anggota)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+      "photos": [
+        "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+          "/images/members/2024_mekanik_muhamad_ilham_sony_02.png",
+          "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg"
+        ]
+      }
+    },
+    "caesar-sokma-langgeng": {
+      "id": "caesar-sokma-langgeng",
+      "name": "Caesar Sokma Langgeng",
+      "aliases": [
+        "caesar-sokma-langgeng"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2024,
+        2025
+      ],
+      "roles": [
+        "Mekanik (CAD & Laser Fabrication Engineer)",
+        "Mekanik (Anggota)",
+        "Mekanik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+      "photos": [
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+        "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+          "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png",
+          "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg"
+        ]
+      }
+    },
+    "rionaldi-nugroho": {
+      "id": "rionaldi-nugroho",
+      "name": "Rionaldi Nugroho",
+      "aliases": [
+        "rionaldi-nugroho"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2024,
+        2025
+      ],
+      "roles": [
+        "Mekanik (Hardware Assembly & Mechanical QA)",
+        "Mekanik (Anggota)",
+        "Mekanik (Koordinator 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+      "photos": [
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+        "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2024_mekanik_rionaldi_nugroho_02.png"
+      ],
+      "studioPhotos": [
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+        "/images/members/2024_mekanik_rionaldi_nugroho_02.png"
+      ],
+      "feedPhotos": [
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+          "/images/members/2024_mekanik_rionaldi_nugroho_02.png",
+          "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg"
+        ]
+      }
+    },
+    "nurcholis": {
+      "id": "nurcholis",
+      "name": "Nurcholis",
+      "aliases": [
+        "nurcholis"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Programmer (Pendidikan Teknik Elektronika)",
+        "Programmer (Mentor)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2020"
+      ],
+      "primaryPhoto": "/images/members/2020_leader_nurcholis_01.jpg",
+      "photos": [
+        "/images/members/2020_leader_nurcholis_01.jpg",
+        "/images/members/2020_program_nurcholis_01.jpg",
+        "/images/members/2022_program_nurcholis_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_program_nurcholis_01.jpg",
+        "/images/members/2022_program_nurcholis_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_program_nurcholis_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_program_nurcholis_01.jpg"
+        ]
+      }
+    },
+    "alfan-fajri-tamyis": {
+      "id": "alfan-fajri-tamyis",
+      "name": "Alfan Fajri Tamyis",
+      "aliases": [
+        "alfan-fajri-tamyis"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2020
+      ],
+      "roles": [
+        "Programmer (Pendidikan Teknik Elektronika)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_program_alfan_fajri_tamyis_01.jpg",
+      "photos": [
+        "/images/members/2020_program_alfan_fajri_tamyis_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_program_alfan_fajri_tamyis_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_program_alfan_fajri_tamyis_01.jpg"
+        ]
+      }
+    },
+    "budi-arjaya-wida": {
+      "id": "budi-arjaya-wida",
+      "name": "Budi Arjaya Wida",
+      "aliases": [
+        "budi-arjaya-wida"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Programmer (Pendidikan Teknik Mekatronika)",
+        "Programmer (Mentor)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+      "photos": [
+        "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2022_program_budi_arjaya_wida_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2022_program_budi_arjaya_wida_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_program_budi_arjaya_wida_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_program_budi_arjaya_wida_01.jpg"
+        ]
+      }
+    },
+    "muhammad-iqbal-rasyid": {
+      "id": "muhammad-iqbal-rasyid",
+      "name": "Muhammad Iqbal Rasyid",
+      "aliases": [
+        "muhammad-iqbal-rasyid"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Programmer (Pendidikan Teknik Mekatronika)",
+        "Ketua Tim (Team Leader 2022)",
+        "Programmer (Anggota)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2022"
+      ],
+      "primaryPhoto": "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+      "photos": [
+        "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+          "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg"
+        ]
+      }
+    },
+    "afif-aiman-saputra": {
+      "id": "afif-aiman-saputra",
+      "name": "Afif Aiman Saputra",
+      "aliases": [
+        "afif-aiman-saputra"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2020,
+        2021,
+        2022
+      ],
+      "roles": [
+        "Mekanik (Pendidikan Teknik Mesin)",
+        "Desain (Anggota)"
+      ],
+      "isLeader": true,
+      "isManager": false,
+      "leadershipEras": [
+        "Ketua Tim 2021"
+      ],
+      "primaryPhoto": "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+      "photos": [
+        "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+        "/images/members/2021_leader_afif_aiman_saputra_01.jpg",
+        "/images/members/2022_desain_afif_aiman_saputra_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+        "/images/members/2022_desain_afif_aiman_saputra_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_desain_afif_aiman_saputra_01.jpg"
+        ]
+      }
+    },
+    "musyarof-rifai": {
+      "id": "musyarof-rifai",
+      "name": "Musyarof Rifai",
+      "aliases": [
+        "musyarof-rifai"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2020,
+        2022,
+        2023
+      ],
+      "roles": [
+        "Mekanik (Pendidikan Teknik Mekatronika)",
+        "Mekanik (Anggota)",
+        "Mekanik Advisor (Alumni)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+      "photos": [
+        "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2023_mekanik_musyarof_rifai_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2023_mekanik_musyarof_rifai_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_mekanik_musyarof_rifai_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_mekanik_musyarof_rifai_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_mekanik_musyarof_rifai_01.jpg"
+        ]
+      }
+    },
+    "anggoro-fajar-dwi-utomo": {
+      "id": "anggoro-fajar-dwi-utomo",
+      "name": "Anggoro Fajar Dwi Utomo",
+      "aliases": [
+        "anggoro-fajar-dwi-utomo"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Mekanik (Pendidikan Teknik Mekatronika)",
+        "Mekanik (Anggota)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "photos": [
+        "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg"
+        ]
+      }
+    },
+    "muhammad-rovi-aan-sulistya": {
+      "id": "muhammad-rovi-aan-sulistya",
+      "name": "Muhammad Rovi Aan Sulistya",
+      "aliases": [
+        "muhammad-rovi-aan-sulistya"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Mekanik (Teknik Elektro)",
+        "Mekanik (Koordinator)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "photos": [
+        "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+        "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+        "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg"
+        ]
+      }
+    },
+    "yuli-dwi-saputri": {
+      "id": "yuli-dwi-saputri",
+      "name": "Yuli Dwi Saputri",
+      "aliases": [
+        "yuli-dwi-saputri"
+      ],
+      "primaryDivision": "manager",
+      "yearsActive": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "roles": [
+        "Manager (Pendidikan Teknik Elektro)",
+        "Manager 2021 (Pendidikan Teknik Elektro)",
+        "Manager (Senior/Lead)",
+        "Manager Advisor (Alumni)"
+      ],
+      "isLeader": false,
+      "isManager": true,
+      "leadershipEras": [
+        "Manager 2020",
+        "Manager 2021",
+        "Manager 2022",
+        "Manager 2023"
+      ],
+      "primaryPhoto": "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+      "photos": [
+        "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2021_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2023_manager_yuli_dwi_saputri_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2021_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2023_manager_yuli_dwi_saputri_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_manager_yuli_dwi_saputri_01.jpg"
+        ],
+        "2021": [
+          "/images/members/2021_manager_yuli_dwi_saputri_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_manager_yuli_dwi_saputri_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_manager_yuli_dwi_saputri_01.jpg"
+        ]
+      }
+    },
+    "musa-beni-ricardo-aruan": {
+      "id": "musa-beni-ricardo-aruan",
+      "name": "Musa Beni Ricardo Aruan",
+      "aliases": [
+        "musa-beni-ricardo-aruan"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2020,
+        2022
+      ],
+      "roles": [
+        "Elektronik (Pendidikan Teknik Mekatronika)",
+        "Elektronik (Mentor)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "photos": [
+        "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+        "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+        "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg"
+        ]
+      }
+    },
+    "ardhi-wiranata": {
+      "id": "ardhi-wiranata",
+      "name": "Ardhi Wiranata",
+      "aliases": [
+        "ardhi-wiranata"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2020
+      ],
+      "roles": [
+        "Elektronik (Pendidikan Teknik Elektronika)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_elektronik_ardhi_wiranata_01.jpg",
+      "photos": [
+        "/images/members/2020_elektronik_ardhi_wiranata_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_elektronik_ardhi_wiranata_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_elektronik_ardhi_wiranata_01.jpg"
+        ]
+      }
+    },
+    "yusron-nur-latief": {
+      "id": "yusron-nur-latief",
+      "name": "Yusron Nur Latief",
+      "aliases": [
+        "yusron-nur-latief"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2020,
+        2022,
+        2023
+      ],
+      "roles": [
+        "Elektronik (D4 Teknik Elektro)",
+        "Elektronik (Koordinator)",
+        "Elektronik Advisor (Alumni)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2020_elektronik_yusron_nur_latief_01.jpg",
+      "photos": [
+        "/images/members/2020_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2023_elektronik_yusron_nur_latief_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2020_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2023_elektronik_yusron_nur_latief_01.jpg"
+      ],
+      "photosByYear": {
+        "2020": [
+          "/images/members/2020_elektronik_yusron_nur_latief_01.jpg"
+        ],
+        "2022": [
+          "/images/members/2022_elektronik_yusron_nur_latief_01.jpg"
+        ],
+        "2023": [
+          "/images/members/2023_elektronik_yusron_nur_latief_01.jpg"
+        ]
+      }
+    },
+    "geo-brahma-granito-z": {
+      "id": "geo-brahma-granito-z",
+      "name": "Geo Brahma Granito Z.",
+      "aliases": [
+        "geo-brahma-granito-z"
+      ],
+      "primaryDivision": "desain",
+      "yearsActive": [
+        2022
+      ],
+      "roles": [
+        "Desain (Koordinator)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2022_desain_geo_brahma_granito_z_01.jpg",
+      "photos": [
+        "/images/members/2022_desain_geo_brahma_granito_z_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2022_desain_geo_brahma_granito_z_01.jpg"
+      ],
+      "photosByYear": {
+        "2022": [
+          "/images/members/2022_desain_geo_brahma_granito_z_01.jpg"
+        ]
+      }
+    },
+    "ahmad-insan-kamil": {
+      "id": "ahmad-insan-kamil",
+      "name": "Ahmad Insan Kamil",
+      "aliases": [
+        "ahmad-insan-kamil"
+      ],
+      "primaryDivision": "desain",
+      "yearsActive": [
+        2022
+      ],
+      "roles": [
+        "Desain (Anggota)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2022_desain_ahmad_insan_kamil_01.jpg",
+      "photos": [
+        "/images/members/2022_desain_ahmad_insan_kamil_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2022_desain_ahmad_insan_kamil_01.jpg"
+      ],
+      "photosByYear": {
+        "2022": [
+          "/images/members/2022_desain_ahmad_insan_kamil_01.jpg"
+        ]
+      }
+    },
+    "prof-khairudin": {
+      "id": "prof-khairudin",
+      "name": "Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU.",
+      "aliases": [
+        "prof-khairudin"
+      ],
+      "primaryDivision": "pembimbing",
+      "yearsActive": [
+        2024,
+        2025
+      ],
+      "roles": [
+        "Dosen Pembimbing Utama"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+      "photos": [
+        "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+        "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+        "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+      ],
+      "photosByYear": {
+        "2024": [
+          "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg"
+        ],
+        "2025": [
+          "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+        ]
+      }
+    },
+    "adhiyatma-fatya-ramadhani": {
+      "id": "adhiyatma-fatya-ramadhani",
+      "name": "Adhiyatma Fatya Ramadhani",
+      "aliases": [
+        "adhiyatma-fatya-ramadhani"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Mekanik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+      "photos": [
+        "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg"
+        ]
+      }
+    },
+    "andika-nanda-wijaya": {
+      "id": "andika-nanda-wijaya",
+      "name": "Andika Nanda Wijaya",
+      "aliases": [
+        "andika-nanda-wijaya"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Mekanik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+      "photos": [
+        "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg"
+        ]
+      }
+    },
+    "kharisma-putra-mahardika": {
+      "id": "kharisma-putra-mahardika",
+      "name": "Kharisma Putra Mahardika",
+      "aliases": [
+        "kharisma-putra-mahardika"
+      ],
+      "primaryDivision": "mekanik",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Mekanik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg",
+      "photos": [
+        "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+        ]
+      }
+    },
+    "aryasetya-maulana-swasdika": {
+      "id": "aryasetya-maulana-swasdika",
+      "name": "Aryasetya Maulana Swasdika",
+      "aliases": [
+        "aryasetya-maulana-swasdika"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Elektronik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+      "photos": [
+        "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg"
+        ]
+      }
+    },
+    "naufal-farros-zainal-arifin": {
+      "id": "naufal-farros-zainal-arifin",
+      "name": "Naufal Farros Zainal Arifin",
+      "aliases": [
+        "naufal-farros-zainal-arifin"
+      ],
+      "primaryDivision": "elektronik",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Elektronik (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg",
+      "photos": [
+        "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+        ]
+      }
+    },
+    "hanif-nurkhalis": {
+      "id": "hanif-nurkhalis",
+      "name": "Hanif NurKhalis",
+      "aliases": [
+        "hanif-nurkhalis"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Programmer (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_program_hanif_nurkhalis_01.jpg",
+      "photos": [
+        "/images/members/2025_program_hanif_nurkhalis_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_program_hanif_nurkhalis_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_program_hanif_nurkhalis_01.jpg"
+        ]
+      }
+    },
+    "hisyam-yasid-pratowo": {
+      "id": "hisyam-yasid-pratowo",
+      "name": "Hisyam Yasid Pratowo",
+      "aliases": [
+        "hisyam-yasid-pratowo"
+      ],
+      "primaryDivision": "program",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Programmer (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": false,
+      "leadershipEras": [],
+      "primaryPhoto": "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg",
+      "photos": [
+        "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+        ]
+      }
+    },
+    "zelfa-nafisah-zalna": {
+      "id": "zelfa-nafisah-zalna",
+      "name": "Zelfa Nafisah Zalna",
+      "aliases": [
+        "zelfa-nafisah-zalna"
+      ],
+      "primaryDivision": "manager",
+      "yearsActive": [
+        2025
+      ],
+      "roles": [
+        "Manager (Anggota 2025)"
+      ],
+      "isLeader": false,
+      "isManager": true,
+      "leadershipEras": [
+        "Manager 2025"
+      ],
+      "primaryPhoto": "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg",
+      "photos": [
+        "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+      ],
+      "studioPhotos": [],
+      "feedPhotos": [
+        "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+      ],
+      "photosByYear": {
+        "2025": [
+          "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+        ]
+      }
+    }
+  },
+  "byYear": {
+    "2020": {
+      "leader": [
+        "/images/members/2020_leader_nurcholis_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2020_manager_yuli_dwi_saputri_01.jpg"
+      ],
+      "program": [
+        "/images/members/2020_program_nurcholis_01.jpg",
+        "/images/members/2020_program_alfan_fajri_tamyis_01.jpg",
+        "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg"
+      ],
+      "elektronik": [
+        "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+        "/images/members/2020_elektronik_ardhi_wiranata_01.jpg",
+        "/images/members/2020_elektronik_yusron_nur_latief_01.jpg"
+      ],
+      "mekanik": [
+        "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+        "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg"
+      ],
+      "desain": [],
+      "pembimbing": [],
+      "allPhotos": [
+        "/images/members/2020_program_nurcholis_01.jpg",
+        "/images/members/2020_program_alfan_fajri_tamyis_01.jpg",
+        "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+        "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+        "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+        "/images/members/2020_elektronik_ardhi_wiranata_01.jpg",
+        "/images/members/2020_elektronik_yusron_nur_latief_01.jpg"
+      ]
+    },
+    "2021": {
+      "leader": [
+        "/images/members/2021_leader_afif_aiman_saputra_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2021_manager_yuli_dwi_saputri_01.jpg"
+      ],
+      "program": [],
+      "elektronik": [],
+      "mekanik": [],
+      "desain": [],
+      "pembimbing": [],
+      "allPhotos": [
+        "/images/members/2021_manager_yuli_dwi_saputri_01.jpg"
+      ]
+    },
+    "2022": {
+      "leader": [
+        "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg"
+      ],
+      "program": [
+        "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2022_program_nurcholis_01.jpg"
+      ],
+      "elektronik": [
+        "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg"
+      ],
+      "mekanik": [
+        "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+        "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg"
+      ],
+      "desain": [
+        "/images/members/2022_desain_geo_brahma_granito_z_01.jpg",
+        "/images/members/2022_desain_afif_aiman_saputra_01.jpg",
+        "/images/members/2022_desain_ahmad_insan_kamil_01.jpg"
+      ],
+      "pembimbing": [],
+      "allPhotos": [
+        "/images/members/2022_desain_geo_brahma_granito_z_01.jpg",
+        "/images/members/2022_desain_afif_aiman_saputra_01.jpg",
+        "/images/members/2022_desain_ahmad_insan_kamil_01.jpg",
+        "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+        "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+        "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg",
+        "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg",
+        "/images/members/2022_program_budi_arjaya_wida_01.jpg",
+        "/images/members/2022_program_nurcholis_01.jpg"
+      ]
+    },
+    "2023": {
+      "leader": [
+        "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2023_manager_yuli_dwi_saputri_01.jpg"
+      ],
+      "program": [
+        "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2023_program_farhan_yuda_mahendra_01.jpg"
+      ],
+      "elektronik": [
+        "/images/members/2023_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg"
+      ],
+      "mekanik": [
+        "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2023_mekanik_musyarof_rifai_01.jpg"
+      ],
+      "desain": [],
+      "pembimbing": [],
+      "allPhotos": [
+        "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2023_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2023_mekanik_musyarof_rifai_01.jpg",
+        "/images/members/2023_elektronik_yusron_nur_latief_01.jpg",
+        "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2023_manager_yuli_dwi_saputri_01.jpg",
+        "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg"
+      ]
+    },
+    "2024": {
+      "leader": [
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+        "/images/members/2024_leader_ilham_widyo_nugroho_02.png",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_02.png",
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+        "/images/members/2024_manager_rose_pita_nur_afifah_02.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg"
+      ],
+      "program": [
+        "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_02.png",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+        "/images/members/2024_program_farhan_yuda_mahendra_02.png",
+        "/images/members/2024_program_salsabila_azzahra_01.png",
+        "/images/members/2024_program_salsabila_azzahra_02.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.jpg"
+      ],
+      "elektronik": [
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_02.png",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_02.png",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg"
+      ],
+      "mekanik": [
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_02.png",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png",
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+        "/images/members/2024_mekanik_rionaldi_nugroho_02.png",
+        "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg"
+      ],
+      "desain": [],
+      "pembimbing": [
+        "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg"
+      ],
+      "allPhotos": [
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+        "/images/members/2024_elektronik_agus_bagaskoro_02.png",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_02.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_02.png",
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+        "/images/members/2024_manager_rose_pita_nur_afifah_02.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_02.png",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+        "/images/members/2024_program_farhan_yuda_mahendra_02.png",
+        "/images/members/2024_program_salsabila_azzahra_01.png",
+        "/images/members/2024_program_salsabila_azzahra_02.png",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+        "/images/members/2024_leader_ilham_widyo_nugroho_02.png",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_02.png",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png",
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+        "/images/members/2024_mekanik_rionaldi_nugroho_02.png",
+        "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg",
+        "/images/members/2024_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+        "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg",
+        "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2024_elektronik_agus_bagaskoro_01.jpg",
+        "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg",
+        "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+        "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg"
+      ]
+    },
+    "2025": {
+      "leader": [
+        "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg"
+      ],
+      "manager": [
+        "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+      ],
+      "program": [
+        "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2025_program_hanif_nurkhalis_01.jpg",
+        "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+      ],
+      "elektronik": [
+        "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+        "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+      ],
+      "mekanik": [
+        "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+        "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+        "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+      ],
+      "desain": [],
+      "pembimbing": [
+        "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+      ],
+      "allPhotos": [
+        "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+        "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+        "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+        "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+        "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg",
+        "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+        "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+        "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+        "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg",
+        "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+        "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+        "/images/members/2025_program_hanif_nurkhalis_01.jpg",
+        "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg",
+        "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+        "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg",
+        "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg",
+        "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg"
+      ]
+    }
+  },
+  "byDivision": {
+    "leader": [
+      "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+      "/images/members/2024_leader_ilham_widyo_nugroho_02.png",
+      "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+      "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg",
+      "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg",
+      "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg",
+      "/images/members/2020_leader_nurcholis_01.jpg",
+      "/images/members/2021_leader_afif_aiman_saputra_01.jpg"
+    ],
+    "manager": [
+      "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+      "/images/members/2024_manager_mustika_wahyu_aprilia_02.png",
+      "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+      "/images/members/2024_manager_rose_pita_nur_afifah_02.png",
+      "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+      "/images/members/2021_manager_yuli_dwi_saputri_01.jpg",
+      "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+      "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg",
+      "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+      "/images/members/2023_manager_yuli_dwi_saputri_01.jpg",
+      "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg",
+      "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg",
+      "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+      "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+    ],
+    "program": [
+      "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+      "/images/members/2024_program_tri_wahyu_handoyo_02.png",
+      "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+      "/images/members/2024_program_farhan_yuda_mahendra_02.png",
+      "/images/members/2024_program_salsabila_azzahra_01.png",
+      "/images/members/2024_program_salsabila_azzahra_02.png",
+      "/images/members/2020_program_nurcholis_01.jpg",
+      "/images/members/2020_program_alfan_fajri_tamyis_01.jpg",
+      "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+      "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+      "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+      "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg",
+      "/images/members/2022_program_budi_arjaya_wida_01.jpg",
+      "/images/members/2022_program_nurcholis_01.jpg",
+      "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+      "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+      "/images/members/2023_program_farhan_yuda_mahendra_01.jpg",
+      "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+      "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg",
+      "/images/members/2024_program_farhan_yuda_mahendra_01.jpg",
+      "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+      "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+      "/images/members/2025_program_hanif_nurkhalis_01.jpg",
+      "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+    ],
+    "elektronik": [
+      "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+      "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+      "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+      "/images/members/2024_elektronik_agus_bagaskoro_02.png",
+      "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+      "/images/members/2024_elektronik_ikhsan_nurrohman_02.png",
+      "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "/images/members/2020_elektronik_ardhi_wiranata_01.jpg",
+      "/images/members/2020_elektronik_yusron_nur_latief_01.jpg",
+      "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+      "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+      "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "/images/members/2023_elektronik_yusron_nur_latief_01.jpg",
+      "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+      "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "/images/members/2024_elektronik_agus_bagaskoro_01.jpg",
+      "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg",
+      "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+      "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+      "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+    ],
+    "mekanik": [
+      "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+      "/images/members/2024_mekanik_muhamad_ilham_sony_02.png",
+      "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+      "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png",
+      "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+      "/images/members/2024_mekanik_rionaldi_nugroho_02.png",
+      "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+      "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+      "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+      "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg",
+      "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+      "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+      "/images/members/2023_mekanik_musyarof_rifai_01.jpg",
+      "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+      "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg",
+      "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+      "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg",
+      "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+      "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+      "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+      "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+      "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+    ],
+    "desain": [
+      "/images/members/2022_desain_geo_brahma_granito_z_01.jpg",
+      "/images/members/2022_desain_afif_aiman_saputra_01.jpg",
+      "/images/members/2022_desain_ahmad_insan_kamil_01.jpg"
+    ],
+    "pembimbing": [
+      "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+      "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+    ]
+  },
+  "allRosterPhotos": [
+    {
+      "filename": "2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+      "path": "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png",
+      "sourcePath": "public/images/members/01_abdul_hasib_adzdzin_nuha_1.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Abdul Hasib Adzdzin Nuha",
+      "role": "Elektronik (PCB Design & Sensor Wiring)",
+      "sequence": 1,
+      "sizeBytes": 645985,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+      "path": "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png",
+      "sourcePath": "public/images/members/01_abdul_hasib_adzdzin_nuha_2.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Abdul Hasib Adzdzin Nuha",
+      "role": "Elektronik (PCB Design & Sensor Wiring)",
+      "sequence": 2,
+      "sizeBytes": 605328,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_elektronik_agus_bagaskoro_01.png",
+      "path": "/images/members/2024_elektronik_agus_bagaskoro_01.png",
+      "sourcePath": "public/images/members/02_agus_bagaskoro_1.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Agus Bagaskoro",
+      "role": "Elektronik (Lead Hardware & Power Management)",
+      "sequence": 1,
+      "sizeBytes": 636987,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_elektronik_agus_bagaskoro_02.png",
+      "path": "/images/members/2024_elektronik_agus_bagaskoro_02.png",
+      "sourcePath": "public/images/members/02_agus_bagaskoro_2.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Agus Bagaskoro",
+      "role": "Elektronik (Lead Hardware & Power Management)",
+      "sequence": 2,
+      "sizeBytes": 699426,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_elektronik_ikhsan_nurrohman_01.png",
+      "path": "/images/members/2024_elektronik_ikhsan_nurrohman_01.png",
+      "sourcePath": "public/images/members/03_ikhsan_nurrohman_1.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Ikhsan Nurrohman",
+      "role": "Elektronik (Telemetri & Wireless Systems)",
+      "sequence": 1,
+      "sizeBytes": 660215,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_elektronik_ikhsan_nurrohman_02.png",
+      "path": "/images/members/2024_elektronik_ikhsan_nurrohman_02.png",
+      "sourcePath": "public/images/members/03_ikhsan_nurrohman_2.png",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Ikhsan Nurrohman",
+      "role": "Elektronik (Telemetri & Wireless Systems)",
+      "sequence": 2,
+      "sizeBytes": 696641,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_manager_mustika_wahyu_aprilia_01.png",
+      "path": "/images/members/2024_manager_mustika_wahyu_aprilia_01.png",
+      "sourcePath": "public/images/members/04_mustika_wahyu_aprilia_1.png",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Mustika Wahyu Aprilia",
+      "role": "Manager (Keuangan, Administrasi & Sekretariat)",
+      "sequence": 1,
+      "sizeBytes": 631139,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_manager_mustika_wahyu_aprilia_02.png",
+      "path": "/images/members/2024_manager_mustika_wahyu_aprilia_02.png",
+      "sourcePath": "public/images/members/04_mustika_wahyu_aprilia_2.png",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Mustika Wahyu Aprilia",
+      "role": "Manager (Keuangan, Administrasi & Sekretariat)",
+      "sequence": 2,
+      "sizeBytes": 654651,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_manager_rose_pita_nur_afifah_01.png",
+      "path": "/images/members/2024_manager_rose_pita_nur_afifah_01.png",
+      "sourcePath": "public/images/members/05_rose_pita_nur_afifah_1.png",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Rose Pita Nur Afifah",
+      "role": "Manager (Media, Dokumentasi & Publikasi)",
+      "sequence": 1,
+      "sizeBytes": 616962,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_manager_rose_pita_nur_afifah_02.png",
+      "path": "/images/members/2024_manager_rose_pita_nur_afifah_02.png",
+      "sourcePath": "public/images/members/05_rose_pita_nur_afifah_2.png",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Rose Pita Nur Afifah",
+      "role": "Manager (Media, Dokumentasi & Publikasi)",
+      "sequence": 2,
+      "sizeBytes": 621913,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_tri_wahyu_handoyo_01.png",
+      "path": "/images/members/2024_program_tri_wahyu_handoyo_01.png",
+      "sourcePath": "public/images/members/06_tri_wahyu_handoyo_1.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Tri Wahyu Handoyo",
+      "role": "Program (Lead AI, Computer Vision & Web Systems)",
+      "sequence": 1,
+      "sizeBytes": 637384,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_tri_wahyu_handoyo_02.png",
+      "path": "/images/members/2024_program_tri_wahyu_handoyo_02.png",
+      "sourcePath": "public/images/members/06_tri_wahyu_handoyo_2.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Tri Wahyu Handoyo",
+      "role": "Program (Lead AI, Computer Vision & Web Systems)",
+      "sequence": 2,
+      "sizeBytes": 638207,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_farhan_yuda_mahendra_01.png",
+      "path": "/images/members/2024_program_farhan_yuda_mahendra_01.png",
+      "sourcePath": "public/images/members/07_farhan_yuda_mahendra_1.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Program (Embedded Control & Kinematika)",
+      "sequence": 1,
+      "sizeBytes": 636751,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_farhan_yuda_mahendra_02.png",
+      "path": "/images/members/2024_program_farhan_yuda_mahendra_02.png",
+      "sourcePath": "public/images/members/07_farhan_yuda_mahendra_2.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Program (Embedded Control & Kinematika)",
+      "sequence": 2,
+      "sizeBytes": 643844,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_salsabila_azzahra_01.png",
+      "path": "/images/members/2024_program_salsabila_azzahra_01.png",
+      "sourcePath": "public/images/members/08_salsabila_azzahra_1.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Program (Logika Sensor & Strategi Laga)",
+      "sequence": 1,
+      "sizeBytes": 658212,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_program_salsabila_azzahra_02.png",
+      "path": "/images/members/2024_program_salsabila_azzahra_02.png",
+      "sourcePath": "public/images/members/08_salsabila_azzahra_2.png",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Program (Logika Sensor & Strategi Laga)",
+      "sequence": 2,
+      "sizeBytes": 662772,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_leader_ilham_widyo_nugroho_01.png",
+      "path": "/images/members/2024_leader_ilham_widyo_nugroho_01.png",
+      "sourcePath": "public/images/members/09_ilham_widyo_nugroho_1.png",
+      "year": 2024,
+      "division": "leader",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Ketua Tim (Team Leader)",
+      "sequence": 1,
+      "sizeBytes": 627973,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_leader_ilham_widyo_nugroho_02.png",
+      "path": "/images/members/2024_leader_ilham_widyo_nugroho_02.png",
+      "sourcePath": "public/images/members/09_ilham_widyo_nugroho_2.png",
+      "year": 2024,
+      "division": "leader",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Ketua Tim (Team Leader)",
+      "sequence": 2,
+      "sizeBytes": 652096,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_muhamad_ilham_sony_01.png",
+      "path": "/images/members/2024_mekanik_muhamad_ilham_sony_01.png",
+      "sourcePath": "public/images/members/10_muhamad_ilham_sony_1.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Muhamad Ilham Sony",
+      "role": "Mekanik (Lead CAD & Precision Machining)",
+      "sequence": 1,
+      "sizeBytes": 623524,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_muhamad_ilham_sony_02.png",
+      "path": "/images/members/2024_mekanik_muhamad_ilham_sony_02.png",
+      "sourcePath": "public/images/members/10_muhamad_ilham_sony_2.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Muhamad Ilham Sony",
+      "role": "Mekanik (Lead CAD & Precision Machining)",
+      "sequence": 2,
+      "sizeBytes": 643048,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_caesar_sokma_langgeng_01.png",
+      "path": "/images/members/2024_mekanik_caesar_sokma_langgeng_01.png",
+      "sourcePath": "public/images/members/11_caesar_sokma_langgeng_1.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Caesar Sokma Langgeng",
+      "role": "Mekanik (CAD & Laser Fabrication Engineer)",
+      "sequence": 1,
+      "sizeBytes": 640332,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_caesar_sokma_langgeng_02.png",
+      "path": "/images/members/2024_mekanik_caesar_sokma_langgeng_02.png",
+      "sourcePath": "public/images/members/11_caesar_sokma_langgeng_2.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Caesar Sokma Langgeng",
+      "role": "Mekanik (CAD & Laser Fabrication Engineer)",
+      "sequence": 2,
+      "sizeBytes": 669148,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_rionaldi_nugroho_01.png",
+      "path": "/images/members/2024_mekanik_rionaldi_nugroho_01.png",
+      "sourcePath": "public/images/members/12_rionaldi_nugroho_1.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Rionaldi Nugroho",
+      "role": "Mekanik (Hardware Assembly & Mechanical QA)",
+      "sequence": 1,
+      "sizeBytes": 626674,
+      "isStudio": true
+    },
+    {
+      "filename": "2024_mekanik_rionaldi_nugroho_02.png",
+      "path": "/images/members/2024_mekanik_rionaldi_nugroho_02.png",
+      "sourcePath": "public/images/members/12_rionaldi_nugroho_2.png",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Rionaldi Nugroho",
+      "role": "Mekanik (Hardware Assembly & Mechanical QA)",
+      "sequence": 2,
+      "sizeBytes": 633717,
+      "isStudio": true
+    },
+    {
+      "filename": "2020_program_nurcholis_01.jpg",
+      "path": "/images/members/2020_program_nurcholis_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_17-54-45_UTC_CD9ZVzpjcgN_2.jpg",
+      "year": 2020,
+      "division": "program",
+      "memberName": "Nurcholis",
+      "role": "Programmer (Pendidikan Teknik Elektronika)",
+      "sequence": 1,
+      "sizeBytes": 81693,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_program_alfan_fajri_tamyis_01.jpg",
+      "path": "/images/members/2020_program_alfan_fajri_tamyis_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_17-54-45_UTC_CD9ZVzpjcgN_3.jpg",
+      "year": 2020,
+      "division": "program",
+      "memberName": "Alfan Fajri Tamyis",
+      "role": "Programmer (Pendidikan Teknik Elektronika)",
+      "sequence": 1,
+      "sizeBytes": 96292,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_program_budi_arjaya_wida_01.jpg",
+      "path": "/images/members/2020_program_budi_arjaya_wida_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_17-54-45_UTC_CD9ZVzpjcgN_4.jpg",
+      "year": 2020,
+      "division": "program",
+      "memberName": "Budi Arjaya Wida",
+      "role": "Programmer (Pendidikan Teknik Mekatronika)",
+      "sequence": 1,
+      "sizeBytes": 90072,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_program_muhammad_iqbal_rasyid_01.jpg",
+      "path": "/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_17-54-45_UTC_CD9ZVzpjcgN_5.jpg",
+      "year": 2020,
+      "division": "program",
+      "memberName": "Muhammad Iqbal Rasyid",
+      "role": "Programmer (Pendidikan Teknik Mekatronika)",
+      "sequence": 1,
+      "sizeBytes": 77089,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_mekanik_afif_aiman_saputra_01.jpg",
+      "path": "/images/members/2020_mekanik_afif_aiman_saputra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-05-25_UTC_CD9aj6dD_Xc_2.jpg",
+      "year": 2020,
+      "division": "mekanik",
+      "memberName": "Afif Aiman Saputra",
+      "role": "Mekanik (Pendidikan Teknik Mesin)",
+      "sequence": 1,
+      "sizeBytes": 84343,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_mekanik_musyarof_rifai_01.jpg",
+      "path": "/images/members/2020_mekanik_musyarof_rifai_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-05-25_UTC_CD9aj6dD_Xc_3.jpg",
+      "year": 2020,
+      "division": "mekanik",
+      "memberName": "Musyarof Rifai",
+      "role": "Mekanik (Pendidikan Teknik Mekatronika)",
+      "sequence": 1,
+      "sizeBytes": 86197,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "path": "/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-05-25_UTC_CD9aj6dD_Xc_4.jpg",
+      "year": 2020,
+      "division": "mekanik",
+      "memberName": "Anggoro Fajar Dwi Utomo",
+      "role": "Mekanik (Pendidikan Teknik Mekatronika)",
+      "sequence": 1,
+      "sizeBytes": 85423,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "path": "/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-05-25_UTC_CD9aj6dD_Xc_5.jpg",
+      "year": 2020,
+      "division": "mekanik",
+      "memberName": "Muhammad Rovi Aan Sulistya",
+      "role": "Mekanik (Teknik Elektro)",
+      "sequence": 1,
+      "sizeBytes": 86951,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_manager_yuli_dwi_saputri_01.jpg",
+      "path": "/images/members/2020_manager_yuli_dwi_saputri_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-07-08_UTC_CD9awafDNZH_2.jpg",
+      "year": 2020,
+      "division": "manager",
+      "memberName": "Yuli Dwi Saputri",
+      "role": "Manager (Pendidikan Teknik Elektro)",
+      "sequence": 1,
+      "sizeBytes": 92084,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "path": "/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-13-17_UTC_CD9bdiQjGn5_2.jpg",
+      "year": 2020,
+      "division": "elektronik",
+      "memberName": "Musa Beni Ricardo Aruan",
+      "role": "Elektronik (Pendidikan Teknik Mekatronika)",
+      "sequence": 1,
+      "sizeBytes": 86278,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_elektronik_ardhi_wiranata_01.jpg",
+      "path": "/images/members/2020_elektronik_ardhi_wiranata_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-13-17_UTC_CD9bdiQjGn5_3.jpg",
+      "year": 2020,
+      "division": "elektronik",
+      "memberName": "Ardhi Wiranata",
+      "role": "Elektronik (Pendidikan Teknik Elektronika)",
+      "sequence": 1,
+      "sizeBytes": 90761,
+      "isStudio": false
+    },
+    {
+      "filename": "2020_elektronik_yusron_nur_latief_01.jpg",
+      "path": "/images/members/2020_elektronik_yusron_nur_latief_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2020-08-16_18-13-17_UTC_CD9bdiQjGn5_4.jpg",
+      "year": 2020,
+      "division": "elektronik",
+      "memberName": "Yusron Nur Latief",
+      "role": "Elektronik (D4 Teknik Elektro)",
+      "sequence": 1,
+      "sizeBytes": 90349,
+      "isStudio": false
+    },
+    {
+      "filename": "2021_manager_yuli_dwi_saputri_01.jpg",
+      "path": "/images/members/2021_manager_yuli_dwi_saputri_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-05-28_04-23-34_UTC_CeFpNNhLYnR.jpg",
+      "year": 2021,
+      "division": "manager",
+      "memberName": "Yuli Dwi Saputri",
+      "role": "Manager 2021 (Pendidikan Teknik Elektro)",
+      "sequence": 1,
+      "sizeBytes": 62319,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_desain_geo_brahma_granito_z_01.jpg",
+      "path": "/images/members/2022_desain_geo_brahma_granito_z_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-07-57_UTC_Ci5Ni_VrsFe_2.jpg",
+      "year": 2022,
+      "division": "desain",
+      "memberName": "Geo Brahma Granito Z.",
+      "role": "Desain (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 53143,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_desain_afif_aiman_saputra_01.jpg",
+      "path": "/images/members/2022_desain_afif_aiman_saputra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-07-57_UTC_Ci5Ni_VrsFe_3.jpg",
+      "year": 2022,
+      "division": "desain",
+      "memberName": "Afif Aiman Saputra",
+      "role": "Desain (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_desain_ahmad_insan_kamil_01.jpg",
+      "path": "/images/members/2022_desain_ahmad_insan_kamil_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-07-57_UTC_Ci5Ni_VrsFe_4.jpg",
+      "year": 2022,
+      "division": "desain",
+      "memberName": "Ahmad Insan Kamil",
+      "role": "Desain (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "path": "/images/members/2022_mekanik_muhammad_rovi_aan_sulistya_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-10-54_UTC_Ci5N4jTrT34_2.jpg",
+      "year": 2022,
+      "division": "mekanik",
+      "memberName": "Muhammad Rovi Aan Sulistya",
+      "role": "Mekanik (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 51206,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "path": "/images/members/2022_mekanik_anggoro_fajar_dwi_utomo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-10-54_UTC_Ci5N4jTrT34_3.jpg",
+      "year": 2022,
+      "division": "mekanik",
+      "memberName": "Anggoro Fajar Dwi S.",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_mekanik_musyarof_rifai_01.jpg",
+      "path": "/images/members/2022_mekanik_musyarof_rifai_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-10-54_UTC_Ci5N4jTrT34_4.jpg",
+      "year": 2022,
+      "division": "mekanik",
+      "memberName": "Musyarof Rifai",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_mekanik_ilham_widyo_nugroho_01.jpg",
+      "path": "/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-10-54_UTC_Ci5N4jTrT34_5.jpg",
+      "year": 2022,
+      "division": "mekanik",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_elektronik_yusron_nur_latief_01.jpg",
+      "path": "/images/members/2022_elektronik_yusron_nur_latief_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-15-54_UTC_Ci5OdP-L4vD_2.jpg",
+      "year": 2022,
+      "division": "elektronik",
+      "memberName": "Yusron Nur Latief",
+      "role": "Elektronik (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 52948,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_elektronik_agus_bagaskoro_01.jpg",
+      "path": "/images/members/2022_elektronik_agus_bagaskoro_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-15-54_UTC_Ci5OdP-L4vD_3.jpg",
+      "year": 2022,
+      "division": "elektronik",
+      "memberName": "Agus Bagaskoro",
+      "role": "Elektronik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "path": "/images/members/2022_elektronik_musa_beni_ricardo_aruan_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-15-54_UTC_Ci5OdP-L4vD_4.jpg",
+      "year": 2022,
+      "division": "elektronik",
+      "memberName": "Musa Beni Ricardo Aruan",
+      "role": "Elektronik (Mentor)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_manager_yuli_dwi_saputri_01.jpg",
+      "path": "/images/members/2022_manager_yuli_dwi_saputri_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-24-38_UTC_Ci5PdHUrgvk_2.jpg",
+      "year": 2022,
+      "division": "manager",
+      "memberName": "Yuli Dwi Saputri",
+      "role": "Manager (Senior/Lead)",
+      "sequence": 1,
+      "sizeBytes": 46148,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_manager_mustika_wahyu_aprilia_01.jpg",
+      "path": "/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-24-38_UTC_Ci5PdHUrgvk_3.jpg",
+      "year": 2022,
+      "division": "manager",
+      "memberName": "Mustika Wahyu Aprilia",
+      "role": "Manager (Keuangan & Administrasi)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_leader_muhammad_iqbal_rasyid_01.jpg",
+      "path": "/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_15-29-35_UTC_Ci5QBYaLgHg_2.jpg",
+      "year": 2022,
+      "division": "leader",
+      "memberName": "Muhammad Iqbal Rasyid",
+      "role": "Ketua Tim (Team Leader 2022)",
+      "sequence": 1,
+      "sizeBytes": 53304,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_program_salsabila_azzahra_psdu_01.jpg",
+      "path": "/images/members/2022_program_salsabila_azzahra_psdu_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_16-40-21_UTC_Ci5YHvevYYu_2.jpg",
+      "year": 2022,
+      "division": "program",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Programmer (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 58938,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_program_muhammad_iqbal_rasyid_01.jpg",
+      "path": "/images/members/2022_program_muhammad_iqbal_rasyid_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_16-40-21_UTC_Ci5YHvevYYu_3.jpg",
+      "year": 2022,
+      "division": "program",
+      "memberName": "Muhammad Iqbal Rasyid",
+      "role": "Programmer (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_program_budi_arjaya_wida_01.jpg",
+      "path": "/images/members/2022_program_budi_arjaya_wida_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_16-40-21_UTC_Ci5YHvevYYu_4.jpg",
+      "year": 2022,
+      "division": "program",
+      "memberName": "Budi Arjaya Wida",
+      "role": "Programmer (Mentor)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2022_program_nurcholis_01.jpg",
+      "path": "/images/members/2022_program_nurcholis_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2022-09-24_16-40-21_UTC_Ci5YHvevYYu_5.jpg",
+      "year": 2022,
+      "division": "program",
+      "memberName": "Nurcholis",
+      "role": "Programmer (Mentor)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_program_salsabila_azzahra_psdu_01.jpg",
+      "path": "/images/members/2023_program_salsabila_azzahra_psdu_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_2.jpg",
+      "year": 2023,
+      "division": "program",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Programmer / Leader (Angkatan 2020)",
+      "sequence": 1,
+      "sizeBytes": 47983,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_program_tri_wahyu_handoyo_01.jpg",
+      "path": "/images/members/2023_program_tri_wahyu_handoyo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_3.jpg",
+      "year": 2023,
+      "division": "program",
+      "memberName": "Tri Wahyu Handoyo",
+      "role": "Programmer (Angkatan 2022)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_program_farhan_yuda_mahendra_01.jpg",
+      "path": "/images/members/2023_program_farhan_yuda_mahendra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_4.jpg",
+      "year": 2023,
+      "division": "program",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Programmer (Angkatan 2022)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_mekanik_ilham_widyo_nugroho_01.jpg",
+      "path": "/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3_2.jpg",
+      "year": 2023,
+      "division": "mekanik",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Mekanik (Angkatan 2021)",
+      "sequence": 1,
+      "sizeBytes": 48644,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_mekanik_muhamad_ilham_sony_01.jpg",
+      "path": "/images/members/2023_mekanik_muhamad_ilham_sony_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3_3.jpg",
+      "year": 2023,
+      "division": "mekanik",
+      "memberName": "Muhamad Ilham Sony",
+      "role": "Mekanik (Angkatan 2020)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_mekanik_musyarof_rifai_01.jpg",
+      "path": "/images/members/2023_mekanik_musyarof_rifai_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3_4.jpg",
+      "year": 2023,
+      "division": "mekanik",
+      "memberName": "Musyarof Rifai",
+      "role": "Mekanik Advisor (Alumni)",
+      "sequence": 1,
+      "sizeBytes": 85549,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_elektronik_yusron_nur_latief_01.jpg",
+      "path": "/images/members/2023_elektronik_yusron_nur_latief_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_2.jpg",
+      "year": 2023,
+      "division": "elektronik",
+      "memberName": "Yusron Nur Latief",
+      "role": "Elektronik Advisor (Alumni)",
+      "sequence": 1,
+      "sizeBytes": 40580,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_elektronik_agus_bagaskoro_01.jpg",
+      "path": "/images/members/2023_elektronik_agus_bagaskoro_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_3.jpg",
+      "year": 2023,
+      "division": "elektronik",
+      "memberName": "Agus Bagaskoro",
+      "role": "Elektronik (Angkatan 2021)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "path": "/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_4.jpg",
+      "year": 2023,
+      "division": "elektronik",
+      "memberName": "Abdul Hasib Adzdzin Nuha",
+      "role": "Elektronik (Angkatan 2022)",
+      "sequence": 1,
+      "sizeBytes": 2072,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_manager_mustika_wahyu_aprilia_01.jpg",
+      "path": "/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-41-47_UTC_Cw6at1NPTGL_2.jpg",
+      "year": 2023,
+      "division": "manager",
+      "memberName": "Mustika Wahyu Aprilia",
+      "role": "Manager Tim (Angkatan 2021)",
+      "sequence": 1,
+      "sizeBytes": 47970,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_manager_yuli_dwi_saputri_01.jpg",
+      "path": "/images/members/2023_manager_yuli_dwi_saputri_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-41-47_UTC_Cw6at1NPTGL_3.jpg",
+      "year": 2023,
+      "division": "manager",
+      "memberName": "Yuli Dwi Saputri",
+      "role": "Manager Advisor (Alumni)",
+      "sequence": 1,
+      "sizeBytes": 77190,
+      "isStudio": false
+    },
+    {
+      "filename": "2023_leader_salsabila_azzahra_psdu_01.jpg",
+      "path": "/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2023-09-08_01-48-22_UTC_Cw6bd9zPTNP_2.jpg",
+      "year": 2023,
+      "division": "leader",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Ketua Tim (Team Leader 2023)",
+      "sequence": 1,
+      "sizeBytes": 39544,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_program_tri_wahyu_handoyo_01.jpg",
+      "path": "/images/members/2024_program_tri_wahyu_handoyo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_2.jpg",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Tri Wahyu Handoyo",
+      "role": "Programmer (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 68802,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_program_salsabila_azzahra_psdu_01.jpg",
+      "path": "/images/members/2024_program_salsabila_azzahra_psdu_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_3.jpg",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Salsabila Azzahra Putri Sophia Dewi Utami",
+      "role": "Programmer (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 67959,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_program_farhan_yuda_mahendra_01.jpg",
+      "path": "/images/members/2024_program_farhan_yuda_mahendra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_4.jpg",
+      "year": 2024,
+      "division": "program",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Programmer (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 69030,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_mekanik_ilham_widyo_nugroho_01.jpg",
+      "path": "/images/members/2024_mekanik_ilham_widyo_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_2.jpg",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Mekanik / Ketua Tim (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 68023,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_mekanik_muhamad_ilham_sony_01.jpg",
+      "path": "/images/members/2024_mekanik_muhamad_ilham_sony_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_3.jpg",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Muhamad Ilham Sony",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 67258,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_mekanik_caesar_sokma_langgeng_01.jpg",
+      "path": "/images/members/2024_mekanik_caesar_sokma_langgeng_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_4.jpg",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Caesar Sokma Langgeng",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 70091,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_mekanik_rionaldi_nugroho_01.jpg",
+      "path": "/images/members/2024_mekanik_rionaldi_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_5.jpg",
+      "year": 2024,
+      "division": "mekanik",
+      "memberName": "Rionaldi Nugroho",
+      "role": "Mekanik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 70859,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "path": "/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_2.jpg",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Abdul Hasib Adzdzin Nuha",
+      "role": "Elektronik (Koordinator)",
+      "sequence": 1,
+      "sizeBytes": 70593,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_elektronik_agus_bagaskoro_01.jpg",
+      "path": "/images/members/2024_elektronik_agus_bagaskoro_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_3.jpg",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Agus Bagaskoro",
+      "role": "Elektronik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 69043,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_elektronik_ikhsan_nurrohman_01.jpg",
+      "path": "/images/members/2024_elektronik_ikhsan_nurrohman_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_4.jpg",
+      "year": 2024,
+      "division": "elektronik",
+      "memberName": "Ikhsan Nurrohman",
+      "role": "Elektronik (Anggota)",
+      "sequence": 1,
+      "sizeBytes": 72250,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_manager_mustika_wahyu_aprilia_01.jpg",
+      "path": "/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-45-33_UTC_C_0wQ-qzwUx_2.jpg",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Mustika Wahyu Aprilia",
+      "role": "Manager (Keuangan & Administrasi)",
+      "sequence": 1,
+      "sizeBytes": 68426,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_manager_rose_pita_nur_afifah_01.jpg",
+      "path": "/images/members/2024_manager_rose_pita_nur_afifah_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-45-33_UTC_C_0wQ-qzwUx_3.jpg",
+      "year": 2024,
+      "division": "manager",
+      "memberName": "Rose Pita Nur Afifah",
+      "role": "Manager (Media & Publikasi)",
+      "sequence": 1,
+      "sizeBytes": 67496,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_pembimbing_prof_moh_khairudin_01.jpg",
+      "path": "/images/members/2024_pembimbing_prof_moh_khairudin_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-47-00_UTC_C_0wbi1z6IH.jpg",
+      "year": 2024,
+      "division": "pembimbing",
+      "memberName": "Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU.",
+      "role": "Dosen Pembimbing Utama",
+      "sequence": 1,
+      "sizeBytes": 67566,
+      "isStudio": false
+    },
+    {
+      "filename": "2024_leader_ilham_widyo_nugroho_01.jpg",
+      "path": "/images/members/2024_leader_ilham_widyo_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2024-09-12_16-47-42_UTC_C_0wguVTpGY.jpg",
+      "year": 2024,
+      "division": "leader",
+      "memberName": "Ilham Widyo Nugroho",
+      "role": "Ketua Tim (Team Leader 2024)",
+      "sequence": 1,
+      "sizeBytes": 75027,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_mekanik_rionaldi_nugroho_01.jpg",
+      "path": "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_2.jpg",
+      "year": 2025,
+      "division": "mekanik",
+      "memberName": "Rionaldi Nugroho",
+      "role": "Mekanik (Koordinator 2025)",
+      "sequence": 1,
+      "sizeBytes": 74746,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_mekanik_caesar_sokma_langgeng_01.jpg",
+      "path": "/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_3.jpg",
+      "year": 2025,
+      "division": "mekanik",
+      "memberName": "Caesar Sokma Langgeng",
+      "role": "Mekanik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 70555,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+      "path": "/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_4.jpg",
+      "year": 2025,
+      "division": "mekanik",
+      "memberName": "Adhiyatma Fatya Ramadhani",
+      "role": "Mekanik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 70887,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_mekanik_andika_nanda_wijaya_01.jpg",
+      "path": "/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_5.jpg",
+      "year": 2025,
+      "division": "mekanik",
+      "memberName": "Andika Nanda Wijaya",
+      "role": "Mekanik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 70488,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_mekanik_kharisma_putra_mahardika_01.jpg",
+      "path": "/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_6.jpg",
+      "year": 2025,
+      "division": "mekanik",
+      "memberName": "Kharisma Putra Mahardika",
+      "role": "Mekanik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 71645,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_elektronik_ikhsan_nurrohman_01.jpg",
+      "path": "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_2.jpg",
+      "year": 2025,
+      "division": "elektronik",
+      "memberName": "Ikhsan Nurrohman",
+      "role": "Elektronik (Koordinator 2025)",
+      "sequence": 1,
+      "sizeBytes": 86368,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "path": "/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_3.jpg",
+      "year": 2025,
+      "division": "elektronik",
+      "memberName": "Abdul Hasib Adzdzin Nuha",
+      "role": "Elektronik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 89992,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+      "path": "/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_4.jpg",
+      "year": 2025,
+      "division": "elektronik",
+      "memberName": "Aryasetya Maulana Swasdika",
+      "role": "Elektronik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 82548,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_elektronik_naufal_farros_zainal_arifin_01.jpg",
+      "path": "/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_5.jpg",
+      "year": 2025,
+      "division": "elektronik",
+      "memberName": "Naufal Farros Zainal Arifin",
+      "role": "Elektronik (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 82385,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_program_tri_wahyu_handoyo_01.jpg",
+      "path": "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_2.jpg",
+      "year": 2025,
+      "division": "program",
+      "memberName": "Tri Wahyu Handoyo",
+      "role": "Programmer (Koordinator 2025)",
+      "sequence": 1,
+      "sizeBytes": 81669,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_program_farhan_yuda_mahendra_01.jpg",
+      "path": "/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_3.jpg",
+      "year": 2025,
+      "division": "program",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Programmer / Leader 2025",
+      "sequence": 1,
+      "sizeBytes": 81103,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_program_hanif_nurkhalis_01.jpg",
+      "path": "/images/members/2025_program_hanif_nurkhalis_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_4.jpg",
+      "year": 2025,
+      "division": "program",
+      "memberName": "Hanif NurKhalis",
+      "role": "Programmer (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 78426,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_program_hisyam_yasid_pratowo_01.jpg",
+      "path": "/images/members/2025_program_hisyam_yasid_pratowo_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_5.jpg",
+      "year": 2025,
+      "division": "program",
+      "memberName": "Hisyam Yasid Pratowo",
+      "role": "Programmer (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 78859,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_manager_rose_pita_nur_afifah_01.jpg",
+      "path": "/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-30-33_UTC_DPHoFZYk8lw_2.jpg",
+      "year": 2025,
+      "division": "manager",
+      "memberName": "Rose Pita Nur Afifah",
+      "role": "Manager (Koordinator 2025)",
+      "sequence": 1,
+      "sizeBytes": 78206,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_manager_zelfa_nafisah_zalna_01.jpg",
+      "path": "/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-30-33_UTC_DPHoFZYk8lw_3.jpg",
+      "year": 2025,
+      "division": "manager",
+      "memberName": "Zelfa Nafisah Zalna",
+      "role": "Manager (Anggota 2025)",
+      "sequence": 1,
+      "sizeBytes": 77447,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_pembimbing_prof_moh_khairudin_01.jpg",
+      "path": "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-31-45_UTC_DPHoOJJk2NM_2.jpg",
+      "year": 2025,
+      "division": "pembimbing",
+      "memberName": "Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU.",
+      "role": "Dosen Pembimbing Utama",
+      "sequence": 1,
+      "sizeBytes": 125095,
+      "isStudio": false
+    },
+    {
+      "filename": "2025_leader_farhan_yuda_mahendra_01.jpg",
+      "path": "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg",
+      "sourcePath": "public/images/instagram_feed/2025-09-27_20-32-54_UTC_DPHoWoFkxa3_2.jpg",
+      "year": 2025,
+      "division": "leader",
+      "memberName": "Farhan Yuda Mahendra",
+      "role": "Ketua Tim (Team Leader 2025)",
+      "sequence": 1,
+      "sizeBytes": 123758,
+      "isStudio": false
+    }
+  ]
+}

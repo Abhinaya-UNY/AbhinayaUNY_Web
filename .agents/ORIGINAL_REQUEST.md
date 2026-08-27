@@ -1,52 +1,47 @@
-# Original User Request
+﻿# Original User Request
 
-## Initial Request — 2026-08-23T00:25:25Z
+## 2026-08-27T16:11:34Z
 
-Refine and elevate the official Abhinaya UNY Robotics Portal (https://abhinaya-uny.github.io/AbhinayaUNY_Web/) with proportional button positioning below the hero photo, comprehensive guidebook alignment, YouTube & Instagram media integrations, dedicated team roster cards extracted from official team records, and an offline local management tool for the team manager to update competitions and team members without exposing admin access on the public web.
+<USER_REQUEST>
+Lakukan analisis mendalam dan renaming sistematis terhadap seluruh foto anggota dari arsip feed Instagram (@abhinaya.uny 2020–2025), lalu perbarui antarmuka Roster Anggota pada web Abhinaya UNY: menampilkan deretan seluruh Ketua Tim (2020–sekarang) dan seluruh Manager (2020–sekarang) dalam baris khusus yang lengkap, divisi teknis aktif saat ini, serta modul arsip alumni interaktif berbasis tahun generasi.
 
 Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
 Integrity mode: development
 
-## Reference Materials
-- Official Live Website: https://abhinaya-uny.github.io/AbhinayaUNY_Web/
-- YouTube Channel & Showcase:
-  - Channel: https://www.youtube.com/@AbhinayaUNY
-  - Video 1 (Main Action): https://www.youtube.com/watch?v=PmxwdrhpxKg
-  - Video 2 (Official Shorts): https://www.youtube.com/shorts/wLusNVfFFHA
-- Instagram Profile & Archives: https://www.instagram.com/abhinaya.uny/
-- Local Official Rulebooks & Guidebooks:
-  - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\Restek\Abhinaya 2024\Bedah Rules\BUKU 7 Kontes Robot Tematik Indonesia (KRTMI).pdf
-  - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\Restek\Abhinaya 2024\Bedah Rules\Buku Pedoman KRI 2024 fix.pdf
-  - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\Restek\Abhinaya KRTMI 2023\BukuPedomanKRI2023.pdf
-  - D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\Lomba Technocorner UGM\02_Transporter\GUIDEBOOK TRANSPORTER TC26.pdf
-
 ## Requirements
 
-### R1. Hero Layout & Button Proportions
-- Position the two CTA buttons (EXPLORE TEAM & GUIDEBOOKS and WATCH ROBOT IN ACTION) strictly and comfortably below the hero photo container across all viewport sizes (mobile, tablet, desktop) so the team photo, trophies, and UNY flags remain 100% visible and unblocked.
-- Ensure the hero background photo maintains proper aspect ratio on mobile screens without over-zooming or cropping out team members on the sides.
+### R1. Instagram Member Photo Analysis & Semantic Renaming Pipeline
+Analisis seluruh foto dari arsip Instagram public/images/instagram_feed/ dan public/images/members/. Lakukan renaming / penataan file gambar ke dalam direktori terstruktur dengan format penamaan semantik yang jelas: {tahun}_{divisi}_{nama_anggota}_{urutan}.jpg (atau .png). Pastikan foto non-anggota atau potongan grafis grid tidak diikutsertakan.
 
-### R2. Official Multimedia & YouTube Showcase Integration
-- Embed and feature official Abhinaya UNY YouTube videos (https://www.youtube.com/watch?v=PmxwdrhpxKg, https://www.youtube.com/shorts/wLusNVfFFHA, and channel https://www.youtube.com/@AbhinayaUNY).
-- Incorporate interactive video showcases and seamless modals with fluid playback and responsive sizing.
+### R2. All-Era Leaders & Managers Showcase (2020 – Sekarang)
+Pada tampilan roster utama:
+- **Baris Khusus Ketua Tim (Leaders Hall of Fame)**: Tampilkan seluruh Ketua Tim Abhinaya dari tahun 2020 hingga sekarang (2020, 2021, 2022, 2023, 2024, 2025) secara berurutan dalam satu deret baris yang ramai dan estetik.
+  - 2020: Leader 2020
+  - 2021: Leader 2021
+  - 2022: Leader 2022 (dari post 2022-09-24 Ci5QBYaLgHg)
+  - 2023: Salsabila Azzahra PSDU (Leader 2023 - Cw6bd9zPTNP)
+  - 2024: Ilham Widyo Nugroho (Leader 2024 - C_0wguVTpGY)
+  - 2025: Farhan Yuda Mahendra (Leader 2025 - DPHoWoFkxa3)
+- **Baris Khusus Manager (Managers Showcase)**: Tampilkan seluruh Manager tim dari tahun 2020 hingga sekarang secara berurutan (2020: Yuli Dwi Saputri, 2022, 2023: Mustika Wahyu Aprilia, 2024: Mustika & Rose Pita, 2025: Rose Pita & Zelfa Nafisah Zalna).
+- Setiap kartu dilengkapi badge tahun kepemimpinan, prodi, dan animasi smooth auto-crossfade antar foto.
 
-### R3. Team Roster & Division Member Showcase
-- Build a dedicated, interactive Team Member Roster section categorizing members by official divisions (Mekanik, Elektrik, Programming/AI, and Manajerial/Media).
-- Design high-tech member cards with division badges, roles, and profile imagery derived from authentic team documentation.
+### R3. Current Active Technical Squad (Programmer, Elektronik, Mekanik)
+Tampilkan anggota skuad aktif saat ini untuk divisi Program, Elektronik, dan Mekanik lengkap dengan peran spesifik, keahlian teknis, dan multi-foto crossfade.
 
-### R4. Comprehensive Guidebook Alignment (2019 – 2026)
-- Cross-verify and present accurate competition rules, arena dimensions, scoring criteria, and robot mechanical/electronic constraints extracted directly from the local PDF guidebooks (KRTMI 2019–2024 and Technocorner UGM 2026).
+### R4. Interactive Alumni & Generation Explorer
+Sediakan modul/tombol interaktif penjelajah alumni (*Alumni & Generations Archive*) dengan tab/filter tahun generasi (2020, 2021, 2022, 2023, 2024, 2025). Ketika tombol tahun diklik, tampilkan daftar dan kartu anggota kontingen resmi pada tahun tersebut beserta peran & divisi mereka.
 
-### R5. Offline Local Manager Tool (Zero Public Admin Exposure)
-- Provide a standalone, local CLI / GUI management tool (Python/Node.js script located in scripts/manager_tool.py outside the public web bundle) allowing the team manager to effortlessly add new competition archives, guidebooks, or team members into the data layer (data/krtmiData.ts, data/galleryData.ts, data/teamData.ts).
-- Keep the public website 100% read-only, informational, and optimized for prospective members/maba with zero public admin endpoints or exposed credentials.
+### R5. Ultra-Smooth Crossfade Photo Transition Engine
+Pastikan seluruh kartu anggota dan modal profil menggunakan transisi pergantian foto (*crossfade*) yang sangat halus, dilengkapi indikator jumlah slide dan kontrol navigasi manual.
 
 ## Acceptance Criteria
 
-### Verification & Performance Checks
-- [ ] npm run build succeeds with zero TypeScript, lint, or static export errors.
-- [ ] CTA buttons in the hero section are verified below the photo stage on both mobile (390px) and desktop (1920px) viewports with zero overlap on team flags.
-- [ ] All YouTube videos (PmxwdrhpxKg, wLusNVfFFHA) render and play responsively.
-- [ ] Team Member section renders division cards with verified team roles.
-- [ ] Standalone local manager tool (scripts/manager_tool.py) successfully creates/updates competition and team member records in the local data files.
-- [ ] Website is committed and deployed cleanly to GitHub Pages (https://abhinaya-uny.github.io/AbhinayaUNY_Web/).
+### Build & Functionality Verification
+- [ ] 
+pm run build sukses dengan 0 error kompilasi, TypeScript, atau static export.
+- [ ] Seluruh foto anggota hasil ekstraksi Instagram ter-rename dengan format semantik rapi.
+- [ ] Baris Leader menampilkan seluruh Ketua Tim (2020–2025) dan Baris Manager menampilkan seluruh Manager (2020–2025).
+- [ ] Modul Alumni interaktif berfungsi mulus menampilkan daftar anggota sesuai tahun yang dipilih.
+- [ ] Animasi perpindahan foto crossfade berjalan halus tanpa patah-patah pada kartu maupun modal.
+- [ ] Perubahan tersimpan bersih, ter-commit, dan ter-push ke repository GitHub.
+</USER_REQUEST>

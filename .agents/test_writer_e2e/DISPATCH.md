@@ -1,31 +1,26 @@
-## 2026-08-23T00:32:03Z
-You are the E2E Test Writer for the Abhinaya UNY Robotics Portal project.
+## 2026-08-27T16:18:31Z
+You are the Test Writer for the E2E Testing Track of the Abhinaya UNY Web project.
 Your working directory is: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\test_writer_e2e
 
-MANDATORY INPUTS:
-Read ORIGINAL_REQUEST.md at:
-D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\ORIGINAL_REQUEST.md
-Read PROJECT.md at:
-D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\PROJECT.md
-Read TEST_INFRA.md at:
-D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_INFRA.md
+Master Documents to Read:
+1. ORIGINAL_REQUEST.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\ORIGINAL_REQUEST.md
+2. PROJECT.md: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\PROJECT.md
 
-FILES YOU OWN:
-- D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\scripts\test_e2e_suite.py
-- D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_READY.md
+Your Scope & Objectives:
+- File write ownership: `TEST_INFRA.md`, `TEST_READY.md`, `tests/e2e/` (or `scripts/test_e2e_roster.ts` / `.js`).
+- Design an opaque-box, requirement-driven E2E test suite covering all 5 core requirements from ORIGINAL_REQUEST.md:
+  - Tier 1: Feature Coverage (≥5 test cases per feature: R1 Renaming, R2 Leaders 2020-2025, R2 Managers 2020-2025, R3 Active Technical Squad, R4 Alumni Generation Explorer 2020-2025, R5 Crossfade Transition).
+  - Tier 2: Boundary & Corner Cases (empty states, missing optional fields, image fallback handling, year switching, out-of-range navigation, rapid clicking).
+  - Tier 3: Cross-Feature Combinations (year filter interaction with modal details, division filter with search query, crossfade continuity during tab switches).
+  - Tier 4: Real-World Application Scenarios (full user journey exploring 2020 inception team -> 2023 champions -> 2025 active squad, modal inspection, image loading, static export compatibility).
+- Implement a lightweight, zero-dependency Node.js / TypeScript E2E test runner (e.g. `scripts/run_e2e_tests.js` or `tests/run_e2e.ts` runnable with `npm.cmd run build` / node).
+- Create `TEST_INFRA.md` and when test suite is fully created, publish `TEST_READY.md` at project root.
 
-TASKS:
-1. Initialize your BRIEFING.md and progress.md in your working directory.
-2. Implement `scripts/test_e2e_suite.py`:
-   - Comprehensive multi-tier test harness covering Tiers 1–5:
-     - Tier 1: Feature Coverage (>=5 tests per feature across all 6 features: Hero button placement & CSS classes, YouTube video IDs & 16:9/9:16 tabs, Team Roster divisions & members, Guidebook editions & rule parameters, Manager tool CLI/TUI capabilities, Static export files).
-     - Tier 2: Boundary & Corner Cases (Mobile 360px–420px viewports, 4K screen styles, thumbnail fallback URLs, corrupted data rejection in manager tool, empty/missing fields).
-     - Tier 3: Cross-Feature Combinations (Hero CTA navigation links, Division filtering + modal state, Manager tool output generating valid TS for static build).
-     - Tier 4: Real-World Application Scenarios (5 detailed end-to-end user workflows).
-     - Tier 5: Adversarial Coverage & Code Integrity (No placeholder strings, authentic team member records, valid YouTube IDs, zero build errors).
-3. Execute the test suite via `python scripts/test_e2e_suite.py` and document results.
-4. Prepare `TEST_READY.md` summarizing the test suite coverage, invocation instructions, and passing results.
-5. Document findings in:
-   - `D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\test_writer_e2e\report.md`
-   - `D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\test_writer_e2e\handoff.md`
-6. Send completion message back to orchestrator (conversation ID: 0ba6ee0b-a10f-4075-93e6-8552bb10e849).
+MANDATORY INTEGRITY WARNING:
+DO NOT CHEAT. All tests must be genuine and independently verifiable.
+
+Output Requirements:
+- Write `TEST_INFRA.md` at project root (`D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_INFRA.md`).
+- Write `TEST_READY.md` at project root (`D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\TEST_READY.md`).
+- Write `D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\.agents\test_writer_e2e\handoff.md`.
+- Send a message to parent when complete.

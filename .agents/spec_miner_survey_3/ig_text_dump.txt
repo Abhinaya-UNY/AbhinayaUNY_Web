@@ -1,0 +1,839 @@
+================================================================================
+POST: 2020-01-27 08:50:23 | shortcode: B7ziZxrhXyB | file: 2020-01-27_01-50-23_UTC_B7ziZxrhXyB.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:50:34 | shortcode: B7zibLLBNE5 | file: 2020-01-27_01-50-34_UTC_B7zibLLBNE5.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:50:43 | shortcode: B7zicL5hGmm | file: 2020-01-27_01-50-43_UTC_B7zicL5hGmm.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:50:51 | shortcode: B7zidOPB-bu | file: 2020-01-27_01-50-51_UTC_B7zidOPB-bu.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:51:03 | shortcode: B7zieoDB1Lr | file: 2020-01-27_01-51-03_UTC_B7zieoDB1Lr.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:51:10 | shortcode: B7ziflUBcMi | file: 2020-01-27_01-51-10_UTC_B7ziflUBcMi.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:51:31 | shortcode: B7ziiEbhNt_ | file: 2020-01-27_01-51-31_UTC_B7ziiEbhNt_.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:51:42 | shortcode: B7zijeuhReG | file: 2020-01-27_01-51-42_UTC_B7zijeuhReG.json.xz | sidecars: 0
+================================================================================
+POST: 2020-01-27 08:52:00 | shortcode: B7zilpDhQ0e | file: 2020-01-27_01-52-00_UTC_B7zilpDhQ0e.json.xz | sidecars: 0
+================================================================================
+POST: 2020-07-28 21:03:49 | shortcode: CDMDzwrjLDf | file: 2020-07-28_14-03-49_UTC_CDMDzwrjLDf.json.xz | sidecars: 0
+CAPTION:
+KRI Nasional 2019
+================================================================================
+POST: 2020-07-28 21:21:57 | shortcode: CDMF4i9D1iT | file: 2020-07-28_14-21-57_UTC_CDMF4i9D1iT.json.xz | sidecars: 0
+CAPTION:
+Alhamdulilah ditahun pertama bisa mendapat gelar juara 2 KRTMI KRI Nasional
+================================================================================
+POST: 2020-07-28 21:22:54 | shortcode: CDMF_hcDUwh | file: 2020-07-28_14-22-54_UTC_CDMF_hcDUwh.json.xz | sidecars: 0
+================================================================================
+POST: 2020-08-17 00:54:45 | shortcode: CD9ZVzpjcgN | file: 2020-08-16_17-54-45_UTC_CD9ZVzpjcgN.json.xz | sidecars: 5
+CAPTION:
+MEET OUR TEAM 
+[PROGRAMER OF ABHINAYA]
+
+Hello kenalan dulu yuk
+1. Nurcholis
+ (Pendidikan  Teknik Elektronika)
+2. Alfan Fajri Tamyis 
+ (Pendidikan  Teknik Elektronika)
+3. Budi Arjaya Wida 
+ (Pendidikan  Teknik Mekatronika)
+4. Muhammad Iqbal Rasyid 
+ (Pendidikan  Teknik Mekatronika)
+
+----------------------------------------
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2020-08-17 00:57:56 | shortcode: CD9ZtD9jHCt | file: 2020-08-16_17-57-56_UTC_CD9ZtD9jHCt.json.xz | sidecars: 0
+CAPTION:
+ABHINAYA UNY
+------------------------------------
+#letsmakeagreathistory
+================================================================================
+POST: 2020-08-17 01:05:25 | shortcode: CD9aj6dD_Xc | file: 2020-08-16_18-05-25_UTC_CD9aj6dD_Xc.json.xz | sidecars: 5
+CAPTION:
+MEET OUR TEAM
+[MECHANICS OF ABHINAYA]
+
+Hello kenalan dulu yuk
+1. Afif Aiman Saputra
+ (Pendidikan  Teknik Mesin)
+2. Musyarof Rifai 
+ (Pendidikan  Teknik Mekatronika)
+3. Anggoro Fajar Dwi Utomo
+ (Pendidikan  Teknik Mekatronika)
+4. Muhammad Rovi Aan S
+ (Teknik Elektro)
+
+-----------------------------------------------
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2020-08-17 01:07:08 | shortcode: CD9awafDNZH | file: 2020-08-16_18-07-08_UTC_CD9awafDNZH.json.xz | sidecars: 2
+CAPTION:
+MEET OUR TEAM
+[MANAGER OF ABHINAYA]
+
+Hallo kenalan dulu yuk
+1. Yuli Dwi Saputri
+ (Pendidikan  Teknik Elektro)
+
+----------------------------------------------
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+================================================================================
+POST: 2020-08-17 01:09:22 | shortcode: CD9bA2HjVTU | file: 2020-08-16_18-09-22_UTC_CD9bA2HjVTU.json.xz | sidecars: 0
+CAPTION:
+ABHINAYA UNY
+-------------------------------
+#letsmakeagreathistory
+================================================================================
+POST: 2020-08-17 01:13:17 | shortcode: CD9bdiQjGn5 | file: 2020-08-16_18-13-17_UTC_CD9bdiQjGn5.json.xz | sidecars: 4
+CAPTION:
+MEET OUR TEAM
+[ELECTRONICS OF ABHINAYA]
+
+Hello kenalan dulu yuk
+1. Musa Beni Ricardo A
+ (Pendidikan  Teknik Mekatronika)
+2. Ardhi Wiranata
+ (Pendidikan  Teknik Elektronika)
+3. Yusron Nur Latief
+ (D4 Teknik Elektro)
+
+-------------------------------------------
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2021-10-24 21:51:00 | shortcode: CValTvaPQdt | file: 2021-10-24_14-51-00_UTC_CValTvaPQdt.json.xz | sidecars: 4
+CAPTION:
+Kontes Robot Tematik Indonesia Tingkat Nasional 2020
+
+#abhinayauny 
+#kri2020 
+#krtmi2020
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2021-10-24 21:51:41 | shortcode: CValYuvPiOa | file: 2021-10-24_14-51-41_UTC_CValYuvPiOa.json.xz | sidecars: 0
+CAPTION:
+Kontes Robot Tematik Indonesia Tingkat Nasional 2020
+
+#abhinayauny 
+#kri2020 
+#krtmi2020
+================================================================================
+POST: 2021-10-24 22:17:40 | shortcode: CVaoXCJvrS9 | file: 2021-10-24_15-17-40_UTC_CVaoXCJvrS9.json.xz | sidecars: 5
+CAPTION:
+Kontes Robot Tematik Indonesia Tingkat Nasional 2020
+
+#abhinayauny 
+#kri2020 
+#krtmi2020
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2022-05-28 11:15:20 | shortcode: CeFoQ7XLJXR | file: 2022-05-28_04-15-20_UTC_CeFoQ7XLJXR.json.xz | sidecars: 0
+CAPTION:
+What is KRI?
+================================================================================
+POST: 2022-05-28 11:21:57 | shortcode: CeFpBVwLegE | file: 2022-05-28_04-21-57_UTC_CeFpBVwLegE.json.xz | sidecars: 0
+CAPTION:
+What is KRTMI?
+================================================================================
+POST: 2022-05-28 11:22:16 | shortcode: CeFpDwkrQRW | file: 2022-05-28_04-22-16_UTC_CeFpDwkrQRW.json.xz | sidecars: 0
+================================================================================
+POST: 2022-05-28 11:23:34 | shortcode: CeFpNNhLYnR | file: 2022-05-28_04-23-34_UTC_CeFpNNhLYnR.json.xz | sidecars: 0
+CAPTION:
+HELLO
+
+Hubungan kerja sama yang solid merupakan kekuatan terbesar dalam sebuat tim. Kerja sama antar anggota dan komitmen dalam menjalankan amanah menjadi kunci keberhasilan.
+
+So let's introduce  team manager abhinaya
+Yuli Dwi Saputri 
+(Pendidikan Teknik Elektro )
+================================================================================
+POST: 2022-05-28 11:24:07 | shortcode: CeFpRStLwaE | file: 2022-05-28_04-24-07_UTC_CeFpRStLwaE.json.xz | sidecars: 0
+CAPTION:
+Let's introduce member abhinaya team 2021
+================================================================================
+POST: 2022-05-28 11:24:23 | shortcode: CeFpTM3Lb00 | file: 2022-05-28_04-24-23_UTC_CeFpTM3Lb00.json.xz | sidecars: 0
+CAPTION:
+HELLO
+
+Hubungan kerja sama yang solid merupakan kekuatan terbesar dalam sebuat tim. Kerja sama antar anggota dan komitmen dalam menjalankan amanah menjadi kunci keberhasilan.
+
+So let's introduce  team electronic abhinaya
+Mussa Beni Ricardo Aruan
+(Pendidikan Teknik Mekatronika)
+Yusron Nur Latief
+(D4 Teknik Elektro)
+Ardhi Wiranata
+(Pendidikan Teknik Elektronika)
+Danang  Prasetyo
+(Pendidikan  Teknik Mekatronika)
+================================================================================
+POST: 2022-05-28 11:24:43 | shortcode: CeFpVqfL4ZZ | file: 2022-05-28_04-24-43_UTC_CeFpVqfL4ZZ.json.xz | sidecars: 0
+CAPTION:
+HELLO
+
+Hubungan kerja sama yang solid merupakan kekuatan terbesar dalam sebuat tim. Kerja sama antar anggota dan komitmen dalam menjalankan amanah menjadi kunci keberhasilan.
+
+So let's introduce  team program  abhinaya
+Nurcholis
+(Pendidikan Teknik Elektronika)
+Budi Arjaya Wida
+(Pendidikan Tenik Mekatronika)
+Alfan Fajri Tanyis
+(Pendidikan Teknik Elektronika)
+Muhammad Iqbal Rasyid 
+(Pendidikan Teknik Mekatronika)
+Salsabila Azzahra Putri
+(Pendidikan Teknik Mekatronika)
+================================================================================
+POST: 2022-05-28 11:25:05 | shortcode: CeFpYVIraoL | file: 2022-05-28_04-25-05_UTC_CeFpYVIraoL.json.xz | sidecars: 0
+CAPTION:
+Let's introduce member abhinaya team 2021
+================================================================================
+POST: 2022-05-28 11:25:24 | shortcode: CeFpaoOLxhn | file: 2022-05-28_04-25-24_UTC_CeFpaoOLxhn.json.xz | sidecars: 0
+CAPTION:
+HELLO
+
+Hubungan kerja sama yang solid merupakan kekuatan terbesar dalam sebuat tim. Kerja sama antar anggota dan komitmen dalam menjalankan amanah menjadi kunci keberhasilan.
+
+So let's introduce  team mechanic abhinaya
+Afif Aiman Saputra
+(Pendidikan Teknik Mesin)
+Muhamad Rovi 
+(Teknik Elektro)
+Annggoro Fajar 
+(Pendidikan Teknik Mekatronika)
+Geo Brama
+(D4 Teknik Mesin)
+Musyarof Rifai
+(Pendidikan Teknik Mekatronika)
+================================================================================
+POST: 2022-09-02 22:04:14 | shortcode: CiAjofZrwxK | file: 2022-09-02_15-04-14_UTC_CiAjofZrwxK.json.xz | sidecars: 2
+CAPTION:
+Alhamdulillah Abhinaya UNY memperoleh peringkat 1 pada KRI Wilayah 2021✨
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+================================================================================
+POST: 2022-09-02 22:04:19 | shortcode: CiAjpHWLy_i | file: 2022-09-02_15-04-19_UTC_CiAjpHWLy_i.json.xz | sidecars: 0
+================================================================================
+POST: 2022-09-02 22:04:35 | shortcode: CiAjrDmLpcr | file: 2022-09-02_15-04-35_UTC_CiAjrDmLpcr.json.xz | sidecars: 0
+CAPTION:
+Alhamdulillah juga Abhinaya UNY mendapatkan predikat Strategi Terbaik pada KRI 2021
+================================================================================
+POST: 2022-09-02 22:05:20 | shortcode: CiAjwfRL4ln | file: 2022-09-02_15-05-20_UTC_CiAjwfRL4ln.json.xz | sidecars: 6
+CAPTION:
+Dokumentasi kegiatan KRI tingkat Wilayah
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+================================================================================
+POST: 2022-09-02 22:05:29 | shortcode: CiAjxl4ryH4 | file: 2022-09-02_15-05-29_UTC_CiAjxl4ryH4.json.xz | sidecars: 0
+================================================================================
+POST: 2022-09-02 22:06:12 | shortcode: CiAj23Yr7iv | file: 2022-09-02_15-06-12_UTC_CiAj23Yr7iv.json.xz | sidecars: 5
+CAPTION:
+Dokumentasi kegiatan KRI tingkat Nasional
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2022-09-22 20:55:19 | shortcode: Ciz7pRSrrH1 | file: 2022-09-22_13-55-19_UTC_Ciz7pRSrrH1.json.xz | sidecars: 0
+================================================================================
+POST: 2022-09-22 20:57:01 | shortcode: Ciz71rorgFF | file: 2022-09-22_13-57-01_UTC_Ciz71rorgFF.json.xz | sidecars: 0
+================================================================================
+POST: 2022-09-22 20:57:20 | shortcode: Ciz74B1LQWr | file: 2022-09-22_13-57-20_UTC_Ciz74B1LQWr.json.xz | sidecars: 0
+================================================================================
+POST: 2022-09-24 22:07:57 | shortcode: Ci5Ni_VrsFe | file: 2022-09-24_15-07-57_UTC_Ci5Ni_VrsFe.json.xz | sidecars: 4
+TAGGED: geobramaa (Geo Brahma Granito Zain), ins.kamil (Ahmad Insan Kamil 🍉), afifaimans (AMS)
+CAPTION:
+Tim Abhinaya 2022 memiliki 3 orang desain yang sangat disiplin antara lain
+1. Geo Brahma Granito Z. (Koor)
+2. Afif Aiman Saputra
+3. Ahmad Insan Kamil
+  CHILD 1: None tags: geobramaa (Geo Brahma Granito Zain), ins.kamil (Ahmad Insan Kamil 🍉), afifaimans (AMS)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2022-09-24 22:10:54 | shortcode: Ci5N4jTrT34 | file: 2022-09-24_15-10-54_UTC_Ci5N4jTrT34.json.xz | sidecars: 5
+TAGGED: asrofrifai (Srop), muh_rovi (Boby), ang_eng_ (AnggoroFajar)
+CAPTION:
+Tim Abhinaya 2022 memiliki 4 orang mekanik yang sangat cekatan dalam bekerja tanpa banyak bicara, diantaranya ada:
+1. Muhammad Rovi Aan S. (Koor)
+2. Anggoro Fajar Dwi S.
+3. Musyarof Rifai
+4. Ilham Widyo Nugroho
+  CHILD 1: None tags: asrofrifai (Srop), muh_rovi (Boby), ang_eng_ (AnggoroFajar)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2022-09-24 22:15:54 | shortcode: Ci5OdP-L4vD | file: 2022-09-24_15-15-54_UTC_Ci5OdP-L4vD.json.xz | sidecars: 4
+TAGGED: aku_bagas24 (Bagas), beniaruann (Musa Beni Ricardo Aruan | 阮穆薩), yn_latip (Yusron Nur Latief)
+CAPTION:
+Tim Abhinaya 2022 memiliki 3 orang elektronik yang hobi lembur sampai tipes, diantaranya:
+1. Yusron Nur Latief (Koor)
+2. Agus Bagaskoro
+3. Musa Beni Ricardo A. (Mentor)
+  CHILD 1: None tags: aku_bagas24 (Bagas), beniaruann (Musa Beni Ricardo Aruan | 阮穆薩), yn_latip (Yusron Nur Latief)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2022-09-24 22:24:38 | shortcode: Ci5PdHUrgvk | file: 2022-09-24_15-24-38_UTC_Ci5PdHUrgvk.json.xz | sidecars: 3
+TAGGED: youuly__ (Yuli Dwi Saputri)
+CAPTION:
+Tim Abhinaya 2022 memiliki 2 orang manajer yang hobi tidur tapi sekalinya bekerja sampai tidak bisa tidur, diantaranya:
+1. Yuli Dwi Saputri
+2. Mustika Wahyu Aprilia
+  CHILD 1: None tags: youuly__ (Yuli Dwi Saputri)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+================================================================================
+POST: 2022-09-24 22:29:35 | shortcode: Ci5QBYaLgHg | file: 2022-09-24_15-29-35_UTC_Ci5QBYaLgHg.json.xz | sidecars: 2
+TAGGED: iqbalrasyid_ (Iqbal Rasyid)
+CAPTION:
+Tim Abhinaya 2022 memiliki seorang leader yang sangat ambis untuk menuntaskan pekerjaan dia adalah Muhammad Iqbal Rasyid
+  CHILD 1: None tags: iqbalrasyid_ (Iqbal Rasyid)
+  CHILD 2: None tags: 
+================================================================================
+POST: 2022-09-24 23:40:21 | shortcode: Ci5YHvevYYu | file: 2022-09-24_16-40-21_UTC_Ci5YHvevYYu.json.xz | sidecars: 5
+TAGGED: iqbalrasyid_ (Iqbal Rasyid), kuranglemu (Salsabila Azzahra), nrchs.mr (Nurcholis), budiarj_ (Bud)
+CAPTION:
+Tim Abhinaya 2022 memiliki 4 orang program yang sangat siap sedia ketika operator rewel mimta revisi 24 jam, diantaranya ada:
+1. Salsabila Azzahra PSDU (Koor)
+2. Muhammad Iqbal Rasyid (Anggota)
+3. Budi Arjaya Wida (Mentor)
+4. Nurcholis (Mentor)
+  CHILD 1: None tags: iqbalrasyid_ (Iqbal Rasyid), kuranglemu (Salsabila Azzahra), nrchs.mr (Nurcholis), budiarj_ (Bud)
+  CHILD 2: None tags: kuranglemu (Salsabila Azzahra)
+  CHILD 3: None tags: iqbalrasyid_ (Iqbal Rasyid)
+  CHILD 4: None tags: budiarj_ (Bud)
+  CHILD 5: None tags: nrchs.mr (Nurcholis)
+================================================================================
+POST: 2023-02-04 00:07:25 | shortcode: CoNUJgovUzp | file: 2023-02-03_17-07-25_UTC_CoNUJgovUzp.json.xz | sidecars: 10
+CAPTION:
+Abhinaya merupakan salah satu Tim Robotika UNY yang telah berjuang dalam Kontes Robot Tematik Indonesia tingkat Wilayah pada tahun 2022 yang diselenggarakan oleh Puspresnas Indonesia.
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+  CHILD 7: None tags: 
+  CHILD 8: None tags: 
+  CHILD 9: None tags: 
+  CHILD 10: None tags: 
+================================================================================
+POST: 2023-02-04 00:07:48 | shortcode: CoNUMPUP-ZH | file: 2023-02-03_17-07-48_UTC_CoNUMPUP-ZH.json.xz | sidecars: 0
+================================================================================
+POST: 2023-02-04 00:08:58 | shortcode: CoNUUzuPX9e | file: 2023-02-03_17-08-58_UTC_CoNUUzuPX9e.json.xz | sidecars: 10
+CAPTION:
+Abhinaya merupakan salah satu Tim Robotika UNY yang telah berjuang dalam Kontes Robot Indonesia bidan Tematik tingkat Nasional pada tahun 2022 yang diselenggarakan oleh Puspresnas Indonesia.
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+  CHILD 7: None tags: 
+  CHILD 8: None tags: 
+  CHILD 9: None tags: 
+  CHILD 10: None tags: 
+================================================================================
+POST: 2023-06-19 00:45:18 | shortcode: Cto_zCIPIMo | file: 2023-06-18_17-45-18_UTC_Cto_zCIPIMo.json.xz | sidecars: 0
+CAPTION:
+Welcome to join the Abhinaya team! You join an amazing team, and we look forward to working with new recruits like you!✨
+================================================================================
+POST: 2023-06-19 00:45:35 | shortcode: Cto_1Jrvlkf | file: 2023-06-18_17-45-35_UTC_Cto_1Jrvlkf.json.xz | sidecars: 0
+CAPTION:
+Welcome to join the Abhinaya team! You join an amazing team, and we look forward to working with new recruits like you!✨
+================================================================================
+POST: 2023-06-19 00:45:51 | shortcode: Cto_3FDv_t0 | file: 2023-06-18_17-45-51_UTC_Cto_3FDv_t0.json.xz | sidecars: 0
+CAPTION:
+Welcome to join the Abhinaya team! You join an amazing team, and we look forward to working with new recruits like you!✨
+================================================================================
+POST: 2023-09-08 08:27:05 | shortcode: Cw6ZCItPRJ- | file: 2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-.json.xz | sidecars: 4
+TAGGED: triwahyu45 (Tri Wahyu), frhnyudaa (فرحان), kuranglemu (Salsabila Azzahra)
+CAPTION:
+Introduction our programmer:
+1. Salsabila Azzahra PSDU
+2. Tri Wahyu Handoyo
+3. Farhan Yuda Mahendra
+
+Are you ready for the next??
+  CHILD 1: None tags: triwahyu45 (Tri Wahyu), frhnyudaa (فرحان), kuranglemu (Salsabila Azzahra)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2023-09-08 08:33:34 | shortcode: Cw6Zxo-vmO3 | file: 2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3.json.xz | sidecars: 4
+TAGGED: ilhamwn_ (), sony_ilham18 (Ilham Sony)
+CAPTION:
+Introduction our Mechanist:
+1. Ilham Widyo Nugroho 
+2. Muhamad Ilham Sony
+
+The Advisor:
+1. Musyarof Rifa'i
+2. Afif Aiman Saputra
+3. Geo Brahma Grenito Zein
+4. Muhammad Rovi A. S.
+5. Anggoro Fajar Dwi
+
+Are you ready for the next??
+  CHILD 1: None tags: ilhamwn_ (), sony_ilham18 (Ilham Sony)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2023-09-08 08:39:35 | shortcode: Cw6ads0v8Q2 | file: 2023-09-08_01-39-35_UTC_Cw6ads0v8Q2.json.xz | sidecars: 4
+TAGGED: hasibnuha (Abdul Hasib Adzdzin Nuha), yn_latip (Yusron Nur Latief)
+CAPTION:
+Introduction our Electronics:
+1. Yusron Nur Latief 
+2. Agus Bagaskoro
+3. Abdul Hasib Adzdzin Nuha
+
+Are you ready for the next??
+  CHILD 1: None tags: hasibnuha (Abdul Hasib Adzdzin Nuha), yn_latip (Yusron Nur Latief)
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+================================================================================
+POST: 2023-09-08 08:41:47 | shortcode: Cw6at1NPTGL | file: 2023-09-08_01-41-47_UTC_Cw6at1NPTGL.json.xz | sidecars: 3
+CAPTION:
+Introduction our Manager: 
+Mustika Wahyu Aprilia
+
+The Advisor:
+Yuli Dwi Saputri
+
+Are you ready for the next??
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+================================================================================
+POST: 2023-09-08 08:46:44 | shortcode: Cw6bSByvBVA | file: 2023-09-08_01-46-44_UTC_Cw6bSByvBVA.json.xz | sidecars: 3
+CAPTION:
+Formasi Tim Abhinaya 2023✨
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+================================================================================
+POST: 2023-09-08 08:48:22 | shortcode: Cw6bd9zPTNP | file: 2023-09-08_01-48-22_UTC_Cw6bd9zPTNP.json.xz | sidecars: 2
+TAGGED: kuranglemu (Salsabila Azzahra)
+CAPTION:
+Introduction our Leader Abhinaya 2023: Salsabila Azzahra PSDU
+  CHILD 1: None tags: kuranglemu (Salsabila Azzahra)
+  CHILD 2: None tags: 
+================================================================================
+POST: 2023-09-08 09:08:37 | shortcode: Cw6dyWqPSoI | file: 2023-09-08_02-08-37_UTC_Cw6dyWqPSoI.json.xz | sidecars: 5
+CAPTION:
+The moments Abhinaya at KRTMI Regional 2023✨
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+================================================================================
+POST: 2023-09-08 09:49:29 | shortcode: Cw6idpGPiVT | file: 2023-09-08_02-49-29_UTC_Cw6idpGPiVT.json.xz | sidecars: 3
+CAPTION:
+Abhinaya UNY memperoleh juara 3 KRTMI tingkat Wilayah I pada Kontes Robot Indonesia 2023✨
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+================================================================================
+POST: 2023-09-08 09:54:52 | shortcode: Cw6jFIzPwDx | file: 2023-09-08_02-54-52_UTC_Cw6jFIzPwDx.json.xz | sidecars: 9
+CAPTION:
+The moments Abhinaya at KRTMI Nasional 2023✨
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+  CHILD 7: None tags: 
+  CHILD 8: None tags: 
+  CHILD 9: None tags: 
+================================================================================
+POST: 2024-09-12 23:26:11 | shortcode: C_0uDCjzSjL | file: 2024-09-12_16-26-11_UTC_C_0uDCjzSjL.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:26:51 | shortcode: C_0uH9gTkXl | file: 2024-09-12_16-26-51_UTC_C_0uH9gTkXl.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:27:12 | shortcode: C_0uKjOzv1u | file: 2024-09-12_16-27-12_UTC_C_0uKjOzv1u.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:27:39 | shortcode: C_0uN4jT4fF | file: 2024-09-12_16-27-39_UTC_C_0uN4jT4fF.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:27:52 | shortcode: C_0uPbYzsDQ | file: 2024-09-12_16-27-52_UTC_C_0uPbYzsDQ.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:28:05 | shortcode: C_0uRA8TA89 | file: 2024-09-12_16-28-05_UTC_C_0uRA8TA89.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika
+================================================================================
+POST: 2024-09-12 23:37:07 | shortcode: C_0vTMcTTGT | file: 2024-09-12_16-37-07_UTC_C_0vTMcTTGT.json.xz | sidecars: 4
+TAGGED: triwahyu45 (Tri Wahyu), frhnyudaa (فرحان), kuranglemu (Salsabila Azzahra)
+CAPTION:
+Introduction our programmer💻🤖
+
+1. Tri Wahyu Handoyo (Koor)
+2. Salsabila Azzahra P.S.D.U.
+3. Farhan Yuda Mahendra
+
+Are you ready for the next??
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: triwahyu45 (Tri Wahyu)
+  CHILD 3: None tags: kuranglemu (Salsabila Azzahra)
+  CHILD 4: None tags: frhnyudaa (فرحان)
+================================================================================
+POST: 2024-09-12 23:40:27 | shortcode: C_0vriTzQUk | file: 2024-09-12_16-40-27_UTC_C_0vriTzQUk.json.xz | sidecars: 5
+TAGGED: ilhamwn_ (), langgngcaesr (), sony_ilham18 (Ilham Sony), rionaldi.nu (Yo!)
+CAPTION:
+Introduction our mechanics🛠️🤖
+
+1. Ilham Widyo Nugroho (Koor)
+2. Muhamad Ilham Sony
+3. Caesar Sokma Langgeng
+4. Rionaldi Nugroho
+
+Are you ready for the next??
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: ilhamwn_ ()
+  CHILD 3: None tags: sony_ilham18 (Ilham Sony)
+  CHILD 4: None tags: langgngcaesr ()
+  CHILD 5: None tags: rionaldi.nu (Yo!)
+================================================================================
+POST: 2024-09-12 23:42:44 | shortcode: C_0v8QYT7kJ | file: 2024-09-12_16-42-44_UTC_C_0v8QYT7kJ.json.xz | sidecars: 4
+TAGGED: aku_bagas24 (Bagas), ikhsan.omn_1.0 (I K H S A N  N.), hasibnuha (Abdul Hasib Adzdzin Nuha)
+CAPTION:
+Introduction our electronics⚡🤖
+
+1. Abdul Hasib Adzdzin Nuha (koor)
+2. Agus Bagaskoro
+3. Ikhsan Nurrohman
+
+Are you ready for the next?
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: hasibnuha (Abdul Hasib Adzdzin Nuha)
+  CHILD 3: None tags: aku_bagas24 (Bagas)
+  CHILD 4: None tags: ikhsan.omn_1.0 (I K H S A N  N.)
+================================================================================
+POST: 2024-09-12 23:45:33 | shortcode: C_0wQ-qzwUx | file: 2024-09-12_16-45-33_UTC_C_0wQ-qzwUx.json.xz | sidecars: 3
+TAGGED: _takrspt (rose)
+CAPTION:
+Introduction our managers📑🤖
+
+1. Mustika Wahyu Aprilia
+2. Rose Pita Nur Afifah
+
+Are you ready for the next??
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: _takrspt (rose)
+================================================================================
+POST: 2024-09-12 23:47:00 | shortcode: C_0wbi1z6IH | file: 2024-09-12_16-47-00_UTC_C_0wbi1z6IH.json.xz | sidecars: 0
+CAPTION:
+Introduction our mentor🤖
+
+Prof. Ir. Moh. Khairudin, MT., PhD., IPU.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+================================================================================
+POST: 2024-09-12 23:47:42 | shortcode: C_0wguVTpGY | file: 2024-09-12_16-47-42_UTC_C_0wguVTpGY.json.xz | sidecars: 0
+TAGGED: ilhamwn_ ()
+CAPTION:
+Introduction our leader🤖
+
+Ilham Widyo Nugroho
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+================================================================================
+POST: 2024-09-13 00:49:08 | shortcode: C_03ipczFeM | file: 2024-09-12_17-49-08_UTC_C_03ipczFeM.json.xz | sidecars: 10
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+  CHILD 7: None tags: 
+  CHILD 8: None tags: 
+  CHILD 9: None tags: 
+  CHILD 10: None tags: 
+================================================================================
+POST: 2024-09-13 00:49:24 | shortcode: C_03kmdTpNp | file: 2024-09-12_17-49-24_UTC_C_03kmdTpNp.json.xz | sidecars: 0
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+================================================================================
+POST: 2024-09-13 00:50:54 | shortcode: C_03vj8zNUB | file: 2024-09-12_17-50-54_UTC_C_03vj8zNUB.json.xz | sidecars: 10
+CAPTION:
+[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]
+.
+.
+.
+.
+.
+#abhinayauny #kriuny #robotikauny #kri2024 #robotika
+  CHILD 1: None tags: 
+  CHILD 2: None tags: 
+  CHILD 3: None tags: 
+  CHILD 4: None tags: 
+  CHILD 5: None tags: 
+  CHILD 6: None tags: 
+  CHILD 7: None tags: 
+  CHILD 8: None tags: 
+  CHILD 9: None tags: 
+  CHILD 10: None tags: 
+================================================================================
+POST: 2025-09-28 03:10:47 | shortcode: DPHl0olk4Zw | file: 2025-09-27_20-10-47_UTC_DPHl0olk4Zw.json.xz | sidecars: 6
+TAGGED: langgngcaesr (), ramadhannii__ (), rionaldi.nu (Yo!), kryz_project (Kharisma;)
+CAPTION:
+Introduction our mechanics!🛠️
+A mechanic is responsible for designing, assembling, maintaining, and repairing the mechanical components of a robot, ensuring that all parts function optimally and meet specification.
+
+1. Rionaldi Nugroho (Koor)
+2. Caesar Sokma Langgeng
+3. Adhiyatma Fatya Ramadhani
+4. Andika Nanda Wijaya
+5. Kharisma Putra Mahardika
+Are you ready the next?
+.
+.
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHl0d1E4RQ tags: 
+  CHILD 2: DPHlw5qE8a8 tags: rionaldi.nu (Yo!)
+  CHILD 3: DPHlv6ykxIu tags: langgngcaesr ()
+  CHILD 4: DPHlxuTE5Yw tags: ramadhannii__ ()
+  CHILD 5: DPHlzZnEwqA tags: 
+  CHILD 6: DPHlyk-E2hO tags: kryz_project (Kharisma;)
+================================================================================
+POST: 2025-09-28 03:17:09 | shortcode: DPHmjMFEwJm | file: 2025-09-27_20-17-09_UTC_DPHmjMFEwJm.json.xz | sidecars: 5
+TAGGED: ikhsan.omn_1.0 (I K H S A N  N.), hasibnuha (Abdul Hasib Adzdzin Nuha), setya_ary_ (Arysty), farros_555 (Farros)
+CAPTION:
+Introduction our electronics!⚡
+A electronics technician designs, installs, and maintains the robot’s electronic systems, including sensors and circuits.
+
+1. Ikhsan Nurrohman (Koor)
+2. Abdul Hasib Adzdzin Nuha
+3. Aryasetya Maulana Swasdika 
+4. Naufal Farros Zainal Arifin 
+Are you ready the next?
+.
+.
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHmi-AE_0k tags: 
+  CHILD 2: DPHmfN0kzwu tags: ikhsan.omn_1.0 (I K H S A N  N.)
+  CHILD 3: DPHmgHIk17g tags: hasibnuha (Abdul Hasib Adzdzin Nuha)
+  CHILD 4: DPHmhAoE9FW tags: setya_ary_ (Arysty)
+  CHILD 5: DPHmh2-E3mb tags: farros_555 (Farros)
+================================================================================
+POST: 2025-09-28 03:21:31 | shortcode: DPHnDR1E7WH | file: 2025-09-27_20-21-31_UTC_DPHnDR1E7WH.json.xz | sidecars: 5
+TAGGED: triwahyu45 (Tri Wahyu), frhnyudaa (فرحان), hsymptw._ (Hisyam), hanif__00 (Hanif NurKhalis)
+CAPTION:
+Introduction our programmer!💻
+A programmer is responsible for developing and testing code that controls the robot and ensuring smooth integration between software and hardware.
+
+1. Tri Wahyu Handoyo (Koor)
+2. Farhan Yuda Mahendra
+3. Hanif NurKhalis 
+4. Hisyam Yasid Pratowo
+Are you ready the next?
+.
+.
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHnDFtEwbC tags: 
+  CHILD 2: DPHm_MikxDz tags: triwahyu45 (Tri Wahyu)
+  CHILD 3: DPHnAJnE6oU tags: frhnyudaa (فرحان)
+  CHILD 4: DPHnBHxkyCA tags: hanif__00 (Hanif NurKhalis)
+  CHILD 5: DPHnCBQE90n tags: hsymptw._ (Hisyam)
+================================================================================
+POST: 2025-09-28 03:30:33 | shortcode: DPHoFZYk8lw | file: 2025-09-27_20-30-33_UTC_DPHoFZYk8lw.json.xz | sidecars: 3
+TAGGED: _takrspt (rose), zelfaa.nfsh ()
+CAPTION:
+Introduction our manager!💸
+A manager is responsible for coordinating the team, planning projects, managing resources, and ensuring the robotics project stay on schedule and within budget
+
+1. Rose Pita Nur Afifah (Koor)
+2. Zelfa Nafisah Zalna
+Are you ready the next?
+.
+.
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHoFN2E6Xy tags: 
+  CHILD 2: DPHoEVEk5mz tags: _takrspt (rose)
+  CHILD 3: DPHoDgHk5M7 tags: zelfaa.nfsh ()
+================================================================================
+POST: 2025-09-28 03:31:45 | shortcode: DPHoOJJk2NM | file: 2025-09-27_20-31-45_UTC_DPHoOJJk2NM.json.xz | sidecars: 2
+CAPTION:
+Introduction our mentor!🤖
+
+Prof. Ir. Moh. Khairudin, MT., PhD., IPU.
+
+#abhinaya2025 
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHoOBNE79x tags: 
+  CHILD 2: DPHoOAmEwVQ tags: 
+================================================================================
+POST: 2025-09-28 03:32:54 | shortcode: DPHoWoFkxa3 | file: 2025-09-27_20-32-54_UTC_DPHoWoFkxa3.json.xz | sidecars: 2
+TAGGED: frhnyudaa (فرحان)
+CAPTION:
+Introduction our leader!🔥
+A team leaderr is responsible for leading the team, directing the vision and strategy, and ensuring effective collaboration and communication to achieve the project’s goals. 
+
+Farhan Yuda Mahendra
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+  CHILD 1: DPHoWfQE7vG tags: 
+  CHILD 2: DPHoWe4kyKO tags: frhnyudaa (فرحان)
+================================================================================
+POST: 2025-09-28 03:35:49 | shortcode: DPHor8rEz4v | file: 2025-09-27_20-35-49_UTC_DPHor8rEz4v.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+================================================================================
+POST: 2025-09-28 03:36:18 | shortcode: DPHovgbk4NE | file: 2025-09-27_20-36-18_UTC_DPHovgbk4NE.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+================================================================================
+POST: 2025-09-28 03:36:52 | shortcode: DPHozsjkzcZ | file: 2025-09-27_20-36-52_UTC_DPHozsjkzcZ.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+================================================================================
+POST: 2025-09-28 03:37:34 | shortcode: DPHo4wEk6vW | file: 2025-09-27_20-37-34_UTC_DPHo4wEk6vW.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+================================================================================
+POST: 2025-09-28 03:37:55 | shortcode: DPHo7UHE-ZX | file: 2025-09-27_20-37-55_UTC_DPHo7UHE-ZX.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
+================================================================================
+POST: 2025-09-28 03:38:49 | shortcode: DPHpB7eE-bY | file: 2025-09-27_20-38-49_UTC_DPHpB7eE-bY.json.xz | sidecars: 0
+CAPTION:
+No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥
+
+#abhinaya2025
+#GetTheTropy #robotikauny2025
