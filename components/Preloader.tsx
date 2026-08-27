@@ -60,7 +60,7 @@ export const Preloader: React.FC = () => {
             ABHINAYA<span className="text-brand-orange"> UNY</span>
           </h2>
           <p className="text-[11px] font-semibold text-amber-200/70 uppercase tracking-widest">
-            Kontes Robot Tematik Indonesia • FT UNY
+            Kontes Robot Tematik Indonesia • UKM Rekayasa Teknologi UNY
           </p>
         </div>
 

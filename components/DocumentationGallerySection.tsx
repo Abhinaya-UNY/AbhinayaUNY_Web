@@ -31,7 +31,7 @@ export const DocumentationGallerySection: React.FC = () => {
             Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
-            Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika FT UNY.
+            Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika UKM Rekayasa Teknologi UNY.
           </p>
         </div>
 

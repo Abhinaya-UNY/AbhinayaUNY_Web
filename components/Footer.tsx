@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs leading-relaxed text-slate-400 max-w-md">
-              Tim Riset &amp; Pengembangan Robotika Universitas Negeri Yogyakarta pada divisi Kontes Robot Tematik Indonesia (KRTMI) — mewadahi mahasiswa berkreasi, berinovasi, dan meraih prestasi di kancah robotika nasional.
+              Tim Riset &amp; Pengembangan Robotika divisi Kontes Robot Tematik Indonesia (KRTMI) di bawah naungan UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta — mewadahi mahasiswa lintas fakultas berkreasi, berinovasi, dan meraih prestasi di kancah robotika nasional.
             </p>
           </div>
 

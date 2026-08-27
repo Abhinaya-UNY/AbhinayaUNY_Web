@@ -123,7 +123,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               Susunan Anggota Tim Abhinaya UNY 🤖
             </h2>
             <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
-              Daftar resmi kontingen riset robotika Abhinaya UNY berdasarkan Surat Tugas KRI 2024 dan Puspresnas BPTI. Sinergi 4 divisi keteknikan dan pembimbing ahli.
+              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta. Sinergi 4 divisi keteknikan dan pembimbing ahli.
             </p>
           </div>
         )}
@@ -463,7 +463,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   Status / Angkatan
                 </span>
                 <span className="text-amber-200 font-semibold">
-                  {selectedMember.generation || 'Mahasiswa Aktif FT UNY'}
+                  {selectedMember.generation || 'Mahasiswa Aktif Universitas Negeri Yogyakarta'}
                 </span>
               </div>
 
@@ -527,7 +527,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             <div className="pt-4 border-t border-[#26180E] flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="text-[11px] text-slate-400 flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>Data Terverifikasi Surat Tugas KRI FT UNY</span>
+                <span>Data Terverifikasi UKM Rekayasa Teknologi Universitas Negeri Yogyakarta</span>
               </div>
 
               {selectedMember.socials && (

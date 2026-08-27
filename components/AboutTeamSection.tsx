@@ -20,7 +20,7 @@ export const AboutTeamSection: React.FC = () => {
             Mengenal Tim Robotika Abhinaya UNY 🛠️
           </h2>
           <p className="text-xs sm:text-base text-slate-300">
-            Tim Abhinaya adalah tim robotika resmi di bawah Fakultas Teknik Universitas Negeri Yogyakarta yang berkompetisi di divisi <strong>Kontes Robot Tematik Indonesia (KRTMI)</strong>.
+            Tim Abhinaya adalah tim riset robotika divisi <strong>Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export const AboutTeamSection: React.FC = () => {
                   Dokumentasi Tim Abhinaya UNY Pasca Kompetisi KRTMI Nasional 2024
                 </p>
                 <p className="text-xs sm:text-sm text-slate-200 line-clamp-2 drop-shadow">
-                  Solidaritas seluruh kontingen divisi Mekanik, Elektrik, Programming &amp; AI, serta Manajerial setelah berjuang menorehkan prestasi membanggakan bagi Universitas Negeri Yogyakarta.
+                  Solidaritas seluruh kontingen UKM Rekayasa Teknologi UNY divisi Mekanik, Elektrik, Programming &amp; AI, serta Manajerial setelah berjuang menorehkan prestasi membanggakan bagi Universitas Negeri Yogyakarta.
                 </p>
               </div>
               <div className="flex items-center space-x-2 text-xs font-bold text-amber-400 bg-black/60 px-3 py-1.5 rounded-xl border border-white/10 backdrop-blur-md flex-shrink-0">
@@ -72,10 +72,10 @@ export const AboutTeamSection: React.FC = () => {
               Wadah Riset, Belajar dari Nol, &amp; Meraih Prestasi Bersama
             </h3>
             <p>
-              Di lab robotika Abhinaya UNY, kami memadukan 4 pilar rekayasa: <strong>Mekanik (Desain 3D &amp; Manufaktur)</strong>, <strong>Elektrik (Sirkuit &amp; Manajemen Daya)</strong>, <strong>Pemrograman &amp; AI (Firmware &amp; Visi Komputer)</strong>, serta <strong>Manajerial &amp; Media</strong>.
+              Di lab robotika UKM Rekayasa Teknologi UNY, kami memadukan 4 pilar rekayasa: <strong>Mekanik (Desain 3D &amp; Manufaktur)</strong>, <strong>Elektrik (Sirkuit &amp; Manajemen Daya)</strong>, <strong>Pemrograman &amp; AI (Firmware &amp; Visi Komputer)</strong>, serta <strong>Manajerial &amp; Media</strong>.
             </p>
             <p>
-              Mahasiswa baru dari berbagai jurusan teknik dibimbing secara bertahap mulai dari pemahaman dasar elektronika, merakit sasis mecanum, hingga memprogram algoritma otonom berbasis kecerdasan buatan.
+              Mahasiswa baru dari seluruh jurusan dan fakultas di UNY dibimbing secara bertahap mulai dari pemahaman dasar elektronika, merakit sasis mecanum, hingga memprogram algoritma otonom berbasis kecerdasan buatan.
             </p>
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
@@ -88,8 +88,8 @@ export const AboutTeamSection: React.FC = () => {
                 <div className="text-[11px] text-amber-200/70">Teknologi Kamera AI</div>
               </div>
               <div className="p-3 sm:p-3.5 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5">
-                <div className="font-black text-yellow-400 font-mono text-base">Puspresnas BPTI</div>
-                <div className="text-[11px] text-amber-200/70">Afiliasi Resmi Kemendikbud</div>
+                <div className="font-black text-yellow-400 font-mono text-base">UKM Restek UNY</div>
+                <div className="text-[11px] text-amber-200/70">Tingkat Universitas &amp; BPTI</div>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ export const AboutTeamSection: React.FC = () => {
                     {div.name}
                   </h3>
                   <span className="text-[10px] text-amber-200/60 font-semibold uppercase tracking-wider">
-                    Divisi Resmi Tim Abhinaya
+                    Divisi Tim Abhinaya • UKM Restek UNY
                   </span>
                 </div>
               </div>

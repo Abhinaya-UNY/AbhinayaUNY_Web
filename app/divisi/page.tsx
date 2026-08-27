@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Divisi Tim & Roster Anggota — Tim Robotika Abhinaya UNY',
-  description: 'Mengenal divisi-divisi di Tim Abhinaya UNY (Mekanik, Elektrik, Programming & AI, Manajerial) dan susunan resmi anggota kontingen KRI.',
+  description: 'Mengenal divisi-divisi di Tim Abhinaya UNY (Mekanik, Elektrik, Programming & AI, Manajerial) di bawah naungan UKM Rekayasa Teknologi UNY dan susunan resmi anggota kontingen KRI.',
 };
 
 export default function DivisiPage() {
@@ -17,13 +17,13 @@ export default function DivisiPage() {
       <div className="text-center space-y-4 max-w-4xl mx-auto">
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
           <Users className="w-4 h-4" />
-          <span>DIVISI &amp; KULTUR RISET TIM</span>
+          <span>DIVISI &amp; KULTUR RISET TIM • UKM REKAYASA TEKNOLOGI UNY</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
           Struktur Divisi &amp; Roster Anggota 🛠️
         </h1>
         <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
-          Tim Abhinaya adalah wadah kolaboratif mahasiswa Universitas Negeri Yogyakarta untuk belajar, bereksperimen, dan berprestasi bersama di arena robotika nasional Puspresnas BPTI.
+          Tim Abhinaya adalah divisi riset robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — wadah kolaboratif tingkat universitas bagi mahasiswa lintas fakultas untuk belajar, bereksperimen, dan berprestasi bersama di ajang Kontes Robot Indonesia (KRI) Puspresnas BPTI.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ export default function DivisiPage() {
                   {div.name}
                 </h2>
                 <span className="text-xs text-amber-200/70 font-semibold uppercase">
-                  Divisi Tim Abhinaya
+                  Divisi Tim Abhinaya • UKM Restek UNY
                 </span>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function DivisiPage() {
               ❓ Apakah harus jago koding atau elektro dulu sebelum gabung?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              <strong>Sama sekali tidak!</strong> Tim Abhinaya membuka pintu selebar-lebarnya untuk mahasiswa yang punya niat belajar tinggi. Semua keterampilan dari dasar akan dibimbing bersama di lab.
+              <strong>Sama sekali tidak!</strong> Tim Abhinaya di UKM Rekayasa Teknologi UNY membuka pintu selebar-lebarnya untuk mahasiswa baru yang memiliki semangat belajar tinggi. Semua keterampilan teknis dan manajerial akan dibimbing dari dasar bersama para senior di lab.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function DivisiPage() {
               ❓ Jurusan apa saja yang bisa bergabung?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              Semua mahasiswa Fakultas Teknik (Pendidikan Teknik Mekatronika, Pendidikan Teknik Elektro, Teknik Mesin, Teknik Elektronika, Teknik Otomotif, Informatika, dll.) maupun jurusan lain di UNY yang berminat di bidang robotika dan manajerial.
+              <strong>Terbuka untuk seluruh mahasiswa UNY dari semua fakultas dan jurusan!</strong> Karena berada di bawah naungan UKM Rekayasa Teknologi (UKM umum tingkat universitas), anggota Abhinaya berasal dari berbagai jurusan (FT, FMIPA, FV, FIKK, FEB, dll.) baik program diploma maupun sarjana.
             </p>
           </div>
 
@@ -117,7 +117,7 @@ export default function DivisiPage() {
               ❓ Apa saja keuntungan bergabung dengan Abhinaya?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              Pengalaman langsung riset robotika tingkat nasional, akses fasilitas workshop, relasi luas, sertifikat kejuaraan resmi Puspresnas yang bisa dikonversi SKS kuliah (*Ekuivalensi/RPL*), serta bimbingan karir di industri teknologi.
+              Pengalaman langsung riset robotika tingkat nasional, akses fasilitas workshop lab robotika, relasi luas lintas jurusan se-UNY, sertifikat kejuaraan resmi Puspresnas BPTI yang bisa dikonversi SKS kuliah (*Ekuivalensi/RPL*), serta portofolio kompetitif untuk industri.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function DivisiPage() {
               ❓ Di mana lokasi lab dan basecamp Tim Abhinaya?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              Workshop Robotika Fakultas Teknik Universitas Negeri Yogyakarta, Kampus Karangmalang, Yogyakarta.
+              Laboratorium &amp; Workshop Robotika UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta, Kampus Karangmalang, Sleman, D.I. Yogyakarta.
             </p>
           </div>
         </div>
@@ -136,4 +136,3 @@ export default function DivisiPage() {
     </div>
   );
 }
-

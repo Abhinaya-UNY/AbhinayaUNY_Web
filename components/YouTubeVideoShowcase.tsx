@@ -21,8 +21,8 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: '3yr5uNkxA_8',
     title: 'Video Pengenalan & Riset Robotika Abhinaya UNY',
-    subtitle: 'Official Team & Technology Introduction Video • KRTMI UNY',
-    description: 'Mengenal lebih dekat Tim Robotika Abhinaya UNY: visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan bagaimana robot otonom dirancang dari nol di Laboratorium Robotika FT UNY untuk mengukir prestasi nasional.',
+    subtitle: 'Official Team & Technology Introduction Video • KRTMI UKM Restek UNY',
+    description: 'Mengenal lebih dekat Tim Robotika Abhinaya UNY: visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan bagaimana robot otonom dirancang dari nol di Laboratorium Robotika UKM Rekayasa Teknologi (Restek) UNY untuk mengukir prestasi nasional.',
     type: 'action',
     aspect: '16:9',
     url: 'https://youtu.be/3yr5uNkxA_8',
@@ -111,7 +111,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
             Mengenal Abhinaya UNY Lewat Video Resmi! 🎬
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300">
-            Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi, dan teknologi robot otonom kami.
+            Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi di bawah naungan UKM Rekayasa Teknologi (Restek) UNY, dan teknologi robot otonom kami.
           </p>
         </div>
 
