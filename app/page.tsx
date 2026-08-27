@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/HeroSection';
 import { YouTubeVideoShowcase } from '@/components/YouTubeVideoShowcase';
 import { AboutTeamSection } from '@/components/AboutTeamSection';
 import { TeamRosterSection } from '@/components/TeamRosterSection';
+import { InstagramFeedShowcase } from '@/components/InstagramFeedShowcase';
 import { DocumentationGallerySection } from '@/components/DocumentationGallerySection';
 import { KrtmiChronicles } from '@/components/KrtmiChronicles';
 import { KRIOverview } from '@/components/KRIOverview';
@@ -16,6 +17,7 @@ export default function HomePage() {
       <YouTubeVideoShowcase />
       <AboutTeamSection />
       <TeamRosterSection showAllLink={true} />
+      <InstagramFeedShowcase />
       <DocumentationGallerySection />
       <KrtmiChronicles />
       <KRIOverview />
@@ -24,4 +26,3 @@ export default function HomePage() {
     </div>
   );
 }
-

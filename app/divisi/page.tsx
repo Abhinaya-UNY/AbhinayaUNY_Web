@@ -1,6 +1,7 @@
 import React from 'react';
 import { TEAM_DIVISIONS } from '@/data/krtmiData';
 import { TeamRosterSection } from '@/components/TeamRosterSection';
+import { InstagramFeedShowcase } from '@/components/InstagramFeedShowcase';
 import { Users, Wrench, Zap, Code, Sparkles, Heart, CheckCircle2, Trophy, ArrowRight, ShieldCheck, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 
@@ -75,6 +76,9 @@ export default function DivisiPage() {
           </div>
         ))}
       </div>
+
+      {/* Interactive Official Instagram Media Feed */}
+      <InstagramFeedShowcase />
 
       {/* Interactive Team Roster Showcase */}
       <div className="border-t border-[#26180E] pt-12">
