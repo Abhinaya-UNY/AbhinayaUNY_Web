@@ -26,11 +26,11 @@
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Photo Renaming & Asset Standardization | Execute semantic renaming pipeline based on catalog mapping, creating clean semantic asset structure in `public/images/members/` and verified mapping dictionary | none | PLANNED |
-| M2 | Data Layer & Member Models Implementation | Update `data/teamData.ts` with complete historical data (Leaders 2020-2025, Managers 2020-2025, Active Squad 2025, Alumni Generations 2020-2025) using semantic photo paths | M1 | PLANNED |
-| M3 | Ultra-Smooth Crossfade Engine | Implement standalone/reusable `MemberPhotoFadeEngine` component with seamless crossfade, slide indicators, and manual controls | none | PLANNED |
-| M4 | Team Roster UI & Alumni Explorer Integration | Refactor and assemble `components/TeamRosterSection.tsx` into modular sections: Leaders Hall of Fame, Managers Showcase, Active Squad, Alumni Explorer, and Detail Modal | M2, M3 | PLANNED |
-| M5 | E2E Testing, Build Verification, Forensic Audit & Git Sync | Execute E2E test validation, `npm run build` verification (0 errors), Forensic Integrity Audit, and clean Git commit & push | M4 | PLANNED |
+| M1 | Photo Renaming & Asset Standardization | Execute semantic renaming pipeline based on catalog mapping, creating clean semantic asset structure in `public/images/members/` and verified mapping dictionary | none | COMPLETED |
+| M2 | Data Layer & Member Models Implementation | Update `data/teamData.ts` with complete historical data (Leaders 2020-2025, Managers 2020-2025, Active Squad 2025, Alumni Generations 2020-2025) using semantic photo paths | M1 | COMPLETED |
+| M3 | Ultra-Smooth Crossfade Engine | Implement standalone/reusable `MemberPhotoFadeEngine` component with seamless crossfade, slide indicators, and manual controls | none | COMPLETED |
+| M4 | Team Roster UI & Alumni Explorer Integration | Refactor and assemble `components/TeamRosterSection.tsx` into modular sections: Leaders Hall of Fame, Managers Showcase, Active Squad, Alumni Explorer, and Detail Modal | M2, M3 | COMPLETED |
+| M5 | E2E Testing, Build Verification, Forensic Audit & Git Sync | Execute E2E test validation, `npm run build` verification (0 errors), Forensic Integrity Audit, and clean Git commit & push | M4 | COMPLETED |
 
 ## Interface Contracts
 ### `TeamMember` Data Contract (`data/teamData.ts`)
