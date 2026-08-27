@@ -29,7 +29,7 @@ export const AboutTeamSection: React.FC = () => {
           <div className="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden">
             <img
               src={`${basePath}/images/team_ums_2024_web.jpg`}
-              alt="Tim Robotika Abhinaya UNY Pasca Laga KRTMI di UMS 2024"
+              alt="Tim Robotika Abhinaya UNY Seusai Berjuang di Ajang KRTMI UMS 2024"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 brightness-95 contrast-105"
             />
             {/* Gradient Overlay */}
@@ -50,7 +50,7 @@ export const AboutTeamSection: React.FC = () => {
             <div className="absolute bottom-4 inset-x-4 sm:bottom-6 sm:inset-x-6 flex flex-col sm:flex-row items-start sm:items-end justify-between gap-3 text-white">
               <div className="space-y-1 max-w-2xl">
                 <p className="text-sm sm:text-xl font-black text-amber-300 drop-shadow-md">
-                  Dokumentasi Tim Abhinaya UNY Pasca Kompetisi KRTMI Nasional 2024
+                  Momen Kebersamaan Tim Abhinaya UNY Seusai Berjuang di KRTMI Nasional 2024
                 </p>
                 <p className="text-xs sm:text-sm text-slate-200 line-clamp-2 drop-shadow">
                   Solidaritas seluruh kontingen UKM Rekayasa Teknologi UNY divisi Mekanik, Elektrik, Programming &amp; AI, serta Manajerial setelah berjuang menorehkan prestasi membanggakan bagi Universitas Negeri Yogyakarta.
