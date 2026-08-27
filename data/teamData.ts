@@ -142,7 +142,6 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/04_mustika_wahyu_aprilia_1.png',
       '/images/members/04_mustika_wahyu_aprilia_2.png',
-      '/images/members/13_wanted_uang_kas_bendahara.png',
     ],
     badge: 'Manager Keuangan',
     socials: {
