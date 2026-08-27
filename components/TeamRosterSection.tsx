@@ -11,9 +11,6 @@ import {
   Sparkles,
   Search,
   ExternalLink,
-  Github,
-  Linkedin,
-  Instagram,
   Mail,
   X,
   ChevronRight,
@@ -35,6 +32,14 @@ import {
   Star,
   BookOpen,
 } from 'lucide-react';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaTiktok,
+  FaYoutube,
+  FaTwitter,
+} from 'react-icons/fa';
 import {
   TeamMember,
   LeaderHistoryItem,
@@ -1188,7 +1193,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       className="p-2 rounded-xl bg-[#20150D] hover:bg-brand-orange text-slate-300 hover:text-white transition border border-[#3A2214]"
                       title="GitHub"
                     >
-                      <Github className="w-4 h-4" />
+                      <FaGithub className="w-4 h-4" />
                     </a>
                   )}
                   {selectedMember.socials.linkedin && (
@@ -1196,10 +1201,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-brand-orange text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#0A66C2] text-slate-300 hover:text-white transition border border-[#3A2214]"
                       title="LinkedIn"
                     >
-                      <Linkedin className="w-4 h-4" />
+                      <FaLinkedin className="w-4 h-4" />
                     </a>
                   )}
                   {selectedMember.socials.instagram && (
@@ -1207,10 +1212,43 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-brand-orange text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-[#20150D] hover:bg-gradient-to-br hover:from-[#f09433] hover:via-[#e6683c] hover:to-[#bc1888] text-slate-300 hover:text-white transition border border-[#3A2214]"
                       title="Instagram"
                     >
-                      <Instagram className="w-4 h-4" />
+                      <FaInstagram className="w-4 h-4" />
+                    </a>
+                  )}
+                  {selectedMember.socials.tiktok && (
+                    <a
+                      href={selectedMember.socials.tiktok}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#010101] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      title="TikTok"
+                    >
+                      <FaTiktok className="w-4 h-4" />
+                    </a>
+                  )}
+                  {selectedMember.socials.youtube && (
+                    <a
+                      href={selectedMember.socials.youtube}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#FF0000] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      title="YouTube"
+                    >
+                      <FaYoutube className="w-4 h-4" />
+                    </a>
+                  )}
+                  {selectedMember.socials.twitter && (
+                    <a
+                      href={selectedMember.socials.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#1DA1F2] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      title="Twitter / X"
+                    >
+                      <FaTwitter className="w-4 h-4" />
                     </a>
                   )}
                   {selectedMember.socials.email && (

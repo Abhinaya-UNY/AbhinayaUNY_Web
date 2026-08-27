@@ -12,6 +12,9 @@ export interface MemberSocials {
   github?: string;
   linkedin?: string;
   instagram?: string;
+  tiktok?: string;
+  youtube?: string;
+  twitter?: string;
   email?: string;
 }
 
