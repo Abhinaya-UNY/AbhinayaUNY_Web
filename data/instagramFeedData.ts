@@ -1,7 +1,8 @@
 /**
  * Authentic Instagram Feed & Media Dataset from @abhinaya.uny
  * UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta
- * Extracted and analyzed directly from official Instagram posts and captions.
+ * Curated exclusively with authentic competition moments, division intros, and trophy celebrations.
+ * (Excluded partial split puzzle/grid slices).
  */
 
 export interface InstagramFeedItem {
@@ -73,90 +74,6 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
     "coverImage": "/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_1.jpg",
     "instagramUrl": "https://www.instagram.com/p/Cw6jFIzPwDx/",
     "timestamp": "2023-09-08 02-54-52"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-26-11_UTC_C_0uDCjzSjL",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-26-11_UTC_C_0uDCjzSjL.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-26-11_UTC_C_0uDCjzSjL.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uDCjzSjL/",
-    "timestamp": "2024-09-12 16-26-11"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-26-51_UTC_C_0uH9gTkXl",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-26-51_UTC_C_0uH9gTkXl.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-26-51_UTC_C_0uH9gTkXl.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uH9gTkXl/",
-    "timestamp": "2024-09-12 16-26-51"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-27-12_UTC_C_0uKjOzv1u",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-27-12_UTC_C_0uKjOzv1u.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-27-12_UTC_C_0uKjOzv1u.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uKjOzv1u/",
-    "timestamp": "2024-09-12 16-27-12"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-27-39_UTC_C_0uN4jT4fF",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-27-39_UTC_C_0uN4jT4fF.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-27-39_UTC_C_0uN4jT4fF.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uN4jT4fF/",
-    "timestamp": "2024-09-12 16-27-39"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-27-52_UTC_C_0uPbYzsDQ",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-27-52_UTC_C_0uPbYzsDQ.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-27-52_UTC_C_0uPbYzsDQ.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uPbYzsDQ/",
-    "timestamp": "2024-09-12 16-27-52"
-  },
-  {
-    "id": "ig-post-2024-09-12_16-28-05_UTC_C_0uRA8TA89",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_16-28-05_UTC_C_0uRA8TA89.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_16-28-05_UTC_C_0uRA8TA89.jpg",
-    "instagramUrl": "https://www.instagram.com/p/0uRA8TA89/",
-    "timestamp": "2024-09-12 16-28-05"
   },
   {
     "id": "ig-post-2024-09-12_16-37-07_UTC_C_0vTMcTTGT",
@@ -256,7 +173,7 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
   },
   {
     "id": "ig-post-2024-09-12_17-49-08_UTC_C_03ipczFeM",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
+    "title": "Dokumentasi Laga & Kebersamaan Tim Abhinaya (2024)",
     "category": "Team Spirit & Kebersamaan",
     "year": "2024",
     "event": "Kontes Robot Indonesia",
@@ -278,22 +195,8 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
     "timestamp": "2024-09-12 17-49-08"
   },
   {
-    "id": "ig-post-2024-09-12_17-49-24_UTC_C_03kmdTpNp",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2024",
-    "event": "Kontes Robot Indonesia",
-    "caption": "[Together, we’re stronger than any challenge. 💪 Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!🔥🔥]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika",
-    "images": [
-      "/images/instagram_feed/2024-09-12_17-49-24_UTC_C_03kmdTpNp.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2024-09-12_17-49-24_UTC_C_03kmdTpNp.jpg",
-    "instagramUrl": "https://www.instagram.com/p/03kmdTpNp/",
-    "timestamp": "2024-09-12 17-49-24"
-  },
-  {
     "id": "ig-post-2024-09-12_17-50-54_UTC_C_03vj8zNUB",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
+    "title": "Dokumentasi Laga & Kebersamaan Tim Abhinaya (2024)",
     "category": "Team Spirit & Kebersamaan",
     "year": "2024",
     "event": "Kontes Robot Indonesia",
@@ -414,90 +317,6 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
     "coverImage": "/images/instagram_feed/2025-09-27_20-32-54_UTC_DPHoWoFkxa3_1.jpg",
     "instagramUrl": "https://www.instagram.com/p/DPHoWoFkxa3/",
     "timestamp": "2025-09-27 20-32-54"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-35-49_UTC_DPHor8rEz4v",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-35-49_UTC_DPHor8rEz4v.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-35-49_UTC_DPHor8rEz4v.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHor8rEz4v/",
-    "timestamp": "2025-09-27 20-35-49"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-36-18_UTC_DPHovgbk4NE",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-36-18_UTC_DPHovgbk4NE.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-36-18_UTC_DPHovgbk4NE.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHovgbk4NE/",
-    "timestamp": "2025-09-27 20-36-18"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-36-52_UTC_DPHozsjkzcZ",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-36-52_UTC_DPHozsjkzcZ.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-36-52_UTC_DPHozsjkzcZ.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHozsjkzcZ/",
-    "timestamp": "2025-09-27 20-36-52"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-37-34_UTC_DPHo4wEk6vW",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-37-34_UTC_DPHo4wEk6vW.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-37-34_UTC_DPHo4wEk6vW.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHo4wEk6vW/",
-    "timestamp": "2025-09-27 20-37-34"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-37-55_UTC_DPHo7UHE-ZX",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-37-55_UTC_DPHo7UHE-ZX.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-37-55_UTC_DPHo7UHE-ZX.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHo7UHE-ZX/",
-    "timestamp": "2025-09-27 20-37-55"
-  },
-  {
-    "id": "ig-post-2025-09-27_20-38-49_UTC_DPHpB7eE-bY",
-    "title": "Semangat Juang Tim Abhinaya UNY (2024)",
-    "category": "Team Spirit & Kebersamaan",
-    "year": "2025",
-    "event": "Kontes Robot Indonesia",
-    "caption": "No challenge can defeat us when we stand together. 💪 Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! 🔥🔥\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
-    "images": [
-      "/images/instagram_feed/2025-09-27_20-38-49_UTC_DPHpB7eE-bY.jpg"
-    ],
-    "coverImage": "/images/instagram_feed/2025-09-27_20-38-49_UTC_DPHpB7eE-bY.jpg",
-    "instagramUrl": "https://www.instagram.com/p/DPHpB7eE-bY/",
-    "timestamp": "2025-09-27 20-38-49"
   }
 ];
 
