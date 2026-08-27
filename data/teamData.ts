@@ -10,7 +10,7 @@ export interface TeamMember {
   nim: string;
   studyProgram: string;
   faculty: string;
-  division: 'Mekanik' | 'Elektrik' | 'Programming & AI' | 'Manajerial & Media' | 'Pembimbing';
+  division: 'Mekanik' | 'Elektrik' | 'Programming & AI' | 'Manajemen & Administrasi' | 'Pembimbing';
   role: string;
   subRole?: string;
   generation?: string;
@@ -54,108 +54,7 @@ export const DOSEN_PEMBIMBING: TeamMember = {
 };
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  // 1. DIVISI MANAJERIAL & MEDIA / LEADERSHIP
-  {
-    id: 'ilham-widyo-nugroho',
-    name: 'Ilham Widyo Nugroho',
-    nim: '21507334002',
-    studyProgram: 'D4 Teknik Elektronika',
-    faculty: 'Fakultas Vokasi (FV)',
-    division: 'Manajerial & Media',
-    role: 'Ketua Tim (Team Leader)',
-    subRole: 'Firmware & System Integration Lead',
-    generation: 'Angkatan 2021',
-    specialization: [
-      'Team Leadership & Strategy',
-      'STM32F407 Firmware Architecture',
-      'Serial Protocol & Mini PC Integration',
-      'ESP32 Low-Level Control',
-    ],
-    bio: 'Ketua Tim Abhinaya UNY periode 2024. Bertanggung jawab atas koordinasi umum tim, arsitektur firmware STM32F407, dan integrasi komunikasi serial Mini PC dengan ESP32 controller.',
-    quote: 'Adigang, adigung, adiguna.',
-    image: '/images/members/09_ilham_widyo_nugroho_1.png',
-    badge: 'Ketua Tim',
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-  {
-    id: 'salsabila-azzahra',
-    name: 'Salsabila Azzahra Putri Sophia Dewi Utami',
-    nim: '20518241012',
-    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
-    faculty: 'Fakultas Teknik (FT)',
-    division: 'Manajerial & Media',
-    role: 'Strategy & Team Manager',
-    subRole: 'Operational & Match Strategy Coordinator',
-    generation: 'Angkatan 2020',
-    specialization: [
-      'Puspresnas Rulebook Analysis',
-      'Match Simulation Strategy',
-      'Paddock & Pit Logistics',
-      'Team Operational Management',
-    ],
-    bio: 'Mengkoordinasikan manajemen operasional tim, analisis aturan pertandingan BPTI Puspresnas, serta pengkondisian arena dan paddock lomba selama Kontes Robot Indonesia.',
-    quote: 'Reconnecting...',
-    image: '/images/members/08_salsabila_azzahra_1.png',
-    badge: 'Team Manager',
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-  {
-    id: 'mustika-wahyu-aprilia',
-    name: 'Mustika Wahyu Aprilia',
-    nim: '21306141050',
-    studyProgram: 'S1 Fisika',
-    faculty: 'Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)',
-    division: 'Manajerial & Media',
-    role: 'Finance & Secretary',
-    subRole: 'Secretariat, Finance & Public Relations Lead',
-    generation: 'Angkatan 2021',
-    specialization: [
-      'RAB & Financial Budgeting',
-      'Official University Correspondence',
-      'Public Relations & Sponsorship',
-      'PAB Recruitment Administration',
-    ],
-    bio: 'Mengelola penyusunan Rencana Anggaran Biaya (RAB), surat-menyurat resmi universitas & kementerian, tata kelola administrasi tim, serta hubungan masyarakat dan penerimaan anggota baru (PAB).',
-    quote: 'Just double tap',
-    image: '/images/members/04_mustika_wahyu_aprilia_1.png',
-    badge: 'Bendahara & Sekretaris',
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-  {
-    id: 'rose-pita-nur-afifah',
-    name: 'Rose Pita Nur Afifah',
-    nim: '22518241042',
-    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
-    faculty: 'Fakultas Teknik (FT)',
-    division: 'Manajerial & Media',
-    role: 'Media & Documentation Specialist',
-    subRole: 'Media, UI/UX & Documentation Specialist',
-    generation: 'Angkatan 2022',
-    specialization: [
-      'Social Media Branding (@abhinaya.uny)',
-      'Match Photography & Videography',
-      'Graphic & Visual Identity',
-      'Competition Archive Curation',
-    ],
-    bio: 'Mengelola kanal media sosial resmi (@abhinaya.uny), kurasi visual foto dan video dokumentasi perlombaan, serta publikasi profil riset robotika Abhinaya UNY.',
-    quote: 'Life is a stage, and I am a screenwriter',
-    image: '/images/members/05_rose_pita_nur_afifah_1.png',
-    badge: 'Media & Desain',
-    socials: {
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-
-  // 2. DIVISI PROGRAMMING & AI
+  // 1. DIVISI PROGRAMMING & AI (PROGRAM)
   {
     id: 'tri-wahyu-handoyo',
     name: 'Tri Wahyu Handoyo',
@@ -182,8 +81,58 @@ export const TEAM_MEMBERS: TeamMember[] = [
       instagram: 'https://instagram.com/abhinaya.uny',
     },
   },
+  {
+    id: 'salsabila-azzahra',
+    name: 'Salsabila Azzahra Putri Sophia Dewi Utami',
+    nim: '20518241012',
+    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
+    faculty: 'Fakultas Teknik (FT)',
+    division: 'Programming & AI',
+    role: 'Programmer / Strategy & Team Manager',
+    subRole: 'Match Strategy & Sensor Logic Coordinator',
+    generation: 'Angkatan 2020',
+    specialization: [
+      'Puspresnas Rulebook & Match Analysis',
+      'Sensor Logic & Calibration Testing',
+      'Match Strategy Simulation',
+      'Paddock & Pit Operational Logistics',
+    ],
+    bio: 'Mengkoordinasikan logika kendali strategi pertandingan, analisis aturan BPTI Puspresnas, kalibrasi sensor di arena, serta manajemen paddock kontingen selama Kontes Robot Indonesia.',
+    quote: 'Reconnecting...',
+    image: '/images/members/08_salsabila_azzahra_1.png',
+    badge: 'Program & Strategy',
+    socials: {
+      linkedin: 'https://linkedin.com',
+      instagram: 'https://instagram.com/abhinaya.uny',
+    },
+  },
 
-  // 3. DIVISI ELEKTRONIK / ELEKTRIK
+  // 2. DIVISI ELEKTRONIK / ELEKTRIK
+  {
+    id: 'ilham-widyo-nugroho',
+    name: 'Ilham Widyo Nugroho',
+    nim: '21507334002',
+    studyProgram: 'D4 Teknik Elektronika',
+    faculty: 'Fakultas Vokasi (FV)',
+    division: 'Elektrik',
+    role: 'Ketua Tim / Embedded Firmware & System Integration',
+    subRole: 'Team Leader & Electronics System Architect',
+    generation: 'Angkatan 2021',
+    specialization: [
+      'Team Leadership & Strategy',
+      'STM32F407 Firmware Architecture',
+      'Serial Protocol & Mini PC Integration',
+      'High-Speed Microcontroller Control',
+    ],
+    bio: 'Ketua Tim Abhinaya UNY periode 2024 dari latar belakang Teknik Elektronika. Bertanggung jawab atas koordinasi umum tim, arsitektur firmware STM32F407, dan integrasi komunikasi serial Mini PC dengan mikrokontroler.',
+    quote: 'Adigang, adigung, adiguna.',
+    image: '/images/members/09_ilham_widyo_nugroho_1.png',
+    badge: 'Ketua Tim & Firmware',
+    socials: {
+      linkedin: 'https://linkedin.com',
+      instagram: 'https://instagram.com/abhinaya.uny',
+    },
+  },
   {
     id: 'agus-bagaskoro',
     name: 'Agus Bagaskoro',
@@ -309,7 +258,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
   },
 
-  // 4. DIVISI MEKANIK
+  // 3. DIVISI MEKANIK
   {
     id: 'muhamad-ilham-sony',
     name: 'Muhamad Ilham Sony',
@@ -410,16 +359,67 @@ export const TEAM_MEMBERS: TeamMember[] = [
       instagram: 'https://instagram.com/abhinaya.uny',
     },
   },
+  {
+    id: 'rose-pita-nur-afifah',
+    name: 'Rose Pita Nur Afifah',
+    nim: '22518241042',
+    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
+    faculty: 'Fakultas Teknik (FT)',
+    division: 'Mekanik',
+    role: 'Mekatronika Design & Media Documentation',
+    subRole: 'Mechanical Layout & Official Media Specialist',
+    generation: 'Angkatan 2022',
+    specialization: [
+      'Mechanical Layout & Ergonomics',
+      'Social Media Branding (@abhinaya.uny)',
+      'Match Photography & Videography',
+      'Visual Identity & Graphic Design',
+    ],
+    bio: 'Mahasiswa Pendidikan Teknik Mekatronika yang memadukan riset desain mekatronika dengan pengelolaan publikasi visual resmi (@abhinaya.uny), kurasi dokumentasi perlombaan, dan identitas grafis kontingen.',
+    quote: 'Life is a stage, and I am a screenwriter',
+    image: '/images/members/05_rose_pita_nur_afifah_1.png',
+    badge: 'Mekatronika & Media',
+    socials: {
+      instagram: 'https://instagram.com/abhinaya.uny',
+    },
+  },
+
+  // 4. MANAJEMEN & ADMINISTRASI (NON-TEKNIS)
+  {
+    id: 'mustika-wahyu-aprilia',
+    name: 'Mustika Wahyu Aprilia',
+    nim: '21306141050',
+    studyProgram: 'S1 Fisika',
+    faculty: 'Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)',
+    division: 'Manajemen & Administrasi',
+    role: 'Bendahara, Administrasi & Sekretariat Tim',
+    subRole: 'Finance, Administration & Sponsorship Lead',
+    generation: 'Angkatan 2021',
+    specialization: [
+      'RAB & Financial Budgeting Tim Robotika',
+      'Official University Correspondence',
+      'Public Relations & Sponsorship',
+      'PAB Recruitment Administration',
+    ],
+    bio: 'Mengelola penyusunan Rencana Anggaran Biaya (RAB) riset dan kompetisi, surat-menyurat resmi universitas & Puspresnas, tata kelola administrasi tim, serta hubungan masyarakat dan kepengurusan PAB.',
+    quote: 'Just double tap',
+    image: '/images/members/04_mustika_wahyu_aprilia_1.png',
+    badge: 'Bendahara & Administrasi',
+    socials: {
+      linkedin: 'https://linkedin.com',
+      instagram: 'https://instagram.com/abhinaya.uny',
+    },
+  },
 ];
 
 export const ALL_ROSTER_MEMBERS: TeamMember[] = [DOSEN_PEMBIMBING, ...TEAM_MEMBERS];
 
 export const DIVISION_CATEGORIES = [
   { id: 'All', label: 'Semua Divisi', icon: 'Users', count: ALL_ROSTER_MEMBERS.length },
-  { id: 'Programming & AI', label: 'Programming & AI', icon: 'Code', count: 1 },
-  { id: 'Elektrik', label: 'Elektronik / Elektrik', icon: 'Zap', count: 5 },
-  { id: 'Mekanik', label: 'Mekanik', icon: 'Wrench', count: 4 },
-  { id: 'Manajerial & Media', label: 'Manajerial & Media', icon: 'Briefcase', count: 4 },
+  { id: 'Programming & AI', label: 'Programming & AI', icon: 'Code', count: 2 },
+  { id: 'Elektrik', label: 'Elektronik / Elektrik', icon: 'Zap', count: 6 },
+  { id: 'Mekanik', label: 'Mekanik', icon: 'Wrench', count: 5 },
+  { id: 'Manajemen & Administrasi', label: 'Administrasi & Keuangan', icon: 'Briefcase', count: 1 },
   { id: 'Pembimbing', label: 'Pembimbing', icon: 'GraduationCap', count: 1 },
 ] as const;
 
@@ -427,29 +427,29 @@ export const DIVISION_ORDER: TeamMember['division'][] = [
   'Programming & AI',
   'Elektrik',
   'Mekanik',
-  'Manajerial & Media',
+  'Manajemen & Administrasi',
   'Pembimbing',
 ];
 
 export const DIVISION_INFO: Record<TeamMember['division'], { title: string; subtitle: string; icon: string }> = {
   'Programming & AI': {
     title: 'Divisi Programming & AI',
-    subtitle: 'Arsitektur Firmware Otonom, Computer Vision YOLO & Trajectory Planning',
+    subtitle: 'Arsitektur Firmware Otonom, Computer Vision YOLO, Logika Sensor & Trajectory Planning',
     icon: 'Code',
   },
   'Elektrik': {
     title: 'Divisi Elektronik / Elektrik',
-    subtitle: 'Power Distribution Board (PDB), PCB Shield, Sensor & Telemetri Nirkabel',
+    subtitle: 'Power Distribution Board (PDB), Firmware STM32, PCB Shield, Sensor & Telemetri Nirkabel',
     icon: 'Zap',
   },
   'Mekanik': {
     title: 'Divisi Mekanik',
-    subtitle: 'Desain 3D CAD, Fabrikasi Sasis Aluminium 6061 & Mekanisme Gripper 2-Stage',
+    subtitle: 'Desain 3D CAD, Fabrikasi Sasis Aluminium 6061, Mekanisme Gripper 2-Stage & Media Desain',
     icon: 'Wrench',
   },
-  'Manajerial & Media': {
-    title: 'Divisi Manajerial & Media',
-    subtitle: 'Strategi Pertandingan, Manajemen Operasional, Keuangan & Publikasi Visual',
+  'Manajemen & Administrasi': {
+    title: 'Administrasi, Keuangan & Sekretariat',
+    subtitle: 'Pengelolaan Anggaran Riset (RAB), Administrasi Surat Resmi Universitas & Rekrutmen',
     icon: 'Briefcase',
   },
   'Pembimbing': {
@@ -484,7 +484,7 @@ export const DIVISION_BADGES: Record<TeamMember['division'], { bg: string; text:
     border: 'border-amber-500/40',
     accent: '#F59E0B',
   },
-  'Manajerial & Media': {
+  'Manajemen & Administrasi': {
     bg: 'bg-emerald-950/40',
     text: 'text-emerald-300',
     border: 'border-emerald-500/40',

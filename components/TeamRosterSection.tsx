@@ -95,6 +95,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
     switch (id) {
       case 'Pembimbing':
         return <GraduationCap className={sizeClass} />;
+      case 'Manajemen & Administrasi':
       case 'Manajerial & Media':
         return <Briefcase className={sizeClass} />;
       case 'Programming & AI':
