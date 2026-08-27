@@ -22,6 +22,7 @@ import {
   Layers,
   Award,
   Quote,
+  Maximize2,
 } from 'lucide-react';
 import {
   TeamMember,
@@ -202,7 +203,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
             {filteredMembers.map((member) => {
               const badgeStyle = DIVISION_BADGES[member.division] || DIVISION_BADGES['Mekanik'];
               const isAdvisor = member.division === 'Pembimbing';
@@ -212,128 +213,146 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 <div
                   key={member.id}
                   onClick={() => setSelectedMember(member)}
-                  className={`group cursor-pointer relative p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#130E09] border ${
+                  className={`group cursor-pointer relative rounded-3xl bg-[#130E09] border ${
                     isAdvisor ? 'border-purple-500/50 bg-[#160B1E]/60' : 'border-[#2B1B10]'
-                  } hover:border-brand-orange/70 transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/15 hover:-translate-y-1 flex flex-col justify-between overflow-hidden`}
+                  } hover:border-brand-orange/80 transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden`}
                 >
                   {/* Top Accent Line */}
                   <div
-                    className="absolute top-0 left-0 right-0 h-1 opacity-70 group-hover:opacity-100 transition"
+                    className="absolute top-0 left-0 right-0 h-1.5 opacity-80 group-hover:opacity-100 transition z-20"
                     style={{ backgroundColor: badgeStyle.accent }}
                   />
 
-                  {/* Card Content */}
-                  <div className="space-y-4">
-                    {/* Header: Division Badge & Role Tag */}
-                    <div className="flex items-center justify-between gap-2">
-                      <span
-                        className={`inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
+                  {/* 1. Large Top Photo Banner / Showcase */}
+                  <div className="relative w-full aspect-[4/3] sm:aspect-square overflow-hidden bg-[#180F08] border-b border-[#24170E]">
+                    {hasCustomPhoto ? (
+                      <img
+                        src={`${basePath}${member.image}`}
+                        alt={member.name}
+                        onError={() => setImgErrors((prev) => ({ ...prev, [member.id]: true }))}
+                        className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 contrast-105"
+                      />
+                    ) : (
+                      <div
+                        className="w-full h-full flex flex-col items-center justify-center p-6 text-center"
+                        style={{
+                          backgroundColor: `${badgeStyle.accent}15`,
+                        }}
                       >
-                        {getDivisionIcon(member.division, 'w-3 h-3')}
+                        <div
+                          className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl flex items-center justify-center font-black text-3xl sm:text-4xl border-2 shadow-2xl mb-2"
+                          style={{
+                            backgroundColor: `${badgeStyle.accent}30`,
+                            borderColor: badgeStyle.accent,
+                            color: '#FFFFFF',
+                          }}
+                        >
+                          {member.name
+                            .split(' ')
+                            .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
+                            .slice(0, 2)
+                            .map((n) => n[0])
+                            .join('')}
+                        </div>
+                        <span className="text-xs font-mono font-bold text-amber-200/80">
+                          {member.role}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Gradient Overlay for Smooth Transition */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#130E09] via-[#130E09]/20 to-transparent pointer-events-none" />
+
+                    {/* Top Left Division Badge Floating */}
+                    <div className="absolute top-3.5 left-3.5 z-10">
+                      <span
+                        className={`inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl text-[11px] font-black uppercase tracking-wider border backdrop-blur-md shadow-lg ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
+                      >
+                        {getDivisionIcon(member.division, 'w-3.5 h-3.5')}
                         <span>{member.division}</span>
                       </span>
+                    </div>
 
-                      <span className="px-2 py-0.5 rounded-md bg-[#22160C] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/20">
+                    {/* Top Right Role Badge Floating */}
+                    <div className="absolute top-3.5 right-3.5 z-10">
+                      <span className="px-2.5 py-1 rounded-xl bg-black/70 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 backdrop-blur-md shadow-lg">
                         {member.badge}
                       </span>
                     </div>
 
-                    {/* Member Profile Info */}
-                    <div className="flex items-start space-x-3.5 pt-1">
-                      {/* Avatar: Photo or Initials */}
-                      <div
-                        className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl overflow-hidden flex items-center justify-center font-black text-sm flex-shrink-0 border-2 transition group-hover:scale-105 shadow-md relative bg-[#1B1109]"
-                        style={{
-                          borderColor: badgeStyle.accent,
-                        }}
-                      >
-                        {hasCustomPhoto ? (
-                          <img
-                            src={`${basePath}${member.image}`}
-                            alt={member.name}
-                            onError={() => setImgErrors((prev) => ({ ...prev, [member.id]: true }))}
-                            className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                          />
-                        ) : (
-                          <div
-                            className="w-full h-full flex items-center justify-center font-black text-base"
-                            style={{
-                              backgroundColor: `${badgeStyle.accent}25`,
-                              color: '#FFFFFF',
-                            }}
-                          >
-                            {member.name
-                              .split(' ')
-                              .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                              .slice(0, 2)
-                              .map((n) => n[0])
-                              .join('')}
-                          </div>
-                        )}
-                      </div>
+                    {/* Bottom-right Quick Zoom Icon */}
+                    <div className="absolute bottom-3 right-3 z-10 w-8 h-8 rounded-full bg-black/70 border border-white/20 text-white/80 group-hover:text-brand-orange group-hover:border-brand-orange group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md">
+                      <Maximize2 className="w-4 h-4" />
+                    </div>
+                  </div>
 
-                      <div className="flex-1 min-w-0">
-                        <h3 className="text-base font-black text-white group-hover:text-brand-orange transition truncate">
+                  {/* 2. Card Body Content */}
+                  <div className="p-5 sm:p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div className="space-y-3.5">
+                      {/* Name & Role */}
+                      <div>
+                        <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-brand-orange transition line-clamp-1">
                           {member.name}
                         </h3>
-                        <p className="text-xs font-semibold text-amber-200/90 leading-tight">
+                        <p className="text-xs font-bold text-amber-300/95 leading-tight mt-0.5">
                           {member.role}
                         </p>
                         <p className="text-[11px] text-slate-400 font-mono mt-0.5">
                           {member.nim}
                         </p>
                       </div>
+
+                      {/* Quote Bubble if present */}
+                      {member.quote && (
+                        <div className="p-2.5 sm:p-3 rounded-2xl bg-[#1C120A] border border-amber-900/40 text-xs text-amber-200 italic flex items-start space-x-2.5 shadow-inner">
+                          <Quote className="w-4 h-4 text-brand-orange flex-shrink-0 mt-0.5" />
+                          <span className="line-clamp-2">"{member.quote}"</span>
+                        </div>
+                      )}
+
+                      {/* Academic Info */}
+                      <div className="p-3 rounded-xl bg-[#1A1009] border border-[#2B1B10] text-xs space-y-1">
+                        <div className="text-slate-300 truncate">
+                          <span className="text-slate-400 font-medium">Prodi:</span> {member.studyProgram}
+                        </div>
+                        <div className="text-slate-400 text-[11px] truncate">
+                          <span>Fakultas:</span> {member.faculty}
+                        </div>
+                      </div>
+
+                      {/* Specialization Tags */}
+                      <div className="space-y-1.5">
+                        <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider flex items-center space-x-1">
+                          <Cpu className="w-3 h-3 text-brand-orange" />
+                          <span>Fokus Keahlian:</span>
+                        </span>
+                        <div className="flex flex-wrap gap-1.5">
+                          {member.specialization.slice(0, 3).map((spec, idx) => (
+                            <span
+                              key={idx}
+                              className="px-2.5 py-1 rounded-lg bg-[#24170D] text-amber-100 text-[10px] font-semibold border border-brand-orange/20 truncate max-w-full"
+                            >
+                              {spec}
+                            </span>
+                          ))}
+                          {member.specialization.length > 3 && (
+                            <span className="px-2 py-1 rounded-lg bg-[#1C120A] text-amber-300/80 text-[10px] font-mono">
+                              +{member.specialization.length - 3} lagi
+                            </span>
+                          )}
+                        </div>
+                      </div>
                     </div>
 
-                    {/* Quote Pill if present */}
-                    {member.quote && (
-                      <div className="p-2.5 rounded-xl bg-[#1C120A] border border-amber-900/30 text-[11px] text-amber-200 italic flex items-start space-x-2">
-                        <Quote className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
-                        <span className="line-clamp-2">"{member.quote}"</span>
-                      </div>
-                    )}
-
-                    {/* Academic Info */}
-                    <div className="p-2.5 rounded-xl bg-[#1B1109] border border-[#2B1B10] text-[11px] space-y-0.5">
-                      <div className="text-slate-300 truncate">
-                        <span className="text-slate-400">Prodi:</span> {member.studyProgram}
-                      </div>
-                      <div className="text-slate-400 text-[10px] truncate">
-                        <span>Fakultas:</span> {member.faculty}
-                      </div>
-                    </div>
-
-                    {/* Specialization Tags */}
-                    <div className="space-y-1.5 pt-1">
-                      <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider flex items-center space-x-1">
-                        <Cpu className="w-3 h-3 text-brand-orange" />
-                        <span>Fokus Keahlian:</span>
+                    {/* Card Footer: Detail Button */}
+                    <div className="pt-4 border-t border-[#24170E] flex items-center justify-between text-xs font-bold text-amber-300 group-hover:text-brand-orange">
+                      <span className="text-xs flex items-center space-x-1.5">
+                        <span>Buka Profil Lengkap</span>
                       </span>
-                      <div className="flex flex-wrap gap-1.5">
-                        {member.specialization.slice(0, 3).map((spec, idx) => (
-                          <span
-                            key={idx}
-                            className="px-2 py-0.5 rounded-md bg-[#24170D] text-amber-100 text-[10px] font-medium border border-brand-orange/20 truncate max-w-full"
-                          >
-                            {spec}
-                          </span>
-                        ))}
-                        {member.specialization.length > 3 && (
-                          <span className="px-1.5 py-0.5 rounded-md bg-[#1C120A] text-amber-300/80 text-[9px] font-mono">
-                            +{member.specialization.length - 3} lagi
-                          </span>
-                        )}
-                      </div>
+                      <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1.5 transition duration-300" />
                     </div>
                   </div>
 
-                  {/* Card Footer: Detail Button */}
-                  <div className="pt-4 mt-4 border-t border-[#26180E] flex items-center justify-between text-xs font-bold text-amber-300 group-hover:text-brand-orange">
-                    <span className="text-[11px] flex items-center space-x-1">
-                      <span>Buka Profil Lengkap</span>
-                    </span>
-                    <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
-                  </div>
                 </div>
               );
             })}
@@ -355,31 +374,32 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
       </div>
 
-      {/* Profile Detail Modal */}
+      {/* Profile Detail Modal with Large Photo Showcase */}
       {selectedMember && (
         <div
           role="dialog"
           aria-modal="true"
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md animate-fadeIn"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/85 backdrop-blur-md animate-fadeIn"
           onClick={() => setSelectedMember(null)}
         >
           <div
-            className="relative w-full max-w-2xl bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-brand-orange/20 space-y-6 max-h-[90vh] overflow-y-auto"
+            className="relative w-full max-w-3xl bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl p-5 sm:p-8 shadow-2xl shadow-brand-orange/20 space-y-6 max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-5 right-5 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214]"
+              className="absolute top-4 right-4 sm:top-6 sm:right-6 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-20"
               aria-label="Tutup modal"
             >
               <X className="w-5 h-5" />
             </button>
 
-            {/* Modal Header */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-5 pr-8">
+            {/* Modal Top Showcase: Large Photo & Identity */}
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 pt-2">
+              {/* Large Photo in Modal */}
               <div
-                className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl overflow-hidden flex items-center justify-center font-black text-xl sm:text-2xl border-2 flex-shrink-0 shadow-lg relative bg-[#1C120A]"
+                className="w-44 h-44 sm:w-56 sm:h-56 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#1B1109] group"
                 style={{
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
@@ -394,28 +414,38 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   />
                 ) : (
                   <div
-                    className="w-full h-full flex items-center justify-center font-black text-xl sm:text-2xl"
+                    className="w-full h-full flex flex-col items-center justify-center p-4 text-center"
                     style={{
                       backgroundColor: `${
                         (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).accent
                       }25`,
-                      color: '#FFFFFF',
                     }}
                   >
-                    {selectedMember.name
-                      .split(' ')
-                      .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
-                      .slice(0, 2)
-                      .map((n) => n[0])
-                      .join('')}
+                    <div
+                      className="w-20 h-20 rounded-2xl flex items-center justify-center font-black text-2xl border-2 mb-2"
+                      style={{
+                        borderColor: (
+                          DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
+                        ).accent,
+                        color: '#FFFFFF',
+                      }}
+                    >
+                      {selectedMember.name
+                        .split(' ')
+                        .filter((w) => !w.startsWith('Prof') && !w.startsWith('Ir') && !w.startsWith('M.') && !w.startsWith('Ph.'))
+                        .slice(0, 2)
+                        .map((n) => n[0])
+                        .join('')}
+                    </div>
                   </div>
                 )}
               </div>
 
-              <div className="space-y-1">
-                <div className="flex flex-wrap items-center gap-2">
+              {/* Name, Division & Quote */}
+              <div className="flex-1 space-y-3 text-center sm:text-left">
+                <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
                   <span
-                    className={`inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-lg text-xs font-black uppercase border ${
+                    className={`inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl text-xs font-black uppercase border ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).bg
                     } ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).text
@@ -427,27 +457,29 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     <span>{selectedMember.division}</span>
                   </span>
 
-                  <span className="px-2 py-0.5 rounded-md bg-[#25180E] text-brand-orange text-xs font-mono font-black border border-brand-orange/30">
+                  <span className="px-2.5 py-1 rounded-xl bg-[#25180E] text-brand-orange text-xs font-mono font-black border border-brand-orange/30">
                     {selectedMember.badge}
                   </span>
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                  {selectedMember.name}
-                </h3>
-                <p className="text-xs sm:text-sm font-bold text-amber-300">
-                  {selectedMember.role}
-                </p>
+                <div>
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                    {selectedMember.name}
+                  </h3>
+                  <p className="text-xs sm:text-sm font-bold text-amber-300 mt-0.5">
+                    {selectedMember.role}
+                  </p>
+                </div>
+
+                {/* Quote Banner */}
+                {selectedMember.quote && (
+                  <div className="p-3 sm:p-3.5 rounded-2xl bg-[#1F130B] border border-brand-orange/30 text-xs sm:text-sm text-amber-200 italic flex items-center space-x-3 shadow-inner text-left">
+                    <Quote className="w-5 h-5 text-brand-orange flex-shrink-0" />
+                    <span className="font-medium">"{selectedMember.quote}"</span>
+                  </div>
+                )}
               </div>
             </div>
-
-            {/* Quote banner if present */}
-            {selectedMember.quote && (
-              <div className="p-3.5 rounded-2xl bg-[#1F130B] border border-brand-orange/30 text-xs sm:text-sm text-amber-200 italic flex items-center space-x-3 shadow-inner">
-                <Quote className="w-5 h-5 text-brand-orange flex-shrink-0" />
-                <span className="font-medium">"{selectedMember.quote}"</span>
-              </div>
-            )}
 
             {/* Academic & Role Metadata Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 rounded-2xl bg-[#1B120A] border border-[#2B1B10] text-xs">
