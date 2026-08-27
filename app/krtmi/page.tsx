@@ -72,10 +72,29 @@ export default function KrtmiPage() {
             {/* Top Orange Gradient Stripe */}
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400" />
 
-            {/* Header: Year, Title, Location, Host */}
-            <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#2A1B10] pb-6">
-              <div className="space-y-2">
-                <div className="flex flex-wrap items-center gap-2">
+            {/* Header: Official Cover Poster + Title, Badges, Location */}
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8 border-b border-[#2A1B10] pb-6">
+              
+              {/* Official Competition Cover / Logo Thumbnail */}
+              {story.coverImage && (
+                <div className="relative w-40 sm:w-48 md:w-52 aspect-[3/4] rounded-2xl overflow-hidden border-2 border-brand-orange/50 shadow-[0_0_30px_rgba(255,107,0,0.2)] flex-shrink-0 bg-black group">
+                  <img
+                    src={`${basePath}${story.coverImage}`}
+                    alt={`Buku Panduan Resmi ${story.title}`}
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 brightness-95 contrast-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-brand-orange text-black text-[9px] font-black uppercase shadow">
+                    PANDUAN RESMI
+                  </div>
+                  <div className="absolute bottom-2 inset-x-2 text-center text-amber-300 text-[10px] font-mono font-bold">
+                    Edisi {story.year}
+                  </div>
+                </div>
+              )}
+
+              <div className="flex-1 space-y-3 text-center md:text-left">
+                <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
                   <span className="text-3xl sm:text-4xl font-black text-brand-orange font-mono">
                     {story.year}
                   </span>
@@ -90,7 +109,7 @@ export default function KrtmiPage() {
                   )}
                 </div>
                 
-                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-black text-white leading-tight">
                   {story.title}
                 </h2>
                 
@@ -100,7 +119,7 @@ export default function KrtmiPage() {
                   </p>
                 )}
 
-                <div className="flex flex-wrap items-center gap-3 text-xs text-slate-300 pt-1">
+                <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 text-xs text-slate-300 pt-1">
                   <span className="flex items-center space-x-1 text-amber-200">
                     <MapPin className="w-3.5 h-3.5 text-brand-orange" />
                     <span>{story.location}</span>

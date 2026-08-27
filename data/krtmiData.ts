@@ -54,6 +54,8 @@ export interface KrtmiStory {
   teamRoleAndFunFacts: string[];
   achievement: string;
   isChampion?: boolean;
+  coverImage?: string;
+  logoImage?: string;
   pdfFile: string;
   pdfSize: string;
   pdfTitle: string;
@@ -144,6 +146,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🤖 PESERTA TINGKAT NASIONAL TECHNOCORNER 2026 FT UGM',
     isChampion: false,
+    coverImage: '/images/tournaments/technocorner_2026_thumb.jpg',
+    logoImage: '/images/tournaments/technocorner_logo.png',
     pdfFile: 'Panduan_Technocorner_2026.pdf',
     pdfSize: '40.83 MB',
     pdfTitle: 'Guidebook Transporter Technocorner 2026 (DTETI FT UGM)',
@@ -230,6 +234,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🥇 JUARA 1 REGIONAL I WILAYAH & 🥈 JUARA 2 TINGKAT NASIONAL KRTMI 2024',
     isChampion: true,
+    coverImage: '/images/tournaments/krtmi_2024_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2024_cover.png',
     pdfFile: 'Panduan_KRTMI_2024.pdf',
     pdfSize: '0.56 MB',
     pdfTitle: 'Buku 7 Pedoman KRTMI 2024 (BPTI Puspresnas Kemendikbudristek & UMS)',
@@ -309,6 +315,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🥉 JUARA 3 TINGKAT WILAYAH & 🏅 FINALIS TINGKAT NASIONAL KRTMI 2023',
     isChampion: false,
+    coverImage: '/images/tournaments/krtmi_2023_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2023_cover.png',
     pdfFile: 'Panduan_KRI_2023.pdf',
     pdfSize: '6.06 MB',
     pdfTitle: 'Buku Pedoman Kontes Robot Indonesia (KRI) 2023 — Buku 7 KRTMI (BPTI Kemendikbudristek)',
@@ -377,6 +385,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 PESERTA TAHAP NASIONAL KRTMI 2022 (ITS SURABAYA)',
     isChampion: false,
+    coverImage: '/images/tournaments/krtmi_2022_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2022_cover.png',
     pdfFile: 'Panduan_KRI_2022.pdf',
     pdfSize: '4.41 MB',
     pdfTitle: 'Buku Panduan Kontes Robot Indonesia (KRI) 2022 — Buku 7 KRTMI (Puspresnas & ITS)',
@@ -444,6 +454,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 FINALIS DARING TINGKAT NASIONAL KRTMI 2021',
     isChampion: false,
+    coverImage: '/images/tournaments/krtmi_2021_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2021_cover.png',
     pdfFile: 'Panduan_KRI_2021.pdf',
     pdfSize: '18.41 MB',
     pdfTitle: 'Pedoman Kontes Robot Indonesia (KRI) 2021 — Buku 7 KRTMI (Puspresnas & UGM)',
@@ -511,6 +523,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🏅 FINALIS TINGKAT NASIONAL KRTMI 2020 (ITB BANDUNG)',
     isChampion: false,
+    coverImage: '/images/tournaments/krtmi_2020_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2020_cover.png',
     pdfFile: 'Panduan_KRI_2020.pdf',
     pdfSize: '5.08 MB',
     pdfTitle: 'Petunjuk Pelaksanaan KRI 2020 — KRTMI / KRSTI (Puspresnas & ITB)',
@@ -579,6 +593,8 @@ export const KRTMI_STORIES: KrtmiStory[] = [
     ],
     achievement: '🌱 PIONIR RISET DIVISI TEMATIK KRTMI UNY 2019',
     isChampion: false,
+    coverImage: '/images/tournaments/krtmi_2019_thumb.jpg',
+    logoImage: '/images/tournaments/krtmi_2019_cover.png',
     pdfFile: 'Panduan_KRTMI_2019.pdf',
     pdfSize: '0.24 MB',
     pdfTitle: 'Panduan Resmi Kontes Robot Tematik Indonesia (KRTMI) 2019 (Ditjen Belmawa Kemenristekdikti)',

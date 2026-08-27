@@ -24,6 +24,8 @@ import {
   ChevronRight,
   ExternalLink,
   Info,
+  Maximize2,
+  X,
 } from 'lucide-react';
 
 type SubTab = 'ringkasan' | 'arena' | 'robot' | 'objek' | 'skor' | 'penalti';
@@ -31,6 +33,7 @@ type SubTab = 'ringkasan' | 'arena' | 'robot' | 'objek' | 'skor' | 'penalti';
 export const KrtmiChronicles: React.FC = () => {
   const [activeYear, setActiveYear] = useState<string>('2026');
   const [activeSubTab, setActiveSubTab] = useState<SubTab>('ringkasan');
+  const [previewCover, setPreviewCover] = useState<string | null>(null);
 
   const activeStory = KRTMI_STORIES.find((s) => s.year === activeYear) || KRTMI_STORIES[0];
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -54,17 +57,17 @@ export const KrtmiChronicles: React.FC = () => {
       <div className="text-center space-y-3 max-w-3xl mx-auto px-4 relative z-10">
         <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
           <History className="w-3.5 h-3.5" />
-          <span>ARSIP &amp; BEDAH REGULASI LOMBA</span>
+          <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-          Bedah Regulasi Lomba (2026 ➔ 2019) 📜
+          Bedah Regulasi &amp; Logo Kompetisi (2026 ➔ 2019) 📜
         </h2>
         <p className="text-xs sm:text-base text-slate-300">
-          Pelajari aturan resmi, layout arena, spesifikasi mekatronika robot, dan sistem penilaian dari kompetisi terbaru <strong>Technocorner 2026</strong> hingga edisi pionir <strong>KRTMI 2019</strong>.
+          Pelajari aturan resmi, layout arena, spesifikasi mekatronika robot, dan visual resmi buku panduan dari <strong>Technocorner 2026</strong> hingga edisi pionir <strong>KRTMI 2019</strong>.
         </p>
       </div>
 
-      {/* Year Tabs Bar (Ordered 2026 to 2019) */}
+      {/* Year Tabs Bar (Ordered 2026 to 2019) with Logo Badges */}
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="flex items-center justify-start lg:justify-center space-x-2 overflow-x-auto pb-4 pt-2 no-scrollbar">
           {KRTMI_STORIES.map((story) => {
@@ -76,12 +79,14 @@ export const KrtmiChronicles: React.FC = () => {
                 onClick={() => {
                   setActiveYear(story.year);
                 }}
-                className={`px-4 py-3 rounded-2xl text-xs font-black transition whitespace-nowrap flex items-center space-x-2 border flex-shrink-0 cursor-pointer ${
+                className={`px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-2xl text-xs font-black transition whitespace-nowrap flex items-center space-x-2 border flex-shrink-0 cursor-pointer ${
                   isSelected
                     ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black border-transparent shadow-[0_0_25px_rgba(255,107,0,0.5)] scale-105 font-extrabold'
                     : 'bg-[#140E09] border-[#2A1B10] text-amber-200/70 hover:text-white hover:border-brand-orange/50'
                 }`}
               >
+                {/* Mini Year Icon / Logo indicator */}
+                <span className="w-2 h-2 rounded-full bg-brand-orange" />
                 <span>{story.year === '2026' ? 'Technocorner 2026' : `KRTMI ${story.year}`}</span>
                 {story.isChampion && <Trophy className="w-3.5 h-3.5 text-black animate-pulse" />}
               </button>
@@ -90,54 +95,91 @@ export const KrtmiChronicles: React.FC = () => {
         </div>
       </div>
 
-      {/* Selected Story Detailed Card */}
+      {/* Selected Story Detailed Card with Official Cover Showcase */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="p-6 sm:p-10 rounded-3xl bg-[#140E09] border-2 border-brand-orange/40 shadow-2xl space-y-8 relative overflow-hidden">
           
           {/* Top Orange Gradient Stripe */}
           <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400" />
 
-          {/* Title, Badges, and Location */}
-          <div className="space-y-3">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="px-3.5 py-1 rounded-full text-xs font-black uppercase bg-brand-orange/20 text-brand-orange border border-brand-orange/40">
-                Edisi {activeStory.year}
-              </span>
-              <span className="px-3.5 py-1 rounded-full text-xs font-semibold bg-[#22160E] text-amber-200 border border-[#3A2617] flex items-center space-x-1.5">
-                <MapPin className="w-3.5 h-3.5 text-brand-orange" />
-                <span>{activeStory.location}</span>
-              </span>
-              {activeStory.hostOrganizer && (
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-[#1a120b] text-slate-300 border border-[#342214] hidden md:inline-flex items-center space-x-1">
-                  <Info className="w-3 h-3 text-amber-400" />
-                  <span>{activeStory.hostOrganizer}</span>
-                </span>
-              )}
-            </div>
-
-            <h3 className="text-2xl sm:text-4xl font-black text-white leading-tight">
-              {activeStory.title}
-            </h3>
+          {/* 1. Header Showcase: Official Competition Cover Poster + Details */}
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8 border-b border-[#2A1B10] pb-6">
             
-            {activeStory.tagline && (
-              <p className="text-sm sm:text-base font-bold text-amber-400">
-                {activeStory.tagline}
-              </p>
-            )}
+            {/* Official Tournament Cover Box */}
+            <div
+              onClick={() => setPreviewCover(activeStory.coverImage || null)}
+              className="relative w-44 sm:w-52 md:w-60 aspect-[3/4] rounded-2xl overflow-hidden border-2 border-brand-orange/50 shadow-[0_0_30px_rgba(255,107,0,0.25)] flex-shrink-0 cursor-pointer group bg-black"
+              title="Klik untuk memperbesar buku panduan resmi"
+            >
+              {activeStory.coverImage ? (
+                <img
+                  src={`${basePath}${activeStory.coverImage}`}
+                  alt={`Buku Panduan Resmi ${activeStory.title}`}
+                  className="w-full h-full object-cover object-top group-hover:scale-108 transition-transform duration-500 brightness-95 contrast-105"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center bg-[#1C120A] text-amber-200">
+                  <FileText className="w-12 h-12 text-brand-orange mb-2" />
+                  <span className="text-xs font-bold">{activeStory.title}</span>
+                </div>
+              )}
 
-            {activeStory.slogan && (
-              <div className="text-xs font-mono italic text-amber-300/80">
-                Slogan: {activeStory.slogan}
+              {/* Gradient & Overlay Badge */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+
+              <div className="absolute top-2.5 left-2.5 px-2 py-0.5 rounded-md bg-brand-orange text-black text-[9px] font-black uppercase shadow">
+                LOGO &amp; PANDUAN RESMI
               </div>
-            )}
-          </div>
 
-          {/* Achievement Banner */}
-          <div className="p-4 rounded-2xl bg-gradient-to-r from-brand-orange/20 via-amber-500/10 to-transparent border border-brand-orange/40 flex items-center space-x-3">
-            <Trophy className="w-6 h-6 text-brand-gold flex-shrink-0 animate-bounce" />
-            <div className="text-xs sm:text-sm font-black text-white font-mono">
-              {activeStory.achievement}
+              <div className="absolute bottom-2.5 inset-x-2.5 flex items-center justify-between text-white text-[10px]">
+                <span className="font-mono font-bold text-amber-300">Buku Panduan {activeStory.year}</span>
+                <Maximize2 className="w-3.5 h-3.5 text-white/80 group-hover:text-brand-orange transition" />
+              </div>
             </div>
+
+            {/* Title, Badges, Tagline & Location */}
+            <div className="flex-1 space-y-3.5 text-center md:text-left">
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                <span className="px-3.5 py-1 rounded-full text-xs font-black uppercase bg-brand-orange/20 text-brand-orange border border-brand-orange/40">
+                  Edisi {activeStory.year}
+                </span>
+                <span className="px-3.5 py-1 rounded-full text-xs font-semibold bg-[#22160E] text-amber-200 border border-[#3A2617] flex items-center space-x-1.5">
+                  <MapPin className="w-3.5 h-3.5 text-brand-orange" />
+                  <span>{activeStory.location}</span>
+                </span>
+                {activeStory.hostOrganizer && (
+                  <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-[#1a120b] text-slate-300 border border-[#342214] hidden lg:inline-flex items-center space-x-1">
+                    <Info className="w-3 h-3 text-amber-400" />
+                    <span>{activeStory.hostOrganizer}</span>
+                  </span>
+                )}
+              </div>
+
+              <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white leading-tight">
+                {activeStory.title}
+              </h3>
+              
+              {activeStory.tagline && (
+                <p className="text-sm sm:text-base font-bold text-amber-400">
+                  {activeStory.tagline}
+                </p>
+              )}
+
+              {activeStory.slogan && (
+                <div className="text-xs font-mono italic text-amber-300/80">
+                  Slogan: {activeStory.slogan}
+                </div>
+              )}
+
+              {/* Achievement Banner */}
+              <div className="p-3.5 rounded-2xl bg-gradient-to-r from-brand-orange/20 via-amber-500/10 to-transparent border border-brand-orange/40 flex items-center space-x-3 text-left">
+                <Trophy className="w-5 h-5 text-brand-gold flex-shrink-0 animate-bounce" />
+                <div className="text-xs sm:text-sm font-black text-white font-mono">
+                  {activeStory.achievement}
+                </div>
+              </div>
+            </div>
+
           </div>
 
           {/* Quick Key-Value Badges (Match Duration, Power Cap, Victory Condition) */}
@@ -178,361 +220,274 @@ export const KrtmiChronicles: React.FC = () => {
                 <span>Sistem Robot</span>
               </span>
               <span className="text-xs sm:text-sm font-black text-cyan-200 block truncate" title={activeStory.robotSpecs.robotCount || '1 Robot'}>
-                {activeStory.year === '2024' ? 'Dual Robot (Pemilah + Feeder)' : activeStory.year === '2026' ? 'Mecanum Transporter' : 'Mobile Cyber-Physical'}
+                {activeStory.robotSpecs.autonomyMode || '100% Otonom'}
               </span>
             </div>
           </div>
 
-          {/* Interactive Sub-Tabs for Deep Inspection */}
-          <div className="border-b border-[#26180E] pb-2">
-            <div className="flex items-center space-x-2 overflow-x-auto no-scrollbar">
-              {subTabs.map((tab) => {
-                const isTabActive = activeSubTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    type="button"
-                    onClick={() => setActiveSubTab(tab.id)}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 flex-shrink-0 cursor-pointer ${
-                      isTabActive
-                        ? 'bg-brand-orange text-black font-extrabold shadow-md'
-                        : 'bg-[#0E0906] text-slate-300 hover:text-white hover:bg-[#1E1208]'
-                    }`}
-                  >
-                    {tab.icon}
-                    <span>{tab.label}</span>
-                  </button>
-                );
-              })}
-            </div>
+          {/* Sub-Tabs Selector */}
+          <div className="flex items-center space-x-2 overflow-x-auto pb-2 border-b border-[#2A1B10] scrollbar-thin scrollbar-thumb-brand-orange/30">
+            {subTabs.map((tab) => {
+              const isTabActive = activeSubTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => setActiveSubTab(tab.id)}
+                  className={`px-4 py-2.5 rounded-xl text-xs font-bold transition whitespace-nowrap flex items-center space-x-2 cursor-pointer ${
+                    isTabActive
+                      ? 'bg-brand-orange text-black font-extrabold shadow-md'
+                      : 'bg-[#1C120B] text-slate-300 hover:text-white hover:bg-[#25180E] border border-[#2A1B10]'
+                  }`}
+                >
+                  {tab.icon}
+                  <span>{tab.label}</span>
+                </button>
+              );
+            })}
           </div>
 
-          {/* Sub-Tab Content Sections */}
-          <div className="space-y-6">
-            
-            {/* 1. Ringkasan & Misi */}
-            {activeSubTab === 'ringkasan' && (
-              <div className="space-y-6">
-                <div className="p-6 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-3">
-                  <h4 className="text-xs font-black text-amber-300 uppercase tracking-wider flex items-center space-x-2">
-                    <Sparkles className="w-4 h-4 text-brand-orange" />
-                    <span>Deskripsi Tema &amp; Latar Belakang Lomba</span>
-                  </h4>
-                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                    {activeStory.storySummary}
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Alur Misi */}
-                  <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-3">
-                    <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                      <ChevronRight className="w-4 h-4 text-brand-orange" />
-                      <span>Tahapan &amp; Alur Misi</span>
-                    </h4>
-                    <ul className="space-y-2 text-xs text-slate-300">
-                      {activeStory.missionRules.map((rule, idx) => (
-                        <li key={idx} className="flex items-start space-x-2">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
-                          <span>{rule}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Catatan Riset & Fun Facts */}
-                  <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-3">
-                    <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                      <Flame className="w-4 h-4 text-brand-orange" />
-                      <span>Catatan Riset &amp; Cerita Abhinaya UNY</span>
-                    </h4>
-                    <ul className="space-y-2 text-xs text-slate-300">
-                      {activeStory.teamRoleAndFunFacts.map((fact, idx) => (
-                        <li key={idx} className="flex items-start space-x-2">
-                          <span className="text-brand-orange font-mono font-bold">•</span>
-                          <span>{fact}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* 2. Spesifikasi Arena */}
-            {activeSubTab === 'arena' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Compass className="w-4 h-4 text-brand-orange" />
-                    <span>Tata Letak &amp; Dimensi Lapangan</span>
-                  </h4>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Dimensi Arena:</span>
-                      <span className="text-white font-semibold">{activeStory.arenaSpecs.dimensions}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Permukaan &amp; Lantai:</span>
-                      <span className="text-slate-300">{activeStory.arenaSpecs.surface}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Pembagian Zona:</span>
-                      <span className="text-amber-200">{activeStory.arenaSpecs.zones}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Layers className="w-4 h-4 text-brand-orange" />
-                    <span>Rintangan, Dinding &amp; Kamera</span>
-                  </h4>
-                  <div className="space-y-3">
-                    {activeStory.arenaSpecs.obstacles && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Rintangan Fisik:</span>
-                        <span className="text-amber-300 font-medium">{activeStory.arenaSpecs.obstacles}</span>
-                      </div>
-                    )}
-                    {activeStory.arenaSpecs.borderWall && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Dinding &amp; Garis Batas:</span>
-                        <span className="text-slate-300">{activeStory.arenaSpecs.borderWall}</span>
-                      </div>
-                    )}
-                    {activeStory.arenaSpecs.lightingAndCamera && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Penerangan &amp; Kamera:</span>
-                        <span className="text-slate-300">{activeStory.arenaSpecs.lightingAndCamera}</span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* 3. Regulasi Robot */}
-            {activeSubTab === 'robot' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Cpu className="w-4 h-4 text-brand-orange" />
-                    <span>Dimensi &amp; Konstruksi Mekanik</span>
-                  </h4>
-                  <div className="space-y-3">
-                    {activeStory.robotSpecs.robotCount && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Jumlah Robot:</span>
-                        <span className="text-brand-orange font-bold">{activeStory.robotSpecs.robotCount}</span>
-                      </div>
-                    )}
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Dimensi Start:</span>
-                      <span className="text-white font-semibold">{activeStory.robotSpecs.dimensions}</span>
-                    </div>
-                    {activeStory.robotSpecs.expandedDimensions && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Ekspansi Dimensi:</span>
-                        <span className="text-slate-300">{activeStory.robotSpecs.expandedDimensions}</span>
-                      </div>
-                    )}
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Batasan Bobot:</span>
-                      <span className="text-slate-300">{activeStory.robotSpecs.weight}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Mekanisme Penggerak &amp; Gripper:</span>
-                      <span className="text-amber-200">{activeStory.robotSpecs.mechanism}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Zap className="w-4 h-4 text-brand-orange" />
-                    <span>Elektrik, AI &amp; Sistem Kontrol</span>
-                  </h4>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Catu Daya &amp; Baterai:</span>
-                      <span className="text-amber-300 font-bold">{activeStory.robotSpecs.power}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Mikrokontroler &amp; Edge SoC:</span>
-                      <span className="text-white">{activeStory.robotSpecs.controller}</span>
-                    </div>
-                    {activeStory.robotSpecs.maxSpeed && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Batas Kecepatan:</span>
-                        <span className="text-cyan-300 font-semibold">{activeStory.robotSpecs.maxSpeed}</span>
-                      </div>
-                    )}
-                    {activeStory.robotSpecs.autonomyMode && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Mode Otomasi &amp; Kontrol:</span>
-                        <span className="text-slate-300">{activeStory.robotSpecs.autonomyMode}</span>
-                      </div>
-                    )}
-                    {activeStory.robotSpecs.communications && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Komunikasi Data:</span>
-                        <span className="text-slate-300">{activeStory.robotSpecs.communications}</span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* 4. Objek & Prosedur */}
-            {activeSubTab === 'objek' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-3 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Box className="w-4 h-4 text-brand-orange" />
-                    <span>Objek Game &amp; Material</span>
-                  </h4>
-                  {activeStory.gameObjects ? (
-                    <div className="space-y-3">
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Daftar Objek:</span>
-                        <ul className="space-y-1 mt-1">
-                          {activeStory.gameObjects.types.map((t, idx) => (
-                            <li key={idx} className="text-slate-200 flex items-center space-x-1.5">
-                              <span className="text-brand-orange font-bold">•</span>
-                              <span>{t}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      {activeStory.gameObjects.dimensions && (
-                        <div>
-                          <span className="text-[10px] text-slate-400 font-bold uppercase block">Dimensi Objek:</span>
-                          <span className="text-white">{activeStory.gameObjects.dimensions}</span>
-                        </div>
-                      )}
-                      {activeStory.gameObjects.quantity && (
-                        <div>
-                          <span className="text-[10px] text-slate-400 font-bold uppercase block">Jumlah per Ronde:</span>
-                          <span className="text-amber-300 font-semibold">{activeStory.gameObjects.quantity}</span>
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <p className="text-slate-400">Data objek game terintegrasi dalam skenario lomba.</p>
-                  )}
-                </div>
-
-                <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-3 text-xs">
-                  <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                    <Clock className="w-4 h-4 text-brand-orange" />
-                    <span>Prosedur &amp; Waktu Pertandingan</span>
-                  </h4>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Waktu Pertandingan:</span>
-                      <span className="text-white font-bold">{activeStory.matchProcedure?.matchDuration || '3 Menit'}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Waktu Persiapan:</span>
-                      <span className="text-slate-300">{activeStory.matchProcedure?.prepTime || '1 Menit'}</span>
-                    </div>
-                    {activeStory.matchProcedure?.teamQuota && (
-                      <div>
-                        <span className="text-[10px] text-slate-400 font-bold uppercase block">Kuota Tim:</span>
-                        <span className="text-slate-300">{activeStory.matchProcedure.teamQuota}</span>
-                      </div>
-                    )}
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold uppercase block">Kondisi Kemenangan Mutlak:</span>
-                      <span className="text-brand-orange font-bold">{activeStory.matchProcedure?.victoryCondition}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* 5. Sistem Penilaian */}
-            {activeSubTab === 'skor' && (
-              <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                <h4 className="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Layers className="w-4 h-4 text-brand-orange" />
-                  <span>Formula Poin &amp; Kemenangan Mutlak</span>
+          {/* Tab 1: Ringkasan & Misi */}
+          {activeSubTab === 'ringkasan' && (
+            <div className="space-y-6 text-slate-300 text-xs sm:text-sm leading-relaxed">
+              <div className="p-5 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-2">
+                <h4 className="text-sm font-black text-white flex items-center space-x-2">
+                  <Sparkles className="w-4 h-4 text-brand-orange" />
+                  <span>Ikhtisar Tema &amp; Latar Belakang Riset</span>
                 </h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <ul className="space-y-2">
-                    {activeStory.scoringSystem.slice(0, Math.ceil(activeStory.scoringSystem.length / 2)).map((score, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 text-slate-300">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
-                        <span>{score}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <ul className="space-y-2">
-                    {activeStory.scoringSystem.slice(Math.ceil(activeStory.scoringSystem.length / 2)).map((score, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 text-slate-300">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange flex-shrink-0 mt-0.5" />
-                        <span>{score}</span>
-                      </li>
-                    ))}
-                  </ul>
+                <p>{activeStory.storySummary}</p>
+              </div>
+
+              <div className="space-y-3">
+                <h4 className="text-sm font-black text-white">Misi Utama yang Wajib Diselesaikan:</h4>
+                <ul className="space-y-2">
+                  {activeStory.missionRules.map((rule, idx) => (
+                    <li key={idx} className="flex items-start space-x-2.5">
+                      <CheckCircle2 className="w-4 h-4 text-brand-orange flex-shrink-0 mt-0.5" />
+                      <span>{rule}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="space-y-3 pt-2">
+                <h4 className="text-sm font-black text-amber-400">Catatan Khusus &amp; Fakta Unik Lapangan:</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {activeStory.teamRoleAndFunFacts.map((fact, idx) => (
+                    <div key={idx} className="p-3.5 rounded-xl bg-[#1A1009] border border-[#2B1B10] text-xs">
+                      {fact}
+                    </div>
+                  ))}
                 </div>
               </div>
-            )}
+            </div>
+          )}
 
-            {/* 6. Penalti & Sanksi */}
-            {activeSubTab === 'penalti' && (
-              <div className="p-5 rounded-2xl bg-[#0C0805] border border-[#26180E] space-y-4 text-xs">
-                <h4 className="text-xs font-black text-red-400 uppercase tracking-wider flex items-center space-x-1.5">
-                  <ShieldAlert className="w-4 h-4 text-red-400" />
-                  <span>Pelanggaran &amp; Aturan Diskualifikasi</span>
-                </h4>
-                {activeStory.penaltiesAndDisqualifications && activeStory.penaltiesAndDisqualifications.length > 0 ? (
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-slate-300">
-                    {activeStory.penaltiesAndDisqualifications.map((pen, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 p-2 rounded-lg bg-[#140a08] border border-red-950/40">
-                        <AlertTriangle className="w-3.5 h-3.5 text-red-400 flex-shrink-0 mt-0.5" />
-                        <span>{pen}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-slate-400">Penalti mengacu pada sanksi pengurangan poin standar BPTI KRI.</p>
+          {/* Tab 2: Spesifikasi Arena */}
+          {activeSubTab === 'arena' && (
+            <div className="space-y-4 text-xs sm:text-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1.5">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Dimensi Arena</span>
+                  <p className="text-white font-bold">{activeStory.arenaSpecs.dimensions}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1.5">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Permukaan Lapangan</span>
+                  <p className="text-white">{activeStory.arenaSpecs.surface}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1.5">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Zona Penting</span>
+                  <p className="text-slate-300">{activeStory.arenaSpecs.zones}</p>
+                </div>
+                {activeStory.arenaSpecs.obstacles && (
+                  <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1.5">
+                    <span className="text-[10px] font-black uppercase text-amber-400 tracking-wider">Rintangan &amp; Halangan</span>
+                    <p className="text-slate-300">{activeStory.arenaSpecs.obstacles}</p>
+                  </div>
                 )}
               </div>
-            )}
-
-          </div>
-
-          {/* Guidebook PDF Download Card */}
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-[#1E1107] to-[#120A04] border-2 border-brand-orange/50 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xl">
-            <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-red-500/20 text-red-400 flex items-center justify-center border border-red-500/40 flex-shrink-0">
-                <FileText className="w-6 h-6" />
-              </div>
-              <div>
-                <div className="text-sm font-black text-white">
-                  {activeStory.pdfTitle}
+              {activeStory.arenaSpecs.lightingAndCamera && (
+                <div className="p-4 rounded-2xl bg-[#1C120B] border border-amber-900/30 text-xs text-amber-200">
+                  <span className="font-bold text-white block mb-1">Kondisi Pencahayaan &amp; Sensor Arena:</span>
+                  {activeStory.arenaSpecs.lightingAndCamera}
                 </div>
-                <div className="text-xs text-amber-200/70 font-semibold">
-                  Ukuran Dokumen: {activeStory.pdfSize} • Format Asli PDF BPTI / Panitia
+              )}
+            </div>
+          )}
+
+          {/* Tab 3: Regulasi Robot */}
+          {activeSubTab === 'robot' && (
+            <div className="space-y-4 text-xs sm:text-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Jumlah Robot per Tim</span>
+                  <p className="text-white font-bold">{activeStory.robotSpecs.robotCount || '1 Robot Utama'}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Batasan Dimensi Start</span>
+                  <p className="text-white font-mono">{activeStory.robotSpecs.dimensions}</p>
+                </div>
+                {activeStory.robotSpecs.expandedDimensions && (
+                  <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                    <span className="text-[10px] font-black uppercase text-amber-400 tracking-wider">Dimensi Saat Berekspansi</span>
+                    <p className="text-amber-200 font-mono">{activeStory.robotSpecs.expandedDimensions}</p>
+                  </div>
+                )}
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Bobot Sasis Robot</span>
+                  <p className="text-white">{activeStory.robotSpecs.weight}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Catu Daya / Baterai</span>
+                  <p className="text-amber-300 font-mono font-bold">{activeStory.robotSpecs.power}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Sistem Kontroler &amp; Komputasi</span>
+                  <p className="text-white">{activeStory.robotSpecs.controller}</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-1 sm:col-span-2">
+                  <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider">Mekanisme Penggerak &amp; Gripper</span>
+                  <p className="text-slate-300">{activeStory.robotSpecs.mechanism}</p>
                 </div>
               </div>
             </div>
+          )}
+
+          {/* Tab 4: Objek & Prosedur Lomba */}
+          {activeSubTab === 'objek' && (
+            <div className="space-y-4 text-xs sm:text-sm">
+              {activeStory.gameObjects && (
+                <div className="p-5 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-3">
+                  <h4 className="text-sm font-black text-white flex items-center space-x-2">
+                    <Box className="w-4 h-4 text-brand-orange" />
+                    <span>Objek Target Perlombaan:</span>
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {activeStory.gameObjects.types.map((obj, idx) => (
+                      <div key={idx} className="p-2.5 rounded-xl bg-[#20150D] text-slate-200 border border-brand-orange/20 flex items-center space-x-2">
+                        <span className="w-2 h-2 rounded-full bg-brand-orange" />
+                        <span>{obj}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {activeStory.matchProcedure && (
+                <div className="p-5 rounded-2xl bg-[#170E08] border border-[#2B1B10] space-y-3">
+                  <h4 className="text-sm font-black text-amber-400 flex items-center space-x-2">
+                    <Clock className="w-4 h-4 text-amber-400" />
+                    <span>Prosedur &amp; Jadwal Match:</span>
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div className="p-3 rounded-xl bg-[#20150D] space-y-1">
+                      <span className="text-[10px] text-slate-400 uppercase block font-bold">Waktu Persiapan (Setting)</span>
+                      <span className="text-white font-mono font-bold">{activeStory.matchProcedure.prepTime}</span>
+                    </div>
+                    <div className="p-3 rounded-xl bg-[#20150D] space-y-1">
+                      <span className="text-[10px] text-slate-400 uppercase block font-bold">Waktu Pertandingan</span>
+                      <span className="text-white font-mono font-bold">{activeStory.matchProcedure.matchDuration}</span>
+                    </div>
+                    <div className="p-3 rounded-xl bg-[#20150D] space-y-1">
+                      <span className="text-[10px] text-slate-400 uppercase block font-bold">Kondisi Kemenangan</span>
+                      <span className="text-brand-orange font-bold">{activeStory.matchProcedure.victoryCondition}</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Tab 5: Sistem Penilaian */}
+          {activeSubTab === 'skor' && (
+            <div className="space-y-3 text-xs sm:text-sm">
+              <h4 className="text-sm font-black text-white">Rincian Perhitungan Skor Resmi:</h4>
+              <div className="space-y-2">
+                {activeStory.scoringSystem.map((score, idx) => (
+                  <div key={idx} className="p-3.5 rounded-xl bg-[#170E08] border border-[#2B1B10] flex items-start space-x-3 text-slate-300">
+                    <Award className="w-4 h-4 text-brand-gold flex-shrink-0 mt-0.5" />
+                    <span>{score}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Tab 6: Penalti & Sanksi */}
+          {activeSubTab === 'penalti' && (
+            <div className="space-y-3 text-xs sm:text-sm">
+              <h4 className="text-sm font-black text-red-400 flex items-center space-x-2">
+                <AlertTriangle className="w-4 h-4 text-red-500" />
+                <span>Aturan Penalti, Retry, &amp; Diskualifikasi:</span>
+              </h4>
+              {activeStory.penaltiesAndDisqualifications && activeStory.penaltiesAndDisqualifications.length > 0 ? (
+                <div className="space-y-2">
+                  {activeStory.penaltiesAndDisqualifications.map((pen, idx) => (
+                    <div key={idx} className="p-3.5 rounded-xl bg-[#1A0B0B] border border-red-900/40 text-red-200/90 flex items-start space-x-3">
+                      <ShieldAlert className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
+                      <span>{pen}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-slate-400 text-xs">Penalti mengacu pada buku pedoman resmi KRI.</p>
+              )}
+            </div>
+          )}
+
+          {/* Bottom PDF Download Bar */}
+          <div className="pt-6 border-t border-[#26180E] flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center space-x-3 text-left">
+              <div className="w-11 h-11 rounded-2xl bg-brand-orange/20 text-brand-orange flex items-center justify-center border border-brand-orange/40 flex-shrink-0">
+                <FileText className="w-5 h-5" />
+              </div>
+              <div>
+                <span className="text-xs font-bold text-white block">{activeStory.pdfTitle}</span>
+                <span className="text-[11px] text-slate-400 font-mono">Ukuran: {activeStory.pdfSize} • Dokumen Resmi BPTI / DTETI</span>
+              </div>
+            </div>
+
             <a
-              href={`${basePath}/guidebooks/${activeStory.pdfFile}`}
+              href={`${basePath}${activeStory.pdfFile}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs uppercase tracking-wider flex items-center justify-center space-x-2 transition shadow-lg whitespace-nowrap hover:scale-105"
+              className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-gradient-to-r from-brand-orange to-brand-darkOrange text-black font-black text-xs uppercase tracking-wider flex items-center justify-center space-x-2 shadow-lg shadow-brand-orange/20 hover:scale-105 transition"
             >
-              <Download className="w-4 h-4" />
-              <span>UNDUH BUKU PANDUAN PDF</span>
+              <Download className="w-4 h-4 text-black" />
+              <span>Unduh Buku Panduan PDF</span>
             </a>
           </div>
 
         </div>
       </div>
+
+      {/* Cover Preview Modal */}
+      {previewCover && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4"
+          onClick={() => setPreviewCover(null)}
+        >
+          <div
+            className="relative max-w-2xl w-full bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl overflow-hidden shadow-2xl p-4 sm:p-6 space-y-4 max-h-[90vh] flex flex-col items-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setPreviewCover(null)}
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-brand-orange hover:text-black transition"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <img
+              src={`${basePath}${previewCover}`}
+              alt="Buku Panduan Cover Preview"
+              className="max-h-[75vh] w-auto object-contain rounded-2xl border border-brand-orange/30 shadow-2xl"
+            />
+            <span className="text-xs font-mono font-bold text-amber-300">
+              Dokumen Resmi Buku Pedoman {activeStory.title}
+            </span>
+          </div>
+        </div>
+      )}
 
     </section>
   );
