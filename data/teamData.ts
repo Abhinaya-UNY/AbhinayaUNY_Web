@@ -50,6 +50,8 @@ export const DOSEN_PEMBIMBING_LIST: TeamMember[] = [
     quote: 'Inovasi robotika bermula dari dedikasi dan kerja keras tanpa henti.',
     image: '/assets/logo_abhinaya_solid.png',
     images: [
+      '/images/instagram_feed/2024-09-12_16-47-00_UTC_C_0wbi1z6IH.jpg',
+      '/images/instagram_feed/2025-09-27_20-31-45_UTC_DPHoOJJk2NM_2.jpg',
       '/assets/logo_abhinaya_solid.png',
     ],
     badge: 'Chief Advisor',
@@ -111,6 +113,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/09_ilham_widyo_nugroho_1.png',
       '/images/members/09_ilham_widyo_nugroho_2.png',
+      '/images/instagram_feed/2024-09-12_16-47-42_UTC_C_0wguVTpGY.jpg',
+      '/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_2.jpg',
+      '/images/instagram_feed/2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3_2.jpg',
     ],
     badge: 'Ketua Tim',
     socials: {
@@ -142,6 +147,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/04_mustika_wahyu_aprilia_1.png',
       '/images/members/04_mustika_wahyu_aprilia_2.png',
+      '/images/instagram_feed/2024-09-12_16-45-33_UTC_C_0wQ-qzwUx_2.jpg',
+      '/images/instagram_feed/2023-09-08_01-41-47_UTC_Cw6at1NPTGL_2.jpg',
     ],
     badge: 'Manager Keuangan',
     socials: {
@@ -171,6 +178,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/05_rose_pita_nur_afifah_1.png',
       '/images/members/05_rose_pita_nur_afifah_2.png',
+      '/images/instagram_feed/2024-09-12_16-45-33_UTC_C_0wQ-qzwUx_3.jpg',
+      '/images/instagram_feed/2025-09-27_20-30-33_UTC_DPHoFZYk8lw_2.jpg',
     ],
     badge: 'Manager Media',
     socials: {
@@ -201,6 +210,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/06_tri_wahyu_handoyo_1.png',
       '/images/members/06_tri_wahyu_handoyo_2.png',
+      '/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_2.jpg',
+      '/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_2.jpg',
+      '/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_3.jpg',
     ],
     badge: 'Lead Program & AI',
     socials: {
@@ -231,6 +243,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/08_salsabila_azzahra_1.png',
       '/images/members/08_salsabila_azzahra_2.png',
+      '/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_3.jpg',
+      '/images/instagram_feed/2023-09-08_01-48-22_UTC_Cw6bd9zPTNP_2.jpg',
+      '/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_2.jpg',
     ],
     badge: 'Program & Strategi',
     socials: {
@@ -260,6 +275,10 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/07_farhan_yuda_mahendra_1.png',
       '/images/members/07_farhan_yuda_mahendra_2.png',
+      '/images/instagram_feed/2024-09-12_16-37-07_UTC_C_0vTMcTTGT_4.jpg',
+      '/images/instagram_feed/2025-09-27_20-32-54_UTC_DPHoWoFkxa3_2.jpg',
+      '/images/instagram_feed/2025-09-27_20-21-31_UTC_DPHnDR1E7WH_3.jpg',
+      '/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_4.jpg',
     ],
     badge: 'Program & Kontrol',
     socials: {
@@ -291,6 +310,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/01_abdul_hasib_adzdzin_nuha_1.png',
       '/images/members/01_abdul_hasib_adzdzin_nuha_2.png',
+      '/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_2.jpg',
+      '/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_3.jpg',
+      '/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_4.jpg',
     ],
     badge: 'PCB & Wiring',
     socials: {
@@ -320,6 +342,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/02_agus_bagaskoro_1.png',
       '/images/members/02_agus_bagaskoro_2.png',
+      '/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_3.jpg',
+      '/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_3.jpg',
     ],
     badge: 'Lead Elektronik',
     socials: {
@@ -349,6 +373,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/03_ikhsan_nurrohman_1.png',
       '/images/members/03_ikhsan_nurrohman_2.png',
+      '/images/instagram_feed/2024-09-12_16-42-44_UTC_C_0v8QYT7kJ_4.jpg',
+      '/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_2.jpg',
     ],
     badge: 'Telemetri & Wireless',
     socials: {
@@ -376,6 +402,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     quote: 'Transfer knowledge adalah kunci konsistensi juara.',
     image: '/assets/logo_abhinaya_solid.png',
     images: [
+      '/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_2.jpg',
       '/assets/logo_abhinaya_solid.png',
     ],
     badge: 'Senior Advisor',
@@ -407,6 +434,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/10_muhamad_ilham_sony_1.png',
       '/images/members/10_muhamad_ilham_sony_2.png',
+      '/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_3.jpg',
+      '/images/instagram_feed/2023-09-08_01-33-34_UTC_Cw6Zxo-vmO3_3.jpg',
     ],
     badge: 'Lead Mekanik',
     socials: {
@@ -436,6 +465,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/11_caesar_sokma_langgeng_1.png',
       '/images/members/11_caesar_sokma_langgeng_2.png',
+      '/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_4.jpg',
+      '/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_3.jpg',
     ],
     badge: 'CAD & Fabrikasi',
     socials: {
@@ -465,6 +496,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     images: [
       '/images/members/12_rionaldi_nugroho_1.png',
       '/images/members/12_rionaldi_nugroho_2.png',
+      '/images/instagram_feed/2024-09-12_16-40-27_UTC_C_0vriTzQUk_5.jpg',
+      '/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_2.jpg',
     ],
     badge: 'Mekanik QA',
     socials: {
