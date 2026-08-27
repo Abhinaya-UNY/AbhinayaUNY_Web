@@ -3,7 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Instagram, Menu, X, Trophy } from 'lucide-react';
+import { Menu, X, Trophy } from 'lucide-react';
+import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -88,19 +89,28 @@ export const Navbar: React.FC = () => {
               href="https://www.instagram.com/abhinaya.uny/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-brand-orange text-amber-300 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-10 h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-pink-400 text-pink-400 hover:text-white flex items-center justify-center transition shadow-md group"
               title="Official Instagram @abhinaya.uny"
             >
-              <Instagram className="w-5 h-5 text-pink-400 group-hover:scale-110 transition" />
+              <FaInstagram className="w-5 h-5 group-hover:scale-110 transition" />
             </a>
             <a
               href="https://www.tiktok.com/@abhinaya.uny"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-brand-orange text-amber-300 hover:text-white flex items-center justify-center transition shadow-md group text-xs font-black"
+              className="w-10 h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-white text-slate-300 hover:text-white flex items-center justify-center transition shadow-md group"
               title="Official TikTok @abhinaya.uny"
             >
-              TT
+              <FaTiktok className="w-4 h-4 group-hover:scale-110 transition" />
+            </a>
+            <a
+              href="https://www.youtube.com/@AbhinayaUNY"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-red-500 text-red-500 hover:text-white hover:bg-[#FF0000] flex items-center justify-center transition shadow-md group"
+              title="Official YouTube @AbhinayaUNY"
+            >
+              <FaYoutube className="w-5 h-5 group-hover:scale-110 transition" />
             </a>
           </div>
 

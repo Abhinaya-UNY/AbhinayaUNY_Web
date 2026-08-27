@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Youtube, Sparkles, ArrowRight, Heart } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 
 export const SocialMediaHub: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ export const SocialMediaHub: React.FC = () => {
         {/* Header */}
         <div className="text-center space-y-3 max-w-3xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-pink-500/15 text-pink-400 text-xs font-black uppercase tracking-wider border border-pink-500/30">
-            <Instagram className="w-3.5 h-3.5 text-pink-400" />
+            <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
             <span>TERHUBUNG DENGAN TIM</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
@@ -20,19 +21,19 @@ export const SocialMediaHub: React.FC = () => {
           </p>
         </div>
 
-        {/* 2 Big Social Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        {/* 3 Social Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           
           {/* Instagram Card */}
           <a
             href="https://www.instagram.com/abhinaya.uny/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-8 rounded-3xl bg-gradient-to-br from-[#260C1A] to-[#12070D] border-2 border-pink-500/40 hover:border-pink-400 transition space-y-4 group shadow-xl hover:scale-102"
+            className="p-8 rounded-3xl bg-gradient-to-br from-[#260C1A] to-[#12070D] border-2 border-pink-500/40 hover:border-pink-400 transition space-y-4 group shadow-xl hover:scale-105"
           >
             <div className="flex items-center justify-between">
               <div className="w-14 h-14 rounded-2xl bg-pink-500/20 text-pink-400 flex items-center justify-center border border-pink-500/40 group-hover:scale-110 transition">
-                <Instagram className="w-8 h-8" />
+                <FaInstagram className="w-8 h-8" />
               </div>
               <span className="px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 text-xs font-bold border border-pink-500/30">
                 Official Instagram
@@ -57,11 +58,11 @@ export const SocialMediaHub: React.FC = () => {
             href="https://www.tiktok.com/@abhinaya.uny"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-8 rounded-3xl bg-gradient-to-br from-[#1F140A] to-[#0F0B06] border-2 border-brand-orange/40 hover:border-brand-orange transition space-y-4 group shadow-xl hover:scale-102"
+            className="p-8 rounded-3xl bg-gradient-to-br from-[#1F140A] to-[#0F0B06] border-2 border-brand-orange/40 hover:border-brand-orange transition space-y-4 group shadow-xl hover:scale-105"
           >
             <div className="flex items-center justify-between">
               <div className="w-14 h-14 rounded-2xl bg-brand-orange/20 text-brand-orange flex items-center justify-center border border-brand-orange/40 group-hover:scale-110 transition">
-                <Sparkles className="w-8 h-8" />
+                <FaTiktok className="w-7 h-7" />
               </div>
               <span className="px-3 py-1 rounded-full bg-brand-orange/20 text-brand-orange text-xs font-bold border border-brand-orange/30">
                 Official TikTok
@@ -77,6 +78,35 @@ export const SocialMediaHub: React.FC = () => {
             </div>
             <div className="pt-2 flex items-center space-x-2 text-xs font-bold text-brand-orange group-hover:text-amber-300">
               <span>Tonton di TikTok</span>
+              <ArrowRight className="w-4 h-4" />
+            </div>
+          </a>
+
+          {/* YouTube Card */}
+          <a
+            href="https://www.youtube.com/@AbhinayaUNY"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-8 rounded-3xl bg-gradient-to-br from-[#1A0A0A] to-[#0D0606] border-2 border-red-600/40 hover:border-red-500 transition space-y-4 group shadow-xl hover:scale-105"
+          >
+            <div className="flex items-center justify-between">
+              <div className="w-14 h-14 rounded-2xl bg-red-600/20 text-red-500 flex items-center justify-center border border-red-600/40 group-hover:scale-110 transition">
+                <FaYoutube className="w-8 h-8" />
+              </div>
+              <span className="px-3 py-1 rounded-full bg-red-600/20 text-red-400 text-xs font-bold border border-red-600/30">
+                Official YouTube
+              </span>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-2xl font-black text-white group-hover:text-red-400 transition">
+                @AbhinayaUNY
+              </h3>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Video lengkap dokumentasi laga KRI, vlog behind the scenes kompetisi, dan rekap perjalanan riset robotika dari berbagai musim.
+              </p>
+            </div>
+            <div className="pt-2 flex items-center space-x-2 text-xs font-bold text-red-500 group-hover:text-red-400">
+              <span>Tonton di YouTube</span>
               <ArrowRight className="w-4 h-4" />
             </div>
           </a>

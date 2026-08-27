@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
-import { Play, Youtube, Trophy, ExternalLink, X, Maximize2, MonitorPlay, Smartphone, Flame, Sparkles, CheckCircle2, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Play, Trophy, ExternalLink, X, Maximize2, MonitorPlay, Smartphone, Flame, Sparkles, CheckCircle2, ArrowRight, ShieldCheck } from 'lucide-react';
+import { FaYoutube } from 'react-icons/fa';
 
 interface VideoItem {
   id: string;
@@ -104,7 +105,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
         {/* Section Header */}
         <div className="text-center space-y-3 max-w-3xl mx-auto">
           <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
-            <Youtube className="w-4 h-4 text-red-500 fill-red-500" />
+            <FaYoutube className="w-4 h-4 text-red-500 fill-red-500" />
             <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
@@ -311,7 +312,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center space-x-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] transition"
                 >
-                  <Youtube className="w-4 h-4 fill-white" />
+                  <FaYoutube className="w-4 h-4 fill-white" />
                   <span>Tonton di YouTube</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
@@ -325,7 +326,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
         <div className="max-w-4xl mx-auto p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[#170E08] via-[#1F130A] to-[#170E08] border border-brand-orange/20 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-3.5 text-center sm:text-left">
             <div className="w-12 h-12 rounded-2xl bg-red-600/20 border border-red-500/40 flex items-center justify-center flex-shrink-0">
-              <Youtube className="w-6 h-6 text-red-500" />
+              <FaYoutube className="w-6 h-6 text-red-500" />
             </div>
             <div>
               <p className="text-xs sm:text-sm font-black text-white flex items-center justify-center sm:justify-start gap-1.5">
@@ -377,7 +378,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
             {/* Modal Header */}
             <div className="p-3 sm:p-4 bg-[#140E09] border-b border-amber-950/60 flex items-center justify-between">
               <div className="flex items-center space-x-2">
-                <Youtube className="w-4 h-4 text-red-500" />
+                <FaYoutube className="w-4 h-4 text-red-500" />
                 <span className="text-xs sm:text-sm font-bold text-white line-clamp-1">
                   {modalVideo.title}
                 </span>
