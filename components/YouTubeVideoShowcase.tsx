@@ -20,28 +20,52 @@ interface VideoItem {
 
 const SHOWCASE_VIDEOS: VideoItem[] = [
   {
+    id: 'J5FXI2AnQxE',
+    title: 'Dokumentasi Laga & Pertandingan Robot Abhinaya UNY',
+    subtitle: 'Official Match & Autonomous Arena Run • Kontes Robot Tematik Indonesia (KRTMI)',
+    description: 'Saksikan laga dan pertandingan resmi robot otonom Abhinaya UNY melaju dengan kecepatan tinggi di arena kompetisi nasional, melakukan deteksi objek presisi via AI Computer Vision, navigasi holonomik 4WD Mecanum, dan menyelesaikan misi pemilahan secara akurat.',
+    type: 'action',
+    aspect: '16:9',
+    url: 'https://youtu.be/J5FXI2AnQxE',
+    tag: 'Official Match Replay (16:9)',
+    stats: '1080p 60fps • Laga Resmi KRTMI',
+    badgeColor: 'bg-red-600/20 text-red-400 border-red-500/40',
+  },
+  {
+    id: 'PmxwdrhpxKg',
+    title: 'Video Teaser & Profil Robot Abhinaya UNY',
+    subtitle: 'Official Teaser & Research Overview • KRTMI UKM Restek UNY',
+    description: 'Kupas tuntas arsitektur mekanikal, sirkuit PCB kelistrikan, dan algoritma kendali robot otonom Abhinaya UNY yang dirancang untuk bertanding di ajang bergengsi Kontes Robot Indonesia.',
+    type: 'action',
+    aspect: '16:9',
+    url: 'https://www.youtube.com/watch?v=PmxwdrhpxKg',
+    tag: 'Official Teaser & Profile (16:9)',
+    stats: '1080p 60fps • Profil Robotika',
+    badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
+  },
+  {
     id: '3yr5uNkxA_8',
     title: 'Video Pengenalan & Riset Robotika Abhinaya UNY',
     subtitle: 'Official Team & Technology Introduction Video • KRTMI UKM Restek UNY',
-    description: 'Mengenal lebih dekat Tim Robotika Abhinaya UNY: visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan bagaimana robot otonom dirancang dari nol di Laboratorium Robotika UKM Rekayasa Teknologi (Restek) UNY untuk mengukir prestasi nasional.',
+    description: 'Mengenal lebih dekat Tim Robotika Abhinaya UNY: visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan bagaimana robot otonom dirancang dari nol di Laboratorium Robotika UKM Rekayasa Teknologi (Restek) UNY.',
     type: 'action',
     aspect: '16:9',
     url: 'https://youtu.be/3yr5uNkxA_8',
     tag: 'Official Introduction (16:9)',
     stats: '1080p 60fps • Profil Tim & Robot',
-    badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
   },
   {
-    id: 'J5FXI2AnQxE',
-    title: 'Dokumentasi Laga & Manuver Otonom Robot Abhinaya UNY',
-    subtitle: 'Full Match & Technical Arena Run • Kontes Robot Tematik Indonesia',
-    description: 'Saksikan aksi robot otonom Abhinaya UNY melaju dengan kecepatan tinggi di arena KRTMI, melakukan deteksi objek presisi, navigasi holonomik 4WD Mecanum, dan menyelesaikan misi pemilahan secara akurat di bawah sorotan kompetisi nasional.',
-    type: 'action',
-    aspect: '16:9',
-    url: 'https://youtu.be/J5FXI2AnQxE',
-    tag: 'Full Match & Action (16:9)',
-    stats: 'HD 60fps • Arena KRTMI',
-    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+    id: 'tcsBS-6qgCs',
+    title: 'Shorts Demo Responsivitas & Speed Test Robot Abhinaya',
+    subtitle: 'Manuver Cepat 360° Holonomic Drive & Computer Vision Tracking',
+    description: 'Cuplikan vertikal kecepatan akselerasi motor planetary dan responsivitas orientasi robot Abhinaya UNY dalam mengatasi rintangan arena secara lincah dan presisi.',
+    type: 'shorts',
+    aspect: '9:16',
+    url: 'https://www.youtube.com/shorts/tcsBS-6qgCs',
+    tag: 'Official Shorts (9:16)',
+    stats: 'Shorts HD • Speed Test Arena',
+    badgeColor: 'bg-orange-500/20 text-orange-400 border-orange-500/40',
   },
   {
     id: 'wLusNVfFFHA',
@@ -55,23 +79,11 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     stats: 'Shorts HD • Paddock & Lab',
     badgeColor: 'bg-red-500/20 text-red-400 border-red-500/40',
   },
-  {
-    id: 'tcsBS-6qgCs',
-    title: 'Shorts Demo Responsivitas & Speed Test Robot Abhinaya',
-    subtitle: 'Manuver Cepat 360° Holonomic Drive & Computer Vision Tracking',
-    description: 'Cuplikan vertikal kecepatan akselerasi motor planetary dan responsivitas orientasi robot Abhinaya UNY dalam mengatasi rintangan arena secara lincah dan presisi.',
-    type: 'shorts',
-    aspect: '9:16',
-    url: 'https://www.youtube.com/shorts/tcsBS-6qgCs',
-    tag: 'Official Shorts (9:16)',
-    stats: 'Shorts HD • Speed Test',
-    badgeColor: 'bg-orange-500/20 text-orange-400 border-orange-500/40',
-  },
 ];
 
 export const YouTubeVideoShowcase: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'action' | 'shorts'>('action');
-  const [selectedVideoId, setSelectedVideoId] = useState<string>('3yr5uNkxA_8');
+  const [selectedVideoId, setSelectedVideoId] = useState<string>('J5FXI2AnQxE');
   const [playingInline, setPlayingInline] = useState<Record<string, boolean>>({});
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalVideo, setModalVideo] = useState<VideoItem | null>(null);

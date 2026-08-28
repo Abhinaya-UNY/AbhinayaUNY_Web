@@ -80,9 +80,59 @@ const MATCH_HISTORY: MatchRound[] = [
   },
 ];
 
+const MATCH_VIDEOS = [
+  {
+    id: 'J5FXI2AnQxE',
+    title: 'Laga & Pertandingan Resmi Robot Abhinaya UNY (Arena KRTMI Nasional)',
+    subtitle: 'Official Match & Autonomous Arena Run • 1080P 60FPS',
+    description: 'Saksikan rekaman laga resmi dan manuver otonom robot Abhinaya UNY melaju dengan kecepatan tinggi di arena KRTMI, menyelesaikan sequence pemilahan sampah dengan AI YOLOv8 dan roda Mecanum.',
+    badge: 'LAGA PERTANDINGAN RESMI',
+    badgeColor: 'bg-red-600/20 text-red-400 border-red-500/40',
+    url: 'https://youtu.be/J5FXI2AnQxE',
+  },
+  {
+    id: 'PmxwdrhpxKg',
+    title: 'Video Teaser & Profil Robot Abhinaya UNY (KRTMI 2024)',
+    subtitle: 'Official Teaser & Research Overview • UKM Restek UNY',
+    description: 'Kupas tuntas arsitektur mekanikal sasis, sirkuit proteksi PCB Altium, dan algoritma kendali robotika otonom Abhinaya UNY.',
+    badge: 'TEASER & PROFIL ROBOT',
+    badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
+    url: 'https://www.youtube.com/watch?v=PmxwdrhpxKg',
+  },
+  {
+    id: '3yr5uNkxA_8',
+    title: 'Video Pengenalan & Riset Robotika Abhinaya UNY',
+    subtitle: 'Technology Introduction & Lab Demonstration • KRTMI',
+    description: 'Mengenal lebih dekat perjalanan riset mekatronika dan pengujian navigasi otonom robot Abhinaya UNY di Laboratorium Robotika UKM Restek UNY.',
+    badge: 'PENGENALAN TEKNOLOGI',
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+    url: 'https://youtu.be/3yr5uNkxA_8',
+  },
+];
+
+const SHORTS_VIDEOS = [
+  {
+    id: 'tcsBS-6qgCs',
+    title: 'Shorts Demo Speed Test & Manuver Laga',
+    subtitle: 'Aksi Kecepatan 360° Holonomic Drive di Arena',
+    url: 'https://www.youtube.com/shorts/tcsBS-6qgCs',
+  },
+  {
+    id: 'wLusNVfFFHA',
+    title: 'Shorts Paddock & Tuning Sasis Mecanum',
+    subtitle: 'Behind The Scenes Kalibrasi Mekatronika di Paddock',
+    url: 'https://www.youtube.com/shorts/wLusNVfFFHA',
+  },
+];
+
 export default function PertandinganPage() {
+  const [selectedMatchVideoId, setSelectedMatchVideoId] = useState('J5FXI2AnQxE');
+  const [selectedShortsId, setSelectedShortsId] = useState('tcsBS-6qgCs');
   const [isPlayingMain, setIsPlayingMain] = useState(false);
   const [isPlayingShorts, setIsPlayingShorts] = useState(false);
+
+  const activeMainVideo = MATCH_VIDEOS.find((v) => v.id === selectedMatchVideoId) || MATCH_VIDEOS[0];
+  const activeShortsVideo = SHORTS_VIDEOS.find((v) => v.id === selectedShortsId) || SHORTS_VIDEOS[0];
 
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
@@ -109,30 +159,54 @@ export default function PertandinganPage() {
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight">
-            Laga &amp; Manuver Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">Abhinaya UNY</span> 🏆
+            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">Abhinaya UNY</span> 🏆
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-            Saksikan rekaman video resmi pertandingan robot otonom Tim Abhinaya UNY pada Kontes Robot Tematik Indonesia (KRTMI) tingkat Nasional di Universitas Muhammadiyah Surakarta (UMS). Analisis strategi manuver, akurasi visi AI YOLO, dan alur klasifikasi sampah pintar.
+            Saksikan rekaman video resmi pertandingan dan laga robot otonom Tim Abhinaya UNY pada Kontes Robot Tematik Indonesia (KRTMI) tingkat Nasional di Universitas Muhammadiyah Surakarta (UMS). Analisis strategi manuver, akurasi visi AI YOLO, dan alur klasifikasi sampah pintar di arena kompetisi.
           </p>
         </div>
 
-        {/* Featured Main Match Video Stage (PmxwdrhpxKg) */}
+        {/* Video Selector Sub-Pills */}
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3 p-2 rounded-2xl bg-[#120D08]/90 border border-brand-orange/30 shadow-lg">
+          {MATCH_VIDEOS.map((v) => {
+            const isSelected = v.id === selectedMatchVideoId;
+            return (
+              <button
+                key={v.id}
+                onClick={() => {
+                  setSelectedMatchVideoId(v.id);
+                  setIsPlayingMain(false);
+                }}
+                className={`px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center space-x-2 cursor-pointer ${
+                  isSelected
+                    ? 'bg-gradient-to-r from-red-600 to-orange-600 text-white shadow-lg shadow-red-600/30 scale-[1.02]'
+                    : 'bg-[#1C130B] text-slate-300 hover:text-white hover:bg-[#281B0F]'
+                }`}
+              >
+                <Youtube className={`w-4 h-4 ${isSelected ? 'fill-white' : 'fill-red-500'}`} />
+                <span>{v.badge}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Featured Main Match Video Stage */}
         <div className="p-4 sm:p-7 rounded-3xl bg-[#120D08]/90 border border-brand-orange/40 shadow-[0_0_60px_rgba(255,107,0,0.18)] backdrop-blur-md space-y-6">
           
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-amber-950/60 pb-4">
             <div className="space-y-1">
-              <span className="px-3 py-1 rounded-full text-xs font-black uppercase bg-red-600/20 text-red-400 border border-red-500/40 inline-flex items-center space-x-1.5">
-                <Youtube className="w-3.5 h-3.5 fill-red-400" />
-                <span>OFFICIAL MATCH REPLAY (1080P 60FPS)</span>
+              <span className={`px-3 py-1 rounded-full text-xs font-black uppercase border inline-flex items-center space-x-1.5 ${activeMainVideo.badgeColor}`}>
+                <Youtube className="w-3.5 h-3.5 fill-current" />
+                <span>{activeMainVideo.badge} • {activeMainVideo.subtitle}</span>
               </span>
               <h2 className="text-xl sm:text-2xl font-black text-white">
-                Laga Robot Otonom Abhinaya KRTMI Nasional di Arena UMS
+                {activeMainVideo.title}
               </h2>
             </div>
 
             <a
-              href="https://www.youtube.com/watch?v=PmxwdrhpxKg"
+              href={activeMainVideo.url}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center space-x-2 transition shadow-md"
@@ -148,8 +222,8 @@ export default function PertandinganPage() {
             {isPlayingMain ? (
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube-nocookie.com/embed/PmxwdrhpxKg?autoplay=1&rel=0&modestbranding=1"
-                title="Laga Robot Otonom Abhinaya KRTMI Nasional"
+                src={`https://www.youtube-nocookie.com/embed/${activeMainVideo.id}?autoplay=1&rel=0&modestbranding=1`}
+                title={activeMainVideo.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
@@ -159,8 +233,12 @@ export default function PertandinganPage() {
                 onClick={() => setIsPlayingMain(true)}
               >
                 <img
-                  src="https://img.youtube.com/vi/PmxwdrhpxKg/maxresdefault.jpg"
-                  alt="Thumbnail Laga Robot Abhinaya UNY"
+                  src={`https://img.youtube.com/vi/${activeMainVideo.id}/maxresdefault.jpg`}
+                  onError={(e) => {
+                    // Fallback to hqdefault if maxresdefault is missing
+                    (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${activeMainVideo.id}/hqdefault.jpg`;
+                  }}
+                  alt={activeMainVideo.title}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90 contrast-105"
                 />
                 
@@ -333,16 +411,39 @@ export default function PertandinganPage() {
             </div>
           </div>
 
-          {/* Paddock Tuning Shorts (1 Col) */}
+          {/* Paddock & Speed Test Shorts (1 Col) */}
           <div className="space-y-5">
             <div className="space-y-1">
               <h3 className="text-xl sm:text-2xl font-black text-white flex items-center space-x-2">
                 <Smartphone className="w-5 h-5 text-red-500" />
-                <span>Paddock &amp; Tuning Shorts</span>
+                <span>Shorts &amp; Aksi Vertikal</span>
               </h3>
               <p className="text-xs text-slate-300">
-                Behind the scenes kalibrasi robot sebelum laga.
+                Speed test manuver dan behind the scenes di arena.
               </p>
+            </div>
+
+            {/* Shorts Sub-Selector Pills */}
+            <div className="flex gap-2">
+              {SHORTS_VIDEOS.map((s) => {
+                const isSelected = s.id === selectedShortsId;
+                return (
+                  <button
+                    key={s.id}
+                    onClick={() => {
+                      setSelectedShortsId(s.id);
+                      setIsPlayingShorts(false);
+                    }}
+                    className={`flex-1 py-1.5 px-2 rounded-xl text-[11px] font-bold transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-red-600 text-white shadow-md shadow-red-600/30'
+                        : 'bg-[#1C130B] text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    {s.id === 'tcsBS-6qgCs' ? '⚡ Speed Test' : '🔧 Paddock'}
+                  </button>
+                );
+              })}
             </div>
 
             <div className="p-4 sm:p-5 rounded-3xl bg-[#130E09] border border-red-950/60 shadow-xl space-y-4">
@@ -350,8 +451,8 @@ export default function PertandinganPage() {
                 {isPlayingShorts ? (
                   <iframe
                     className="w-full h-full"
-                    src="https://www.youtube-nocookie.com/embed/wLusNVfFFHA?autoplay=1&rel=0&modestbranding=1"
-                    title="Behind The Scenes Paddock Tuning Abhinaya UNY"
+                    src={`https://www.youtube-nocookie.com/embed/${activeShortsVideo.id}?autoplay=1&rel=0&modestbranding=1`}
+                    title={activeShortsVideo.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                   />
@@ -361,8 +462,8 @@ export default function PertandinganPage() {
                     onClick={() => setIsPlayingShorts(true)}
                   >
                     <img
-                      src="https://img.youtube.com/vi/wLusNVfFFHA/hqdefault.jpg"
-                      alt="Shorts Paddock Tuning"
+                      src={`https://img.youtube.com/vi/${activeShortsVideo.id}/hqdefault.jpg`}
+                      alt={activeShortsVideo.title}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
@@ -378,7 +479,7 @@ export default function PertandinganPage() {
                         SHORTS (9:16)
                       </span>
                       <p className="text-xs font-bold text-amber-200">
-                        Uji Responsivitas &amp; Kalibrasi Sasis Roda Mecanum
+                        {activeShortsVideo.title}
                       </p>
                     </div>
                   </div>
@@ -387,7 +488,7 @@ export default function PertandinganPage() {
 
               <div className="pt-2">
                 <a
-                  href="https://www.youtube.com/shorts/wLusNVfFFHA"
+                  href={activeShortsVideo.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-red-600/20 hover:bg-red-600 text-red-300 hover:text-white font-bold text-xs flex items-center justify-center space-x-2 border border-red-500/40 transition"
