@@ -40,36 +40,35 @@
 
 ## 3. Deretan Manager Tim Lintas Generasi (Managers Across Eras)
 
-| Tahun | Nama Manager | Program Studi / Fakultas | Tanggung Jawab Utama |
+| Tahun | Nama Manager | NIM & Program Studi (PDDikti) | Tanggung Jawab Utama |
 |---|---|---|---|
-| **2020–2021** | **Yuli Dwi Saputri** | S1 Pendidikan Teknik Mekatronika (FT) | Manajemen anggaran KRTMI perdana, perizinan lab masa pandemi |
-| **2022** | **Yuli Dwi Saputri & Mustika Wahyu Aprilia** | Mekatronika (FT) & Fisika (FMIPA) | Transisi kepemimpinan manajerial, logistik ITS Surabaya |
-| **2023** | **Mustika Wahyu Aprilia** | S1 Fisika (FMIPA) | Penyusunan RAB Puspresnas, administrasi kontingen KRI USM |
-| **2024** | **Mustika Wahyu Aprilia & Rose Pita Nur Afifah** | Fisika (FMIPA) & Mekatronika (FT) | Manajemen ganda: Keuangan/Birokrasi & Media/Publikasi |
-| **2025** | **Rose Pita Nur Afifah & Zelfa Nafisah Zalna** | Mekatronika (FT) & Fisika (FMIPA) | Koordinasi media promosi, operasional tim aktif, sponsorship |
+| **2020–2022** | **Yuli Dwi Saputri** | `19501241019` — S1 Pendidikan Teknik Elektro (FT UNY) | Lead Manager perintis, tata kelola anggaran KRTMI, administrasi birokrasi & Juara 1 KRI Wilayah I |
+| **2022–2024** | **Mustika Wahyu Aprilia** | `21306141050` — S1 Fisika (FMIPA UNY) | Alokasi anggaran riset, administrasi kontingen KRI USM Semarang & UMS Surakarta |
+| **2024–2025** | **Rose Pita Nur Afifah** | `22518241042` — S1 Pendidikan Teknik Mekatronika (FT UNY) | Koordinator Manager, media branding resmi `@abhinaya.uny`, UI/UX, dan dokumentasi visual |
+| **2025** | **Zelfa Nafisah Zalna** | `23501241001` — S1 Pendidikan Teknik Elektro (FT UNY) | Manajemen keuangan riset, logistik akomodasi, dan administrasi operasional kontingen aktif |
 
 ---
 
 ## 4. Skuad Teknis Aktif (Active Technical Squad 2025)
 
 ### Divisi Program (AI, Computer Vision & Kinematika)
-1. **Tri Wahyu Handoyo** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Koordinator Divisi Program / AI Vision & Systems*
-2. **Farhan Yuda Mahendra** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Kinematics & Embedded Control*
-3. **Hanif NurKhalis** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Autonomous Navigation & Pathfinding*
-4. **Hisyam Yasid Pratowo** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Sensor Integration & Telemetry*
+1. **Tri Wahyu Handoyo** (`22518241023` — S1 Pendidikan Teknik Mekatronika - FT UNY) — *Koordinator Divisi Program / AI Vision & Systems*
+2. **Farhan Yuda Mahendra** (`22518241040` — S1 Pendidikan Teknik Mekatronika - FT UNY) — *Kinematics & Microcontroller Embedded Control*
+3. **Hanif NurKhalis** (`23518241019` — S1 Pendidikan Teknik Mekatronika - FT UNY) — *Sensor Integration & Serial Interfacing*
+4. **Hisyam Yasid Pratowo** (`23518241028` — S1 Pendidikan Teknik Mekatronika - FT UNY) — *Vision Pipeline & Linux Optimization*
 
 ### Divisi Elektronik (Power & PCB Hardware)
-1. **Ikhsan Nurrohman** (S1 Teknik Elektro - FT UNY) — *Koordinator Divisi Elektronik / Power Distribution*
-2. **Abdul Hasib Adzdzin Nuha** (S1 Pendidikan Teknik Elektronika - FT UNY) — *PCB Design & Sensor Wiring*
-3. **Aryasetya Maulana Swasdika** (S1 Teknik Elektro - FT UNY) — *Embedded Hardware & Actuator Driver*
-4. **Naufal Farros Zainal Arifin** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Wiring Harness & Power QA*
+1. **Ikhsan Nurrohman** (`22538141004` — S1 Teknik Elektro - FT UNY) — *Koordinator Divisi Elektronik / Telemetri & Wireless*
+2. **Abdul Hasib Adzdzin Nuha** (`22502241014` — S1 Pendidikan Teknik Elektronika - FT UNY) — *PCB Design & Sensor Wiring*
+3. **Aryasetya Maulana Swasdika** (`23501241018` — S1 Teknik Elektro - FT UNY) — *Hardware & Power Systems*
+4. **Naufal Farros Zainal Arifin** (`23502241031` — S1 Pendidikan Teknik Elektronika - FT UNY) — *Signal Conditioning & Safety Rails*
 
 ### Divisi Mekanik (CAD, Machining & Kinematics)
-1. **Rionaldi Nugroho** (D4 Teknik Elektronika - FV UNY) — *Koordinator Divisi Mekanik / Sasis & Manufaktur*
-2. **Caesar Sokma Langgeng** (S1 Teknik Manufaktur - FT UNY) — *CAD Designer & Precision Milling*
-3. **Adhiyatma Fatya Ramadhani** (S1 Pendidikan Teknik Mekatronika - FT UNY) — *Actuation & Gripper Mechanism*
-4. **Andika Nanda Wijaya** (S1 Pendidikan Teknik Otomotif - FT UNY) — *Drive Train & Suspension*
-5. **Kharisma Putra Mahardika** (S1 Teknik Manufaktur - FT UNY) — *Fabrication & Structural Testing*
+1. **Rionaldi Nugroho** (`23090620088` — D4 Teknik Elektronika - FV UNY) — *Koordinator Divisi Mekanik / Sasis & Manufaktur QA*
+2. **Caesar Sokma Langgeng** (`21539144005` — S1 Teknik Manufaktur - FT UNY) — *CAD Designer & Precision Laser Fabrication*
+3. **Adhiyatma Fatya Ramadhani** (`23539141012` — S1 Teknik Manufaktur - FT UNY) — *CNC Milling & Sheet Metal Fabrication*
+4. **Andika Nanda Wijaya** (`23539141021` — S1 Teknik Manufaktur - FT UNY) — *Precision Lathe & Gripper Linkage Fabrication*
+5. **Kharisma Putra Mahardika** (`23503241035` — S1 Pendidikan Teknik Mesin - FT UNY) — *Chassis Assembly & Structural QA*
 
 ---
 

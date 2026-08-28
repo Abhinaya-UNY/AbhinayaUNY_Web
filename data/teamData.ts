@@ -479,7 +479,7 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     id: 'yuli-dwi-saputri-manager',
     name: 'Yuli Dwi Saputri',
     nickname: 'Yuli',
-    nim: '17501244012',
+    nim: '19501241019',
     studyProgram: 'S1 Pendidikan Teknik Elektro',
     prodi: 'S1 Pendidikan Teknik Elektro',
     faculty: 'Fakultas Teknik (FT)',
@@ -487,7 +487,7 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     divisionSlug: 'manager',
     role: 'Lead Manager Perintis & Senior Advisor (Era 2020–2022)',
     subRole: 'Finance, Administration & Operational Procurement Lead',
-    generation: 'Angkatan 2017',
+    generation: 'Angkatan 2019',
     generationYear: 2020,
     yearsActive: [2020, 2021, 2022, 2023],
     specialization: [
