@@ -62,7 +62,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
         <link rel="shortcut icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
-        <link rel="apple-touch-icon" href="/AbhinayaUNY_Web/apple-icon.png?v=4" />
+        <link rel="canonical" href="https://abhinaya-uny.github.io/AbhinayaUNY_Web/" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
         
         {/* OpenGraph & Twitter Meta for WhatsApp, Telegram, Discord, LinkedIn Preview */}
         <meta property="og:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
@@ -81,6 +83,34 @@ export default function RootLayout({
         <meta name="twitter:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta." />
         <meta name="twitter:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
         <meta name="theme-color" content="#FF6B00" />
+
+        {/* Schema.org Structured Data for Google Search Engine Knowledge Graph */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Tim Robotika Abhinaya UNY',
+              alternateName: ['Abhinaya UNY', 'Robotika Abhinaya UNY', 'Abhinaya KRTMI UNY', 'Abhinaya Restek UNY'],
+              url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/',
+              logo: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/favicon.png',
+              description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta (UKM Rekayasa Teknologi UNY) — Kontes Robot Tematik Indonesia (KRTMI) & Technocorner Transporter UGM.',
+              parentOrganization: {
+                '@type': 'CollegeOrUniversity',
+                name: 'Universitas Negeri Yogyakarta',
+                alternateName: 'UNY',
+                url: 'https://www.uny.ac.id',
+              },
+              sameAs: [
+                'https://www.instagram.com/abhinaya.uny/',
+                'https://www.tiktok.com/@abhinaya.uny',
+                'https://www.youtube.com/@AbhinayaUNY',
+                'https://github.com/Abhinaya-UNY/AbhinayaUNY_Web',
+              ],
+            }),
+          }}
+        />
       </head>
       <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#070503] text-slate-100 min-h-screen">
         <Preloader />

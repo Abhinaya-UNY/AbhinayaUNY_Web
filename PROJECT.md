@@ -5,7 +5,7 @@
 - **Data Layer**: `data/teamData.ts` (TypeScript types and data structures for team members, leaders, managers, alumni generations 2020-2025, advisor board)
 - **Documentation Layer**: `STRUKTUR_TIM_ABHINAYA.md`, `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` (authoritative archive)
 - **Media Asset Layer**: `public/images/instagram_feed/`, `public/images/members/`, `public/images/tournaments/`
-- **Presentation Layer**: `components/TeamRosterSection.tsx`, `components/MemberPhotoFadeEngine.tsx`, `app/divisi/page.tsx`
+- **Presentation Layer**: `components/TeamRosterSection.tsx`, `components/MemberPhotoFadeEngine.tsx`, `components/InstagramFeedShowcase.tsx`, `app/divisi/page.tsx`
 
 ## Feature Inventory
 | # | Feature | Description | Milestone | Source |
@@ -22,11 +22,11 @@
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Image Asset Remediation & Semantic Mapping | Fix 22 blank images in `public/images/members/`, establish semantic links/files, verify 100% photo validity | Survey | PLANNED |
-| M2 | PDDikti Verification & Master Member Dataset | Formulate master verified member dataset (35+ members, 2020-2025) with authentic 11-digit NIMs & faculties | M1 | PLANNED |
-| M3 | Comprehensive Archive Documentation | Generate complete `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with 100% complete tables and photo catalogue | M2 | PLANNED |
-| M4 | Web Data & Structure Synchronization | Synchronize `data/teamData.ts` and `STRUKTUR_TIM_ABHINAYA.md` with master verified data and images | M2, M3 | PLANNED |
-| M5 | Build Verification, Multi-Agent Review & Git Push | Run `npm run build`, multi-reviewer audit, challenger tests, forensic audit, git commit and push | M1, M2, M3, M4 | PLANNED |
+| M1 | Image Asset Remediation & Semantic Mapping | Fix 22 blank images in `public/images/members/`, establish semantic links/files, verify 100% photo validity | Survey | DONE |
+| M2 | PDDikti Verification & Master Member Dataset | Formulate master verified member dataset (35+ members, 2020-2025) with authentic 11-digit NIMs & faculties | M1 | DONE |
+| M3 | Comprehensive Archive Documentation | Generate complete `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with 100% complete tables and photo catalogue | M2 | DONE |
+| M4 | Web Data & Structure Synchronization | Synchronize `data/teamData.ts` and `STRUKTUR_TIM_ABHINAYA.md` with master verified data and images | M2, M3 | DONE |
+| M5 | Build Verification, Multi-Agent Review & Git Push | Run `npm run build`, multi-reviewer audit, challenger tests, forensic audit, git commit and push | M1, M2, M3, M4 | DONE |
 
 ## Interface Contracts
 ### Data Schema (`data/teamData.ts` ↔ UI Components)
@@ -37,8 +37,10 @@
 
 ## Code Layout
 - `data/teamData.ts` — Main TypeScript dataset for all roster and historical data
+- `data/instagramFeedData.ts` — Clean curated dataset for Instagram showcase
 - `STRUKTUR_TIM_ABHINAYA.md` — Markdown summary of team structure, leaders, managers, and active squad
 - `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` — Authoritative comprehensive archive of photos, members, and PDDikti verification
 - `public/images/members/` — Member portrait imagery
 - `public/images/instagram_feed/` — Historical Instagram feed photos
 - `components/TeamRosterSection.tsx` — UI component rendering team rosters, leaders, managers, and alumni explorer
+- `components/InstagramFeedShowcase.tsx` — UI component rendering Instagram feed gallery

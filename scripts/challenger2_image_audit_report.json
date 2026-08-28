@@ -799,6 +799,20 @@
       "issues": []
     },
     {
+      "path": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+      "size": 67959,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 720,
+      "height": 720,
+      "mean_rgb": 52.8143196105957,
+      "std_rgb": 63.15321731567383,
+      "min_rgb": 0.0,
+      "max_rgb": 255.0,
+      "status": "PASS",
+      "issues": []
+    },
+    {
       "path": "public/images/members/2021_programmer_alfan_fajri_tamyis_01.jpg",
       "size": 96292,
       "format": "JPEG",
@@ -1115,6 +1129,20 @@
       "height": 1080,
       "mean_rgb": 125.4180908203125,
       "std_rgb": 70.9688491821289,
+      "min_rgb": 0.0,
+      "max_rgb": 255.0,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "path": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+      "size": 58938,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 720,
+      "height": 720,
+      "mean_rgb": 183.92625427246094,
+      "std_rgb": 81.1769027709961,
       "min_rgb": 0.0,
       "max_rgb": 255.0,
       "status": "PASS",
@@ -9623,6 +9651,20 @@
       "issues": []
     },
     {
+      "path": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+      "size": 67959,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 720,
+      "height": 720,
+      "mean_rgb": 52.8143196105957,
+      "std_rgb": 63.15321731567383,
+      "min_rgb": 0.0,
+      "max_rgb": 255.0,
+      "status": "PASS",
+      "issues": []
+    },
+    {
       "path": "public/images/members/2021_programmer_alfan_fajri_tamyis_01.jpg",
       "size": 96292,
       "format": "JPEG",
@@ -9939,6 +9981,20 @@
       "height": 1080,
       "mean_rgb": 125.4180908203125,
       "std_rgb": 70.9688491821289,
+      "min_rgb": 0.0,
+      "max_rgb": 255.0,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "path": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+      "size": 58938,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 720,
+      "height": 720,
+      "mean_rgb": 183.92625427246094,
+      "std_rgb": 81.1769027709961,
       "min_rgb": 0.0,
       "max_rgb": 255.0,
       "status": "PASS",
@@ -14340,10 +14396,23 @@
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
       "referenced_path": "/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
-      "resolved_target": "D:\\Data_Lokal\\Kuliah\\Tri Wahyu (22518241023)\\AbhinayaUNY_Web\\public\\images\\members\\2021_program_salsabila_azzahra_psdu_01.jpg",
-      "exists": false,
-      "valid": false,
-      "details": null
+      "resolved_target": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+      "exists": true,
+      "valid": true,
+      "details": {
+        "path": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+        "size": 67959,
+        "format": "JPEG",
+        "mode": "RGB",
+        "width": 720,
+        "height": 720,
+        "mean_rgb": 52.8143196105957,
+        "std_rgb": 63.15321731567383,
+        "min_rgb": 0.0,
+        "max_rgb": 255.0,
+        "status": "PASS",
+        "issues": []
+      }
     },
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
@@ -14495,10 +14564,23 @@
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
       "referenced_path": "/images/members/2022_program_salsabila_azzahra_01.jpg",
-      "resolved_target": "D:\\Data_Lokal\\Kuliah\\Tri Wahyu (22518241023)\\AbhinayaUNY_Web\\public\\images\\members\\2022_program_salsabila_azzahra_01.jpg",
-      "exists": false,
-      "valid": false,
-      "details": null
+      "resolved_target": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+      "exists": true,
+      "valid": true,
+      "details": {
+        "path": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+        "size": 58938,
+        "format": "JPEG",
+        "mode": "RGB",
+        "width": 720,
+        "height": 720,
+        "mean_rgb": 183.92625427246094,
+        "std_rgb": 81.1769027709961,
+        "min_rgb": 0.0,
+        "max_rgb": 255.0,
+        "status": "PASS",
+        "issues": []
+      }
     },
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
@@ -17023,10 +17105,23 @@
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
       "referenced_path": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
-      "resolved_target": "D:\\Data_Lokal\\Kuliah\\Tri Wahyu (22518241023)\\AbhinayaUNY_Web\\public\\images\\members\\2021_program_salsabila_azzahra_psdu_01.jpg",
-      "exists": false,
-      "valid": false,
-      "details": null
+      "resolved_target": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+      "exists": true,
+      "valid": true,
+      "details": {
+        "path": "public/images/members/2021_program_salsabila_azzahra_psdu_01.jpg",
+        "size": 67959,
+        "format": "JPEG",
+        "mode": "RGB",
+        "width": 720,
+        "height": 720,
+        "mean_rgb": 52.8143196105957,
+        "std_rgb": 63.15321731567383,
+        "min_rgb": 0.0,
+        "max_rgb": 255.0,
+        "status": "PASS",
+        "issues": []
+      }
     },
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
@@ -17178,10 +17273,23 @@
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
       "referenced_path": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
-      "resolved_target": "D:\\Data_Lokal\\Kuliah\\Tri Wahyu (22518241023)\\AbhinayaUNY_Web\\public\\images\\members\\2022_program_salsabila_azzahra_01.jpg",
-      "exists": false,
-      "valid": false,
-      "details": null
+      "resolved_target": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+      "exists": true,
+      "valid": true,
+      "details": {
+        "path": "public/images/members/2022_program_salsabila_azzahra_01.jpg",
+        "size": 58938,
+        "format": "JPEG",
+        "mode": "RGB",
+        "width": 720,
+        "height": 720,
+        "mean_rgb": 183.92625427246094,
+        "std_rgb": 81.1769027709961,
+        "min_rgb": 0.0,
+        "max_rgb": 255.0,
+        "status": "PASS",
+        "issues": []
+      }
     },
     {
       "source_file": "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md",
@@ -18024,5 +18132,5 @@
       }
     }
   ],
-  "total_failures": 5
+  "total_failures": 1
 }

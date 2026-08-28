@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://abhinaya-uny.github.io/AbhinayaUNY_Web/sitemap.xml
