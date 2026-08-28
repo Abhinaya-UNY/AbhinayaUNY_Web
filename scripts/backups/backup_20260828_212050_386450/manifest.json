@@ -1,0 +1,10 @@
+{
+  "backup_id": "backup_20260828_212050_386450",
+  "timestamp": "2026-08-28T21:20:50.388949",
+  "reason": "Challenger 2 Pre-Mutation Baseline Snapshot",
+  "files": [
+    "teamData.ts",
+    "krtmiData.ts",
+    "galleryData.ts"
+  ]
+}

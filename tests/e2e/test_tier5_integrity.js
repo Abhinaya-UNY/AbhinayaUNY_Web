@@ -43,7 +43,7 @@ function runTier5IntegrityTests() {
         '20518241012', // Salsabila Azzahra PSDU (Mekatronika)
         '21306141050', // Mustika Wahyu Aprilia (Fisika)
         '22518241042', // Rose Pita Nur Afifah (Mekatronika)
-        '22518244007', // Farhan Yuda Mahendra (Mekatronika)
+        '22518241040', // Farhan Yuda Mahendra (Mekatronika)
       ];
 
       for (const nim of authenticNIMs) {

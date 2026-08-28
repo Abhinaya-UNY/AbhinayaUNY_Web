@@ -1,47 +1,47 @@
 ﻿# Original User Request
 
-## 2026-08-27T16:11:34Z
+## 2026-08-28T14:01:16Z
 
-<USER_REQUEST>
-Lakukan analisis mendalam dan renaming sistematis terhadap seluruh foto anggota dari arsip feed Instagram (@abhinaya.uny 2020–2025), lalu perbarui antarmuka Roster Anggota pada web Abhinaya UNY: menampilkan deretan seluruh Ketua Tim (2020–sekarang) dan seluruh Manager (2020–sekarang) dalam baris khusus yang lengkap, divisi teknis aktif saat ini, serta modul arsip alumni interaktif berbasis tahun generasi.
+Perform an exhaustive, deep computer vision and text analysis of all Instagram feed photos and member imagery of Tim Robotika Abhinaya UNY (@abhinaya.uny) from 2020 to present. Accurately map each photo to its verified member name, authentic PDDikti NIM, verified study program (jurusan), faculty, and exact team role. Document the complete findings in an exhaustive markdown archive and ensure 100% data integrity across the web dataset.
 
 Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
 Integrity mode: development
 
+## Reference Sources & Data Inputs
+- Instagram Archives: public/images/instagram_feed/, public/images/members/, and https://www.instagram.com/abhinaya.uny/
+- PDDikti UNY Database: Validated NIM, Student Names, and Study Programs across FT, FMIPA, and FV UNY
+- Official UNY Faculty & News Portals: https://pendidikan-teknik-mekatronika.ft.uny.ac.id/id/dosen-meka & UNY Humas press releases
+- Local Codebase: data/teamData.ts, components/TeamRosterSection.tsx, and STRUKTUR_TIM_ABHINAYA.md
+
 ## Requirements
 
-### R1. Instagram Member Photo Analysis & Semantic Renaming Pipeline
-Analisis seluruh foto dari arsip Instagram public/images/instagram_feed/ dan public/images/members/. Lakukan renaming / penataan file gambar ke dalam direktori terstruktur dengan format penamaan semantik yang jelas: {tahun}_{divisi}_{nama_anggota}_{urutan}.jpg (atau .png). Pastikan foto non-anggota atau potongan grafis grid tidak diikutsertakan.
+### R1. Deep Instagram Photo & Member Visual Audit (2020 – 2025)
+- Conduct an in-depth scan of every photo in public/images/instagram_feed/ and public/images/members/ from 2020 to present.
+- Identify the exact visual content of each photo: the person featured, the competition/event context (KRTMI 2020, 2021, 2022, 2023, 2024, 2025), and their respective role (Leader, Manager, Program, Elektronik, Mekanik, Desain, Pembimbing).
+- Ensure all photos are cleanly named semantically according to {tahun}_{divisi}_{nama_anggota}_{urutan}.{ext} without any mismatched or misplaced images.
 
-### R2. All-Era Leaders & Managers Showcase (2020 – Sekarang)
-Pada tampilan roster utama:
-- **Baris Khusus Ketua Tim (Leaders Hall of Fame)**: Tampilkan seluruh Ketua Tim Abhinaya dari tahun 2020 hingga sekarang (2020, 2021, 2022, 2023, 2024, 2025) secara berurutan dalam satu deret baris yang ramai dan estetik.
-  - 2020: Leader 2020
-  - 2021: Leader 2021
-  - 2022: Leader 2022 (dari post 2022-09-24 Ci5QBYaLgHg)
-  - 2023: Salsabila Azzahra PSDU (Leader 2023 - Cw6bd9zPTNP)
-  - 2024: Ilham Widyo Nugroho (Leader 2024 - C_0wguVTpGY)
-  - 2025: Farhan Yuda Mahendra (Leader 2025 - DPHoWoFkxa3)
-- **Baris Khusus Manager (Managers Showcase)**: Tampilkan seluruh Manager tim dari tahun 2020 hingga sekarang secara berurutan (2020: Yuli Dwi Saputri, 2022, 2023: Mustika Wahyu Aprilia, 2024: Mustika & Rose Pita, 2025: Rose Pita & Zelfa Nafisah Zalna).
-- Setiap kartu dilengkapi badge tahun kepemimpinan, prodi, dan animasi smooth auto-crossfade antar foto.
+### R2. PDDikti-Aligned NIM, Study Program & Data Verification
+- Cross-verify every single member's NIM, full legal name, study program (e.g. S1 Pendidikan Teknik Elektro, S1 Pendidikan Teknik Mekatronika, S1 Fisika, D4 Teknik Elektronika, S1 Teknik Manufaktur), and faculty.
+- Eliminate all fabricated, placeholder, or incorrect NIMs across all eras (2020–2025). Every NIM must strictly correspond to the real PDDikti UNY record for that student.
 
-### R3. Current Active Technical Squad (Programmer, Elektronik, Mekanik)
-Tampilkan anggota skuad aktif saat ini untuk divisi Program, Elektronik, dan Mekanik lengkap dengan peran spesifik, keahlian teknis, dan multi-foto crossfade.
+### R3. Exhaustive Markdown Documentation (ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md)
+- Create a comprehensive, well-structured markdown document compiling:
+  1. Detailed photo catalogue by year (2020, 2021, 2022, 2023, 2024, 2025) with file path, featured person, role, and visual description.
+  2. Complete verified member table per generation with Full Name, NIM, Study Program, Faculty, Sub-Role, and Photo Reference.
+  3. Chronological Leaders & Managers audit table.
+  4. Data verification audit log cross-referenced against PDDikti.
 
-### R4. Interactive Alumni & Generation Explorer
-Sediakan modul/tombol interaktif penjelajah alumni (*Alumni & Generations Archive*) dengan tab/filter tahun generasi (2020, 2021, 2022, 2023, 2024, 2025). Ketika tombol tahun diklik, tampilkan daftar dan kartu anggota kontingen resmi pada tahun tersebut beserta peran & divisi mereka.
-
-### R5. Ultra-Smooth Crossfade Photo Transition Engine
-Pastikan seluruh kartu anggota dan modal profil menggunakan transisi pergantian foto (*crossfade*) yang sangat halus, dilengkapi indikator jumlah slide dan kontrol navigasi manual.
+### R4. Web Roster & Data Synchronization
+- Synchronize data/teamData.ts and STRUKTUR_TIM_ABHINAYA.md with the verified data so that:
+  - Active 2025 squad displays accurate 2025 members with correct photos and verified details.
+  - Leaders Hall of Fame (2020–2025) and Managers Showcase (2020–2025) feature authentic portraits and verified bios.
+  - Alumni generations (2020–2024) retain accurate historical rosters when explored.
 
 ## Acceptance Criteria
 
-### Build & Functionality Verification
+### Verification & Performance Checks
+- [ ] ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md is created with 100% complete, non-truncated analysis of all photos and members from 2020 to 2025.
+- [ ] All student NIMs across data/teamData.ts and documentation match authentic UNY PDDikti records (e.g. Yuli Dwi Saputri 19501241019, Mustika Wahyu Aprilia 21306141050, Rose Pita Nur Afifah 22518241042, Zelfa Nafisah Zalna 23501241001, Tri Wahyu Handoyo 22518241023, Farhan Yuda Mahendra 22518241040, dll.).
+- [ ] Every member's profile photo correctly displays that exact person without mismatched headshots or placeholder logos.
 - [ ] 
-pm run build sukses dengan 0 error kompilasi, TypeScript, atau static export.
-- [ ] Seluruh foto anggota hasil ekstraksi Instagram ter-rename dengan format semantik rapi.
-- [ ] Baris Leader menampilkan seluruh Ketua Tim (2020–2025) dan Baris Manager menampilkan seluruh Manager (2020–2025).
-- [ ] Modul Alumni interaktif berfungsi mulus menampilkan daftar anggota sesuai tahun yang dipilih.
-- [ ] Animasi perpindahan foto crossfade berjalan halus tanpa patah-patah pada kartu maupun modal.
-- [ ] Perubahan tersimpan bersih, ter-commit, dan ter-push ke repository GitHub.
-</USER_REQUEST>
+pm run build succeeds with 0 errors, and all changes are committed and pushed to GitHub.

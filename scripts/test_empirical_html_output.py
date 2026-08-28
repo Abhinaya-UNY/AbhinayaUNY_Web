@@ -1,8 +1,11 @@
-﻿import os
+import os
 import re
 import sys
 import json
 from html.parser import HTMLParser
+
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 OUT_DIR = os.path.abspath(r'D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web\out')
 BASE_PATH = '/AbhinayaUNY_Web'
@@ -49,8 +52,8 @@ def test_exported_pages_exist():
         exists = os.path.exists(full_path)
         size = os.path.getsize(full_path) if exists else 0
         results[rel_path] = {'exists': exists, 'size': size}
-        assert exists, fRequired HTML file missing: {rel_path}
-        assert size > 500, fHTML file {rel_path} is suspiciously small ({size} bytes)
+        assert exists, f"Required HTML file missing: {rel_path}"
+        assert size > 500, f"HTML file {rel_path} is suspiciously small ({size} bytes)"
     return results
 
 def test_leaders_in_static_dom():
@@ -69,11 +72,11 @@ def test_leaders_in_static_dom():
     for leader in expected_leaders:
         present = leader in html_content
         found_leaders[leader] = present
-        assert present, fLeader '{leader}' NOT found in static out/index.html DOM
+        assert present, f"Leader '{leader}' NOT found in static out/index.html DOM"
 
     # Check leadership badges
-    assert 'Ketua Tim' in html_content, Leadership badge 'Ketua Tim' not in static DOM
-    assert 'Leaders Hall of Fame' in html_content or 'Hall of Fame' in html_content, Leaders Hall of Fame section missing in static DOM
+    assert 'Ketua Tim' in html_content, "Leadership badge 'Ketua Tim' not in static DOM"
+    assert 'Leaders Hall of Fame' in html_content or 'Hall of Fame' in html_content, "Leaders Hall of Fame section missing in static DOM"
     return found_leaders
 
 def test_managers_in_static_dom():
@@ -91,9 +94,9 @@ def test_managers_in_static_dom():
     for manager in expected_managers:
         present = manager in html_content
         found_managers[manager] = present
-        assert present, fManager '{manager}' NOT found in static out/index.html DOM
+        assert present, f"Manager '{manager}' NOT found in static out/index.html DOM"
 
-    assert 'Manager' in html_content, Manager keyword not in static DOM
+    assert 'Manager' in html_content, "Manager keyword not in static DOM"
     return found_managers
 
 def test_active_squad_in_static_dom():
@@ -113,15 +116,15 @@ def test_active_squad_in_static_dom():
     for member in expected_members:
         present = member in html_content
         found_squad[member] = present
-        assert present, fActive Squad member '{member}' NOT found in static out/index.html DOM
+        assert present, f"Active Squad member '{member}' NOT found in static out/index.html DOM"
 
     # Check NIMs
-    expected_nims = ['22518241023', '21501244039', '22518244007', '21503241017', '22518241014', '22518241027']
+    expected_nims = ['22518241023', '21501244039', '22518241040', '22502241014', '20539144016', '21539144005', '22538141004', '23090620088']
     found_nims = {}
     for nim in expected_nims:
         present = nim in html_content
         found_nims[nim] = present
-        assert present, fNIM '{nim}' NOT found in static out/index.html DOM
+        assert present, f"NIM '{nim}' NOT found in static out/index.html DOM"
 
     return {'members': found_squad, 'nims': found_nims}
 
@@ -135,9 +138,9 @@ def test_alumni_and_generations_in_static_dom():
     for year in years:
         present = year in html_content
         found_years[year] = present
-        assert present, fGeneration year '{year}' not found in static DOM
+        assert present, f"Generation year '{year}' not found in static DOM"
 
-    assert 'Alumni' in html_content or 'Generasi' in html_content, Alumni / Generasi keyword not found in DOM
+    assert 'Alumni' in html_content or 'Generasi' in html_content, "Alumni / Generasi keyword not found in DOM"
     return found_years
 
 def test_static_asset_paths_and_basepath():
@@ -182,14 +185,14 @@ def test_static_asset_paths_and_basepath():
                             'expected_disk_path': disk_path
                         })
 
-    assert len(broken_assets) == 0, fFound {len(broken_assets)} broken asset references: {broken_assets[:5]}
+    assert len(broken_assets) == 0, f"Found {len(broken_assets)} broken asset references: {broken_assets[:5]}"
     return {'total_checked': total_assets_checked, 'broken_count': len(broken_assets)}
 
 def test_css_integrity():
     css_dir = os.path.join(OUT_DIR, '_next', 'static', 'css')
-    assert os.path.exists(css_dir), CSS directory missing in out/_next/static/css
+    assert os.path.exists(css_dir), "CSS directory missing in out/_next/static/css"
     css_files = [f for f in os.listdir(css_dir) if f.endswith('.css')]
-    assert len(css_files) > 0, No CSS files found in out/_next/static/css
+    assert len(css_files) > 0, "No CSS files found in out/_next/static/css"
 
     total_css_size = 0
     key_classes_found = {}
@@ -215,51 +218,51 @@ def test_css_integrity():
     return {'css_files': css_files, 'total_css_size_bytes': total_css_size, 'classes_verified': key_classes_found}
 
 def run_all_empirical_tests():
-    print(======================================================================)
-    print( EMPIRICAL CHALLENGER 2: STATIC HTML OUTPUT VERIFICATION HARNESS)
-    print(======================================================================)
+    print("======================================================================")
+    print(" EMPIRICAL CHALLENGER 2: STATIC HTML OUTPUT VERIFICATION HARNESS")
+    print("======================================================================")
     
-    print(\n[TEST 1] Exported HTML Pages Integrity...)
+    print("\n[TEST 1] Exported HTML Pages Integrity...")
     pages = test_exported_pages_exist()
     for p, info in pages.items():
-        print(f ✔ {p:<30} ({info['size']:,} bytes))
+        print(f" ✔ {p:<30} ({info['size']:,} bytes)")
 
-    print(\n[TEST 2] Leaders Hall of Fame (2020-2025) Static DOM Verification...)
+    print("\n[TEST 2] Leaders Hall of Fame (2020-2025) Static DOM Verification...")
     leaders = test_leaders_in_static_dom()
     for l, status in leaders.items():
-        print(f ✔ Leader in static DOM: {l:<25} [RENDERED])
+        print(f" ✔ Leader in static DOM: {l:<25} [RENDERED]")
 
-    print(\n[TEST 3] Managers Showcase (2020-2025) Static DOM Verification...)
+    print("\n[TEST 3] Managers Showcase (2020-2025) Static DOM Verification...")
     managers = test_managers_in_static_dom()
     for m, status in managers.items():
-        print(f ✔ Manager in static DOM: {m:<25} [RENDERED])
+        print(f" ✔ Manager in static DOM: {m:<25} [RENDERED]")
 
-    print(\n[TEST 4] Active Technical Squad & University NIMs Static DOM Verification...)
+    print("\n[TEST 4] Active Technical Squad & University NIMs Static DOM Verification...")
     squad_res = test_active_squad_in_static_dom()
     for mem, status in squad_res['members'].items():
-        print(f ✔ Member in static DOM: {mem:<25} [RENDERED])
+        print(f" ✔ Member in static DOM: {mem:<25} [RENDERED]")
     for nim, status in squad_res['nims'].items():
-        print(f ✔ Verified NIM in static DOM: {nim:<15} [AUTHENTIC])
+        print(f" ✔ Verified NIM in static DOM: {nim:<15} [AUTHENTIC]")
 
-    print(\n[TEST 5] Alumni & Generation Explorer Static DOM Verification...)
+    print("\n[TEST 5] Alumni & Generation Explorer Static DOM Verification...")
     years = test_alumni_and_generations_in_static_dom()
     for yr, status in years.items():
-        print(f ✔ Generation Year: {yr:<10} [PRESENT])
+        print(f" ✔ Generation Year: {yr:<10} [PRESENT]")
 
-    print(\n[TEST 6] Static Asset URLs, Scripts, CSS & BasePath Link Validation...)
+    print("\n[TEST 6] Static Asset URLs, Scripts, CSS & BasePath Link Validation...")
     assets = test_static_asset_paths_and_basepath()
-    print(f ✔ Total asset URLs inspected: {assets['total_checked']})
-    print(f ✔ Broken asset links count: {assets['broken_count']} (0 broken))
+    print(f" ✔ Total asset URLs inspected: {assets['total_checked']}")
+    print(f" ✔ Broken asset links count: {assets['broken_count']} (0 broken)")
 
-    print(\n[TEST 7] CSS Bundle Integrity & Tailwind Utility Classes...)
+    print("\n[TEST 7] CSS Bundle Integrity & Tailwind Utility Classes...")
     css_res = test_css_integrity()
-    print(f ✔ CSS Bundles: {css_res['css_files']} ({css_res['total_css_size_bytes']:,} bytes))
+    print(f" ✔ CSS Bundles: {css_res['css_files']} ({css_res['total_css_size_bytes']:,} bytes)")
     for c, found in css_res['classes_verified'].items():
-        print(f ✔ Utility class: {c:<25} [COMPILED])
+        print(f" ✔ Utility class: {c:<25} [COMPILED]")
 
-    print(\n======================================================================)
-    print( ALL EMPIRICAL HTML OUTPUT VERIFICATIONS PASSED (100% SUCCESS)!)
-    print(======================================================================)
+    print("\n======================================================================")
+    print(" ALL EMPIRICAL HTML OUTPUT VERIFICATIONS PASSED (100% SUCCESS)!")
+    print("======================================================================")
 
 if __name__ == '__main__':
     run_all_empirical_tests()

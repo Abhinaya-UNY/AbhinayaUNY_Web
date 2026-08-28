@@ -1,98 +1,44 @@
-# Project: Abhinaya UNY Web — Team Roster & Historical Archive Upgrade
+# Project: Tim Robotika Abhinaya UNY Data Verification & Web Synchronization
 
 ## Architecture
-- **Framework**: Next.js 14.2.35 (App Router, Static Export `output: 'export'`), React 18.3.1, TypeScript 5.4.5, Tailwind CSS 3.4.3, Lucide React.
-- **Data Layer**: TypeScript data models (`data/teamData.ts`) providing structured records for Leaders (2020-2025), Managers (2020-2025), Active Technical Squad (Program, Elektronik, Mekanik), Advisors, and Alumni Generations (2020-2025).
-- **Asset Pipeline**: Semantic photo naming standard `{tahun}_{divisi}_{nama_anggota}_{urutan}.{jpg|png}` stored in `public/images/members/` and `public/images/instagram_feed/`, with full exclusion of grid slices and non-member covers.
-- **UI & Presentation Layer**:
-  - `MemberPhotoFadeEngine`: Lightweight, GPU-accelerated CSS crossfade engine with auto-interval offset, hover pause, slide counter, navigation arrows, pagination dots, and fallback avatar.
-  - `LeadersHallOfFame`: Gold/amber-themed showcase row for Leaders 2020-2025.
-  - `ManagersShowcase`: Emerald/teal-themed showcase row for Managers 2020-2025.
-  - `ActiveTechnicalSquad`: High-tech division cards with role badges, skill tags, and multi-photo crossfade.
-  - `AlumniGenerationExplorer`: Interactive year tabs (2020-2025) rendering generation-specific contingent rosters, roles, and achievements.
-  - `MemberProfileModal`: High-res image lightbox, member background, achievements, and social links.
+- **Web Framework**: Next.js 14 (App Router) + React 18 + Tailwind CSS + Lucide Icons
+- **Data Layer**: `data/teamData.ts` (TypeScript types and data structures for team members, leaders, managers, alumni generations 2020-2025, advisor board)
+- **Documentation Layer**: `STRUKTUR_TIM_ABHINAYA.md`, `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` (authoritative archive)
+- **Media Asset Layer**: `public/images/instagram_feed/`, `public/images/members/`, `public/images/tournaments/`
+- **Presentation Layer**: `components/TeamRosterSection.tsx`, `components/MemberPhotoFadeEngine.tsx`, `app/divisi/page.tsx`
 
 ## Feature Inventory
 | # | Feature | Description | Milestone | Source |
 |---|---------|-------------|-----------|--------|
-| 1 | Instagram Photo Semantic Renaming Pipeline (R1) | Systematically rename and structure member photos into `{tahun}_{divisi}_{nama_anggota}_{urutan}.ext` excluding non-member/grid graphics | M1 | ORIGINAL_REQUEST §R1 |
-| 2 | All-Era Leaders Hall of Fame (2020–2025) (R2) | Dedicated gold-themed showcase row for team leaders across 2020-2025 with badges, prodi, and crossfade | M2, M4 | ORIGINAL_REQUEST §R2 |
-| 3 | All-Era Managers Showcase (2020–2025) (R2) | Dedicated emerald-themed showcase row for managers across 2020-2025 with leadership badges and crossfade | M2, M4 | ORIGINAL_REQUEST §R2 |
-| 4 | Current Active Technical Squad (R3) | Active squad cards for Program, Elektronik, Mekanik with specific roles, skills, and multi-photo crossfade | M2, M4 | ORIGINAL_REQUEST §R3 |
-| 5 | Interactive Alumni & Generation Explorer (R4) | Interactive tab/filter for years 2020-2025 displaying contingent members, roles, and division per generation | M2, M4 | ORIGINAL_REQUEST §R4 |
-| 6 | Ultra-Smooth Crossfade Photo Engine (R5) | GPU-accelerated crossfade transitions across cards and modal with slide indicators and navigation controls | M3 | ORIGINAL_REQUEST §R5 |
-| 7 | Full Build & Forensic Verification | `npm run build` with 0 errors, full E2E test verification, clean audit, and Git sync | M5 | ORIGINAL_REQUEST §Acceptance Criteria |
+| 1 | Visual Photo & Media Audit (2020–2025) | Comprehensive scan of all photos in `public/images/instagram_feed/` and `public/images/members/`, mapping individuals, roles, and competition context | M1 | ORIGINAL_REQUEST §R1 |
+| 2 | Image Asset Remediation & Semantic Normalization | Remediate 22 blank/corrupted images, normalize files to `{tahun}_{divisi}_{nama_anggota}_{urutan}.{ext}` | M1 | ORIGINAL_REQUEST §R1 |
+| 3 | PDDikti UNY NIM & Prodi Verification | Cross-verify all member NIMs (11 digits), official study programs, and faculties (FT, FMIPA, FV) against authentic PDDikti records | M2 | ORIGINAL_REQUEST §R2 |
+| 4 | Elimination of Placeholder/Fabricated NIMs | Correct Farhan Yuda Mahendra's NIM to `22518241040` and normalize all prodi designations across datasets | M2 | ORIGINAL_REQUEST §R2 |
+| 5 | Master Comprehensive Archive Generation | Author `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with photo catalogue, member tables (2020-2025), Leader/Manager history, and PDDikti audit log | M3 | ORIGINAL_REQUEST §R3 |
+| 6 | Synchronize `data/teamData.ts` | Update `teamData.ts` with verified NIMs, accurate prodi names, authentic photo paths, and dynamic category counts | M4 | ORIGINAL_REQUEST §R4 |
+| 7 | Synchronize `STRUKTUR_TIM_ABHINAYA.md` | Align `STRUKTUR_TIM_ABHINAYA.md` prodi affiliations (Afif, Iqbal, dll.) and leadership data | M4 | ORIGINAL_REQUEST §R4 |
+| 8 | Build Verification, E2E Audit & Git Push | Ensure `npm run build` succeeds with 0 errors, conduct forensic audit, commit, and push to GitHub | M5 | ORIGINAL_REQUEST §Acceptance |
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Photo Renaming & Asset Standardization | Execute semantic renaming pipeline based on catalog mapping, creating clean semantic asset structure in `public/images/members/` and verified mapping dictionary | none | COMPLETED |
-| M2 | Data Layer & Member Models Implementation | Update `data/teamData.ts` with complete historical data (Leaders 2020-2025, Managers 2020-2025, Active Squad 2025, Alumni Generations 2020-2025) using semantic photo paths | M1 | COMPLETED |
-| M3 | Ultra-Smooth Crossfade Engine | Implement standalone/reusable `MemberPhotoFadeEngine` component with seamless crossfade, slide indicators, and manual controls | none | COMPLETED |
-| M4 | Team Roster UI & Alumni Explorer Integration | Refactor and assemble `components/TeamRosterSection.tsx` into modular sections: Leaders Hall of Fame, Managers Showcase, Active Squad, Alumni Explorer, and Detail Modal | M2, M3 | COMPLETED |
-| M5 | E2E Testing, Build Verification, Forensic Audit & Git Sync | Execute E2E test validation, `npm run build` verification (0 errors), Forensic Integrity Audit, and clean Git commit & push | M4 | COMPLETED |
+| M1 | Image Asset Remediation & Semantic Mapping | Fix 22 blank images in `public/images/members/`, establish semantic links/files, verify 100% photo validity | Survey | PLANNED |
+| M2 | PDDikti Verification & Master Member Dataset | Formulate master verified member dataset (35+ members, 2020-2025) with authentic 11-digit NIMs & faculties | M1 | PLANNED |
+| M3 | Comprehensive Archive Documentation | Generate complete `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with 100% complete tables and photo catalogue | M2 | PLANNED |
+| M4 | Web Data & Structure Synchronization | Synchronize `data/teamData.ts` and `STRUKTUR_TIM_ABHINAYA.md` with master verified data and images | M2, M3 | PLANNED |
+| M5 | Build Verification, Multi-Agent Review & Git Push | Run `npm run build`, multi-reviewer audit, challenger tests, forensic audit, git commit and push | M1, M2, M3, M4 | PLANNED |
 
 ## Interface Contracts
-### `TeamMember` Data Contract (`data/teamData.ts`)
-```typescript
-export interface TeamMember {
-  id: string;
-  name: string;
-  nickname?: string;
-  role: string;
-  division: 'program' | 'elektronik' | 'mekanik' | 'manager' | 'leader' | 'pembimbing' | 'official';
-  subRole?: string;
-  generation: number; // e.g. 2020, 2021, 2022, 2023, 2024, 2025
-  yearsActive: number[]; // e.g. [2023, 2024, 2025]
-  prodi?: string;
-  faculty?: string;
-  photos: string[]; // paths to semantic photo files
-  skills?: string[];
-  achievements?: string[];
-  leadershipEra?: string; // e.g. "Ketua Tim 2023" or "Manager 2024"
-  quote?: string;
-  socials?: {
-    instagram?: string;
-    linkedin?: string;
-    github?: string;
-    email?: string;
-  };
-  isLeader?: boolean;
-  isManager?: boolean;
-  isActive?: boolean;
-}
-
-export interface GenerationArchive {
-  year: number;
-  theme?: string;
-  contingentName?: string;
-  leader: TeamMember;
-  managers: TeamMember[];
-  members: TeamMember[];
-  achievements: string[];
-  groupPhoto?: string;
-}
-```
-
-### `MemberPhotoFadeEngine` Props Contract (`components/MemberPhotoFadeEngine.tsx` / `components/TeamRosterSection.tsx`)
-```typescript
-export interface MemberPhotoFadeEngineProps {
-  photos: string[];
-  name: string;
-  aspectRatio?: string; // e.g. "aspect-[3/4]" or "aspect-square"
-  autoPlayInterval?: number; // default ~3500ms with stagger offset
-  showControls?: boolean;
-  showIndicators?: boolean;
-  priority?: boolean;
-  className?: string;
-  onClick?: () => void;
-}
-```
+### Data Schema (`data/teamData.ts` ↔ UI Components)
+- `TeamMember`: `{ id: string, name: string, nim: string, role: string, division: DivisionSlug, subRole?: string, department: string, studyProgram: string, faculty: string, image: string, photos?: string[], bio: string, achievements?: string[], isLead?: boolean, joinedYear: number, graduationYear?: number, socials?: MemberSocials }`
+- `LeaderHistoryItem`: `{ year: number, name: string, nim: string, role: string, major: string, faculty: string, photo: string, photos?: string[], highlights: string[], vision?: string, bio?: string }`
+- `ManagerHistoryItem`: `{ year: number, name: string, nim: string, role: string, major: string, faculty: string, photo: string, photos?: string[], highlights: string[], bio?: string }`
+- `GenerationArchive`: `{ year: number, theme: string, leader: string, membersCount: number, achievements: string[], members: TeamMember[] }`
 
 ## Code Layout
-- `data/teamData.ts`: Core data structures and datasets for all leaders, managers, active members, advisors, and generation archives.
-- `components/TeamRosterSection.tsx`: Main roster section containing Leaders Hall of Fame, Managers Showcase, Active Squad, Alumni Explorer, and modal.
-- `components/MemberPhotoFadeEngine.tsx` (or embedded): Ultra-smooth crossfade image transition engine.
-- `public/images/members/`: Semantic high-resolution and archived member portraits (`{tahun}_{divisi}_{nama}_{urutan}.ext`).
-- `public/images/instagram_feed/`: Original Instagram archive assets and raw feeds.
-- `scripts/`: Helper scripts for asset renaming and verification.
+- `data/teamData.ts` — Main TypeScript dataset for all roster and historical data
+- `STRUKTUR_TIM_ABHINAYA.md` — Markdown summary of team structure, leaders, managers, and active squad
+- `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` — Authoritative comprehensive archive of photos, members, and PDDikti verification
+- `public/images/members/` — Member portrait imagery
+- `public/images/instagram_feed/` — Historical Instagram feed photos
+- `components/TeamRosterSection.tsx` — UI component rendering team rosters, leaders, managers, and alumni explorer

@@ -29,12 +29,12 @@
 
 | Tahun | Nama Ketua Tim | Program Studi / Fakultas | Kontribusi & Fokus Inovasi |
 |---|---|---|---|
-| **2020** | **Nurcholis** | S1 Pendidikan Teknik Elektronika (FT) | Perintis divisi KRTMI UNY, robot otonom disinfeksi UV-C |
-| **2021** | **Afif Aiman Saputra** | S1 Pendidikan Teknik Elektronika (FT) | Robot otonom layanan medis COVID-19 & navigasi teleoperasi |
-| **2022** | **Muhammad Iqbal Rasyid** | S1 Pendidikan Teknik Elektronika (FT) | Robot penanganan limbah medis & barcode reader KRTMI Surabaya |
-| **2023** | **Salsabila Azzahra PSDU** | S1 Pendidikan Teknik Mekatronika (FT) | Dual robot kolaboratif pemilah sampah & keranjang cerdas USM |
-| **2024** | **Ilham Widyo Nugroho** | D4 Teknik Elektronika (FV / FT) | Robot pemilah digital AI edge computer vision UMS Surakarta |
-| **2025** | **Farhan Yuda Mahendra** | S1 Pendidikan Teknik Mekatronika (FT) | Robot holonomik transmisi berkecepatan tinggi & Technocorner |
+| **2020** | **Nurcholis** | S1 Pendidikan Teknik Elektronika (FT UNY) | Perintis divisi KRTMI UNY, robot otonom disinfeksi UV-C |
+| **2021** | **Afif Aiman Saputra** | S1 Pendidikan Teknik Mesin (FT UNY) | Robot otonom layanan medis COVID-19 & navigasi teleoperasi |
+| **2022** | **Muhammad Iqbal Rasyid** | S1 Pendidikan Teknik Mekatronika (FT UNY) | Robot penanganan limbah medis & barcode reader KRTMI Surabaya |
+| **2023** | **Salsabila Azzahra PSDU** | S1 Pendidikan Teknik Mekatronika (FT UNY) | Dual robot kolaboratif pemilah sampah & keranjang cerdas USM |
+| **2024** | **Ilham Widyo Nugroho** | D4 Teknik Elektronika (FV / FT UNY) | Robot pemilah digital AI edge computer vision UMS Surakarta |
+| **2025** | **Farhan Yuda Mahendra** | S1 Pendidikan Teknik Mekatronika (FT UNY) | Robot holonomik transmisi berkecepatan tinggi & Technocorner |
 
 ---
 
@@ -60,7 +60,7 @@
 ### Divisi Elektronik (Power & PCB Hardware)
 1. **Ikhsan Nurrohman** (`22538141004` — S1 Teknik Elektro - FT UNY) — *Koordinator Divisi Elektronik / Telemetri & Wireless*
 2. **Abdul Hasib Adzdzin Nuha** (`22502241014` — S1 Pendidikan Teknik Elektronika - FT UNY) — *PCB Design & Sensor Wiring*
-3. **Aryasetya Maulana Swasdika** (`23501241018` — S1 Teknik Elektro - FT UNY) — *Hardware & Power Systems*
+3. **Aryasetya Maulana Swasdika** (`23501241018` — S1 Pendidikan Teknik Elektro - FT UNY) — *Hardware & Power Systems*
 4. **Naufal Farros Zainal Arifin** (`23502241031` — S1 Pendidikan Teknik Elektronika - FT UNY) — *Signal Conditioning & Safety Rails*
 
 ### Divisi Mekanik (CAD, Machining & Kinematics)

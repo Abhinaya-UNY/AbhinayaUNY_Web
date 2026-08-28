@@ -247,7 +247,7 @@ class TestTier1_R3_TechnicalSquad(unittest.TestCase):
             self.assertIn(skill, self.team_data)
 
     def test_r3_04_authentic_student_nims(self):
-        nims = ["22518241023", "21501244039", "22518244007", "22502241014",
+        nims = ["22518241023", "21501244039", "22518241040", "22502241014",
                 "20539144016", "21539144005", "22538141004", "23090620088"]
         for nim in nims:
             self.assertIn(nim, self.team_data)
@@ -518,7 +518,7 @@ class TestTier5_Integrity(unittest.TestCase):
             self.assertNotIn(bad, self.team_data)
 
     def test_t5_02_authentic_student_nims(self):
-        for nim in ["22518241023", "21507334002", "20518241012", "21306141050", "22518241042", "22518244007"]:
+        for nim in ["22518241023", "21507334002", "20518241012", "21306141050", "22518241042", "22518241040"]:
             self.assertIn(nim, self.team_data)
 
     def test_t5_03_zero_hardcoded_cheat_assertions(self):

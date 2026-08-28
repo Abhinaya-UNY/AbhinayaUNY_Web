@@ -61,7 +61,7 @@ function runR3TechnicalSquadTests() {
       const authenticNIMs = [
         '22518241023', // Tri Wahyu Handoyo (Program Lead)
         '21501244039', // Agus Bagaskoro (Elektrik Lead)
-        '22518244007', // Farhan Yuda Mahendra (Mekanik Lead)
+        '22518241040', // Farhan Yuda Mahendra (Programmer / Leader 2025)
         '22502241014', // Abdul Hasib (Elektrik PCB)
         '20539144016', // Muhamad Ilham Sony (Mekanik Fabrikasi)
         '21539144005', // Caesar Sokma (Mekanik Prototyping)

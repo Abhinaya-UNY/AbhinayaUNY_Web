@@ -897,7 +897,7 @@ DEFAULT_SEED_MEMBERS: List[Dict[str, Any]] = [
     {
         "id": "farhan-yuda-mahendra",
         "name": "Farhan Yuda Mahendra",
-        "nim": "22518244007",
+        "nim": "22518241040",
         "studyProgram": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "Fakultas Teknik (FT UNY)",
         "division": "Mekanik",
