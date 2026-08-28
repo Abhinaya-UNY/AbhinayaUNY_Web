@@ -476,7 +476,7 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
 export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
   {
     year: 2020,
-    id: 'yuli-dwi-saputri-manager-2020',
+    id: 'yuli-dwi-saputri-manager',
     name: 'Yuli Dwi Saputri',
     nickname: 'Yuli',
     nim: '17501244012',
@@ -485,7 +485,7 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     faculty: 'Fakultas Teknik (FT)',
     division: 'Manager',
     divisionSlug: 'manager',
-    role: 'Manager Tim (Keuangan & Administrasi)',
+    role: 'Lead Manager Perintis & Senior Advisor (Era 2020–2022)',
     subRole: 'Finance, Administration & Operational Procurement Lead',
     generation: 'Angkatan 2017',
     generationYear: 2020,
@@ -496,8 +496,8 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
       'Logistics Procurement',
       'Public Relations',
     ],
-    skills: ['Budgeting', 'Administrasi', 'Sponsorship', 'Public Relations'],
-    bio: 'Manager Tim Abhinaya UNY era perdana 2020. Membangun sistem tata kelola keuangan, administrasi birokrasi universitas, dan logistik kebutuhan kontingen robotika.',
+    skills: ['Budgeting', 'Administrasi', 'Sponsorship', 'Public Relations', 'Puspresnas Registration'],
+    bio: 'Manager Tim Abhinaya UNY era perintisan (2020–2022). Membangun sistem tata kelola keuangan, administrasi birokrasi universitas, perizinan laboratorium masa pandemi, dan mengawal kontingen menyabet Juara 1 KRI Wilayah I 2021.',
     quote: 'Kerapihan administrasi adalah fondasi kelancaran riset.',
     image: '/images/members/2020_manager_yuli_dwi_saputri_01.jpg',
     images: [
@@ -512,108 +512,17 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
       '/images/members/2022_manager_yuli_dwi_saputri_01.jpg',
       '/images/members/2023_manager_yuli_dwi_saputri_01.jpg',
     ],
-    badge: 'Manager 2020',
-    leadershipEra: 'Manager 2020',
-    achievements: ['Tata Kelola Tim Perdana KRTMI 2020', 'Manajemen Anggaran Riset Otonom'],
+    badge: 'Manager 2020–2022',
+    leadershipEra: 'Manager Era 2020–2022',
+    achievements: ['Tata Kelola Tim Perdana KRTMI 2020', 'Manajemen Kontingen Juara 1 KRI Wilayah I 2021', 'Regenerasi Manajerial Abhinaya'],
     isManager: true,
     socials: {
       instagram: 'https://instagram.com/youuly__',
-    },
-  },
-  {
-    year: 2021,
-    id: 'yuli-dwi-saputri-manager-2021',
-    name: 'Yuli Dwi Saputri',
-    nickname: 'Yuli',
-    nim: '17501244012',
-    studyProgram: 'S1 Pendidikan Teknik Elektro',
-    prodi: 'S1 Pendidikan Teknik Elektro',
-    faculty: 'Fakultas Teknik (FT)',
-    division: 'Manager',
-    divisionSlug: 'manager',
-    role: 'Manager Tim (Keuangan & Administrasi Juara Wilayah I)',
-    subRole: 'Finance, Registration & Contingent Welfare Lead',
-    generation: 'Angkatan 2017',
-    generationYear: 2021,
-    yearsActive: [2020, 2021, 2022, 2023],
-    specialization: [
-      'Financial Budgeting & RAB',
-      'Administrasi Kampus & Dikti',
-      'Event Logistics',
-      'Team Welfare',
-    ],
-    skills: ['Budgeting', 'Administrasi', 'Logistics', 'Puspresnas Registration'],
-    bio: 'Manager Tim Abhinaya UNY 2021. Mengawal alokasi pendanaan riset, pendaftaran kontingen Puspresnas, dan pengadaan logistik saat Abhinaya menyabet Juara 1 KRI Wilayah I.',
-    quote: 'Hasil maksimal lahir dari persiapan matang di balik layar.',
-    image: '/images/members/2021_manager_yuli_dwi_saputri_01.jpg',
-    images: [
-      '/images/members/2021_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2020_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2022_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2023_manager_yuli_dwi_saputri_01.jpg',
-    ],
-    photos: [
-      '/images/members/2021_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2020_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2022_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2023_manager_yuli_dwi_saputri_01.jpg',
-    ],
-    badge: 'Manager 2021',
-    leadershipEra: 'Manager 2021',
-    achievements: ['Manajemen Kontingen Juara 1 KRI Wilayah I 2021', 'Manajemen Strategi Terbaik KRTMI 2021'],
-    isManager: true,
-    socials: {
-      instagram: 'https://instagram.com/youuly__',
-    },
-  },
-  {
-    year: 2022,
-    id: 'yuli-mustika-manager-2022',
-    name: 'Yuli Dwi Saputri & Mustika Wahyu Aprilia',
-    nickname: 'Yuli & Mustika',
-    nim: '17501244012 / 21306141050',
-    studyProgram: 'S1 Pendidikan Teknik Elektro & S1 Fisika',
-    prodi: 'S1 Pendidikan Teknik Elektro & S1 Fisika',
-    faculty: 'Fakultas Teknik (FT) & FMIPA UNY',
-    division: 'Manager',
-    divisionSlug: 'manager',
-    role: 'Dual Management (Senior Advisor & Finance Lead)',
-    subRole: 'Co-Management, Transition & Administrative Mentorship',
-    generation: 'Angkatan 2017 & 2021',
-    generationYear: 2022,
-    yearsActive: [2022],
-    specialization: [
-      'Administrasi',
-      'Fisika',
-      'Finance & Budgeting',
-      'Regenerasi Manajerial',
-      'Sponsorship',
-    ],
-    skills: ['Administrasi', 'Budgeting', 'Regenerasi', 'Sponsorship', 'Puspresnas Registration'],
-    bio: 'Kolaborasi manajemen solid antara Senior Manager Yuli Dwi Saputri dan Mustika Wahyu Aprilia dalam mengelola operasional kontingen dan regenerasi manajerial tim.',
-    quote: 'Sinergi kuat menghasilkan manajemen kontingen yang tangguh.',
-    image: '/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg',
-    images: [
-      '/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2022_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-    ],
-    photos: [
-      '/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2022_manager_yuli_dwi_saputri_01.jpg',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-    ],
-    badge: 'Manager 2022',
-    leadershipEra: 'Manager 2022',
-    achievements: ['Regenerasi Manajerial Abhinaya UNY 2022', 'Pengelolaan Logistik Finalis Nasional ITS Surabaya'],
-    isManager: true,
-    socials: {
-      instagram: 'https://instagram.com/abhinaya.uny',
     },
   },
   {
     year: 2023,
-    id: 'mustika-wahyu-aprilia-manager-2023',
+    id: 'mustika-wahyu-aprilia-manager',
     name: 'Mustika Wahyu Aprilia',
     nickname: 'Mustika',
     nim: '21306141050',
@@ -622,7 +531,7 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     faculty: 'Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)',
     division: 'Manager',
     divisionSlug: 'manager',
-    role: 'Lead Manager (Keuangan, Administrasi & Sekretariat)',
+    role: 'Lead Manager Keuangan & Administrasi (Era 2022–2024)',
     subRole: 'Finance, Administration & Sponsorship Lead',
     generation: 'Angkatan 2021',
     generationYear: 2023,
@@ -635,24 +544,24 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
       'Fisika',
     ],
     skills: ['Financial Planning', 'Administrasi', 'Sponsorship', 'Logistics Management'],
-    bio: 'Lead Manager Abhinaya UNY 2023 didampingi Advisor Yuli Dwi Saputri. Mengelola seluruh berkas administrasi KRI Nasional, akomodasi kontingen ke Semarang, dan sponsorship riset.',
+    bio: 'Lead Manager Abhinaya UNY periode 2022–2024. Mengelola alokasi anggaran riset, administrasi kontingen KRI Nasional USM Semarang & UMS Surakarta, serta perizinan universitas.',
     quote: 'Ketelitian anggaran adalah nafas keberlanjutan tim riset.',
-    image: '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
+    image: '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
     images: [
-      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2023_manager_yuli_dwi_saputri_01.jpg',
       '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
       '/images/members/2024_manager_mustika_wahyu_aprilia_02.png',
+      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
+      '/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg',
     ],
     photos: [
-      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2023_manager_yuli_dwi_saputri_01.jpg',
       '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
       '/images/members/2024_manager_mustika_wahyu_aprilia_02.png',
+      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
+      '/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg',
     ],
-    badge: 'Manager 2023',
-    leadershipEra: 'Manager 2023',
-    achievements: ['Manajemen Kontingen Juara 3 KRI Wilayah I 2023', 'Akomodasi Kontingen Finalis Nasional Semarang'],
+    badge: 'Manager 2022–2024',
+    leadershipEra: 'Manager Era 2022–2024',
+    achievements: ['Manajemen Kontingen Juara 3 KRI Wilayah I 2023', 'Pengelolaan Logistik Kontingen KRI 2024 UMS Surakarta'],
     isManager: true,
     socials: {
       instagram: 'https://instagram.com/abhinaya.uny',
@@ -661,97 +570,91 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
   },
   {
     year: 2024,
-    id: 'mustika-rose-manager-2024',
-    name: 'Mustika Wahyu Aprilia & Rose Pita Nur Afifah',
-    nickname: 'Mustika & Rose Pita',
-    nim: '21306141050 / 22518241042',
-    studyProgram: 'S1 Fisika (FMIPA) & S1 Pendidikan Teknik Mekatronika (FT)',
-    prodi: 'S1 Fisika & S1 Pendidikan Teknik Mekatronika',
-    faculty: 'FMIPA & Fakultas Teknik (FT)',
-    division: 'Manager',
-    divisionSlug: 'manager',
-    role: 'Co-Managers (Finance, Administration & Media Directorate)',
-    subRole: 'Finance, Administration, Social Media Branding & UI/UX',
-    generation: 'Angkatan 2021 & 2022',
-    generationYear: 2024,
-    yearsActive: [2024],
-    specialization: [
-      'Administrasi',
-      'Fisika',
-      'Mekatronika',
-      'RAB & Financial Budgeting',
-      'Social Media Branding',
-      'Visual Identity',
-    ],
-    skills: ['Financial Budgeting', 'Administrasi', 'Social Media Branding', 'Visual Identity', 'Sponsorship'],
-    bio: 'Duet manajerial 2024: Mustika Wahyu Aprilia (Keuangan & Administrasi) dan Rose Pita Nur Afifah (Media, Publikasi & Branding Resmi @abhinaya.uny).',
-    quote: 'Just double tap & shine bright.',
-    image: '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-    images: [
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
-    ],
-    photos: [
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
-    ],
-    badge: 'Manager 2024',
-    leadershipEra: 'Manager 2024',
-    achievements: ['Manajemen Kontingen KRI 2024 UMS Surakarta', 'Ekspansi Branding Media Sosial @abhinaya.uny'],
-    isManager: true,
-    socials: {
-      instagram: 'https://instagram.com/abhinaya.uny',
-      linkedin: 'https://linkedin.com',
-    },
-  },
-  {
-    year: 2025,
-    id: 'rose-zelfa-manager-2025',
-    name: 'Rose Pita Nur Afifah & Zelfa Nafisah Zalna',
-    nickname: 'Rose Pita & Zelfa',
-    nim: '22518241042 / 23501241001',
-    studyProgram: 'S1 Pendidikan Teknik Mekatronika & S1 Pendidikan Teknik Elektro',
-    prodi: 'S1 Pendidikan Teknik Mekatronika & S1 Pendidikan Teknik Elektro',
+    id: 'rose-pita-nur-afifah-manager',
+    name: 'Rose Pita Nur Afifah',
+    nickname: 'Rose Pita',
+    nim: '22518241042',
+    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
+    prodi: 'S1 Pendidikan Teknik Mekatronika',
     faculty: 'Fakultas Teknik (FT)',
     division: 'Manager',
     divisionSlug: 'manager',
-    role: 'Lead Manager (Koordinator Media, Administrasi & Keuangan)',
-    subRole: 'Media Directorate, Financial Budgeting & Public Relations',
-    generation: 'Angkatan 2022 & 2023',
-    generationYear: 2025,
-    yearsActive: [2025],
+    role: 'Koordinator Manager & Media Directorate (Era 2024–2025)',
+    subRole: 'Social Media Branding, Official Visual Identity & Team Coordination',
+    generation: 'Angkatan 2022',
+    generationYear: 2024,
+    yearsActive: [2024, 2025],
     specialization: [
+      'Social Media Branding (@abhinaya.uny)',
+      'Match Photography & Visual Content',
+      'Visual Identity & Graphic Design',
       'Administrasi',
       'Mekatronika',
-      'Social Media Branding (@abhinaya.uny)',
-      'Financial Accounting',
-      'Match Documentation',
     ],
-    skills: ['Social Media', 'Administrasi', 'Accounting', 'Public Relations', 'Documentation'],
-    bio: 'Kepengurusan manajerial aktif 2025 dipimpin oleh Rose Pita Nur Afifah (Koor Manager & Media Branding) bersama Zelfa Nafisah Zalna (Manager Administrasi & Keuangan).',
+    skills: ['Social Media', 'Visual Branding', 'Photography', 'Administrasi', 'Mekatronika'],
+    bio: 'Koordinator Manager Abhinaya UNY periode 2024–2025. Mengarahkan branding digital media sosial resmi (@abhinaya.uny), publikasi visual laga KRI, dan koordinasi operasional kontingen aktif.',
     quote: 'Life is a stage, and we shape our best story.',
     image: '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
     images: [
       '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
+      '/images/members/2024_manager_rose_pita_nur_afifah_02.png',
       '/images/members/2025_manager_rose_pita_nur_afifah_01.jpg',
-      '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
     ],
     photos: [
       '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
+      '/images/members/2024_manager_rose_pita_nur_afifah_02.png',
       '/images/members/2025_manager_rose_pita_nur_afifah_01.jpg',
-      '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
     ],
-    badge: 'Manager 2025',
-    leadershipEra: 'Manager 2025',
-    achievements: ['Manajemen Kontingen Aktif KRI 2025', 'Digitalisasi Arsip Visual Tim Abhinaya UNY'],
+    badge: 'Manager 2024–2025',
+    leadershipEra: 'Manager Era 2024–2025',
+    achievements: ['Ekspansi Branding Media Sosial Resmi @abhinaya.uny', 'Manajemen Kontingen KRI 2024 & 2025'],
     isManager: true,
     isActive: true,
     socials: {
       instagram: 'https://instagram.com/_takrspt',
+    },
+  },
+  {
+    year: 2025,
+    id: 'zelfa-nafisah-zalna-manager',
+    name: 'Zelfa Nafisah Zalna',
+    nickname: 'Zelfa',
+    nim: '23501241001',
+    studyProgram: 'S1 Pendidikan Teknik Elektro',
+    prodi: 'S1 Pendidikan Teknik Elektro',
+    faculty: 'Fakultas Teknik (FT)',
+    division: 'Manager',
+    divisionSlug: 'manager',
+    role: 'Manager Keuangan & Administrasi Operasional (Era 2025)',
+    subRole: 'Finance, Administrative Documentation & Logistics Lead',
+    generation: 'Angkatan 2023',
+    generationYear: 2025,
+    yearsActive: [2025],
+    specialization: [
+      'Administrasi Kampus & Ormawa',
+      'Financial Accounting & RAB',
+      'Logistics & Team Welfare',
+      'Documentation',
+    ],
+    skills: ['Accounting', 'Administrasi', 'Logistics', 'Documentation'],
+    bio: 'Manager Keuangan & Administrasi aktif periode 2025. Mengawal pembukuan dana riset, pengadaan komponen, dan registrasi berkas kontingen KRI 2025.',
+    quote: 'Dedikasi di balik layar mengantarkan tim menuju podium juara.',
+    image: '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+    images: [
+      '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+    ],
+    photos: [
+      '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+    ],
+    badge: 'Manager 2025',
+    leadershipEra: 'Manager Era 2025',
+    achievements: ['Manajemen Kontingen Aktif KRI 2025', 'Tata Kelola Administrasi Tim 2025'],
+    isManager: true,
+    isActive: true,
+    socials: {
+      instagram: 'https://instagram.com/abhinaya.uny',
     },
   },
 ];
@@ -1681,7 +1584,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2021 Daring Nasional',
     rules: 'Pengantaran paket logistik dan obat-obatan secara cepat dan presisi di arena simulasi rumah sakit darurat.',
     leader: LEADERS_HALL_OF_FAME[1], // Afif Aiman Saputra
-    managers: [MANAGERS_SHOWCASE[1]], // Yuli Dwi Saputri
+    managers: [MANAGERS_SHOWCASE[0]], // Yuli Dwi Saputri
     divisions: {
       program: [
         LEADERS_HALL_OF_FAME[0],
@@ -1757,7 +1660,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2022 ITS Surabaya',
     rules: 'Pengambilan, pemindahan, dan pembuangan limbah medis B3 rumah sakit dengan mekanisme capit 2-stage dan navigasi otonom.',
     leader: LEADERS_HALL_OF_FAME[2], // Muhammad Iqbal Rasyid
-    managers: [MANAGERS_SHOWCASE[2]], // Yuli & Mustika
+    managers: [MANAGERS_SHOWCASE[0], MANAGERS_SHOWCASE[1]], // Yuli Dwi Saputri & Mustika Wahyu Aprilia
     divisions: {
       program: [
         LEADERS_HALL_OF_FAME[3],
@@ -1875,7 +1778,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2023 USM Semarang',
     rules: 'Navigasi arena kompleks dengan sinkronisasi digital twin, identifikasi resep obat, dan pengantaran ke loket farmasi rumah sakit.',
     leader: LEADERS_HALL_OF_FAME[3], // Salsabila Azzahra
-    managers: [MANAGERS_SHOWCASE[3]], // Mustika Wahyu Aprilia
+    managers: [MANAGERS_SHOWCASE[1]], // Mustika Wahyu Aprilia
     divisions: {
       program: [
         LEADERS_HALL_OF_FAME[3],
@@ -1913,7 +1816,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2024 UMS Surakarta',
     rules: 'Pendeteksian objek sampah organik & anorganik secara real-time via YOLOv8, pengambilan presisi, dan pembuangan pada bak berputar.',
     leader: LEADERS_HALL_OF_FAME[4], // Ilham Widyo Nugroho
-    managers: [MANAGERS_SHOWCASE[4]], // Mustika & Rose Pita
+    managers: [MANAGERS_SHOWCASE[1], MANAGERS_SHOWCASE[2]], // Mustika Wahyu Aprilia & Rose Pita Nur Afifah
     divisions: {
       program: [
         ACTIVE_TECHNICAL_SQUAD.program[0], // Tri Wahyu Handoyo (Koor)
@@ -1954,7 +1857,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2025',
     rules: 'Navigasi otonom kecepatan tinggi, deteksi objek multimodal AI YOLOv11, aktuasi capit pintar, dan telemetri wireless terintegrasi.',
     leader: LEADERS_HALL_OF_FAME[5], // Farhan Yuda Mahendra
-    managers: [MANAGERS_SHOWCASE[5]], // Rose Pita & Zelfa
+    managers: [MANAGERS_SHOWCASE[2], MANAGERS_SHOWCASE[3]], // Rose Pita & Zelfa
     divisions: {
       program: ACTIVE_TECHNICAL_SQUAD.program,
       elektronik: ACTIVE_TECHNICAL_SQUAD.elektronik,
@@ -1994,212 +1897,32 @@ ALUMNI_GENERATIONS.forEach((gen) => {
   gen.members = Array.from(uniqueMap.values());
 });
 
-/* ==========================================================================
-   6. BACKWARD COMPATIBILITY EXPORTS (TEAM_MEMBERS, ALL_ROSTER_MEMBERS, ETC.)
-   ========================================================================== */
-
 export const TEAM_MEMBERS: TeamMember[] = [
-  // 1. KETUA TIM
-  LEADERS_HALL_OF_FAME[4], // Ilham Widyo Nugroho (2024 Leader)
+  // 1. KETUA TIM (2025)
+  LEADERS_HALL_OF_FAME[5], // Farhan Yuda Mahendra (Ketua Tim 2025)
 
-  // 2. MANAGERS
-  {
-    id: 'mustika-wahyu-aprilia',
-    name: 'Mustika Wahyu Aprilia',
-    nickname: 'Mustika',
-    nim: '21306141050',
-    studyProgram: 'S1 Fisika',
-    prodi: 'S1 Fisika',
-    faculty: 'Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)',
-    division: 'Manager',
-    divisionSlug: 'manager',
-    role: 'Manager (Keuangan, Administrasi & Sekretariat)',
-    subRole: 'Finance, Administration & Sponsorship Lead',
-    generation: 'Angkatan 2021',
-    generationYear: 2024,
-    yearsActive: [2022, 2023, 2024],
-    specialization: [
-      'RAB & Financial Budgeting Tim Robotika',
-      'Official University Correspondence',
-      'Public Relations & Sponsorship',
-      'PAB Recruitment Administration',
-      'Administrasi',
-      'Fisika',
-    ],
-    skills: ['Budgeting', 'Administrasi', 'Sponsorship', 'Public Relations'],
-    bio: 'Mengelola penyusunan Rencana Anggaran Biaya (RAB) riset dan kompetisi, surat-menyurat resmi universitas & Puspresnas, tata kelola administrasi tim, serta hubungan masyarakat dan kepengurusan PAB.',
-    quote: 'Just double tap',
-    image: '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-    images: [
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_02.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
-    ],
-    photos: [
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_02.png',
-      '/images/members/2024_manager_mustika_wahyu_aprilia_01.jpg',
-      '/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg',
-    ],
-    badge: 'Manager Keuangan',
-    isManager: true,
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/abhinaya.uny',
-    },
-  },
-  {
-    id: 'rose-pita-nur-afifah',
-    name: 'Rose Pita Nur Afifah',
-    nickname: 'Rose Pita',
-    nim: '22518241042',
-    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
-    prodi: 'S1 Pendidikan Teknik Mekatronika',
-    faculty: 'Fakultas Teknik (FT)',
-    division: 'Manager',
-    divisionSlug: 'manager',
-    role: 'Manager (Media, Dokumentasi & Publikasi)',
-    subRole: 'Official Media, Branding & UI/UX Specialist',
-    generation: 'Angkatan 2022',
-    generationYear: 2025,
-    yearsActive: [2024, 2025],
-    specialization: [
-      'Social Media Branding (@abhinaya.uny)',
-      'Match Photography & Videography',
-      'Visual Identity & Graphic Design',
-      'Competition Archive Curation',
-      'Administrasi',
-      'Mekatronika',
-    ],
-    skills: ['Social Media', 'Visual Branding', 'Photography', 'Administrasi', 'Mekatronika'],
-    bio: 'Mengelola kanal media sosial resmi (@abhinaya.uny), kurasi visual foto dan video dokumentasi perlombaan, serta publikasi profil riset robotika Abhinaya UNY.',
-    quote: 'Life is a stage, and I am a screenwriter',
-    image: '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
-    images: [
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_02.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
-      '/images/members/2025_manager_rose_pita_nur_afifah_01.jpg',
-    ],
-    photos: [
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_02.png',
-      '/images/members/2024_manager_rose_pita_nur_afifah_01.jpg',
-      '/images/members/2025_manager_rose_pita_nur_afifah_01.jpg',
-    ],
-    badge: 'Manager Media',
-    isManager: true,
-    isActive: true,
-    socials: {
-      instagram: 'https://instagram.com/_takrspt',
-    },
-  },
+  // 2. MANAGERS (2025)
+  MANAGERS_SHOWCASE[2], // Rose Pita Nur Afifah (Manager Media & Branding 2025)
+  MANAGERS_SHOWCASE[3], // Zelfa Nafisah Zalna (Manager Keuangan & Administrasi 2025)
 
-  // 3. DIVISI PROGRAM
-  ACTIVE_TECHNICAL_SQUAD.program[0], // Tri Wahyu Handoyo
-  {
-    id: 'salsabila-azzahra',
-    name: 'Salsabila Azzahra Putri Sophia Dewi Utami',
-    nickname: 'Salsa',
-    nim: '20518241012',
-    studyProgram: 'S1 Pendidikan Teknik Mekatronika',
-    prodi: 'S1 Pendidikan Teknik Mekatronika',
-    faculty: 'Fakultas Teknik (FT)',
-    division: 'Program',
-    divisionSlug: 'program',
-    role: 'Program (Logika Sensor & Strategi Laga)',
-    subRole: 'Match Strategy & Sensor Logic Coordinator',
-    generation: 'Angkatan 2020',
-    generationYear: 2024,
-    yearsActive: [2021, 2022, 2023, 2024],
-    specialization: [
-      'Puspresnas Rulebook & Match Analysis',
-      'Sensor Logic & Calibration Testing',
-      'Match Strategy Simulation',
-      'Paddock & Pit Operational Logistics',
-      'Autonomous Navigation',
-      'STM32',
-      'Mecanum',
-    ],
-    skills: ['Strategy', 'Sensor Logic', 'STM32', 'Puspresnas Rules'],
-    bio: 'Mengkoordinasikan logika kendali strategi pertandingan, analisis aturan BPTI Puspresnas, kalibrasi sensor di arena, serta manajemen paddock kontingen selama Kontes Robot Indonesia.',
-    quote: 'Reconnecting...',
-    image: '/images/members/2024_program_salsabila_azzahra_01.png',
-    images: [
-      '/images/members/2024_program_salsabila_azzahra_01.png',
-      '/images/members/2024_program_salsabila_azzahra_02.png',
-      '/images/members/2024_program_salsabila_azzahra_psdu_01.jpg',
-      '/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg',
-      '/images/members/2023_program_salsabila_azzahra_psdu_01.jpg',
-    ],
-    photos: [
-      '/images/members/2024_program_salsabila_azzahra_01.png',
-      '/images/members/2024_program_salsabila_azzahra_02.png',
-      '/images/members/2024_program_salsabila_azzahra_psdu_01.jpg',
-      '/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg',
-      '/images/members/2023_program_salsabila_azzahra_psdu_01.jpg',
-    ],
-    badge: 'Program & Strategi',
-    isLeader: true,
-    socials: {
-      linkedin: 'https://linkedin.com',
-      instagram: 'https://instagram.com/kuranglemu',
-    },
-  },
-  ACTIVE_TECHNICAL_SQUAD.program[1], // Farhan Yuda Mahendra
+  // 3. DIVISI PROGRAM (AKTIF 2025)
+  ACTIVE_TECHNICAL_SQUAD.program[0], // Tri Wahyu Handoyo (Lead AI & Systems)
+  ACTIVE_TECHNICAL_SQUAD.program[1], // Farhan Yuda Mahendra (Kinematics & Microcontroller Control)
+  ACTIVE_TECHNICAL_SQUAD.program[2], // Hanif NurKhalis (Sensor Integration & Serial Interfacing)
+  ACTIVE_TECHNICAL_SQUAD.program[3], // Hisyam Yasid Pratowo (Vision Pipeline & Linux Optimization)
 
-  // 4. DIVISI ELEKTRONIK
-  ACTIVE_TECHNICAL_SQUAD.elektronik[1], // Abdul Hasib Adzdzin Nuha
-  ACTIVE_TECHNICAL_SQUAD.elektronik[2], // Agus Bagaskoro
-  ACTIVE_TECHNICAL_SQUAD.elektronik[0], // Ikhsan Nurrohman
-  {
-    id: 'yusron-nur-latief',
-    name: 'Yusron Nur Latief',
-    nickname: 'Yusron',
-    nim: 'Senior Member',
-    studyProgram: 'Teknik Elektro UNY',
-    prodi: 'D4 Teknik Elektro',
-    faculty: 'Universitas Negeri Yogyakarta (UNY)',
-    division: 'Elektronik',
-    divisionSlug: 'elektronik',
-    role: 'Senior Electrical Advisor / Alumni',
-    subRole: 'Senior Electrical & Hardware Advisor',
-    generation: 'Alumni / Demisioner',
-    generationYear: 2023,
-    yearsActive: [2020, 2021, 2022, 2023],
-    specialization: [
-      'Industrial Hardware Architecture',
-      'High-Power MOSFET Driver Systems',
-      'KRTMI Technology Transfer',
-      'Electrical Fault Diagnostics',
-      'Power Distribution Board',
-      'PCB',
-    ],
-    skills: ['Hardware Architecture', 'PCB', 'Power Distribution Board', 'Mentorship'],
-    bio: 'Konsultan dan penasihat teknis perangkat keras robotika Abhinaya UNY. Memberikan transfer pengetahuan riset kelistrikan robotika dari generasi-generasi kompetisi sebelumnya.',
-    quote: 'Transfer knowledge adalah kunci konsistensi juara.',
-    image: '/images/members/2020_elektronik_yusron_nur_latief_01.jpg',
-    images: [
-      '/images/members/2020_elektronik_yusron_nur_latief_01.jpg',
-      '/images/members/2022_elektronik_yusron_nur_latief_01.jpg',
-      '/images/members/2023_elektronik_yusron_nur_latief_01.jpg',
-    ],
-    photos: [
-      '/images/members/2020_elektronik_yusron_nur_latief_01.jpg',
-      '/images/members/2022_elektronik_yusron_nur_latief_01.jpg',
-      '/images/members/2023_elektronik_yusron_nur_latief_01.jpg',
-    ],
-    badge: 'Senior Advisor',
-    socials: {
-      linkedin: 'https://linkedin.com',
-    },
-  },
+  // 4. DIVISI ELEKTRONIK (AKTIF 2025)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[0], // Ikhsan Nurrohman (Lead Elektronik / Telemetri & Wireless)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[1], // Abdul Hasib Adzdzin Nuha (PCB Design & Sensor Wiring)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[3], // Aryasetya Maulana Swasdika (Hardware & Power Systems)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[4], // Naufal Farros Zainal Arifin (Signal Conditioning & Safety Rails)
 
-  // 5. DIVISI MEKANIK
-  ACTIVE_TECHNICAL_SQUAD.mekanik[5], // Muhamad Ilham Sony
-  ACTIVE_TECHNICAL_SQUAD.mekanik[1], // Caesar Sokma Langgeng
-  ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho
+  // 5. DIVISI MEKANIK (AKTIF 2025)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho (Lead Mekanik / Hardware Assembly & QA)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[1], // Caesar Sokma Langgeng (CAD & Laser Fabrication Engineer)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani (CNC Milling & Sheet Metal Fabrication)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[3], // Andika Nanda Wijaya (Precision Lathe & Gripper Linkage Fabrication)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika (Chassis Assembly & Structural QA Engineer)
 ];
 
 export const ALL_ROSTER_MEMBERS: TeamMember[] = [...DOSEN_PEMBIMBING_LIST, ...TEAM_MEMBERS];

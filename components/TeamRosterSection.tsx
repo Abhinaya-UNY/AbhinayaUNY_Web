@@ -552,7 +552,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           >
             <Briefcase className="w-3.5 h-3.5 text-emerald-400" />
             <span>Managers Showcase</span>
-            <span className="px-1.5 py-0.2 rounded bg-black/40 text-[10px] font-mono font-bold">6</span>
+            <span className="px-1.5 py-0.2 rounded bg-black/40 text-[10px] font-mono font-bold">4</span>
           </button>
 
           <button
@@ -665,7 +665,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </div>
 
             {/* Managers Grid (Chronological 2020 -> 2025) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7">
               {MANAGERS_SHOWCASE.map((manager) =>
                 renderMemberCard(manager, {
                   border: 'border-emerald-500/40 hover:border-emerald-400 shadow-emerald-500/10',
