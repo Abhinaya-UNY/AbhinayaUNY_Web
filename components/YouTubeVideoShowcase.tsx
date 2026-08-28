@@ -32,6 +32,18 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
   },
   {
+    id: 'J5FXI2AnQxE',
+    title: 'Dokumentasi Laga & Manuver Otonom Robot Abhinaya UNY',
+    subtitle: 'Full Match & Technical Arena Run • Kontes Robot Tematik Indonesia',
+    description: 'Saksikan aksi robot otonom Abhinaya UNY melaju dengan kecepatan tinggi di arena KRTMI, melakukan deteksi objek presisi, navigasi holonomik 4WD Mecanum, dan menyelesaikan misi pemilahan secara akurat di bawah sorotan kompetisi nasional.',
+    type: 'action',
+    aspect: '16:9',
+    url: 'https://youtu.be/J5FXI2AnQxE',
+    tag: 'Full Match & Action (16:9)',
+    stats: 'HD 60fps • Arena KRTMI',
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+  },
+  {
     id: 'wLusNVfFFHA',
     title: 'Behind The Scenes & Paddock Tuning Abhinaya UNY',
     subtitle: 'Kalibrasi Mekatronika & Uji Kelincahan Sasis Roda Mecanum',
@@ -43,17 +55,38 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     stats: 'Shorts HD • Paddock & Lab',
     badgeColor: 'bg-red-500/20 text-red-400 border-red-500/40',
   },
+  {
+    id: 'tcsBS-6qgCs',
+    title: 'Shorts Demo Responsivitas & Speed Test Robot Abhinaya',
+    subtitle: 'Manuver Cepat 360° Holonomic Drive & Computer Vision Tracking',
+    description: 'Cuplikan vertikal kecepatan akselerasi motor planetary dan responsivitas orientasi robot Abhinaya UNY dalam mengatasi rintangan arena secara lincah dan presisi.',
+    type: 'shorts',
+    aspect: '9:16',
+    url: 'https://www.youtube.com/shorts/tcsBS-6qgCs',
+    tag: 'Official Shorts (9:16)',
+    stats: 'Shorts HD • Speed Test',
+    badgeColor: 'bg-orange-500/20 text-orange-400 border-orange-500/40',
+  },
 ];
 
 export const YouTubeVideoShowcase: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'action' | 'shorts'>('action');
+  const [selectedVideoId, setSelectedVideoId] = useState<string>('3yr5uNkxA_8');
   const [playingInline, setPlayingInline] = useState<Record<string, boolean>>({});
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalVideo, setModalVideo] = useState<VideoItem | null>(null);
   const [thumbError, setThumbError] = useState<Record<string, boolean>>({});
 
-  const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
-  const currentVideo = SHOWCASE_VIDEOS.find((v) => v.type === activeTab) || SHOWCASE_VIDEOS[0];
+  const availableVideos = SHOWCASE_VIDEOS.filter((v) => v.type === activeTab);
+  const currentVideo = availableVideos.find((v) => v.id === selectedVideoId) || availableVideos[0] || SHOWCASE_VIDEOS[0];
+
+  const handleTabChange = (tab: 'action' | 'shorts') => {
+    setActiveTab(tab);
+    const firstOfTab = SHOWCASE_VIDEOS.find((v) => v.type === tab);
+    if (firstOfTab) {
+      setSelectedVideoId(firstOfTab.id);
+    }
+  };
 
   const handleOpenModal = (video: VideoItem) => {
     setModalVideo(video);
@@ -117,10 +150,10 @@ export const YouTubeVideoShowcase: React.FC = () => {
         </div>
 
         {/* Dual-Mode Tab Switcher */}
-        <div className="flex items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-4">
           <div className="inline-flex p-1.5 rounded-2xl bg-[#140E09] border border-brand-orange/30 shadow-lg gap-2">
             <button
-              onClick={() => setActiveTab('action')}
+              onClick={() => handleTabChange('action')}
               className={`flex items-center space-x-2 px-4 sm:px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 ${
                 activeTab === 'action'
                   ? 'bg-gradient-to-r from-brand-orange to-amber-500 text-black shadow-[0_0_20px_rgba(255,107,0,0.5)] scale-100'
@@ -128,10 +161,10 @@ export const YouTubeVideoShowcase: React.FC = () => {
               }`}
             >
               <MonitorPlay className="w-4 h-4" />
-              <span>Video Pengenalan (16:9)</span>
+              <span>Video Laga & Profil (16:9)</span>
             </button>
             <button
-              onClick={() => setActiveTab('shorts')}
+              onClick={() => handleTabChange('shorts')}
               className={`flex items-center space-x-2 px-4 sm:px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 ${
                 activeTab === 'shorts'
                   ? 'bg-gradient-to-r from-red-600 to-orange-500 text-white shadow-[0_0_20px_rgba(239,68,68,0.5)] scale-100'
@@ -141,6 +174,27 @@ export const YouTubeVideoShowcase: React.FC = () => {
               <Smartphone className="w-4 h-4" />
               <span>Official Shorts (9:16)</span>
             </button>
+          </div>
+
+          {/* Sub Video Selector Pills */}
+          <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl px-2">
+            {availableVideos.map((vid, idx) => {
+              const isSelected = vid.id === currentVideo.id;
+              return (
+                <button
+                  key={vid.id}
+                  onClick={() => setSelectedVideoId(vid.id)}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-300 flex items-center space-x-1.5 border ${
+                    isSelected
+                      ? 'bg-amber-500/20 border-brand-orange text-amber-300 shadow-[0_0_15px_rgba(255,107,0,0.3)]'
+                      : 'bg-[#180F08] border-[#3A2214] text-slate-400 hover:text-slate-200 hover:border-amber-700/50'
+                  }`}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-orange" />
+                  <span className="line-clamp-1">{vid.title.split('•')[0].split('&')[0]}</span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
