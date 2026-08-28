@@ -82,52 +82,77 @@ const MATCH_HISTORY: MatchRound[] = [
 
 const MATCH_VIDEOS = [
   {
-    id: 'J5FXI2AnQxE',
-    title: 'Laga & Pertandingan Resmi Robot Abhinaya UNY (Arena KRTMI Nasional)',
-    subtitle: 'Official Match & Autonomous Arena Run • 1080P 60FPS',
-    description: 'Saksikan rekaman laga resmi dan manuver otonom robot Abhinaya UNY melaju dengan kecepatan tinggi di arena KRTMI, menyelesaikan sequence pemilahan sampah dengan AI YOLOv8 dan roda Mecanum.',
-    badge: 'LAGA PERTANDINGAN RESMI',
-    badgeColor: 'bg-red-600/20 text-red-400 border-red-500/40',
-    url: 'https://youtu.be/J5FXI2AnQxE',
-  },
-  {
     id: 'PmxwdrhpxKg',
-    title: 'Video Teaser & Profil Robot Abhinaya UNY (KRTMI 2024)',
-    subtitle: 'Official Teaser & Research Overview • UKM Restek UNY',
-    description: 'Kupas tuntas arsitektur mekanikal sasis, sirkuit proteksi PCB Altium, dan algoritma kendali robotika otonom Abhinaya UNY.',
-    badge: 'TEASER & PROFIL ROBOT',
-    badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
+    title: 'LIVE LOMBA FULL KRTMI WILAYAH 2024 | ABHINAYA Day 2 KRI REGIONAL 2024',
+    subtitle: 'Official Match Live Arena Competition • 1080P 60FPS',
+    description: 'Saksikan rekaman siaran langsung pertandingan resmi robot Abhinaya UNY bertanding di arena KRTMI Wilayah 2024 Day 2: kecepatan manuver holonomik 4WD Mecanum, deteksi sampah otonom via AI YOLO, dan aksi kejar poin di arena laga.',
+    badge: 'LIVE LOMBA PERTANDINGAN',
+    badgeColor: 'bg-red-600/20 text-red-400 border-red-500/40',
     url: 'https://www.youtube.com/watch?v=PmxwdrhpxKg',
   },
   {
     id: '3yr5uNkxA_8',
-    title: 'Video Pengenalan & Riset Robotika Abhinaya UNY',
-    subtitle: 'Technology Introduction & Lab Demonstration • KRTMI',
-    description: 'Mengenal lebih dekat perjalanan riset mekatronika dan pengujian navigasi otonom robot Abhinaya UNY di Laboratorium Robotika UKM Restek UNY.',
-    badge: 'PENGENALAN TEKNOLOGI',
-    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+    title: 'Abhinaya Introduction 2024 | Kontes Robot Indonesia',
+    subtitle: 'Official Team & Robot Introduction • UKM Restek UNY',
+    description: 'Video resmi pengenalan Tim Robotika Abhinaya UNY dan robot otonom untuk Kontes Robot Indonesia (KRTMI): perancangan mekatronika, riset 4 divisi (Mekanik, Elektrik, Programming AI, Manajerial), dan uji coba navigasi di laboratorium.',
+    badge: 'PENGENALAN TIM 2024',
+    badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
     url: 'https://youtu.be/3yr5uNkxA_8',
+  },
+  {
+    id: 'J5FXI2AnQxE',
+    title: 'Abhinaya Introduction & Perkembangan KRTMI 2019 - 2023',
+    subtitle: 'Technology Retrospective & Historical Overview • KRTMI',
+    description: 'Dokumentasi perjalanan inovasi dan evolusi robot tematik Abhinaya UNY dari masa perintisan 2019 (pertanian), 2020 (disinfeksi COVID-19), 2021 (layanan medis), 2022 (limbah B3), hingga 2023 (digital twin).',
+    badge: 'PERKEMBANGAN 2019-2023',
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+    url: 'https://youtu.be/J5FXI2AnQxE',
+  },
+  {
+    id: 'LyP9M_uTvMk',
+    title: 'ABHINAYA - UNY TEMATIK TEAM - OPREC',
+    subtitle: 'Open Recruitment & Kaderisasi Anggota Baru Robotika UNY',
+    description: 'Video profil ajakan bergabung bersama Tim Robotika Abhinaya UNY untuk mahasiswa baru dan calon periset mekatronika UKM Rekayasa Teknologi UNY.',
+    badge: 'OPEN RECRUITMENT',
+    badgeColor: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
+    url: 'https://www.youtube.com/watch?v=LyP9M_uTvMk',
   },
 ];
 
 const SHORTS_VIDEOS = [
   {
+    id: 'wLusNVfFFHA',
+    title: 'Abhinaya Recap 2023 | KRTMI (Kontes Robot Tematik Indonesia)',
+    subtitle: 'Shorts Kilas Balik Kompetisi KRTMI di USM Semarang',
+    badgeName: 'Recap 2023',
+    url: 'https://www.youtube.com/shorts/wLusNVfFFHA',
+  },
+  {
     id: 'tcsBS-6qgCs',
-    title: 'Shorts Demo Speed Test & Manuver Laga',
-    subtitle: 'Aksi Kecepatan 360° Holonomic Drive di Arena',
+    title: '#MulaiBikinRobot #Tinkercad #Wokwi',
+    subtitle: 'Simulasi Sirkuit & Pemrograman Mikrokontroler Robotika',
+    badgeName: 'Simulasi & Riset',
     url: 'https://www.youtube.com/shorts/tcsBS-6qgCs',
   },
   {
-    id: 'wLusNVfFFHA',
-    title: 'Shorts Paddock & Tuning Sasis Mecanum',
-    subtitle: 'Behind The Scenes Kalibrasi Mekatronika di Paddock',
-    url: 'https://www.youtube.com/shorts/wLusNVfFFHA',
+    id: 'vjxbL5MB4-4',
+    title: 'Fabrikasi 3D Print Komponen Robot Abhinaya KRI 2025',
+    subtitle: 'Proses Manufaktur & Cetak 3D Sparepart Mekanik',
+    badgeName: '3D Print Mekanik',
+    url: 'https://www.youtube.com/shorts/vjxbL5MB4-4',
+  },
+  {
+    id: 'epyl7w6xZ6Y',
+    title: 'Behind The Code: Programming Robotika di VS Code',
+    subtitle: 'Coding Logika Manuver & Sensor Arena Pertandingan',
+    badgeName: 'Programming Lab',
+    url: 'https://www.youtube.com/shorts/epyl7w6xZ6Y',
   },
 ];
 
 export default function PertandinganPage() {
-  const [selectedMatchVideoId, setSelectedMatchVideoId] = useState('J5FXI2AnQxE');
-  const [selectedShortsId, setSelectedShortsId] = useState('tcsBS-6qgCs');
+  const [selectedMatchVideoId, setSelectedMatchVideoId] = useState('PmxwdrhpxKg');
+  const [selectedShortsId, setSelectedShortsId] = useState('wLusNVfFFHA');
   const [isPlayingMain, setIsPlayingMain] = useState(false);
   const [isPlayingShorts, setIsPlayingShorts] = useState(false);
 
@@ -424,7 +449,7 @@ export default function PertandinganPage() {
             </div>
 
             {/* Shorts Sub-Selector Pills */}
-            <div className="flex gap-2">
+            <div className="grid grid-cols-2 gap-2">
               {SHORTS_VIDEOS.map((s) => {
                 const isSelected = s.id === selectedShortsId;
                 return (
@@ -434,13 +459,13 @@ export default function PertandinganPage() {
                       setSelectedShortsId(s.id);
                       setIsPlayingShorts(false);
                     }}
-                    className={`flex-1 py-1.5 px-2 rounded-xl text-[11px] font-bold transition-all cursor-pointer ${
+                    className={`py-1.5 px-2 rounded-xl text-[11px] font-bold transition-all cursor-pointer text-center truncate ${
                       isSelected
-                        ? 'bg-red-600 text-white shadow-md shadow-red-600/30'
-                        : 'bg-[#1C130B] text-slate-400 hover:text-white'
+                        ? 'bg-red-600 text-white shadow-md shadow-red-600/30 font-black'
+                        : 'bg-[#1C130B] text-slate-400 hover:text-white hover:bg-[#281B0F]'
                     }`}
                   >
-                    {s.id === 'tcsBS-6qgCs' ? '⚡ Speed Test' : '🔧 Paddock'}
+                    {s.badgeName}
                   </button>
                 );
               })}
