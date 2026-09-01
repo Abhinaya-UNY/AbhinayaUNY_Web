@@ -404,7 +404,7 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     ],
     badge: 'Ketua Tim',
     leadershipEra: 'Ketua Tim 2024',
-    achievements: ['Finalis Nasional KRI 2024 Universitas Muhammadiyah Surakarta (UMS)', 'Top 8 Nasional KRTMI 2024'],
+    achievements: ['Juara 1 Regional I KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)', 'Juara 2 Tingkat Nasional KRTMI 2024 (Puspresnas & UMS Surakarta)'],
     isLeader: true,
     socials: {
       linkedin: 'https://linkedin.com',
@@ -915,14 +915,14 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       generationYear: 2025,
       yearsActive: [2023, 2024, 2025],
       specialization: [
-        'Altium / EasyEDA Custom Shield PCB',
+        'Autodesk EAGLE & KiCad Custom Shield PCB',
         'Optical Rotary Encoder Signal Conditioning',
         'Proximity & Limit Switch Integration',
         'EMI / Noise Grounding Plane Design',
         'PCB',
         'Power Distribution Board',
       ],
-      skills: ['Altium', 'EasyEDA', 'PCB', 'Sensor Wiring', 'Signal Conditioning', 'Power Distribution Board'],
+      skills: ['Autodesk EAGLE', 'KiCad', 'EasyEDA', 'PCB', 'Sensor Wiring', 'Signal Conditioning', 'Power Distribution Board'],
       bio: 'Merancang skematik dan layout custom PCB shield STM32, sirkuit pengkondisi sinyal rotary encoder optik, serta instalasi sensor proximity & limit switch.',
       quote: 'Follow your dream',
       image: '/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png',
@@ -1468,7 +1468,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
           generationYear: 2020,
           yearsActive: [2020, 2021, 2022, 2023],
           specialization: ['Custom Shield PCB', 'Power Distribution Board', 'Hardware QA'],
-          skills: ['Altium', 'Power Distribution Board', 'PCB'],
+          skills: ['Autodesk EAGLE', 'KiCad', 'Power Distribution Board', 'PCB'],
           bio: 'Merancang PCB custom shield mikrokontroler dan sistem proteksi kelistrikan robot.',
           image: '/images/members/2020_elektronik_yusron_nur_latief_01.jpg',
           images: ['/images/members/2020_elektronik_yusron_nur_latief_01.jpg'],
@@ -1838,9 +1838,10 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
     },
     members: [],
     achievements: [
-      'Finalis Nasional KRI 2024 di Universitas Muhammadiyah Surakarta (UMS)',
-      'Top 8 Nasional KRTMI 2024',
-      'Desain Custom Shield PCB Altium & Vision Edge Computing Terbaik',
+      'Juara 1 Regional I Wilayah KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)',
+      'Juara 2 Tingkat Nasional KRTMI 2024 (Puspresnas Kemendikbudristek & UMS Surakarta)',
+      'Finalis Technocorner Transporter Robot UGM 2024',
+      'Desain Custom Shield PCB & Vision Edge Computing Terbaik',
     ],
     highlights: [
       'Implementasi YOLOv8 Object Detection dengan inference time < 15ms pada Mini PC',
@@ -1979,7 +1980,7 @@ export const DIVISION_INFO: Record<TeamMember['division'], { title: string; subt
   },
   'Desain': {
     title: 'Divisi Desain & Manufaktur',
-    subtitle: 'Pemodelan 3D CAD SolidWorks, Rendering & Simulasi Kinematika Komponen',
+    subtitle: 'Pemodelan 3D CAD, Rendering & Simulasi Kinematika Komponen',
     icon: 'Layers',
   },
   'Official': {
