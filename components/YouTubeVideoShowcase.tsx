@@ -176,7 +176,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
   };
 
   return (
-    <section id="video-aksi" className="py-12 sm:py-16 md:py-20 bg-[#070503] relative border-b border-[#1A120B]">
+    <section id="video-aksi" className="py-8 sm:py-10 md:py-12 bg-[#070503] relative border-b border-[#1A120B]">
       
       {/* Background glow ambiance */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[800px] h-[300px] bg-brand-orange/5 blur-[120px] pointer-events-none rounded-full" />
@@ -184,7 +184,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
         
         {/* Section Header */}
-        <div className="text-center space-y-3 max-w-3xl mx-auto">
+        <div className="text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
             <FaYoutube className="w-4 h-4 text-red-500 fill-red-500" />
             <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>

@@ -4,11 +4,11 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 
 export const SocialMediaHub: React.FC = () => {
   return (
-    <section className="py-10 sm:py-16 md:py-20 bg-[#0E0905] border-t border-[#2B1B10]">
+    <section className="py-8 sm:py-10 md:py-12 bg-[#0E0905] border-t border-[#2B1B10]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
         
         {/* Header */}
-        <div className="text-center space-y-3 max-w-3xl mx-auto">
+        <div className="text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-pink-500/15 text-pink-400 text-xs font-black uppercase tracking-wider border border-pink-500/30">
             <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
             <span>TERHUBUNG DENGAN TIM</span>

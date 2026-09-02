@@ -46,11 +46,11 @@ export const Achievements: React.FC = () => {
   ];
 
   return (
-    <section id="prestasi" className="py-10 sm:py-16 md:py-20 space-y-8 sm:space-y-12">
+    <section id="prestasi" className="py-8 sm:py-10 md:py-12 space-y-8 sm:space-y-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12">
         
         {/* Header */}
-        <div className="text-center space-y-3 max-w-3xl mx-auto">
+        <div className="text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
             <Trophy className="w-3.5 h-3.5" />
             <span>PAPAN PRESTASI RESMI</span>

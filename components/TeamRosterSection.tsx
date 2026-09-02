@@ -73,7 +73,6 @@ interface TeamRosterSectionProps {
 
 /**
  * Reusable Multi-Photo Crossfade Showcase Component
- * GPU-accelerated transition engine with slide indicators, manual controls, and monogram fallback
  */
 export const MemberPhotoFadeShowcase: React.FC<{
   member: TeamMember | LeaderHistoryItem | ManagerHistoryItem;
@@ -247,7 +246,6 @@ export const MemberPhotoFadeShowcase: React.FC<{
 
 /**
  * Reusable Horizontal Scrollable Track Container Component
- * Features: Touch swipe, smooth scrollBy buttons, snap alignment, and swipe cues for mobile/desktop
  */
 export const HorizontalScrollMemberTrack: React.FC<{
   title?: string;
@@ -299,7 +297,7 @@ export const HorizontalScrollMemberTrack: React.FC<{
   };
 
   return (
-    <div className="space-y-4 relative">
+    <div className="space-y-3 relative">
       {/* Custom or Default Section Header Banner */}
       {customHeader ? (
         customHeader
@@ -389,7 +387,7 @@ export const HorizontalScrollMemberTrack: React.FC<{
         <div
           ref={scrollRef}
           onScroll={checkScroll}
-          className="flex overflow-x-auto gap-4 sm:gap-6 pb-4 pt-1 px-1 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-brand-orange/40 scroll-smooth overscroll-x-contain select-none"
+          className="flex overflow-x-auto gap-4 sm:gap-6 pb-3 pt-1 px-1 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-brand-orange/40 scroll-smooth overscroll-x-contain select-none"
           style={{ WebkitOverflowScrolling: 'touch' }}
         >
           {children}
@@ -406,7 +404,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   className = '',
 }) => {
   // Navigation & View Mode State
-  const [activeTab, setActiveTab] = useState<'all' | 'leaders' | 'managers' | 'active' | 'alumni'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'active' | 'leaders' | 'managers' | 'alumni'>('all');
   const [selectedDivision, setSelectedDivision] = useState<string>(initialDivision);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedMember, setSelectedMember] = useState<TeamMember | LeaderHistoryItem | ManagerHistoryItem | null>(null);
@@ -480,7 +478,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
     }
   };
 
-  // Render individual member card (optimized with fixed width for horizontal carousel + snap)
+  // Render individual member card
   const renderMemberCard = (
     member: TeamMember | LeaderHistoryItem | ManagerHistoryItem,
     customTheme?: { border?: string; accent?: string; badgeText?: string }
@@ -644,7 +642,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   const currentGenArchive = getGenerationArchive(selectedAlumniYear) || ALUMNI_GENERATIONS[0];
 
   return (
-    <section id="team-roster" className={`py-12 sm:py-16 md:py-20 relative ${className}`}>
+    <section id="team-roster" className={`py-8 sm:py-10 md:py-12 relative border-b border-[#1A120B] ${className}`}>
       {/* Background Cyber Accents */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-25">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-brand-orange/10 rounded-full blur-3xl" />
@@ -652,28 +650,28 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         <div className="absolute top-2/3 left-10 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-12 sm:space-y-16">
-        {/* Section Header */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-6 sm:space-y-8">
+        {/* Section Header - Wider on Laptop without weird line breaks */}
         {showHeader && (
-          <div className="text-center space-y-4 max-w-4xl mx-auto">
+          <div className="text-center space-y-2.5 max-w-5xl mx-auto">
             <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
               <ShieldCheck className="w-4 h-4" />
               <span>OFFICIAL TEAM ROSTER &amp; HISTORICAL ARCHIVE</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
               Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY 🤖
             </h2>
-            <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
-              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Menampilkan baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), skuad teknis aktif, serta penjelajah alumni lintas generasi KRI.
+            <p className="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed max-w-4xl mx-auto">
+              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Menampilkan skuad teknis aktif divisi, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta penjelajah alumni lintas generasi KRI.
             </p>
           </div>
         )}
 
         {/* Navigation View Mode Hub */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 p-2 sm:p-2.5 rounded-2xl bg-[#120D08]/90 border border-brand-orange/25 backdrop-blur-md shadow-xl max-w-4xl mx-auto">
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 p-2 rounded-2xl bg-[#120D08]/90 border border-brand-orange/25 backdrop-blur-md shadow-xl max-w-5xl mx-auto">
           <button
             onClick={() => setActiveTab('all')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
               activeTab === 'all'
                 ? 'bg-gradient-to-r from-brand-orange to-brand-darkOrange text-white shadow-lg shadow-brand-orange/30'
                 : 'bg-[#1C130B] text-slate-300 hover:text-white hover:bg-[#281B0F]'
@@ -684,8 +682,20 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           </button>
 
           <button
+            onClick={() => setActiveTab('active')}
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+              activeTab === 'active'
+                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-500/30'
+                : 'bg-[#1C130B] text-cyan-200/80 hover:text-cyan-100 hover:bg-[#281B0F]'
+            }`}
+          >
+            <Zap className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Skuad Teknis Aktif</span>
+          </button>
+
+          <button
             onClick={() => setActiveTab('leaders')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
               activeTab === 'leaders'
                 ? 'bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-lg shadow-amber-500/30'
                 : 'bg-[#1C130B] text-amber-200/80 hover:text-amber-100 hover:bg-[#281B0F]'
@@ -698,7 +708,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
           <button
             onClick={() => setActiveTab('managers')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
               activeTab === 'managers'
                 ? 'bg-gradient-to-r from-emerald-600 to-teal-500 text-white shadow-lg shadow-emerald-500/30'
                 : 'bg-[#1C130B] text-emerald-200/80 hover:text-emerald-100 hover:bg-[#281B0F]'
@@ -710,20 +720,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           </button>
 
           <button
-            onClick={() => setActiveTab('active')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
-              activeTab === 'active'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-500/30'
-                : 'bg-[#1C130B] text-cyan-200/80 hover:text-cyan-100 hover:bg-[#281B0F]'
-            }`}
-          >
-            <Zap className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Skuad Teknis Aktif</span>
-          </button>
-
-          <button
             onClick={() => setActiveTab('alumni')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
               activeTab === 'alumni'
                 ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg shadow-purple-500/30'
                 : 'bg-[#1C130B] text-purple-200/80 hover:text-purple-100 hover:bg-[#281B0F]'
@@ -735,108 +733,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         </div>
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 2: ALL-ERA LEADERS HALL OF FAME (2020 – 2025) (R2)
-            ══════════════════════════════════════════════════════════════════════ */}
-        {(activeTab === 'all' || activeTab === 'leaders') && (
-          <div className="space-y-6 pt-2">
-            <HorizontalScrollMemberTrack
-              accentColor="#EAB308"
-              customHeader={
-                <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-[#201507] via-[#1A1005] to-[#120B03] border-2 border-amber-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                  <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-                  <div className="flex items-center space-x-4 relative z-10">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center border border-amber-500/50 flex-shrink-0 shadow-lg shadow-amber-500/20">
-                      <Crown className="w-6 h-6 sm:w-7 sm:h-7" />
-                    </div>
-                    <div>
-                      <div className="flex items-center space-x-2">
-                        <span className="text-[11px] font-black uppercase tracking-wider text-amber-400 font-mono">
-                          CHRONOLOGICAL LEADERSHIP TIMELINE
-                        </span>
-                        <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-bold border border-amber-500/30">
-                          2020 – 2025
-                        </span>
-                      </div>
-                      <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white">
-                        Leaders Hall of Fame 👑
-                      </h3>
-                      <p className="text-xs sm:text-sm text-amber-200/70 mt-0.5">
-                        Deretan seluruh Ketua Tim Robotika Abhinaya UNY lintas generasi dari masa perintisan otonom hingga era AI Computer Vision.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-2 text-xs font-bold text-amber-400 bg-[#2A1B0A] px-3.5 py-1.5 rounded-xl border border-amber-500/30 self-stretch md:self-auto justify-center">
-                    <Award className="w-4 h-4 text-amber-400" />
-                    <span>6 Era Kepemimpinan Resmi</span>
-                  </div>
-                </div>
-              }
-            >
-              {LEADERS_HALL_OF_FAME.map((leader) =>
-                renderMemberCard(leader, {
-                  border: 'border-amber-500/40 hover:border-amber-400 shadow-amber-500/10',
-                  accent: '#EAB308',
-                })
-              )}
-            </HorizontalScrollMemberTrack>
-          </div>
-        )}
-
-        {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 3: ALL-ERA MANAGERS SHOWCASE (2020 – 2025) (R2)
-            ══════════════════════════════════════════════════════════════════════ */}
-        {(activeTab === 'all' || activeTab === 'managers') && (
-          <div className="space-y-6 pt-4">
-            <HorizontalScrollMemberTrack
-              accentColor="#10B981"
-              customHeader={
-                <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-[#071A12] via-[#05140E] to-[#030E0A] border-2 border-emerald-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                  <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
-                  <div className="flex items-center space-x-4 relative z-10">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/50 flex-shrink-0 shadow-lg shadow-emerald-500/20">
-                      <Briefcase className="w-6 h-6 sm:w-7 sm:h-7" />
-                    </div>
-                    <div>
-                      <div className="flex items-center space-x-2">
-                        <span className="text-[11px] font-black uppercase tracking-wider text-emerald-400 font-mono">
-                          OPERATIONAL &amp; MEDIA EXCELLENCE
-                        </span>
-                        <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-bold border border-emerald-500/30">
-                          2020 – 2025
-                        </span>
-                      </div>
-                      <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white">
-                        Managers Showcase 💼
-                      </h3>
-                      <p className="text-xs sm:text-sm text-emerald-200/70 mt-0.5">
-                        Pilar manajerial, penganggaran riset, administrasi birokrasi Puspresnas, logistik akomodasi, dan branding resmi @abhinaya.uny.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-2 text-xs font-bold text-emerald-400 bg-[#0C241A] px-3.5 py-1.5 rounded-xl border border-emerald-500/30 self-stretch md:self-auto justify-center">
-                    <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                    <span>Tata Kelola Kontingen Mandiri</span>
-                  </div>
-                </div>
-              }
-            >
-              {MANAGERS_SHOWCASE.map((manager) =>
-                renderMemberCard(manager, {
-                  border: 'border-emerald-500/40 hover:border-emerald-400 shadow-emerald-500/10',
-                  accent: '#10B981',
-                })
-              )}
-            </HorizontalScrollMemberTrack>
-          </div>
-        )}
-
-        {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 4: CURRENT ACTIVE TECHNICAL SQUAD & DIVISION FILTERS (R3)
+            FEATURE 1 (FIRST): CURRENT ACTIVE TECHNICAL SQUAD & DIVISIONS (R3)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'active') && (
-          <div className="space-y-8 pt-4">
+          <div className="space-y-6 pt-2">
             {/* Division Filter Tabs & Search Bar */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-[#120D08]/90 p-3 sm:p-4 rounded-3xl border border-brand-orange/25 backdrop-blur-md shadow-xl">
               {/* Filter Tabs */}
@@ -900,7 +800,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               // Search Results View
               <div>
                 {ALL_ROSTER_MEMBERS.filter(matchesSearch).length === 0 ? (
-                  <div className="p-12 text-center rounded-3xl bg-[#120D08] border border-[#2B1B10] space-y-3">
+                  <div className="p-10 text-center rounded-3xl bg-[#120D08] border border-[#2B1B10] space-y-3">
                     <Users className="w-10 h-10 text-slate-500 mx-auto" />
                     <h3 className="text-lg font-bold text-white">Tidak Ada Anggota Ditemukan</h3>
                     <p className="text-xs text-slate-400">
@@ -914,7 +814,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     </button>
                   </div>
                 ) : (
-                  <div className="space-y-6">
+                  <div className="space-y-4">
                     <div className="flex items-center space-x-2 text-xs font-bold text-amber-300">
                       <span>Hasil Pencarian:</span>
                       <span className="px-2 py-0.5 rounded-md bg-brand-orange/20 text-brand-orange font-mono">
@@ -934,7 +834,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               </div>
             ) : selectedDivision === 'All' ? (
               // Neat Horizontal Scrollable Row-by-Row Division Sections
-              <div className="space-y-10 sm:space-y-14">
+              <div className="space-y-6 sm:space-y-8">
                 {DIVISION_ORDER.map((divKey) => {
                   const membersInDiv = ALL_ROSTER_MEMBERS.filter((m) => m.division === divKey);
                   if (membersInDiv.length === 0) return null;
@@ -967,7 +867,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               </div>
             ) : (
               // Single Division Filtered Horizontal Carousel View
-              <div className="space-y-6">
+              <div className="space-y-4">
                 {DIVISION_INFO[selectedDivision as TeamMember['division']] && (
                   <HorizontalScrollMemberTrack
                     title={DIVISION_INFO[selectedDivision as TeamMember['division']].title}
@@ -995,44 +895,142 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 5: INTERACTIVE ALUMNI & GENERATION EXPLORER (2020–2025) (R4)
+            FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS HALL OF FAME (2020 – 2025)
+            ══════════════════════════════════════════════════════════════════════ */}
+        {(activeTab === 'all' || activeTab === 'leaders') && (
+          <div className="space-y-4 pt-4 border-t border-[#26180E]">
+            <HorizontalScrollMemberTrack
+              accentColor="#EAB308"
+              customHeader={
+                <div className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-[#201507] via-[#1A1005] to-[#120B03] border-2 border-amber-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                  <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+                  <div className="flex items-center space-x-3.5 relative z-10">
+                    <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center border border-amber-500/50 flex-shrink-0 shadow-lg shadow-amber-500/20">
+                      <Crown className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <div className="flex items-center space-x-2">
+                        <span className="text-[10px] font-black uppercase tracking-wider text-amber-400 font-mono">
+                          CHRONOLOGICAL LEADERSHIP TIMELINE
+                        </span>
+                        <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-bold border border-amber-500/30">
+                          2020 – 2025
+                        </span>
+                      </div>
+                      <h3 className="text-lg sm:text-2xl font-black text-white">
+                        Leaders Hall of Fame 👑
+                      </h3>
+                      <p className="text-xs text-amber-200/70 mt-0.5">
+                        Deretan seluruh Ketua Tim Robotika Abhinaya UNY lintas generasi dari masa perintisan otonom hingga era AI Computer Vision.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-2 text-xs font-bold text-amber-400 bg-[#2A1B0A] px-3.5 py-1.5 rounded-xl border border-amber-500/30 self-stretch md:self-auto justify-center">
+                    <Award className="w-4 h-4 text-amber-400" />
+                    <span>6 Era Kepemimpinan Resmi</span>
+                  </div>
+                </div>
+              }
+            >
+              {LEADERS_HALL_OF_FAME.map((leader) =>
+                renderMemberCard(leader, {
+                  border: 'border-amber-500/40 hover:border-amber-400 shadow-amber-500/10',
+                  accent: '#EAB308',
+                })
+              )}
+            </HorizontalScrollMemberTrack>
+          </div>
+        )}
+
+        {/* ══════════════════════════════════════════════════════════════════════
+            FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS SHOWCASE (2020 – 2025)
+            ══════════════════════════════════════════════════════════════════════ */}
+        {(activeTab === 'all' || activeTab === 'managers') && (
+          <div className="space-y-4 pt-4 border-t border-[#26180E]">
+            <HorizontalScrollMemberTrack
+              accentColor="#10B981"
+              customHeader={
+                <div className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-[#071A12] via-[#05140E] to-[#030E0A] border-2 border-emerald-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                  <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+                  <div className="flex items-center space-x-3.5 relative z-10">
+                    <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/50 flex-shrink-0 shadow-lg shadow-emerald-500/20">
+                      <Briefcase className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <div className="flex items-center space-x-2">
+                        <span className="text-[10px] font-black uppercase tracking-wider text-emerald-400 font-mono">
+                          OPERATIONAL &amp; MEDIA EXCELLENCE
+                        </span>
+                        <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-bold border border-emerald-500/30">
+                          2020 – 2025
+                        </span>
+                      </div>
+                      <h3 className="text-lg sm:text-2xl font-black text-white">
+                        Managers Showcase 💼
+                      </h3>
+                      <p className="text-xs text-emerald-200/70 mt-0.5">
+                        Pilar manajerial, penganggaran riset, administrasi birokrasi Puspresnas, logistik akomodasi, dan branding resmi @abhinaya.uny.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-2 text-xs font-bold text-emerald-400 bg-[#0C241A] px-3.5 py-1.5 rounded-xl border border-emerald-500/30 self-stretch md:self-auto justify-center">
+                    <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                    <span>Tata Kelola Kontingen Mandiri</span>
+                  </div>
+                </div>
+              }
+            >
+              {MANAGERS_SHOWCASE.map((manager) =>
+                renderMemberCard(manager, {
+                  border: 'border-emerald-500/40 hover:border-emerald-400 shadow-emerald-500/10',
+                  accent: '#10B981',
+                })
+              )}
+            </HorizontalScrollMemberTrack>
+          </div>
+        )}
+
+        {/* ══════════════════════════════════════════════════════════════════════
+            FEATURE 4 (BOTTOM): INTERACTIVE ALUMNI & GENERATION EXPLORER (2020–2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'alumni') && (
-          <div className="space-y-8 pt-6 border-t border-[#26180E]">
+          <div className="space-y-6 pt-4 border-t border-[#26180E]">
             {/* Alumni Explorer Section Title */}
-            <div className="p-6 rounded-3xl bg-gradient-to-r from-[#170B24] via-[#10071A] to-[#0A0410] border-2 border-purple-500/40 shadow-xl relative overflow-hidden">
+            <div className="p-5 rounded-3xl bg-gradient-to-r from-[#170B24] via-[#10071A] to-[#0A0410] border-2 border-purple-500/40 shadow-xl relative overflow-hidden">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center border border-purple-500/50 flex-shrink-0 shadow-lg shadow-purple-500/20">
-                    <History className="w-6 h-6 sm:w-7 sm:h-7" />
+                <div className="flex items-center space-x-3.5">
+                  <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center border border-purple-500/50 flex-shrink-0 shadow-lg shadow-purple-500/20">
+                    <History className="w-6 h-6" />
                   </div>
                   <div>
                     <div className="flex items-center space-x-2">
-                      <span className="text-[11px] font-black uppercase tracking-wider text-purple-400 font-mono">
+                      <span className="text-[10px] font-black uppercase tracking-wider text-purple-400 font-mono">
                         ALUMNI &amp; GENERATIONS ARCHIVE
                       </span>
                       <span className="px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 text-[10px] font-bold border border-purple-500/30">
                         2020 – 2025
                       </span>
                     </div>
-                    <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white">
+                    <h3 className="text-lg sm:text-2xl font-black text-white">
                       Penjelajah Kontingen Alumni Robotika 🎓
                     </h3>
-                    <p className="text-xs sm:text-sm text-purple-200/70 mt-0.5">
+                    <p className="text-xs text-purple-200/70 mt-0.5">
                       Eksplorasi kontingen resmi, struktur kepengurusan, divisi teknis, dan torehan prestasi kompetisi KRTMI Puspresnas per tahun generasi.
                     </p>
                   </div>
                 </div>
 
                 {/* Year Tabs Selector */}
-                <div className="flex flex-wrap items-center gap-2 bg-black/50 p-2 rounded-2xl border border-purple-500/30 self-stretch md:self-auto justify-center">
+                <div className="flex flex-wrap items-center gap-1.5 bg-black/50 p-1.5 rounded-2xl border border-purple-500/30 self-stretch md:self-auto justify-center">
                   {[2020, 2021, 2022, 2023, 2024, 2025].map((year) => {
                     const isSelected = selectedAlumniYear === year;
                     return (
                       <button
                         key={year}
                         onClick={() => setSelectedAlumniYear(year)}
-                        className={`px-3.5 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                        className={`px-3 py-1 rounded-xl text-xs font-black transition-all cursor-pointer ${
                           isSelected
                             ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-500/40 scale-105'
                             : 'bg-[#1C1226] text-purple-200 hover:text-white hover:bg-purple-900/40'
@@ -1048,31 +1046,31 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Selected Generation Detail Banner & Horizontal Scroll Track */}
             {currentGenArchive && (
-              <div className="p-6 rounded-3xl bg-[#140E1B] border border-purple-500/30 space-y-6">
-                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-purple-900/40">
-                  <div className="space-y-1">
+              <div className="p-5 rounded-3xl bg-[#140E1B] border border-purple-500/30 space-y-4">
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-3 border-b border-purple-900/40">
+                  <div className="space-y-0.5">
                     <div className="flex items-center space-x-2">
-                      <span className="px-2.5 py-1 rounded-lg bg-purple-950 text-purple-300 text-xs font-mono font-black border border-purple-500/40">
+                      <span className="px-2 py-0.5 rounded-md bg-purple-950 text-purple-300 text-[11px] font-mono font-black border border-purple-500/40">
                         GENERASI {currentGenArchive.year}
                       </span>
                       <span className="text-xs text-amber-300 font-bold">
                         {currentGenArchive.tournament}
                       </span>
                     </div>
-                    <h4 className="text-lg sm:text-2xl font-black text-white">
+                    <h4 className="text-base sm:text-xl font-black text-white">
                       {currentGenArchive.contingentName}
                     </h4>
-                    <p className="text-xs sm:text-sm text-slate-300">
+                    <p className="text-xs text-slate-300">
                       <strong>Tema Robot:</strong> {currentGenArchive.theme}
                     </p>
                   </div>
 
                   {/* Achievements Badge */}
-                  <div className="flex flex-col gap-1.5 self-stretch md:self-auto">
+                  <div className="flex flex-col gap-1 self-stretch md:self-auto">
                     {currentGenArchive.achievements.map((ach, idx) => (
                       <div
                         key={idx}
-                        className="px-3.5 py-1.5 rounded-xl bg-amber-950/40 text-amber-300 text-xs font-bold border border-amber-500/30 flex items-center space-x-2"
+                        className="px-3 py-1 rounded-xl bg-amber-950/40 text-amber-300 text-xs font-bold border border-amber-500/30 flex items-center space-x-2"
                       >
                         <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                         <span>{ach}</span>
@@ -1098,10 +1096,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
         {/* Optional Link to Division Detail */}
         {showAllLink && (
-          <div className="text-center pt-4">
+          <div className="text-center pt-2">
             <a
               href={`${basePath}/divisi`}
-              className="inline-flex items-center space-x-2 px-6 py-3 rounded-2xl bg-[#170E08] border border-brand-orange/40 hover:border-brand-orange text-white text-xs sm:text-sm font-black hover:bg-brand-orange/20 transition shadow-lg"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-[#170E08] border border-brand-orange/40 hover:border-brand-orange text-white text-xs sm:text-sm font-black hover:bg-brand-orange/20 transition shadow-lg"
             >
               <Layers className="w-4 h-4 text-brand-orange" />
               <span>Pelajari Seluruh Divisi &amp; Kultur Riset Abhinaya</span>
@@ -1112,7 +1110,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
       </div>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          FEATURE 6: INTERACTIVE DETAIL LIGHTBOX MODAL (R5)
+          INTERACTIVE DETAIL LIGHTBOX MODAL (R5)
           ══════════════════════════════════════════════════════════════════════ */}
       {selectedMember && (
         <div
@@ -1122,23 +1120,23 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           onClick={() => setSelectedMember(null)}
         >
           <div
-            className="relative w-full max-w-3xl bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl p-5 sm:p-8 shadow-2xl shadow-brand-orange/20 space-y-6 max-h-[92vh] overflow-y-auto"
+            className="relative w-full max-w-3xl bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-brand-orange/20 space-y-5 max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 sm:top-6 sm:right-6 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-30 cursor-pointer"
+              className="absolute top-4 right-4 sm:top-5 sm:right-5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-30 cursor-pointer"
               aria-label="Tutup modal"
             >
               <X className="w-5 h-5" />
             </button>
 
-            {/* Modal Top Showcase: Large Photo Carousel & Identity */}
-            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 pt-2">
+            {/* Modal Top Showcase */}
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 pt-1">
               {/* Large Photo Frame in Modal */}
               <div
-                className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#1B1109] group"
+                className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#1B1109] group"
                 style={{
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
@@ -1156,10 +1154,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               </div>
 
               {/* Name, Division & Quote */}
-              <div className="flex-1 space-y-3 text-center sm:text-left">
+              <div className="flex-1 space-y-2.5 text-center sm:text-left">
                 <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
                   <span
-                    className={`inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl text-xs font-black uppercase border ${
+                    className={`inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-xl text-[11px] font-black uppercase border ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).bg
                     } ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).text
@@ -1171,12 +1169,12 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     <span>{selectedMember.division}</span>
                   </span>
 
-                  <span className="px-2.5 py-1 rounded-xl bg-[#25180E] text-brand-orange text-xs font-mono font-black border border-brand-orange/30">
+                  <span className="px-2 py-0.5 rounded-xl bg-[#25180E] text-brand-orange text-xs font-mono font-black border border-brand-orange/30">
                     {selectedMember.badge}
                   </span>
 
                   {selectedMember.generationYear && (
-                    <span className="px-2.5 py-1 rounded-xl bg-purple-950 text-purple-300 text-xs font-mono font-bold border border-purple-500/40">
+                    <span className="px-2 py-0.5 rounded-xl bg-purple-950 text-purple-300 text-xs font-mono font-bold border border-purple-500/40">
                       Era {selectedMember.generationYear}
                     </span>
                   )}
@@ -1193,8 +1191,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                 {/* Quote Banner */}
                 {selectedMember.quote && (
-                  <div className="p-3 sm:p-3.5 rounded-2xl bg-[#1F130B] border border-brand-orange/30 text-xs sm:text-sm text-amber-200 italic flex items-center space-x-3 shadow-inner text-left">
-                    <Quote className="w-5 h-5 text-brand-orange flex-shrink-0" />
+                  <div className="p-3 rounded-2xl bg-[#1F130B] border border-brand-orange/30 text-xs text-amber-200 italic flex items-center space-x-2.5 shadow-inner text-left">
+                    <Quote className="w-4 h-4 text-brand-orange flex-shrink-0" />
                     <span className="font-medium">"{selectedMember.quote}"</span>
                   </div>
                 )}
@@ -1202,7 +1200,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </div>
 
             {/* Academic & Role Metadata Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 rounded-2xl bg-[#1B120A] border border-[#2B1B10] text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 p-3.5 rounded-2xl bg-[#1B120A] border border-[#2B1B10] text-xs">
               <div>
                 <span className="text-slate-400 block text-[10px] uppercase font-bold">
                   Nomor Induk (NIM / NIDN)
@@ -1236,7 +1234,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* SubRole Details if present */}
             {selectedMember.subRole && (
-              <div className="p-3.5 rounded-xl bg-[#1F140C] border border-brand-orange/20 text-xs">
+              <div className="p-3 rounded-xl bg-[#1F140C] border border-brand-orange/20 text-xs">
                 <span className="text-amber-400 font-black uppercase text-[10px] tracking-wider block mb-1">
                   Tanggung Jawab Teknis Spesifik:
                 </span>
@@ -1247,28 +1245,28 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             )}
 
             {/* Bio Narrative */}
-            <div className="space-y-2">
+            <div className="space-y-1.5">
               <span className="text-xs font-black uppercase text-slate-300 tracking-wider flex items-center space-x-1.5">
                 <Award className="w-4 h-4 text-brand-orange" />
                 <span>Deskripsi Kontribusi Riset:</span>
               </span>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#190F09] p-4 rounded-2xl border border-[#2B1B10]">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#190F09] p-3.5 rounded-2xl border border-[#2B1B10]">
                 {selectedMember.bio}
               </p>
             </div>
 
             {/* Technical Specialization Pills */}
             {selectedMember.specialization && selectedMember.specialization.length > 0 && (
-              <div className="space-y-2">
+              <div className="space-y-1.5">
                 <span className="text-xs font-black uppercase text-amber-400 tracking-wider flex items-center space-x-1.5">
                   <Cpu className="w-4 h-4 text-brand-orange" />
                   <span>Keahlian &amp; Penguasaan Teknologi:</span>
                 </span>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {selectedMember.specialization.map((spec, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 rounded-xl bg-[#24170E] text-amber-100 text-xs font-semibold border border-brand-orange/30 shadow-sm"
+                      className="px-2.5 py-1 rounded-xl bg-[#24170E] text-amber-100 text-xs font-semibold border border-brand-orange/30 shadow-sm"
                     >
                       {spec}
                     </span>
@@ -1279,18 +1277,18 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Achievements List in Modal if present */}
             {selectedMember.achievements && selectedMember.achievements.length > 0 && (
-              <div className="space-y-2">
+              <div className="space-y-1.5">
                 <span className="text-xs font-black uppercase text-amber-400 tracking-wider flex items-center space-x-1.5">
                   <Trophy className="w-4 h-4 text-amber-400" />
                   <span>Penghargaan &amp; Prestasi Kejuaraan:</span>
                 </span>
-                <div className="space-y-1.5">
+                <div className="space-y-1">
                   {selectedMember.achievements.map((ach, idx) => (
                     <div
                       key={idx}
-                      className="px-3.5 py-2 rounded-xl bg-[#221508] border border-amber-500/30 text-amber-200 text-xs font-medium flex items-center space-x-2"
+                      className="px-3 py-1.5 rounded-xl bg-[#221508] border border-amber-500/30 text-amber-200 text-xs font-medium flex items-center space-x-2"
                     >
-                      <Trophy className="w-4 h-4 text-amber-400 flex-shrink-0" />
+                      <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                       <span>{ach}</span>
                     </div>
                   ))}
@@ -1299,14 +1297,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             )}
 
             {/* Social Links & Official Record Confirmation */}
-            <div className="pt-4 border-t border-[#26180E] flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="pt-3 border-t border-[#26180E] flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="text-[11px] text-slate-400 flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
                 <span>Data Terverifikasi UKM Rekayasa Teknologi Universitas Negeri Yogyakarta</span>
               </div>
 
               {selectedMember.socials && (
-                <div className="flex items-center space-x-2.5">
+                <div className="flex items-center space-x-2">
                   {selectedMember.socials.github && (
                     <a
                       href={selectedMember.socials.github}

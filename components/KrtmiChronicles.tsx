@@ -54,7 +54,7 @@ export const KrtmiChronicles: React.FC = () => {
       <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Section Header */}
-      <div className="text-center space-y-3 max-w-3xl mx-auto px-4 relative z-10">
+      <div className="text-center space-y-3 max-w-5xl mx-auto px-4 relative z-10">
         <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
           <History className="w-3.5 h-3.5" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>

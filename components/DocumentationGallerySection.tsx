@@ -14,7 +14,7 @@ export const DocumentationGallerySection: React.FC = () => {
     : GALLERY_ITEMS.filter((item) => item.category === activeCategory);
 
   return (
-    <section id="dokumentasi-tim" className="py-10 sm:py-16 md:py-20 bg-[#0A0704] border-y border-[#26180E] relative overflow-hidden">
+    <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#0A0704] border-y border-[#26180E] relative overflow-hidden">
       
       {/* Background Subtle Glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-orange/10 blur-[140px] pointer-events-none rounded-full" />
@@ -22,7 +22,7 @@ export const DocumentationGallerySection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title */}
-        <div className="text-center space-y-2.5 max-w-3xl mx-auto border-b border-[#26180E] pb-6 sm:pb-8">
+        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-[#26180E] pb-6 sm:pb-8">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
             <Camera className="w-3.5 h-3.5" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
