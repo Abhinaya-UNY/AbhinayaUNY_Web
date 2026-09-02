@@ -256,8 +256,8 @@ export const YouTubeVideoShowcase: React.FC = () => {
         </div>
 
         {/* Video Showcase Card */}
-        <div className="max-w-4xl mx-auto">
-          <div className="p-3.5 sm:p-6 rounded-3xl bg-[#120D08]/90 border border-brand-orange/30 shadow-[0_0_50px_rgba(255,107,0,0.15)] backdrop-blur-sm space-y-4">
+        <div className="max-w-5xl lg:max-w-6xl w-full mx-auto px-1 sm:px-3">
+          <div className="p-2.5 sm:p-5 md:p-6 rounded-2xl sm:rounded-3xl bg-[#120D08]/95 border border-brand-orange/30 shadow-[0_0_50px_rgba(255,107,0,0.15)] backdrop-blur-sm space-y-4">
             
             {/* Video Stage: 16:9 Widescreen */}
             {activeTab === 'action' && (
