@@ -36,6 +36,14 @@ export const Achievements: React.FC = () => {
       highlight: false,
     },
     {
+      year: '2024',
+      title: 'Finalis Lomba Robot Kreatif Nasional',
+      event: 'UNLIMITED Robotics Competition UNDIP 2024',
+      organizer: 'Departemen Teknik Elektro Universitas Diponegoro',
+      badge: '💡 FINALIS ROBOT KREATIF',
+      highlight: true,
+    },
+    {
       year: '2026',
       title: 'Peserta Tingkat Nasional Transporter',
       event: 'Technocorner 2026 Robot Competition',
