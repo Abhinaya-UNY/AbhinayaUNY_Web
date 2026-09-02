@@ -14,12 +14,12 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { href: '/', label: 'HOME' },
     { href: '/#about-tim', label: 'ABOUT' },
-    { href: '/#team-roster', label: 'ROSTER' },
     { href: '/#prestasi', label: 'PRESTASI' },
     { href: '/#berita-media', label: 'BERITA' },
     { href: '/pertandingan', label: 'LAGA' },
     { href: '/krtmi', label: 'KRTMI' },
     { href: '/divisi', label: 'DIVISI' },
+    { href: '/#team-roster', label: 'ROSTER' },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

@@ -17,13 +17,13 @@ export default function HomePage() {
       <HeroSection />
       <YouTubeVideoShowcase />
       <AboutTeamSection />
-      <TeamRosterSection showAllLink={true} />
       <Achievements />
       <NewsMediaSection />
-      <InstagramFeedShowcase />
-      <DocumentationGallerySection />
       <KrtmiChronicles />
       <KRIOverview />
+      <InstagramFeedShowcase />
+      <DocumentationGallerySection />
+      <TeamRosterSection showAllLink={true} />
       <SocialMediaHub />
     </div>
   );
