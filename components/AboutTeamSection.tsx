@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Users, Trophy, Camera } from 'lucide-react';
 
@@ -94,18 +96,24 @@ export const AboutTeamSection: React.FC = () => {
 
           {/* Genuine Photo Collage */}
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
-            <div className="rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group">
+            <div className="rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group bg-[#160E08]">
               <img
-                src={`${basePath}/images/gallery/WEB_5721.jpg`}
+                src={`${basePath}/assets/WEB_5721.jpg`}
                 alt="Aktivitas Riset Laboratorium Abhinaya UNY"
-                className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition duration-500"
+                className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition duration-500 brightness-95 contrast-105"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = `${basePath}/assets/hero_abhinaya.jpg`;
+                }}
               />
             </div>
-            <div className="rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group">
+            <div className="rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-brand-orange/40 shadow-xl group bg-[#160E08]">
               <img
-                src={`${basePath}/images/gallery/WEB_5681.jpg`}
+                src={`${basePath}/assets/robot_action_1.jpg`}
                 alt="Pengujian Komponen Mekanik & Elektrik Robot"
-                className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition duration-500"
+                className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition duration-500 brightness-95 contrast-105"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = `${basePath}/assets/hero_abhinaya.jpg`;
+                }}
               />
             </div>
           </div>
