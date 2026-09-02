@@ -17,8 +17,8 @@ export const Navbar: React.FC = () => {
     { href: '/#prestasi', label: 'PRESTASI' },
     { href: '/#kri-overview', label: 'KRI' },
     { href: '/#krtmi-story', label: 'KRTMI' },
-    { href: '/pertandingan', label: 'LAGA' },
     { href: '/#berita-media', label: 'BERITA' },
+    { href: '/pertandingan', label: 'LAGA' },
     { href: '/#team-roster', label: 'ROSTER' },
   ];
 

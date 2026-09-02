@@ -20,9 +20,9 @@ export default function HomePage() {
       <Achievements />
       <KRIOverview />
       <KrtmiChronicles />
+      <NewsMediaSection />
       <InstagramFeedShowcase />
       <DocumentationGallerySection />
-      <NewsMediaSection />
       <TeamRosterSection showAllLink={true} />
       <SocialMediaHub />
     </div>
