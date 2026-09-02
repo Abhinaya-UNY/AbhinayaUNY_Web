@@ -658,7 +658,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               <ShieldCheck className="w-4 h-4" />
               <span>OFFICIAL TEAM ROSTER &amp; HISTORICAL ARCHIVE</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight lg:whitespace-nowrap leading-tight lg:whitespace-nowrap">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight  leading-tight ">
               Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY 🤖
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed max-w-4xl mx-auto">
@@ -1181,7 +1181,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 </div>
 
                 <div>
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight lg:whitespace-nowrap">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight ">
                     {selectedMember.name}
                   </h3>
                   <p className="text-xs sm:text-sm font-bold text-amber-300 mt-0.5">

@@ -59,8 +59,8 @@ export const KrtmiChronicles: React.FC = () => {
           <History className="w-3.5 h-3.5" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
-        <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight lg:whitespace-nowrap">
-          Bedah Regulasi &amp; Logo Kompetisi (2026 ➔ 2019) 📜
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight">
+          Bedah Regulasi &amp; Logo Kompetisi (2026 ➔ 2019)&nbsp;📜
         </h2>
         <p className="text-xs sm:text-base text-slate-300">
           Pelajari aturan resmi, layout arena, spesifikasi mekatronika robot, dan visual resmi buku panduan dari <strong>Technocorner 2026</strong> hingga edisi pionir <strong>KRTMI 2019</strong>.

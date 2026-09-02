@@ -55,7 +55,7 @@ export const Achievements: React.FC = () => {
             <Trophy className="w-3.5 h-3.5" />
             <span>PAPAN PRESTASI RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight lg:whitespace-nowrap">
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight ">
             Jejak Kejuaraan Tim Abhinaya UNY&nbsp;🏆
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">

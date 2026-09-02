@@ -14,7 +14,7 @@ export const AboutTeamSection: React.FC = () => {
             <Users className="w-3.5 h-3.5" />
             <span>ABOUT ABHINAYA UNY</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight lg:whitespace-nowrap leading-tight lg:whitespace-nowrap">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight  leading-tight ">
             Mengenal Tim Robotika Abhinaya UNY&nbsp;🛠️
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">

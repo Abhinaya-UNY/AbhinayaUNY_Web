@@ -27,7 +27,7 @@ export const DocumentationGallerySection: React.FC = () => {
             <Camera className="w-3.5 h-3.5" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
-          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight lg:whitespace-nowrap">
+          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight ">
             Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
