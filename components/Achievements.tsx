@@ -55,8 +55,8 @@ export const Achievements: React.FC = () => {
             <Trophy className="w-3.5 h-3.5" />
             <span>PAPAN PRESTASI RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
-            Jejak Kejuaraan Tim Abhinaya UNY 🏆
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight lg:whitespace-nowrap">
+            Jejak Kejuaraan Tim Abhinaya UNY&nbsp;🏆
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
             Buah dari kerja keras, dedikasi riset larut malam di lab, dan semangat inovasi mahasiswa Universitas Negeri Yogyakarta di panggung kompetisi robotika nasional.

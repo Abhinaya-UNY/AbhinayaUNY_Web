@@ -8,6 +8,7 @@ import { FaYoutube } from 'react-icons/fa';
 interface VideoItem {
   id: string;
   title: string;
+  shortTitle: string;
   subtitle: string;
   description: string;
   type: 'action' | 'shorts';
@@ -22,6 +23,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: '3yr5uNkxA_8',
     title: 'Abhinaya Introduction 2024 | Kontes Robot Indonesia',
+    shortTitle: 'Abhinaya Intro 2024',
     subtitle: 'Official Team & Robot Introduction • KRTMI UKM Restek UNY',
     description: 'Video resmi pengenalan Tim Robotika Abhinaya UNY dan robot otonom untuk Kontes Robot Indonesia (KRTMI): visi inovasi mekatronika, sinergi 4 divisi riset (Mekanik, Elektrik, Programming AI, Manajerial), dan uji coba navigasi di laboratorium.',
     type: 'action',
@@ -34,6 +36,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'PmxwdrhpxKg',
     title: 'LIVE LOMBA FULL KRTMI WILAYAH 2024 | ABHINAYA Day 2 KRI REGIONAL 2024',
+    shortTitle: 'Live Lomba KRTMI 2024',
     subtitle: 'Full Match Live Arena Competition • Kontes Robot Tematik Indonesia',
     description: 'Rekaman siaran langsung pertandingan resmi robot Abhinaya UNY bertanding di arena KRTMI Wilayah 2024 Day 2: kecepatan manuver holonomik 4WD Mecanum, deteksi sampah otonom via AI YOLO, dan aksi kejar poin di arena laga.',
     type: 'action',
@@ -46,6 +49,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'J5FXI2AnQxE',
     title: 'Abhinaya Introduction & Perkembangan KRTMI 2019 - 2023',
+    shortTitle: 'Kilas Balik 2019–2023',
     subtitle: 'Historical Tech Retrospective • Kilas Balik Riset Robotika UNY',
     description: 'Dokumentasi perjalanan inovasi dan evolusi robot tematik Abhinaya UNY dari masa perintisan 2019 (pertanian), 2020 (disinfeksi COVID-19), 2021 (layanan medis), 2022 (limbah B3), hingga 2023 (digital twin).',
     type: 'action',
@@ -58,6 +62,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'LyP9M_uTvMk',
     title: 'ABHINAYA - UNY TEMATIK TEAM - OPREC',
+    shortTitle: 'Open Recruitment Tim',
     subtitle: 'Open Recruitment & Kaderisasi Anggota Baru Robotika UNY',
     description: 'Video profil ajakan bergabung bersama Tim Robotika Abhinaya UNY untuk mahasiswa baru dan calon periset mekatronika UKM Rekayasa Teknologi UNY.',
     type: 'action',
@@ -70,6 +75,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'wLusNVfFFHA',
     title: 'Abhinaya Recap 2023 | KRTMI (Kontes Robot Tematik Indonesia)',
+    shortTitle: 'Recap KRTMI 2023',
     subtitle: 'Shorts Kilas Balik Kompetisi KRTMI di USM Semarang',
     description: 'Momen persiapan teknis di paddock, kalibrasi sistem kontrol mekanik & elektrik, serta uji responsivitas manuver robot saat kompetisi nasional.',
     type: 'shorts',
@@ -82,6 +88,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'tcsBS-6qgCs',
     title: '#MulaiBikinRobot #Tinkercad #Wokwi',
+    shortTitle: 'Simulasi Sirkuit & Riset',
     subtitle: 'Simulasi Sirkuit & Pemrograman Mikrokontroler Robotika',
     description: 'Cuplikan vertikal simulasi rangkaian elektronik robotika menggunakan platform Tinkercad & Wokwi untuk perancangan logika mikrokontroler.',
     type: 'shorts',
@@ -94,6 +101,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'vjxbL5MB4-4',
     title: 'Fabrikasi 3D Print Komponen Robot Abhinaya KRI 2025',
+    shortTitle: 'Fabrikasi 3D Print',
     subtitle: 'Proses Manufaktur & Cetak 3D Sparepart Mekanik',
     description: 'Cuplikan proses pencetakan 3D print komponen sasis dan bracket motor robotika Abhinaya UNY untuk persiapan Kontes Robot Indonesia.',
     type: 'shorts',
@@ -106,6 +114,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
   {
     id: 'epyl7w6xZ6Y',
     title: 'Behind The Code: Programming Robotika di VS Code',
+    shortTitle: 'Behind The Code (AI Lab)',
     subtitle: 'Coding Logika Manuver & Sensor Arena Pertandingan',
     description: 'Cuplikan proses debugging algoritma navigasi otonom dan logika sensor arena menggunakan VS Code.',
     type: 'shorts',
@@ -181,39 +190,39 @@ export const YouTubeVideoShowcase: React.FC = () => {
       {/* Background glow ambiance */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[800px] h-[300px] bg-brand-orange/5 blur-[120px] pointer-events-none rounded-full" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
-        {/* Section Header */}
-        <div className="text-center space-y-3 max-w-5xl mx-auto">
+        {/* Section Header - Wider on Laptop without weird emoji wrap */}
+        <div className="text-center space-y-2.5 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
             <FaYoutube className="w-4 h-4 text-red-500 fill-red-500" />
             <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
           </div>
-          <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
-            Mengenal Abhinaya UNY Lewat Video Resmi! 🎬
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight lg:whitespace-nowrap">
+            Mengenal Abhinaya UNY Lewat Video Resmi!&nbsp;🎬
           </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-300">
+          <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
             Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi di bawah naungan UKM Rekayasa Teknologi (Restek) UNY, dan teknologi robot otonom kami.
           </p>
         </div>
 
         {/* Dual-Mode Tab Switcher */}
-        <div className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex flex-col items-center justify-center space-y-3.5">
           <div className="inline-flex p-1.5 rounded-2xl bg-[#140E09] border border-brand-orange/30 shadow-lg gap-2">
             <button
               onClick={() => handleTabChange('action')}
-              className={`flex items-center space-x-2 px-4 sm:px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 ${
+              className={`flex items-center space-x-2 px-4 sm:px-6 py-2 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 cursor-pointer ${
                 activeTab === 'action'
                   ? 'bg-gradient-to-r from-brand-orange to-amber-500 text-black shadow-[0_0_20px_rgba(255,107,0,0.5)] scale-100'
                   : 'text-slate-400 hover:text-white hover:bg-white/5'
               }`}
             >
               <MonitorPlay className="w-4 h-4" />
-              <span>Video Laga & Profil (16:9)</span>
+              <span>Video Laga &amp; Profil (16:9)</span>
             </button>
             <button
               onClick={() => handleTabChange('shorts')}
-              className={`flex items-center space-x-2 px-4 sm:px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 ${
+              className={`flex items-center space-x-2 px-4 sm:px-6 py-2 rounded-xl font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 cursor-pointer ${
                 activeTab === 'shorts'
                   ? 'bg-gradient-to-r from-red-600 to-orange-500 text-white shadow-[0_0_20px_rgba(239,68,68,0.5)] scale-100'
                   : 'text-slate-400 hover:text-white hover:bg-white/5'
@@ -224,22 +233,22 @@ export const YouTubeVideoShowcase: React.FC = () => {
             </button>
           </div>
 
-          {/* Sub Video Selector Pills */}
-          <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl px-2">
-            {availableVideos.map((vid, idx) => {
+          {/* Sub Video Selector Pills - Single Row Horizontal on Laptop */}
+          <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-2 max-w-5xl w-full px-2 overflow-x-auto py-1">
+            {availableVideos.map((vid) => {
               const isSelected = vid.id === currentVideo.id;
               return (
                 <button
                   key={vid.id}
                   onClick={() => setSelectedVideoId(vid.id)}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-300 flex items-center space-x-1.5 border ${
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-300 flex items-center space-x-2 border whitespace-nowrap flex-shrink-0 cursor-pointer ${
                     isSelected
-                      ? 'bg-amber-500/20 border-brand-orange text-amber-300 shadow-[0_0_15px_rgba(255,107,0,0.3)]'
+                      ? 'bg-amber-500/20 border-brand-orange text-amber-300 shadow-[0_0_15px_rgba(255,107,0,0.3)] scale-[1.02]'
                       : 'bg-[#180F08] border-[#3A2214] text-slate-400 hover:text-slate-200 hover:border-amber-700/50'
                   }`}
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-brand-orange" />
-                  <span className="line-clamp-1">{vid.title.split('•')[0].split('&')[0]}</span>
+                  <span className={`w-2 h-2 rounded-full ${isSelected ? 'bg-brand-orange animate-pulse' : 'bg-slate-600'}`} />
+                  <span>{vid.shortTitle || vid.title}</span>
                 </button>
               );
             })}
@@ -258,251 +267,209 @@ export const YouTubeVideoShowcase: React.FC = () => {
                     className="w-full h-full"
                     src={`https://www.youtube-nocookie.com/embed/${currentVideo.id}?autoplay=1&rel=0&modestbranding=1`}
                     title={currentVideo.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 ) : (
-                  <div className="relative w-full h-full cursor-pointer" onClick={() => setPlayingInline({ ...playingInline, [currentVideo.id]: true })}>
+                  <>
                     <img
                       src={getThumbnailUrl(currentVideo.id)}
                       alt={currentVideo.title}
-                      onError={() => setThumbError({ ...thumbError, [currentVideo.id]: true })}
-                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90 contrast-105"
+                      onError={() => setThumbError((prev) => ({ ...prev, [currentVideo.id]: true }))}
+                      className="w-full h-full object-cover brightness-90 group-hover:scale-105 transition-transform duration-700"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
                     
-                    {/* Vignette & Metadata Badges */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-                    
-                    <div className="absolute top-3 sm:top-4 left-3 sm:left-4 flex flex-wrap gap-2">
-                      <span className={`px-2.5 py-1 rounded-full text-[11px] font-bold border backdrop-blur-md ${currentVideo.badgeColor}`}>
-                        {currentVideo.tag}
-                      </span>
-                      <span className="px-2.5 py-1 rounded-full text-[11px] font-bold bg-black/60 text-slate-200 border border-white/10 backdrop-blur-md">
-                        {currentVideo.stats}
+                    {/* Play Button Overlay */}
+                    <button
+                      onClick={() => setPlayingInline((prev) => ({ ...prev, [currentVideo.id]: true }))}
+                      className="absolute inset-0 m-auto w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-brand-orange to-red-600 flex items-center justify-center text-white shadow-[0_0_40px_rgba(255,107,0,0.8)] group-hover:scale-110 active:scale-95 transition-all duration-300 cursor-pointer"
+                      aria-label={`Putar ${currentVideo.title}`}
+                    >
+                      <Play className="w-7 h-7 sm:w-8 sm:h-8 fill-white ml-1" />
+                    </button>
+
+                    {/* Badge on Top Left */}
+                    <div className="absolute top-3 left-3 sm:top-4 sm:left-4">
+                      <span className={`inline-flex items-center space-x-1 px-3 py-1 rounded-xl text-xs font-bold border backdrop-blur-md shadow-lg ${currentVideo.badgeColor}`}>
+                        <Trophy className="w-3.5 h-3.5 mr-1" />
+                        <span>{currentVideo.tag}</span>
                       </span>
                     </div>
 
-                    {/* Centered Glowing Play Button */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 p-0.5 shadow-[0_0_35px_rgba(255,107,0,0.8)] group-hover:scale-110 group-hover:shadow-[0_0_50px_rgba(255,107,0,1)] transition-all duration-300 flex items-center justify-center">
-                        <div className="w-full h-full rounded-full bg-[#120D08]/80 flex items-center justify-center backdrop-blur-sm">
-                          <Play className="w-7 h-7 sm:w-9 sm:h-9 text-brand-orange fill-brand-orange ml-1" />
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Bottom Title Bar */}
-                    <div className="absolute bottom-3 sm:bottom-4 inset-x-3 sm:inset-x-4 flex items-center justify-between text-white">
-                      <div className="space-y-0.5">
-                        <p className="text-xs sm:text-sm font-black text-amber-300 drop-shadow-md">
+                    {/* Bottom Metadata */}
+                    <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-end justify-between">
+                      <div className="space-y-1">
+                        <span className="text-[10px] sm:text-xs font-mono font-bold text-amber-300">
+                          {currentVideo.stats}
+                        </span>
+                        <h3 className="text-sm sm:text-base md:text-lg font-black text-white line-clamp-1">
                           {currentVideo.title}
-                        </p>
-                        <p className="text-[10px] sm:text-xs text-slate-300 line-clamp-1">
-                          {currentVideo.subtitle}
-                        </p>
+                        </h3>
                       </div>
                       <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleOpenModal(currentVideo);
-                        }}
-                        title="Buka Layar Penuh"
-                        className="p-2 rounded-xl bg-black/60 hover:bg-black/90 border border-white/20 text-white hover:text-brand-orange transition"
+                        onClick={() => handleOpenModal(currentVideo)}
+                        className="p-2 sm:p-2.5 rounded-xl bg-black/60 hover:bg-brand-orange text-white hover:text-black transition border border-white/20 backdrop-blur-sm cursor-pointer"
+                        title="Perbesar / Fullscreen Modal"
                       >
                         <Maximize2 className="w-4 h-4" />
                       </button>
                     </div>
-                  </div>
+                  </>
                 )}
               </div>
             )}
 
-            {/* Video Stage: 9:16 Vertical Shorts */}
+            {/* Video Stage: 9:16 Shorts Grid Showcase */}
             {activeTab === 'shorts' && (
-              <div className="flex flex-col items-center justify-center py-2">
-                <div className="relative w-full max-w-[340px] aspect-[9/16] rounded-2xl overflow-hidden bg-black border border-red-950/60 shadow-2xl group">
-                  {playingInline[currentVideo.id] ? (
-                    <iframe
-                      className="w-full h-full"
-                      src={`https://www.youtube-nocookie.com/embed/${currentVideo.id}?autoplay=1&rel=0&modestbranding=1`}
-                      title={currentVideo.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                    />
-                  ) : (
-                    <div className="relative w-full h-full cursor-pointer" onClick={() => setPlayingInline({ ...playingInline, [currentVideo.id]: true })}>
-                      <img
-                        src={getThumbnailUrl(currentVideo.id)}
-                        alt={currentVideo.title}
-                        onError={() => setThumbError({ ...thumbError, [currentVideo.id]: true })}
-                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 brightness-90 contrast-105"
-                      />
-                      
-                      {/* Vignette & Badges */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                  {availableVideos.map((shortVid) => {
+                    const isSelected = shortVid.id === currentVideo.id;
+                    return (
+                      <div
+                        key={shortVid.id}
+                        onClick={() => setSelectedVideoId(shortVid.id)}
+                        className={`group relative rounded-2xl overflow-hidden aspect-[9/16] bg-black border-2 transition-all duration-300 cursor-pointer ${
+                          isSelected
+                            ? 'border-brand-orange ring-2 ring-brand-orange/50 shadow-[0_0_25px_rgba(255,107,0,0.5)] scale-[1.02]'
+                            : 'border-[#2B1B10] hover:border-brand-orange/60 opacity-80 hover:opacity-100'
+                        }`}
+                      >
+                        <img
+                          src={getThumbnailUrl(shortVid.id)}
+                          alt={shortVid.title}
+                          onError={() => setThumbError((prev) => ({ ...prev, [shortVid.id]: true }))}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+                        
+                        {/* Play Icon */}
+                        <div className="absolute inset-0 m-auto w-10 h-10 rounded-full bg-red-600/90 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition">
+                          <Play className="w-4 h-4 fill-white ml-0.5" />
+                        </div>
 
-                      <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-                        <span className={`px-2.5 py-1 rounded-full text-[10px] font-bold border backdrop-blur-md ${currentVideo.badgeColor}`}>
-                          {currentVideo.tag}
-                        </span>
-                      </div>
-
-                      {/* Centered Glowing Play Button */}
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-gradient-to-r from-red-600 via-orange-500 to-amber-500 p-0.5 shadow-[0_0_35px_rgba(239,68,68,0.8)] group-hover:scale-110 transition-all duration-300 flex items-center justify-center">
-                          <div className="w-full h-full rounded-full bg-[#120D08]/80 flex items-center justify-center backdrop-blur-sm">
-                            <Play className="w-6 h-6 text-red-500 fill-red-500 ml-1" />
-                          </div>
+                        {/* Title & Badge Bottom */}
+                        <div className="absolute bottom-2 inset-x-2 space-y-1">
+                          <span className="text-[9px] font-mono font-bold text-amber-300 block truncate">
+                            {shortVid.stats}
+                          </span>
+                          <p className="text-[11px] font-bold text-white line-clamp-2 leading-tight">
+                            {shortVid.title}
+                          </p>
                         </div>
                       </div>
+                    );
+                  })}
+                </div>
 
-                      {/* Bottom Info */}
-                      <div className="absolute bottom-3 inset-x-3 text-white space-y-1">
-                        <p className="text-xs font-black text-amber-300 line-clamp-1">
-                          {currentVideo.title}
-                        </p>
-                        <p className="text-[10px] text-slate-300 line-clamp-2">
-                          {currentVideo.subtitle}
-                        </p>
-                      </div>
-                    </div>
-                  )}
+                {/* Inline Player for Selected Short */}
+                <div className="p-4 rounded-2xl bg-[#180F08] border border-brand-orange/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="space-y-1 text-center sm:text-left">
+                    <span className="text-xs font-bold text-brand-orange flex items-center justify-center sm:justify-start space-x-1.5">
+                      <Smartphone className="w-4 h-4" />
+                      <span>{currentVideo.tag}</span>
+                    </span>
+                    <h4 className="text-base font-black text-white">{currentVideo.title}</h4>
+                    <p className="text-xs text-slate-300">{currentVideo.subtitle}</p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <button
+                      onClick={() => handleOpenModal(currentVideo)}
+                      className="px-4 py-2 rounded-xl bg-gradient-to-r from-red-600 to-brand-orange text-white font-bold text-xs flex items-center space-x-2 shadow-md hover:scale-105 transition cursor-pointer"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-white" />
+                      <span>Putar Video Modal</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             )}
 
-            {/* Video Description & Action Bar */}
-            <div className="space-y-3 pt-2">
-              <div className="space-y-1">
-                <div className="flex items-center space-x-2 text-brand-orange text-xs font-bold uppercase tracking-wider">
-                  <Trophy className="w-4 h-4 flex-shrink-0" />
-                  <span>{currentVideo.subtitle}</span>
+            {/* Video Narrative & Action Links */}
+            {activeTab === 'action' && (
+              <div className="pt-2 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div className="space-y-1">
+                  <h4 className="text-base sm:text-lg font-black text-white">{currentVideo.title}</h4>
+                  <p className="text-xs text-amber-200/80">{currentVideo.subtitle}</p>
+                  <p className="text-xs text-slate-300 max-w-2xl leading-relaxed pt-1">
+                    {currentVideo.description}
+                  </p>
                 </div>
-                <h3 className="text-base sm:text-lg font-black text-white">
-                  {currentVideo.title}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                  {currentVideo.description}
-                </p>
-              </div>
-
-              {/* Action Buttons Row */}
-              <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-amber-950/40">
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={() => handleOpenModal(currentVideo)}
-                    className="px-4 py-2.5 rounded-xl bg-[#1D140D] hover:bg-[#281C12] border border-brand-orange/40 text-amber-200 hover:text-white font-bold text-xs flex items-center space-x-2 transition"
+                <div className="flex items-center space-x-3 flex-shrink-0 self-end md:self-center">
+                  <a
+                    href={currentVideo.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-[#20140A] hover:bg-red-600 text-slate-200 hover:text-white text-xs font-bold transition border border-brand-orange/30 shadow-md group"
                   >
-                    <Maximize2 className="w-3.5 h-3.5 text-brand-orange" />
-                    <span>Layar Penuh</span>
-                  </button>
-
-                  <Link
-                    href="/pertandingan"
-                    className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center space-x-1.5 shadow-[0_0_15px_rgba(255,107,0,0.4)] transition"
-                  >
-                    <Flame className="w-3.5 h-3.5 fill-black" />
-                    <span>Lihat Laga Pertandingan ➔</span>
-                  </Link>
+                    <FaYoutube className="w-4 h-4 text-red-500 group-hover:text-white transition" />
+                    <span>Buka di YouTube</span>
+                    <ExternalLink className="w-3.5 h-3.5 ml-0.5 opacity-80" />
+                  </a>
                 </div>
-
-                <a
-                  href={currentVideo.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center space-x-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] transition"
-                >
-                  <FaYoutube className="w-4 h-4 fill-white" />
-                  <span>Tonton di YouTube</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
               </div>
-            </div>
+            )}
 
-          </div>
-        </div>
-
-        {/* Official Channel & Social Media Hub Strip */}
-        <div className="max-w-4xl mx-auto p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[#170E08] via-[#1F130A] to-[#170E08] border border-brand-orange/20 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center space-x-3.5 text-center sm:text-left">
-            <div className="w-12 h-12 rounded-2xl bg-red-600/20 border border-red-500/40 flex items-center justify-center flex-shrink-0">
-              <FaYoutube className="w-6 h-6 text-red-500" />
-            </div>
-            <div>
-              <p className="text-xs sm:text-sm font-black text-white flex items-center justify-center sm:justify-start gap-1.5">
-                <span>Official Channel: @AbhinayaUNY</span>
-                <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange" />
-              </p>
-              <p className="text-[11px] sm:text-xs text-slate-400">
-                Subscribe untuk update dokumentasi riset, uji coba robot, dan rekaman laga resmi KRTMI.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-2.5 w-full sm:w-auto">
-            <a
-              href="https://www.youtube.com/@AbhinayaUNY"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 sm:flex-initial px-4 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center justify-center space-x-1.5 transition"
-            >
-              <span>Subscribe @AbhinayaUNY</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
-            <a
-              href="https://www.instagram.com/abhinaya.uny/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 sm:flex-initial px-4 py-2 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold text-xs flex items-center justify-center space-x-1.5 transition"
-            >
-              <span>Instagram @abhinaya.uny</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
           </div>
         </div>
 
       </div>
 
-      {/* Modal Video Player Lightbox */}
+      {/* Lightbox / Video Modal */}
       {isModalOpen && modalVideo && (
         <div
-          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 transition-all duration-300 animate-fadeIn"
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/90 backdrop-blur-md animate-fadeIn"
           onClick={handleCloseModal}
         >
           <div
-            className={`relative bg-[#0D0805] border border-brand-orange/40 rounded-3xl overflow-hidden shadow-[0_0_60px_rgba(255,107,0,0.3)] w-full ${
-              modalVideo.aspect === '16:9' ? 'max-w-5xl' : 'max-w-[360px]'
-            }`}
+            className={`relative w-full ${
+              modalVideo.aspect === '9:16' ? 'max-w-md' : 'max-w-4xl'
+            } bg-[#140E09] border-2 border-brand-orange/50 rounded-3xl p-4 sm:p-6 shadow-2xl shadow-brand-orange/20 space-y-4`}
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Modal Close Button */}
+            <button
+              onClick={handleCloseModal}
+              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-[#24170E] hover:bg-brand-orange text-slate-300 hover:text-white flex items-center justify-center transition border border-[#3A2214] z-30 cursor-pointer"
+              aria-label="Tutup modal video"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
             {/* Modal Header */}
-            <div className="p-3 sm:p-4 bg-[#140E09] border-b border-amber-950/60 flex items-center justify-between">
-              <div className="flex items-center space-x-2">
-                <FaYoutube className="w-4 h-4 text-red-500" />
-                <span className="text-xs sm:text-sm font-bold text-white line-clamp-1">
-                  {modalVideo.title}
-                </span>
-              </div>
-              <button
-                type="button"
-                onClick={handleCloseModal}
-                className="p-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white transition"
-              >
-                <X className="w-5 h-5" />
-              </button>
+            <div className="space-y-1 pr-10">
+              <span className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-lg text-xs font-bold border ${modalVideo.badgeColor}`}>
+                <span>{modalVideo.tag}</span>
+              </span>
+              <h3 className="text-base sm:text-xl font-black text-white">{modalVideo.title}</h3>
             </div>
 
-            {/* Modal Iframe Stage */}
-            <div className={`relative w-full ${modalVideo.aspect === '16:9' ? 'aspect-video' : 'aspect-[9/16]'}`}>
+            {/* Modal Embed Iframe */}
+            <div className={`relative w-full ${modalVideo.aspect === '9:16' ? 'aspect-[9/16]' : 'aspect-video'} rounded-2xl overflow-hidden bg-black border border-[#2B1B10] shadow-inner`}>
               <iframe
                 className="w-full h-full"
                 src={`https://www.youtube-nocookie.com/embed/${modalVideo.id}?autoplay=1&rel=0&modestbranding=1`}
                 title={modalVideo.title}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
+            </div>
+
+            {/* Modal Footer Info */}
+            <div className="flex items-center justify-between text-xs text-slate-300 pt-1">
+              <span className="font-mono font-bold text-amber-300">{modalVideo.stats}</span>
+              <a
+                href={modalVideo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-orange hover:underline flex items-center space-x-1"
+              >
+                <span>Tonton di YouTube</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
           </div>
         </div>

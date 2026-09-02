@@ -21,7 +21,7 @@ export const NewsMediaSection: React.FC = () => {
             <Newspaper className="w-3.5 h-3.5" />
             <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight lg:whitespace-nowrap leading-tight lg:whitespace-nowrap">
             Liputan Berita Resmi &amp; Publikasi Media Nasional 📰
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">

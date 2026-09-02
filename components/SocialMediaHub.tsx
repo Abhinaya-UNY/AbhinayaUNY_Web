@@ -13,7 +13,7 @@ export const SocialMediaHub: React.FC = () => {
             <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
             <span>TERHUBUNG DENGAN TIM</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight lg:whitespace-nowrap">
             Ikuti Aktivitas &amp; Update Harian Abhinaya! 📱
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">

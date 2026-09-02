@@ -59,7 +59,7 @@ export const KrtmiChronicles: React.FC = () => {
           <History className="w-3.5 h-3.5" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
-        <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
+        <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight lg:whitespace-nowrap">
           Bedah Regulasi &amp; Logo Kompetisi (2026 ➔ 2019) 📜
         </h2>
         <p className="text-xs sm:text-base text-slate-300">

@@ -50,7 +50,7 @@ export const KRIOverview: React.FC = () => {
             <Compass className="w-3.5 h-3.5" />
             <span>PANDUAN LOMBA UNTUK MAHASISWA &amp; MABA</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight lg:whitespace-nowrap">
             Apa Itu Kontes Robot Indonesia (KRI)? 🤖
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
