@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Trophy, Newspaper } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 
 export const Navbar: React.FC = () => {
@@ -13,13 +13,13 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { href: '/', label: 'HOME' },
-    { href: '/#about-tim', label: 'ABOUT US' },
-    { href: '/#team-roster', label: 'ROSTER ANGGOTA' },
-    { href: '/#prestasi', label: 'ACHIEVEMENTS' },
-    { href: '/#berita-media', label: 'BERITA & MEDIA' },
-    { href: '/pertandingan', label: 'MATCH & LAGA' },
-    { href: '/krtmi', label: 'KRTMI ARCHIVES' },
-    { href: '/divisi', label: 'DIVISI TIM' },
+    { href: '/#about-tim', label: 'ABOUT' },
+    { href: '/#team-roster', label: 'ROSTER' },
+    { href: '/#prestasi', label: 'PRESTASI' },
+    { href: '/#berita-media', label: 'BERITA' },
+    { href: '/pertandingan', label: 'LAGA' },
+    { href: '/krtmi', label: 'KRTMI' },
+    { href: '/divisi', label: 'DIVISI' },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -45,8 +45,8 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           
-          {/* Real Abhinaya Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
+          {/* Real Abhinaya Logo & Brand */}
+          <Link href="/" className="flex items-center space-x-3 group flex-shrink-0">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white p-1 flex items-center justify-center border-2 border-brand-orange group-hover:scale-105 transition flex-shrink-0 shadow-[0_0_20px_rgba(255,107,0,0.5)]">
               <img
                 src={`${basePath}/assets/logo_abhinaya.png`}
@@ -54,18 +54,18 @@ export const Navbar: React.FC = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="flex flex-col">
-              <span className="font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-brand-orange transition">
+            <div className="flex flex-col justify-center">
+              <span className="font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-brand-orange transition whitespace-nowrap leading-tight">
                 ABHINAYA<span className="text-brand-orange"> UNY</span>
               </span>
-              <span className="text-[9px] sm:text-[10px] text-amber-200/60 font-bold uppercase tracking-wider">
-                KRTMI ROBOTICS TEAM • UNY
+              <span className="text-[9px] sm:text-[10px] text-amber-200/70 font-mono font-bold uppercase tracking-wider whitespace-nowrap leading-tight">
+                KRTMI ROBOTICS TEAM
               </span>
             </div>
           </Link>
 
-          {/* Floating Pill Center Menu */}
-          <nav className="hidden xl:flex items-center space-x-1 px-3 py-1.5 rounded-full bg-[#140D08]/90 border border-[#2B1B10] shadow-inner">
+          {/* Floating Pill Center Menu - Single Line Clean Capsule */}
+          <nav className="hidden lg:flex items-center space-x-1 px-3 py-1.5 rounded-full bg-[#140D08]/95 border border-[#2B1B10] shadow-inner flex-shrink-0">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -73,7 +73,7 @@ export const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`px-3 py-1 rounded-full text-xs font-black tracking-wider transition ${
+                  className={`px-3 py-1 rounded-full text-xs font-black tracking-wider transition whitespace-nowrap flex-shrink-0 ${
                     isActive
                       ? 'bg-brand-orange text-black shadow-[0_0_15px_rgba(255,107,0,0.5)]'
                       : 'text-slate-300 hover:text-white hover:bg-[#20150D]'
@@ -85,42 +85,42 @@ export const Navbar: React.FC = () => {
             })}
           </nav>
 
-          {/* Contact / Social Action Right */}
-          <div className="hidden md:flex items-center space-x-2">
+          {/* Social Links Right */}
+          <div className="hidden sm:flex items-center space-x-2 flex-shrink-0">
             <a
               href="https://www.instagram.com/abhinaya.uny/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-pink-400 text-pink-400 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-pink-400 text-pink-400 hover:text-white flex items-center justify-center transition shadow-md group"
               title="Official Instagram @abhinaya.uny"
             >
-              <FaInstagram className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition" />
+              <FaInstagram className="w-4 h-4 group-hover:scale-110 transition" />
             </a>
             <a
               href="https://www.tiktok.com/@abhinaya.uny"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-cyan-400 text-cyan-400 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-cyan-400 text-cyan-400 hover:text-white flex items-center justify-center transition shadow-md group"
               title="Official TikTok @abhinaya.uny"
             >
-              <FaTiktok className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition" />
+              <FaTiktok className="w-4 h-4 group-hover:scale-110 transition" />
             </a>
             <a
               href="https://www.youtube.com/@AbhinayaUNY"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-red-500 text-red-500 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-red-500 text-red-500 hover:text-white flex items-center justify-center transition shadow-md group"
               title="Official YouTube @AbhinayaUNY"
             >
-              <FaYoutube className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition" />
+              <FaYoutube className="w-4 h-4 group-hover:scale-110 transition" />
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="flex xl:hidden">
+          {/* Mobile Hamburger Button */}
+          <div className="flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-xl bg-[#140D08] text-brand-orange border border-[#2B1B10] hover:bg-brand-orange hover:text-black transition"
+              className="p-2 rounded-xl bg-[#140D08] text-brand-orange border border-[#2B1B10] hover:bg-brand-orange hover:text-black transition cursor-pointer"
               aria-label="Toggle Menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -131,7 +131,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Drawer Menu */}
       {isOpen && (
-        <div className="xl:hidden bg-[#0C0704] border-b border-[#241508] px-4 pt-2 pb-6 space-y-2 animate-fadeIn">
+        <div className="lg:hidden bg-[#0C0704] border-b border-[#241508] px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn shadow-2xl">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
