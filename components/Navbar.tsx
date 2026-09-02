@@ -15,10 +15,10 @@ export const Navbar: React.FC = () => {
     { href: '/', label: 'HOME' },
     { href: '/#about-tim', label: 'ABOUT' },
     { href: '/#prestasi', label: 'PRESTASI' },
-    { href: '/#berita-media', label: 'BERITA' },
+    { href: '/#kri-overview', label: 'KRI' },
+    { href: '/#krtmi-story', label: 'KRTMI' },
     { href: '/pertandingan', label: 'LAGA' },
-    { href: '/krtmi', label: 'KRTMI' },
-    { href: '/divisi', label: 'DIVISI' },
+    { href: '/#berita-media', label: 'BERITA' },
     { href: '/#team-roster', label: 'ROSTER' },
   ];
 
