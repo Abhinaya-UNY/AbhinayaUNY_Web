@@ -112,7 +112,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#070503] text-slate-100 min-h-screen">
+      <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#050507] text-slate-100 min-h-screen">
         <Preloader />
         <Navbar />
         <main className="min-h-[85vh]">

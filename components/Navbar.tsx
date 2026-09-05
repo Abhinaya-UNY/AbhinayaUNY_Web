@@ -41,7 +41,7 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#070503]/98 backdrop-blur-md border-b border-white/5">
+    <header className="sticky top-0 z-50 w-full bg-[#050507]/90 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-18">
           
@@ -131,7 +131,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Drawer Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-[#0C0704] border-b border-[#241508] px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn shadow-2xl">
+        <div className="lg:hidden bg-[#050507]/95 backdrop-blur-xl border-b border-white/10 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn shadow-2xl">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
@@ -139,22 +139,22 @@ export const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`block px-4 py-2.5 rounded-xl text-xs font-black tracking-wider transition ${
+                className={`block px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider uppercase transition ${
                   isActive
-                    ? 'bg-brand-orange text-black'
-                    : 'text-slate-200 hover:text-white hover:bg-[#1E120A]'
+                    ? 'bg-brand-orange text-black font-bold'
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 {link.label}
               </Link>
             );
           })}
-          <div className="pt-4 flex items-center justify-around border-t border-[#241508]">
+          <div className="pt-4 flex items-center justify-around border-t border-white/10">
             <a
               href="https://www.instagram.com/abhinaya.uny/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-xs font-bold text-pink-400"
+              className="flex items-center space-x-2 text-xs font-mono text-slate-400 hover:text-pink-400 transition"
             >
               <FaInstagram className="w-4 h-4" />
               <span>@abhinaya.uny</span>
@@ -163,7 +163,7 @@ export const Navbar: React.FC = () => {
               href="https://www.tiktok.com/@abhinaya.uny"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-xs font-bold text-cyan-400"
+              className="flex items-center space-x-2 text-xs font-mono text-slate-400 hover:text-cyan-400 transition"
             >
               <FaTiktok className="w-4 h-4" />
               <span>TikTok</span>
@@ -172,7 +172,7 @@ export const Navbar: React.FC = () => {
               href="https://www.youtube.com/@AbhinayaUNY"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-xs font-bold text-red-500"
+              className="flex items-center space-x-2 text-xs font-mono text-slate-400 hover:text-red-400 transition"
             >
               <FaYoutube className="w-4 h-4" />
               <span>YouTube</span>

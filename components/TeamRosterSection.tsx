@@ -295,17 +295,17 @@ export const HorizontalScrollMemberTrack: React.FC<{
       {customHeader ? (
         customHeader
       ) : title ? (
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#140E09] border border-[#2B1B10] shadow-lg relative overflow-hidden">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl bg-[#0B0B0E] border border-white/8 shadow-lg relative overflow-hidden">
           {/* Left Accent Stripe */}
           <div className="absolute left-0 top-0 bottom-0 w-1.5" style={{ backgroundColor: accentColor }} />
 
           <div className="flex items-center space-x-3.5 pl-2">
             {icon && (
               <div
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border shadow-md flex-shrink-0"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center border shadow-md flex-shrink-0"
                 style={{
-                  backgroundColor: `${accentColor}20`,
-                  borderColor: `${accentColor}50`,
+                  backgroundColor: `${accentColor}15`,
+                  borderColor: `${accentColor}40`,
                   color: accentColor,
                 }}
               >
@@ -314,11 +314,11 @@ export const HorizontalScrollMemberTrack: React.FC<{
             )}
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-base sm:text-xl font-black text-white flex items-center gap-2">
+                <h3 className="text-base sm:text-xl font-bold text-white flex items-center gap-2">
                   <span>{title}</span>
                 </h3>
                 {count !== undefined && (
-                  <span className="px-2 py-0.5 rounded-md bg-black/60 text-xs font-mono font-bold text-amber-300 border border-white/10">
+                  <span className="px-2 py-0.5 rounded-md bg-white/5 text-xs font-mono font-medium text-slate-300 border border-white/10">
                     {count} Anggota
                   </span>
                 )}
@@ -330,14 +330,14 @@ export const HorizontalScrollMemberTrack: React.FC<{
 
           <div className="flex items-center gap-2.5 pl-2 sm:pl-0 self-end sm:self-center">
             {/* Desktop / Laptop Left-Right Navigation Controls */}
-            <div className="flex items-center gap-1.5 bg-[#1C120A] p-1 rounded-xl border border-[#2B1B10]">
+            <div className="flex items-center gap-1.5 bg-white/5 p-1 rounded-xl border border-white/10">
               <button
                 type="button"
                 onClick={() => handleScroll('left')}
                 disabled={!canScrollLeft}
                 className={`w-8 h-8 rounded-lg flex items-center justify-center transition ${
                   canScrollLeft
-                    ? 'bg-[#2A1A0D] hover:bg-brand-orange text-white hover:text-black cursor-pointer shadow-md'
+                    ? 'bg-white/10 hover:bg-brand-orange text-white hover:text-black cursor-pointer shadow-md'
                     : 'text-slate-600 cursor-not-allowed opacity-40'
                 }`}
                 aria-label="Geser daftar ke kiri"
@@ -351,7 +351,7 @@ export const HorizontalScrollMemberTrack: React.FC<{
                 disabled={!canScrollRight}
                 className={`w-8 h-8 rounded-lg flex items-center justify-center transition ${
                   canScrollRight
-                    ? 'bg-[#2A1A0D] hover:bg-brand-orange text-white hover:text-black cursor-pointer shadow-md'
+                    ? 'bg-white/10 hover:bg-brand-orange text-white hover:text-black cursor-pointer shadow-md'
                     : 'text-slate-600 cursor-not-allowed opacity-40'
                 }`}
                 aria-label="Geser daftar ke kanan"
@@ -497,7 +497,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         onClick={() => setSelectedMember(member)}
         spotlightColor="rgba(255, 107, 0, 0.12)"
         spotlightSize={320}
-        className={`group cursor-pointer relative rounded-2xl bg-[#0E0C0A] hover:bg-[#13100D] border ${
+        className={`group cursor-pointer relative rounded-2xl bg-[#0B0B0E] hover:bg-[#0E0E12] border ${
           customTheme?.border
             ? customTheme.border
             : isLeader
@@ -634,13 +634,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* Navigation View Mode Hub */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 p-2 rounded-2xl bg-[#120D08]/90 border border-brand-orange/25 backdrop-blur-md shadow-xl max-w-5xl mx-auto">
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 p-2 rounded-2xl bg-[#0B0B0E] border border-white/10 shadow-xl max-w-5xl mx-auto">
           <button
             onClick={() => setActiveTab('all')}
-            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'all'
-                ? 'bg-gradient-to-r from-brand-orange to-brand-darkOrange text-white shadow-lg shadow-brand-orange/30'
-                : 'bg-[#1C130B] text-slate-300 hover:text-white hover:bg-[#281B0F]'
+                ? 'bg-brand-orange text-black font-bold shadow-md'
+                : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
             }`}
           >
             <Star className="w-3.5 h-3.5" />
@@ -649,10 +649,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
           <button
             onClick={() => setActiveTab('active')}
-            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'active'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-500/30'
-                : 'bg-[#1C130B] text-cyan-200/80 hover:text-cyan-100 hover:bg-[#281B0F]'
+                ? 'bg-cyan-500 text-black font-bold shadow-md'
+                : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
             }`}
           >
             <Zap className="w-3.5 h-3.5 text-cyan-400" />
@@ -661,36 +661,36 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
           <button
             onClick={() => setActiveTab('leaders')}
-            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'leaders'
-                ? 'bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-lg shadow-amber-500/30'
-                : 'bg-[#1C130B] text-amber-200/80 hover:text-amber-100 hover:bg-[#281B0F]'
+                ? 'bg-amber-400 text-black font-bold shadow-md'
+                : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
             }`}
           >
             <Crown className="w-3.5 h-3.5 text-amber-400" />
             <span>Leaders Hall of Fame</span>
-            <span className="px-1.5 py-0.2 rounded bg-black/40 text-[10px] font-mono font-bold">6</span>
+            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">6</span>
           </button>
 
           <button
             onClick={() => setActiveTab('managers')}
-            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'managers'
-                ? 'bg-gradient-to-r from-emerald-600 to-teal-500 text-white shadow-lg shadow-emerald-500/30'
-                : 'bg-[#1C130B] text-emerald-200/80 hover:text-emerald-100 hover:bg-[#281B0F]'
+                ? 'bg-emerald-400 text-black font-bold shadow-md'
+                : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
             }`}
           >
             <Briefcase className="w-3.5 h-3.5 text-emerald-400" />
             <span>Managers Showcase</span>
-            <span className="px-1.5 py-0.2 rounded bg-black/40 text-[10px] font-mono font-bold">4</span>
+            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">4</span>
           </button>
 
           <button
             onClick={() => setActiveTab('alumni')}
-            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+            className={`flex items-center space-x-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'alumni'
-                ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg shadow-purple-500/30'
-                : 'bg-[#1C130B] text-purple-200/80 hover:text-purple-100 hover:bg-[#281B0F]'
+                ? 'bg-purple-400 text-black font-bold shadow-md'
+                : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
             }`}
           >
             <History className="w-3.5 h-3.5 text-purple-400" />
@@ -704,9 +704,9 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         {(activeTab === 'all' || activeTab === 'active') && (
           <div className="space-y-6 pt-2">
             {/* Division Filter Tabs & Search Bar */}
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-[#120D08]/90 p-3 sm:p-4 rounded-3xl border border-brand-orange/25 backdrop-blur-md shadow-xl">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-[#0B0B0E] p-3 sm:p-4 rounded-2xl border border-white/10 shadow-xl">
               {/* Filter Tabs */}
-              <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-thin scrollbar-thumb-brand-orange/30">
+              <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-thin">
                 {DIVISION_CATEGORIES.map((cat) => {
                   const isActive = selectedDivision === cat.id;
                   return (
@@ -716,10 +716,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         setSelectedDivision(cat.id);
                         setSearchQuery('');
                       }}
-                      className={`flex items-center space-x-2 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all whitespace-nowrap cursor-pointer ${
+                      className={`flex items-center space-x-2 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all whitespace-nowrap cursor-pointer ${
                         isActive
-                          ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black shadow-lg shadow-brand-orange/30 scale-[1.02]'
-                          : 'bg-[#180F09] text-slate-300 hover:text-white hover:bg-[#24160D] border border-[#2A180E]'
+                          ? 'bg-brand-orange text-black font-bold shadow-md'
+                          : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
                       }`}
                     >
                       {getDivisionIcon(cat.id, 'w-3.5 h-3.5')}
@@ -728,7 +728,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         className={`ml-1 px-1.5 py-0.5 rounded-full text-[10px] ${
                           isActive
                             ? 'bg-black/30 text-black font-mono font-bold'
-                            : 'bg-black/50 text-amber-300/80 font-mono'
+                            : 'bg-white/10 text-slate-400 font-mono'
                         }`}
                       >
                         {cat.id === 'All'
@@ -743,13 +743,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               {/* Controls Group: Layout Mode Switcher & Search Box */}
               <div className="flex items-center gap-2.5 w-full md:w-auto justify-end">
                 {/* View Layout Toggle: Responsive Grid vs Horizontal Carousel */}
-                <div className="flex items-center bg-[#0D0804] p-1 rounded-xl border border-brand-orange/20 flex-shrink-0">
+                <div className="flex items-center bg-white/5 p-1 rounded-xl border border-white/10 flex-shrink-0">
                   <button
                     type="button"
                     onClick={() => setViewLayout('grid')}
                     className={`flex items-center space-x-1 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                       viewLayout === 'grid'
-                        ? 'bg-brand-orange/25 text-amber-300 border border-brand-orange/40 shadow-sm'
+                        ? 'bg-brand-orange text-black font-bold shadow-sm'
                         : 'text-slate-400 hover:text-white'
                     }`}
                     title="Tata Letak Grid Responsif"
@@ -762,7 +762,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     onClick={() => setViewLayout('carousel')}
                     className={`flex items-center space-x-1 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                       viewLayout === 'carousel'
-                        ? 'bg-brand-orange/25 text-amber-300 border border-brand-orange/40 shadow-sm'
+                        ? 'bg-brand-orange text-black font-bold shadow-sm'
                         : 'text-slate-400 hover:text-white'
                     }`}
                     title="Tata Letak Carousel Geser"
@@ -780,7 +780,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Cari nama, NIM, skill, quote..."
-                    className="w-full bg-[#0D0804] text-xs text-white placeholder-slate-400 pl-9 pr-8 py-2.5 rounded-xl border border-[#2A180E] focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange transition"
+                    className="w-full bg-[#0E0E12] text-xs text-white placeholder-slate-500 pl-9 pr-8 py-2.5 rounded-xl border border-white/10 focus:border-white/20 focus:outline-none transition"
                   />
                   {searchQuery && (
                     <button
@@ -799,7 +799,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               // Search Results View
               <div>
                 {ALL_ROSTER_MEMBERS.filter(matchesSearch).length === 0 ? (
-                  <div className="p-10 text-center rounded-3xl bg-[#120D08] border border-brand-orange/20 space-y-3">
+                  <div className="p-10 text-center rounded-2xl bg-[#0B0B0E] border border-white/8 space-y-3">
                     <Users className="w-10 h-10 text-slate-500 mx-auto" />
                     <h3 className="text-lg font-bold text-white">Tidak Ada Anggota Ditemukan</h3>
                     <p className="text-xs text-slate-400">
@@ -807,16 +807,16 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     </p>
                     <button
                       onClick={() => setSearchQuery('')}
-                      className="px-4 py-2 rounded-xl bg-brand-orange/20 text-amber-300 text-xs font-bold border border-brand-orange/30 hover:bg-brand-orange hover:text-black transition cursor-pointer"
+                      className="px-4 py-2 rounded-xl bg-white/5 text-slate-300 text-xs font-bold border border-white/10 hover:bg-brand-orange hover:text-black transition cursor-pointer"
                     >
                       Reset Pencarian
                     </button>
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    <div className="flex items-center space-x-2 text-xs font-bold text-brand-orange">
+                    <div className="flex items-center space-x-2 text-xs font-bold text-brand-orange font-mono">
                       <span>Hasil Pencarian:</span>
-                      <span className="px-2 py-0.5 rounded-md bg-brand-orange/20 text-amber-300 font-mono">
+                      <span className="px-2 py-0.5 rounded-md bg-white/5 text-brand-orange font-mono border border-brand-orange/20">
                         {ALL_ROSTER_MEMBERS.filter(matchesSearch).length} anggota ditemukan
                       </span>
                     </div>
@@ -839,14 +839,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                   return viewLayout === 'grid' ? (
                     <div key={divKey} className="space-y-4">
-                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#120D08] border border-[#2A180E] shadow-lg relative overflow-hidden">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl bg-[#0B0B0E] border border-white/8 shadow-lg relative overflow-hidden">
                         <div className="absolute left-0 top-0 bottom-0 w-1.5" style={{ backgroundColor: badgeStyle.accent }} />
                         <div className="flex items-center space-x-3.5 pl-2">
                           <div
-                            className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center border shadow-md flex-shrink-0"
+                            className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center border shadow-md flex-shrink-0"
                             style={{
-                              backgroundColor: `${badgeStyle.accent}20`,
-                              borderColor: `${badgeStyle.accent}50`,
+                              backgroundColor: `${badgeStyle.accent}15`,
+                              borderColor: `${badgeStyle.accent}40`,
                               color: badgeStyle.accent,
                             }}
                           >
@@ -854,10 +854,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                           </div>
                           <div>
                             <div className="flex items-center gap-2">
-                              <h3 className="text-base sm:text-xl font-black text-white flex items-center gap-2">
+                              <h3 className="text-base sm:text-xl font-bold text-white flex items-center gap-2">
                                 <span>{divInfo.title}</span>
                               </h3>
-                              <span className="px-2 py-0.5 rounded-md bg-[#0D0804] text-xs font-mono font-bold text-amber-300 border border-brand-orange/30">
+                              <span className="px-2 py-0.5 rounded-md bg-white/5 text-xs font-mono font-medium text-slate-300 border border-white/10">
                                 {membersInDiv.length} Anggota
                               </span>
                             </div>
@@ -867,7 +867,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                         <button
                           onClick={() => setSelectedDivision(divKey)}
-                          className="text-xs font-bold text-brand-orange hover:text-amber-300 flex items-center space-x-1 pl-2 sm:pl-0 transition cursor-pointer"
+                          className="text-xs font-bold text-slate-300 hover:text-brand-orange flex items-center space-x-1 pl-2 sm:pl-0 transition cursor-pointer"
                         >
                           <span>Fokus Divisi</span>
                           <ChevronRight className="w-3.5 h-3.5" />
@@ -908,7 +908,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 {DIVISION_INFO[selectedDivision as TeamMember['division']] && (
                   viewLayout === 'grid' ? (
                     <div className="space-y-4">
-                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#120D08] border border-[#2A180E] shadow-lg relative overflow-hidden">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#0B0B0E] border border-white/10 shadow-lg relative overflow-hidden">
                         <div
                           className="absolute left-0 top-0 bottom-0 w-1.5"
                           style={{
@@ -928,10 +928,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                           </div>
                           <div>
                             <div className="flex items-center gap-2">
-                              <h3 className="text-base sm:text-xl font-black text-white flex items-center gap-2">
+                              <h3 className="text-base sm:text-xl font-bold text-white flex items-center gap-2">
                                 <span>{DIVISION_INFO[selectedDivision as TeamMember['division']].title}</span>
                               </h3>
-                              <span className="px-2 py-0.5 rounded-md bg-[#0D0804] text-xs font-mono font-bold text-amber-300 border border-brand-orange/30">
+                              <span className="px-2 py-0.5 rounded-md bg-white/5 text-xs font-mono font-medium text-slate-300 border border-white/10">
                                 {ALL_ROSTER_MEMBERS.filter((m) => m.division === selectedDivision).length} Anggota
                               </span>
                             </div>
@@ -943,7 +943,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                         <button
                           onClick={() => setSelectedDivision('All')}
-                          className="px-3.5 py-1.5 rounded-xl bg-[#1C130B] hover:bg-brand-orange text-amber-300 hover:text-black text-xs font-bold transition border border-brand-orange/30 cursor-pointer"
+                          className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white text-xs font-medium transition border border-white/10 cursor-pointer"
                         >
                           Tampilkan Semua Divisi
                         </button>
@@ -966,7 +966,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       actionButton={
                         <button
                           onClick={() => setSelectedDivision('All')}
-                          className="px-3.5 py-1.5 rounded-xl bg-[#1C130B] hover:bg-brand-orange text-amber-300 hover:text-black text-xs font-bold transition border border-brand-orange/30 cursor-pointer"
+                          className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white text-xs font-medium transition border border-white/10 cursor-pointer"
                         >
                           Tampilkan Semua Divisi
                         </button>
@@ -987,22 +987,21 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS HALL OF FAME (2020 – 2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'leaders') && (
-          <div className="space-y-4 pt-4 border-t border-[#26180E]">
+          <div className="space-y-4 pt-4 border-t border-white/5">
             <HorizontalScrollMemberTrack
               accentColor="#EAB308"
               customHeader={
-                <div className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-[#201507] via-[#1A1005] to-[#120B03] border-2 border-amber-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                  <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+                <div className="p-4 sm:p-5 rounded-2xl bg-[#0B0B0E] border border-white/10 relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                   <div className="flex items-center space-x-3.5 relative z-10">
-                    <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center border border-amber-500/50 flex-shrink-0 shadow-lg shadow-amber-500/20">
-                      <Crown className="w-6 h-6" />
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center border border-amber-500/20 flex-shrink-0">
+                      <Crown className="w-5 h-5" />
                     </div>
                     <div>
                       <div className="flex items-center space-x-2">
-                        <span className="text-[10px] font-black uppercase tracking-wider text-amber-400 font-mono">
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-amber-400">
                           CHRONOLOGICAL LEADERSHIP TIMELINE
                         </span>
-                        <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-bold border border-amber-500/30">
+                        <span className="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 text-[10px] font-mono border border-amber-500/20">
                           2020 – 2025
                         </span>
                       </div>
@@ -1044,7 +1043,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             <HorizontalScrollMemberTrack
               accentColor="#10B981"
               customHeader={
-                <div className="p-4 sm:p-5 rounded-2xl bg-[#0A120E] border border-white/10 relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div className="p-4 sm:p-5 rounded-2xl bg-[#0B0B0E] border border-white/10 relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                   <div className="flex items-center space-x-3.5 relative z-10">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
                       <Briefcase className="w-5 h-5" />
@@ -1094,7 +1093,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         {(activeTab === 'all' || activeTab === 'alumni') && (
           <div className="space-y-6 pt-4 border-t border-white/5">
             {/* Alumni Explorer Section Title */}
-            <div className="p-5 rounded-2xl bg-[#0F0A17] border border-white/10 relative overflow-hidden">
+            <div className="p-5 rounded-2xl bg-[#0B0B0E] border border-white/10 relative overflow-hidden">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div className="flex items-center space-x-3.5">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center border border-purple-500/20 flex-shrink-0">
@@ -1142,7 +1141,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Selected Generation Detail Banner & Horizontal Scroll Track */}
             {currentGenArchive && (
-              <div className="p-5 rounded-2xl bg-[#0F0A17] border border-white/10 space-y-4">
+              <div className="p-5 rounded-2xl bg-[#0B0B0E] border border-white/10 space-y-4">
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-3 border-b border-white/5">
                   <div className="space-y-0.5">
                     <div className="flex items-center space-x-2">
@@ -1153,7 +1152,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         {currentGenArchive.tournament}
                       </span>
                     </div>
-                    <h4 className="text-base sm:text-xl font-black text-white">
+                    <h4 className="text-base sm:text-xl font-bold text-white">
                       {currentGenArchive.contingentName}
                     </h4>
                     <p className="text-xs text-slate-300">
@@ -1166,7 +1165,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     {currentGenArchive.achievements.map((ach, idx) => (
                       <div
                         key={idx}
-                        className="px-3 py-1 rounded-xl bg-amber-950/40 text-amber-300 text-xs font-bold border border-amber-500/30 flex items-center space-x-2"
+                        className="px-3 py-1 rounded-xl bg-white/5 text-amber-300 text-xs font-medium border border-white/10 flex items-center space-x-2"
                       >
                         <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                         <span>{ach}</span>
@@ -1195,7 +1194,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           <div className="text-center pt-2">
             <a
               href={`${basePath}/divisi`}
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-[#170E08] border border-brand-orange/40 hover:border-brand-orange text-white text-xs sm:text-sm font-black hover:bg-brand-orange/20 transition shadow-lg"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-[#0B0B0E] border border-white/10 hover:border-white/20 text-white text-xs sm:text-sm font-medium hover:bg-white/5 transition shadow-lg"
             >
               <Layers className="w-4 h-4 text-brand-orange" />
               <span>Pelajari Seluruh Divisi &amp; Kultur Riset Abhinaya</span>
@@ -1216,13 +1215,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           onClick={() => setSelectedMember(null)}
         >
           <div
-            className="relative w-full max-w-3xl bg-[#120D08] border-2 border-brand-orange/40 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-brand-orange/20 space-y-5 max-h-[92vh] overflow-y-auto"
+            className="relative w-full max-w-3xl bg-[#0B0B0E] border border-white/15 rounded-3xl p-5 sm:p-7 shadow-2xl space-y-5 max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 sm:top-5 sm:right-5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#1C130B] hover:bg-brand-orange text-slate-300 hover:text-black flex items-center justify-center transition border border-brand-orange/30 z-30 cursor-pointer"
+              className="absolute top-4 right-4 sm:top-5 sm:right-5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white flex items-center justify-center transition border border-white/10 z-30 cursor-pointer"
               aria-label="Tutup modal"
             >
               <X className="w-5 h-5" />
@@ -1232,7 +1231,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 pt-1">
               {/* Large Photo Frame in Modal */}
               <div
-                className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#0A0704] group"
+                className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-3xl overflow-hidden border border-white/10 shadow-2xl flex-shrink-0 relative bg-black group"
                 style={{
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
@@ -1253,7 +1252,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               <div className="flex-1 space-y-2.5 text-center sm:text-left">
                 <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
                   <span
-                    className={`inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-xl text-[11px] font-black uppercase border ${
+                    className={`inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-xl text-[11px] font-bold uppercase border ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).bg
                     } ${
                       (DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']).text
@@ -1265,29 +1264,29 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     <span>{selectedMember.division}</span>
                   </span>
 
-                  <span className="px-2 py-0.5 rounded-xl bg-[#24140A] text-amber-300 text-xs font-mono font-black border border-brand-orange/30">
+                  <span className="px-2 py-0.5 rounded-xl bg-white/5 text-slate-300 text-xs font-mono font-medium border border-white/10">
                     {selectedMember.badge}
                   </span>
 
                   {selectedMember.generationYear && (
-                    <span className="px-2 py-0.5 rounded-xl bg-purple-950 text-purple-300 text-xs font-mono font-bold border border-purple-500/40">
+                    <span className="px-2 py-0.5 rounded-xl bg-purple-500/10 text-purple-300 text-xs font-mono font-medium border border-purple-500/20">
                       Era {selectedMember.generationYear}
                     </span>
                   )}
                 </div>
 
                 <div>
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight ">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight">
                     {selectedMember.name}
                   </h3>
-                  <p className="text-xs sm:text-sm font-bold text-amber-200 mt-0.5">
+                  <p className="text-xs sm:text-sm font-medium text-slate-300 mt-0.5">
                     {selectedMember.role}
                   </p>
                 </div>
 
                 {/* Quote Banner */}
                 {selectedMember.quote && (
-                  <div className="p-3 rounded-2xl bg-[#180F09] border border-brand-orange/30 text-xs text-amber-200/90 italic flex items-center space-x-2.5 shadow-inner text-left">
+                  <div className="p-3 rounded-2xl bg-[#0E0E12] border border-white/8 text-xs text-slate-300 italic flex items-center space-x-2.5 text-left">
                     <Quote className="w-4 h-4 text-brand-orange flex-shrink-0" />
                     <span className="font-medium">"{selectedMember.quote}"</span>
                   </div>
@@ -1296,7 +1295,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </div>
 
             {/* Academic & Role Metadata Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 p-3.5 rounded-2xl bg-[#0D0804] border border-[#2A180E] text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 p-3.5 rounded-2xl bg-[#0E0E12] border border-white/8 text-xs">
               <div>
                 <span className="text-slate-400 block text-[10px] uppercase font-bold">
                   Nomor Induk (NIM / NIDN)
@@ -1308,7 +1307,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 <span className="text-slate-400 block text-[10px] uppercase font-bold">
                   Status / Angkatan
                 </span>
-                <span className="text-amber-300 font-semibold">
+                <span className="text-slate-200 font-semibold">
                   {selectedMember.generation || 'Mahasiswa Aktif Universitas Negeri Yogyakarta'}
                 </span>
               </div>
@@ -1330,11 +1329,11 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* SubRole Details if present */}
             {selectedMember.subRole && (
-              <div className="p-3 rounded-xl bg-[#180F09] border border-brand-orange/20 text-xs">
-                <span className="text-brand-orange font-black uppercase text-[10px] tracking-wider block mb-1">
+              <div className="p-3 rounded-xl bg-[#0E0E12] border border-white/8 text-xs">
+                <span className="text-brand-orange font-bold uppercase text-[10px] tracking-wider block mb-1">
                   Tanggung Jawab Teknis Spesifik:
                 </span>
-                <p className="text-slate-200 font-medium leading-relaxed">
+                <p className="text-slate-300 font-medium leading-relaxed">
                   {selectedMember.subRole}
                 </p>
               </div>
@@ -1342,11 +1341,11 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Bio Narrative */}
             <div className="space-y-1.5">
-              <span className="text-xs font-black uppercase text-slate-300 tracking-wider flex items-center space-x-1.5">
+              <span className="text-xs font-bold uppercase text-slate-300 tracking-wider flex items-center space-x-1.5">
                 <Award className="w-4 h-4 text-brand-orange" />
                 <span>Deskripsi Kontribusi Riset:</span>
               </span>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#0D0804] p-3.5 rounded-2xl border border-[#2A180E]">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#0E0E12] p-3.5 rounded-2xl border border-white/8">
                 {selectedMember.bio}
               </p>
             </div>
@@ -1354,7 +1353,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Technical Specialization Pills */}
             {selectedMember.specialization && selectedMember.specialization.length > 0 && (
               <div className="space-y-1.5">
-                <span className="text-xs font-black uppercase text-brand-orange tracking-wider flex items-center space-x-1.5">
+                <span className="text-xs font-bold uppercase text-slate-300 tracking-wider flex items-center space-x-1.5">
                   <Cpu className="w-4 h-4 text-brand-orange" />
                   <span>Keahlian &amp; Penguasaan Teknologi:</span>
                 </span>
@@ -1362,7 +1361,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   {selectedMember.specialization.map((spec, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-xl bg-[#221309] text-amber-100 text-xs font-semibold border border-brand-orange/30 shadow-sm"
+                      className="px-2.5 py-1 rounded-xl bg-white/5 text-slate-200 text-xs font-medium border border-white/10"
                     >
                       {spec}
                     </span>
@@ -1374,7 +1373,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Achievements List in Modal if present */}
             {selectedMember.achievements && selectedMember.achievements.length > 0 && (
               <div className="space-y-1.5">
-                <span className="text-xs font-black uppercase text-amber-400 tracking-wider flex items-center space-x-1.5">
+                <span className="text-xs font-bold uppercase text-amber-400 tracking-wider flex items-center space-x-1.5">
                   <Trophy className="w-4 h-4 text-amber-400" />
                   <span>Penghargaan &amp; Prestasi Kejuaraan:</span>
                 </span>
@@ -1382,7 +1381,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   {selectedMember.achievements.map((ach, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1.5 rounded-xl bg-[#1C130B] border border-amber-500/30 text-amber-200 text-xs font-medium flex items-center space-x-2"
+                      className="px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 text-amber-200 text-xs font-medium flex items-center space-x-2"
                     >
                       <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                       <span>{ach}</span>
@@ -1393,7 +1392,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             )}
 
             {/* Social Links & Official Record Confirmation */}
-            <div className="pt-3 border-t border-[#2A180E] flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="pt-3 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="text-[11px] text-slate-400 flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
                 <span>Data Terverifikasi UKM Rekayasa Teknologi Universitas Negeri Yogyakarta</span>
@@ -1406,7 +1405,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-brand-orange text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition border border-white/10"
                       title="GitHub"
                     >
                       <FaGithub className="w-4 h-4" />
@@ -1417,7 +1416,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#0A66C2] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-[#0A66C2] text-slate-300 hover:text-white transition border border-white/10"
                       title="LinkedIn"
                     >
                       <FaLinkedin className="w-4 h-4" />
@@ -1428,7 +1427,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-gradient-to-br hover:from-[#f09433] hover:via-[#e6683c] hover:to-[#bc1888] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-gradient-to-br hover:from-[#f09433] hover:via-[#e6683c] hover:to-[#bc1888] text-slate-300 hover:text-white transition border border-white/10"
                       title="Instagram"
                     >
                       <FaInstagram className="w-4 h-4" />
@@ -1439,7 +1438,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.tiktok}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#010101] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-white/20 text-slate-300 hover:text-white transition border border-white/10"
                       title="TikTok"
                     >
                       <FaTiktok className="w-4 h-4" />
@@ -1450,7 +1449,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.youtube}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#FF0000] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-[#FF0000] text-slate-300 hover:text-white transition border border-white/10"
                       title="YouTube"
                     >
                       <FaYoutube className="w-4 h-4" />
@@ -1461,7 +1460,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       href={selectedMember.socials.twitter}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-[#1DA1F2] text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-[#1DA1F2] text-slate-300 hover:text-white transition border border-white/10"
                       title="Twitter / X"
                     >
                       <FaTwitter className="w-4 h-4" />
@@ -1470,7 +1469,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   {selectedMember.socials.email && (
                     <a
                       href={`mailto:${selectedMember.socials.email}`}
-                      className="p-2 rounded-xl bg-[#20150D] hover:bg-brand-orange text-slate-300 hover:text-white transition border border-[#3A2214]"
+                      className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition border border-white/10"
                       title="Email"
                     >
                       <Mail className="w-4 h-4" />

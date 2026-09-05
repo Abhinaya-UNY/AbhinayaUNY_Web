@@ -5,10 +5,10 @@ import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 export interface SpotlightCardProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
   className?: string;
-  spotlightColor?: string;         // Radial glow color (default: 'rgba(255, 107, 0, 0.15)')
+  spotlightColor?: string;         // Radial glow color (default: 'rgba(255, 107, 0, 0.12)')
   spotlightSize?: number;          // Radius in px (default: 350)
-  borderColor?: string;            // Inactive border (default: '#2A180E')
-  hoverBorderColor?: string;       // Hover border (default: 'rgba(255, 107, 0, 0.6)')
+  borderColor?: string;            // Inactive border (default: 'rgba(255, 255, 255, 0.08)')
+  hoverBorderColor?: string;       // Hover border (default: 'rgba(255, 107, 0, 0.4)')
   as?: React.ElementType;          // Render as div, a, article, etc. (default: 'div')
   href?: string;
   target?: string;
@@ -18,10 +18,10 @@ export interface SpotlightCardProps extends React.HTMLAttributes<HTMLElement> {
 export const SpotlightCard = forwardRef<HTMLElement, SpotlightCardProps>(({
   children,
   className = '',
-  spotlightColor = 'rgba(255, 107, 0, 0.15)',
+  spotlightColor = 'rgba(255, 107, 0, 0.12)',
   spotlightSize = 350,
-  borderColor = '#2A180E',
-  hoverBorderColor = 'rgba(255, 107, 0, 0.6)',
+  borderColor = 'rgba(255, 255, 255, 0.08)',
+  hoverBorderColor = 'rgba(255, 107, 0, 0.4)',
   as: Component = 'div',
   style,
   onMouseMove,
@@ -68,7 +68,7 @@ export const SpotlightCard = forwardRef<HTMLElement, SpotlightCardProps>(({
       ref={localRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={`group relative rounded-3xl bg-[#120D08] border transition-colors duration-300 overflow-hidden ${className}`}
+      className={`group relative rounded-2xl bg-[#0B0B0E] border transition-colors duration-300 overflow-hidden ${className}`}
       style={{
         borderColor: borderColor,
         ...style,

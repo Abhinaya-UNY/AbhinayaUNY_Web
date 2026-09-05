@@ -26,20 +26,20 @@ export const AboutTeamSection: React.FC = () => {
         </div>
 
         {/* Featured Team Photo */}
-        <div className="rounded-2xl overflow-hidden border border-white/5 bg-[#0A0704] flex flex-col group">
+        <div className="rounded-2xl overflow-hidden border border-white/10 bg-[#0B0B0E] flex flex-col group shadow-xl">
           
           {/* Top meta bar */}
-          <div className="px-5 py-3 sm:px-7 bg-[#0D0906] border-b border-white/5 flex flex-wrap items-center justify-between gap-3">
+          <div className="px-5 py-3.5 sm:px-7 bg-[#0E0E12] border-b border-white/5 flex flex-wrap items-center justify-between gap-3">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-lg bg-brand-orange text-black text-[11px] font-bold uppercase tracking-wider">
+              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-lg bg-brand-orange text-black text-[11px] font-bold uppercase tracking-wider font-mono">
                 <Trophy className="w-3 h-3 fill-black" />
                 <span>KONTINGEN RESMI KRTMI 2024</span>
               </span>
-              <span className="text-slate-500 text-[11px] font-mono">
+              <span className="text-slate-400 text-[11px] font-mono">
                 Edutorium UMS Surakarta
               </span>
             </div>
-            <div className="flex items-center space-x-1.5 text-[11px] font-mono text-slate-500">
+            <div className="flex items-center space-x-1.5 text-[11px] font-mono text-slate-400">
               <Camera className="w-3 h-3" />
               <span>Dokumentasi Resmi Paddock Nasional</span>
             </div>
@@ -50,17 +50,17 @@ export const AboutTeamSection: React.FC = () => {
             <img
               src={`${basePath}/images/team_ums_2024_web.jpg`}
               alt="Tim Robotika Abhinaya UNY Seusai Berjuang di Ajang KRTMI UMS 2024"
-              className="w-full h-full object-cover object-top sm:object-center group-hover:scale-[1.02] transition-transform duration-700 brightness-100 contrast-105"
+              className="w-full h-full object-cover object-top sm:object-center group-hover:scale-[1.01] transition-transform duration-700 brightness-100 contrast-105"
             />
           </div>
 
           {/* Caption below */}
-          <div className="p-5 sm:p-7 bg-[#0D0906] border-t border-white/5 space-y-2">
+          <div className="p-5 sm:p-7 bg-[#0E0E12] border-t border-white/5 space-y-2">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
-              <h3 className="text-base sm:text-lg font-semibold text-white">
+              <h3 className="text-base sm:text-lg font-bold text-white">
                 Momen Kebersamaan Tim Abhinaya UNY Seusai Berjuang di KRTMI Nasional 2024
               </h3>
-              <div className="flex items-center gap-2 text-[11px] font-mono text-slate-500">
+              <div className="flex items-center gap-2 text-[11px] font-mono text-slate-400">
                 <span>15 Personel Kontingen</span>
                 <span className="text-white/20">|</span>
                 <span>4 Divisi Teknis</span>
@@ -121,7 +121,7 @@ export const AboutTeamSection: React.FC = () => {
 
           {/* Photo Collage */}
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
-            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0A0704] transition duration-300">
+            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0E0E12] transition duration-300">
               <img
                 src={`${basePath}/assets/WEB_5721.jpg`}
                 alt="Aktivitas Riset Laboratorium Abhinaya UNY"
@@ -131,7 +131,7 @@ export const AboutTeamSection: React.FC = () => {
                 }}
               />
             </div>
-            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0A0704] transition duration-300">
+            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0E0E12] transition duration-300">
               <img
                 src={`${basePath}/assets/robot_action_1.jpg`}
                 alt="Pengujian Komponen Mekanik & Elektrik Robot"

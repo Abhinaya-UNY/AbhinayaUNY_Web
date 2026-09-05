@@ -16,10 +16,10 @@ export default function NotFound() {
         <div className="w-[600px] h-[600px] bg-brand-orange/20 rounded-full blur-[120px] animate-pulse-slow" />
       </div>
 
-      <div className="relative z-10 max-w-2xl w-full p-8 sm:p-12 rounded-3xl bg-[#090F1C]/90 border-2 border-brand-border backdrop-blur-xl shadow-[0_0_50px_rgba(255,107,0,0.1)] text-center space-y-8 hud-corner">
+      <div className="relative z-10 max-w-2xl w-full p-8 sm:p-12 rounded-3xl bg-[#0B0B0E] border border-white/15 backdrop-blur-xl shadow-2xl text-center space-y-8">
         
         {/* Telemetry Status Bar */}
-        <div className="flex items-center justify-between border-b border-slate-800 pb-4 text-xs font-mono text-slate-400">
+        <div className="flex items-center justify-between border-b border-white/8 pb-4 text-xs font-mono text-slate-400">
           <div className="flex items-center space-x-2">
             <span className="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping" />
             <span className="text-red-400 font-bold uppercase tracking-wider">ERROR // STATUS 404</span>
@@ -32,17 +32,17 @@ export default function NotFound() {
 
         {/* 404 Glitch & Icon Showcase */}
         <div className="space-y-3">
-          <div className="inline-flex p-4 rounded-2xl bg-red-500/10 border border-red-500/30 text-red-400 shadow-[0_0_25px_rgba(239,68,68,0.2)]">
-            <Bot className="w-12 h-12 animate-bounce" />
+          <div className="inline-flex p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 shadow-lg">
+            <Bot className="w-12 h-12" />
           </div>
 
           <div className="font-mono">
-            <span className="text-6xl sm:text-8xl font-black tracking-tighter bg-gradient-to-r from-red-400 via-amber-400 to-brand-orange bg-clip-text text-transparent">
+            <span className="text-6xl sm:text-8xl font-black tracking-tighter bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
               404
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
             Target Koordinat Waypoint Tidak Ditemukan
           </h1>
 
@@ -52,8 +52,8 @@ export default function NotFound() {
         </div>
 
         {/* Diagnostic Terminal Mockup */}
-        <div className="p-4 rounded-2xl bg-[#050811] border border-slate-800 text-left font-mono text-xs space-y-1.5 text-slate-400">
-          <div className="flex items-center space-x-2 text-brand-orange text-[11px] pb-1 border-b border-slate-900">
+        <div className="p-4 rounded-2xl bg-[#0E0E12] border border-white/8 text-left font-mono text-xs space-y-1.5 text-slate-400">
+          <div className="flex items-center space-x-2 text-brand-orange text-[11px] pb-1 border-b border-white/5">
             <Terminal className="w-3.5 h-3.5" />
             <span>DIAGNOSTIC TELEMETRY LOG</span>
           </div>
@@ -66,7 +66,7 @@ export default function NotFound() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
           <Link
             href="/"
-            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 hover:from-amber-500 hover:to-brand-orange text-black font-black text-sm shadow-[0_0_20px_rgba(255,107,0,0.4)] transition group"
+            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-brand-orange hover:bg-brand-darkOrange text-black font-bold text-sm shadow-lg transition group"
           >
             <Home className="w-4 h-4" />
             <span>Kembali ke Beranda</span>
@@ -74,7 +74,7 @@ export default function NotFound() {
 
           <Link
             href="/krtmi"
-            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-slate-900 border border-slate-700 hover:border-brand-orange text-white hover:text-brand-orange font-bold text-sm transition"
+            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 text-slate-300 hover:text-white font-medium text-sm transition"
           >
             <History className="w-4 h-4" />
             <span>Arsip KRTMI (2019–2026)</span>
@@ -82,7 +82,7 @@ export default function NotFound() {
 
           <Link
             href="/pertandingan"
-            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-slate-900 border border-slate-700 hover:border-brand-orange text-white hover:text-brand-orange font-bold text-sm transition"
+            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 text-slate-300 hover:text-white font-medium text-sm transition"
           >
             <ShieldCheck className="w-4 h-4" />
             <span>Laga &amp; Hasil Pertandingan</span>
@@ -90,7 +90,7 @@ export default function NotFound() {
 
           <Link
             href="/prestasi"
-            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-slate-900 border border-slate-700 hover:border-brand-orange text-white hover:text-brand-orange font-bold text-sm transition"
+            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 text-slate-300 hover:text-white font-medium text-sm transition"
           >
             <Trophy className="w-4 h-4" />
             <span>Kabinet Prestasi Juara</span>

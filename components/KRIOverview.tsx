@@ -78,17 +78,16 @@ export const KRIOverview: React.FC = () => {
   ];
 
   return (
-    <section id="kri-overview" className="py-8 sm:py-10 md:py-12 bg-[#080503] border-t border-[#1C120A] relative overflow-hidden">
+    <section id="kri-overview" className="py-8 sm:py-10 md:py-12 bg-[#050507] border-t border-white/5 relative overflow-hidden">
       {/* Background glow ambiance */}
       <div className="absolute top-1/3 left-10 w-96 h-96 bg-brand-orange/5 blur-[120px] pointer-events-none rounded-full" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-amber-500/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
         
         {/* Section Header */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
-            <Compass className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
+            <Compass className="w-3.5 h-3.5 text-brand-orange" />
             <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
@@ -100,15 +99,15 @@ export const KRIOverview: React.FC = () => {
         </div>
 
         {/* SPOTLIGHT UTAMA: KRTMI (KONTES ROBOT TEMATIK INDONESIA) */}
-        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-6 relative overflow-hidden">
+        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#0B0B0E] border border-white/8 space-y-6 relative overflow-hidden">
           {/* Header Showcase KRTMI */}
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-white/5 pb-6">
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="px-3.5 py-1 rounded-xl bg-brand-orange text-black font-black text-xs uppercase tracking-wider font-mono">
+                <span className="px-3 py-1 rounded-lg bg-brand-orange text-black font-bold text-xs uppercase tracking-wider font-mono">
                   DIVISI SPESIALISASI ABHINAYA UNY
                 </span>
-                <span className="px-3 py-1 rounded-xl bg-amber-500/20 text-amber-300 font-bold text-xs border border-amber-500/40 flex items-center space-x-1">
+                <span className="px-3 py-1 rounded-lg bg-white/5 text-slate-300 font-bold text-xs border border-white/10 flex items-center space-x-1 font-mono">
                   <Flame className="w-3.5 h-3.5 text-brand-orange fill-brand-orange" />
                   <span>Juara 1 Wilayah &amp; Juara 2 Nasional</span>
                 </span>
@@ -116,14 +115,14 @@ export const KRIOverview: React.FC = () => {
               <h3 className="text-2xl sm:text-3xl font-black text-white">
                 Apa Itu KRTMI (Kontes Robot Tematik Indonesia)?
               </h3>
-              <p className="text-xs sm:text-sm text-amber-200/90 max-w-3xl leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
                 KRTMI adalah salah satu divisi resmi KRI yang menguji kemampuan tim dalam menciptakan robot beroda otonom cerdas untuk menyelesaikan misi bertema khusus (*thematic mission*) yang relevan dengan kebutuhan industri dan kemanusiaan.
               </p>
             </div>
 
             <a
               href="#krtmi-story"
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-brand-orange hover:bg-amber-400 text-black font-black text-xs tracking-wider transition shadow-lg shadow-brand-orange/30 hover:scale-105 flex-shrink-0 cursor-pointer"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-brand-orange hover:bg-amber-400 text-black font-bold text-xs tracking-wider transition shadow-md flex-shrink-0 cursor-pointer"
             >
               <span>Lihat Bedah Regulasi KRTMI (2019–2026)</span>
               <ArrowRight className="w-4 h-4" />
@@ -135,23 +134,23 @@ export const KRIOverview: React.FC = () => {
             {krtmiPillars.map((p, i) => (
               <SpotlightCard
                 key={i}
-                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightColor="rgba(255, 107, 0, 0.12)"
                 spotlightSize={250}
-                className="p-4 sm:p-5 rounded-2xl bg-[#170E08] border border-brand-orange/30 hover:border-brand-orange transition space-y-2.5 shadow-md group"
+                className="p-4 sm:p-5 rounded-2xl bg-[#0E0E12] border border-white/8 hover:border-white/20 transition space-y-2.5 group"
               >
                 <div className="space-y-2.5">
-                  <div className="w-10 h-10 rounded-xl bg-[#24160C] flex items-center justify-center border border-brand-orange/30 group-hover:scale-110 transition">
+                  <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
                     {p.icon}
                   </div>
-                  <h4 className="text-sm font-black text-white">{p.title}</h4>
-                  <p className="text-xs text-slate-300 leading-relaxed">{p.desc}</p>
+                  <h4 className="text-sm font-bold text-white">{p.title}</h4>
+                  <p className="text-xs text-slate-400 leading-relaxed">{p.desc}</p>
                 </div>
               </SpotlightCard>
             ))}
           </div>
 
           {/* Kronologi Singkat Perjalanan Tema KRTMI */}
-          <div className="p-4 sm:p-5 rounded-2xl bg-[#110B07] border border-[#2B1B10] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#0E0E12] border border-white/5 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs">
             <div className="flex items-center space-x-2 text-amber-300 font-bold">
               <Trophy className="w-4 h-4 text-brand-gold flex-shrink-0" />
               <span>Evolusi Tema KRTMI:</span>
@@ -189,37 +188,37 @@ export const KRIOverview: React.FC = () => {
             {otherDivisions.map((div) => (
               <SpotlightCard
                 key={div.code}
-                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightColor="rgba(255, 107, 0, 0.12)"
                 spotlightSize={280}
                 className={`p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight
-                    ? 'bg-gradient-to-b from-[#241508] to-[#140D07] border-brand-orange shadow-[0_0_25px_rgba(255,107,0,0.2)] ring-1 ring-brand-orange'
-                    : 'bg-[#120D08] border-[#2B1B10] hover:border-slate-700'
+                    ? 'bg-[#0E0E12] border-brand-orange/40 shadow-lg shadow-brand-orange/5'
+                    : 'bg-[#0E0E12] border-white/8 hover:border-white/20'
                 }`}
               >
                 <div className="space-y-2.5">
                   <div className="flex items-center justify-between">
                     <span
-                      className={`text-xs font-black font-mono px-3 py-1 rounded-xl ${
-                        div.isHighlight ? 'bg-brand-orange text-black' : 'bg-[#22160E] text-amber-200 border border-[#3A2214]'
+                      className={`text-xs font-bold font-mono px-3 py-1 rounded-lg ${
+                        div.isHighlight ? 'bg-brand-orange text-black' : 'bg-white/5 text-slate-300 border border-white/10'
                       }`}
                     >
                       <DecryptedText
                         text={div.code}
                         animateOn="hover"
-                        className={div.isHighlight ? 'text-black font-mono font-black' : 'text-amber-200 font-mono font-black'}
+                        className={div.isHighlight ? 'text-black font-mono font-bold' : 'text-slate-300 font-mono font-bold'}
                       />
                     </span>
                     {div.isHighlight && (
-                      <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider flex items-center space-x-1">
+                      <span className="text-[10px] font-bold uppercase text-brand-orange tracking-wider flex items-center space-x-1 font-mono">
                         <Flame className="w-3.5 h-3.5 text-brand-orange fill-brand-orange" />
                         <span>Fokus Tim Abhinaya</span>
                       </span>
                     )}
                   </div>
 
-                  <h5 className="text-sm font-black text-white">{div.name}</h5>
-                  <p className="text-xs text-slate-300 leading-relaxed">{div.desc}</p>
+                  <h5 className="text-sm font-bold text-white">{div.name}</h5>
+                  <p className="text-xs text-slate-400 leading-relaxed">{div.desc}</p>
                 </div>
               </SpotlightCard>
             ))}

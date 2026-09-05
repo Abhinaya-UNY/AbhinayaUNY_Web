@@ -29,7 +29,7 @@ export const Preloader: React.FC = () => {
 
   return (
     <div
-      className="fixed inset-0 z-[9999] bg-[#070503] flex items-center justify-center transition-opacity duration-500"
+      className="fixed inset-0 z-[9999] bg-[#050507] flex items-center justify-center transition-opacity duration-500"
       style={{ opacity }}
     >
       <div className="flex flex-col items-center gap-5">

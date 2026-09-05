@@ -90,7 +90,7 @@ export const AmbientGrid: React.FC<AmbientGridProps> = ({
       <div
         className="absolute inset-0"
         style={{
-          background: 'radial-gradient(ellipse 80% 70% at 50% 35%, transparent 30%, #070503 100%)',
+          background: 'radial-gradient(ellipse 80% 70% at 50% 35%, transparent 30%, #050507 100%)',
         }}
       />
 

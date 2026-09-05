@@ -33,7 +33,7 @@ export default function DivisiPage() {
         {TEAM_DIVISIONS.map((div) => (
           <div
             key={div.id}
-            className="p-6 sm:p-8 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-5 hover:border-brand-orange/40 transition duration-300"
+            className="p-6 sm:p-8 rounded-2xl bg-[#0B0B0E] border border-white/10 space-y-5 hover:border-brand-orange/40 transition duration-300"
           >
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center border border-brand-orange/20 flex-shrink-0">
@@ -86,7 +86,7 @@ export default function DivisiPage() {
       </div>
 
       {/* Freshmen FAQ & Welcome Section */}
-      <div className="p-8 sm:p-12 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-6">
+      <div className="p-8 sm:p-12 rounded-2xl bg-[#0B0B0E] border border-white/10 space-y-6">
         <div className="space-y-2 text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 text-xs font-mono uppercase text-brand-orange">
             <Sparkles className="w-4 h-4" />

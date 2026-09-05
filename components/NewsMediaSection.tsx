@@ -9,23 +9,22 @@ export const NewsMediaSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
-    <section id="berita-media" className="py-8 sm:py-10 md:py-12 relative border-b border-[#2A180E] bg-[#070503]">
+    <section id="berita-media" className="py-8 sm:py-10 md:py-12 relative border-b border-white/5 bg-[#050507]">
       {/* Background Ambience */}
       <div className="absolute top-1/2 right-10 w-96 h-96 bg-brand-orange/5 blur-[120px] pointer-events-none rounded-full" />
-      <div className="absolute bottom-10 left-10 w-80 h-80 bg-amber-600/5 blur-[100px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header with Full Width on Laptop */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
             <Newspaper className="w-3.5 h-3.5 text-brand-orange" />
             <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
             Liputan Berita Resmi &amp; Publikasi Media Nasional
           </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
+          <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
             Kumpulan siaran pers resmi Universitas Negeri Yogyakarta (UNY), liputan video televisi nasional ANTARA News, dan publikasi Puspresnas Kemendikbudristek atas torehan prestasi kontingen robotika Abhinaya UNY.
           </p>
         </div>
@@ -45,24 +44,17 @@ export const NewsMediaSection: React.FC = () => {
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightColor="rgba(255, 107, 0, 0.12)"
                 spotlightSize={350}
-                className={`group rounded-3xl bg-[#120D08] border ${
+                className={`group rounded-2xl bg-[#0B0B0E] border ${
                   isFirst
-                    ? 'border-brand-orange/50 hover:border-brand-orange bg-gradient-to-b from-[#1C120A] to-[#120D08] shadow-[0_0_30px_rgba(255,107,0,0.15)] ring-1 ring-brand-orange/30'
-                    : 'border-[#2A180E] hover:border-brand-orange/70'
-                } p-5 sm:p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-1 relative overflow-hidden`}
+                    ? 'border-brand-orange/40 hover:border-brand-orange/70 shadow-lg shadow-brand-orange/5'
+                    : 'border-white/8 hover:border-white/20'
+                } p-5 sm:p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 relative overflow-hidden`}
               >
-                {/* Top Accent Stripe */}
-                <div
-                  className={`absolute top-0 left-0 right-0 h-1.5 ${
-                    isFirst ? 'bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400' : 'bg-brand-orange/50'
-                  }`}
-                />
-
                 <div className="space-y-4">
                   {/* 1. Pristine Thumbnail Viewport (100% Unblocked, Zero Text Over Thumbnail) */}
-                  <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-black border border-[#2A180E]">
+                  <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden bg-black border border-white/8">
                     <img
                       src={resolvedImg}
                       alt={article.title}
@@ -100,23 +92,23 @@ export const NewsMediaSection: React.FC = () => {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-base sm:text-lg font-black text-white group-hover:text-amber-300 transition line-clamp-2 leading-snug">
+                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition line-clamp-2 leading-snug">
                       {article.title}
                     </h3>
 
                     {/* Summary */}
-                    <p className="text-xs text-slate-300 leading-relaxed line-clamp-3">
+                    <p className="text-xs text-slate-400 leading-relaxed line-clamp-3">
                       {article.summary}
                     </p>
                   </div>
                 </div>
 
                 {/* 3. Card Footer: Action Link */}
-                <div className="pt-4 mt-4 border-t border-[#2A180E] flex items-center justify-between text-xs font-bold text-brand-orange group-hover:text-amber-300">
+                <div className="pt-4 mt-4 border-t border-white/5 flex items-center justify-between text-xs font-bold text-slate-300 group-hover:text-brand-orange transition">
                   <span className="flex items-center space-x-1">
                     <span>Baca Artikel Asli</span>
                   </span>
-                  <div className="w-7 h-7 rounded-full bg-[#1C130B] group-hover:bg-brand-orange group-hover:text-black flex items-center justify-center transition">
+                  <div className="w-7 h-7 rounded-full bg-white/5 border border-white/10 group-hover:bg-brand-orange group-hover:text-black flex items-center justify-center transition">
                     <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </div>

@@ -32,7 +32,7 @@
 | M1 | React Bits Core Animation Primitives | `components/animations/DecryptedText.tsx`, `ShinyText.tsx`, `BlurText.tsx`, `SpotlightCard.tsx`, `CountUp.tsx`, `AmbientGrid.tsx`, `index.ts`, `components/ui/SpotlightCard.tsx` | Survey | DONE |
 | M2 | Section Integrations & Micro-Interactions | `components/HeroSection.tsx`, `components/TeamRosterSection.tsx`, `components/Achievements.tsx`, `components/NewsMediaSection.tsx`, `components/AboutTeamSection.tsx`, `components/KrtmiChronicles.tsx`, `components/KRIOverview.tsx`, `app/pertandingan/page.tsx` | M1 | DONE |
 | M3 | Comprehensive Verification, Test Suite & Forensic Audit Gate | `scripts/test_empirical_html_output.js`, `scripts/stress_test_edge_cases.js`, `scripts/run_e2e_tests.js`, `npm.cmd run build` | M2 | DONE |
-| M4 | Production Git Sync & Sentinel Delivery | Clean git commit, push to `origin main`, write `handoff.md`, notify Sentinel | M3 | IN_PROGRESS |
+| M4 | Production Git Sync & Sentinel Delivery | Clean git commit, push to `origin main`, write `handoff.md`, notify Sentinel | M3 | DONE |
 
 ## Interface Contracts
 ### `components/animations/DecryptedText.tsx`

@@ -14,23 +14,23 @@ export const DocumentationGallerySection: React.FC = () => {
     : GALLERY_ITEMS.filter((item) => item.category === activeCategory);
 
   return (
-    <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#070503] border-y border-[#1A120B] relative overflow-hidden">
+    <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#050507] border-y border-white/5 relative overflow-hidden">
       
       {/* Background Subtle Glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-orange/10 blur-[140px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-orange/5 blur-[140px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-[#1A120B] pb-6 sm:pb-8">
-          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
+        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-white/5 pb-6 sm:pb-8">
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
             <Camera className="w-3.5 h-3.5 text-brand-orange" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
             Galeri Jejak Riset &amp; Perjuangan Abhinaya
           </h2>
-          <p className="text-xs sm:text-sm text-slate-300">
+          <p className="text-xs sm:text-sm text-slate-400">
             Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika UKM Rekayasa Teknologi UNY.
           </p>
         </div>
@@ -46,10 +46,10 @@ export const DocumentationGallerySection: React.FC = () => {
               key={cat}
               type="button"
               onClick={() => setActiveCategory(cat)}
-              className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition duration-200 ${
+              className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition duration-200 cursor-pointer ${
                 activeCategory === cat
-                  ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black font-black shadow-[0_0_15px_rgba(255,107,0,0.4)]'
-                  : 'bg-[#140E09] text-slate-300 hover:text-white hover:bg-[#20140A] border border-[#2B1B10]'
+                  ? 'bg-brand-orange text-black font-bold shadow-md'
+                  : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
               }`}
             >
               {cat}
@@ -63,7 +63,7 @@ export const DocumentationGallerySection: React.FC = () => {
             <div
               key={item.id}
               onClick={() => setSelectedPhoto(item)}
-              className="group cursor-pointer rounded-2xl sm:rounded-3xl overflow-hidden bg-[#120D08] border border-[#2A180E] hover:border-brand-orange/70 transition-all duration-300 flex flex-col shadow-lg hover:shadow-[0_10px_30px_rgba(255,107,0,0.15)]"
+              className="group cursor-pointer rounded-2xl overflow-hidden bg-[#0B0B0E] border border-white/8 hover:border-white/20 transition-all duration-300 flex flex-col hover:-translate-y-1 shadow-lg"
             >
               {/* 1. Pristine Photo Viewport (100% Unblocked, 4:3 Natural Ratio, Zero Badges Over Photo) */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-black">
@@ -75,19 +75,19 @@ export const DocumentationGallerySection: React.FC = () => {
               </div>
 
               {/* 2. Dedicated Card Body with Meta on Top */}
-              <div className="p-4 space-y-2 flex-1 flex flex-col justify-between bg-[#0D0906]">
+              <div className="p-4 space-y-2 flex-1 flex flex-col justify-between bg-[#0B0B0E]">
                 <div className="space-y-2">
                   {/* Clean Meta Strip Below Photo */}
                   <div className="flex items-center justify-between text-[11px]">
-                    <span className="px-2.5 py-0.5 rounded-md bg-[#1C130B] text-amber-300 font-mono font-bold border border-brand-orange/25">
+                    <span className="px-2 py-0.5 rounded-md bg-white/5 text-slate-300 font-mono font-bold border border-white/10">
                       {item.category}
                     </span>
-                    <span className="px-2 py-0.5 rounded-md bg-brand-orange/20 text-brand-orange font-mono font-black">
+                    <span className="px-2 py-0.5 rounded-md bg-white/5 text-brand-orange font-mono font-bold border border-brand-orange/20">
                       {item.year}
                     </span>
                   </div>
 
-                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-amber-300 transition line-clamp-1">
+                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-brand-orange transition line-clamp-1">
                     {item.title}
                   </h3>
                   <p className="text-[11px] text-slate-400 line-clamp-2 leading-relaxed">
@@ -95,9 +95,9 @@ export const DocumentationGallerySection: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="pt-2 flex items-center justify-between text-[10px] text-amber-200/70 font-semibold border-t border-[#2A180E]">
+                <div className="pt-2 flex items-center justify-between text-[10px] text-slate-400 font-semibold border-t border-white/5">
                   <span className="truncate max-w-[140px]">{item.event}</span>
-                  <span className="text-brand-orange font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
+                  <span className="text-slate-300 group-hover:text-brand-orange font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
                     <span>Buka</span> &rarr;
                   </span>
                 </div>
@@ -115,18 +115,18 @@ export const DocumentationGallerySection: React.FC = () => {
           onClick={() => setSelectedPhoto(null)}
         >
           <div
-            className="relative max-w-4xl w-full bg-[#120D08] border border-brand-orange/50 rounded-3xl overflow-hidden shadow-2xl space-y-4 p-4 sm:p-6"
+            className="relative max-w-4xl w-full bg-[#0B0B0E] border border-white/15 rounded-2xl overflow-hidden shadow-2xl space-y-4 p-4 sm:p-6"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               type="button"
               onClick={() => setSelectedPhoto(null)}
-              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-brand-orange hover:text-black transition border border-white/20"
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-brand-orange hover:text-black transition border border-white/20 cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
 
-            <div className="rounded-2xl overflow-hidden max-h-[65vh] bg-black flex items-center justify-center">
+            <div className="rounded-xl overflow-hidden max-h-[65vh] bg-black flex items-center justify-center border border-white/5">
               <img
                 src={`${basePath}${selectedPhoto.image}`}
                 alt={selectedPhoto.title}
@@ -136,14 +136,14 @@ export const DocumentationGallerySection: React.FC = () => {
 
             <div className="space-y-2 pt-2">
               <div className="flex items-center space-x-2">
-                <span className="px-2.5 py-0.5 rounded-full bg-brand-orange/20 text-brand-orange text-[10px] font-black uppercase border border-brand-orange/40">
+                <span className="px-2.5 py-0.5 rounded-full bg-white/5 text-brand-orange text-[10px] font-mono font-bold uppercase border border-brand-orange/30">
                   {selectedPhoto.category}
                 </span>
-                <span className="text-xs text-amber-300 font-bold">
+                <span className="text-xs text-slate-400 font-mono">
                   {selectedPhoto.event} • {selectedPhoto.year}
                 </span>
               </div>
-              <h3 className="text-lg sm:text-xl font-black text-white">
+              <h3 className="text-lg sm:text-xl font-bold text-white">
                 {selectedPhoto.title}
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">

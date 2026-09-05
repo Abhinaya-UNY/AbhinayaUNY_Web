@@ -97,8 +97,8 @@ export const Achievements: React.FC = () => {
               spotlightSize={300}
               className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight
-                  ? 'bg-[#120E0A] border-brand-orange/30 hover:border-brand-orange/60 shadow-lg shadow-brand-orange/5'
-                  : 'bg-[#0E0C0A] border-white/8 hover:border-white/15'
+                  ? 'bg-[#0E0E12] border-brand-orange/40 hover:border-brand-orange/70 shadow-lg shadow-brand-orange/5'
+                  : 'bg-[#0B0B0E] border-white/8 hover:border-white/15'
               }`}
             >
               <div className="space-y-4">
@@ -125,7 +125,7 @@ export const Achievements: React.FC = () => {
                   <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-amber-200/90 font-medium">
+                  <p className="text-xs text-slate-300 font-medium">
                     {item.event}
                   </p>
                   <p className="text-[11px] text-slate-400">
