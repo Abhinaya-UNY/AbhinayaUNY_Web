@@ -448,7 +448,8 @@ export const KrtmiChronicles: React.FC = () => {
             </div>
 
             <a
-              href={`${basePath}${activeStory.pdfFile}`}
+              href={`${basePath}/guidebooks/${activeStory.pdfFile}`}
+              download={activeStory.pdfFile}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-gradient-to-r from-brand-orange to-brand-darkOrange text-black font-black text-xs uppercase tracking-wider flex items-center justify-center space-x-2 shadow-lg shadow-brand-orange/20 hover:scale-105 transition"

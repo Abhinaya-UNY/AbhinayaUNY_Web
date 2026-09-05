@@ -340,6 +340,7 @@ export default function KrtmiPage() {
               </div>
               <a
                 href={`${basePath}/guidebooks/${story.pdfFile}`}
+                download={story.pdfFile}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-brand-orange to-amber-500 hover:from-amber-500 hover:to-orange-500 text-black font-black text-xs flex items-center justify-center space-x-2 transition shadow-lg whitespace-nowrap uppercase tracking-wider hover:scale-105"
