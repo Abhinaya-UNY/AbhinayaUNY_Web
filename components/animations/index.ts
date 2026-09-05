@@ -4,3 +4,4 @@ export * from './BlurText';
 export * from './SpotlightCard';
 export * from './CountUp';
 export * from './AmbientGrid';
+export * from './CyberBento';

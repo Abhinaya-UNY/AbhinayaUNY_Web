@@ -18,10 +18,10 @@ export interface SpotlightCardProps extends React.HTMLAttributes<HTMLElement> {
 export const SpotlightCard = forwardRef<HTMLElement, SpotlightCardProps>(({
   children,
   className = '',
-  spotlightColor = 'rgba(255, 107, 0, 0.12)',
+  spotlightColor = 'rgba(234, 88, 12, 0.12)',
   spotlightSize = 350,
   borderColor = 'rgba(255, 255, 255, 0.08)',
-  hoverBorderColor = 'rgba(255, 107, 0, 0.4)',
+  hoverBorderColor = 'rgba(255, 255, 255, 0.16)',
   as: Component = 'div',
   style,
   onMouseMove,

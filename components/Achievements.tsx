@@ -93,12 +93,12 @@ export const Achievements: React.FC = () => {
           {awards.map((item, idx) => (
             <SpotlightCard
               key={idx}
-              spotlightColor="rgba(255, 107, 0, 0.12)"
+              spotlightColor={item.highlight ? 'rgba(245, 158, 11, 0.14)' : 'rgba(234, 88, 12, 0.10)'}
               spotlightSize={300}
               className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight
-                  ? 'bg-[#0E0E12] border-brand-orange/40 hover:border-brand-orange/70 shadow-lg shadow-brand-orange/5'
-                  : 'bg-[#0B0B0E] border-white/8 hover:border-white/15'
+                  ? 'bg-[#0E0E12] border-brand-orange/30 hover:border-brand-orange/50 shadow-lg shadow-brand-orange/5'
+                  : 'bg-[#0B0B0E] border-white/8 hover:border-white/16'
               }`}
             >
               <div className="space-y-4">

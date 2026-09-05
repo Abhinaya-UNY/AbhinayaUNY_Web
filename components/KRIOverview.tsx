@@ -134,7 +134,7 @@ export const KRIOverview: React.FC = () => {
             {krtmiPillars.map((p, i) => (
               <SpotlightCard
                 key={i}
-                spotlightColor="rgba(255, 107, 0, 0.12)"
+                spotlightColor="rgba(234, 88, 12, 0.10)"
                 spotlightSize={250}
                 className="p-4 sm:p-5 rounded-2xl bg-[#0E0E12] border border-white/8 hover:border-white/20 transition space-y-2.5 group"
               >
@@ -188,7 +188,7 @@ export const KRIOverview: React.FC = () => {
             {otherDivisions.map((div) => (
               <SpotlightCard
                 key={div.code}
-                spotlightColor="rgba(255, 107, 0, 0.12)"
+                spotlightColor="rgba(234, 88, 12, 0.10)"
                 spotlightSize={280}
                 className={`p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight

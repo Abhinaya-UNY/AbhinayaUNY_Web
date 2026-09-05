@@ -89,9 +89,9 @@ export const AboutTeamSection: React.FC = () => {
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
               <SpotlightCard
-                spotlightColor="rgba(255, 107, 0, 0.12)"
+                spotlightColor="rgba(234, 88, 12, 0.12)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/3 border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
               >
                 <div className="font-bold text-brand-orange font-mono text-base flex items-baseline">
                   <CountUp to={7} duration={2} />+ Periode
@@ -99,9 +99,9 @@ export const AboutTeamSection: React.FC = () => {
                 <div className="text-[11px] text-slate-500">Riset KRTMI Sejak 2019</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(255, 107, 0, 0.12)"
+                spotlightColor="rgba(234, 88, 12, 0.12)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/3 border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
               >
                 <div className="font-bold text-amber-400 font-mono text-base flex items-baseline">
                   <CountUp to={100} duration={2} />% Otonom
@@ -109,9 +109,9 @@ export const AboutTeamSection: React.FC = () => {
                 <div className="text-[11px] text-slate-500">Teknologi Kamera AI</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(255, 107, 0, 0.12)"
+                spotlightColor="rgba(234, 88, 12, 0.12)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/3 border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
               >
                 <div className="font-bold text-white font-mono text-base">UKM Restek UNY</div>
                 <div className="text-[11px] text-slate-500">Tingkat Universitas & BPTI</div>
