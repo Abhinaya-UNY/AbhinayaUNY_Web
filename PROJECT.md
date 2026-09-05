@@ -1,46 +1,54 @@
-# Project: Tim Robotika Abhinaya UNY Data Verification & Web Synchronization
+# Project: Abhinaya UNY Robotics Portal Revamp (Orchestrator 2)
 
 ## Architecture
-- **Web Framework**: Next.js 14 (App Router) + React 18 + Tailwind CSS + Lucide Icons
-- **Data Layer**: `data/teamData.ts` (TypeScript types and data structures for team members, leaders, managers, alumni generations 2020-2025, advisor board)
-- **Documentation Layer**: `STRUKTUR_TIM_ABHINAYA.md`, `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` (authoritative archive)
-- **Media Asset Layer**: `public/images/instagram_feed/`, `public/images/members/`, `public/images/tournaments/`
-- **Presentation Layer**: `components/TeamRosterSection.tsx`, `components/MemberPhotoFadeEngine.tsx`, `components/InstagramFeedShowcase.tsx`, `app/divisi/page.tsx`
+- **Framework**: Next.js 14 (App Router) + React 18 + Tailwind CSS + Lucide Icons
+- **Design System**: Bespoke Dark-Emerald High-Tech (#030605 Obsidian Carbon, #10B981 Emerald, #00F5D4 Cyan/Neon, sleek glassmorphism, fluid micro-interactions)
+- **Data & Content Layer**: `data/newsData.ts`, `data/galleryData.ts`, `data/teamData.ts`, `ARSIP_BERITA_DAN_MEDIA_ABHINAYA.md`
+- **Presentation Layer**:
+  - `components/HeroSection.tsx`: Unblocked cinematic stage with dedicated typography & action zone
+  - `components/AboutTeamSection.tsx`: Unblocked UMS 2024 showcase with header meta bar, natural 16:10 photo, dedicated bottom story card
+  - `components/Achievements.tsx`: UNLIMITED UNDIP corrected to 2026, dynamic institution badges, polished cards
+  - `components/InstagramFeedShowcase.tsx`: Clean photo canvas without top-corner text/gradient clutter
+  - `components/DocumentationGallerySection.tsx`: Aspect ratio cards with bottom metadata
+  - `components/TeamRosterSection.tsx` & `MemberPhotoFadeEngine.tsx`: Unblocked portraits, restored responsive grid (`grid-cols-1 sm:grid-cols-2 lg:grid-cols-3` passing T4-03)
+  - `components/KRIOverview.tsx`, `components/NewsMediaSection.tsx`, `components/SocialMediaHub.tsx`, `components/Footer.tsx`: Authentic Indonesian robotics copywriting (anti-AI slop)
+- **Build & Export Pipeline**:
+  - `pages/500.tsx`: Custom static 500 error page bypassing Next.js 14 trailingSlash rename bug
+  - `tests/e2e/run_all.js`: 57 automated E2E test cases across 4 tiers
+  - Static export ready for GitHub Pages under base path `/AbhinayaUNY_Web`
 
 ## Feature Inventory
 | # | Feature | Description | Milestone | Source |
 |---|---------|-------------|-----------|--------|
-| 1 | Visual Photo & Media Audit (2020–2025) | Comprehensive scan of all photos in `public/images/instagram_feed/` and `public/images/members/`, mapping individuals, roles, and competition context | M1 | ORIGINAL_REQUEST §R1 |
-| 2 | Image Asset Remediation & Semantic Normalization | Remediate 22 blank/corrupted images, normalize files to `{tahun}_{divisi}_{nama_anggota}_{urutan}.{ext}` | M1 | ORIGINAL_REQUEST §R1 |
-| 3 | PDDikti UNY NIM & Prodi Verification | Cross-verify all member NIMs (11 digits), official study programs, and faculties (FT, FMIPA, FV) against authentic PDDikti records | M2 | ORIGINAL_REQUEST §R2 |
-| 4 | Elimination of Placeholder/Fabricated NIMs | Correct Farhan Yuda Mahendra's NIM to `22518241040` and normalize all prodi designations across datasets | M2 | ORIGINAL_REQUEST §R2 |
-| 5 | Master Comprehensive Archive Generation | Author `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with photo catalogue, member tables (2020-2025), Leader/Manager history, and PDDikti audit log | M3 | ORIGINAL_REQUEST §R3 |
-| 6 | Synchronize `data/teamData.ts` | Update `teamData.ts` with verified NIMs, accurate prodi names, authentic photo paths, and dynamic category counts | M4 | ORIGINAL_REQUEST §R4 |
-| 7 | Synchronize `STRUKTUR_TIM_ABHINAYA.md` | Align `STRUKTUR_TIM_ABHINAYA.md` prodi affiliations (Afif, Iqbal, dll.) and leadership data | M4 | ORIGINAL_REQUEST §R4 |
-| 8 | Build Verification, E2E Audit & Git Push | Ensure `npm run build` succeeds with 0 errors, conduct forensic audit, commit, and push to GitHub | M5 | ORIGINAL_REQUEST §Acceptance |
+| 1 | UNLIMITED UNDIP 2026 Year Correction | Update competition year to 2026 across `newsData.ts`, `Achievements.tsx`, `ARSIP_BERITA_DAN_MEDIA_ABHINAYA.md`, `app/prestasi/page.tsx`, `KRIOverview.tsx` | M1 | ORIGINAL_REQUEST §R2 |
+| 2 | Authentic Robotics Copywriting | Eradicate AI buzzwords, replace with sharp Indonesian engineering tone across all components and pages | M1 | ORIGINAL_REQUEST §R3 |
+| 3 | Hero Section Photo Unblocking | Decouple hero text from photo stage into clean header zone + framed cinematic unblocked photo stage | M2 | ORIGINAL_REQUEST §R1, R4 |
+| 4 | About Team Section Photo Unblocking | Restructure UMS 2024 banner to 3-part card (top meta bar, natural 16:10 photo with 0% dark gradient, bottom story card) | M2 | ORIGINAL_REQUEST §R1 |
+| 5 | Feed & Gallery Photo Unblocking | Move floating tags & badges out of image viewports in Instagram Feed & Documentation Gallery | M2 | ORIGINAL_REQUEST §R1 |
+| 6 | Team Roster Photo Unblocking & Grid Fix | Move division badges away from member heads in roster cards, restore responsive grid layout for test T4-03 | M3 | ORIGINAL_REQUEST §R1, R4 |
+| 7 | Bespoke UI Polish & Micro-interactions | Elevate dark-emerald cyber palette, fluid tabs, subtle border glows, glassmorphism | M3 | ORIGINAL_REQUEST §R4 |
+| 8 | Next.js 500 Export Bug Resolution | Add `pages/500.tsx` to fix ENOENT rename failure during `npm.cmd run build` | M4 | ORIGINAL_REQUEST §R5 |
+| 9 | Full E2E Test Suite Pass | Verify 57/57 tests pass cleanly via `node tests/e2e/run_all.js` and `python scripts/test_e2e_suite.py` | M4 | ORIGINAL_REQUEST §R5 |
+| 10 | Production Build & Git Synchronization | Verify `npm.cmd run build` code 0 with 11 static pages, commit all changes cleanly | M4 | ORIGINAL_REQUEST §R5 |
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Image Asset Remediation & Semantic Mapping | Fix 22 blank images in `public/images/members/`, establish semantic links/files, verify 100% photo validity | Survey | DONE |
-| M2 | PDDikti Verification & Master Member Dataset | Formulate master verified member dataset (35+ members, 2020-2025) with authentic 11-digit NIMs & faculties | M1 | DONE |
-| M3 | Comprehensive Archive Documentation | Generate complete `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` with 100% complete tables and photo catalogue | M2 | DONE |
-| M4 | Web Data & Structure Synchronization | Synchronize `data/teamData.ts` and `STRUKTUR_TIM_ABHINAYA.md` with master verified data and images | M2, M3 | DONE |
-| M5 | Build Verification, Multi-Agent Review & Git Push | Run `npm run build`, multi-reviewer audit, challenger tests, forensic audit, git commit and push | M1, M2, M3, M4 | DONE |
+| M1 | Factual Timeline (UNDIP 2026) & Authentic Copywriting | `data/newsData.ts`, `data/galleryData.ts`, `components/Achievements.tsx`, `components/KRIOverview.tsx`, `components/SocialMediaHub.tsx`, `components/Footer.tsx`, `app/prestasi/page.tsx`, `app/divisi/page.tsx`, `ARSIP_BERITA_DAN_MEDIA_ABHINAYA.md` | Survey | DONE |
+| M2 | Photo Unblocking (Hero, About, Feed, Gallery) | `components/HeroSection.tsx`, `components/AboutTeamSection.tsx`, `components/InstagramFeedShowcase.tsx`, `components/DocumentationGallerySection.tsx`, `components/NewsMediaSection.tsx`, `components/YouTubeVideoShowcase.tsx` | M1 | DONE |
+| M3 | Roster Unblocking, Bespoke UI & Grid Fix | `components/TeamRosterSection.tsx`, `components/MemberPhotoFadeEngine.tsx`, UI styling & micro-interactions | M2 | DONE |
+| M4 | Build Integrity (pages/500.tsx), E2E Tests & Git Sync | `pages/500.tsx`, `PROJECT.md` root sync, run `node tests/e2e/run_all.js`, `npm.cmd run build`, git commit | M1, M2, M3 | DONE |
 
 ## Interface Contracts
-### Data Schema (`data/teamData.ts` ↔ UI Components)
-- `TeamMember`: `{ id: string, name: string, nim: string, role: string, division: DivisionSlug, subRole?: string, department: string, studyProgram: string, faculty: string, image: string, photos?: string[], bio: string, achievements?: string[], isLead?: boolean, joinedYear: number, graduationYear?: number, socials?: MemberSocials }`
-- `LeaderHistoryItem`: `{ year: number, name: string, nim: string, role: string, major: string, faculty: string, photo: string, photos?: string[], highlights: string[], vision?: string, bio?: string }`
-- `ManagerHistoryItem`: `{ year: number, name: string, nim: string, role: string, major: string, faculty: string, photo: string, photos?: string[], highlights: string[], bio?: string }`
-- `GenerationArchive`: `{ year: number, theme: string, leader: string, membersCount: number, achievements: string[], members: TeamMember[] }`
+- `newsData.ts`: item `undip-unlimited-robot-finalist` must have `date: "2026"`, title with `2026`.
+- `Achievements.tsx`: UNDIP item must have `year: '2026'`, `event: 'UNLIMITED Robotics Competition UNDIP 2026'`.
+- `AboutTeamSection.tsx`: Team banner must NOT have overlay text/badges covering faces or robots; image must use natural aspect ratio with 0% dark gradient.
+- `TeamRosterSection.tsx`: Division badge must not overlay faces; roster cards must use responsive grid classes (`grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4`).
+- `pages/500.tsx`: React component exporting default custom 500 error page matching portal dark-emerald aesthetic.
 
 ## Code Layout
-- `data/teamData.ts` — Main TypeScript dataset for all roster and historical data
-- `data/instagramFeedData.ts` — Clean curated dataset for Instagram showcase
-- `STRUKTUR_TIM_ABHINAYA.md` — Markdown summary of team structure, leaders, managers, and active squad
-- `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` — Authoritative comprehensive archive of photos, members, and PDDikti verification
-- `public/images/members/` — Member portrait imagery
-- `public/images/instagram_feed/` — Historical Instagram feed photos
-- `components/TeamRosterSection.tsx` — UI component rendering team rosters, leaders, managers, and alumni explorer
-- `components/InstagramFeedShowcase.tsx` — UI component rendering Instagram feed gallery
+- `data/newsData.ts`, `data/galleryData.ts`, `data/teamData.ts` — Data models & archives
+- `components/` — Next.js/React presentation components
+- `pages/500.tsx` — Custom static 500 export page
+- `tests/e2e/` — Automated test harness (57 tests)
+- `.agents/` — Coordination, logs, briefing, and milestone handoffs

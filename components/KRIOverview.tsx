@@ -21,24 +21,24 @@ import {
 export const KRIOverview: React.FC = () => {
   const krtmiPillars = [
     {
-      title: 'Misi Tematik Kontekstual',
+      title: 'Misi Tematik Dinamis & Kontekstual',
       icon: <Target className="w-5 h-5 text-brand-orange" />,
-      desc: 'Berbeda dari divisi lain yang temanya statis, tema KRTMI selalu berganti setiap tahun mengikuti permasalahan nyata nasional (pertanian, medis COVID-19, limbah B3, hingga pemilahan sampah cerdas berbasis AI).',
+      desc: 'Tidak seperti divisi lain bertema tetap, KRTMI menguji adaptabilitas rekayasa dengan tema misi yang berganti tiap tahun merefleksikan persoalan nasional: otomasi pascapanen, sterilisasi medis COVID-19, limbah B3 rumah sakit, hingga sortir sampah otonom.',
     },
     {
-      title: 'Kecerdasan Artifisial & Computer Vision',
+      title: 'Visi Komputer AI & Deteksi Real-Time',
       icon: <Eye className="w-5 h-5 text-cyan-400" />,
-      desc: 'Robot dituntut mengenali objek arena secara otonom secara real-time menggunakan kamera mikrokontroler/kamera industri, model deteksi objek YOLO, dan algoritma segmentasi warna.',
+      desc: 'Robot memproses visual arena secara otonom tanpa campur tangan manusia. Algoritma deteksi YOLOv8 dan segmentasi HSV mengekstrak koordinat objek dalam hitungan milidetik guna memandu mekanisme gripper/feeder.',
     },
     {
-      title: 'Navigasi Otonom & Holonomik 4WD',
+      title: 'Kinematika Holonomik 4WD Mecanum',
       icon: <Zap className="w-5 h-5 text-amber-400" />,
-      desc: 'Pergerakan robot mengadopsi 4 roda Mecanum atau Omni-wheel berpenggerak independen dengan kendali PID tertutup dan path planning presisi untuk manuver cepat tanpa delay.',
+      desc: 'Sasis berpenggerak empat roda Mecanum independen memungkinkan translasi omni-directional dan rotasi simultan. Kendali Closed-Loop PID dengan encoder optik presisi tinggi menjaga stabilitas manuver di atas karpet arena.',
     },
     {
-      title: 'Sinergi Mekatronika 4 Divisi',
+      title: 'Integrasi 4 Pilar Mekatronika Terpadu',
       icon: <Cpu className="w-5 h-5 text-emerald-400" />,
-      desc: 'KRTMI adalah kawah candradimuka riset rekayasa yang memadukan 4 pilar sekaligus: Mekanik (3D CAD & manufaktur), Elektrik (PCB & catu daya), Pemrograman (AI & firmware), serta Manajerial.',
+      desc: 'KRTMI menuntut integrasi tanpa celah antara rancang bangun sasis mekanik (CAD/CAM & 3D print), keandalan distribusi daya elektrik (PCB & baterai LiFePO4), ketangguhan firmware embedded sistem, dan ketertiban tata kelola manajerial.',
     },
   ];
 
@@ -88,7 +88,7 @@ export const KRIOverview: React.FC = () => {
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
             <Compass className="w-3.5 h-3.5" />
-            <span>PANDUAN LOMBA ROBOTIKA RESMI KEMENDIKBUDRISTEK</span>
+            <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
             Mengenal Kontes Robot Indonesia (KRI) &amp; Divisi KRTMI&nbsp;🤖
@@ -164,9 +164,11 @@ export const KRIOverview: React.FC = () => {
               <span>➔</span>
               <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2022: Limbah B3 RS</span>
               <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2023: Pemilah Sampah</span>
+              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2023: Digital Twin Cyber-Physical</span>
               <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-brand-orange font-bold border border-brand-orange/40">2024: AI Sorting</span>
+              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-brand-orange font-bold border border-brand-orange/40">2024: Pemilah Sampah Cerdas</span>
+              <span>➔</span>
+              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
             </div>
           </div>
 

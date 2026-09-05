@@ -101,7 +101,7 @@ export const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Tim Robotika Abhinaya Universitas Negeri Yogyakarta.
           </div>
           <div>
-            Dibuat untuk Mengenalkan Robotika Tematik UNY kepada Mahasiswa &amp; Publik
+            Dikelola secara mandiri oleh Tim Robotika Abhinaya — UKM Rekayasa Teknologi Universitas Negeri Yogyakarta.
           </div>
         </div>
 

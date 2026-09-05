@@ -1,4 +1,4 @@
-﻿# Original User Request
+# Original User Request
 
 ## 2026-08-28T14:01:16Z
 
@@ -45,3 +45,47 @@ Integrity mode: development
 - [ ] Every member's profile photo correctly displays that exact person without mismatched headshots or placeholder logos.
 - [ ] 
 pm run build succeeds with 0 errors, and all changes are committed and pushed to GitHub.
+
+## 2026-09-05T07:14:50Z
+
+Revamp and elevate the official Abhinaya UNY Robotics Portal (https://abhinaya-uny.github.io/AbhinayaUNY_Web/) by resolving all critical design flaws and team feedback: eliminate all text overlays obscuring team photos, correct competition timelines (UNLIMITED UNDIP is 2026), replace robotic/generic AI-generated copywriting with authentic robotics team narratives, and modernize the UI components with bespoke, high-caliber interactions (inspired by reactbits.dev standards) to eradicate the "generic AI template" look.
+
+Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
+Integrity mode: development
+
+## Requirements
+
+### R1. Photo Unblocking & Layout Refinement (Zero Text Covering Faces/Photos)
+- Overhaul photo showcase sections (especially `AboutTeamSection.tsx`, `HeroSection.tsx`, `InstagramFeedShowcase.tsx`, and `DocumentationGallerySection.tsx`) so that text overlays, dark heavy gradients, and badge containers no longer block or obscure team members' faces, trophies, or robots.
+- Move captions, descriptions, and metadata cleanly below the images or into dedicated non-intrusive container cards with clean spacing across all mobile and desktop viewports.
+- Ensure all photos maintain natural aspect ratios with clear, unobstructed framing.
+
+### R2. Factual Timeline & UNDIP Competition Year Correction (2026)
+- Correct all occurrences and data records of the UNLIMITED UNDIP Robotics Competition (Universitas Diponegoro) to **2026** (in `data/newsData.ts`, `components/Achievements.tsx`, `ARSIP_BERITA_DAN_MEDIA_ABHINAYA.md`, and any related components).
+- Ensure consistency across the historical chronicles, achievement badges, and news archives.
+
+### R3. Natural & Authentic Robotics Copywriting (Anti-AI Slop)
+- Rewrite and refine website copy, subtitles, and descriptions across the entire site to remove repetitive, pretentious, or disconnected AI-generated phrasing ("tulisan gak nyambung / keliatan AI").
+- Adopt an authentic, sharp, engaging Indonesian engineering tone reflecting the true identity of Tim Robotika Abhinaya - UKM Rekayasa Teknologi UNY (KRTMI Division).
+
+### R4. Bespoke Modern UI & React Bits-Inspired Component Design
+- Eliminate the "template grok / AI generic" aesthetic by introducing bespoke, polished UI components and animations inspired by modern component libraries (e.g. `reactbits.dev` style):
+  - Fluid micro-interactions and smooth hover states.
+  - Elegant glassmorphism and refined borders replacing heavy, clunky drop-shadows.
+  - Cohesive dark-theme palette with Abhinaya's signature Emerald/Neon accents and refined typography hierarchy.
+  - Interactive, fluid tab transitions and gallery viewports.
+
+### R5. Build Integrity & GitHub Deployment
+- Verify that `npm run build` succeeds cleanly with zero TypeScript, lint, or static export errors.
+- Ensure all relative paths respect the production base path (`/AbhinayaUNY_Web`).
+- Commit all changes and prepare them for seamless push to `https://github.com/Abhinaya-UNY/AbhinayaUNY_Web`.
+
+## Acceptance Criteria
+
+### Visual & Functional Checks
+- [ ] No text captions, badges, or heavy gradient overlays obscure people's faces or robots in team photo banners (`AboutTeamSection`, `HeroSection`, `DocumentationGallerySection`).
+- [ ] UNLIMITED UNDIP is accurately documented and displayed as year **2026** across all data files and UI components.
+- [ ] Website text reads naturally and cohesively without stiff, disconnective AI-generated copy.
+- [ ] Visual UI components present a bespoke, high-craft aesthetic (inspired by reactbits.dev) rather than a generic AI template look.
+- [ ] `npm run build` exits with code 0 without any errors.
+- [ ] Changes are cleanly committed to the local git repository.

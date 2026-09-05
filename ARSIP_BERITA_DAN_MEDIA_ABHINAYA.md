@@ -7,8 +7,8 @@
 ## DAFTAR ISI
 1. [Rekapitulasi Berita Resmi UNY & Fakultas Teknik](#1-rekapitulasi-berita-resmi-uny--fakultas-teknik)
 2. [Liputan Televisi & Kantor Berita Nasional (LKBN ANTARA)](#2-liputan-televisi--kantor-berita-nasional-lkbn-antara)
-3. [Prestasi Lomba Robot Kreatif Nasional UNLIMITED UNDIP](#3-prestasi-lomba-robot-kreatif-nasional-unlimited-undip)
-4. [Transkrip Lengkap Seluruh Artikel Berita (2019 – 2024)](#4-transkrip-lengkap-seluruh-artikel-berita-2019--2024)
+3. [Prestasi Lomba Robot Kreatif Nasional UNLIMITED UNDIP 2026](#3-prestasi-lomba-robot-kreatif-nasional-unlimited-undip-2026)
+4. [Transkrip Lengkap Seluruh Artikel Berita (2019 – 2026)](#4-transkrip-lengkap-seluruh-artikel-berita-2019--2026)
 
 ---
 
@@ -40,19 +40,20 @@
 
 ---
 
-## 3. PRESTASI LOMBA ROBOT KREATIF NASIONAL UNLIMITED UNDIP
+## 3. PRESTASI LOMBA ROBOT KREATIF NASIONAL UNLIMITED UNDIP 2026
 
-### **Finalis Lomba Robot Kreatif Nasional UNLIMITED — Universitas Diponegoro (UNDIP)**
+### **Finalis Lomba Robot Kreatif Nasional UNLIMITED 2026 — Universitas Diponegoro (UNDIP)**
+- **Tahun**: 2026
 - **Tautan Publikasi Instagram**: [https://www.instagram.com/p/DcEIl23oGWv/](https://www.instagram.com/p/DcEIl23oGWv/)
-- **Kategori**: Lomba Desain & Inovasi Robot Kreatif (UNLIMITED)
+- **Kategori**: Lomba Desain & Inovasi Robot Kreatif (UNLIMITED 2026)
 - **Penyelenggara**: Himpunan Mahasiswa / Departemen Teknik Elektro Universitas Diponegoro (UNDIP) Semarang
-- **Pencapaian**: **Finalis Nasional Lomba Robot Kreatif UNLIMITED UNDIP**
+- **Pencapaian**: **Finalis Nasional Lomba Robot Kreatif UNLIMITED UNDIP 2026**
 - **Deskripsi Inovasi**:
-  Tim Robotika Abhinaya UNY berpartisipasi dan lolos sebagai finalis nasional dalam kompetisi inovasi robotika kreatif terapan (*UNLIMITED Robotics Competition UNDIP*), menampilkan keunggulan rancang bangun mekatronika terintegrasi sensor cerdas dan sistem kendali otonom mandiri.
+  Tim Robotika Abhinaya UNY berpartisipasi dan lolos sebagai finalis nasional dalam kompetisi inovasi robotika kreatif terapan (*UNLIMITED Robotics Competition UNDIP 2026*), menampilkan keunggulan rancang bangun mekatronika terintegrasi sensor cerdas, computer vision, dan sistem kendali otonom mandiri.
 
 ---
 
-## 4. TRANSKRIP LENGKAP SELURUH ARTIKEL BERITA (2019 – 2024)
+## 4. TRANSKRIP LENGKAP SELURUH ARTIKEL BERITA (2019 – 2026)
 
 ### [1] Abhinaya Meraih Juara 2 Nasional di Kompetisi KRI Divisi KRTMI 2024
 - **Tahun**: 2024

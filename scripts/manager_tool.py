@@ -291,17 +291,25 @@ class JsTsParser:
     def parse_value(self) -> Any:
         tok = self.current()
         if tok.type == 'LBRACE':
-            return self.parse_object()
+            val = self.parse_object()
         elif tok.type == 'LBRACKET':
-            return self.parse_array()
+            val = self.parse_array()
         elif tok.type in ('STRING', 'NUMBER', 'BOOLEAN', 'NULL'):
             self.advance()
-            return tok.value
+            val = tok.value
         elif tok.type == 'IDENTIFIER':
             self.advance()
-            return tok.value
+            val = tok.value
         else:
             raise ValueError(f"Unexpected token {tok.type} ({repr(tok.value)}) at position {tok.pos}")
+
+        # Consume optional TypeScript type assertion: 'as Type'
+        if self.current().type == 'IDENTIFIER' and self.current().value == 'as':
+            self.advance()
+            if self.current().type == 'IDENTIFIER':
+                self.advance()
+
+        return val
 
     def parse_object(self) -> Dict[str, Any]:
         self.expect('LBRACE')
@@ -741,9 +749,15 @@ class ValidationEngine:
     VALID_DIVISIONS = {
         'Mekanik',
         'Elektrik',
+        'Elektronik',
+        'Program',
         'Programming & AI',
         'Manajerial & Media',
-        'Pembimbing'
+        'Manager',
+        'Ketua Tim',
+        'Pembimbing',
+        'Desain',
+        'Official'
     }
 
     VALID_GALLERY_CATEGORIES = {
@@ -1137,6 +1151,33 @@ class DataStore:
         if not self.team_file.exists():
             return list(DEFAULT_SEED_MEMBERS)
         content = self.team_file.read_text(encoding="utf-8")
+
+        # 1. First check if authentic structured UNY datasets are present
+        advisors = extract_ts_array(content, "DOSEN_PEMBIMBING_LIST")
+        if advisors is not None:
+            leaders = extract_ts_array(content, "LEADERS_HALL_OF_FAME") or []
+            managers = extract_ts_array(content, "MANAGERS_SHOWCASE") or []
+            squad = extract_ts_object(content, "ACTIVE_TECHNICAL_SQUAD") or {}
+
+            all_members = []
+            seen_ids = set()
+            for group in [advisors, leaders, managers]:
+                for m in group:
+                    if isinstance(m, dict) and m.get('id') and m.get('id') not in seen_ids:
+                        seen_ids.add(m.get('id'))
+                        all_members.append(m)
+            if isinstance(squad, dict):
+                for k in ['program', 'elektronik', 'mekanik', 'desain', 'advisors']:
+                    sub = squad.get(k, [])
+                    if isinstance(sub, list):
+                        for m in sub:
+                            if isinstance(m, dict) and m.get('id') and m.get('id') not in seen_ids:
+                                seen_ids.add(m.get('id'))
+                                all_members.append(m)
+            if all_members:
+                return all_members
+
+        # 2. Fallback to standard TEAM_MEMBERS array and DOSEN_PEMBIMBING
         members = extract_ts_array(content, "TEAM_MEMBERS") or []
         advisor = extract_ts_object(content, "DOSEN_PEMBIMBING")
         if advisor and not any(m.get('id') == advisor.get('id') for m in members):

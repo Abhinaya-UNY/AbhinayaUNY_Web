@@ -402,17 +402,19 @@ export const MemberPhotoFadeEngine: React.FC<MemberPhotoFadeEngineProps> = ({
         );
       })}
 
-      {/* Smooth Ambient Gradient Overlay */}
-      <div
-        className={`absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/25 to-transparent pointer-events-none z-10 ${overlayClassName}`}
-      />
+      {/* 0% Dark Gradient Haze - 100% Crisp Natural Photo Viewport */}
+      {overlayClassName ? (
+        <div className={`absolute inset-0 pointer-events-none z-10 ${overlayClassName}`} />
+      ) : null}
 
-      {/* Multi-Photo Slide Counter Badge (Top Right) */}
+      {/* Multi-Photo Slide Counter Badge (Clean Unobtrusive Placement at Bottom-Left) */}
       {showIndicators && validPhotos.length > 1 && (
         <div
-          className="absolute top-3.5 right-3.5 z-20 flex items-center space-x-1.5 px-2.5 py-1 rounded-xl bg-black/75 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/40 backdrop-blur-md shadow-lg pointer-events-none"
+          className={`absolute bottom-3.5 left-3.5 z-20 flex items-center space-x-1.5 px-2.5 py-1 rounded-xl bg-black/75 text-emerald-300 text-[10px] font-mono font-bold border border-emerald-500/40 backdrop-blur-md shadow-lg pointer-events-none transition-opacity duration-300 ${
+            isModal || isHovered ? 'opacity-100' : 'opacity-85'
+          }`}
         >
-          <Images className="w-3 h-3 text-brand-orange animate-pulse" />
+          <Images className="w-3 h-3 text-emerald-400 animate-pulse" />
           <span>
             {safeCurrentIdx + 1}/{validPhotos.length}
           </span>

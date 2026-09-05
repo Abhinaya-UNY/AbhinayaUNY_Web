@@ -11,13 +11,13 @@ export const SocialMediaHub: React.FC = () => {
         <div className="text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-pink-500/15 text-pink-400 text-xs font-black uppercase tracking-wider border border-pink-500/30">
             <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
-            <span>TERHUBUNG DENGAN TIM</span>
+            <span>JARINGAN MEDIA SOSIAL RESMI</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight ">
             Ikuti Aktivitas &amp; Update Harian Abhinaya! 📱
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
-            Dapatkan cuplikan di balik layar (*behind the scenes*), proses riset robotika terbaru, info open recruitment, dan dokumentasi kejuaraan di media sosial resmi kami.
+            Simak cuplikan uji coba sirkuit, tutorial dasar robotika, vlog suasana paddock turnamen, serta informasi open recruitment anggota baru UKM Rekayasa Teknologi UNY.
           </p>
         </div>
 

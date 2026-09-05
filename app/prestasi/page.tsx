@@ -4,7 +4,7 @@ import { Trophy, Award, ShieldCheck, ExternalLink, Newspaper, BookOpen } from 'l
 
 export const metadata = {
   title: 'Kabinet Prestasi & Berita Resmi — Abhinaya UNY Robotics',
-  description: 'Rekam jejak kejuaraan nasional, sertifikasi Puspresnas Kemendikbudristek, dan rilis pers resmi Universitas Negeri Yogyakarta untuk Tim Robotika Abhinaya UNY.',
+  description: 'Rekam jejak kejuaraan nasional KRTMI Puspresnas BPTI Kemendikbudristek, Technocorner DTETI FT UGM 2026, UNLIMITED UNDIP 2026, dan rilis pers resmi Universitas Negeri Yogyakarta untuk Tim Robotika Abhinaya UNY.',
 };
 
 export default function PrestasiPage() {
@@ -21,7 +21,7 @@ export default function PrestasiPage() {
           Kabinet Juara &amp; Publikasi Prestasi UNY
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-          Dokumentasi kejuaraan resmi divisi Kontes Robot Tematik Indonesia (KRTMI) Puspresnas BPTI Kemendikbudristek RI dan Technocorner DTETI FT UGM.
+          Dokumentasi kejuaraan resmi divisi Kontes Robot Tematik Indonesia (KRTMI) Puspresnas BPTI Kemendikbudristek RI, Technocorner DTETI FT UGM 2026, dan UNLIMITED Robotics Competition UNDIP 2026.
         </p>
       </div>
 

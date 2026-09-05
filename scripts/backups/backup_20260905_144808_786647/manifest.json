@@ -1,0 +1,10 @@
+{
+  "backup_id": "backup_20260905_144808_786647",
+  "timestamp": "2026-09-05T14:48:08.791191",
+  "reason": "E2E Automated Test Snapshot",
+  "files": [
+    "teamData.ts",
+    "krtmiData.ts",
+    "galleryData.ts"
+  ]
+}

@@ -4,6 +4,22 @@ import { Trophy, Award, ShieldCheck, Star, Sparkles } from 'lucide-react';
 export const Achievements: React.FC = () => {
   const awards = [
     {
+      year: '2026',
+      title: 'Finalis Lomba Robot Kreatif Nasional',
+      event: 'UNLIMITED Robotics Competition UNDIP 2026',
+      organizer: 'Departemen Teknik Elektro Universitas Diponegoro',
+      badge: '💡 FINALIS ROBOT KREATIF',
+      highlight: true,
+    },
+    {
+      year: '2026',
+      title: 'Peserta Tingkat Nasional Transporter',
+      event: 'Technocorner 2026 Robot Competition',
+      organizer: 'KMTETI Fakultas Teknik Universitas Gadjah Mada',
+      badge: '🤖 NASIONAL UGM',
+      highlight: false,
+    },
+    {
       year: '2024',
       title: 'Juara 1 Regional I Wilayah',
       event: 'Kontes Robot Tematik Indonesia (KRTMI) 2024',
@@ -35,23 +51,17 @@ export const Achievements: React.FC = () => {
       badge: '🏅 FINALIS NASIONAL',
       highlight: false,
     },
-    {
-      year: '2024',
-      title: 'Finalis Lomba Robot Kreatif Nasional',
-      event: 'UNLIMITED Robotics Competition UNDIP 2024',
-      organizer: 'Departemen Teknik Elektro Universitas Diponegoro',
-      badge: '💡 FINALIS ROBOT KREATIF',
-      highlight: true,
-    },
-    {
-      year: '2026',
-      title: 'Peserta Tingkat Nasional Transporter',
-      event: 'Technocorner 2026 Robot Competition',
-      organizer: 'KMTETI Fakultas Teknik Universitas Gadjah Mada',
-      badge: '🤖 NASIONAL UGM',
-      highlight: false,
-    },
   ];
+
+  const getVerificationLabel = (organizer: string) => {
+    if (organizer.includes('Diponegoro')) {
+      return 'Penghargaan Resmi Teknik Elektro UNDIP';
+    }
+    if (organizer.includes('Gadjah Mada')) {
+      return 'Sertifikasi Resmi DTETI FT UGM';
+    }
+    return 'Puspresnas BPTI / Penghargaan Resmi UNY';
+  };
 
   return (
     <section id="prestasi" className="py-8 sm:py-10 md:py-12 space-y-8 sm:space-y-12">
@@ -61,13 +71,13 @@ export const Achievements: React.FC = () => {
         <div className="text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
             <Trophy className="w-3.5 h-3.5" />
-            <span>PAPAN PRESTASI RESMI</span>
+            <span>REKAM JEJAK KEJUARAAN RESMI</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight ">
-            Jejak Kejuaraan Tim Abhinaya UNY&nbsp;🏆
+            Kabinet Prestasi &amp; Jejak Podium Nasional&nbsp;🏆
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
-            Buah dari kerja keras, dedikasi riset larut malam di lab, dan semangat inovasi mahasiswa Universitas Negeri Yogyakarta di panggung kompetisi robotika nasional.
+            Bukti nyata konsistensi rekayasa teknologi mahasiswa UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP.
           </p>
         </div>
 
@@ -107,7 +117,7 @@ export const Achievements: React.FC = () => {
 
               <div className="pt-2 border-t border-[#26180E] flex items-center space-x-2 text-[11px] text-amber-300/80">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>Puspresnas / Penghargaan Resmi UNY</span>
+                <span>{getVerificationLabel(item.organizer)}</span>
               </div>
             </div>
           ))}

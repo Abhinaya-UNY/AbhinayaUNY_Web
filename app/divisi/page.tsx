@@ -103,7 +103,7 @@ export default function DivisiPage() {
               ❓ Apakah harus jago koding atau elektro dulu sebelum gabung?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              <strong>Sama sekali tidak!</strong> Tim Abhinaya di UKM Rekayasa Teknologi UNY membuka pintu selebar-lebarnya untuk mahasiswa baru yang memiliki semangat belajar tinggi. Semua keterampilan teknis dan manajerial akan dibimbing dari dasar bersama para senior di lab.
+              <strong>Sama sekali tidak!</strong> Sebagian besar anggota kami memulai tanpa pengalaman robotika sebelumnya. Di UKM Restek UNY, kami menyediakan kurikulum pelatihan bertahap—mulai dari dasar logika pemrograman mikrokontroler, pengenalan sirkuit elektronika, hingga dasar mekanik 3D CAD.
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function DivisiPage() {
               ❓ Apa saja keuntungan bergabung dengan Abhinaya?
             </h3>
             <p className="text-slate-300 leading-relaxed text-xs">
-              Pengalaman langsung riset robotika tingkat nasional, akses fasilitas workshop lab robotika, relasi luas lintas jurusan se-UNY, sertifikat kejuaraan resmi Puspresnas BPTI yang bisa dikonversi SKS kuliah (*Ekuivalensi/RPL*), serta portofolio kompetitif untuk industri.
+              Pengalaman riset hands-on di kompetisi bergengsi Kemendikbudristek, akses lengkap ke mesin dan fasilitas workshop lab robotika UNY, konversi prestasi ke SKS perkuliahan (Ekuivalensi/Rekognisi Pembelajaran Lampau), serta portofolio rekayasa yang sangat diminati industri manufaktur dan teknologi.
             </p>
           </div>
 
