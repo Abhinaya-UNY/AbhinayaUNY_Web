@@ -14,17 +14,17 @@ export const DocumentationGallerySection: React.FC = () => {
     : GALLERY_ITEMS.filter((item) => item.category === activeCategory);
 
   return (
-    <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#070b09] border-y border-emerald-950/60 relative overflow-hidden">
+    <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#070503] border-y border-[#1A120B] relative overflow-hidden">
       
       {/* Background Subtle Glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-emerald-500/10 blur-[140px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-orange/10 blur-[140px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-emerald-950/60 pb-6 sm:pb-8">
-          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black uppercase tracking-wider border border-emerald-500/30 shadow-sm">
-            <Camera className="w-3.5 h-3.5 text-emerald-400" />
+        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-[#1A120B] pb-6 sm:pb-8">
+          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
+            <Camera className="w-3.5 h-3.5 text-brand-orange" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight ">
@@ -38,7 +38,7 @@ export const DocumentationGallerySection: React.FC = () => {
         {/* Filter Category Pills */}
         <div className="flex flex-wrap gap-2 items-center justify-center">
           <div className="flex items-center space-x-1 text-slate-400 text-xs font-bold mr-2">
-            <Filter className="w-3.5 h-3.5 text-emerald-400" />
+            <Filter className="w-3.5 h-3.5 text-brand-orange" />
             <span>Kategori:</span>
           </div>
           {GALLERY_CATEGORIES.map((cat) => (
@@ -48,8 +48,8 @@ export const DocumentationGallerySection: React.FC = () => {
               onClick={() => setActiveCategory(cat)}
               className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition duration-200 ${
                 activeCategory === cat
-                  ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-black font-black shadow-[0_0_15px_rgba(16,185,129,0.4)]'
-                  : 'bg-[#0d1612] text-slate-300 hover:text-white hover:bg-[#14241d] border border-emerald-950/80'
+                  ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black font-black shadow-[0_0_15px_rgba(255,107,0,0.4)]'
+                  : 'bg-[#140E09] text-slate-300 hover:text-white hover:bg-[#20140A] border border-[#2B1B10]'
               }`}
             >
               {cat}
@@ -63,7 +63,7 @@ export const DocumentationGallerySection: React.FC = () => {
             <div
               key={item.id}
               onClick={() => setSelectedPhoto(item)}
-              className="group cursor-pointer rounded-2xl sm:rounded-3xl overflow-hidden bg-[#0c1411] border border-emerald-950/80 hover:border-emerald-500/70 transition-all duration-300 flex flex-col shadow-lg hover:shadow-[0_10px_30px_rgba(16,185,129,0.15)]"
+              className="group cursor-pointer rounded-2xl sm:rounded-3xl overflow-hidden bg-[#120D08] border border-[#2A180E] hover:border-brand-orange/70 transition-all duration-300 flex flex-col shadow-lg hover:shadow-[0_10px_30px_rgba(255,107,0,0.15)]"
             >
               {/* 1. Pristine Photo Viewport (100% Unblocked, 4:3 Natural Ratio, Zero Badges Over Photo) */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-black">
@@ -75,19 +75,19 @@ export const DocumentationGallerySection: React.FC = () => {
               </div>
 
               {/* 2. Dedicated Card Body with Meta on Top */}
-              <div className="p-4 space-y-2 flex-1 flex flex-col justify-between bg-[#0a120f]">
+              <div className="p-4 space-y-2 flex-1 flex flex-col justify-between bg-[#0D0906]">
                 <div className="space-y-2">
                   {/* Clean Meta Strip Below Photo */}
                   <div className="flex items-center justify-between text-[11px]">
-                    <span className="px-2.5 py-0.5 rounded-md bg-[#13231c] text-emerald-300 font-mono font-bold border border-emerald-500/25">
+                    <span className="px-2.5 py-0.5 rounded-md bg-[#1C130B] text-amber-300 font-mono font-bold border border-brand-orange/25">
                       {item.category}
                     </span>
-                    <span className="px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-400 font-mono font-black">
+                    <span className="px-2 py-0.5 rounded-md bg-brand-orange/20 text-brand-orange font-mono font-black">
                       {item.year}
                     </span>
                   </div>
 
-                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-emerald-300 transition line-clamp-1">
+                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-amber-300 transition line-clamp-1">
                     {item.title}
                   </h3>
                   <p className="text-[11px] text-slate-400 line-clamp-2 leading-relaxed">
@@ -95,9 +95,9 @@ export const DocumentationGallerySection: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="pt-2 flex items-center justify-between text-[10px] text-emerald-200/70 font-semibold border-t border-emerald-950/70">
+                <div className="pt-2 flex items-center justify-between text-[10px] text-amber-200/70 font-semibold border-t border-[#2A180E]">
                   <span className="truncate max-w-[140px]">{item.event}</span>
-                  <span className="text-emerald-400 font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
+                  <span className="text-brand-orange font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
                     <span>Buka</span> &rarr;
                   </span>
                 </div>
@@ -115,13 +115,13 @@ export const DocumentationGallerySection: React.FC = () => {
           onClick={() => setSelectedPhoto(null)}
         >
           <div
-            className="relative max-w-4xl w-full bg-[#0c1411] border border-emerald-500/50 rounded-3xl overflow-hidden shadow-2xl space-y-4 p-4 sm:p-6"
+            className="relative max-w-4xl w-full bg-[#120D08] border border-brand-orange/50 rounded-3xl overflow-hidden shadow-2xl space-y-4 p-4 sm:p-6"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               type="button"
               onClick={() => setSelectedPhoto(null)}
-              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-black transition border border-white/20"
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-brand-orange hover:text-black transition border border-white/20"
             >
               <X className="w-5 h-5" />
             </button>
@@ -136,7 +136,7 @@ export const DocumentationGallerySection: React.FC = () => {
 
             <div className="space-y-2 pt-2">
               <div className="flex items-center space-x-2">
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black uppercase border border-emerald-500/40">
+                <span className="px-2.5 py-0.5 rounded-full bg-brand-orange/20 text-brand-orange text-[10px] font-black uppercase border border-brand-orange/40">
                   {selectedPhoto.category}
                 </span>
                 <span className="text-xs text-amber-300 font-bold">

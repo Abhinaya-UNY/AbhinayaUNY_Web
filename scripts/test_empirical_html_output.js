@@ -191,7 +191,7 @@ results.passed++;
 // 8. Hydration Safety & Meta Tags
 console.log('\n[TEST 8] Hydration Safety, OpenGraph & Meta Tag Verification...');
 assert(indexHtml.includes('name="viewport"'), 'Viewport meta missing');
-assert(indexHtml.includes('charset='), 'Charset meta missing');
+assert(indexHtml.toLowerCase().includes('charset='), 'Charset meta missing');
 assert(indexHtml.includes('<title>'), 'Title tag missing');
 assert(indexHtml.includes('og:title') || indexHtml.includes('property="og:title"'), 'OG Title missing');
 console.log('  ✔ [PASS] Responsive Viewport, Charset, Title, and OpenGraph tags verified');

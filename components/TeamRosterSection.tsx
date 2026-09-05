@@ -191,7 +191,7 @@ export const MemberPhotoFadeShowcase: React.FC<{
       {images.length > 1 && (
         <>
           {/* Unobtrusive Bottom-Left Slide Indicator (Non-Obstructing) */}
-          <div className="absolute bottom-2.5 left-2.5 z-20 flex items-center space-x-1 px-2 py-0.5 rounded-lg bg-black/80 text-emerald-300 text-[10px] font-mono font-bold border border-emerald-500/40 backdrop-blur-md shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+          <div className="absolute bottom-2.5 left-2.5 z-20 flex items-center space-x-1 px-2 py-0.5 rounded-lg bg-black/80 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/40 backdrop-blur-md shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-200">
             <Images className="w-3 h-3 text-brand-orange animate-pulse" />
             <span>
               {currentIdx + 1}/{images.length}
@@ -528,17 +528,17 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         onClick={() => setSelectedMember(member)}
         onMouseMove={(e) => handleCardMouseMove(member.id, e)}
         onMouseLeave={() => handleCardMouseLeave(member.id)}
-        className={`group cursor-pointer relative rounded-3xl bg-[#08110D] border ${
+        className={`group cursor-pointer relative rounded-3xl bg-[#120D08] border ${
           customTheme?.border
             ? customTheme.border
             : isLeader
-            ? 'border-amber-500/40 hover:border-amber-400 bg-gradient-to-b from-[#1C140A] to-[#0A0D0B]'
+            ? 'border-amber-500/40 hover:border-amber-400 bg-gradient-to-b from-[#24170D] to-[#120D08]'
             : isManager
-            ? 'border-emerald-500/40 hover:border-emerald-400 bg-gradient-to-b from-[#0A1A14] to-[#06110D]'
+            ? 'border-emerald-500/40 hover:border-emerald-400 bg-gradient-to-b from-[#141C17] to-[#100D09]'
             : isAdvisor
-            ? 'border-purple-500/50 bg-[#120819]'
-            : 'border-[#1A2E24] hover:border-emerald-400/70 bg-[#08110D]'
-        } transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/15 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden ${
+            ? 'border-purple-500/50 bg-[#140A1C]'
+            : 'border-[#2A180E] hover:border-brand-orange/70 bg-[#120D08]'
+        } transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/15 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden ${
           layoutMode === 'grid' ? 'w-full' : 'w-[285px] sm:w-[320px] md:w-[335px] flex-shrink-0 snap-start'
         }`}
       >
@@ -548,7 +548,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             className="pointer-events-none absolute -inset-px rounded-3xl transition-opacity duration-300 z-30"
             style={{
               opacity: spotlightPos[member.id].opacity,
-              background: `radial-gradient(360px circle at ${spotlightPos[member.id].x}px ${spotlightPos[member.id].y}px, rgba(0, 245, 212, 0.14), transparent 70%)`,
+              background: `radial-gradient(360px circle at ${spotlightPos[member.id].x}px ${spotlightPos[member.id].y}px, rgba(255, 107, 0, 0.16), transparent 70%)`,
             }}
           />
         ) : null}
@@ -560,7 +560,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         />
 
         {/* 1. Card Top Header Bar: Clean Division & Era Badges + Multi-Photo Counter (100% Unblocked from Headshot) */}
-        <div className="px-3.5 py-2.5 bg-[#0A140F] border-b border-[#14261D] flex items-center justify-between gap-2 z-10">
+        <div className="px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between gap-2 z-10">
           <div className="flex items-center gap-1.5 flex-wrap">
             <span
               className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-wider border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
@@ -576,23 +576,23 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </span>
 
             {member.generationYear && (
-              <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#030806] text-amber-300 text-[10px] font-mono font-bold border border-emerald-500/20">
-                <Calendar className="w-2.5 h-2.5 text-emerald-400" />
+              <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#0D0804] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/20">
+                <Calendar className="w-2.5 h-2.5 text-amber-400" />
                 <span>Era {member.generationYear}</span>
               </span>
             )}
           </div>
 
           {memberImagesCount > 1 && (
-            <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#030806] text-emerald-300 text-[10px] font-mono font-bold border border-emerald-500/30 flex-shrink-0">
-              <Images className="w-2.5 h-2.5 text-emerald-400" />
+            <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#0D0804] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 flex-shrink-0">
+              <Images className="w-2.5 h-2.5 text-brand-orange" />
               <span>{memberImagesCount} Foto</span>
             </span>
           )}
         </div>
 
         {/* 2. Pristine Unblocked Photo Viewport (0% dark gradient, 0% overlay badges) */}
-        <div className="relative w-full aspect-[4/3] sm:aspect-square overflow-hidden bg-[#040806] border-b border-[#14261D] group/photo">
+        <div className="relative w-full aspect-[4/3] sm:aspect-square overflow-hidden bg-[#0A0704] border-b border-[#2A180E] group/photo">
           <MemberPhotoFadeShowcase
             member={member}
             basePath={basePath}
@@ -602,7 +602,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           />
 
           {/* Bottom-right Quick Zoom Icon */}
-          <div className="absolute bottom-2.5 right-2.5 z-20 w-7 h-7 rounded-full bg-black/60 border border-emerald-400/30 text-emerald-300 group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md shadow-md opacity-0 group-hover:opacity-100 pointer-events-none">
+          <div className="absolute bottom-2.5 right-2.5 z-20 w-7 h-7 rounded-full bg-black/60 border border-brand-orange/30 text-amber-300 group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md shadow-md opacity-0 group-hover:opacity-100 pointer-events-none">
             <Maximize2 className="w-3.5 h-3.5" />
           </div>
         </div>
@@ -613,14 +613,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Name, Role & Badge */}
             <div>
               <div className="flex items-center justify-between gap-2">
-                <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-emerald-400 transition line-clamp-1">
+                <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-brand-orange transition line-clamp-1">
                   {member.name}
                 </h3>
-                <span className="px-2 py-0.5 rounded-md bg-[#0C1A14] text-emerald-400 text-[10px] font-mono font-bold border border-emerald-500/30 flex-shrink-0">
+                <span className="px-2 py-0.5 rounded-md bg-[#24140A] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 flex-shrink-0">
                   {member.badge}
                 </span>
               </div>
-              <p className="text-xs font-bold text-emerald-300/90 leading-tight mt-0.5">
+              <p className="text-xs font-bold text-amber-200/90 leading-tight mt-0.5">
                 {member.role}
               </p>
               {member.nim && (
@@ -632,14 +632,14 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Quote Bubble if present */}
             {member.quote && (
-              <div className="p-2.5 sm:p-3 rounded-2xl bg-[#07140E] border border-emerald-500/20 text-xs text-emerald-200/90 italic flex items-start space-x-2.5 shadow-inner">
-                <Quote className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+              <div className="p-2.5 sm:p-3 rounded-2xl bg-[#180F09] border border-brand-orange/20 text-xs text-amber-100/90 italic flex items-start space-x-2.5 shadow-inner">
+                <Quote className="w-4 h-4 text-brand-orange flex-shrink-0 mt-0.5" />
                 <span className="line-clamp-2">"{member.quote}"</span>
               </div>
             )}
 
             {/* Academic Info */}
-            <div className="p-3 rounded-xl bg-[#040806] border border-[#14261D] text-xs space-y-1">
+            <div className="p-3 rounded-xl bg-[#0D0804] border border-[#2A180E] text-xs space-y-1">
               <div className="text-slate-300 truncate">
                 <span className="text-slate-400 font-medium">Prodi:</span> {member.studyProgram || member.prodi || 'Universitas Negeri Yogyakarta'}
               </div>
@@ -652,20 +652,20 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {member.specialization && member.specialization.length > 0 && (
               <div className="space-y-1.5">
                 <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider flex items-center space-x-1">
-                  <Cpu className="w-3 h-3 text-emerald-400" />
+                  <Cpu className="w-3 h-3 text-brand-orange" />
                   <span>Fokus Keahlian:</span>
                 </span>
                 <div className="flex flex-wrap gap-1.5">
                   {member.specialization.slice(0, 3).map((spec, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-lg bg-[#0C1A14] text-emerald-100 text-[10px] font-semibold border border-emerald-500/20 truncate max-w-full"
+                      className="px-2.5 py-1 rounded-lg bg-[#221309] text-amber-100 text-[10px] font-semibold border border-brand-orange/20 truncate max-w-full"
                     >
                       {spec}
                     </span>
                   ))}
                   {member.specialization.length > 3 && (
-                    <span className="px-2 py-1 rounded-lg bg-[#07140E] text-emerald-300/80 text-[10px] font-mono">
+                    <span className="px-2 py-1 rounded-lg bg-[#180F09] text-amber-300/80 text-[10px] font-mono">
                       +{member.specialization.length - 3} lagi
                     </span>
                   )}
@@ -683,7 +683,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           </div>
 
           {/* Card Footer: Detail Button */}
-          <div className="pt-4 border-t border-[#14261D] flex items-center justify-between text-xs font-bold text-emerald-400 group-hover:text-[#00F5D4] transition">
+          <div className="pt-4 border-t border-[#2A180E] flex items-center justify-between text-xs font-bold text-brand-orange group-hover:text-amber-300 transition">
             <span className="text-xs flex items-center space-x-1.5">
               <span>Buka Profil Lengkap</span>
             </span>
@@ -794,9 +794,9 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         {(activeTab === 'all' || activeTab === 'active') && (
           <div className="space-y-6 pt-2">
             {/* Division Filter Tabs & Search Bar */}
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-[#08110D]/90 p-3 sm:p-4 rounded-3xl border border-emerald-500/20 backdrop-blur-md shadow-xl">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-[#120D08]/90 p-3 sm:p-4 rounded-3xl border border-brand-orange/25 backdrop-blur-md shadow-xl">
               {/* Filter Tabs */}
-              <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-thin scrollbar-thumb-emerald-500/30">
+              <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-thin scrollbar-thumb-brand-orange/30">
                 {DIVISION_CATEGORIES.map((cat) => {
                   const isActive = selectedDivision === cat.id;
                   return (
@@ -808,8 +808,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       }}
                       className={`flex items-center space-x-2 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-black transition-all whitespace-nowrap cursor-pointer ${
                         isActive
-                          ? 'bg-gradient-to-r from-emerald-600 to-teal-500 text-white shadow-lg shadow-emerald-500/30 scale-[1.02]'
-                          : 'bg-[#0D1C15] text-slate-300 hover:text-white hover:bg-[#132A20] border border-[#1A2E24]'
+                          ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black shadow-lg shadow-brand-orange/30 scale-[1.02]'
+                          : 'bg-[#180F09] text-slate-300 hover:text-white hover:bg-[#24160D] border border-[#2A180E]'
                       }`}
                     >
                       {getDivisionIcon(cat.id, 'w-3.5 h-3.5')}
@@ -817,8 +817,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       <span
                         className={`ml-1 px-1.5 py-0.5 rounded-full text-[10px] ${
                           isActive
-                            ? 'bg-black/30 text-white font-mono font-bold'
-                            : 'bg-black/50 text-emerald-300/80 font-mono'
+                            ? 'bg-black/30 text-black font-mono font-bold'
+                            : 'bg-black/50 text-amber-300/80 font-mono'
                         }`}
                       >
                         {cat.id === 'All'
@@ -833,13 +833,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               {/* Controls Group: Layout Mode Switcher & Search Box */}
               <div className="flex items-center gap-2.5 w-full md:w-auto justify-end">
                 {/* View Layout Toggle: Responsive Grid vs Horizontal Carousel */}
-                <div className="flex items-center bg-[#050B08] p-1 rounded-xl border border-emerald-500/20 flex-shrink-0">
+                <div className="flex items-center bg-[#0D0804] p-1 rounded-xl border border-brand-orange/20 flex-shrink-0">
                   <button
                     type="button"
                     onClick={() => setViewLayout('grid')}
                     className={`flex items-center space-x-1 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                       viewLayout === 'grid'
-                        ? 'bg-emerald-500/25 text-emerald-300 border border-emerald-500/40 shadow-sm'
+                        ? 'bg-brand-orange/25 text-amber-300 border border-brand-orange/40 shadow-sm'
                         : 'text-slate-400 hover:text-white'
                     }`}
                     title="Tata Letak Grid Responsif"
@@ -852,7 +852,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     onClick={() => setViewLayout('carousel')}
                     className={`flex items-center space-x-1 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                       viewLayout === 'carousel'
-                        ? 'bg-emerald-500/25 text-emerald-300 border border-emerald-500/40 shadow-sm'
+                        ? 'bg-brand-orange/25 text-amber-300 border border-brand-orange/40 shadow-sm'
                         : 'text-slate-400 hover:text-white'
                     }`}
                     title="Tata Letak Carousel Geser"
@@ -870,7 +870,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Cari nama, NIM, skill, quote..."
-                    className="w-full bg-[#050B08] text-xs text-white placeholder-slate-400 pl-9 pr-8 py-2.5 rounded-xl border border-[#1A2E24] focus:border-emerald-400 focus:outline-none focus:ring-1 focus:ring-emerald-400 transition"
+                    className="w-full bg-[#0D0804] text-xs text-white placeholder-slate-400 pl-9 pr-8 py-2.5 rounded-xl border border-[#2A180E] focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange transition"
                   />
                   {searchQuery && (
                     <button
@@ -889,7 +889,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               // Search Results View
               <div>
                 {ALL_ROSTER_MEMBERS.filter(matchesSearch).length === 0 ? (
-                  <div className="p-10 text-center rounded-3xl bg-[#08110D] border border-emerald-500/20 space-y-3">
+                  <div className="p-10 text-center rounded-3xl bg-[#120D08] border border-brand-orange/20 space-y-3">
                     <Users className="w-10 h-10 text-slate-500 mx-auto" />
                     <h3 className="text-lg font-bold text-white">Tidak Ada Anggota Ditemukan</h3>
                     <p className="text-xs text-slate-400">
@@ -897,16 +897,16 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     </p>
                     <button
                       onClick={() => setSearchQuery('')}
-                      className="px-4 py-2 rounded-xl bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30 hover:bg-emerald-500 hover:text-black transition cursor-pointer"
+                      className="px-4 py-2 rounded-xl bg-brand-orange/20 text-amber-300 text-xs font-bold border border-brand-orange/30 hover:bg-brand-orange hover:text-black transition cursor-pointer"
                     >
                       Reset Pencarian
                     </button>
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    <div className="flex items-center space-x-2 text-xs font-bold text-emerald-400">
+                    <div className="flex items-center space-x-2 text-xs font-bold text-brand-orange">
                       <span>Hasil Pencarian:</span>
-                      <span className="px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 font-mono">
+                      <span className="px-2 py-0.5 rounded-md bg-brand-orange/20 text-amber-300 font-mono">
                         {ALL_ROSTER_MEMBERS.filter(matchesSearch).length} anggota ditemukan
                       </span>
                     </div>
@@ -929,7 +929,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                   return viewLayout === 'grid' ? (
                     <div key={divKey} className="space-y-4">
-                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#08110D] border border-emerald-500/20 shadow-lg relative overflow-hidden">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#120D08] border border-[#2A180E] shadow-lg relative overflow-hidden">
                         <div className="absolute left-0 top-0 bottom-0 w-1.5" style={{ backgroundColor: badgeStyle.accent }} />
                         <div className="flex items-center space-x-3.5 pl-2">
                           <div
@@ -947,7 +947,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                               <h3 className="text-base sm:text-xl font-black text-white flex items-center gap-2">
                                 <span>{divInfo.title}</span>
                               </h3>
-                              <span className="px-2 py-0.5 rounded-md bg-[#030605] text-xs font-mono font-bold text-emerald-300 border border-emerald-500/30">
+                              <span className="px-2 py-0.5 rounded-md bg-[#0D0804] text-xs font-mono font-bold text-amber-300 border border-brand-orange/30">
                                 {membersInDiv.length} Anggota
                               </span>
                             </div>
@@ -957,7 +957,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                         <button
                           onClick={() => setSelectedDivision(divKey)}
-                          className="text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center space-x-1 pl-2 sm:pl-0 transition cursor-pointer"
+                          className="text-xs font-bold text-brand-orange hover:text-amber-300 flex items-center space-x-1 pl-2 sm:pl-0 transition cursor-pointer"
                         >
                           <span>Fokus Divisi</span>
                           <ChevronRight className="w-3.5 h-3.5" />
@@ -980,7 +980,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       actionButton={
                         <button
                           onClick={() => setSelectedDivision(divKey)}
-                          className="text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center space-x-1 pl-2 transition cursor-pointer"
+                          className="text-xs font-bold text-brand-orange hover:text-amber-300 flex items-center space-x-1 pl-2 transition cursor-pointer"
                         >
                           <span>Fokus Divisi</span>
                           <ChevronRight className="w-3.5 h-3.5" />
@@ -998,7 +998,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 {DIVISION_INFO[selectedDivision as TeamMember['division']] && (
                   viewLayout === 'grid' ? (
                     <div className="space-y-4">
-                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#08110D] border border-emerald-500/20 shadow-lg relative overflow-hidden">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#120D08] border border-[#2A180E] shadow-lg relative overflow-hidden">
                         <div
                           className="absolute left-0 top-0 bottom-0 w-1.5"
                           style={{
@@ -1021,7 +1021,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                               <h3 className="text-base sm:text-xl font-black text-white flex items-center gap-2">
                                 <span>{DIVISION_INFO[selectedDivision as TeamMember['division']].title}</span>
                               </h3>
-                              <span className="px-2 py-0.5 rounded-md bg-[#030605] text-xs font-mono font-bold text-emerald-300 border border-emerald-500/30">
+                              <span className="px-2 py-0.5 rounded-md bg-[#0D0804] text-xs font-mono font-bold text-amber-300 border border-brand-orange/30">
                                 {ALL_ROSTER_MEMBERS.filter((m) => m.division === selectedDivision).length} Anggota
                               </span>
                             </div>
@@ -1033,7 +1033,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                         <button
                           onClick={() => setSelectedDivision('All')}
-                          className="px-3.5 py-1.5 rounded-xl bg-[#0D1C15] hover:bg-emerald-500 text-emerald-300 hover:text-black text-xs font-bold transition border border-emerald-500/30 cursor-pointer"
+                          className="px-3.5 py-1.5 rounded-xl bg-[#1C130B] hover:bg-brand-orange text-amber-300 hover:text-black text-xs font-bold transition border border-brand-orange/30 cursor-pointer"
                         >
                           Tampilkan Semua Divisi
                         </button>
@@ -1056,7 +1056,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       actionButton={
                         <button
                           onClick={() => setSelectedDivision('All')}
-                          className="px-3.5 py-1.5 rounded-xl bg-[#0D1C15] hover:bg-emerald-500 text-emerald-300 hover:text-black text-xs font-bold transition border border-emerald-500/30 cursor-pointer"
+                          className="px-3.5 py-1.5 rounded-xl bg-[#1C130B] hover:bg-brand-orange text-amber-300 hover:text-black text-xs font-bold transition border border-brand-orange/30 cursor-pointer"
                         >
                           Tampilkan Semua Divisi
                         </button>
@@ -1307,13 +1307,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           onClick={() => setSelectedMember(null)}
         >
           <div
-            className="relative w-full max-w-3xl bg-[#08110D] border-2 border-emerald-500/40 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-emerald-500/20 space-y-5 max-h-[92vh] overflow-y-auto"
+            className="relative w-full max-w-3xl bg-[#120D08] border-2 border-brand-orange/40 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-brand-orange/20 space-y-5 max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 sm:top-5 sm:right-5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#0D1C15] hover:bg-emerald-500 text-slate-300 hover:text-black flex items-center justify-center transition border border-emerald-500/30 z-30 cursor-pointer"
+              className="absolute top-4 right-4 sm:top-5 sm:right-5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#1C130B] hover:bg-brand-orange text-slate-300 hover:text-black flex items-center justify-center transition border border-brand-orange/30 z-30 cursor-pointer"
               aria-label="Tutup modal"
             >
               <X className="w-5 h-5" />
@@ -1323,7 +1323,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 pt-1">
               {/* Large Photo Frame in Modal */}
               <div
-                className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#040806] group"
+                className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-3xl overflow-hidden border-2 shadow-2xl flex-shrink-0 relative bg-[#0A0704] group"
                 style={{
                   borderColor: (
                     DIVISION_BADGES[selectedMember.division] || DIVISION_BADGES['Mekanik']
@@ -1356,7 +1356,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     <span>{selectedMember.division}</span>
                   </span>
 
-                  <span className="px-2 py-0.5 rounded-xl bg-[#0C1A14] text-emerald-400 text-xs font-mono font-black border border-emerald-500/30">
+                  <span className="px-2 py-0.5 rounded-xl bg-[#24140A] text-amber-300 text-xs font-mono font-black border border-brand-orange/30">
                     {selectedMember.badge}
                   </span>
 
@@ -1371,15 +1371,15 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight ">
                     {selectedMember.name}
                   </h3>
-                  <p className="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">
+                  <p className="text-xs sm:text-sm font-bold text-amber-200 mt-0.5">
                     {selectedMember.role}
                   </p>
                 </div>
 
                 {/* Quote Banner */}
                 {selectedMember.quote && (
-                  <div className="p-3 rounded-2xl bg-[#07140E] border border-emerald-500/30 text-xs text-emerald-200/90 italic flex items-center space-x-2.5 shadow-inner text-left">
-                    <Quote className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                  <div className="p-3 rounded-2xl bg-[#180F09] border border-brand-orange/30 text-xs text-amber-200/90 italic flex items-center space-x-2.5 shadow-inner text-left">
+                    <Quote className="w-4 h-4 text-brand-orange flex-shrink-0" />
                     <span className="font-medium">"{selectedMember.quote}"</span>
                   </div>
                 )}
@@ -1387,7 +1387,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             </div>
 
             {/* Academic & Role Metadata Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 p-3.5 rounded-2xl bg-[#040806] border border-[#14261D] text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 p-3.5 rounded-2xl bg-[#0D0804] border border-[#2A180E] text-xs">
               <div>
                 <span className="text-slate-400 block text-[10px] uppercase font-bold">
                   Nomor Induk (NIM / NIDN)
@@ -1399,7 +1399,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 <span className="text-slate-400 block text-[10px] uppercase font-bold">
                   Status / Angkatan
                 </span>
-                <span className="text-emerald-300 font-semibold">
+                <span className="text-amber-300 font-semibold">
                   {selectedMember.generation || 'Mahasiswa Aktif Universitas Negeri Yogyakarta'}
                 </span>
               </div>
@@ -1421,8 +1421,8 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* SubRole Details if present */}
             {selectedMember.subRole && (
-              <div className="p-3 rounded-xl bg-[#07140E] border border-emerald-500/20 text-xs">
-                <span className="text-emerald-400 font-black uppercase text-[10px] tracking-wider block mb-1">
+              <div className="p-3 rounded-xl bg-[#180F09] border border-brand-orange/20 text-xs">
+                <span className="text-brand-orange font-black uppercase text-[10px] tracking-wider block mb-1">
                   Tanggung Jawab Teknis Spesifik:
                 </span>
                 <p className="text-slate-200 font-medium leading-relaxed">
@@ -1434,10 +1434,10 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Bio Narrative */}
             <div className="space-y-1.5">
               <span className="text-xs font-black uppercase text-slate-300 tracking-wider flex items-center space-x-1.5">
-                <Award className="w-4 h-4 text-emerald-400" />
+                <Award className="w-4 h-4 text-brand-orange" />
                 <span>Deskripsi Kontribusi Riset:</span>
               </span>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#040806] p-3.5 rounded-2xl border border-[#14261D]">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-[#0D0804] p-3.5 rounded-2xl border border-[#2A180E]">
                 {selectedMember.bio}
               </p>
             </div>
@@ -1445,15 +1445,15 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             {/* Technical Specialization Pills */}
             {selectedMember.specialization && selectedMember.specialization.length > 0 && (
               <div className="space-y-1.5">
-                <span className="text-xs font-black uppercase text-emerald-400 tracking-wider flex items-center space-x-1.5">
-                  <Cpu className="w-4 h-4 text-emerald-400" />
+                <span className="text-xs font-black uppercase text-brand-orange tracking-wider flex items-center space-x-1.5">
+                  <Cpu className="w-4 h-4 text-brand-orange" />
                   <span>Keahlian &amp; Penguasaan Teknologi:</span>
                 </span>
                 <div className="flex flex-wrap gap-1.5">
                   {selectedMember.specialization.map((spec, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-xl bg-[#0C1A14] text-emerald-100 text-xs font-semibold border border-emerald-500/30 shadow-sm"
+                      className="px-2.5 py-1 rounded-xl bg-[#221309] text-amber-100 text-xs font-semibold border border-brand-orange/30 shadow-sm"
                     >
                       {spec}
                     </span>
@@ -1473,7 +1473,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   {selectedMember.achievements.map((ach, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1.5 rounded-xl bg-[#0A160F] border border-amber-500/30 text-amber-200 text-xs font-medium flex items-center space-x-2"
+                      className="px-3 py-1.5 rounded-xl bg-[#1C130B] border border-amber-500/30 text-amber-200 text-xs font-medium flex items-center space-x-2"
                     >
                       <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                       <span>{ach}</span>
@@ -1484,9 +1484,9 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             )}
 
             {/* Social Links & Official Record Confirmation */}
-            <div className="pt-3 border-t border-[#14261D] flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="pt-3 border-t border-[#2A180E] flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="text-[11px] text-slate-400 flex items-center space-x-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
                 <span>Data Terverifikasi UKM Rekayasa Teknologi Universitas Negeri Yogyakarta</span>
               </div>
 

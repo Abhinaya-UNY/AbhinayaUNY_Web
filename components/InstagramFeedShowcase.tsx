@@ -132,14 +132,14 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 onClick={() => setSelectedCategory(cat)}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-black transition-all whitespace-nowrap ${
                   isActive
-                    ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-black shadow-lg shadow-emerald-500/25 scale-[1.02]'
-                    : 'bg-[#0e1914] text-slate-300 hover:text-white hover:bg-[#15271f] border border-emerald-950/70'
+                    ? 'bg-gradient-to-r from-brand-orange via-amber-500 to-orange-600 text-black shadow-lg shadow-brand-orange/25 scale-[1.02]'
+                    : 'bg-[#140E09] text-slate-300 hover:text-white hover:bg-[#1E140C] border border-[#2A180E]'
                 }`}
               >
                 <span>{cat}</span>
                 <span
                   className={`px-1.5 py-0.5 rounded-full text-[10px] ${
-                    isActive ? 'bg-black/20 text-black font-mono font-black' : 'bg-black/50 text-emerald-300/70 font-mono'
+                    isActive ? 'bg-black/20 text-black font-mono font-black' : 'bg-black/50 text-amber-300/70 font-mono'
                   }`}
                 >
                   {count}
@@ -161,20 +161,20 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 onClick={() => openPostModal(post)}
                 onMouseEnter={() => setHoveredPostId(post.id)}
                 onMouseLeave={() => setHoveredPostId(null)}
-                className="group cursor-pointer rounded-3xl bg-[#0c1411] border border-emerald-950/80 hover:border-emerald-500/60 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/15 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden"
+                className="group cursor-pointer rounded-3xl bg-[#120D08] border border-[#2A180E] hover:border-brand-orange/60 transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/15 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden"
               >
                 {/* 1. Dedicated Card Mini-Header (Cleanly placed ABOVE photo) */}
-                <div className="px-4 py-3 bg-[#0f1b16] border-b border-emerald-950/80 flex items-center justify-between text-xs">
+                <div className="px-4 py-3 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between text-xs">
                   <div className="flex items-center space-x-2">
                     <div className="w-5 h-5 rounded-full bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-600 p-0.5 flex items-center justify-center">
                       <div className="w-full h-full bg-black rounded-full flex items-center justify-center">
                         <Instagram className="w-3 h-3 text-pink-400" />
                       </div>
                     </div>
-                    <span className="text-[11px] font-mono font-bold text-emerald-200">@abhinaya.uny</span>
+                    <span className="text-[11px] font-mono font-bold text-amber-200">@abhinaya.uny</span>
                   </div>
                   <div className="flex items-center space-x-1.5">
-                    <span className="px-2 py-0.5 rounded-md bg-[#14261e] text-emerald-300 text-[10px] font-mono font-bold border border-emerald-500/25">
+                    <span className="px-2 py-0.5 rounded-md bg-[#221309] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/25">
                       {post.category}
                     </span>
                     {post.images.length > 1 && (
@@ -187,7 +187,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 </div>
 
                 {/* 2. Pristine Photo Viewport (100% Unblocked, Zero Dark Gradient, Zero Text Over Face) */}
-                <div className="relative w-full aspect-square overflow-hidden bg-[#060a08]">
+                <div className="relative w-full aspect-square overflow-hidden bg-[#0A0704]">
                   {/* Render all images stacked for smooth crossfade transition */}
                   {post.images.map((imgSrc, idx) => (
                     <img
@@ -203,20 +203,20 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                   ))}
 
                   {/* Subtle expand icon visible on card hover */}
-                  <div className="absolute bottom-3 right-3 z-20 w-8 h-8 rounded-full bg-black/75 text-emerald-300 opacity-0 group-hover:opacity-100 group-hover:scale-110 flex items-center justify-center border border-emerald-500/40 transition duration-300 backdrop-blur-sm shadow-md">
+                  <div className="absolute bottom-3 right-3 z-20 w-8 h-8 rounded-full bg-black/75 text-amber-300 opacity-0 group-hover:opacity-100 group-hover:scale-110 flex items-center justify-center border border-brand-orange/40 transition duration-300 backdrop-blur-sm shadow-md">
                     <Maximize2 className="w-4 h-4" />
                   </div>
                 </div>
 
                 {/* 3. Slide Indicator Strip (Cleanly placed OUTSIDE photo canvas) */}
                 {post.images.length > 1 && (
-                  <div className="py-1.5 bg-[#09110e] border-y border-emerald-950/60 flex items-center justify-center space-x-1.5">
+                  <div className="py-1.5 bg-[#140E09] border-y border-[#2A180E] flex items-center justify-center space-x-1.5">
                     {post.images.map((_, idx) => (
                       <div
                         key={idx}
                         className={`h-1.5 rounded-full transition-all duration-300 ${
                           idx === activeIdx
-                            ? 'w-5 bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]'
+                            ? 'w-5 bg-brand-orange shadow-[0_0_8px_rgba(255,107,0,0.8)]'
                             : 'w-1.5 bg-white/30'
                         }`}
                       />
@@ -225,19 +225,19 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 )}
 
                 {/* 4. Dedicated Card Content (Cleanly placed BELOW photo) */}
-                <div className="p-5 space-y-3 flex-1 flex flex-col justify-between bg-[#0a1310]">
+                <div className="p-5 space-y-3 flex-1 flex flex-col justify-between bg-[#120D08]">
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-[11px] text-slate-400 font-mono">
-                      <span className="flex items-center space-x-1 text-emerald-400/90 font-bold">
-                        <Calendar className="w-3 h-3 text-emerald-400" />
+                      <span className="flex items-center space-x-1 text-brand-orange font-bold">
+                        <Calendar className="w-3 h-3 text-brand-orange" />
                         <span>{post.timestamp.split(' ')[0]}</span>
                       </span>
-                      <span className="px-2 py-0.5 rounded-md bg-[#13231c] text-amber-300/90 border border-amber-500/20 text-[10px]">
+                      <span className="px-2 py-0.5 rounded-md bg-[#1C130B] text-amber-300/90 border border-brand-orange/20 text-[10px]">
                         Arsip Resmi
                       </span>
                     </div>
 
-                    <h3 className="text-base font-black text-white group-hover:text-emerald-300 transition line-clamp-2">
+                    <h3 className="text-base font-black text-white group-hover:text-amber-300 transition line-clamp-2">
                       {post.title}
                     </h3>
 
@@ -249,7 +249,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                   </div>
 
                   {/* Footer Action */}
-                  <div className="pt-3 border-t border-emerald-950/70 flex items-center justify-between text-xs font-bold text-emerald-400 group-hover:text-emerald-300">
+                  <div className="pt-3 border-t border-[#2A180E] flex items-center justify-between text-xs font-bold text-brand-orange group-hover:text-amber-300">
                     <span className="flex items-center space-x-1">
                       <span>Buka Dokumentasi &amp; {post.images.length} Foto</span>
                     </span>

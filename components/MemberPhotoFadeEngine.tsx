@@ -410,11 +410,11 @@ export const MemberPhotoFadeEngine: React.FC<MemberPhotoFadeEngineProps> = ({
       {/* Multi-Photo Slide Counter Badge (Clean Unobtrusive Placement at Bottom-Left) */}
       {showIndicators && validPhotos.length > 1 && (
         <div
-          className={`absolute bottom-3.5 left-3.5 z-20 flex items-center space-x-1.5 px-2.5 py-1 rounded-xl bg-black/75 text-emerald-300 text-[10px] font-mono font-bold border border-emerald-500/40 backdrop-blur-md shadow-lg pointer-events-none transition-opacity duration-300 ${
+          className={`absolute bottom-3.5 left-3.5 z-20 flex items-center space-x-1.5 px-2.5 py-1 rounded-xl bg-black/75 text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/40 backdrop-blur-md shadow-lg pointer-events-none transition-opacity duration-300 ${
             isModal || isHovered ? 'opacity-100' : 'opacity-85'
           }`}
         >
-          <Images className="w-3 h-3 text-emerald-400 animate-pulse" />
+          <Images className="w-3 h-3 text-brand-orange animate-pulse" />
           <span>
             {safeCurrentIdx + 1}/{validPhotos.length}
           </span>

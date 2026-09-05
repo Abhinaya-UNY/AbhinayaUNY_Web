@@ -83,7 +83,7 @@ export const OFFICIAL_NEWS_ARTICLES: NewsArticle[] = [
     "summary": "Tim Robotika Abhinaya UNY membuktikan keandalan rancang bangun robot kreatif dengan melaju ke babak final kompetisi nasional UNLIMITED Robotics Competition 2026 di Universitas Diponegoro Semarang.",
     "url": "https://www.instagram.com/p/DcEIl23oGWv/",
     "badge": "💡 FINALIS ROBOT KREATIF",
-    "badgeColor": "bg-emerald-500/20 text-emerald-400 border-emerald-500/40",
+    "badgeColor": "bg-amber-500/20 text-amber-400 border-amber-500/40",
     "image": "/images/news/undip-unlimited-robot-finalist.jpg",
     "stats": "UNLIMITED Robot 2026 • UNDIP",
     "readTime": "2 min baca"

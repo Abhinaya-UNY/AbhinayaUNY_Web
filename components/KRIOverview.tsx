@@ -37,7 +37,7 @@ export const KRIOverview: React.FC = () => {
     },
     {
       title: 'Integrasi 4 Pilar Mekatronika Terpadu',
-      icon: <Cpu className="w-5 h-5 text-emerald-400" />,
+      icon: <Cpu className="w-5 h-5 text-brand-orange" />,
       desc: 'KRTMI menuntut integrasi tanpa celah antara rancang bangun sasis mekanik (CAD/CAM & 3D print), keandalan distribusi daya elektrik (PCB & baterai LiFePO4), ketangguhan firmware embedded sistem, dan ketertiban tata kelola manajerial.',
     },
   ];

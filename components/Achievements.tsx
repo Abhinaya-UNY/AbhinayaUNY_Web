@@ -116,7 +116,7 @@ export const Achievements: React.FC = () => {
               </div>
 
               <div className="pt-2 border-t border-[#26180E] flex items-center space-x-2 text-[11px] text-amber-300/80">
-                <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
                 <span>{getVerificationLabel(item.organizer)}</span>
               </div>
             </div>

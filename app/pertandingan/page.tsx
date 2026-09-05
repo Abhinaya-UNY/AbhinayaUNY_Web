@@ -114,7 +114,7 @@ const MATCH_VIDEOS = [
     subtitle: 'Open Recruitment & Kaderisasi Anggota Baru Robotika UNY',
     description: 'Video profil ajakan bergabung bersama Tim Robotika Abhinaya UNY untuk mahasiswa baru dan calon periset mekatronika UKM Rekayasa Teknologi UNY.',
     badge: 'OPEN RECRUITMENT',
-    badgeColor: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
     url: 'https://www.youtube.com/watch?v=LyP9M_uTvMk',
   },
 ];
@@ -306,7 +306,7 @@ export default function PertandinganPage() {
             </div>
             <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
               <span className="text-slate-400 font-mono text-[11px] block">Waktu Siklus Sortir</span>
-              <span className="font-black text-emerald-400 text-sm sm:text-base">&lt; 12 Detik</span>
+              <span className="font-black text-brand-orange text-sm sm:text-base">&lt; 12 Detik</span>
               <span className="text-[10px] text-slate-400 block">Pick &amp; Smart Docking</span>
             </div>
             <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
@@ -350,8 +350,8 @@ export default function PertandinganPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#140E09] border border-emerald-900/30 space-y-3 relative group hover:border-emerald-500 transition">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-mono font-black text-sm border border-emerald-500/40">
+            <div className="p-5 rounded-2xl bg-[#140E09] border border-yellow-900/30 space-y-3 relative group hover:border-yellow-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-yellow-500/20 text-yellow-300 flex items-center justify-center font-mono font-black text-sm border border-yellow-500/40">
                 03
               </div>
               <h4 className="text-base font-black text-white">Gripping 2-Stage &amp; Angkut</h4>
@@ -407,7 +407,7 @@ export default function PertandinganPage() {
                         <div className="text-lg font-black text-brand-orange font-mono">
                           {match.scoreAbhinaya} - {match.scoreOpponent}
                         </div>
-                        <span className="text-[9px] uppercase font-bold text-emerald-400">
+                        <span className="text-[9px] uppercase font-bold text-amber-400">
                           {match.status === 'WIN' ? '🏆 MENANG' : '🚀 LOLOS FINAL'}
                         </span>
                       </div>

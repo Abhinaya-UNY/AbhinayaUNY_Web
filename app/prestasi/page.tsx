@@ -80,13 +80,13 @@ export default function PrestasiPage() {
             href="https://www.uny.ac.id/index.php/id/berita/robot-abhinaya-uny-sabet-juara-pertama-kontes-robot-tematik-indonesia"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-2xl bg-[#060A12] border border-slate-800 hover:border-brand-cyan transition space-y-2 group"
+            className="p-4 rounded-2xl bg-[#060A12] border border-slate-800 hover:border-brand-orange transition space-y-2 group"
           >
-            <div className="flex items-center justify-between text-emerald-400">
+            <div className="flex items-center justify-between text-brand-orange">
               <span>UNY News Archive</span>
               <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition" />
             </div>
-            <div className="font-bold text-white group-hover:text-brand-cyan transition line-clamp-2">
+            <div className="font-bold text-white group-hover:text-brand-orange transition line-clamp-2">
               Robot Abhinaya UNY Sabet Prestasi Tematik
             </div>
             <p className="text-[10px] text-slate-400">Arsip Riset &amp; Publikasi Robotika UNY</p>
