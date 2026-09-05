@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
-    <footer className="border-t border-white/5 bg-[#050507] text-slate-400 py-12">
+    <footer className="border-t border-white/[0.06] bg-[#0B0B0E] text-slate-400 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -37,27 +37,27 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <Link href="/" className="hover:text-brand-orange transition">
+                <Link href="/" className="hover:text-emerald-400 transition">
                   Beranda Tim
                 </Link>
               </li>
               <li>
-                <Link href="/pertandingan" className="hover:text-brand-orange transition">
+                <Link href="/pertandingan" className="hover:text-emerald-400 transition">
                   Laga &amp; Match Showcase
                 </Link>
               </li>
               <li>
-                <Link href="/krtmi" className="hover:text-brand-orange transition">
+                <Link href="/krtmi" className="hover:text-emerald-400 transition">
                   Cerita KRTMI (2019 – 2026)
                 </Link>
               </li>
               <li>
-                <Link href="/divisi" className="hover:text-brand-orange transition">
+                <Link href="/divisi" className="hover:text-emerald-400 transition">
                   Divisi &amp; Kultur Tim
                 </Link>
               </li>
               <li>
-                <Link href="/prestasi" className="hover:text-brand-orange transition">
+                <Link href="/prestasi" className="hover:text-emerald-400 transition">
                   Prestasi Kejuaraan
                 </Link>
               </li>

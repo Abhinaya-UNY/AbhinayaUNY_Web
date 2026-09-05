@@ -64,7 +64,7 @@ A comprehensive, multi-tier End-to-End (E2E) test suite (`tests/e2e/`, `scripts/
 - `R3-01: Technical division representation (Program, Elektronik, Mekanik)`: Verified all 3 technical divisions are represented with active members.
 - `R3-02: Granular specialized technical roles across all divisions`: Verified specific roles (Autonomous Navigation & CV Lead, PDB Lead, CAD & Fabrication Lead).
 - `R3-03: Rich robotics skill tags and specializations coverage`: Verified advanced robotics skills (YOLO, STM32, PCB, CAD, Mecanum).
-- `R3-04: Authentic UNY student NIMs and verified student credentials`: Verified authentic university student numbers (`22518241023`, `21501244039`, `22518241040`, etc.).
+- `R3-04: Authentic UNY student NIMs and verified student credentials`: Verified authentic university student numbers (`22518241023`, `21501244039`, `22518244007`, etc.).
 - `R3-05: Multi-photo pose availability for dynamic crossfade presentation`: Verified multi-image arrays with studio poses.
 - `R3-06: UI division category filter buttons with live counters and icons`: Verified `DIVISION_CATEGORIES` counters and division icons (`Code`, `Zap`, `Wrench`).
 

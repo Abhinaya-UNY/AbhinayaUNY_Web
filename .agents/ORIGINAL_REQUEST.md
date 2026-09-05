@@ -142,3 +142,66 @@ Seluruh animasi harus dibangun dengan arsitektur yang aman untuk Next.js Static 
 - [ ] Seluruh foto anggota, piala, dan robot tetap 100% terlihat jelas tanpa terhalang teks maupun efek visual yang berlebihan.
 - [ ] Harness pengujian otomatis (`node scripts/test_empirical_html_output.js` & `node scripts/stress_test_edge_cases.js`) lulus 100% dengan exit code 0.
 - [ ] Perubahan tersimpan, ter-commit, dan ter-push bersih ke repository GitHub `origin main`.
+
+## 2026-09-05T17:57:00Z
+
+Redesign the official Abhinaya UNY Robotics Portal from the ground up with an eye-friendly, high-end minimalist dark aesthetic (Deep Obsidian `#0B0B0E` / `#121216` paired with subtle Emerald Green `#10B981` glow accents), eliminating all visual noise and garish contrasts while integrating smooth, tasteful interactive motion design inspired by DavidHDev/react-bits.
+
+Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
+Integrity mode: development
+
+## Reference Materials
+- Animation & Motion Library Inspiration: https://github.com/DavidHDev/react-bits (Aurora ambient background, BlurText / DecryptedText, SpotlightCard, TiltedCard, Magnet buttons)
+- Benchmark Aesthetic: https://www.virose.team/ (Clean industrial minimalism, calm dark palettes, refined typography, zero clutter)
+- Data Ground Truth: `data/teamData.ts`, `data/krtmiData.ts`, `STRUKTUR_TIM_ABHINAYA.md` (100% authentic PDDikti records & official rulebooks must be fully preserved)
+
+## Requirements
+
+### R1. Minimalist Deep Obsidian & Emerald Glow Design System
+- Unify the entire website around a calm, eye-friendly minimalist dark palette:
+  - Base canvas: Deep Obsidian (`#0B0B0E`), Card surfaces: `#121216` / `#18181B` with delicate 1px border lines (`#27272A` / `rgba(255,255,255,0.06)`).
+  - Primary accent: Refined Emerald Green (`#10B981` / `#059669`) with subtle ambient glow, replacing noisy multi-color gradients.
+  - Generous whitespace, disciplined 8px spacing rhythm, and clear typographic hierarchy (Outfit & Plus Jakarta Sans).
+
+### R2. Ambient & Fluid Background Canvas (react-bits Inspired)
+- Implement smooth, eye-friendly animated background effects:
+  - Hero & header zones: Subtle Aurora / Mesh ambient gradient glow that gently shifts in the background without causing eye strain or distraction.
+  - Interactive grid / subtle particle dust: Gentle motion that reacts smoothly to cursor hover or scroll.
+  - Automatically throttle frame rates to 30/60 FPS and pause off-screen rendering via `IntersectionObserver` or when `prefers-reduced-motion` is enabled to conserve GPU/CPU resources.
+
+### R3. Kinetic Typography & Media Entrance Motion
+- Section headings & hero titles: Implement smooth text reveal animations (BlurText / DecryptedText / SplitText) that trigger cleanly on viewport entry.
+- Visual asset entrances: Staggered, smooth fade-and-slide reveals for imagery, robot specifications, and timeline blocks.
+- Member Roster & Gallery Cards: Integrate SpotlightCard (cursor-following border glow) and subtle 3D hover feedback (TiltedCard / Magnet effect) without layout shift or jitter.
+
+### R4. Component Overhaul Across All Sections
+- **Hero Stage**: Clean, expansive layout featuring unblocked high-res team photography, floating status telemetry pills, and refined CTA buttons.
+- **Leaders & Managers Showcase**: Minimalist horizontal timeline cards with smooth crossfades and authentic leadership badges.
+- **Active Technical Squad (2025)**: Streamlined division filter tabs (Program, Elektronik, Mekanik) with high-density, readable member cards.
+- **Rulebook & Tournament Archives (2019–2026)**: Clean interactive tabs with clear arena diagrams, technical specs, and scoring breakdowns.
+- **Preloader & Navigation**: Elegant, minimalist top navbar with blur backdrop and smooth scroll-spy indicators.
+
+### R5. Rigorous Build & Data Integrity
+- Preserve 100% of the verified PDDikti student credentials (NIM, Prodi, Faculty, Angkatan) across all 33 team members.
+- Next.js static export (`npm run build`) must compile cleanly with 0 TypeScript, ESLint, or runtime hydration warnings.
+
+## Acceptance Criteria
+
+### Verification & Performance Checks
+- [ ] `npm run build` succeeds with zero errors, exporting all 11 static pages.
+- [ ] Automated HTML testing harness (`node scripts/test_empirical_html_output.js`) passes 100% of assertions.
+- [ ] Edge cases stress test (`node scripts/stress_test_edge_cases.js`) passes 100% of assertions.
+- [ ] Visual aesthetic verified: Deep Obsidian `#0B0B0E` background, subtle `#10B981` Emerald glow accents, zero harsh/garish gradients, comfortable for long-duration viewing.
+- [ ] Background Aurora/canvas runs fluidly at 60 FPS with zero memory leaks, pausing when out of view.
+- [ ] Typography reveal (BlurText/DecryptedText) and Spotlight/Hover effects render smoothly across both mobile and desktop viewports.
+- [ ] All 33 team members retain verified authentic PDDikti records with zero data regressions.
+- [ ] All changes committed and pushed cleanly to remote repository.
+
+## 2026-09-05T18:09:01Z
+
+Important guidance regarding PDDikti Ground Truth:
+Farhan Yuda Mahendra's authentic PDDikti NIM is 22518244007 (verified directly via PDDikti API). Do not revert it to 22518241040.
+Zelfa Nafisah Zalna is S1 Fisika (FMIPA) with NIM 23030730048.
+Hisyam Yasid Pratowo is D4 Teknik Elektronika (Fakultas Vokasi / FV) with NIM 24090620010.
+scripts/test_challenger1_nim_faculty_oracle.py has been aligned with these verified authentic PDDikti records.
+Please continue with M2 overhaul while preserving these verified records.

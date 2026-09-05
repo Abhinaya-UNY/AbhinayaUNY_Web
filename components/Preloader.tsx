@@ -48,15 +48,15 @@ export const Preloader: React.FC = () => {
 
   return (
     <div
-      className="fixed inset-0 z-[9999] bg-[#050507] flex flex-col items-center justify-center transition-opacity duration-500 select-none"
+      className="fixed inset-0 z-[9999] bg-[#0B0B0E] flex flex-col items-center justify-center transition-opacity duration-500 select-none"
       style={{ opacity }}
     >
-      {/* Subtle ambient glow */}
-      <div className="absolute w-72 h-72 bg-brand-orange/5 blur-[100px] pointer-events-none rounded-full" />
+      {/* Subtle ambient emerald glow */}
+      <div className="absolute w-72 h-72 bg-emerald-500/10 blur-[100px] pointer-events-none rounded-full" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-xs w-full px-4">
-        {/* Clean Logo Stage (NO rotating ketupat spinner) */}
-        <div className="relative w-16 h-16 rounded-2xl bg-[#0B0B0E] border border-white/10 p-2 flex items-center justify-center shadow-2xl">
+        {/* Clean Logo Stage */}
+        <div className="relative w-16 h-16 rounded-2xl bg-[#121216] border border-white/10 p-2 flex items-center justify-center shadow-2xl">
           <img
             src={`${basePath}/assets/logo_abhinaya.png`}
             alt="Logo Abhinaya UNY"
@@ -67,25 +67,25 @@ export const Preloader: React.FC = () => {
         {/* Brand Wordmark & Telemetry */}
         <div className="text-center space-y-1">
           <p className="text-xs font-mono font-bold tracking-[0.3em] text-white uppercase">
-            ABHINAYA <span className="text-brand-orange">UNY</span>
+            ABHINAYA <span className="text-emerald-400">UNY</span>
           </p>
-          <p className="text-[10px] font-mono text-slate-500 tracking-wider">
+          <p className="text-[10px] font-mono text-slate-400 tracking-wider">
             {getStatusText()}
           </p>
         </div>
 
-        {/* Sleek Linear Progress Bar + Numeric Counter */}
+        {/* Sleek Linear Progress Bar with Emerald Gradient */}
         <div className="w-full space-y-2">
-          <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden border border-white/8">
+          <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden border border-white/10">
             <div
-              className="h-full bg-gradient-to-r from-brand-orange to-amber-400 rounded-full transition-all duration-100 ease-out"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-300 rounded-full transition-all duration-100 ease-out shadow-emerald-glow-sm"
               style={{ width: `${progress}%` }}
             />
           </div>
 
           <div className="flex items-center justify-between text-[10px] font-mono text-slate-500">
             <span>KRTMI ROBOTICS PORTAL</span>
-            <span className="text-white font-bold">{progress}%</span>
+            <span className="text-emerald-400 font-bold">{progress}%</span>
           </div>
         </div>
       </div>
@@ -94,4 +94,3 @@ export const Preloader: React.FC = () => {
 };
 
 export default Preloader;
-

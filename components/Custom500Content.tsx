@@ -18,29 +18,29 @@ export default function Custom500Content({ reset }: Custom500ContentProps) {
   };
 
   return (
-    <div className="min-h-screen bg-[#050507] text-slate-100 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16 relative overflow-hidden font-sans">
+    <div className="min-h-screen bg-[#0B0B0E] text-slate-100 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16 relative overflow-hidden font-sans">
       {/* Background Ambient High-Tech Glow */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center opacity-30">
-        <div className="w-[650px] h-[650px] bg-brand-orange/10 rounded-full blur-[140px]" />
+        <div className="w-[650px] h-[650px] bg-emerald-500/10 rounded-full blur-[140px]" />
       </div>
 
-      <div className="relative z-10 max-w-2xl w-full p-8 sm:p-12 rounded-3xl bg-[#0B0B0E] border border-white/15 backdrop-blur-2xl shadow-2xl text-center space-y-8">
+      <div className="relative z-10 max-w-2xl w-full p-8 sm:p-12 rounded-3xl bg-[#121216] border border-white/15 backdrop-blur-2xl shadow-2xl text-center space-y-8">
         
         {/* Telemetry Status Header */}
-        <div className="flex items-center justify-between border-b border-white/8 pb-4 text-xs font-mono text-brand-orange/90">
+        <div className="flex items-center justify-between border-b border-white/8 pb-4 text-xs font-mono text-emerald-400">
           <div className="flex items-center space-x-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-brand-orange animate-ping" />
-            <span className="text-brand-orange font-bold uppercase tracking-wider">STATUS // 500 FAILSAFE ENGAGED</span>
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
+            <span className="text-emerald-400 font-bold uppercase tracking-wider">STATUS // 500 FAILSAFE ENGAGED</span>
           </div>
           <div className="flex items-center space-x-1 text-slate-400">
-            <Radio className="w-3.5 h-3.5 text-brand-orange animate-pulse" />
+            <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
             <span>CORE SYSTEM INTERRUPT</span>
           </div>
         </div>
 
         {/* 500 Hero Showcase */}
         <div className="space-y-4">
-          <div className="inline-flex p-4 rounded-2xl bg-brand-orange/10 border border-brand-orange/20 text-brand-orange shadow-lg">
+          <div className="inline-flex p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 shadow-emerald-glow">
             <AlertOctagon className="w-12 h-12" />
           </div>
 
@@ -60,21 +60,21 @@ export default function Custom500Content({ reset }: Custom500ContentProps) {
         </div>
 
         {/* Diagnostic Terminal Log Card */}
-        <div className="p-4 rounded-2xl bg-[#0E0E12] border border-white/8 text-left font-mono text-xs space-y-1.5 text-slate-300">
-          <div className="flex items-center space-x-2 text-brand-orange text-[11px] pb-1 border-b border-white/5">
+        <div className="p-4 rounded-2xl bg-[#18181B] border border-white/8 text-left font-mono text-xs space-y-1.5 text-slate-300">
+          <div className="flex items-center space-x-2 text-emerald-400 text-[11px] pb-1 border-b border-white/5">
             <Terminal className="w-3.5 h-3.5" />
             <span>DIAGNOSTIC TELEMETRY LOG // ERROR_500</span>
           </div>
           <p className="text-amber-400 font-bold">• [WARN] CORE_BUS: 500_INTERNAL_SERVER_EXCEPTION</p>
           <p className="text-slate-400">• [INFO] STACK_VECTOR: ODOMETRY_HOLD_STABILIZATION=ACTIVE</p>
-          <p className="text-brand-orange">• [RECOVERY] Jalur pemulihan subsistem siap diarahkan ulang...</p>
+          <p className="text-emerald-400">• [RECOVERY] Jalur pemulihan subsistem siap diarahkan ulang...</p>
         </div>
 
         {/* Navigation Action Buttons */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
           <Link
             href="/"
-            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-brand-orange hover:bg-brand-darkOrange text-black font-bold text-sm shadow-lg transition cursor-pointer"
+            className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-sm shadow-emerald-glow transition cursor-pointer"
           >
             <Home className="w-4 h-4" />
             <span>Kembali ke Beranda</span>
@@ -108,7 +108,7 @@ export default function Custom500Content({ reset }: Custom500ContentProps) {
 
         {/* Failsafe Notice */}
         <div className="pt-2 flex items-center justify-center space-x-2 text-xs font-mono text-slate-400">
-          <ShieldAlert className="w-3.5 h-3.5 text-brand-orange" />
+          <ShieldAlert className="w-3.5 h-3.5 text-emerald-400" />
           <span>Abhinaya UNY Failsafe Protocol • UKM Rekayasa Teknologi UNY</span>
         </div>
 

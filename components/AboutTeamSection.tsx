@@ -8,30 +8,33 @@ export const AboutTeamSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   return (
-    <section id="about-tim" className="py-8 sm:py-10 md:py-12 border-b border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8">
+    <section id="about-tim" className="py-8 sm:py-10 md:py-12 border-b border-white/[0.06] bg-[#0B0B0E] relative">
+      {/* Background Ambience */}
+      <div className="absolute top-1/3 left-10 w-96 h-96 bg-emerald-500/5 blur-[120px] pointer-events-none rounded-full" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 text-brand-orange/70 text-[11px] font-mono uppercase tracking-[0.2em]">
-            <Users className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
+            <Users className="w-3.5 h-3.5 text-emerald-400" />
             <span>TENTANG ABHINAYA UNY</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
             Mengenal Tim Robotika Abhinaya UNY
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
-            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-300">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-300">UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
+            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
           </p>
         </div>
 
         {/* Featured Team Photo */}
-        <div className="rounded-2xl overflow-hidden border border-white/10 bg-[#0B0B0E] flex flex-col group shadow-xl">
+        <div className="rounded-2xl overflow-hidden border border-white/[0.08] bg-[#121216] flex flex-col group shadow-xl">
           
           {/* Top meta bar */}
-          <div className="px-5 py-3.5 sm:px-7 bg-[#0E0E12] border-b border-white/5 flex flex-wrap items-center justify-between gap-3">
+          <div className="px-5 py-3.5 sm:px-7 bg-[#18181B] border-b border-white/[0.06] flex flex-wrap items-center justify-between gap-3">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-lg bg-brand-orange text-black text-[11px] font-bold uppercase tracking-wider font-mono">
+              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-lg bg-emerald-400 text-black text-[11px] font-bold uppercase tracking-wider font-mono shadow-sm">
                 <Trophy className="w-3 h-3 fill-black" />
                 <span>KONTINGEN RESMI KRTMI 2024</span>
               </span>
@@ -40,7 +43,7 @@ export const AboutTeamSection: React.FC = () => {
               </span>
             </div>
             <div className="flex items-center space-x-1.5 text-[11px] font-mono text-slate-400">
-              <Camera className="w-3 h-3" />
+              <Camera className="w-3 h-3 text-emerald-400" />
               <span>Dokumentasi Resmi Paddock Nasional</span>
             </div>
           </div>
@@ -55,7 +58,7 @@ export const AboutTeamSection: React.FC = () => {
           </div>
 
           {/* Caption below */}
-          <div className="p-5 sm:p-7 bg-[#0E0E12] border-t border-white/5 space-y-2">
+          <div className="p-5 sm:p-7 bg-[#18181B] border-t border-white/[0.06] space-y-2">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
               <h3 className="text-base sm:text-lg font-bold text-white">
                 Momen Kebersamaan Tim Abhinaya UNY Seusai Berjuang di KRTMI Nasional 2024
@@ -89,29 +92,29 @@ export const AboutTeamSection: React.FC = () => {
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
               <SpotlightCard
-                spotlightColor="rgba(234, 88, 12, 0.12)"
+                spotlightColor="rgba(16, 185, 129, 0.14)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
-                <div className="font-bold text-brand-orange font-mono text-base flex items-baseline">
+                <div className="font-bold text-emerald-400 font-mono text-base flex items-baseline">
                   <CountUp to={7} duration={2} />+ Periode
                 </div>
                 <div className="text-[11px] text-slate-500">Riset KRTMI Sejak 2019</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(234, 88, 12, 0.12)"
+                spotlightColor="rgba(16, 185, 129, 0.14)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
-                <div className="font-bold text-amber-400 font-mono text-base flex items-baseline">
+                <div className="font-bold text-emerald-400 font-mono text-base flex items-baseline">
                   <CountUp to={100} duration={2} />% Otonom
                 </div>
                 <div className="text-[11px] text-slate-500">Teknologi Kamera AI</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(234, 88, 12, 0.12)"
+                spotlightColor="rgba(16, 185, 129, 0.14)"
                 spotlightSize={200}
-                className="p-3 rounded-xl bg-white/[0.03] border border-white/8 text-xs space-y-0.5"
+                className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
                 <div className="font-bold text-white font-mono text-base">UKM Restek UNY</div>
                 <div className="text-[11px] text-slate-500">Tingkat Universitas & BPTI</div>
@@ -121,7 +124,7 @@ export const AboutTeamSection: React.FC = () => {
 
           {/* Photo Collage */}
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
-            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0E0E12] transition duration-300">
+            <div className="rounded-xl overflow-hidden border border-white/[0.08] group bg-[#121216] transition duration-300">
               <img
                 src={`${basePath}/assets/WEB_5721.jpg`}
                 alt="Aktivitas Riset Laboratorium Abhinaya UNY"
@@ -131,7 +134,7 @@ export const AboutTeamSection: React.FC = () => {
                 }}
               />
             </div>
-            <div className="rounded-xl overflow-hidden border border-white/8 group bg-[#0E0E12] transition duration-300">
+            <div className="rounded-xl overflow-hidden border border-white/[0.08] group bg-[#121216] transition duration-300">
               <img
                 src={`${basePath}/assets/robot_action_1.jpg`}
                 alt="Pengujian Komponen Mekanik & Elektrik Robot"

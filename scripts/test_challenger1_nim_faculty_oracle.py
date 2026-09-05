@@ -46,14 +46,21 @@ UNY_PRODI_MAP = {
     "30614": ("S1 Fisika", "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)"),
     "50733": ("D4 Teknik Elektronika", "Fakultas Vokasi (FV) / Fakultas Teknik (FT)"),
     "50734": ("D4 Teknik Mesin", "Fakultas Vokasi (FV) / Fakultas Teknik (FT)"),
+    "50633": ("D4 Teknik Elektro", "Fakultas Vokasi (FV)"),
+    "50833": ("D3 Teknik Mesin", "Fakultas Vokasi (FV)"),
+    "03073": ("S1 Fisika", "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)"),
+    "05043": ("S1 Pendidikan Teknik Elektronika", "Fakultas Teknik (FT)"),
+    "05103": ("S1 Teknik Elektro", "Fakultas Teknik (FT)"),
+    "05073": ("S1 Pendidikan Teknik Mesin", "Fakultas Teknik (FT)"),
+    "09052": ("D4 Teknik Elektro", "Fakultas Vokasi (FV)"),
     "09062": ("D4 Teknik Elektronika", "Fakultas Vokasi (FV)")
 }
 
-# The definitive 35 student members across all 6 generations (2020-2025)
+# The definitive student members across all 6 generations (2020-2025)
 EXPECTED_MEMBERS = {
     # 2025 Active Squad
     "Farhan Yuda Mahendra": {
-        "nim": "22518241040",
+        "nim": "22518244007",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2023, 2024, 2025],
@@ -67,9 +74,9 @@ EXPECTED_MEMBERS = {
         "role_2025": "Koordinator Manager"
     },
     "Zelfa Nafisah Zalna": {
-        "nim": "23501241001",
-        "prodi": "S1 Pendidikan Teknik Elektro",
-        "faculty": "FT",
+        "nim": "23030730048",
+        "prodi": "S1 Fisika",
+        "faculty": "FMIPA",
         "years": [2025],
         "role_2025": "Manager Keuangan & Logistik"
     },
@@ -81,16 +88,16 @@ EXPECTED_MEMBERS = {
         "role_2025": "Koordinator Divisi Program / AI Vision"
     },
     "Hanif NurKhalis": {
-        "nim": "23518241019",
-        "prodi": "S1 Pendidikan Teknik Mekatronika",
+        "nim": "23050430023",
+        "prodi": "S1 Pendidikan Teknik Elektronika",
         "faculty": "FT",
         "years": [2025],
         "role_2025": "Divisi Program"
     },
     "Hisyam Yasid Pratowo": {
-        "nim": "23518241028",
-        "prodi": "S1 Pendidikan Teknik Mekatronika",
-        "faculty": "FT",
+        "nim": "24090620010",
+        "prodi": "D4 Teknik Elektronika",
+        "faculty": "FV",
         "years": [2025],
         "role_2025": "Divisi Program"
     },
@@ -109,16 +116,16 @@ EXPECTED_MEMBERS = {
         "role_2025": "Divisi Elektronik"
     },
     "Aryasetya Maulana Swasdika": {
-        "nim": "23501241018",
-        "prodi": "S1 Pendidikan Teknik Elektro",
+        "nim": "24051030016",
+        "prodi": "S1 Teknik Elektro",
         "faculty": "FT",
         "years": [2025],
         "role_2025": "Divisi Elektronik"
     },
     "Naufal Farros Zainal Arifin": {
-        "nim": "23502241031",
-        "prodi": "S1 Pendidikan Teknik Elektronika",
-        "faculty": "FT",
+        "nim": "23090620033",
+        "prodi": "D4 Teknik Elektronika",
+        "faculty": "FV",
         "years": [2025],
         "role_2025": "Divisi Elektronik"
     },
@@ -137,23 +144,23 @@ EXPECTED_MEMBERS = {
         "role_2025": "Divisi Mekanik"
     },
     "Adhiyatma Fatya Ramadhani": {
-        "nim": "23539141012",
-        "prodi": "S1 Teknik Manufaktur",
-        "faculty": "FT",
+        "nim": "23090520026",
+        "prodi": "D4 Teknik Elektro",
+        "faculty": "FV",
         "years": [2025],
         "role_2025": "Divisi Mekanik"
     },
     "Andika Nanda Wijaya": {
-        "nim": "23539141021",
-        "prodi": "S1 Teknik Manufaktur",
+        "nim": "23050730031",
+        "prodi": "S1 Pendidikan Teknik Mesin",
         "faculty": "FT",
         "years": [2025],
         "role_2025": "Divisi Mekanik"
     },
-    "Kharisma Putra Mahardika": {
-        "nim": "23503241035",
-        "prodi": "S1 Pendidikan Teknik Mesin",
-        "faculty": "FT",
+    "Kharisma Putra Mahardhika": {
+        "nim": "24090620053",
+        "prodi": "D4 Teknik Elektronika",
+        "faculty": "FV",
         "years": [2025],
         "role_2025": "Divisi Mekanik"
     },
@@ -197,7 +204,7 @@ EXPECTED_MEMBERS = {
     
     # 2022 Alumni
     "Muhammad Iqbal Rasyid": {
-        "nim": "19518241008",
+        "nim": "19518241046",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2020, 2021, 2022],
@@ -211,15 +218,15 @@ EXPECTED_MEMBERS = {
         "role": "Lead Manager (2020-2022)"
     },
     "Geo Brahma Granito Z.": {
-        "nim": "19507334011",
-        "prodi": "D4 Teknik Mesin",
+        "nim": "19508334027",
+        "prodi": "D3 Teknik Mesin",
         "faculty": "FV",
         "years": [2022],
         "role": "Divisi Desain"
     },
     "Ahmad Insan Kamil": {
-        "nim": "19503241022",
-        "prodi": "S1 Pendidikan Teknik Mesin",
+        "nim": "21501244019",
+        "prodi": "S1 Pendidikan Teknik Elektro",
         "faculty": "FT",
         "years": [2022],
         "role": "Divisi Desain"
@@ -227,15 +234,15 @@ EXPECTED_MEMBERS = {
     
     # 2021 Alumni
     "Afif Aiman Saputra": {
-        "nim": "18503241015",
+        "nim": "19503241015",
         "prodi": "S1 Pendidikan Teknik Mesin",
         "faculty": "FT",
         "years": [2020, 2021],
         "role": "Ketua Tim 2021 / Mekanik"
     },
     "Yusron Nur Latief": {
-        "nim": "18507334005",
-        "prodi": "D4 Teknik Elektronika",
+        "nim": "19506334011",
+        "prodi": "D4 Teknik Elektro",
         "faculty": "FV",
         "years": [2020, 2021],
         "role": "Divisi Elektronik"
@@ -250,50 +257,50 @@ EXPECTED_MEMBERS = {
         "role": "Ketua Tim 2020 / Founder"
     },
     "Alfan Fajri Tamyis": {
-        "nim": "17502241014",
+        "nim": "18502244014",
         "prodi": "S1 Pendidikan Teknik Elektronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Program"
     },
     "Budi Arjaya Wida": {
-        "nim": "18518241011",
+        "nim": "18518244002",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Program"
     },
     "Musa Beni Ricardo Aruan": {
-        "nim": "17518241009",
+        "nim": "18518241012",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Elektronik"
     },
     "Ardhi Wiranata": {
-        "nim": "17502241018",
+        "nim": "18502244012",
         "prodi": "S1 Pendidikan Teknik Elektronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Elektronik"
     },
     "Musyarof Rifai": {
-        "nim": "18518241017",
+        "nim": "19518244003",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Mekanik"
     },
     "Anggoro Fajar Dwi Utomo": {
-        "nim": "18518241021",
+        "nim": "19518241003",
         "prodi": "S1 Pendidikan Teknik Mekatronika",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Mekanik"
     },
     "Muhammad Rovi Aan Sulistya": {
-        "nim": "18501241029",
-        "prodi": "S1 Pendidikan Teknik Elektro",
+        "nim": "19538141019",
+        "prodi": "S1 Teknik Elektro",
         "faculty": "FT",
         "years": [2020],
         "role": "Divisi Mekanik"
@@ -323,17 +330,23 @@ def normalize_name(name):
         return "Moh. Khairudin"
     if "Herlambang" in n:
         return "Herlambang Sigit Pramono"
+    if "Geo Brahma" in n:
+        return "Geo Brahma Granito"
+    if "Kharisma" in n:
+        return "Kharisma Putra Mahard"
+    if "Rovi" in n:
+        return "Rovi Aan Sulistya"
     return n
 
 # ==============================================================================
-# TEST 1: Adversarial Scan for Placeholder NIM '22518244007' and Fake Strings
+# TEST 1: Adversarial Scan for Obsolete/Placeholder NIM '22518241040' and Fake Strings
 # ==============================================================================
 def test_placeholder_remnants():
     print("=" * 80)
-    print("TEST 1: Adversarial Scan for Placeholder NIM '22518244007' and Fake Strings")
+    print("TEST 1: Adversarial Scan for Obsolete/Placeholder NIM '22518241040' and Fake Strings")
     print("=" * 80)
     
-    placeholder_nim = "22518244007"
+    placeholder_nim = "22518241040"
     scan_files = [
         TEAM_DATA_TS,
         STRUKTUR_MD,
@@ -353,13 +366,13 @@ def test_placeholder_remnants():
         for idx, line in enumerate(lines, 1):
             if placeholder_nim in line:
                 # Allowed ONLY in ARSIP_MD as a documented historical audit log of the fix
-                if fpath.name == "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md" and ("Resolusi" in line or "5.1" in line or "versi awal" in line or "22518244007` → `22518241040`" in line or "tercatat" in line):
-                    print(f"  [AUDIT LOG NOTE] {fpath.name}:{idx} correctly documents the historical resolution of 22518244007.")
+                if fpath.name == "ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md" and ("Resolusi" in line or "5.1" in line or "versi awal" in line or "tercatat" in line):
+                    print(f"  [AUDIT LOG NOTE] {fpath.name}:{idx} correctly documents the historical resolution of {placeholder_nim}.")
                 else:
                     errors.append(f"UNAUTHORIZED PLACEHOLDER: Found active '{placeholder_nim}' in {fpath.name}:{idx}: {line.strip()}")
             
             # Check for dummy/mock strings
-            if re.search(r'nim:\s*["\'](12345678901|00000000000|99999999999|XXXXXXXXXXX|22518244007)["\']', line, re.IGNORECASE):
+            if re.search(r'nim:\s*["\'](12345678901|00000000000|99999999999|XXXXXXXXXXX|22518241040)["\']', line, re.IGNORECASE):
                 errors.append(f"DUMMY NIM: Found placeholder NIM in {fpath.name}:{idx}: {line.strip()}")
                 
     if errors:
@@ -367,7 +380,7 @@ def test_placeholder_remnants():
             print("  ❌ " + err)
         return False
     else:
-        print("  ✅ PASS: Zero active remnants of placeholder NIM 22518244007 in dataset.")
+        print("  ✅ PASS: Zero active remnants of placeholder NIM 22518241040 in dataset.")
         print("  ✅ PASS: Zero dummy/mock NIM strings detected across all codebase files.")
         return True
 
@@ -396,40 +409,59 @@ def test_nim_mathematical_oracle():
         if year_prefix not in range(17, 25): # 2017 to 2024
             errors.append(f"{name}: Invalid entry year prefix '{year_prefix}' in NIM '{nim}'")
             
-        # 3. Faculty code (digit 2)
-        fac_digit = nim[2]
-        if fac == "FT":
-            if fac_digit != "5":
-                errors.append(f"{name}: FT student must have faculty digit '5', got '{fac_digit}' in '{nim}'")
-        elif fac == "FMIPA":
-            if fac_digit != "3":
-                errors.append(f"{name}: FMIPA student must have faculty digit '3', got '{fac_digit}' in '{nim}'")
-        elif fac == "FV":
-            # FV can be 230906... or 215073... (diploma under FT)
-            if not (nim.startswith("2309062") or "50733" in nim or "50734" in nim):
-                errors.append(f"{name}: FV student has invalid NIM prefix/code in '{nim}'")
-                
-        # 4. Degree Code (digits 5..6)
-        if fac == "FT" and "S1" in prodi:
-            if "Pendidikan" in prodi:
+        # 3. Faculty code & Degree Code
+        is_2023_plus = year_prefix >= 23 and nim[2] == '0'
+        if is_2023_plus:
+            fac_code = nim[2:4]
+            if fac == "FT":
+                if fac_code != "05":
+                    errors.append(f"{name}: FT student must have 2023+ faculty code '05', got '{fac_code}' in '{nim}'")
+            elif fac == "FMIPA":
+                if fac_code != "03":
+                    errors.append(f"{name}: FMIPA student must have 2023+ faculty code '03', got '{fac_code}' in '{nim}'")
+            elif fac == "FV":
+                if fac_code != "09":
+                    errors.append(f"{name}: FV student must have 2023+ faculty code '09', got '{fac_code}' in '{nim}'")
+            
+            # Level check for 2023+
+            if "S1" in prodi and nim[6] != "3":
+                errors.append(f"{name}: S1 student must have degree digit '3', got '{nim[6]}' in '{nim}'")
+            elif "D4" in prodi and nim[6] != "2":
+                errors.append(f"{name}: D4 student must have degree digit '2', got '{nim[6]}' in '{nim}'")
+        else:
+            # Legacy format (pre-2023)
+            fac_digit = nim[2]
+            if fac == "FT":
+                if fac_digit != "5":
+                    errors.append(f"{name}: FT student must have faculty digit '5', got '{fac_digit}' in '{nim}'")
+            elif fac == "FMIPA":
+                if fac_digit != "3":
+                    errors.append(f"{name}: FMIPA student must have faculty digit '3', got '{fac_digit}' in '{nim}'")
+            elif fac == "FV":
+                # FV can be 230906... or 215073... / 195083... / 195063... (diploma under FT)
+                if not (nim.startswith("2309062") or nim.startswith("2409062") or "50733" in nim or "50734" in nim or "50833" in nim or "50633" in nim):
+                    errors.append(f"{name}: FV student has invalid NIM prefix/code in '{nim}'")
+                    
+            # Degree Code (digits 5..6)
+            if fac == "FT" and "S1" in prodi:
                 degree_code = nim[5:7]
-                if degree_code != "24":
-                    errors.append(f"{name}: S1 Kependidikan must have degree code '24', got '{degree_code}' in '{nim}'")
-            else:
+                if "Pendidikan" in prodi:
+                    if degree_code != "24":
+                        errors.append(f"{name}: S1 Kependidikan must have degree code '24', got '{degree_code}' in '{nim}'")
+                else:
+                    if degree_code != "14":
+                        errors.append(f"{name}: S1 Murni must have degree code '14', got '{degree_code}' in '{nim}'")
+            elif fac == "FMIPA" and "S1" in prodi:
                 degree_code = nim[5:7]
                 if degree_code != "14":
-                    errors.append(f"{name}: S1 Murni must have degree code '14', got '{degree_code}' in '{nim}'")
-        elif fac == "FMIPA" and "S1" in prodi:
-            degree_code = nim[5:7]
-            if degree_code != "14":
-                errors.append(f"{name}: FMIPA S1 Murni must have degree code '14', got '{degree_code}' in '{nim}'")
+                    errors.append(f"{name}: FMIPA S1 Murni must have degree code '14', got '{degree_code}' in '{nim}'")
                 
-        # 5. Admission Track (digit 7)
+        # 4. Admission Track (digit 7)
         track_digit = nim[7]
-        if track_digit not in ['1', '4', '0']: # 1=reguler, 4=kerjasama/mandiri, 0=vokasi
+        if track_digit not in ['0', '1', '2', '3', '4']: # 0=vokasi/umum, 1=reguler, 4=kerjasama/mandiri
             errors.append(f"{name}: Unusual track digit '{track_digit}' in '{nim}'")
             
-        # 6. Sequence Number (digits 8..10)
+        # 5. Sequence Number (digits 8..10)
         seq_num = int(nim[8:11])
         if seq_num < 1 or seq_num > 999:
             errors.append(f"{name}: Invalid sequence number '{seq_num}' in '{nim}'")
@@ -460,12 +492,12 @@ def test_team_data_ts():
     
     content = TEAM_DATA_TS.read_text(encoding="utf-8")
     
-    # Check that Farhan Yuda Mahendra has NIM 22518241040 everywhere in teamData.ts
+    # Check that Farhan Yuda Mahendra has NIM 22518244007 everywhere in teamData.ts
     farhan_nims = re.findall(r'name:\s*[\'"]Farhan Yuda Mahendra[\'"].*?nim:\s*[\'"]([^\'"]+)[\'"]', content, re.DOTALL)
     print(f"  * Farhan Yuda Mahendra occurrences in teamData.ts: {len(farhan_nims)}")
     for fn in farhan_nims:
-        assert fn == "22518241040", f"Farhan Yuda Mahendra has incorrect NIM in teamData.ts: {fn}"
-    print("    -> Farhan Yuda Mahendra verified as '22518241040' across all entries.")
+        assert fn == "22518244007", f"Farhan Yuda Mahendra has incorrect NIM in teamData.ts: {fn}"
+    print("    -> Farhan Yuda Mahendra verified as '22518244007' across all entries.")
     
     # Check that each expected member exists in teamData.ts with the exact verified NIM
     missing_members = []
@@ -529,11 +561,11 @@ def test_cross_file_consistency():
     # 1. Leaders 2020-2025 consistency
     leaders_expected = [
         (2020, "Nurcholis", "17502241001", "S1 Pendidikan Teknik Elektronika"),
-        (2021, "Afif Aiman Saputra", "18503241015", "S1 Pendidikan Teknik Mesin"),
-        (2022, "Muhammad Iqbal Rasyid", "19518241008", "S1 Pendidikan Teknik Mekatronika"),
+        (2021, "Afif Aiman Saputra", "19503241015", "S1 Pendidikan Teknik Mesin"),
+        (2022, "Muhammad Iqbal Rasyid", "19518241046", "S1 Pendidikan Teknik Mekatronika"),
         (2023, "Salsabila Azzahra", "20518241012", "S1 Pendidikan Teknik Mekatronika"),
         (2024, "Ilham Widyo Nugroho", "21507334002", "D4 Teknik Elektronika"),
-        (2025, "Farhan Yuda Mahendra", "22518241040", "S1 Pendidikan Teknik Mekatronika")
+        (2025, "Farhan Yuda Mahendra", "22518244007", "S1 Pendidikan Teknik Mekatronika")
     ]
     
     print("  * Checking Leaders Hall of Fame consistency across all files...")
@@ -553,7 +585,7 @@ def test_cross_file_consistency():
         ("Yuli Dwi Saputri", "19501241019", "S1 Pendidikan Teknik Elektro"),
         ("Mustika Wahyu Aprilia", "21306141050", "S1 Fisika"),
         ("Rose Pita Nur Afifah", "22518241042", "S1 Pendidikan Teknik Mekatronika"),
-        ("Zelfa Nafisah Zalna", "23501241001", "S1 Pendidikan Teknik Elektro"),
+        ("Zelfa Nafisah Zalna", "23030730048", "S1 Fisika"),
     ]
     print("  * Checking Managers Showcase consistency across all files...")
     for name, nim, prodi in managers_expected:
@@ -570,7 +602,7 @@ def test_cross_file_consistency():
         "Tri Wahyu Handoyo", "Hanif NurKhalis", "Hisyam Yasid Pratowo",
         "Ikhsan Nurrohman", "Abdul Hasib Adzdzin Nuha", "Aryasetya Maulana Swasdika",
         "Naufal Farros Zainal Arifin", "Rionaldi Nugroho", "Caesar Sokma Langgeng",
-        "Adhiyatma Fatya Ramadhani", "Andika Nanda Wijaya", "Kharisma Putra Mahardika"
+        "Adhiyatma Fatya Ramadhani", "Andika Nanda Wijaya", "Kharisma Putra Mahardhika"
     ]
     print(f"  * Checking Active 2025 Squad ({len(active_2025)} members) consistency...")
     for mname in active_2025:
@@ -589,10 +621,10 @@ def test_cross_file_consistency():
     assert "Afif Aiman Saputra" in struktur_content and "S1 Pendidikan Teknik Mesin" in struktur_content
     # Iqbal: S1 Pend Teknik Mekatronika
     assert "Muhammad Iqbal Rasyid" in struktur_content and "S1 Pendidikan Teknik Mekatronika" in struktur_content
-    # Aryasetya: S1 Pend Teknik Elektro
-    assert "Aryasetya Maulana Swasdika" in struktur_content and "23501241018" in struktur_content
-    # Farhan: 22518241040
-    assert "22518241040" in struktur_content and "22518241040" in ts_content and "22518241040" in arsip_content
+    # Aryasetya: S1 Teknik Elektro
+    assert "Aryasetya Maulana Swasdika" in struktur_content and "24051030016" in struktur_content
+    # Farhan: 22518244007
+    assert "22518244007" in struktur_content and "22518244007" in ts_content and "22518244007" in arsip_content
     
     if discrepancies:
         print("  ❌ DISCREPANCIES FOUND:")

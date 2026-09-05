@@ -67,16 +67,16 @@ export const Achievements: React.FC = () => {
   };
 
   return (
-    <section id="prestasi" className="py-12 sm:py-16 md:py-20 border-b border-white/5 relative">
+    <section id="prestasi" className="py-12 sm:py-16 md:py-20 border-b border-white/[0.06] relative bg-[#0B0B0E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         
         {/* Header */}
         <div className="text-center space-y-3 max-w-4xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-mono tracking-wider border border-brand-orange/20">
-            <Trophy className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
+            <Trophy className="w-3.5 h-3.5 text-amber-400" />
             <span>REKAM JEJAK KEJUARAAN RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
             <ShinyText
               text="Kabinet Prestasi & Jejak Podium Nasional"
               speed={4}
@@ -93,25 +93,25 @@ export const Achievements: React.FC = () => {
           {awards.map((item, idx) => (
             <SpotlightCard
               key={idx}
-              spotlightColor={item.highlight ? 'rgba(245, 158, 11, 0.14)' : 'rgba(234, 88, 12, 0.10)'}
-              spotlightSize={300}
+              spotlightColor={item.highlight ? 'rgba(16, 185, 129, 0.16)' : 'rgba(16, 185, 129, 0.10)'}
+              spotlightSize={320}
               className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight
-                  ? 'bg-[#0E0E12] border-brand-orange/30 hover:border-brand-orange/50 shadow-lg shadow-brand-orange/5'
-                  : 'bg-[#0B0B0E] border-white/8 hover:border-white/16'
+                  ? 'bg-[#121216] border-emerald-500/30 hover:border-emerald-500/50 shadow-emerald-glow-sm'
+                  : 'bg-[#121216] border-white/[0.08] hover:border-white/20'
               }`}
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-white/5 text-brand-orange border border-white/10 font-mono">
+                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-white/5 text-emerald-400 border border-white/10 font-mono">
                     <DecryptedText
                       text={item.year}
                       animateOn="hover"
-                      className="text-brand-orange font-mono"
+                      className="text-emerald-400 font-mono"
                     />
                   </span>
-                  <span className={`text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase ${
-                    item.highlight ? 'bg-brand-orange text-black font-black' : 'bg-white/5 text-slate-300 border border-white/10'
+                  <span className={`text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase font-mono ${
+                    item.highlight ? 'bg-emerald-500 text-black font-black shadow-sm' : 'bg-white/5 text-slate-300 border border-white/10'
                   }`}>
                     <DecryptedText
                       text={item.badge}
@@ -122,7 +122,7 @@ export const Achievements: React.FC = () => {
                 </div>
 
                 <div className="space-y-1.5">
-                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition-colors">
+                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition-colors">
                     {item.title}
                   </h3>
                   <p className="text-xs text-slate-300 font-medium">
@@ -134,7 +134,7 @@ export const Achievements: React.FC = () => {
                 </div>
 
                 <div className="pt-3 border-t border-white/5 flex items-center space-x-2 text-[11px] text-slate-400">
-                  <ShieldCheck className="w-3.5 h-3.5 text-brand-orange flex-shrink-0" />
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
                   <span>{getVerificationLabel(item.organizer)}</span>
                 </div>
               </div>
@@ -146,3 +146,5 @@ export const Achievements: React.FC = () => {
     </section>
   );
 };
+
+export default Achievements;

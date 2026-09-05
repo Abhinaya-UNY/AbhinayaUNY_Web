@@ -43,7 +43,7 @@ export const ShinyText: React.FC<ShinyTextProps> = ({
   // Custom inline background if shimmerColor specified
   const customGradientStyle = shimmerColor
     ? {
-        backgroundImage: `linear-gradient(90deg, #FF6B00 0%, ${shimmerColor} 50%, #FF6B00 100%)`,
+        backgroundImage: `linear-gradient(90deg, #10B981 0%, ${shimmerColor} 50%, #10B981 100%)`,
         backgroundSize: '250% 100%',
         animationDuration: `${speed}s`,
       }
@@ -55,8 +55,8 @@ export const ShinyText: React.FC<ShinyTextProps> = ({
     <span
       className={`relative inline-block ${
         !isAnimated
-          ? 'text-brand-orange font-bold'
-          : 'bg-clip-text text-transparent bg-gradient-to-r from-brand-orange via-amber-200 to-brand-orange bg-[length:250%_100%] animate-shimmer'
+          ? 'text-emerald-400 font-bold'
+          : 'bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-100 to-emerald-400 bg-[length:250%_100%] animate-shimmer'
       } ${className}`}
       style={isAnimated ? customGradientStyle : undefined}
     >

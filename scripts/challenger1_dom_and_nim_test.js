@@ -21,25 +21,25 @@ console.log('  out/index.html size:', indexHtml.length.toLocaleString(), 'charac
 const verifiedNims = [
   // Active Squad
   { name: 'Tri Wahyu Handoyo', nim: '22518241023', role: 'Programmer / Autonomous Navigation' },
-  { name: 'Farhan Yuda Mahendra', nim: '22518241040', role: 'Ketua Tim 2025 / Programmer' },
-  { name: 'Hanif NurKhalis', nim: '23518241019', role: 'Programmer / Vision' },
-  { name: 'Hisyam Yasid Pratowo', nim: '23518241028', role: 'Programmer / Embedded' },
+  { name: 'Farhan Yuda Mahendra', nim: '22518244007', role: 'Ketua Tim 2025 / Programmer' },
+  { name: 'Hanif NurKhalis', nim: '23050430023', role: 'Programmer / Vision' },
+  { name: 'Hisyam Yasid Pratowo', nim: '24090620010', role: 'Programmer / Embedded' },
   { name: 'Ikhsan Nurrohman', nim: '22538141004', role: 'Elektronik / Embedded Systems' },
   { name: 'Abdul Hasib Adzdzin Nuha', nim: '22502241014', role: 'Elektronik / Power Management' },
   { name: 'Agus Bagaskoro', nim: '21501244039', role: 'Elektronik / Power Distribution' },
-  { name: 'Aryasetya Maulana Swasdika', nim: '23501241018', role: 'Elektronik / Circuitry' },
-  { name: 'Naufal Farros Zainal Arifin', nim: '23502241031', role: 'Elektronik / Sensor System' },
+  { name: 'Aryasetya Maulana Swasdika', nim: '24051030016', role: 'Elektronik / Circuitry' },
+  { name: 'Naufal Farros Zainal Arifin', nim: '23090620033', role: 'Elektronik / Sensor System' },
   { name: 'Rionaldi Nugroho', nim: '23090620088', role: 'Mekanik / Rapid Prototyping' },
   { name: 'Caesar Sokma Langgeng', nim: '21539144005', role: 'Mekanik / Mechanism & 3D CAD' },
-  { name: 'Adhiyatma Fatya Ramadhani', nim: '23539141012', role: 'Mekanik / Fabrication' },
-  { name: 'Andika Nanda Wijaya', nim: '23539141021', role: 'Mekanik / Chassis' },
-  { name: 'Kharisma Putra Mahardika', nim: '23503241035', role: 'Mekanik / Drive Mechanism' },
+  { name: 'Adhiyatma Fatya Ramadhani', nim: '23090520026', role: 'Mekanik / Fabrication' },
+  { name: 'Andika Nanda Wijaya', nim: '23050730031', role: 'Mekanik / Chassis' },
+  { name: 'Kharisma Putra Mahardhika', nim: '24090620053', role: 'Mekanik / Drive Mechanism' },
   { name: 'Muhamad Ilham Sony', nim: '20539144016', role: 'Mekanik / Mechanical Structure' },
 
   // Leaders Hall of Fame (2020-2025)
   { name: 'Nurcholis', nim: '17502241001', role: 'Ketua Tim 2020' },
-  { name: 'Afif Aiman Saputra', nim: '18503241015', role: 'Ketua Tim 2021' },
-  { name: 'Muhammad Iqbal Rasyid', nim: '19518241008', role: 'Ketua Tim 2022' },
+  { name: 'Afif Aiman Saputra', nim: '19503241015', role: 'Ketua Tim 2021' },
+  { name: 'Muhammad Iqbal Rasyid', nim: '19518241046', role: 'Ketua Tim 2022' },
   { name: 'Salsabila Azzahra', nim: '20518241012', role: 'Ketua Tim 2023' },
   { name: 'Ilham Widyo Nugroho', nim: '21507334002', role: 'Ketua Tim 2024' },
 
@@ -47,7 +47,7 @@ const verifiedNims = [
   { name: 'Yuli Dwi Saputri', nim: '19501241019', role: 'Manager 2020' },
   { name: 'Mustika Wahyu Aprilia', nim: '21306141050', role: 'Manager 2023' },
   { name: 'Rose Pita Nur Afifah', nim: '22518241042', role: 'Manager 2024-2025' },
-  { name: 'Zelfa Nafisah Zalna', nim: '23501241001', role: 'Manager 2025' },
+  { name: 'Zelfa Nafisah Zalna', nim: '23030730048', role: 'Manager 2025' },
 
   // Pembimbing
   { name: 'Prof. Ir. Moh. Khairudin', nim: '19790412 200212 1 002', role: 'Pembimbing' },

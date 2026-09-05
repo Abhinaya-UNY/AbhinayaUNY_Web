@@ -29,7 +29,7 @@ export const DecryptedText: React.FC<DecryptedTextProps> = ({
   animateOn = 'hover',
   className = '',
   parentClassName = '',
-  encryptedClassName = 'text-brand-orange/80 font-mono font-bold',
+  encryptedClassName = 'text-emerald-400/90 font-mono font-bold',
 }) => {
   // SSR Invariant: Must initialize with literal target text so static export HTML contains target string
   const [displayText, setDisplayText] = useState<string>(text);

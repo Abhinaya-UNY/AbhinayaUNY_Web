@@ -1,8 +1,23 @@
 import type { Metadata } from 'next';
+import { Outfit, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Preloader } from '@/components/Preloader';
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  variable: '--font-outfit',
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '800', '900'],
+});
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  variable: '--font-plus-jakarta',
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '800'],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://abhinaya-uny.github.io'),
@@ -58,7 +73,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className="scroll-smooth">
+    <html lang="id" className={`${outfit.variable} ${plusJakarta.variable} scroll-smooth`}>
       <head>
         <link rel="icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
         <link rel="shortcut icon" href="/AbhinayaUNY_Web/favicon.png?v=4" type="image/png" />
@@ -82,7 +97,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
         <meta name="twitter:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta." />
         <meta name="twitter:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
-        <meta name="theme-color" content="#FF6B00" />
+        <meta name="theme-color" content="#0B0B0E" />
 
         {/* Schema.org Structured Data for Google Search Engine Knowledge Graph */}
         <script
@@ -112,7 +127,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="antialiased selection:bg-brand-orange selection:text-black bg-[#050507] text-slate-100 min-h-screen">
+      <body className="antialiased font-sans selection:bg-emerald-500 selection:text-black bg-[#0B0B0E] text-slate-100 min-h-screen">
         <Preloader />
         <Navbar />
         <main className="min-h-[85vh]">

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
@@ -9,18 +9,60 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>('');
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   const navLinks = [
     { href: '/', label: 'HOME' },
-    { href: '/#about-tim', label: 'ABOUT' },
-    { href: '/#prestasi', label: 'PRESTASI' },
-    { href: '/#kri-overview', label: 'KRI' },
-    { href: '/#krtmi-story', label: 'KRTMI' },
-    { href: '/#berita-media', label: 'BERITA' },
+    { href: '/#about-tim', label: 'ABOUT', sectionId: 'about-tim' },
+    { href: '/#prestasi', label: 'PRESTASI', sectionId: 'prestasi' },
+    { href: '/#kri-overview', label: 'KRI', sectionId: 'kri-overview' },
+    { href: '/#krtmi-story', label: 'KRTMI', sectionId: 'krtmi-story' },
+    { href: '/#berita-media', label: 'BERITA', sectionId: 'berita-media' },
     { href: '/pertandingan', label: 'LAGA' },
-    { href: '/#team-roster', label: 'ROSTER' },
+    { href: '/#team-roster', label: 'ROSTER', sectionId: 'team-roster' },
   ];
+
+  // Dynamic Viewport Scroll-Spy Tracking
+  useEffect(() => {
+    if (pathname !== '/') {
+      setActiveSection('');
+      return;
+    }
+
+    const sectionIds = ['about-tim', 'prestasi', 'kri-overview', 'krtmi-story', 'berita-media', 'team-roster'];
+
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      // If user is near top of home page, highlight HOME
+      if (scrollY < 180) {
+        setActiveSection('');
+        return;
+      }
+
+      const offset = 140; // Navbar offset threshold
+      let current = '';
+
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (el) {
+          const top = el.offsetTop - offset;
+          const height = el.offsetHeight;
+          if (scrollY >= top && scrollY < top + height) {
+            current = id;
+            break;
+          }
+        }
+      }
+
+      setActiveSection(current);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [pathname]);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith('/#') && pathname === '/') {
@@ -40,14 +82,24 @@ export const Navbar: React.FC = () => {
     setIsOpen(false);
   };
 
+  const isLinkActive = (link: { href: string; sectionId?: string }) => {
+    if (pathname === '/') {
+      if (!link.sectionId) {
+        return activeSection === '' && link.href === '/';
+      }
+      return activeSection === link.sectionId;
+    }
+    return pathname === link.href;
+  };
+
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#050507]/90 backdrop-blur-md border-b border-white/5">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-[#0B0B0E]/80 border-b border-white/[0.06] transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-18">
           
           {/* Logo & Brand */}
           <Link href="/" className="flex items-center space-x-3 group flex-shrink-0">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-white p-1 flex items-center justify-center group-hover:opacity-90 transition flex-shrink-0">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-white p-1 flex items-center justify-center group-hover:opacity-90 transition flex-shrink-0 shadow-md">
               <img
                 src={`${basePath}/assets/logo_abhinaya.png`}
                 alt="Logo Abhinaya UNY"
@@ -55,8 +107,8 @@ export const Navbar: React.FC = () => {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-brand-orange transition whitespace-nowrap leading-tight">
-                ABHINAYA<span className="text-brand-orange"> UNY</span>
+              <span className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-emerald-400 transition whitespace-nowrap leading-tight">
+                ABHINAYA<span className="text-emerald-400"> UNY</span>
               </span>
               <span className="text-[9px] text-slate-500 font-mono uppercase tracking-widest whitespace-nowrap leading-tight">
                 KRTMI — UKM Restek UNY
@@ -64,19 +116,19 @@ export const Navbar: React.FC = () => {
             </div>
           </Link>
 
-          {/* Center Nav */}
-          <nav className="hidden lg:flex items-center space-x-0.5 flex-shrink-0">
+          {/* Center Nav with Scroll-Spy Active Indicator */}
+          <nav className="hidden lg:flex items-center space-x-1 flex-shrink-0">
             {navLinks.map((link) => {
-              const isActive = pathname === link.href;
+              const active = isLinkActive(link);
               return (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
                   className={`px-3.5 py-1.5 rounded-lg text-[11px] font-semibold tracking-widest transition whitespace-nowrap flex-shrink-0 ${
-                    isActive
-                      ? 'bg-brand-orange/10 text-brand-orange'
-                      : 'text-slate-400 hover:text-white hover:bg-white/5'
+                    active
+                      ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shadow-emerald-glow-sm'
+                      : 'text-slate-400 hover:text-white hover:bg-white/5 border border-transparent'
                   }`}
                 >
                   {link.label}
@@ -120,7 +172,7 @@ export const Navbar: React.FC = () => {
           <div className="flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg text-slate-400 hover:text-brand-orange hover:bg-white/5 transition cursor-pointer"
+              className="p-2 rounded-lg text-slate-400 hover:text-emerald-400 hover:bg-white/5 transition cursor-pointer"
               aria-label="Toggle Menu"
             >
               {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -131,17 +183,17 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Drawer Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-[#050507]/95 backdrop-blur-xl border-b border-white/10 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn shadow-2xl">
+        <div className="lg:hidden bg-[#0B0B0E]/95 backdrop-blur-xl border-b border-white/10 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn shadow-2xl">
           {navLinks.map((link) => {
-            const isActive = pathname === link.href;
+            const active = isLinkActive(link);
             return (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`block px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider uppercase transition ${
-                  isActive
-                    ? 'bg-brand-orange text-black font-bold'
+                  active
+                    ? 'bg-emerald-500/15 text-emerald-400 font-bold border border-emerald-500/30'
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
@@ -183,3 +235,5 @@ export const Navbar: React.FC = () => {
     </header>
   );
 };
+
+export default Navbar;

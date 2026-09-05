@@ -16,7 +16,7 @@ export default function DivisiPage() {
       
       {/* Header */}
       <div className="text-center space-y-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black uppercase tracking-wider border border-emerald-500/30 shadow-sm">
           <Users className="w-4 h-4" />
           <span>DIVISI &amp; KULTUR RISET TIM • UKM REKAYASA TEKNOLOGI UNY</span>
         </div>
@@ -33,10 +33,10 @@ export default function DivisiPage() {
         {TEAM_DIVISIONS.map((div) => (
           <div
             key={div.id}
-            className="p-6 sm:p-8 rounded-2xl bg-[#0B0B0E] border border-white/10 space-y-5 hover:border-brand-orange/40 transition duration-300"
+            className="p-6 sm:p-8 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-5 hover:border-emerald-500/40 transition duration-300"
           >
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center border border-brand-orange/20 flex-shrink-0">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
                 {div.id === 'mekanik' && <Wrench className="w-6 h-6 sm:w-7 sm:h-7" />}
                 {div.id === 'elektrik' && <Zap className="w-6 h-6 sm:w-7 sm:h-7" />}
                 {div.id === 'programming' && <Code className="w-6 h-6 sm:w-7 sm:h-7" />}
@@ -56,17 +56,17 @@ export default function DivisiPage() {
               {div.desc}
             </p>
 
-            <div className="pt-2 border-t border-white/5 space-y-2">
-              <span className="text-xs font-mono uppercase text-brand-orange tracking-wider block">
+            <div className="pt-2 border-t border-white/[0.06] space-y-2">
+              <span className="text-xs font-mono uppercase text-emerald-400 tracking-wider block font-bold">
                 Fokus Keahlian &amp; Praktik:
               </span>
               <div className="flex flex-wrap gap-2">
                 {div.skills.map((skill, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 rounded-lg bg-white/5 text-slate-300 text-xs font-mono border border-white/10 flex items-center space-x-1.5"
+                    className="px-3 py-1 rounded-lg bg-[#18181B] text-slate-300 text-xs font-mono border border-white/[0.08] flex items-center space-x-1.5"
                   >
-                    <CheckCircle2 className="w-3.5 h-3.5 text-brand-orange" />
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
                     <span>{skill}</span>
                   </span>
                 ))}
@@ -81,14 +81,14 @@ export default function DivisiPage() {
       <InstagramFeedShowcase />
 
       {/* Interactive Team Roster Showcase */}
-      <div className="border-t border-white/5 pt-12">
+      <div className="border-t border-white/[0.06] pt-12">
         <TeamRosterSection showHeader={true} showAllLink={false} />
       </div>
 
       {/* Freshmen FAQ & Welcome Section */}
-      <div className="p-8 sm:p-12 rounded-2xl bg-[#0B0B0E] border border-white/10 space-y-6">
+      <div className="p-8 sm:p-12 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-6">
         <div className="space-y-2 text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 text-xs font-mono uppercase text-brand-orange">
+          <div className="inline-flex items-center space-x-1.5 text-xs font-mono uppercase text-emerald-400 font-bold">
             <Sparkles className="w-4 h-4" />
             <span>PANDUAN UNTUK MAHASISWA BARU (MABA)</span>
           </div>
@@ -98,7 +98,7 @@ export default function DivisiPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-4 text-xs sm:text-sm text-slate-300">
-          <div className="p-5 rounded-xl bg-white/3 border border-white/5 space-y-2">
+          <div className="p-5 rounded-xl bg-[#18181B] border border-white/[0.06] space-y-2">
             <h3 className="font-bold text-white text-sm">
               Apakah harus jago koding atau elektro dulu sebelum gabung?
             </h3>
@@ -107,7 +107,7 @@ export default function DivisiPage() {
             </p>
           </div>
 
-          <div className="p-5 rounded-xl bg-white/3 border border-white/5 space-y-2">
+          <div className="p-5 rounded-xl bg-[#18181B] border border-white/[0.06] space-y-2">
             <h3 className="font-bold text-white text-sm">
               Jurusan apa saja yang bisa bergabung?
             </h3>
@@ -116,7 +116,7 @@ export default function DivisiPage() {
             </p>
           </div>
 
-          <div className="p-5 rounded-xl bg-white/3 border border-white/5 space-y-2">
+          <div className="p-5 rounded-xl bg-[#18181B] border border-white/[0.06] space-y-2">
             <h3 className="font-bold text-white text-sm">
               Apa saja keuntungan bergabung dengan Abhinaya?
             </h3>
@@ -125,7 +125,7 @@ export default function DivisiPage() {
             </p>
           </div>
 
-          <div className="p-5 rounded-xl bg-white/3 border border-white/5 space-y-2">
+          <div className="p-5 rounded-xl bg-[#18181B] border border-white/[0.06] space-y-2">
             <h3 className="font-bold text-white text-sm">
               Di mana lokasi lab dan basecamp Tim Abhinaya?
             </h3>

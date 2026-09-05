@@ -45,6 +45,10 @@ const requiredFiles = [
   path.join(ANIMATIONS_DIR, 'SpotlightCard.tsx'),
   path.join(ANIMATIONS_DIR, 'CountUp.tsx'),
   path.join(ANIMATIONS_DIR, 'AmbientGrid.tsx'),
+  path.join(ANIMATIONS_DIR, 'Aurora.tsx'),
+  path.join(ANIMATIONS_DIR, 'InteractiveCanvasDust.tsx'),
+  path.join(ANIMATIONS_DIR, 'TiltedCard.tsx'),
+  path.join(ANIMATIONS_DIR, 'Magnet.tsx'),
   path.join(ANIMATIONS_DIR, 'index.ts'),
   path.join(UI_DIR, 'SpotlightCard.tsx'),
 ];
@@ -65,6 +69,10 @@ const clientComponentFiles = [
   path.join(ANIMATIONS_DIR, 'SpotlightCard.tsx'),
   path.join(ANIMATIONS_DIR, 'CountUp.tsx'),
   path.join(ANIMATIONS_DIR, 'AmbientGrid.tsx'),
+  path.join(ANIMATIONS_DIR, 'Aurora.tsx'),
+  path.join(ANIMATIONS_DIR, 'InteractiveCanvasDust.tsx'),
+  path.join(ANIMATIONS_DIR, 'TiltedCard.tsx'),
+  path.join(ANIMATIONS_DIR, 'Magnet.tsx'),
   path.join(UI_DIR, 'SpotlightCard.tsx'),
 ];
 
@@ -85,22 +93,24 @@ requiredFiles.forEach(file => {
 });
 
 // 4. DecryptedText implementation features
-test('DecryptedText: genuine scramble, SSR-safe initial state & reduced-motion check', () => {
+test('DecryptedText: genuine scramble, SSR-safe initial state, emerald styling & reduced-motion check', () => {
   const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'DecryptedText.tsx'), 'utf8');
   assert(content.includes('useState<string>(text)'), 'Initial state must be literal text for SSR');
   assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
   assert(content.includes('revealDirection'), 'Must support revealDirection');
   assert(content.includes('aria-label={text}'), 'Must have aria-label for accessibility');
+  assert(content.includes('text-emerald-400'), 'Must use emerald styling by default');
   assert(content.includes('export const DecryptedText'), 'Named export missing');
 });
 
 // 5. ShinyText implementation features
-test('ShinyText: metallic sweep, animate-shimmer & literal text rendering', () => {
+test('ShinyText: metallic sweep, animate-shimmer, emerald gradient & literal text rendering', () => {
   const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'ShinyText.tsx'), 'utf8');
   assert(content.includes('animate-shimmer'), 'Must use animate-shimmer keyframes');
   assert(content.includes('bg-clip-text'), 'Must use bg-clip-text');
   assert(content.includes('{text}'), 'Must render literal text directly');
   assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
+  assert(content.includes('emerald'), 'Must use emerald shimmer gradient');
   assert(content.includes('export const ShinyText'), 'Named export missing');
 });
 
@@ -115,12 +125,14 @@ test('BlurText: IntersectionObserver, staggered reveal & a11y label', () => {
 });
 
 // 7. SpotlightCard implementation features
-test('SpotlightCard: CSS custom properties, pointer-events-none & direct DOM manipulation', () => {
+test('SpotlightCard: CSS custom properties, emerald glow, obsidian surface & direct DOM manipulation', () => {
   const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'SpotlightCard.tsx'), 'utf8');
   assert(content.includes('--mouse-x'), 'Must use --mouse-x CSS variable');
   assert(content.includes('--mouse-y'), 'Must use --mouse-y CSS variable');
   assert(content.includes('--spotlight-opacity'), 'Must use --spotlight-opacity CSS variable');
   assert(content.includes('pointer-events-none'), 'Spotlight overlay must be pointer-events-none');
+  assert(content.includes('16, 185, 129'), 'Default spotlight must use Emerald (16, 185, 129)');
+  assert(content.includes('bg-[#121216]'), 'Default background must use primary card surface #121216');
   assert(content.includes('export const SpotlightCard'), 'Named export missing');
 });
 
@@ -144,7 +156,47 @@ test('AmbientGrid: SVG pattern, micro-grid coordinates & scanline', () => {
   assert(content.includes('export const AmbientGrid'), 'Named export missing');
 });
 
-// 10. Barrel export and alias re-export
+// 10. Aurora implementation features
+test('Aurora: fluid mesh gradient glow, reduced-motion check & non-intrusive backdrop', () => {
+  const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'Aurora.tsx'), 'utf8');
+  assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
+  assert(content.includes('emerald-500'), 'Must feature emerald glow orbs');
+  assert(content.includes('aria-hidden="true"'), 'Must have aria-hidden for backdrop element');
+  assert(content.includes('pointer-events-none'), 'Must be non-interactive backdrop');
+  assert(content.includes('export const Aurora'), 'Named export missing');
+});
+
+// 11. InteractiveCanvasDust implementation features
+test('InteractiveCanvasDust: 30/60 FPS throttle, IntersectionObserver pause & canvas lifecycle', () => {
+  const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'InteractiveCanvasDust.tsx'), 'utf8');
+  assert(content.includes('IntersectionObserver'), 'Must pause when off-screen via IntersectionObserver');
+  assert(content.includes('requestAnimationFrame'), 'Must use requestAnimationFrame loop');
+  assert(content.includes('frameInterval'), 'Must clamp frame rate using delta-time frameInterval');
+  assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
+  assert(content.includes('visibilitychange'), 'Must listen to visibilitychange');
+  assert(content.includes('export const InteractiveCanvasDust'), 'Named export missing');
+});
+
+// 12. TiltedCard implementation features
+test('TiltedCard: 3D hover feedback, preserve-3d, glare & zero layout shift', () => {
+  const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'TiltedCard.tsx'), 'utf8');
+  assert(content.includes('perspective'), 'Must use perspective for 3D depth');
+  assert(content.includes('rotateX'), 'Must calculate rotateX tilt');
+  assert(content.includes('rotateY'), 'Must calculate rotateY tilt');
+  assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
+  assert(content.includes('export const TiltedCard'), 'Named export missing');
+});
+
+// 13. Magnet implementation features
+test('Magnet: smooth cursor magnetic physics & smooth reset easing', () => {
+  const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'Magnet.tsx'), 'utf8');
+  assert(content.includes('translate3d'), 'Must apply translate3d');
+  assert(content.includes('maxDistance'), 'Must clamp translation to maxDistance');
+  assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
+  assert(content.includes('export const Magnet'), 'Named export missing');
+});
+
+// 14. Barrel export and alias re-export
 test('index.ts and ui/SpotlightCard.tsx barrel exports', () => {
   const indexContent = fs.readFileSync(path.join(ANIMATIONS_DIR, 'index.ts'), 'utf8');
   assert(indexContent.includes("export * from './DecryptedText'"), 'Missing DecryptedText export');
@@ -153,6 +205,10 @@ test('index.ts and ui/SpotlightCard.tsx barrel exports', () => {
   assert(indexContent.includes("export * from './SpotlightCard'"), 'Missing SpotlightCard export');
   assert(indexContent.includes("export * from './CountUp'"), 'Missing CountUp export');
   assert(indexContent.includes("export * from './AmbientGrid'"), 'Missing AmbientGrid export');
+  assert(indexContent.includes("export * from './Aurora'"), 'Missing Aurora export');
+  assert(indexContent.includes("export * from './InteractiveCanvasDust'"), 'Missing InteractiveCanvasDust export');
+  assert(indexContent.includes("export * from './TiltedCard'"), 'Missing TiltedCard export');
+  assert(indexContent.includes("export * from './Magnet'"), 'Missing Magnet export');
 
   const uiContent = fs.readFileSync(path.join(UI_DIR, 'SpotlightCard.tsx'), 'utf8');
   assert(uiContent.includes("from '../animations/SpotlightCard'"), 'Missing ui alias export');

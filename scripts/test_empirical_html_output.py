@@ -121,7 +121,7 @@ def test_active_squad_in_static_dom():
         assert present, f"Active Squad member '{member}' NOT found in static out/index.html DOM"
 
     # Check NIMs
-    expected_nims = ['22518241023', '21501244039', '22518241040', '22502241014', '20539144016', '21539144005', '22538141004', '23090620088']
+    expected_nims = ['22518241023', '21501244039', '22518244007', '22502241014', '20539144016', '21539144005', '22538141004', '23090620088']
     found_nims = {}
     for nim in expected_nims:
         present = nim in html_content
