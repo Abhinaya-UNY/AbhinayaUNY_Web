@@ -34,7 +34,7 @@
    - [4.1. Leaders Hall of Fame (2020 – 2025)](#41-leaders-hall-of-fame-2020--2025)
    - [4.2. Managers Showcase (2020 – 2025)](#42-managers-showcase-2020--2025)
 5. [BAGIAN 5: Audit Log Verifikasi PDDikti, Resolusi Anomali & Remediasi](#bagian-5-audit-log-verifikasi-pddikti-resolusi-anomali--remediasi)
-   - [5.1. Resolusi NIM Farhan Yuda Mahendra (`22518244007` → `22518241040`)](#51-resolusi-nim-farhan-yuda-mahendra-22518244007--22518241040)
+   - [5.1. Resolusi NIM Farhan Yuda Mahendra (`22518244007` → `22518244007`)](#51-resolusi-nim-farhan-yuda-mahendra-22518244007--22518244007)
    - [5.2. Penyelarasan Nomenklatur Program Studi Lintas Berkas](#52-penyelarasan-nomenklatur-program-studi-lintas-berkas)
    - [5.3. Remediasi 22 File Placeholder Hitam (MD5: `74a1baa8`)](#53-remediasi-22-file-placeholder-hitam-md5-74a1baa8)
    - [5.4. Penggantian Slide Hitam Scraper Instagram Feed](#54-penggantian-slide-hitam-scraper-instagram-feed)
@@ -264,21 +264,21 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 
 | No | Nama Lengkap | NIM Terverifikasi | Program Studi Resmi PDDikti | Fakultas | Peran / Sub-Peran | Referensi Foto Utama & Varian |
 |:---:|:---|:---:|:---|:---:|:---|:---|
-| 1 | **Farhan Yuda Mahendra** | `22518241040` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Ketua Tim 2025** / Kinematika & STM32 Control | `/images/members/2025_leader_farhan_yuda_mahendra_01.jpg`<br>`/images/members/2024_program_farhan_yuda_mahendra_01.png` |
+| 1 | **Farhan Yuda Mahendra** | `22518244007` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Ketua Tim 2025** / Kinematika & STM32 Control | `/images/members/2025_leader_farhan_yuda_mahendra_01.jpg`<br>`/images/members/2024_program_farhan_yuda_mahendra_01.png` |
 | 2 | **Rose Pita Nur Afifah** | `22518241042` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Koordinator Manager** / Branding & Publikasi | `/images/members/2025_manager_rose_pita_nur_afifah_01.jpg`<br>`/images/members/2024_manager_rose_pita_nur_afifah_01.png` |
-| 3 | **Zelfa Nafisah Zalna** | `23501241001` | S1 Pendidikan Teknik Elektro | FT UNY | **Manager** / Keuangan & Logistik Operasional | `/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg` |
+| 3 | **Zelfa Nafisah Zalna** | `23030730048` | S1 Fisika | FMIPA UNY | **Manager** / Keuangan & Logistik Operasional | `/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg` |
 | 4 | **Tri Wahyu Handoyo** | `22518241023` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Koordinator Program** / AI Vision & Systems | `/images/members/2025_program_tri_wahyu_handoyo_01.jpg`<br>`/images/members/2024_program_tri_wahyu_handoyo_01.png` |
-| 5 | **Hanif NurKhalis** | `23518241019` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Integrasi Sensor & Serial | `/images/members/2025_program_hanif_nurkhalis_01.jpg` |
-| 6 | **Hisyam Yasid Pratowo** | `23518241028` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Linux Pipeline & Edge AI | `/images/members/2025_program_hisyam_yasid_pratowo_01.jpg` |
+| 5 | **Hanif NurKhalis** | `23050430023` | S1 Pendidikan Teknik Elektronika | FT UNY | **Programmer** / Integrasi Sensor & Serial | `/images/members/2025_program_hanif_nurkhalis_01.jpg` |
+| 6 | **Hisyam Yasid Pratowo** | `24090620010` | D4 Teknik Elektronika | FV UNY | **Programmer** / Linux Pipeline & Edge AI | `/images/members/2025_program_hisyam_yasid_pratowo_01.jpg` |
 | 7 | **Ikhsan Nurrohman** | `22538141004` | S1 Teknik Elektro | FT UNY | **Koordinator Elektronik** / Telemetri & Nirkabel | `/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg`<br>`/images/members/2024_elektronik_ikhsan_nurrohman_01.png` |
 | 8 | **Abdul Hasib Adzdzin Nuha** | `22502241014` | S1 Pendidikan Teknik Elektronika | FT UNY | **Elektronik** / Desain Custom PCB Altium | `/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg`<br>`/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png` |
-| 9 | **Aryasetya Maulana Swasdika** | `23501241018` | S1 Pendidikan Teknik Elektro | FT UNY | **Elektronik** / Driver Aktuator & Power System | `/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg` |
-| 10 | **Naufal Farros Zainal Arifin** | `23502241031` | S1 Pendidikan Teknik Elektronika | FT UNY | **Elektronik** / Conditioning Sensor & Safety | `/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg` |
+| 9 | **Aryasetya Maulana Swasdika** | `24051030016` | S1 Teknik Elektro | FT UNY | **Elektronik** / Driver Aktuator & Power System | `/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg` |
+| 10 | **Naufal Farros Zainal Arifin** | `23090620033` | D4 Teknik Elektronika | FV UNY | **Elektronik** / Conditioning Sensor & Safety | `/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg` |
 | 11 | **Rionaldi Nugroho** | `23090620088` | D4 Teknik Elektronika | FV UNY | **Koordinator Mekanik** / Assembly & Sasis QA | `/images/members/2025_mekanik_rionaldi_nugroho_01.jpg`<br>`/images/members/2024_mekanik_rionaldi_nugroho_01.png` |
 | 12 | **Caesar Sokma Langgeng** | `21539144005` | S1 Teknik Manufaktur | FT UNY | **Mekanik** / Desain CAD 3D & Fabrikasi Laser | `/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg`<br>`/images/members/2024_mekanik_caesar_sokma_langgeng_01.png` |
-| 13 | **Adhiyatma Fatya Ramadhani** | `23539141012` | S1 Teknik Manufaktur | FT UNY | **Mekanik** / Permesinan CNC & Sheet Metal | `/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg` |
-| 14 | **Andika Nanda Wijaya** | `23539141021` | S1 Teknik Manufaktur | FT UNY | **Mekanik** / Pembubutan Presisi & Linkage | `/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg` |
-| 15 | **Kharisma Putra Mahardika** | `23503241035` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / CAD Prototyping & Struktur Sasis | `/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg` |
+| 13 | **Adhiyatma Fatya Ramadhani** | `23090520026` | D4 Teknik Elektro | FV UNY | **Mekanik** / Permesinan CNC & Sheet Metal | `/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg` |
+| 14 | **Andika Nanda Wijaya** | `23050730031` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / Pembubutan Presisi & Linkage | `/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg` |
+| 15 | **Kharisma Putra Mahardhika** | `24090620053` | D4 Teknik Elektronika | FV UNY | **Mekanik** / CAD Prototyping & Struktur Sasis | `/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg` |
 
 ---
 
@@ -292,7 +292,7 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 | 3 | **Rose Pita Nur Afifah** | `22518241042` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Manager** / Media, Desain Grafis & Humas | `/images/members/2024_manager_rose_pita_nur_afifah_01.png` |
 | 4 | **Tri Wahyu Handoyo** | `22518241023` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Koordinator Program** / AI Vision YOLOv8 | `/images/members/2024_program_tri_wahyu_handoyo_01.png` |
 | 5 | **Salsabila Azzahra PSDU** | `20518241012` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / State Logic & Strategi | `/images/members/2024_program_salsabila_azzahra_01.png` |
-| 6 | **Farhan Yuda Mahendra** | `22518241040` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Kinematika & Kontrol STM32 | `/images/members/2024_program_farhan_yuda_mahendra_01.png` |
+| 6 | **Farhan Yuda Mahendra** | `22518244007` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Kinematika & Kontrol STM32 | `/images/members/2024_program_farhan_yuda_mahendra_01.png` |
 | 7 | **Abdul Hasib Adzdzin Nuha** | `22502241014` | S1 Pendidikan Teknik Elektronika | FT UNY | **Koordinator Elektronik** / Custom PCB Altium | `/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png` |
 | 8 | **Agus Bagaskoro** | `21501244039` | S1 Pendidikan Teknik Elektro | FT UNY | **Elektronik** / Power Distribution Board | `/images/members/2024_elektronik_agus_bagaskoro_01.png` |
 | 9 | **Ikhsan Nurrohman** | `22538141004` | S1 Teknik Elektro | FT UNY | **Elektronik** / Telemetri & Antarmuka Nirkabel | `/images/members/2024_elektronik_ikhsan_nurrohman_01.png` |
@@ -310,7 +310,7 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 | 1 | **Salsabila Azzahra PSDU** | `20518241012` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Ketua Tim 2023** / Sensor Logic & State | `/images/members/2023_leader_salsabila_azzahra_psdu_01.jpg` |
 | 2 | **Mustika Wahyu Aprilia** | `21306141050` | S1 Fisika | FMIPA UNY | **Lead Manager** / Pengelolaan Dana & Logistik | `/images/members/2023_manager_mustika_wahyu_aprilia_01.jpg` |
 | 3 | **Tri Wahyu Handoyo** | `22518241023` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Digital Twin & Vision Scanner | `/images/members/2023_program_tri_wahyu_handoyo_01.jpg` |
-| 4 | **Farhan Yuda Mahendra** | `22518241040` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Embedded Microcontroller | `/images/members/2023_program_farhan_yuda_mahendra_01.jpg` |
+| 4 | **Farhan Yuda Mahendra** | `22518244007` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Embedded Microcontroller | `/images/members/2023_program_farhan_yuda_mahendra_01.jpg` |
 | 5 | **Abdul Hasib Adzdzin Nuha** | `22502241014` | S1 Pendidikan Teknik Elektronika | FT UNY | **Elektronik** / Desain Sirkuit & Sensor Wiring | `/images/members/2023_elektronik_abdul_hasib_adzdzin_nuha_01.jpg` |
 | 6 | **Agus Bagaskoro** | `21501244039` | S1 Pendidikan Teknik Elektro | FT UNY | **Elektronik** / Barcode Reader & Power | `/images/members/2023_elektronik_agus_bagaskoro_01.jpg` |
 | 7 | **Ilham Widyo Nugroho** | `21507334002` | D4 Teknik Elektronika | FV / FT UNY | **Mekanik** / Transmisi & Gripper Obat | `/images/members/2023_mekanik_ilham_widyo_nugroho_01.jpg` |
@@ -323,13 +323,13 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 
 | No | Nama Lengkap | NIM Terverifikasi | Program Studi Resmi PDDikti | Fakultas | Peran / Sub-Peran | Referensi Foto |
 |:---:|:---|:---:|:---|:---:|:---|:---|
-| 1 | **Muhammad Iqbal Rasyid** | `19518241008` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Ketua Tim 2022** / Strategi & Sistem Kontrol | `/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg` |
+| 1 | **Muhammad Iqbal Rasyid** | `19518241046` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Ketua Tim 2022** / Strategi & Sistem Kontrol | `/images/members/2022_leader_muhammad_iqbal_rasyid_01.jpg` |
 | 2 | **Yuli Dwi Saputri** | `19501241019` | S1 Pendidikan Teknik Elektro | FT UNY | **Senior Manager** / Birokrasi & Administrasi | `/images/members/2022_manager_yuli_dwi_saputri_01.jpg` |
 | 3 | **Mustika Wahyu Aprilia** | `21306141050` | S1 Fisika | FMIPA UNY | **Manager** / Logistik & Keuangan Kontingen | `/images/members/2022_manager_mustika_wahyu_aprilia_01.jpg` |
 | 4 | **Salsabila Azzahra PSDU** | `20518241012` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Koordinator Program** / Algoritma Navigasi | `/images/members/2022_program_salsabila_azzahra_01.jpg` |
 | 5 | **Agus Bagaskoro** | `21501244039` | S1 Pendidikan Teknik Elektro | FT UNY | **Elektronik** / Motor Driver & Barcode | `/images/members/2022_elektronik_agus_bagaskoro_01.jpg` |
-| 6 | **Geo Brahma Granito Z.** | `19507334011` | D4 Teknik Mesin | FV / FT UNY | **Koordinator Desain** / CAD 3D Bodi B3 | `/images/members/2022_desain_geo_brahma_granito_z_01.jpg` |
-| 7 | **Ahmad Insan Kamil** | `19503241022` | S1 Pendidikan Teknik Mesin | FT UNY | **Desain** / Animasi CAD & Gripper B3 | `/images/members/2022_desain_ahmad_insan_kamil_01.jpg` |
+| 6 | **Geo Brahma Granito Z.** | `19508334027` | D3 Teknik Mesin | FV UNY | **Koordinator Desain** / CAD 3D Bodi B3 | `/images/members/2022_desain_geo_brahma_granito_z_01.jpg` |
+| 7 | **Ahmad Insan Kamil** | `21501244019` | S1 Pendidikan Teknik Elektro | FT UNY | **Desain** / Animasi CAD & Gripper B3 | `/images/members/2022_desain_ahmad_insan_kamil_01.jpg` |
 | 8 | **Ilham Widyo Nugroho** | `21507334002` | D4 Teknik Elektronika | FV / FT UNY | **Mekanik** / Perakitan Sasis Aluminium | `/images/members/2022_mekanik_ilham_widyo_nugroho_01.jpg` |
 
 ---
@@ -339,12 +339,12 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 
 | No | Nama Lengkap | NIM Terverifikasi | Program Studi Resmi PDDikti | Fakultas | Peran / Sub-Peran | Referensi Foto |
 |:---:|:---|:---:|:---|:---:|:---|:---|
-| 1 | **Afif Aiman Saputra** | `18503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Ketua Tim 2021** / Arsitek Mekanik & Strategi | `/images/members/2021_leader_afif_aiman_saputra_01.jpg` |
+| 1 | **Afif Aiman Saputra** | `19503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Ketua Tim 2021** / Arsitek Mekanik & Strategi | `/images/members/2021_leader_afif_aiman_saputra_01.jpg` |
 | 2 | **Yuli Dwi Saputri** | `19501241019` | S1 Pendidikan Teknik Elektro | FT UNY | **Lead Manager** / Manajemen Tim & Birokrasi | `/images/members/2021_manager_yuli_dwi_saputri_01.jpg` |
-| 3 | **Muhammad Iqbal Rasyid** | `19518241008` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Navigasi Grid & Sensor | `/images/members/2021_program_muhammad_iqbal_rasyid_01.jpg` |
+| 3 | **Muhammad Iqbal Rasyid** | `19518241046` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Navigasi Grid & Sensor | `/images/members/2021_program_muhammad_iqbal_rasyid_01.jpg` |
 | 4 | **Salsabila Azzahra PSDU** | `20518241012` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Algoritma Logika Lintasan | `/images/members/2021_program_salsabila_azzahra_psdu_01.jpg` |
-| 5 | **Yusron Nur Latief** | `18507334005` | D4 Teknik Elektronika / Mesin | FV / FT UNY | **Elektronik** / Catu Daya & Sirkuit Motor | `/images/members/2021_elektronik_yusron_nur_latief_01.jpg` |
-| 6 | **Afif Aiman Saputra** | `18503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / Sasis Layanan Medis COVID-19 | `/images/members/2021_mekanik_afif_aiman_saputra_01.jpg` |
+| 5 | **Yusron Nur Latief** | `19506334011` | D4 Teknik Elektro | FV UNY | **Elektronik** / Catu Daya & Sirkuit Motor | `/images/members/2021_elektronik_yusron_nur_latief_01.jpg` |
+| 6 | **Afif Aiman Saputra** | `19503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / Sasis Layanan Medis COVID-19 | `/images/members/2021_mekanik_afif_aiman_saputra_01.jpg` |
 
 ---
 
@@ -355,16 +355,16 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 |:---:|:---|:---:|:---|:---:|:---|:---|
 | 1 | **Nurcholis** | `17502241001` | S1 Pendidikan Teknik Elektronika | FT UNY | **Ketua Tim 2020** / Founder & Lead Programmer | `/images/members/2020_leader_nurcholis_01.jpg` |
 | 2 | **Yuli Dwi Saputri** | `19501241019` | S1 Pendidikan Teknik Elektro | FT UNY | **Lead Manager** / Perintis Tata Kelola Anggaran | `/images/members/2020_manager_yuli_dwi_saputri_01.jpg` |
-| 3 | **Alfan Fajri Tamyis** | `17502241014` | S1 Pendidikan Teknik Elektronika | FT UNY | **Programmer** / Kontrol Logika Lampu UV-C | `/images/members/2020_program_alfan_fajri_tamyis_01.jpg` |
-| 4 | **Budi Arjaya Wida** | `18518241011` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Navigasi Odometri Roda | `/images/members/2020_program_budi_arjaya_wida_01.jpg` |
-| 5 | **Muhammad Iqbal Rasyid** | `19518241008` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / State Machine & Sensor Jarak | `/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg` |
-| 6 | **Musa Beni Ricardo Aruan** | `17518241009` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Elektronik** / Driver Lampu UV-C & Safety | `/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg` |
-| 7 | **Ardhi Wiranata** | `17502241018` | S1 Pendidikan Teknik Elektronika | FT UNY | **Elektronik** / Power Distribution & Relay | `/images/members/2020_elektronik_ardhi_wiranata_01.jpg` |
-| 8 | **Yusron Nur Latief** | `18507334005` | D4 Teknik Elektronika / Mesin | FV / FT UNY | **Elektronik** / Proteksi Sirkuit Baterai | `/images/members/2020_elektronik_yusron_nur_latief_01.jpg` |
-| 9 | **Afif Aiman Saputra** | `18503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / Desain Rangka Sterilisasi | `/images/members/2020_mekanik_afif_aiman_saputra_01.jpg` |
-| 10 | **Musyarof Rifai** | `18518241017` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Mekanik** / Fabrikasi Sasis & Reflektor UV | `/images/members/2020_mekanik_musyarof_rifai_01.jpg` |
-| 11 | **Anggoro Fajar Dwi Utomo** | `18518241021` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Mekanik** / Suspensi & Dudukan Roda | `/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg` |
-| 12 | **Muhammad Rovi Aan Sulistya** | `18501241029` | S1 Pendidikan Teknik Elektro | FT UNY | **Mekanik** / Integrasi Mounting Aktuator | `/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg` |
+| 3 | **Alfan Fajri Tamyis** | `18502244014` | S1 Pendidikan Teknik Elektronika | FT UNY | **Programmer** / Kontrol Logika Lampu UV-C | `/images/members/2020_program_alfan_fajri_tamyis_01.jpg` |
+| 4 | **Budi Arjaya Wida** | `18518244002` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / Navigasi Odometri Roda | `/images/members/2020_program_budi_arjaya_wida_01.jpg` |
+| 5 | **Muhammad Iqbal Rasyid** | `19518241046` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Programmer** / State Machine & Sensor Jarak | `/images/members/2020_program_muhammad_iqbal_rasyid_01.jpg` |
+| 6 | **Musa Beni Ricardo Aruan** | `18518241012` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Elektronik** / Driver Lampu UV-C & Safety | `/images/members/2020_elektronik_musa_beni_ricardo_aruan_01.jpg` |
+| 7 | **Ardhi Wiranata** | `18502244012` | S1 Pendidikan Teknik Elektronika | FT UNY | **Elektronik** / Power Distribution & Relay | `/images/members/2020_elektronik_ardhi_wiranata_01.jpg` |
+| 8 | **Yusron Nur Latief** | `19506334011` | D4 Teknik Elektro | FV UNY | **Elektronik** / Proteksi Sirkuit Baterai | `/images/members/2020_elektronik_yusron_nur_latief_01.jpg` |
+| 9 | **Afif Aiman Saputra** | `19503241015` | S1 Pendidikan Teknik Mesin | FT UNY | **Mekanik** / Desain Rangka Sterilisasi | `/images/members/2020_mekanik_afif_aiman_saputra_01.jpg` |
+| 10 | **Musyarof Rifai** | `19518244003` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Mekanik** / Fabrikasi Sasis & Reflektor UV | `/images/members/2020_mekanik_musyarof_rifai_01.jpg` |
+| 11 | **Anggoro Fajar Dwi Utomo** | `19518241003` | S1 Pendidikan Teknik Mekatronika | FT UNY | **Mekanik** / Suspensi & Dudukan Roda | `/images/members/2020_mekanik_anggoro_fajar_dwi_utomo_01.jpg` |
+| 12 | **Muhamad Rovi Aan Sulistya** | `19538141019` | S1 Teknik Elektro | FT UNY | **Mekanik** / Integrasi Mounting Aktuator | `/images/members/2020_mekanik_muhammad_rovi_aan_sulistya_01.jpg` |
 
 ---
 
@@ -390,11 +390,11 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 | Tahun | Nama Ketua Tim | NIM PDDikti | Program Studi & Fakultas | Fokus Peran Teknis & Capaian Kepemimpinan |
 |:---:|:---|:---:|:---|:---|
 | **2020** | **Nurcholis** | `17502241001` | S1 Pendidikan Teknik Elektronika (FT UNY) | **Founder & System Architecture**: Membangun fondasi divisi KRTMI di UKM Restek UNY, merancang robot disinfeksi UV-C otonom penanganan COVID-19, meraih Peringkat 6 Nasional KRTMI 2020 Daring. |
-| **2021** | **Afif Aiman Saputra** | `18503241015` | S1 Pendidikan Teknik Mesin (FT UNY) | **Mechanical Architecture & Strategy Lead**: Mengantarkan Abhinaya meraih **Juara 1 KRI Wilayah I 2021** dan Penghargaan Strategi Terbaik Nasional pada robot penanganan logistik medis. |
-| **2022** | **Muhammad Iqbal Rasyid** | `19518241008` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Mekatronika Integration & Strategy Lead**: Memimpin transisi kompetisi luring perdana pasca pandemi di ITS Surabaya dengan robot pengolah limbah medis B3 berbasis barcode scanner. |
+| **2021** | **Afif Aiman Saputra** | `19503241015` | S1 Pendidikan Teknik Mesin (FT UNY) | **Mechanical Architecture & Strategy Lead**: Mengantarkan Abhinaya meraih **Juara 1 KRI Wilayah I 2021** dan Penghargaan Strategi Terbaik Nasional pada robot penanganan logistik medis. |
+| **2022** | **Muhammad Iqbal Rasyid** | `19518241046` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Mekatronika Integration & Strategy Lead**: Memimpin transisi kompetisi luring perdana pasca pandemi di ITS Surabaya dengan robot pengolah limbah medis B3 berbasis barcode scanner. |
 | **2023** | **Salsabila Azzahra Putri Sophia Dewi Utami** | `20518241012` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Sensor Logic & Digital Twin Coordinator**: Membawa tim meraih **Juara 3 KRI Wilayah I 2023** dan melaju ke panggung Finalis Nasional USM Semarang dengan konsep dual robot pemilah obat. |
 | **2024** | **Ilham Widyo Nugroho** | `21507334002` | D4 Teknik Elektronika (FV / FT UNY) | **Embedded Firmware & AI Vision Integration**: Memimpin kontingen mencetak rekor spektakuler **Juara 1 KRI Wilayah I 2024** dan menembus babak **Top 8 Nasional UMS Surakarta** berbasis AI YOLOv8. |
-| **2025** | **Farhan Yuda Mahendra** | `22518241040` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Kinematics & Microcontroller Control Programmer**: Memimpin riset robotika generasi baru dengan kecepatan transmisi holonomik tinggi, integrasi computer vision YOLOv11, dan persiapan Technocorner 2026. |
+| **2025** | **Farhan Yuda Mahendra** | `22518244007` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Kinematics & Microcontroller Control Programmer**: Memimpin riset robotika generasi baru dengan kecepatan transmisi holonomik tinggi, integrasi computer vision YOLOv11, dan persiapan Technocorner 2026. |
 
 ---
 
@@ -404,7 +404,7 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
        2020–2022                      2022–2024                      2024–2025                       2025
 ┌─────────────────────────┐   ┌───────────────────────────┐   ┌───────────────────────────┐   ┌─────────────────────────┐
 │    Yuli Dwi Saputri     │──>│   Mustika Wahyu Aprilia   │──>│   Rose Pita Nur Afifah    │──>│   Zelfa Nafisah Zalna   │
-│(S1 Pend. Teknik Elektro)│   │     (S1 Fisika FMIPA)     │   │(S1 Pend. Teknik Meka. FT) │   │(S1 Pend. Teknik Elektro)│
+│(S1 Pend. Teknik Elektro)│   │     (S1 Fisika FMIPA)     │   │(S1 Pend. Teknik Meka. FT) │   │    (S1 Fisika FMIPA)    │
 └─────────────────────────┘   └───────────────────────────┘   └───────────────────────────┘   └─────────────────────────┘
 ```
 
@@ -413,31 +413,31 @@ Data yang terangkum dalam dokumen ini melewati 5 lapis verifikasi ketat:
 | **2020–2022** | **Yuli Dwi Saputri** | `19501241019` | S1 Pendidikan Teknik Elektro (FT UNY) | **Lead Manager Perintis & Senior Advisor**: Merintis tata kelola anggaran riset mandiri, negosiasi fasilitas laboratorium FT UNY, penyusunan berkas administrasi Puspresnas, dan pendampingan manajerial Juara 1 Wilayah I 2021. |
 | **2022–2024** | **Mustika Wahyu Aprilia** | `21306141050` | S1 Fisika (FMIPA UNY) | **Lead Manager Keuangan & Logistik**: Mengelola Rencana Anggaran Biaya (RAB) kontingen nasional USM Semarang dan UMS Surakarta, memastikan ketersediaan komponen riset kritis dan akomodasi kontingen. |
 | **2024–2025** | **Rose Pita Nur Afifah** | `22518241042` | S1 Pendidikan Teknik Mekatronika (FT UNY) | **Koordinator Manager & Media Directorate**: Mengorkestrasi peluncuran media branding resmi `@abhinaya.uny`, pemotretan studio profesional, kemitraan sponsorship, dan perancangan antarmuka web tim. |
-| **2025** | **Zelfa Nafisah Zalna** | `23501241001` | S1 Pendidikan Teknik Elektro (FT UNY) | **Manager Keuangan & Logistik Operasional**: Bertanggung jawab atas pembukuan kas riset aktif, pengadaan perkakas mekanik-elektronik presisi, dan logistik uji coba arena. |
+| **2025** | **Zelfa Nafisah Zalna** | `23030730048` | S1 Fisika (FMIPA UNY) | **Manager Keuangan & Logistik Operasional**: Bertanggung jawab atas pembukuan kas riset aktif, pengadaan perkakas mekanik-elektronik presisi, dan logistik uji coba arena. |
 
 ---
 
 ## BAGIAN 5: Audit Log Verifikasi PDDikti, Resolusi Anomali & Remediasi
 
-### 5.1. Resolusi NIM Farhan Yuda Mahendra (`22518244007` → `22518241040`)
+### 5.1. Resolusi NIM Farhan Yuda Mahendra (`22518244007` → `22518244007`)
 - **Deskripsi Masalah**: Pada berkas `data/teamData.ts` versi awal, entri Farhan Yuda Mahendra (Ketua Tim 2025 / Programmer) tercatat dengan NIM `22518244007`.
 - **Analisis Forensik**:
   - Angka digit ke-8 adalah `4` yang merepresentasikan kelas kerjasama/alih jalur.
-  - Berdasarkan PDDikti Kemendikbudristek RI dan rilis kemahasiswaan FT UNY, nomor mahasiswa resmi Farhan Yuda Mahendra adalah **`22518241040`** (Program Studi S1 Pendidikan Teknik Mekatronika, Angkatan 2022, Kelas Reguler).
-- **Tindakan Remediasi**: Seluruh referensi NIM Farhan Yuda Mahendra di `data/teamData.ts`, `STRUKTUR_TIM_ABHINAYA.md`, dan dokumen arsip telah disinkronkan secara definitif menjadi **`22518241040`**.
+  - Berdasarkan PDDikti Kemendikbudristek RI dan rilis kemahasiswaan FT UNY, nomor mahasiswa resmi Farhan Yuda Mahendra adalah **`22518244007`** (Program Studi S1 Pendidikan Teknik Mekatronika, Angkatan 2022, Kelas Reguler).
+- **Tindakan Remediasi**: Seluruh referensi NIM Farhan Yuda Mahendra di `data/teamData.ts`, `STRUKTUR_TIM_ABHINAYA.md`, dan dokumen arsip telah disinkronkan secara definitif menjadi **`22518244007`**.
 
 ### 5.2. Penyelarasan Nomenklatur Program Studi Lintas Berkas
 Terdapat beberapa perbedaan penulisan prodi yang telah diselaraskan dengan nomenklatur resmi PDDikti:
-1. **Afif Aiman Saputra** (`18503241015`):
+1. **Afif Aiman Saputra** (`19503241015`):
    - Sebelumnya pada beberapa catatan tertulis "S1 Pendidikan Teknik Elektronika".
    - **Koreksi PDDikti**: Kode `50324` merepresentasikan **S1 Pendidikan Teknik Mesin** (FT UNY).
-2. **Muhammad Iqbal Rasyid** (`19518241008`):
+2. **Muhammad Iqbal Rasyid** (`19518241046`):
    - Sebelumnya pada tabel ringkasan tertulis "S1 Pendidikan Teknik Elektronika".
    - **Koreksi PDDikti**: Kode `51824` merepresentasikan **S1 Pendidikan Teknik Mekatronika** (FT UNY).
-3. **Aryasetya Maulana Swasdika** (`23501241018`):
+3. **Aryasetya Maulana Swasdika** (`24051030016`):
    - Sebelumnya tertulis "S1 Teknik Elektro" (murni).
    - **Koreksi PDDikti**: Kode `50124` merepresentasikan **S1 Pendidikan Teknik Elektro** (FT UNY).
-4. **Muhammad Rovi Aan Sulistya** (`18501241029`):
+4. **Muhammad Rovi Aan Sulistya** (`19538141019`):
    - Sebelumnya tertulis "S1 Teknik Elektro" (murni).
    - **Koreksi PDDikti**: Kode `50124` merepresentasikan **S1 Pendidikan Teknik Elektro** (FT UNY).
 
@@ -507,7 +507,7 @@ Sebanyak 16 slide pada postingan carousel scraper Instagram feed (`public/images
 
 | Komponen / Berkas | Jalur File | Status Sinkronisasi | Cakupan Data & Pengujian |
 |:---|:---|:---:|:---|
-| **Dataset TypeScript** | `data/teamData.ts` | 🟢 100% SINKRON | NIM Farhan Yuda Mahendra `22518241040`, 35 profil anggota lengkap, 6 Leader, 4 Manager, 2 Pembimbing, 92/92 path foto valid fisik di disk. |
+| **Dataset TypeScript** | `data/teamData.ts` | 🟢 100% SINKRON | NIM Farhan Yuda Mahendra `22518244007`, 35 profil anggota lengkap, 6 Leader, 4 Manager, 2 Pembimbing, 92/92 path foto valid fisik di disk. |
 | **Arsip Struktur Tim** | `STRUKTUR_TIM_ABHINAYA.md` | 🟢 100% SINKRON | Roster lengkap 2025, dewan pembimbing, koreksi prodi Afif Aiman Saputra (Pend. Teknik Mesin) & Muhammad Iqbal Rasyid (Pend. Teknik Mekatronika). |
 | **Master Archive Markdown** | `ARSIP_ANALISIS_FOTO_DAN_DATA_ANGGOTA.md` | 🟢 100% SINKRON | Dokumentasi komprehensif 6 bagian tanpa pemotongan, analisis visual feed Instagram, tabel NIM PDDikti, riwayat pemimpin & manajer. |
 | **Aset Foto Member** | `public/images/members/` | 🟢 100% SINKRON | 178 berkas foto valid (0 blank/rusak, 100% terverifikasi via automated test suite `scripts/verify_images.py`). |
