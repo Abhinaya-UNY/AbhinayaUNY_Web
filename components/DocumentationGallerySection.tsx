@@ -27,8 +27,8 @@ export const DocumentationGallerySection: React.FC = () => {
             <Camera className="w-3.5 h-3.5 text-brand-orange" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
-          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight ">
-            Galeri Jejak Riset &amp; Perjuangan Abhinaya 📸
+          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
+            Galeri Jejak Riset &amp; Perjuangan Abhinaya
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
             Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika UKM Rekayasa Teknologi UNY.

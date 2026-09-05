@@ -300,11 +300,14 @@ test('HeroSection.tsx: Decoupled header zone from cinematic photo stage', () => 
 });
 
 test('TeamRosterSection.tsx: Division badges placed in top meta bar above photo viewport', () => {
-  assert(rosterContent.includes('px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between') ||
-         rosterContent.includes('px-3.5 py-2.5 bg-[#0A140F] border-b border-[#14261D] flex items-center justify-between'),
+  assert(rosterContent.includes('MemberPhotoFadeShowcase') &&
+         (rosterContent.includes('px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between') ||
+          rosterContent.includes('px-3.5 py-2.5 bg-[#0A140F] border-b border-[#14261D] flex items-center justify-between') ||
+          rosterContent.includes('Floating Top Division Pill') ||
+          rosterContent.includes('px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-md border border-white/10')),
          'Top meta bar missing for division badges');
-  assert(rosterContent.includes('aspect-[4/3] sm:aspect-square overflow-hidden bg-[#0A0704]') ||
-         rosterContent.includes('aspect-[4/3] sm:aspect-square overflow-hidden bg-[#040806]'),
+  assert(rosterContent.includes('aspect-[4/3] sm:aspect-square overflow-hidden') ||
+         rosterContent.includes('aspect-[4/5] sm:aspect-square rounded-xl overflow-hidden'),
          'Photo viewport missing clean aspect ratio container');
 });
 

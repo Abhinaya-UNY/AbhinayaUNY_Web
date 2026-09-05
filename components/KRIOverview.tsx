@@ -92,21 +92,17 @@ export const KRIOverview: React.FC = () => {
             <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-            Mengenal Kontes Robot Indonesia (KRI) &amp; Divisi KRTMI&nbsp;🤖
+            Mengenal Kontes Robot Indonesia (KRI) &amp; Divisi KRTMI
           </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
-            Kontes Robot Indonesia (KRI) adalah ajang kompetisi rekayasa robotika mahasiswa paling bergengsi tingkat nasional yang diselenggarakan oleh <strong>Balai Pengembangan Talenta Indonesia (BPTI) / Puspresnas Kemendikbudristek RI</strong>.
+          <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
+            Kontes Robot Indonesia (KRI) adalah ajang kompetisi rekayasa robotika mahasiswa paling bergengsi tingkat nasional yang diselenggarakan oleh <strong className="text-slate-200">Balai Pengembangan Talenta Indonesia (BPTI) / Puspresnas Kemendikbudristek RI</strong>.
           </p>
         </div>
 
-        {/* 🌟 SPOTLIGHT UTAMA: KRTMI (KONTES ROBOT TEMATIK INDONESIA) */}
-        <div className="p-6 sm:p-8 md:p-10 rounded-3xl bg-gradient-to-br from-[#1C120A] via-[#140D08] to-[#0D0805] border-2 border-brand-orange/50 shadow-[0_0_50px_rgba(255,107,0,0.2)] space-y-6 relative overflow-hidden">
-          
-          {/* Top Decorative Stripe */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-500" />
-
+        {/* SPOTLIGHT UTAMA: KRTMI (KONTES ROBOT TEMATIK INDONESIA) */}
+        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-6 relative overflow-hidden">
           {/* Header Showcase KRTMI */}
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#2D1B10] pb-6">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-white/5 pb-6">
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="px-3.5 py-1 rounded-xl bg-brand-orange text-black font-black text-xs uppercase tracking-wider font-mono">
@@ -160,20 +156,20 @@ export const KRIOverview: React.FC = () => {
               <Trophy className="w-4 h-4 text-brand-gold flex-shrink-0" />
               <span>Evolusi Tema KRTMI:</span>
             </div>
-            <div className="flex flex-wrap items-center gap-1.5 text-slate-300 font-mono text-[11px]">
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2019: Panen Padi</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2020: Disinfeksi COVID-19</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2021: Rawat Pasien Medis</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2022: Limbah B3 RS</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-amber-200 border border-[#3A2214]">2023: Digital Twin Cyber-Physical</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-brand-orange font-bold border border-brand-orange/40">2024: Pemilah Sampah Cerdas</span>
-              <span>➔</span>
-              <span className="px-2 py-0.5 rounded-lg bg-[#20140A] text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
+            <div className="flex flex-wrap items-center gap-2 text-slate-300 font-mono text-[11px]">
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2019: Panen Padi</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2020: Disinfeksi COVID-19</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2021: Rawat Pasien Medis</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2022: Limbah B3 RS</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2023: Digital Twin Cyber-Physical</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-brand-orange font-bold border border-brand-orange/40">2024: Pemilah Sampah Cerdas</span>
+              <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
             </div>
           </div>
 

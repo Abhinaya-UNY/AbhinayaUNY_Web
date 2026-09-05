@@ -96,8 +96,8 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 <Instagram className="w-4 h-4 text-pink-400" />
                 <span>OFFICIAL INSTAGRAM LIVE FEED ARCHIVE</span>
               </div>
-              <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight ">
-                Galeri &amp; Feed Instagram @abhinaya.uny 📸
+              <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
+                Galeri &amp; Feed Instagram @abhinaya.uny
               </h2>
               <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
                 Dokumentasi visual HD, liputan momen laga KRTMI, pengenalan divisi resmi, dan semangat juang kontingen robotika UNY yang terbit langsung di kanal media sosial resmi.

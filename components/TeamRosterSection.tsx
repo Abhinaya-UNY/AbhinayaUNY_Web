@@ -126,20 +126,11 @@ export const MemberPhotoFadeShowcase: React.FC<{
 
   if (!hasCustomPhoto) {
     return (
-      <div
-        className="w-full h-full flex flex-col items-center justify-center p-6 text-center select-none"
-        style={{ backgroundColor: `${badgeStyle.accent}15` }}
-      >
+      <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center select-none bg-gradient-to-b from-white/[0.03] to-transparent">
         <div
           className={`${
-            isModal ? 'w-24 h-24 sm:w-28 sm:h-28 text-3xl sm:text-4xl' : 'w-20 h-20 sm:w-24 sm:h-24 text-2xl sm:text-3xl'
-          } rounded-3xl flex items-center justify-center font-black border-2 shadow-2xl mb-2 transition-transform duration-300 group-hover:scale-105`}
-          style={{
-            backgroundColor: `${badgeStyle.accent}30`,
-            borderColor: badgeStyle.accent,
-            color: '#FFFFFF',
-            boxShadow: `0 8px 24px -4px ${badgeStyle.accent}40`,
-          }}
+            isModal ? 'w-20 h-20 sm:w-24 sm:h-24 text-2xl sm:text-3xl' : 'w-16 h-16 sm:w-20 sm:h-20 text-xl sm:text-2xl'
+          } rounded-2xl flex items-center justify-center font-bold bg-white/[0.06] border border-white/10 text-white mb-2 transition-transform duration-300 group-hover:scale-105 font-mono`}
         >
           {member.name
             .split(' ')
@@ -148,11 +139,11 @@ export const MemberPhotoFadeShowcase: React.FC<{
             .map((n) => n[0])
             .join('')}
         </div>
-        <span className="text-xs font-mono font-bold text-amber-200/80">
+        <span className="text-xs font-mono font-medium text-slate-300">
           {member.role}
         </span>
         {member.division && (
-          <span className="text-[10px] text-slate-400 mt-0.5">
+          <span className="text-[10px] text-slate-400 mt-0.5 font-mono">
             {member.division}
           </span>
         )}
@@ -378,10 +369,8 @@ export const HorizontalScrollMemberTrack: React.FC<{
       {/* Horizontal Scroll Track Wrapper */}
       <div className="relative group/track">
         {/* Mobile Swipe Hint Badge */}
-        <div className="sm:hidden flex items-center justify-between text-[11px] text-amber-300/80 px-2 py-0.5 font-mono font-medium">
-          <span className="flex items-center gap-1">
-            <span>👈 Geser kiri/kanan untuk melihat anggota 👉</span>
-          </span>
+        <div className="sm:hidden flex items-center justify-between text-[11px] text-slate-400 px-2 py-0.5 font-mono">
+          <span>Geser horizontal untuk melihat daftar anggota</span>
           {count && <span>({count})</span>}
         </div>
 
@@ -506,166 +495,114 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
       <SpotlightCard
         key={`${member.id}-${member.generationYear || 'roster'}`}
         onClick={() => setSelectedMember(member)}
-        spotlightColor="rgba(255, 107, 0, 0.16)"
-        spotlightSize={360}
-        className={`group cursor-pointer relative rounded-3xl bg-[#120D08] border ${
+        spotlightColor="rgba(255, 107, 0, 0.12)"
+        spotlightSize={320}
+        className={`group cursor-pointer relative rounded-2xl bg-[#0E0C0A] hover:bg-[#13100D] border ${
           customTheme?.border
             ? customTheme.border
             : isLeader
-            ? 'border-amber-500/40 hover:border-amber-400 bg-gradient-to-b from-[#24170D] to-[#120D08]'
+            ? 'border-amber-500/30 hover:border-amber-400/60'
             : isManager
-            ? 'border-emerald-500/40 hover:border-emerald-400 bg-gradient-to-b from-[#141C17] to-[#100D09]'
+            ? 'border-emerald-500/30 hover:border-emerald-400/60'
             : isAdvisor
-            ? 'border-purple-500/50 bg-[#140A1C]'
-            : 'border-[#2A180E] hover:border-brand-orange/70 bg-[#120D08]'
-        } transition-all duration-300 hover:shadow-2xl hover:shadow-brand-orange/15 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden ${
-          layoutMode === 'grid' ? 'w-full' : 'w-[285px] sm:w-[320px] md:w-[335px] flex-shrink-0 snap-start'
+            ? 'border-purple-500/30 hover:border-purple-400/60'
+            : 'border-white/8 hover:border-brand-orange/40'
+        } transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between overflow-hidden ${
+          layoutMode === 'grid' ? 'w-full' : 'w-[280px] sm:w-[310px] flex-shrink-0 snap-start'
         }`}
       >
-        <div className="w-full h-full flex flex-col justify-between">
-          {/* Top Accent Line */}
-          <div
-            className="absolute top-0 left-0 right-0 h-1.5 opacity-80 group-hover:opacity-100 transition z-20"
-            style={{ backgroundColor: accentColor }}
-          />
+        <div className="w-full h-full flex flex-col justify-between p-2.5 sm:p-3 pb-4 sm:pb-5">
+          {/* 1. Portrait Photo Viewport with Floating Glassmorphism Pills */}
+          <div className="relative w-full aspect-[4/5] sm:aspect-square rounded-xl overflow-hidden bg-black/80 border border-white/5 group/photo">
+            <MemberPhotoFadeShowcase
+              member={member}
+              basePath={basePath}
+              badgeStyle={badgeStyle}
+              hasError={imgErrors[member.id]}
+              onImageError={(id) => setImgErrors((prev) => ({ ...prev, [id]: true }))}
+            />
 
-          {/* 1. Card Top Header Bar: Clean Division & Era Badges + Multi-Photo Counter (100% Unblocked from Headshot) */}
-          <div className="px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between gap-2 z-10">
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <span
-                className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-wider border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
-              >
-                {isLeader ? (
-                  <Crown className="w-3 h-3 text-amber-400 animate-pulse" />
-                ) : isManager ? (
-                  <Briefcase className="w-3 h-3 text-emerald-400" />
-                ) : (
-                  getDivisionIcon(member.division, 'w-3 h-3')
-                )}
-                <DecryptedText
-                  text={member.division}
-                  animateOn="hover"
-                  className="font-black uppercase tracking-wider"
-                />
-              </span>
+            {/* Floating Top Division Pill */}
+            <div className="absolute top-2.5 left-2.5 z-20 flex items-center space-x-1 px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-md border border-white/10 text-[10px] font-mono tracking-wider text-white">
+              {isLeader ? (
+                <Crown className="w-3 h-3 text-amber-400" />
+              ) : isManager ? (
+                <Briefcase className="w-3 h-3 text-emerald-400" />
+              ) : (
+                getDivisionIcon(member.division, 'w-3 h-3')
+              )}
+              <DecryptedText
+                text={member.division}
+                animateOn="hover"
+                className="font-medium uppercase"
+              />
+            </div>
 
+            {/* Floating Top Right Era / Multi-photo Pill */}
             {member.generationYear && (
-              <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#0D0804] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/20">
-                <Calendar className="w-2.5 h-2.5 text-amber-400" />
+              <div className="absolute top-2.5 right-2.5 z-20 px-2 py-0.5 rounded-md bg-black/75 backdrop-blur-md border border-white/10 text-amber-300 text-[10px] font-mono">
                 <span>Era {member.generationYear}</span>
-              </span>
+              </div>
             )}
+
+            {/* Bottom-right Quick Zoom Icon */}
+            <div className="absolute bottom-2.5 right-2.5 z-20 w-6 h-6 rounded-full bg-black/60 border border-white/20 text-slate-300 group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md opacity-0 group-hover:opacity-100 pointer-events-none">
+              <Maximize2 className="w-3 h-3" />
+            </div>
           </div>
 
-          {memberImagesCount > 1 && (
-            <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#0D0804] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 flex-shrink-0">
-              <Images className="w-2.5 h-2.5 text-brand-orange" />
-              <span>{memberImagesCount} Foto</span>
-            </span>
-          )}
-        </div>
-
-        {/* 2. Pristine Unblocked Photo Viewport (0% dark gradient, 0% overlay badges) */}
-        <div className="relative w-full aspect-[4/3] sm:aspect-square overflow-hidden bg-[#0A0704] border-b border-[#2A180E] group/photo">
-          <MemberPhotoFadeShowcase
-            member={member}
-            basePath={basePath}
-            badgeStyle={badgeStyle}
-            hasError={imgErrors[member.id]}
-            onImageError={(id) => setImgErrors((prev) => ({ ...prev, [id]: true }))}
-          />
-
-          {/* Bottom-right Quick Zoom Icon */}
-          <div className="absolute bottom-2.5 right-2.5 z-20 w-7 h-7 rounded-full bg-black/60 border border-brand-orange/30 text-amber-300 group-hover:scale-110 flex items-center justify-center transition backdrop-blur-md shadow-md opacity-0 group-hover:opacity-100 pointer-events-none">
-            <Maximize2 className="w-3.5 h-3.5" />
-          </div>
-        </div>
-
-        {/* 3. Card Body Content */}
-        <div className="p-5 sm:p-6 space-y-4 flex-1 flex flex-col justify-between">
-          <div className="space-y-3.5">
-            {/* Name, Role & Badge */}
-            <div>
-              <div className="flex items-center justify-between gap-2">
-                <h3 className="text-lg sm:text-xl font-black text-white group-hover:text-brand-orange transition line-clamp-1">
+          {/* 2. Card Body Content */}
+          <div className="px-1.5 pt-3.5 space-y-3 flex-1 flex flex-col justify-between">
+            <div className="space-y-2">
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition-colors line-clamp-1">
                   {member.name}
                 </h3>
-                <span className="px-2 py-0.5 rounded-md bg-[#24140A] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/30 flex-shrink-0">
-                  {member.badge}
-                </span>
-              </div>
-              <p className="text-xs font-bold text-amber-200/90 leading-tight mt-0.5">
-                {member.role}
-              </p>
-              {member.nim && (
-                <p className="text-[11px] text-slate-400 font-mono mt-0.5">
-                  {member.nim}
+                <p className="text-xs font-medium text-brand-orange/90 mt-0.5">
+                  {member.role}
                 </p>
-              )}
-            </div>
-
-            {/* Quote Bubble if present */}
-            {member.quote && (
-              <div className="p-2.5 sm:p-3 rounded-2xl bg-[#180F09] border border-brand-orange/20 text-xs text-amber-100/90 italic flex items-start space-x-2.5 shadow-inner">
-                <Quote className="w-4 h-4 text-brand-orange flex-shrink-0 mt-0.5" />
-                <span className="line-clamp-2">"{member.quote}"</span>
+                {member.nim && (
+                  <p className="text-[11px] text-slate-400 font-mono mt-0.5">
+                    {member.nim}
+                  </p>
+                )}
               </div>
-            )}
 
-            {/* Academic Info */}
-            <div className="p-3 rounded-xl bg-[#0D0804] border border-[#2A180E] text-xs space-y-1">
-              <div className="text-slate-300 truncate">
-                <span className="text-slate-400 font-medium">Prodi:</span> {member.studyProgram || member.prodi || 'Universitas Negeri Yogyakarta'}
+              {/* Academic Info */}
+              <div className="text-[11px] text-slate-400 space-y-0.5 font-mono">
+                <div className="truncate">
+                  {member.studyProgram || member.prodi || 'Universitas Negeri Yogyakarta'}
+                </div>
               </div>
-              <div className="text-slate-400 text-[11px] truncate">
-                <span>Fakultas:</span> {member.faculty || 'Fakultas Teknik (FT)'}
-              </div>
-            </div>
 
-            {/* Specialization Tags */}
-            {member.specialization && member.specialization.length > 0 && (
-              <div className="space-y-1.5">
-                <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider flex items-center space-x-1">
-                  <Cpu className="w-3 h-3 text-brand-orange" />
-                  <span>Fokus Keahlian:</span>
-                </span>
-                <div className="flex flex-wrap gap-1.5">
-                  {member.specialization.slice(0, 3).map((spec, idx) => (
+              {/* Specialization Tags */}
+              {member.specialization && member.specialization.length > 0 && (
+                <div className="flex flex-wrap gap-1 pt-1">
+                  {member.specialization.slice(0, 2).map((spec, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-lg bg-[#221309] text-amber-100 text-[10px] font-semibold border border-brand-orange/20 truncate max-w-full"
+                      className="px-2 py-0.5 rounded bg-white/5 text-slate-300 text-[10px] font-mono border border-white/8 truncate max-w-full"
                     >
                       {spec}
                     </span>
                   ))}
-                  {member.specialization.length > 3 && (
-                    <span className="px-2 py-1 rounded-lg bg-[#180F09] text-amber-300/80 text-[10px] font-mono">
-                      +{member.specialization.length - 3} lagi
+                  {member.specialization.length > 2 && (
+                    <span className="px-1.5 py-0.5 rounded bg-white/5 text-slate-400 text-[10px] font-mono border border-white/8">
+                      +{member.specialization.length - 2}
                     </span>
                   )}
                 </div>
-              </div>
-            )}
+              )}
+            </div>
 
-            {/* Achievements Pill (if present) */}
-            {member.achievements && member.achievements.length > 0 && (
-              <div className="p-2.5 rounded-xl bg-amber-950/20 border border-amber-500/20 text-[11px] text-amber-200 flex items-center space-x-2">
-                <Trophy className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
-                <span className="truncate">{member.achievements[0]}</span>
-              </div>
-            )}
-          </div>
-
-          {/* Card Footer: Detail Button */}
-          <div className="pt-4 border-t border-[#2A180E] flex items-center justify-between text-xs font-bold text-brand-orange group-hover:text-amber-300 transition">
-            <span className="text-xs flex items-center space-x-1.5">
-              <span>Buka Profil Lengkap</span>
-            </span>
-            <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1.5 transition duration-300" />
+            {/* Card Footer: Detail Button */}
+            <div className="pt-3 border-t border-white/5 flex items-center justify-between text-xs text-slate-400 group-hover:text-brand-orange transition-colors">
+              <span className="text-[11px] font-mono tracking-wider uppercase">Profil &amp; Rekam Jejak</span>
+              <ChevronRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />
+            </div>
           </div>
         </div>
-      </div>
-    </SpotlightCard>
+      </SpotlightCard>
     );
   };
 
@@ -673,27 +610,25 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   const currentGenArchive = getGenerationArchive(selectedAlumniYear) || ALUMNI_GENERATIONS[0];
 
   return (
-    <section id="team-roster" className={`py-8 sm:py-10 md:py-12 relative border-b border-[#1A120B] ${className}`}>
-      {/* Background Cyber Accents */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-25">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-brand-orange/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl" />
-        <div className="absolute top-2/3 left-10 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl" />
+    <section id="team-roster" className={`py-12 sm:py-16 md:py-20 relative border-b border-white/5 ${className}`}>
+      {/* Background Subtle Accents */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-10">
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[250px] bg-brand-orange/10 rounded-full blur-3xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-6 sm:space-y-8">
-        {/* Section Header - Wider on Laptop without weird line breaks */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-8 sm:space-y-10">
+        {/* Section Header */}
         {showHeader && (
-          <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-            <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
-              <ShieldCheck className="w-4 h-4" />
+          <div className="text-center space-y-3 max-w-4xl mx-auto">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-mono tracking-wider border border-brand-orange/20">
+              <ShieldCheck className="w-3.5 h-3.5" />
               <span>OFFICIAL TEAM ROSTER &amp; HISTORICAL ARCHIVE</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight  leading-tight ">
-              Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY 🤖
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-tight">
+              Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY
             </h2>
-            <p className="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed max-w-4xl mx-auto">
-              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Menampilkan skuad teknis aktif divisi, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta penjelajah alumni lintas generasi KRI.
+            <p className="text-xs sm:text-sm md:text-base text-slate-400 leading-relaxed max-w-3xl mx-auto">
+              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Menampilkan skuad teknis aktif divisi, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta penjelajah alumni lintas generasi KRI.
             </p>
           </div>
         )}
@@ -1071,16 +1006,16 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                           2020 – 2025
                         </span>
                       </div>
-                      <h3 className="text-lg sm:text-2xl font-black text-white">
-                        Leaders Hall of Fame 👑
+                      <h3 className="text-lg sm:text-2xl font-bold text-white">
+                        Leaders Hall of Fame
                       </h3>
-                      <p className="text-xs text-amber-200/70 mt-0.5">
+                      <p className="text-xs text-slate-400 mt-0.5">
                         Deretan seluruh Ketua Tim Robotika Abhinaya UNY lintas generasi dari masa perintisan otonom hingga era AI Computer Vision.
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-2 text-xs font-bold text-amber-400 bg-[#2A1B0A] px-3.5 py-1.5 rounded-xl border border-amber-500/30 self-stretch md:self-auto justify-center">
+                  <div className="flex items-center space-x-2 text-xs font-mono text-amber-400 bg-white/5 px-3.5 py-1.5 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                     <Award className="w-4 h-4 text-amber-400" />
                     <span>6 Era Kepemimpinan Resmi</span>
                   </div>
@@ -1091,7 +1026,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 renderMemberCard(
                   leader,
                   {
-                    border: 'border-amber-500/40 hover:border-amber-400 shadow-amber-500/10',
+                    border: 'border-white/10 hover:border-amber-400/40',
                     accent: '#EAB308',
                   },
                   'carousel'
@@ -1105,35 +1040,34 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS SHOWCASE (2020 – 2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'managers') && (
-          <div className="space-y-4 pt-4 border-t border-[#26180E]">
+          <div className="space-y-4 pt-4 border-t border-white/5">
             <HorizontalScrollMemberTrack
               accentColor="#10B981"
               customHeader={
-                <div className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-[#071A12] via-[#05140E] to-[#030E0A] border-2 border-emerald-500/40 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                  <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+                <div className="p-4 sm:p-5 rounded-2xl bg-[#0A120E] border border-white/10 relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                   <div className="flex items-center space-x-3.5 relative z-10">
-                    <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/50 flex-shrink-0 shadow-lg shadow-emerald-500/20">
-                      <Briefcase className="w-6 h-6" />
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
+                      <Briefcase className="w-5 h-5" />
                     </div>
                     <div>
                       <div className="flex items-center space-x-2">
-                        <span className="text-[10px] font-black uppercase tracking-wider text-emerald-400 font-mono">
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-400">
                           OPERATIONAL &amp; MEDIA EXCELLENCE
                         </span>
-                        <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-bold border border-emerald-500/30">
+                        <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 text-[10px] font-mono border border-emerald-500/20">
                           2020 – 2025
                         </span>
                       </div>
-                      <h3 className="text-lg sm:text-2xl font-black text-white">
-                        Managers Showcase 💼
+                      <h3 className="text-lg sm:text-2xl font-bold text-white">
+                        Managers Showcase
                       </h3>
-                      <p className="text-xs text-emerald-200/70 mt-0.5">
+                      <p className="text-xs text-slate-400 mt-0.5">
                         Pilar manajerial, penganggaran riset, administrasi birokrasi Puspresnas, logistik akomodasi, dan branding resmi @abhinaya.uny.
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-2 text-xs font-bold text-emerald-400 bg-[#0C241A] px-3.5 py-1.5 rounded-xl border border-emerald-500/30 self-stretch md:self-auto justify-center">
+                  <div className="flex items-center space-x-2 text-xs font-mono text-emerald-400 bg-white/5 px-3.5 py-1.5 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                     <ShieldCheck className="w-4 h-4 text-emerald-400" />
                     <span>Tata Kelola Kontingen Mandiri</span>
                   </div>
@@ -1144,7 +1078,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 renderMemberCard(
                   manager,
                   {
-                    border: 'border-emerald-500/40 hover:border-emerald-400 shadow-emerald-500/10',
+                    border: 'border-white/10 hover:border-emerald-400/40',
                     accent: '#10B981',
                   },
                   'carousel'
@@ -1158,44 +1092,44 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             FEATURE 4 (BOTTOM): INTERACTIVE ALUMNI & GENERATION EXPLORER (2020–2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'alumni') && (
-          <div className="space-y-6 pt-4 border-t border-[#26180E]">
+          <div className="space-y-6 pt-4 border-t border-white/5">
             {/* Alumni Explorer Section Title */}
-            <div className="p-5 rounded-3xl bg-gradient-to-r from-[#170B24] via-[#10071A] to-[#0A0410] border-2 border-purple-500/40 shadow-xl relative overflow-hidden">
+            <div className="p-5 rounded-2xl bg-[#0F0A17] border border-white/10 relative overflow-hidden">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div className="flex items-center space-x-3.5">
-                  <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center border border-purple-500/50 flex-shrink-0 shadow-lg shadow-purple-500/20">
-                    <History className="w-6 h-6" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center border border-purple-500/20 flex-shrink-0">
+                    <History className="w-5 h-5" />
                   </div>
                   <div>
                     <div className="flex items-center space-x-2">
-                      <span className="text-[10px] font-black uppercase tracking-wider text-purple-400 font-mono">
+                      <span className="text-[10px] font-mono uppercase tracking-wider text-purple-400">
                         ALUMNI &amp; GENERATIONS ARCHIVE
                       </span>
-                      <span className="px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 text-[10px] font-bold border border-purple-500/30">
+                      <span className="px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 text-[10px] font-mono border border-purple-500/20">
                         2020 – 2025
                       </span>
                     </div>
-                    <h3 className="text-lg sm:text-2xl font-black text-white">
-                      Penjelajah Kontingen Alumni Robotika 🎓
+                    <h3 className="text-lg sm:text-2xl font-bold text-white">
+                      Penjelajah Kontingen Alumni Robotika
                     </h3>
-                    <p className="text-xs text-purple-200/70 mt-0.5">
+                    <p className="text-xs text-slate-400 mt-0.5">
                       Eksplorasi kontingen resmi, struktur kepengurusan, divisi teknis, dan torehan prestasi kompetisi KRTMI Puspresnas per tahun generasi.
                     </p>
                   </div>
                 </div>
 
                 {/* Year Tabs Selector */}
-                <div className="flex flex-wrap items-center gap-1.5 bg-black/50 p-1.5 rounded-2xl border border-purple-500/30 self-stretch md:self-auto justify-center">
+                <div className="flex flex-wrap items-center gap-1 bg-white/5 p-1 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                   {[2020, 2021, 2022, 2023, 2024, 2025].map((year) => {
                     const isSelected = selectedAlumniYear === year;
                     return (
                       <button
                         key={year}
                         onClick={() => setSelectedAlumniYear(year)}
-                        className={`px-3 py-1 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                        className={`px-3 py-1 rounded-lg text-xs font-mono font-medium transition-colors cursor-pointer ${
                           isSelected
-                            ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-500/40 scale-105'
-                            : 'bg-[#1C1226] text-purple-200 hover:text-white hover:bg-purple-900/40'
+                            ? 'bg-purple-500/30 text-purple-200 border border-purple-400/40'
+                            : 'text-slate-400 hover:text-white hover:bg-white/5'
                         }`}
                       >
                         {year}
@@ -1208,11 +1142,11 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
             {/* Selected Generation Detail Banner & Horizontal Scroll Track */}
             {currentGenArchive && (
-              <div className="p-5 rounded-3xl bg-[#140E1B] border border-purple-500/30 space-y-4">
-                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-3 border-b border-purple-900/40">
+              <div className="p-5 rounded-2xl bg-[#0F0A17] border border-white/10 space-y-4">
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-3 border-b border-white/5">
                   <div className="space-y-0.5">
                     <div className="flex items-center space-x-2">
-                      <span className="px-2 py-0.5 rounded-md bg-purple-950 text-purple-300 text-[11px] font-mono font-black border border-purple-500/40">
+                      <span className="px-2 py-0.5 rounded-md bg-purple-500/10 text-purple-300 text-[10px] font-mono font-bold border border-purple-500/20">
                         GENERASI {currentGenArchive.year}
                       </span>
                       <span className="text-xs text-amber-300 font-bold">

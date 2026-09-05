@@ -185,7 +185,7 @@ export default function PertandinganPage() {
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight">
-            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">Abhinaya UNY</span> 🏆
+            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">Abhinaya UNY</span>
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
@@ -349,51 +349,51 @@ export default function PertandinganPage() {
         {/* 4-Stage Autonomous Match Strategy Flow */}
         <div className="space-y-6">
           <div className="text-center sm:text-left space-y-1.5">
-            <h3 className="text-2xl sm:text-3xl font-black text-white">
-              Alur Misi Otonom Robot di Karpet Arena 🤖⚡
+            <h3 className="text-2xl sm:text-3xl font-bold text-white">
+              Alur Misi Otonom Robot di Karpet Arena
             </h3>
-            <p className="text-xs sm:text-sm text-slate-300">
+            <p className="text-xs sm:text-sm text-slate-400">
               Tahapan eksekusi program robot Abhinaya dari garis start hingga penyelesaian seluruh tugas klasifikasi sampah.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-5">
-            <div className="p-5 rounded-2xl bg-[#140E09] border border-brand-orange/30 space-y-3 relative group hover:border-brand-orange transition">
-              <div className="w-10 h-10 rounded-xl bg-brand-orange/20 text-brand-orange flex items-center justify-center font-mono font-black text-sm border border-brand-orange/40">
+            <div className="p-5 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-3 relative group hover:border-brand-orange/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center font-mono font-bold text-sm border border-brand-orange/20">
                 01
               </div>
-              <h4 className="text-base font-black text-white">Start &amp; Lokalisasi</h4>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <h4 className="text-base font-bold text-white">Start &amp; Lokalisasi</h4>
+              <p className="text-xs text-slate-400 leading-relaxed">
                 Robot menerima sinyal start juri, kamera AI aktif memindai marker arena, dan sistem odometri mengunci koordinat awal robot.
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#140E09] border border-amber-900/30 space-y-3 relative group hover:border-amber-500 transition">
-              <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-mono font-black text-sm border border-amber-500/40">
+            <div className="p-5 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-3 relative group hover:border-amber-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-300 flex items-center justify-center font-mono font-bold text-sm border border-amber-500/20">
                 02
               </div>
-              <h4 className="text-base font-black text-white">Deteksi &amp; Tracking Objek</h4>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <h4 className="text-base font-bold text-white">Deteksi &amp; Tracking Objek</h4>
+              <p className="text-xs text-slate-400 leading-relaxed">
                 Algoritma visi komputer YOLO mendeteksi posisi botol &amp; kaleng secara real-time, mengarahkan sasis mecanum tepat di depan target.
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#140E09] border border-yellow-900/30 space-y-3 relative group hover:border-yellow-500 transition">
-              <div className="w-10 h-10 rounded-xl bg-yellow-500/20 text-yellow-300 flex items-center justify-center font-mono font-black text-sm border border-yellow-500/40">
+            <div className="p-5 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-3 relative group hover:border-yellow-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-yellow-500/10 text-yellow-300 flex items-center justify-center font-mono font-bold text-sm border border-yellow-500/20">
                 03
               </div>
-              <h4 className="text-base font-black text-white">Gripping 2-Stage &amp; Angkut</h4>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <h4 className="text-base font-bold text-white">Gripping 2-Stage &amp; Angkut</h4>
+              <p className="text-xs text-slate-400 leading-relaxed">
                 Mekanisme capit 2-tingkat mengunci objek sampah dengan presisi tanpa slip, mengangkatnya ke kompartemen aman sebelum bermanuver.
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#140E09] border border-cyan-900/30 space-y-3 relative group hover:border-cyan-500 transition">
-              <div className="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-300 flex items-center justify-center font-mono font-black text-sm border border-cyan-500/40">
+            <div className="p-5 rounded-2xl bg-[#0E0C0A] border border-white/10 space-y-3 relative group hover:border-cyan-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-300 flex items-center justify-center font-mono font-bold text-sm border border-cyan-500/20">
                 04
               </div>
-              <h4 className="text-base font-black text-white">Docking Keranjang Cerdas</h4>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <h4 className="text-base font-bold text-white">Docking Keranjang Cerdas</h4>
+              <p className="text-xs text-slate-400 leading-relaxed">
                 Robot melakukan docking presisi ke keranjang pemilah digital sesuai kategori sampah, mencatatkan poin sempurna tanpa sentuhan manual.
               </p>
             </div>
@@ -406,11 +406,11 @@ export default function PertandinganPage() {
           {/* Match History Table / Cards (2 Cols) */}
           <div className="lg:col-span-2 space-y-5">
             <div className="space-y-1">
-              <h3 className="text-xl sm:text-2xl font-black text-white flex items-center space-x-2">
+              <h3 className="text-xl sm:text-2xl font-bold text-white flex items-center space-x-2">
                 <ShieldCheck className="w-5 h-5 text-brand-orange" />
                 <span>Catatan Hasil Pertandingan KRTMI 2024</span>
               </h3>
-              <p className="text-xs text-slate-300">
+              <p className="text-xs text-slate-400">
                 Rekapitulasi babak pertandingan dan performa robot Abhinaya di kejuaraan nasional.
               </p>
             </div>
@@ -419,24 +419,24 @@ export default function PertandinganPage() {
               {MATCH_HISTORY.map((match) => (
                 <div
                   key={match.id}
-                  className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#130E09] border border-[#2B1B10] hover:border-brand-orange/50 transition space-y-3"
+                  className="p-5 sm:p-6 rounded-2xl bg-[#0E0C0A] border border-white/10 hover:border-brand-orange/40 transition space-y-3"
                 >
-                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#24170E] pb-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/5 pb-3">
                     <div className="space-y-0.5">
                       <span className="text-[10px] font-mono uppercase font-bold text-amber-400">
                         KONTES ROBOT TEMATIK INDONESIA
                       </span>
-                      <h4 className="text-base font-black text-white">{match.roundName}</h4>
+                      <h4 className="text-base font-bold text-white">{match.roundName}</h4>
                       <p className="text-xs text-slate-400">Lawan: {match.opponent}</p>
                     </div>
 
                     <div className="flex items-center space-x-3">
                       <div className="text-right">
-                        <div className="text-lg font-black text-brand-orange font-mono">
+                        <div className="text-lg font-bold text-brand-orange font-mono">
                           {match.scoreAbhinaya} - {match.scoreOpponent}
                         </div>
-                        <span className="text-[9px] uppercase font-bold text-amber-400">
-                          {match.status === 'WIN' ? '🏆 MENANG' : '🚀 LOLOS FINAL'}
+                        <span className="text-[9px] uppercase font-mono font-bold text-amber-400">
+                          {match.status === 'WIN' ? 'MENANG' : 'LOLOS FINAL'}
                         </span>
                       </div>
                     </div>

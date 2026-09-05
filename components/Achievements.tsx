@@ -11,7 +11,7 @@ export const Achievements: React.FC = () => {
       title: 'Finalis Lomba Robot Kreatif Nasional',
       event: 'UNLIMITED Robotics Competition UNDIP 2026',
       organizer: 'Departemen Teknik Elektro Universitas Diponegoro',
-      badge: '💡 FINALIS ROBOT KREATIF',
+      badge: 'FINALIS ROBOT KREATIF',
       highlight: true,
     },
     {
@@ -19,7 +19,7 @@ export const Achievements: React.FC = () => {
       title: 'Peserta Tingkat Nasional Transporter',
       event: 'Technocorner 2026 Robot Competition',
       organizer: 'KMTETI Fakultas Teknik Universitas Gadjah Mada',
-      badge: '🤖 NASIONAL UGM',
+      badge: 'NASIONAL UGM',
       highlight: false,
     },
     {
@@ -27,7 +27,7 @@ export const Achievements: React.FC = () => {
       title: 'Juara 1 Regional I Wilayah',
       event: 'Kontes Robot Tematik Indonesia (KRTMI) 2024',
       organizer: 'BPTI Puspresnas Kemendikbudristek',
-      badge: '🥇 JUARA 1 REGIONAL',
+      badge: 'JUARA 1 REGIONAL',
       highlight: true,
     },
     {
@@ -35,7 +35,7 @@ export const Achievements: React.FC = () => {
       title: 'Juara 2 Tingkat Nasional',
       event: 'Kontes Robot Tematik Indonesia (KRTMI) 2024',
       organizer: 'BPTI Puspresnas Kemendikbudristek & UMS',
-      badge: '🥈 JUARA 2 NASIONAL',
+      badge: 'JUARA 2 NASIONAL',
       highlight: true,
     },
     {
@@ -43,7 +43,7 @@ export const Achievements: React.FC = () => {
       title: 'Juara 3 Tingkat Wilayah',
       event: 'Kontes Robot Tematik Indonesia (KRTMI) 2023',
       organizer: 'Puspresnas Kemendikbudristek',
-      badge: '🥉 JUARA 3 WILAYAH',
+      badge: 'JUARA 3 WILAYAH',
       highlight: false,
     },
     {
@@ -51,7 +51,7 @@ export const Achievements: React.FC = () => {
       title: 'Finalis Tingkat Nasional',
       event: 'Kontes Robot Tematik Indonesia (KRTMI) 2023',
       organizer: 'Puspresnas Kemendikbudristek & USM',
-      badge: '🏅 FINALIS NASIONAL',
+      badge: 'FINALIS NASIONAL',
       highlight: false,
     },
   ];
@@ -67,65 +67,65 @@ export const Achievements: React.FC = () => {
   };
 
   return (
-    <section id="prestasi" className="py-8 sm:py-10 md:py-12 space-y-8 sm:space-y-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12">
+    <section id="prestasi" className="py-12 sm:py-16 md:py-20 border-b border-white/5 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         
         {/* Header */}
-        <div className="text-center space-y-3 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30">
+        <div className="text-center space-y-3 max-w-4xl mx-auto">
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-mono tracking-wider border border-brand-orange/20">
             <Trophy className="w-3.5 h-3.5" />
             <span>REKAM JEJAK KEJUARAAN RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
             <ShinyText
-              text="Kabinet Prestasi & Jejak Podium Nasional 🏆"
+              text="Kabinet Prestasi & Jejak Podium Nasional"
               speed={4}
-              className="text-3xl sm:text-4xl font-black tracking-tight"
+              className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
             />
           </h2>
-          <p className="text-xs sm:text-sm text-slate-300">
-            Bukti nyata konsistensi rekayasa teknologi mahasiswa UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP.
+          <p className="text-xs sm:text-sm text-slate-400 max-w-2xl mx-auto">
+            Bukti nyata konsistensi riset dan dedikasi rekayasa teknologi mahasiswa UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP.
           </p>
         </div>
 
         {/* Awards Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {awards.map((item, idx) => (
             <SpotlightCard
               key={idx}
-              spotlightColor="rgba(255, 107, 0, 0.18)"
-              spotlightSize={350}
-              className={`p-6 sm:p-7 rounded-3xl transition space-y-4 relative overflow-hidden group shadow-lg border ${
+              spotlightColor="rgba(255, 107, 0, 0.12)"
+              spotlightSize={300}
+              className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight
-                  ? 'bg-gradient-to-b from-[#241508] to-[#140D07] border-brand-orange shadow-[0_0_35px_rgba(255,107,0,0.25)] ring-1 ring-brand-orange/50'
-                  : 'bg-[#120D08] border-[#2B1B10] hover:border-brand-orange/40'
+                  ? 'bg-[#120E0A] border-brand-orange/30 hover:border-brand-orange/60 shadow-lg shadow-brand-orange/5'
+                  : 'bg-[#0E0C0A] border-white/8 hover:border-white/15'
               }`}
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-black px-3 py-1 rounded-xl bg-[#22160E] text-brand-orange border border-[#3A2617] font-mono">
+                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-white/5 text-brand-orange border border-white/10 font-mono">
                     <DecryptedText
                       text={item.year}
                       animateOn="hover"
                       className="text-brand-orange font-mono"
                     />
                   </span>
-                  <span className={`text-[11px] font-black px-3 py-1 rounded-lg ${
-                    item.highlight ? 'bg-brand-orange text-black font-black' : 'bg-[#2A1D13] text-amber-200'
+                  <span className={`text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase ${
+                    item.highlight ? 'bg-brand-orange text-black font-black' : 'bg-white/5 text-slate-300 border border-white/10'
                   }`}>
                     <DecryptedText
                       text={item.badge}
                       animateOn="hover"
-                      className={item.highlight ? 'text-black font-black' : 'text-amber-200'}
+                      className={item.highlight ? 'text-black font-black' : 'text-slate-300'}
                     />
                   </span>
                 </div>
 
-                <div className="space-y-1">
-                  <h3 className="text-lg font-black text-white group-hover:text-brand-orange transition">
+                <div className="space-y-1.5">
+                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-amber-200/80 font-semibold">
+                  <p className="text-xs text-amber-200/90 font-medium">
                     {item.event}
                   </p>
                   <p className="text-[11px] text-slate-400">
@@ -133,8 +133,8 @@ export const Achievements: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="pt-2 border-t border-[#26180E] flex items-center space-x-2 text-[11px] text-amber-300/80">
-                  <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
+                <div className="pt-3 border-t border-white/5 flex items-center space-x-2 text-[11px] text-slate-400">
+                  <ShieldCheck className="w-3.5 h-3.5 text-brand-orange flex-shrink-0" />
                   <span>{getVerificationLabel(item.organizer)}</span>
                 </div>
               </div>

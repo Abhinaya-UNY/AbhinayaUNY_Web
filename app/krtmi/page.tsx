@@ -40,7 +40,7 @@ export default function KrtmiPage() {
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Perjalanan Lomba &amp; Buku Panduan (2026 ➔ 2019) 📜
+          Perjalanan Lomba &amp; Buku Panduan (2026 – 2019)
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
           Eksplorasi mendalam regulasi teknis, layout arena bertingkat, batasan dimensi dan voltase robot, sistem penilaian, aturan diskualifikasi, serta unduh langsung dokumen PDF buku pedoman resmi dari Balai Pengembangan Talenta Indonesia (BPTI) Kemendikbudristek dan panitia DTETI FT UGM.

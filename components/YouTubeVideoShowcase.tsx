@@ -185,8 +185,8 @@ export const YouTubeVideoShowcase: React.FC = () => {
             <FaYoutube className="w-4 h-4 text-red-500 fill-red-500" />
             <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight ">
-            Mengenal Abhinaya UNY Lewat Video Resmi!&nbsp;🎬
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+            Mengenal Abhinaya UNY Lewat Video Resmi
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
             Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi di bawah naungan UKM Rekayasa Teknologi (Restek) UNY, dan teknologi robot otonom kami.

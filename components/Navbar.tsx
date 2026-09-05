@@ -41,13 +41,13 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#080503]/95 backdrop-blur-md border-b border-[#241508]">
+    <header className="sticky top-0 z-50 w-full bg-[#070503]/98 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 sm:h-20">
+        <div className="flex items-center justify-between h-16 sm:h-18">
           
-          {/* Real Abhinaya Logo & Brand */}
+          {/* Logo & Brand */}
           <Link href="/" className="flex items-center space-x-3 group flex-shrink-0">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white p-1 flex items-center justify-center border-2 border-brand-orange group-hover:scale-105 transition flex-shrink-0 shadow-[0_0_20px_rgba(255,107,0,0.5)]">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-white p-1 flex items-center justify-center group-hover:opacity-90 transition flex-shrink-0">
               <img
                 src={`${basePath}/assets/logo_abhinaya.png`}
                 alt="Logo Abhinaya UNY"
@@ -55,17 +55,17 @@ export const Navbar: React.FC = () => {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-brand-orange transition whitespace-nowrap leading-tight">
+              <span className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-brand-orange transition whitespace-nowrap leading-tight">
                 ABHINAYA<span className="text-brand-orange"> UNY</span>
               </span>
-              <span className="text-[9px] sm:text-[10px] text-amber-200/70 font-mono font-bold uppercase tracking-wider whitespace-nowrap leading-tight">
-                KRTMI ROBOTICS TEAM
+              <span className="text-[9px] text-slate-500 font-mono uppercase tracking-widest whitespace-nowrap leading-tight">
+                KRTMI — UKM Restek UNY
               </span>
             </div>
           </Link>
 
-          {/* Floating Pill Center Menu - Single Line Clean Capsule */}
-          <nav className="hidden lg:flex items-center space-x-1 px-3 py-1.5 rounded-full bg-[#140D08]/95 border border-[#2B1B10] shadow-inner flex-shrink-0">
+          {/* Center Nav */}
+          <nav className="hidden lg:flex items-center space-x-0.5 flex-shrink-0">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -73,10 +73,10 @@ export const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`px-3 py-1 rounded-full text-xs font-black tracking-wider transition whitespace-nowrap flex-shrink-0 ${
+                  className={`px-3.5 py-1.5 rounded-lg text-[11px] font-semibold tracking-widest transition whitespace-nowrap flex-shrink-0 ${
                     isActive
-                      ? 'bg-brand-orange text-black shadow-[0_0_15px_rgba(255,107,0,0.5)]'
-                      : 'text-slate-300 hover:text-white hover:bg-[#20150D]'
+                      ? 'bg-brand-orange/10 text-brand-orange'
+                      : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
                   {link.label}
@@ -86,33 +86,33 @@ export const Navbar: React.FC = () => {
           </nav>
 
           {/* Social Links Right */}
-          <div className="hidden sm:flex items-center space-x-2 flex-shrink-0">
+          <div className="hidden sm:flex items-center space-x-1.5 flex-shrink-0">
             <a
               href="https://www.instagram.com/abhinaya.uny/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-pink-400 text-pink-400 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-8 h-8 rounded-lg text-slate-500 hover:text-pink-400 flex items-center justify-center transition"
               title="Official Instagram @abhinaya.uny"
             >
-              <FaInstagram className="w-4 h-4 group-hover:scale-110 transition" />
+              <FaInstagram className="w-4 h-4" />
             </a>
             <a
               href="https://www.tiktok.com/@abhinaya.uny"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-cyan-400 text-cyan-400 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-8 h-8 rounded-lg text-slate-500 hover:text-cyan-400 flex items-center justify-center transition"
               title="Official TikTok @abhinaya.uny"
             >
-              <FaTiktok className="w-4 h-4 group-hover:scale-110 transition" />
+              <FaTiktok className="w-4 h-4" />
             </a>
             <a
               href="https://www.youtube.com/@AbhinayaUNY"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-[#180F08] border border-brand-orange/40 hover:border-red-500 text-red-500 hover:text-white flex items-center justify-center transition shadow-md group"
+              className="w-8 h-8 rounded-lg text-slate-500 hover:text-red-400 flex items-center justify-center transition"
               title="Official YouTube @AbhinayaUNY"
             >
-              <FaYoutube className="w-4 h-4 group-hover:scale-110 transition" />
+              <FaYoutube className="w-4 h-4" />
             </a>
           </div>
 
@@ -120,10 +120,10 @@ export const Navbar: React.FC = () => {
           <div className="flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-xl bg-[#140D08] text-brand-orange border border-[#2B1B10] hover:bg-brand-orange hover:text-black transition cursor-pointer"
+              className="p-2 rounded-lg text-slate-400 hover:text-brand-orange hover:bg-white/5 transition cursor-pointer"
               aria-label="Toggle Menu"
             >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>

@@ -22,8 +22,8 @@ export const NewsMediaSection: React.FC = () => {
             <Newspaper className="w-3.5 h-3.5 text-brand-orange" />
             <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight ">
-            Liputan Berita Resmi &amp; Publikasi Media Nasional 📰
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+            Liputan Berita Resmi &amp; Publikasi Media Nasional
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
             Kumpulan siaran pers resmi Universitas Negeri Yogyakarta (UNY), liputan video televisi nasional ANTARA News, dan publikasi Puspresnas Kemendikbudristek atas torehan prestasi kontingen robotika Abhinaya UNY.

@@ -13,8 +13,8 @@ export const SocialMediaHub: React.FC = () => {
             <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
             <span>JARINGAN MEDIA SOSIAL RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight ">
-            Ikuti Aktivitas &amp; Update Harian Abhinaya! 📱
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+            Ikuti Aktivitas &amp; Update Harian Abhinaya
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
             Simak cuplikan uji coba sirkuit, tutorial dasar robotika, vlog suasana paddock turnamen, serta informasi open recruitment anggota baru UKM Rekayasa Teknologi UNY.
