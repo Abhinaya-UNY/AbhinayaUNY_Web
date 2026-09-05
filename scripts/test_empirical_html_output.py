@@ -44,7 +44,9 @@ def test_exported_pages_exist():
         os.path.join('prestasi', 'index.html'),
         os.path.join('krtmi', 'index.html'),
         os.path.join('pertandingan', 'index.html'),
-        '404.html'
+        '404.html',
+        '500.html',
+        os.path.join('500', 'index.html')
     ]
     results = {}
     for rel_path in required_pages:
