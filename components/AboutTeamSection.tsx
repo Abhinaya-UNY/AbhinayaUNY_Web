@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Users, Trophy, Camera } from 'lucide-react';
+import { SpotlightCard, CountUp } from '@/components/animations';
 
 export const AboutTeamSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -90,18 +91,34 @@ export const AboutTeamSection: React.FC = () => {
             </p>
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
-              <div className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5">
-                <div className="font-black text-brand-orange font-mono text-base">7+ Periode</div>
+              <SpotlightCard
+                spotlightColor="rgba(255, 107, 0, 0.18)"
+                spotlightSize={200}
+                className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5"
+              >
+                <div className="font-black text-brand-orange font-mono text-base flex items-baseline">
+                  <CountUp to={7} duration={2} />+ Periode
+                </div>
                 <div className="text-[11px] text-amber-200/70">Riset KRTMI Sejak 2019</div>
-              </div>
-              <div className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5">
-                <div className="font-black text-amber-400 font-mono text-base">100% Otonom</div>
+              </SpotlightCard>
+              <SpotlightCard
+                spotlightColor="rgba(255, 107, 0, 0.18)"
+                spotlightSize={200}
+                className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5"
+              >
+                <div className="font-black text-amber-400 font-mono text-base flex items-baseline">
+                  <CountUp to={100} duration={2} />% Otonom
+                </div>
                 <div className="text-[11px] text-amber-200/70">Teknologi Kamera AI</div>
-              </div>
-              <div className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5">
+              </SpotlightCard>
+              <SpotlightCard
+                spotlightColor="rgba(255, 107, 0, 0.18)"
+                spotlightSize={200}
+                className="p-3 rounded-2xl bg-[#140E09] border border-[#2B1B10] text-xs space-y-0.5"
+              >
                 <div className="font-black text-yellow-400 font-mono text-base">UKM Restek UNY</div>
                 <div className="text-[11px] text-amber-200/70">Tingkat Universitas &amp; BPTI</div>
-              </div>
+              </SpotlightCard>
             </div>
           </div>
 

@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
 import { Trophy, Award, ShieldCheck, Star, Sparkles } from 'lucide-react';
+import { SpotlightCard, ShinyText, DecryptedText } from '@/components/animations';
 
 export const Achievements: React.FC = () => {
   const awards = [
@@ -73,8 +76,12 @@ export const Achievements: React.FC = () => {
             <Trophy className="w-3.5 h-3.5" />
             <span>REKAM JEJAK KEJUARAAN RESMI</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight ">
-            Kabinet Prestasi &amp; Jejak Podium Nasional&nbsp;🏆
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+            <ShinyText
+              text="Kabinet Prestasi & Jejak Podium Nasional 🏆"
+              speed={4}
+              className="text-3xl sm:text-4xl font-black tracking-tight"
+            />
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
             Bukti nyata konsistensi rekayasa teknologi mahasiswa UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP.
@@ -84,42 +91,54 @@ export const Achievements: React.FC = () => {
         {/* Awards Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {awards.map((item, idx) => (
-            <div
+            <SpotlightCard
               key={idx}
+              spotlightColor="rgba(255, 107, 0, 0.18)"
+              spotlightSize={350}
               className={`p-6 sm:p-7 rounded-3xl transition space-y-4 relative overflow-hidden group shadow-lg border ${
                 item.highlight
                   ? 'bg-gradient-to-b from-[#241508] to-[#140D07] border-brand-orange shadow-[0_0_35px_rgba(255,107,0,0.25)] ring-1 ring-brand-orange/50'
                   : 'bg-[#120D08] border-[#2B1B10] hover:border-brand-orange/40'
               }`}
             >
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-black px-3 py-1 rounded-xl bg-[#22160E] text-brand-orange border border-[#3A2617] font-mono">
-                  {item.year}
-                </span>
-                <span className={`text-[11px] font-black px-3 py-1 rounded-lg ${
-                  item.highlight ? 'bg-brand-orange text-black font-black' : 'bg-[#2A1D13] text-amber-200'
-                }`}>
-                  {item.badge}
-                </span>
-              </div>
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-black px-3 py-1 rounded-xl bg-[#22160E] text-brand-orange border border-[#3A2617] font-mono">
+                    <DecryptedText
+                      text={item.year}
+                      animateOn="hover"
+                      className="text-brand-orange font-mono"
+                    />
+                  </span>
+                  <span className={`text-[11px] font-black px-3 py-1 rounded-lg ${
+                    item.highlight ? 'bg-brand-orange text-black font-black' : 'bg-[#2A1D13] text-amber-200'
+                  }`}>
+                    <DecryptedText
+                      text={item.badge}
+                      animateOn="hover"
+                      className={item.highlight ? 'text-black font-black' : 'text-amber-200'}
+                    />
+                  </span>
+                </div>
 
-              <div className="space-y-1">
-                <h3 className="text-lg font-black text-white group-hover:text-brand-orange transition">
-                  {item.title}
-                </h3>
-                <p className="text-xs text-amber-200/80 font-semibold">
-                  {item.event}
-                </p>
-                <p className="text-[11px] text-slate-400">
-                  {item.organizer}
-                </p>
-              </div>
+                <div className="space-y-1">
+                  <h3 className="text-lg font-black text-white group-hover:text-brand-orange transition">
+                    {item.title}
+                  </h3>
+                  <p className="text-xs text-amber-200/80 font-semibold">
+                    {item.event}
+                  </p>
+                  <p className="text-[11px] text-slate-400">
+                    {item.organizer}
+                  </p>
+                </div>
 
-              <div className="pt-2 border-t border-[#26180E] flex items-center space-x-2 text-[11px] text-amber-300/80">
-                <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
-                <span>{getVerificationLabel(item.organizer)}</span>
+                <div className="pt-2 border-t border-[#26180E] flex items-center space-x-2 text-[11px] text-amber-300/80">
+                  <ShieldCheck className="w-4 h-4 text-brand-orange flex-shrink-0" />
+                  <span>{getVerificationLabel(item.organizer)}</span>
+                </div>
               </div>
-            </div>
+            </SpotlightCard>
           ))}
         </div>
 

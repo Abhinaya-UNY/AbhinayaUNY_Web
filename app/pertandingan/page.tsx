@@ -23,6 +23,7 @@ import {
   Wrench,
   Zap,
 } from 'lucide-react';
+import { SpotlightCard, CountUp } from '@/components/animations';
 
 interface MatchRound {
   id: string;
@@ -294,26 +295,53 @@ export default function PertandinganPage() {
 
           {/* Match Tech Telemetry Specs */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 pt-2">
-            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+            <SpotlightCard
+              spotlightColor="rgba(255, 107, 0, 0.16)"
+              spotlightSize={200}
+              className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1"
+            >
               <span className="text-slate-400 font-mono text-[11px] block">Sistem Kendali</span>
-              <span className="font-black text-brand-orange text-sm sm:text-base">100% Otonom</span>
+              <span className="font-black text-brand-orange text-sm sm:text-base flex items-baseline">
+                <CountUp to={100} duration={1.5} />% Otonom
+              </span>
               <span className="text-[10px] text-slate-400 block">AI Vision + Odometry</span>
-            </div>
-            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+            </SpotlightCard>
+
+            <SpotlightCard
+              spotlightColor="rgba(255, 107, 0, 0.16)"
+              spotlightSize={200}
+              className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1"
+            >
               <span className="text-slate-400 font-mono text-[11px] block">Kecepatan Sasis</span>
-              <span className="font-black text-amber-300 text-sm sm:text-base">1.4 m/s Max</span>
+              <span className="font-black text-amber-300 text-sm sm:text-base flex items-baseline">
+                <CountUp to={1.4} decimals={1} decimal="." duration={1.5} />&nbsp;m/s Max
+              </span>
               <span className="text-[10px] text-slate-400 block">4WD Mecanum Holonomic</span>
-            </div>
-            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+            </SpotlightCard>
+
+            <SpotlightCard
+              spotlightColor="rgba(255, 107, 0, 0.16)"
+              spotlightSize={200}
+              className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1"
+            >
               <span className="text-slate-400 font-mono text-[11px] block">Waktu Siklus Sortir</span>
-              <span className="font-black text-brand-orange text-sm sm:text-base">&lt; 12 Detik</span>
+              <span className="font-black text-brand-orange text-sm sm:text-base flex items-baseline">
+                &lt;&nbsp;<CountUp to={12} duration={1.5} />&nbsp;Detik
+              </span>
               <span className="text-[10px] text-slate-400 block">Pick &amp; Smart Docking</span>
-            </div>
-            <div className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1">
+            </SpotlightCard>
+
+            <SpotlightCard
+              spotlightColor="rgba(255, 107, 0, 0.16)"
+              spotlightSize={200}
+              className="p-3.5 rounded-2xl bg-[#180F08] border border-[#2B1B10] text-xs space-y-1"
+            >
               <span className="text-slate-400 font-mono text-[11px] block">Akurasi Deteksi AI</span>
-              <span className="font-black text-cyan-400 text-sm sm:text-base">98.4% Precision</span>
+              <span className="font-black text-cyan-400 text-sm sm:text-base flex items-baseline">
+                <CountUp to={98.4} decimals={1} decimal="." duration={1.5} />% Precision
+              </span>
               <span className="text-[10px] text-slate-400 block">YOLOv8 Edge Compute</span>
-            </div>
+            </SpotlightCard>
           </div>
 
         </div>

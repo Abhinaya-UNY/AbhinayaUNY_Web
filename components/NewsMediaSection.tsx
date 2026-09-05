@@ -3,6 +3,7 @@
 import React from 'react';
 import { Newspaper, ExternalLink, Trophy, Calendar, Sparkles, Tv, ShieldCheck, ArrowUpRight } from 'lucide-react';
 import { OFFICIAL_NEWS_ARTICLES } from '@/data/newsData';
+import { SpotlightCard, DecryptedText } from '@/components/animations';
 
 export const NewsMediaSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -38,11 +39,14 @@ export const NewsMediaSection: React.FC = () => {
               : `${basePath}/${article.image}`;
 
             return (
-              <a
+              <SpotlightCard
+                as="a"
                 key={article.id}
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightSize={350}
                 className={`group rounded-3xl bg-[#120D08] border ${
                   isFirst
                     ? 'border-brand-orange/50 hover:border-brand-orange bg-gradient-to-b from-[#1C120A] to-[#120D08] shadow-[0_0_30px_rgba(255,107,0,0.15)] ring-1 ring-brand-orange/30'
@@ -74,11 +78,11 @@ export const NewsMediaSection: React.FC = () => {
                     {/* Badge & Source Portal Row */}
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <span className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-bold border ${article.badgeColor}`}>
-                        <span>{article.badge}</span>
+                        <DecryptedText text={article.badge} animateOn="hover" />
                       </span>
                       <div className="flex items-center space-x-1 text-amber-300/90 text-[11px] font-bold">
                         <ShieldCheck className="w-3.5 h-3.5 text-brand-orange" />
-                        <span>{article.portal}</span>
+                        <DecryptedText text={article.portal} animateOn="hover" className="text-amber-300/90 text-[11px] font-bold" />
                       </div>
                     </div>
 
@@ -116,7 +120,7 @@ export const NewsMediaSection: React.FC = () => {
                     <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </div>
-              </a>
+              </SpotlightCard>
             );
           })}
         </div>

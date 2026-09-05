@@ -89,3 +89,56 @@ Integrity mode: development
 - [ ] Visual UI components present a bespoke, high-craft aesthetic (inspired by reactbits.dev) rather than a generic AI template look.
 - [ ] `npm run build` exits with code 0 without any errors.
 - [ ] Changes are cleanly committed to the local git repository.
+
+## 2026-09-05T14:40:41Z
+
+Elevasi visual, tipografi, dan mikro-interaksi website resmi Abhinaya UNY Robotics (https://abhinaya-uny.github.io/AbhinayaUNY_Web/) menggunakan koleksi komponen animasi berkelas industri terinspirasi dari React Bits (https://reactbits.dev) agar website tampil otentik, hidup, futuristik, dan terbebas sepenuhnya dari kesan template AI generik.
+
+Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
+Integrity mode: development
+
+## Reference Materials
+- React Bits Documentation & Components: https://reactbits.dev (Text Animations, SpotlightCard, TrueFocus, CountUp, DecryptedText, ShinyText, GridScan)
+- Official Website: https://abhinaya-uny.github.io/AbhinayaUNY_Web/
+- Team Identity: Signature Electric Orange (`#FF6B00`), Warm Amber, Warm Carbon Black (`#070503`, `#120D08`, `#140E09`), dan tema robotika KRTMI.
+
+## Requirements
+
+### R1. Kinetic & High-Tech Text Animations (React Bits Text Suite)
+Implementasikan rangkaian komponen animasi teks modular ala React Bits yang dapat digunakan secara luwes pada judul dan label penting:
+- **DecryptedText / Hacker Scramble**: Efek pengacak karakter biner/ASCII yang bertransformasi menjadi teks asli saat hover atau in-view, diterapkan pada badge status kompetisi, kode divisi teknis, dan label telemetry.
+- **ShinyText / Metallic Sweep**: Sapuan pantulan kilau cahaya oranye-keemasan yang bergerak melintasi teks penting seperti headline penghargaan (*"JUARA 1 WILAYAH I & JUARA 2 NASIONAL"*) dan nama robot.
+- **SplitText / BlurText Reveal**: Animasi kemunculan teks bertahap (per-kata atau per-karakter dengan blur halus dan stagger timing) pada headline utama Hero Section (*"ABHINAYA UNY"* dan tagline KRTMI).
+
+### R2. Reactive Interactive Cards & Cursor Lighting (SpotlightCard Engine)
+Tingkatkan kartu roster anggota, kartu berita, dan kabinet prestasi dengan komponen kartu reaktif ala React Bits SpotlightCard:
+- Menghadirkan pantulan ambient light gradient radial oranye (`rgba(255, 107, 0, 0.15)`) yang mengikuti pergerakan kursor mouse secara halus (*fluid pointer-tracking*).
+- Mempertahankan border kontras tinggi dan efek depth (*tactile depth*), tanpa mengaburkan atau menutupi foto profil dan detail anggota.
+
+### R3. Dynamic Numerical Telemetry (CountUp Statistics)
+Sematkan komponen animasi perhitungan angka dinamis (*smooth counter / CountUp with easing*) pada bagian statistik:
+- Jumlah piala dan penghargaan yang diraih.
+- Tahun aktif generasi dan rekor pencapaian kompetisi (2019 – 2026).
+- Indikator metriks performa robot (siklus pemilahan, kecepatan mecanum, dsb.) saat kartu masuk ke viewport pengguna (*viewport-triggered*).
+
+### R4. Ambient Grid & Background Micro-Motions
+Tambahkan aksen visual latar belakang bertema riset robotika tingkat lanjut:
+- Ambient subtle grid scan / dot pattern yang responsif dan elegan di belakang hero atau section teknis tanpa membebani GPU atau menurunkan FPS perangkat mobile.
+- Tetap menjaga kontras keterbacaan teks 100% prima (*accessibility & contrast ratio safe*).
+
+### R5. Zero-Regression Build & Performance Verification
+Seluruh animasi harus dibangun dengan arsitektur yang aman untuk Next.js Static Export (`next export` / output `out/`):
+- Kompatibel penuh dengan Server-Side Rendering / Client Component hydration (`'use client'`).
+- Memiliki fallback graceful untuk browser dengan preferensi `prefers-reduced-motion` atau perangkat mobile berdaya rendah.
+- Tidak merusak fungsionalitas unduh panduan lomba, pemutar video YouTube, modal roster, maupun link navigasi yang sudah ada.
+
+## Acceptance Criteria
+
+### Verification & Performance Checks
+- [ ] `npm run build` sukses 100% tanpa error TypeScript, lint, atau export statis (11/11 halaman statis terbentuk).
+- [ ] Komponen animasi teks (DecryptedText, ShinyText, SplitText/BlurText) terpasang aktif pada Hero dan bagian penting website.
+- [ ] SpotlightCard aktif bereaksi terhadap pergerakan mouse pada kartu roster / prestasi dengan pencahayaan oranye khas Abhinaya.
+- [ ] CountUp animasi angka berjalan mulus saat section statistik di-scroll masuk ke viewport.
+- [ ] Seluruh foto anggota, piala, dan robot tetap 100% terlihat jelas tanpa terhalang teks maupun efek visual yang berlebihan.
+- [ ] Harness pengujian otomatis (`node scripts/test_empirical_html_output.js` & `node scripts/stress_test_edge_cases.js`) lulus 100% dengan exit code 0.
+- [ ] Perubahan tersimpan, ter-commit, dan ter-push bersih ke repository GitHub `origin main`.

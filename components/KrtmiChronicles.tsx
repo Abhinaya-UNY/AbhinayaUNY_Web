@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { KRTMI_STORIES, KrtmiStory } from '@/data/krtmiData';
+import { CountUp, DecryptedText } from '@/components/animations';
 import {
   Trophy,
   History,
@@ -190,7 +191,7 @@ export const KrtmiChronicles: React.FC = () => {
                 <span>Durasi Match</span>
               </span>
               <span className="text-xs sm:text-sm font-black text-white block">
-                {activeStory.matchProcedure?.matchDuration || '3 Menit'}
+                <CountUp to={3} duration={1.5} /> Menit
               </span>
             </div>
 
@@ -200,7 +201,13 @@ export const KrtmiChronicles: React.FC = () => {
                 <span>Batas Voltase</span>
               </span>
               <span className="text-xs sm:text-sm font-black text-amber-200 block">
-                {activeStory.robotSpecs.power.includes('13') ? 'Maksimal 13.0V DC' : activeStory.robotSpecs.power.includes('24') ? 'Maksimal 24.0V DC' : '12V – 14.8V DC'}
+                {activeStory.robotSpecs.power.includes('13') ? (
+                  <>Maksimal <CountUp to={13.0} decimals={1} decimal="." duration={1.5} />V DC</>
+                ) : activeStory.robotSpecs.power.includes('24') ? (
+                  <>Maksimal <CountUp to={24.0} decimals={1} decimal="." duration={1.5} />V DC</>
+                ) : (
+                  '12V – 14.8V DC'
+                )}
               </span>
             </div>
 
@@ -210,7 +217,11 @@ export const KrtmiChronicles: React.FC = () => {
                 <span>Kondisi Menang</span>
               </span>
               <span className="text-xs sm:text-sm font-black text-brand-orange block truncate" title={activeStory.matchProcedure?.victoryCondition}>
-                {activeStory.year === '2024' ? '”BERSIH” Mutlak' : activeStory.year === '2023' ? '”DONE” / ”DAM”' : activeStory.year === '2026' ? 'FINISH & Poin' : 'Poin Tertinggi'}
+                <DecryptedText
+                  text={activeStory.year === '2024' ? '”BERSIH” Mutlak' : activeStory.year === '2023' ? '”DONE” / ”DAM”' : activeStory.year === '2026' ? 'FINISH & Poin' : 'Poin Tertinggi'}
+                  animateOn="hover"
+                  className="text-brand-orange"
+                />
               </span>
             </div>
 
@@ -220,7 +231,11 @@ export const KrtmiChronicles: React.FC = () => {
                 <span>Sistem Robot</span>
               </span>
               <span className="text-xs sm:text-sm font-black text-cyan-200 block truncate" title={activeStory.robotSpecs.robotCount || '1 Robot'}>
-                {activeStory.robotSpecs.autonomyMode || '100% Otonom'}
+                <DecryptedText
+                  text={activeStory.robotSpecs.autonomyMode || '100% Otonom'}
+                  animateOn="hover"
+                  className="text-cyan-200"
+                />
               </span>
             </div>
           </div>

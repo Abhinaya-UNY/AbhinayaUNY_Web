@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, Play, Flame, Trophy } from 'lucide-react';
+import { BlurText, ShinyText, DecryptedText, AmbientGrid } from '@/components/animations';
 
 export const HeroSection: React.FC = () => {
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
@@ -24,6 +25,9 @@ export const HeroSection: React.FC = () => {
   return (
     <div className="relative w-full bg-[#070503] border-b border-[#1A120B] overflow-hidden pt-6 sm:pt-10 pb-12 sm:pb-16">
       
+      {/* Background Ambient Micro-Grid & High-Tech Coordinates */}
+      <AmbientGrid className="pointer-events-none z-0" opacity={0.6} />
+
       {/* Background Ambient High-Tech Orange Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[900px] h-[350px] bg-brand-orange/15 blur-[130px] pointer-events-none rounded-full" />
       <div className="absolute top-1/3 right-10 w-80 h-80 bg-amber-500/10 blur-[120px] pointer-events-none rounded-full" />
@@ -43,23 +47,46 @@ export const HeroSection: React.FC = () => {
 
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-orange/15 text-brand-orange text-xs font-black uppercase tracking-wider border border-brand-orange/30 shadow-sm">
             <Trophy className="w-3.5 h-3.5 text-brand-orange" />
-            <span>TIM ROBOTIKA • UKM REKAYASA TEKNOLOGI UNY</span>
+            <DecryptedText
+              text="TIM ROBOTIKA • UKM REKAYASA TEKNOLOGI UNY"
+              animateOn="hover"
+              className="text-brand-orange text-xs font-black uppercase tracking-wider"
+            />
           </div>
         </div>
 
         {/* Title & Subtitle */}
         <div className="space-y-1.5" aria-label="ABHINAYA UNY">
-          <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-tight uppercase flex items-center justify-center gap-2 sm:gap-3 whitespace-nowrap" title="ABHINAYA UNY">
-            <span>ABHINAYA</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400">UNY</span>
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-tight uppercase flex items-center justify-center gap-2 sm:gap-3 whitespace-nowrap" title="ABHINAYA UNY" aria-label="ABHINAYA UNY">
+            <BlurText
+              text="ABHINAYA"
+              delay={70}
+              animateBy="letters"
+              className="text-white"
+            />
+            <BlurText
+              text="UNY"
+              delay={70}
+              animateBy="letters"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-yellow-400"
+            />
           </h1>
-          <p className="text-xs sm:text-sm md:text-base font-bold text-amber-200/90 tracking-[0.2em] sm:tracking-[0.25em] uppercase">
-            Divisi Kontes Robot Tematik Indonesia (KRTMI)
-          </p>
+          <div className="text-xs sm:text-sm md:text-base font-bold text-amber-200/90 tracking-[0.2em] sm:tracking-[0.25em] uppercase flex items-center justify-center">
+            <BlurText
+              text="Divisi Kontes Robot Tematik Indonesia (KRTMI)"
+              delay={40}
+              animateBy="words"
+              className="text-xs sm:text-sm md:text-base font-bold text-amber-200/90 tracking-[0.2em] sm:tracking-[0.25em] uppercase"
+            />
+          </div>
           <div className="pt-1">
             <span className="inline-flex items-center space-x-2 px-4 py-1 rounded-xl bg-[#140E09] text-amber-300 text-xs sm:text-sm font-mono font-bold border border-brand-orange/30 shadow-sm">
               <Trophy className="w-3.5 h-3.5 text-amber-400" />
-              <span>JUARA 1 WILAYAH I &amp; JUARA 2 NASIONAL KRTMI 2024</span>
+              <ShinyText
+                text="JUARA 1 WILAYAH I & JUARA 2 NASIONAL KRTMI 2024"
+                speed={3.5}
+                className="text-xs sm:text-sm font-mono font-bold"
+              />
             </span>
           </div>
         </div>

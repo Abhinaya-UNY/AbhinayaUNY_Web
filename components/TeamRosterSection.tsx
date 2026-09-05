@@ -65,6 +65,7 @@ import {
   getGenerationArchive,
   getAllGenerations,
 } from '@/data/teamData';
+import { SpotlightCard, DecryptedText } from '@/components/animations';
 
 interface TeamRosterSectionProps {
   initialDivision?: string;
@@ -412,27 +413,6 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
   const [selectedAlumniYear, setSelectedAlumniYear] = useState<number>(2024);
   const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
   const [viewLayout, setViewLayout] = useState<'grid' | 'carousel'>('grid');
-  const [spotlightPos, setSpotlightPos] = useState<Record<string, { x: number; y: number; opacity: number }>>({});
-
-  const handleCardMouseMove = (id: string, e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    setSpotlightPos((prev) => ({
-      ...prev,
-      [id]: {
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top,
-        opacity: 1,
-      },
-    }));
-  };
-
-  const handleCardMouseLeave = (id: string) => {
-    setSpotlightPos((prev) => ({
-      ...prev,
-      [id]: { x: 0, y: 0, opacity: 0 },
-    }));
-  };
-
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   // Close modal on ESC key press
@@ -523,11 +503,11 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         : 0;
 
     return (
-      <div
+      <SpotlightCard
         key={`${member.id}-${member.generationYear || 'roster'}`}
         onClick={() => setSelectedMember(member)}
-        onMouseMove={(e) => handleCardMouseMove(member.id, e)}
-        onMouseLeave={() => handleCardMouseLeave(member.id)}
+        spotlightColor="rgba(255, 107, 0, 0.16)"
+        spotlightSize={360}
         className={`group cursor-pointer relative rounded-3xl bg-[#120D08] border ${
           customTheme?.border
             ? customTheme.border
@@ -542,38 +522,32 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           layoutMode === 'grid' ? 'w-full' : 'w-[285px] sm:w-[320px] md:w-[335px] flex-shrink-0 snap-start'
         }`}
       >
-        {/* React Bits Spotlight Follow Glow */}
-        {spotlightPos[member.id]?.opacity ? (
+        <div className="w-full h-full flex flex-col justify-between">
+          {/* Top Accent Line */}
           <div
-            className="pointer-events-none absolute -inset-px rounded-3xl transition-opacity duration-300 z-30"
-            style={{
-              opacity: spotlightPos[member.id].opacity,
-              background: `radial-gradient(360px circle at ${spotlightPos[member.id].x}px ${spotlightPos[member.id].y}px, rgba(255, 107, 0, 0.16), transparent 70%)`,
-            }}
+            className="absolute top-0 left-0 right-0 h-1.5 opacity-80 group-hover:opacity-100 transition z-20"
+            style={{ backgroundColor: accentColor }}
           />
-        ) : null}
 
-        {/* Top Accent Line */}
-        <div
-          className="absolute top-0 left-0 right-0 h-1.5 opacity-80 group-hover:opacity-100 transition z-20"
-          style={{ backgroundColor: accentColor }}
-        />
-
-        {/* 1. Card Top Header Bar: Clean Division & Era Badges + Multi-Photo Counter (100% Unblocked from Headshot) */}
-        <div className="px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between gap-2 z-10">
-          <div className="flex items-center gap-1.5 flex-wrap">
-            <span
-              className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-wider border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
-            >
-              {isLeader ? (
-                <Crown className="w-3 h-3 text-amber-400 animate-pulse" />
-              ) : isManager ? (
-                <Briefcase className="w-3 h-3 text-emerald-400" />
-              ) : (
-                getDivisionIcon(member.division, 'w-3 h-3')
-              )}
-              <span>{member.division}</span>
-            </span>
+          {/* 1. Card Top Header Bar: Clean Division & Era Badges + Multi-Photo Counter (100% Unblocked from Headshot) */}
+          <div className="px-3.5 py-2.5 bg-[#180F09] border-b border-[#2A180E] flex items-center justify-between gap-2 z-10">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span
+                className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-wider border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}
+              >
+                {isLeader ? (
+                  <Crown className="w-3 h-3 text-amber-400 animate-pulse" />
+                ) : isManager ? (
+                  <Briefcase className="w-3 h-3 text-emerald-400" />
+                ) : (
+                  getDivisionIcon(member.division, 'w-3 h-3')
+                )}
+                <DecryptedText
+                  text={member.division}
+                  animateOn="hover"
+                  className="font-black uppercase tracking-wider"
+                />
+              </span>
 
             {member.generationYear && (
               <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded-md bg-[#0D0804] text-amber-300 text-[10px] font-mono font-bold border border-brand-orange/20">
@@ -691,6 +665,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           </div>
         </div>
       </div>
+    </SpotlightCard>
     );
   };
 

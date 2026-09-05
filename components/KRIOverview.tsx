@@ -17,6 +17,7 @@ import {
   Target,
   Zap,
 } from 'lucide-react';
+import { SpotlightCard, DecryptedText } from '@/components/animations';
 
 export const KRIOverview: React.FC = () => {
   const krtmiPillars = [
@@ -136,16 +137,20 @@ export const KRIOverview: React.FC = () => {
           {/* 4 Pilar Keunggulan KRTMI */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {krtmiPillars.map((p, i) => (
-              <div
+              <SpotlightCard
                 key={i}
+                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightSize={250}
                 className="p-4 sm:p-5 rounded-2xl bg-[#170E08] border border-brand-orange/30 hover:border-brand-orange transition space-y-2.5 shadow-md group"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#24160C] flex items-center justify-center border border-brand-orange/30 group-hover:scale-110 transition">
-                  {p.icon}
+                <div className="space-y-2.5">
+                  <div className="w-10 h-10 rounded-xl bg-[#24160C] flex items-center justify-center border border-brand-orange/30 group-hover:scale-110 transition">
+                    {p.icon}
+                  </div>
+                  <h4 className="text-sm font-black text-white">{p.title}</h4>
+                  <p className="text-xs text-slate-300 leading-relaxed">{p.desc}</p>
                 </div>
-                <h4 className="text-sm font-black text-white">{p.title}</h4>
-                <p className="text-xs text-slate-300 leading-relaxed">{p.desc}</p>
-              </div>
+              </SpotlightCard>
             ))}
           </div>
 
@@ -186,33 +191,41 @@ export const KRIOverview: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {otherDivisions.map((div) => (
-              <div
+              <SpotlightCard
                 key={div.code}
+                spotlightColor="rgba(255, 107, 0, 0.16)"
+                spotlightSize={280}
                 className={`p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight
                     ? 'bg-gradient-to-b from-[#241508] to-[#140D07] border-brand-orange shadow-[0_0_25px_rgba(255,107,0,0.2)] ring-1 ring-brand-orange'
                     : 'bg-[#120D08] border-[#2B1B10] hover:border-slate-700'
                 }`}
               >
-                <div className="flex items-center justify-between">
-                  <span
-                    className={`text-xs font-black font-mono px-3 py-1 rounded-xl ${
-                      div.isHighlight ? 'bg-brand-orange text-black' : 'bg-[#22160E] text-amber-200 border border-[#3A2214]'
-                    }`}
-                  >
-                    {div.code}
-                  </span>
-                  {div.isHighlight && (
-                    <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider flex items-center space-x-1">
-                      <Flame className="w-3.5 h-3.5 text-brand-orange fill-brand-orange" />
-                      <span>Fokus Tim Abhinaya</span>
+                <div className="space-y-2.5">
+                  <div className="flex items-center justify-between">
+                    <span
+                      className={`text-xs font-black font-mono px-3 py-1 rounded-xl ${
+                        div.isHighlight ? 'bg-brand-orange text-black' : 'bg-[#22160E] text-amber-200 border border-[#3A2214]'
+                      }`}
+                    >
+                      <DecryptedText
+                        text={div.code}
+                        animateOn="hover"
+                        className={div.isHighlight ? 'text-black font-mono font-black' : 'text-amber-200 font-mono font-black'}
+                      />
                     </span>
-                  )}
-                </div>
+                    {div.isHighlight && (
+                      <span className="text-[10px] font-black uppercase text-brand-orange tracking-wider flex items-center space-x-1">
+                        <Flame className="w-3.5 h-3.5 text-brand-orange fill-brand-orange" />
+                        <span>Fokus Tim Abhinaya</span>
+                      </span>
+                    )}
+                  </div>
 
-                <h5 className="text-sm font-black text-white">{div.name}</h5>
-                <p className="text-xs text-slate-300 leading-relaxed">{div.desc}</p>
-              </div>
+                  <h5 className="text-sm font-black text-white">{div.name}</h5>
+                  <p className="text-xs text-slate-300 leading-relaxed">{div.desc}</p>
+                </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>
