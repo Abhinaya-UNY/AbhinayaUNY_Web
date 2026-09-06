@@ -9,7 +9,7 @@ export interface TiltedCardProps extends React.HTMLAttributes<HTMLElement> {
   scale?: number;        // Scale on hover (default: 1.015)
   perspective?: number;  // Perspective depth in px (default: 1000)
   glare?: boolean;       // Enable subtle cursor-following glare (default: true)
-  glareColor?: string;   // Glare gradient color (default: 'rgba(16, 185, 129, 0.12)')
+  glareColor?: string;   // Glare gradient color (default: 'rgba(255, 107, 0, 0.14)')
   as?: React.ElementType; // Render element tag (default: 'div')
 }
 
@@ -20,7 +20,7 @@ export const TiltedCard = forwardRef<HTMLElement, TiltedCardProps>(({
   scale = 1.015,
   perspective = 1000,
   glare = true,
-  glareColor = 'rgba(16, 185, 129, 0.12)',
+  glareColor = 'rgba(255, 107, 0, 0.14)',
   as: Component = 'div',
   style,
   onMouseMove,

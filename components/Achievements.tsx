@@ -70,20 +70,22 @@ export const Achievements: React.FC = () => {
     <section id="prestasi" className="py-12 sm:py-16 md:py-20 border-b border-white/[0.06] relative bg-[#0B0B0E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         
-        {/* Header */}
-        <div className="text-center space-y-3 max-w-4xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
-            <Trophy className="w-3.5 h-3.5 text-amber-400" />
-            <span>REKAM JEJAK KEJUARAAN RESMI</span>
+        {/* Header (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+              <Trophy className="w-3.5 h-3.5 text-amber-400" />
+              <span>REKAM JEJAK KEJUARAAN RESMI</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
+              <ShinyText
+                text="Kabinet Prestasi & Jejak Podium Nasional"
+                speed={4}
+                className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
+              />
+            </h2>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
-            <ShinyText
-              text="Kabinet Prestasi & Jejak Podium Nasional"
-              speed={4}
-              className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
-            />
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-2xl mx-auto">
+          <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
             Bukti nyata konsistensi riset dan dedikasi rekayasa teknologi mahasiswa UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP.
           </p>
         </div>
@@ -93,7 +95,7 @@ export const Achievements: React.FC = () => {
           {awards.map((item, idx) => (
             <SpotlightCard
               key={idx}
-              spotlightColor={item.highlight ? 'rgba(16, 185, 129, 0.16)' : 'rgba(16, 185, 129, 0.10)'}
+              spotlightColor={item.highlight ? 'rgba(255, 107, 0, 0.20)' : 'rgba(245, 158, 11, 0.12)'}
               spotlightSize={320}
               className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight

@@ -84,16 +84,18 @@ export const KRIOverview: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
         
-        {/* Section Header */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
-            <Compass className="w-3.5 h-3.5 text-orange-400" />
-            <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
+        {/* Section Header (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+              <Compass className="w-3.5 h-3.5 text-orange-400" />
+              <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+              Mengenal Kontes Robot Indonesia &amp; KRTMI
+            </h2>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-            Mengenal Kontes Robot Indonesia (KRI) &amp; Divisi KRTMI
-          </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
+          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
             Kontes Robot Indonesia (KRI) adalah ajang kompetisi rekayasa robotika mahasiswa paling bergengsi tingkat nasional yang diselenggarakan oleh <strong className="text-slate-200">Balai Pengembangan Talenta Indonesia (BPTI) / Puspresnas Kemendikbudristek RI</strong>.
           </p>
         </div>
@@ -134,7 +136,7 @@ export const KRIOverview: React.FC = () => {
             {krtmiPillars.map((p, i) => (
               <SpotlightCard
                 key={i}
-                spotlightColor="rgba(16, 185, 129, 0.12)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={250}
                 className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/30 transition space-y-2.5 group"
               >
@@ -188,7 +190,7 @@ export const KRIOverview: React.FC = () => {
             {otherDivisions.map((div) => (
               <SpotlightCard
                 key={div.code}
-                spotlightColor="rgba(16, 185, 129, 0.12)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={280}
                 className={`p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight

@@ -78,7 +78,7 @@ export const Preloader: React.FC = () => {
         <div className="w-full space-y-2">
           <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden border border-white/10">
             <div
-              className="h-full bg-gradient-to-r from-orange-500 via-teal-400 to-orange-300 rounded-full transition-all duration-100 ease-out shadow-orange-glow-sm"
+              className="h-full bg-gradient-to-r from-orange-500 via-amber-400 to-orange-300 rounded-full transition-all duration-100 ease-out shadow-orange-glow-sm"
               style={{ width: `${progress}%` }}
             />
           </div>

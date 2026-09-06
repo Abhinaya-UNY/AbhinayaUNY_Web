@@ -179,16 +179,18 @@ export const YouTubeVideoShowcase: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
-        {/* Section Header */}
-        <div className="text-center space-y-3 max-w-4xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
-            <FaYoutube className="w-3.5 h-3.5 text-red-500" />
-            <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
+        {/* Section Header (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
+              <FaYoutube className="w-3.5 h-3.5 text-red-500" />
+              <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+              Mengenal Abhinaya UNY Lewat Video Resmi
+            </h2>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-            Mengenal Abhinaya UNY Lewat Video Resmi
-          </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-300 max-w-4xl mx-auto">
+          <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
             Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi di bawah naungan UKM Rekayasa Teknologi (Restek) UNY, dan teknologi robot otonom kami.
           </p>
         </div>

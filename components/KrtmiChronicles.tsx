@@ -338,7 +338,7 @@ export const KrtmiChronicles: React.FC = () => {
                       <text x="18" y="230" textAnchor="middle" fill="#71717A" fontSize="10" fontFamily="monospace" transform="rotate(-90 18 230)">LEBAR: 4000 mm (4.0 M)</text>
 
                       {/* Autonomous Guidance Line Tape (Center & Trajectories) */}
-                      <path d="M 100 350 L 100 240 L 400 240 L 400 130" fill="none" stroke="rgba(16,185,129,0.3)" strokeWidth="2.5" strokeDasharray="5,4" />
+                      <path d="M 100 350 L 100 240 L 400 240 L 400 130" fill="none" stroke="rgba(249,115,22,0.3)" strokeWidth="2.5" strokeDasharray="5,4" />
                       <path d="M 700 350 L 700 240 L 400 240" fill="none" stroke="rgba(6,182,212,0.3)" strokeWidth="2.5" strokeDasharray="5,4" />
 
                       {/* Start Box Merah (Red / Left) */}
@@ -363,10 +363,10 @@ export const KrtmiChronicles: React.FC = () => {
 
                       {/* Zona Pengambilan Objek / Sampah (Center Field Sorting Station) */}
                       <g>
-                        <rect x="270" y="150" width="260" height="85" rx="8" fill="rgba(16,185,129,0.08)" stroke="#10B981" strokeWidth="2" strokeDasharray="4,2" />
-                        <text x="400" y="180" textAnchor="middle" fill="#6EE7B7" fontSize="11" fontWeight="bold" fontFamily="monospace">ZONA PENGAMBILAN OBJEK TEMATIK</text>
+                        <rect x="270" y="150" width="260" height="85" rx="8" fill="rgba(249,115,22,0.08)" stroke="#F97316" strokeWidth="2" strokeDasharray="4,2" />
+                        <text x="400" y="180" textAnchor="middle" fill="#FED7AA" fontSize="11" fontWeight="bold" fontFamily="monospace">ZONA PENGAMBILAN OBJEK TEMATIK</text>
                         {/* Object Markers inside Retrieval Zone */}
-                        <circle cx="320" cy="205" r="10" fill="#10B981" />
+                        <circle cx="320" cy="205" r="10" fill="#F97316" />
                         <text x="320" y="209" textAnchor="middle" fill="#000" fontSize="9" fontWeight="bold">1</text>
                         <circle cx="360" cy="205" r="10" fill="#F59E0B" />
                         <text x="360" y="209" textAnchor="middle" fill="#000" fontSize="9" fontWeight="bold">2</text>
@@ -381,9 +381,9 @@ export const KrtmiChronicles: React.FC = () => {
                       {/* Drop Silo / Keranjang Berjalan / Zona Sortir (Top Field) */}
                       <g>
                         {/* Silo 1 */}
-                        <rect x="180" y="55" width="120" height="65" rx="6" fill="rgba(16,185,129,0.15)" stroke="#10B981" strokeWidth="1.5" />
-                        <text x="240" y="85" textAnchor="middle" fill="#A7F3D0" fontSize="10" fontWeight="bold" fontFamily="monospace">DROP SILO A</text>
-                        <text x="240" y="102" textAnchor="middle" fill="#059669" fontSize="8" fontFamily="monospace">ORGANIK (+50)</text>
+                        <rect x="180" y="55" width="120" height="65" rx="6" fill="rgba(249,115,22,0.15)" stroke="#F97316" strokeWidth="1.5" />
+                        <text x="240" y="85" textAnchor="middle" fill="#FED7AA" fontSize="10" fontWeight="bold" fontFamily="monospace">DROP SILO A</text>
+                        <text x="240" y="102" textAnchor="middle" fill="#EA580C" fontSize="8" fontFamily="monospace">ORGANIK (+50)</text>
 
                         {/* Silo 2 */}
                         <rect x="340" y="55" width="120" height="65" rx="6" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" strokeWidth="1.5" />

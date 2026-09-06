@@ -21,16 +21,18 @@ export const DocumentationGallerySection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
-        {/* Header Title */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-white/[0.06] pb-6 sm:pb-8">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
-            <Camera className="w-3.5 h-3.5 text-orange-400" />
-            <span>DOKUMENTASI &amp; GALERI TIM</span>
+        {/* Header Title (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6 sm:pb-8">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+              <Camera className="w-3.5 h-3.5 text-orange-400" />
+              <span>DOKUMENTASI &amp; GALERI TIM</span>
+            </div>
+            <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
+              Galeri Jejak Riset &amp; Perjuangan Abhinaya
+            </h2>
           </div>
-          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
-            Galeri Jejak Riset &amp; Perjuangan Abhinaya
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-400">
+          <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
             Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika UKM Rekayasa Teknologi UNY.
           </p>
         </div>

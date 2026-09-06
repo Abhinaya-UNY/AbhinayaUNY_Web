@@ -214,7 +214,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                         key={idx}
                         className={`h-1.5 rounded-full transition-all duration-300 ${
                           idx === activeIdx
-                            ? 'w-5 bg-orange-400 shadow-[0_0_8px_rgba(16,185,129,0.8)]'
+                            ? 'w-5 bg-orange-400 shadow-[0_0_8px_rgba(255,107,0,0.8)]'
                             : 'w-1.5 bg-white/20'
                         }`}
                       />

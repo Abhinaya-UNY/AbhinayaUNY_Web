@@ -500,7 +500,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
       >
         <SpotlightCard
           onClick={() => setSelectedMember(member)}
-          spotlightColor="rgba(16, 185, 129, 0.15)"
+          spotlightColor="rgba(255, 107, 0, 0.15)"
           spotlightSize={320}
           className={`group cursor-pointer relative rounded-2xl bg-[#121216] hover:bg-[#18181B] border ${
             customTheme?.border

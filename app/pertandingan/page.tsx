@@ -295,7 +295,7 @@ export default function PertandinganPage() {
           {/* Match Tech Telemetry Specs */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 pt-2">
             <SpotlightCard
-              spotlightColor="rgba(16, 185, 129, 0.14)"
+              spotlightColor="rgba(255, 107, 0, 0.15)"
               spotlightSize={200}
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
@@ -307,7 +307,7 @@ export default function PertandinganPage() {
             </SpotlightCard>
 
             <SpotlightCard
-              spotlightColor="rgba(16, 185, 129, 0.14)"
+              spotlightColor="rgba(255, 107, 0, 0.15)"
               spotlightSize={200}
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
@@ -319,7 +319,7 @@ export default function PertandinganPage() {
             </SpotlightCard>
 
             <SpotlightCard
-              spotlightColor="rgba(16, 185, 129, 0.14)"
+              spotlightColor="rgba(255, 107, 0, 0.15)"
               spotlightSize={200}
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
@@ -331,7 +331,7 @@ export default function PertandinganPage() {
             </SpotlightCard>
 
             <SpotlightCard
-              spotlightColor="rgba(16, 185, 129, 0.14)"
+              spotlightColor="rgba(255, 107, 0, 0.15)"
               spotlightSize={200}
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >

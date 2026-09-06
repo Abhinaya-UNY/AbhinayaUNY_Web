@@ -15,16 +15,18 @@ export const NewsMediaSection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
-        {/* Section Header with Full Width on Laptop */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
-            <Newspaper className="w-3.5 h-3.5 text-orange-400" />
-            <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
+        {/* Section Header (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+              <Newspaper className="w-3.5 h-3.5 text-orange-400" />
+              <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+              Liputan Berita Resmi &amp; Publikasi Media Nasional
+            </h2>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-            Liputan Berita Resmi &amp; Publikasi Media Nasional
-          </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
+          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
             Kumpulan siaran pers resmi Universitas Negeri Yogyakarta (UNY), liputan video televisi nasional ANTARA News, dan publikasi Puspresnas Kemendikbudristek atas torehan prestasi kontingen robotika Abhinaya UNY.
           </p>
         </div>
@@ -44,7 +46,7 @@ export const NewsMediaSection: React.FC = () => {
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                spotlightColor="rgba(16, 185, 129, 0.12)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={350}
                 className={`group rounded-2xl bg-[#121216] border ${
                   isFirst

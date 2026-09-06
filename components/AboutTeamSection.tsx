@@ -14,17 +14,19 @@ export const AboutTeamSection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
-        {/* Section Header */}
-        <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
-            <Users className="w-3.5 h-3.5 text-orange-400" />
-            <span>TENTANG ABHINAYA UNY</span>
+        {/* Section Header (Editorial Split Layout) */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+              <Users className="w-3.5 h-3.5 text-orange-400" />
+              <span>TENTANG ABHINAYA UNY</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+              Mengenal Tim Robotika Abhinaya UNY
+            </h2>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-            Mengenal Tim Robotika Abhinaya UNY
-          </h2>
-          <p className="text-xs sm:text-sm md:text-base text-slate-400 max-w-4xl mx-auto">
-            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
+          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
+            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) UNY</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
           </p>
         </div>
 
@@ -92,7 +94,7 @@ export const AboutTeamSection: React.FC = () => {
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
               <SpotlightCard
-                spotlightColor="rgba(16, 185, 129, 0.14)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={200}
                 className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
@@ -102,7 +104,7 @@ export const AboutTeamSection: React.FC = () => {
                 <div className="text-[11px] text-slate-500">Riset KRTMI Sejak 2019</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(16, 185, 129, 0.14)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={200}
                 className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
@@ -112,7 +114,7 @@ export const AboutTeamSection: React.FC = () => {
                 <div className="text-[11px] text-slate-500">Teknologi Kamera AI</div>
               </SpotlightCard>
               <SpotlightCard
-                spotlightColor="rgba(16, 185, 129, 0.14)"
+                spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={200}
                 className="p-3 rounded-xl bg-[#121216] border border-white/[0.08] text-xs space-y-0.5"
               >
