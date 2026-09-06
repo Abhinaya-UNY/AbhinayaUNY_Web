@@ -61,7 +61,7 @@ export const SocialMediaHub: React.FC = () => {
             className="p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
           >
             <div className="flex items-center justify-between">
-              <div className="w-12 h-12 rounded-xl bg-white/5 text-emerald-400 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
+              <div className="w-12 h-12 rounded-xl bg-white/5 text-orange-400 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
                 <FaTiktok className="w-5 h-5" />
               </div>
               <span className="px-2.5 py-0.5 rounded-full bg-white/5 text-slate-300 text-[11px] font-mono border border-white/10">
@@ -69,14 +69,14 @@ export const SocialMediaHub: React.FC = () => {
               </span>
             </div>
             <div className="space-y-1">
-              <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition">
+              <h3 className="text-xl font-bold text-white group-hover:text-orange-400 transition">
                 @abhinaya.uny
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed">
                 Video pendek seru, uji coba gerakan robot, trik mekanik &amp; koding, serta keseruan anak-anak robotika di lab.
               </p>
             </div>
-            <div className="pt-2 flex items-center space-x-2 text-xs font-bold text-slate-300 group-hover:text-emerald-400 transition">
+            <div className="pt-2 flex items-center space-x-2 text-xs font-bold text-slate-300 group-hover:text-orange-400 transition">
               <span>Tonton di TikTok</span>
               <ArrowRight className="w-4 h-4" />
             </div>

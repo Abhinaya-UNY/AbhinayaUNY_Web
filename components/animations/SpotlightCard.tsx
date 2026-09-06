@@ -5,10 +5,10 @@ import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 export interface SpotlightCardProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
   className?: string;
-  spotlightColor?: string;         // Radial glow color (default: 'rgba(16, 185, 129, 0.12)')
+  spotlightColor?: string;         // Radial glow color (default: 'rgba(255, 107, 0, 0.14)')
   spotlightSize?: number;          // Radius in px (default: 350)
   borderColor?: string;            // Inactive border (default: 'rgba(255, 255, 255, 0.06)')
-  hoverBorderColor?: string;       // Hover border (default: 'rgba(16, 185, 129, 0.3)')
+  hoverBorderColor?: string;       // Hover border (default: 'rgba(255, 107, 0, 0.35)')
   as?: React.ElementType;          // Render as div, a, article, etc. (default: 'div')
   href?: string;
   target?: string;
@@ -18,10 +18,10 @@ export interface SpotlightCardProps extends React.HTMLAttributes<HTMLElement> {
 export const SpotlightCard = forwardRef<HTMLElement, SpotlightCardProps>(({
   children,
   className = '',
-  spotlightColor = 'rgba(16, 185, 129, 0.12)',
+  spotlightColor = 'rgba(255, 107, 0, 0.14)',
   spotlightSize = 350,
   borderColor = 'rgba(255, 255, 255, 0.06)',
-  hoverBorderColor = 'rgba(16, 185, 129, 0.3)',
+  hoverBorderColor = 'rgba(255, 107, 0, 0.35)',
   as: Component = 'div',
   style,
   onMouseMove,

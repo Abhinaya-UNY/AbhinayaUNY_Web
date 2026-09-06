@@ -37,27 +37,27 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <Link href="/" className="hover:text-emerald-400 transition">
+                <Link href="/" className="hover:text-orange-400 transition">
                   Beranda Tim
                 </Link>
               </li>
               <li>
-                <Link href="/pertandingan" className="hover:text-emerald-400 transition">
+                <Link href="/pertandingan" className="hover:text-orange-400 transition">
                   Laga &amp; Match Showcase
                 </Link>
               </li>
               <li>
-                <Link href="/krtmi" className="hover:text-emerald-400 transition">
+                <Link href="/krtmi" className="hover:text-orange-400 transition">
                   Cerita KRTMI (2019 – 2026)
                 </Link>
               </li>
               <li>
-                <Link href="/divisi" className="hover:text-emerald-400 transition">
+                <Link href="/divisi" className="hover:text-orange-400 transition">
                   Divisi &amp; Kultur Tim
                 </Link>
               </li>
               <li>
-                <Link href="/prestasi" className="hover:text-emerald-400 transition">
+                <Link href="/prestasi" className="hover:text-orange-400 transition">
                   Prestasi Kejuaraan
                 </Link>
               </li>

@@ -52,8 +52,8 @@ export const KrtmiChronicles: React.FC = () => {
     <section id="krtmi-story" className="py-12 sm:py-16 md:py-24 space-y-8 sm:space-y-12 bg-[#0B0B0E] border-t border-white/[0.06] relative overflow-hidden">
       {/* Section Header */}
       <div className="text-center space-y-3 max-w-4xl mx-auto px-4 relative z-10">
-        <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono uppercase tracking-wider border border-emerald-500/20">
-          <History className="w-3.5 h-3.5 text-emerald-400" />
+        <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono uppercase tracking-wider border border-orange-500/20">
+          <History className="w-3.5 h-3.5 text-orange-400" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
@@ -78,11 +78,11 @@ export const KrtmiChronicles: React.FC = () => {
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-mono transition-all duration-200 whitespace-nowrap flex items-center space-x-2 border flex-shrink-0 cursor-pointer ${
                   isSelected
-                    ? 'bg-emerald-500 text-black font-bold border-emerald-500 shadow-emerald-glow-sm'
+                    ? 'bg-orange-500 text-black font-bold border-orange-500 shadow-orange-glow-sm'
                     : 'bg-[#121216] border-white/[0.08] text-slate-400 hover:text-white hover:border-white/20'
                 }`}
               >
-                <span className={`w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-black' : 'bg-emerald-400'}`} />
+                <span className={`w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-black' : 'bg-orange-400'}`} />
                 <span>{story.year === '2026' ? 'Technocorner 2026' : `KRTMI ${story.year}`}</span>
                 {story.isChampion && <Trophy className={`w-3.5 h-3.5 ${isSelected ? 'text-black' : 'text-amber-400'}`} />}
               </button>
@@ -112,7 +112,7 @@ export const KrtmiChronicles: React.FC = () => {
                 />
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center bg-[#18181B] text-slate-300">
-                  <FileText className="w-12 h-12 text-emerald-400 mb-2" />
+                  <FileText className="w-12 h-12 text-orange-400 mb-2" />
                   <span className="text-xs font-bold">{activeStory.title}</span>
                 </div>
               )}
@@ -126,23 +126,23 @@ export const KrtmiChronicles: React.FC = () => {
 
               <div className="absolute bottom-2.5 inset-x-2.5 flex items-center justify-between text-white text-[10px]">
                 <span className="font-mono text-amber-300">Buku Panduan {activeStory.year}</span>
-                <Maximize2 className="w-3.5 h-3.5 text-white/80 group-hover:text-emerald-400 transition" />
+                <Maximize2 className="w-3.5 h-3.5 text-white/80 group-hover:text-orange-400 transition" />
               </div>
             </div>
 
             {/* Title, Badges, Tagline & Location */}
             <div className="flex-1 space-y-3.5 text-center md:text-left">
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
-                <span className="px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                <span className="px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase bg-orange-500/20 text-orange-400 border border-orange-500/30">
                   Edisi {activeStory.year}
                 </span>
                 <span className="px-3.5 py-1 rounded-full text-xs font-mono font-medium bg-white/5 text-slate-300 border border-white/10 flex items-center space-x-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                  <MapPin className="w-3.5 h-3.5 text-orange-400" />
                   <span>{activeStory.location}</span>
                 </span>
                 {activeStory.hostOrganizer && (
                   <span className="px-3 py-1 rounded-full text-[11px] font-mono font-medium bg-white/5 text-slate-300 border border-white/10 hidden lg:inline-flex items-center space-x-1">
-                    <Info className="w-3 h-3 text-emerald-400" />
+                    <Info className="w-3 h-3 text-orange-400" />
                     <span>{activeStory.hostOrganizer}</span>
                   </span>
                 )}
@@ -153,7 +153,7 @@ export const KrtmiChronicles: React.FC = () => {
               </h3>
               
               {activeStory.tagline && (
-                <p className="text-sm sm:text-base font-bold text-emerald-400">
+                <p className="text-sm sm:text-base font-bold text-orange-400">
                   {activeStory.tagline}
                 </p>
               )}
@@ -179,7 +179,7 @@ export const KrtmiChronicles: React.FC = () => {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <div className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1 text-center">
               <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 flex items-center justify-center space-x-1">
-                <Clock className="w-3 h-3 text-emerald-400" />
+                <Clock className="w-3 h-3 text-orange-400" />
                 <span>Durasi Match</span>
               </span>
               <span className="text-xs sm:text-sm font-mono font-bold text-white block">
@@ -208,11 +208,11 @@ export const KrtmiChronicles: React.FC = () => {
                 <Award className="w-3 h-3 text-amber-400" />
                 <span>Kondisi Menang</span>
               </span>
-              <span className="text-xs sm:text-sm font-mono font-bold text-emerald-400 block truncate" title={activeStory.matchProcedure?.victoryCondition}>
+              <span className="text-xs sm:text-sm font-mono font-bold text-orange-400 block truncate" title={activeStory.matchProcedure?.victoryCondition}>
                 <DecryptedText
                   text={activeStory.year === '2024' ? '”BERSIH” Mutlak' : activeStory.year === '2023' ? '”DONE” / ”DAM”' : activeStory.year === '2026' ? 'FINISH & Poin' : 'Poin Tertinggi'}
                   animateOn="hover"
-                  className="text-emerald-400"
+                  className="text-orange-400"
                 />
               </span>
             </div>
@@ -243,7 +243,7 @@ export const KrtmiChronicles: React.FC = () => {
                   onClick={() => setActiveSubTab(tab.id)}
                   className={`px-4 py-2 rounded-xl text-xs font-mono transition-all duration-200 whitespace-nowrap flex items-center space-x-2 cursor-pointer ${
                     isTabActive
-                      ? 'bg-emerald-500 text-black font-bold shadow-emerald-glow-sm'
+                      ? 'bg-orange-500 text-black font-bold shadow-orange-glow-sm'
                       : 'bg-white/[0.03] text-slate-400 hover:text-white hover:bg-white/5 border border-white/[0.08]'
                   }`}
                 >
@@ -259,7 +259,7 @@ export const KrtmiChronicles: React.FC = () => {
             <div className="space-y-6 text-slate-300 text-xs sm:text-sm leading-relaxed">
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] space-y-2">
                 <h4 className="text-sm font-black text-white flex items-center space-x-2">
-                  <Sparkles className="w-4 h-4 text-emerald-400" />
+                  <Sparkles className="w-4 h-4 text-orange-400" />
                   <span>Ikhtisar Tema &amp; Latar Belakang Riset</span>
                 </h4>
                 <p>{activeStory.storySummary}</p>
@@ -270,7 +270,7 @@ export const KrtmiChronicles: React.FC = () => {
                 <ul className="space-y-2">
                   {activeStory.missionRules.map((rule, idx) => (
                     <li key={idx} className="flex items-start space-x-2.5">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />
                       <span>{rule}</span>
                     </li>
                   ))}
@@ -297,12 +297,12 @@ export const KrtmiChronicles: React.FC = () => {
               <div className="rounded-2xl bg-[#0B0B0E] border border-white/[0.08] p-4 sm:p-6 space-y-4 overflow-hidden shadow-xl">
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-white/[0.06] pb-3">
                   <div className="flex items-center space-x-2">
-                    <Compass className="w-4 h-4 text-emerald-400" />
+                    <Compass className="w-4 h-4 text-orange-400" />
                     <span className="text-xs font-mono font-bold uppercase text-white tracking-wider">
                       DIAGRAM SKEMATIK ARENA RESMI {activeStory.title.toUpperCase()}
                     </span>
                   </div>
-                  <span className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <span className="text-[11px] font-mono text-orange-400 bg-orange-500/10 px-2.5 py-0.5 rounded-full border border-orange-500/20">
                     Skala Standar Lapangan BPTI / KRI
                   </span>
                 </div>
@@ -414,7 +414,7 @@ export const KrtmiChronicles: React.FC = () => {
                     <span className="text-slate-300">Start Box (Merah/Biru)</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <span className="w-3 h-3 rounded bg-emerald-500/30 border border-emerald-500 flex-shrink-0" />
+                    <span className="w-3 h-3 rounded bg-orange-500/30 border border-orange-500 flex-shrink-0" />
                     <span className="text-slate-300">Zona Ambil Objek</span>
                   </div>
                   <div className="flex items-center space-x-2">
@@ -431,15 +431,15 @@ export const KrtmiChronicles: React.FC = () => {
               {/* Technical Specifications Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1.5">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Dimensi Arena</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Dimensi Arena</span>
                   <p className="text-white font-bold">{activeStory.arenaSpecs.dimensions}</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1.5">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Permukaan Lapangan</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Permukaan Lapangan</span>
                   <p className="text-white">{activeStory.arenaSpecs.surface}</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1.5">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Zona Penting</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Zona Penting</span>
                   <p className="text-slate-300">{activeStory.arenaSpecs.zones}</p>
                 </div>
                 {activeStory.arenaSpecs.obstacles && (
@@ -463,11 +463,11 @@ export const KrtmiChronicles: React.FC = () => {
             <div className="space-y-4 text-xs sm:text-sm">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Jumlah Robot per Tim</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Jumlah Robot per Tim</span>
                   <p className="text-white font-bold">{activeStory.robotSpecs.robotCount || '1 Robot Utama'}</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Batasan Dimensi Start</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Batasan Dimensi Start</span>
                   <p className="text-white font-mono">{activeStory.robotSpecs.dimensions}</p>
                 </div>
                 {activeStory.robotSpecs.expandedDimensions && (
@@ -477,7 +477,7 @@ export const KrtmiChronicles: React.FC = () => {
                   </div>
                 )}
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1">
-                  <span className="text-[10px] font-mono uppercase text-emerald-400 tracking-wider">Batasan Berat Robot</span>
+                  <span className="text-[10px] font-mono uppercase text-orange-400 tracking-wider">Batasan Berat Robot</span>
                   <p className="text-white font-mono">{activeStory.robotSpecs.weight}</p>
                 </div>
               </div>
@@ -490,13 +490,13 @@ export const KrtmiChronicles: React.FC = () => {
               {activeStory.gameObjects && (
                 <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] space-y-3">
                   <h4 className="text-sm font-bold text-white flex items-center space-x-2">
-                    <Box className="w-4 h-4 text-emerald-400" />
+                    <Box className="w-4 h-4 text-orange-400" />
                     <span>Objek Target Perlombaan:</span>
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {activeStory.gameObjects.types.map((obj, idx) => (
                       <div key={idx} className="p-2.5 rounded-xl bg-white/[0.03] text-slate-200 border border-white/[0.08] flex items-center space-x-2">
-                        <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                        <span className="w-2 h-2 rounded-full bg-orange-400" />
                         <span>{obj}</span>
                       </div>
                     ))}
@@ -526,7 +526,7 @@ export const KrtmiChronicles: React.FC = () => {
                     </div>
                     <div className="p-3 rounded-xl bg-white/[0.03] border border-white/[0.08] space-y-1">
                       <span className="text-[10px] text-slate-400 uppercase block font-mono">Kondisi Kemenangan</span>
-                      <span className="text-emerald-400 font-bold text-xs">{activeStory.matchProcedure.victoryCondition}</span>
+                      <span className="text-orange-400 font-bold text-xs">{activeStory.matchProcedure.victoryCondition}</span>
                     </div>
                   </div>
                 </div>
@@ -539,13 +539,13 @@ export const KrtmiChronicles: React.FC = () => {
             <div className="space-y-4 text-xs sm:text-sm">
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] space-y-3">
                 <h4 className="text-sm font-bold text-white flex items-center space-x-2">
-                  <Award className="w-4 h-4 text-emerald-400" />
+                  <Award className="w-4 h-4 text-orange-400" />
                   <span>Rincian Perhitungan Skor Resmi:</span>
                 </h4>
                 <div className="space-y-2">
                   {activeStory.scoringSystem.map((score, idx) => (
                     <div key={idx} className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.08] flex items-start space-x-3 text-slate-300">
-                      <Award className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                      <Award className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />
                       <span className="leading-relaxed">{score}</span>
                     </div>
                   ))}
@@ -579,7 +579,7 @@ export const KrtmiChronicles: React.FC = () => {
           {/* Bottom PDF Download Bar */}
           <div className="pt-6 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center space-x-3 text-left">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center border border-orange-500/20 flex-shrink-0">
                 <FileText className="w-5 h-5" />
               </div>
               <div>
@@ -593,7 +593,7 @@ export const KrtmiChronicles: React.FC = () => {
               download={activeStory.pdfFile}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-2 shadow-emerald-glow-sm transition"
+              className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-orange-500 hover:bg-orange-400 text-black font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-2 shadow-orange-glow-sm transition"
             >
               <Download className="w-4 h-4 text-black" />
               <span>Unduh Buku Panduan PDF</span>
@@ -615,14 +615,14 @@ export const KrtmiChronicles: React.FC = () => {
           >
             <button
               onClick={() => setPreviewCover(null)}
-              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-black transition"
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/80 text-white flex items-center justify-center hover:bg-orange-500 hover:text-black transition"
             >
               <X className="w-5 h-5" />
             </button>
             <img
               src={`${basePath}${previewCover}`}
               alt="Buku Panduan Cover Preview"
-              className="max-h-[75vh] w-auto object-contain rounded-2xl border border-emerald-500/30 shadow-2xl"
+              className="max-h-[75vh] w-auto object-contain rounded-2xl border border-orange-500/30 shadow-2xl"
             />
             <span className="text-xs font-mono font-bold text-amber-300">
               Dokumen Resmi Buku Pedoman {activeStory.title}

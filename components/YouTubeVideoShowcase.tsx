@@ -175,7 +175,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
     <section id="video-aksi" className="py-8 sm:py-10 md:py-12 bg-[#0B0B0E] relative border-b border-white/[0.06]">
       
       {/* Background glow ambiance */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[800px] h-[300px] bg-emerald-500/5 blur-[120px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[800px] h-[300px] bg-orange-500/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
@@ -200,7 +200,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
               onClick={() => handleTabChange('action')}
               className={`flex items-center space-x-2 px-4 sm:px-6 py-2 rounded-xl font-medium text-xs sm:text-sm tracking-wide transition-all duration-300 cursor-pointer ${
                 activeTab === 'action'
-                  ? 'bg-emerald-400 text-black font-bold shadow-lg scale-100'
+                  ? 'bg-orange-400 text-black font-bold shadow-lg scale-100'
                   : 'text-slate-400 hover:text-white hover:bg-white/5'
               }`}
             >
@@ -230,11 +230,11 @@ export const YouTubeVideoShowcase: React.FC = () => {
                   onClick={() => setSelectedVideoId(vid.id)}
                   className={`px-3.5 py-1.5 rounded-xl text-xs font-medium transition-all duration-300 flex items-center space-x-2 border whitespace-nowrap flex-shrink-0 cursor-pointer ${
                     isSelected
-                      ? 'bg-emerald-500/15 border-emerald-500/50 text-emerald-300 shadow-md scale-[1.02]'
+                      ? 'bg-orange-500/15 border-orange-500/50 text-orange-300 shadow-md scale-[1.02]'
                       : 'bg-white/5 border-white/10 text-slate-400 hover:text-slate-200 hover:border-white/20'
                   }`}
                 >
-                  <span className={`w-2 h-2 rounded-full ${isSelected ? 'bg-emerald-400 animate-pulse' : 'bg-slate-600'}`} />
+                  <span className={`w-2 h-2 rounded-full ${isSelected ? 'bg-orange-400 animate-pulse' : 'bg-slate-600'}`} />
                   <span>{vid.shortTitle || vid.title}</span>
                 </button>
               );
@@ -300,7 +300,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
                         onClick={() => setSelectedVideoId(shortVid.id)}
                         className={`group rounded-xl overflow-hidden bg-[#18181B] border transition-all duration-300 cursor-pointer flex flex-col justify-between ${
                           isSelected
-                            ? 'border-emerald-500 ring-1 ring-emerald-500/40 shadow-lg scale-[1.01]'
+                            ? 'border-orange-500 ring-1 ring-orange-500/40 shadow-lg scale-[1.01]'
                             : 'border-white/[0.08] hover:border-white/20 opacity-90 hover:opacity-100'
                         }`}
                       >
@@ -314,17 +314,17 @@ export const YouTubeVideoShowcase: React.FC = () => {
                           />
                           
                           {/* Centered Play Icon */}
-                          <div className="absolute inset-0 m-auto w-10 h-10 rounded-full bg-emerald-400/90 flex items-center justify-center text-black shadow-lg group-hover:scale-110 transition">
+                          <div className="absolute inset-0 m-auto w-10 h-10 rounded-full bg-orange-400/90 flex items-center justify-center text-black shadow-lg group-hover:scale-110 transition">
                             <Play className="w-4 h-4 fill-black ml-0.5" />
                           </div>
                         </div>
 
                         {/* Dedicated Caption Below Thumbnail */}
                         <div className="p-2.5 bg-[#18181B] border-t border-white/[0.06] space-y-1">
-                          <span className="text-[9px] font-mono font-bold text-emerald-400 block truncate">
+                          <span className="text-[9px] font-mono font-bold text-orange-400 block truncate">
                             {shortVid.stats}
                           </span>
-                          <p className="text-[11px] font-bold text-white line-clamp-2 leading-tight group-hover:text-emerald-400 transition">
+                          <p className="text-[11px] font-bold text-white line-clamp-2 leading-tight group-hover:text-orange-400 transition">
                             {shortVid.title}
                           </p>
                         </div>
@@ -336,7 +336,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
                 {/* Inline Player for Selected Short */}
                 <div className="p-4 rounded-xl bg-[#18181B] border border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="space-y-1 text-center sm:text-left">
-                    <span className="text-xs font-bold text-emerald-400 flex items-center justify-center sm:justify-start space-x-1.5 font-mono">
+                    <span className="text-xs font-bold text-orange-400 flex items-center justify-center sm:justify-start space-x-1.5 font-mono">
                       <Smartphone className="w-4 h-4" />
                       <span>{currentVideo.tag}</span>
                     </span>
@@ -346,7 +346,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
                   <div className="flex items-center space-x-2">
                     <button
                       onClick={() => handleOpenModal(currentVideo)}
-                      className="px-4 py-2 rounded-xl bg-emerald-400 hover:bg-emerald-300 text-black font-bold text-xs flex items-center space-x-2 shadow-md transition cursor-pointer"
+                      className="px-4 py-2 rounded-xl bg-orange-400 hover:bg-orange-300 text-black font-bold text-xs flex items-center space-x-2 shadow-md transition cursor-pointer"
                     >
                       <Play className="w-3.5 h-3.5 fill-black" />
                       <span>Putar Video Modal</span>

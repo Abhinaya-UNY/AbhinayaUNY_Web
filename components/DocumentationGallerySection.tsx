@@ -17,14 +17,14 @@ export const DocumentationGallerySection: React.FC = () => {
     <section id="dokumentasi-tim" className="py-8 sm:py-10 md:py-12 bg-[#0B0B0E] border-y border-white/[0.06] relative overflow-hidden">
       
       {/* Background Subtle Glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-emerald-500/5 blur-[140px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-orange-500/5 blur-[140px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto border-b border-white/[0.06] pb-6 sm:pb-8">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
-            <Camera className="w-3.5 h-3.5 text-emerald-400" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+            <Camera className="w-3.5 h-3.5 text-orange-400" />
             <span>DOKUMENTASI &amp; GALERI TIM</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
@@ -38,7 +38,7 @@ export const DocumentationGallerySection: React.FC = () => {
         {/* Filter Category Pills */}
         <div className="flex flex-wrap gap-2 items-center justify-center">
           <div className="flex items-center space-x-1 text-slate-400 text-xs font-bold mr-2">
-            <Filter className="w-3.5 h-3.5 text-emerald-400" />
+            <Filter className="w-3.5 h-3.5 text-orange-400" />
             <span>Kategori:</span>
           </div>
           {GALLERY_CATEGORIES.map((cat) => (
@@ -48,7 +48,7 @@ export const DocumentationGallerySection: React.FC = () => {
               onClick={() => setActiveCategory(cat)}
               className={`px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-bold transition duration-200 cursor-pointer ${
                 activeCategory === cat
-                  ? 'bg-emerald-400 text-black font-bold shadow-md'
+                  ? 'bg-orange-400 text-black font-bold shadow-md'
                   : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
               }`}
             >
@@ -63,7 +63,7 @@ export const DocumentationGallerySection: React.FC = () => {
             <div
               key={item.id}
               onClick={() => setSelectedPhoto(item)}
-              className="group cursor-pointer rounded-2xl overflow-hidden bg-[#121216] border border-white/[0.08] hover:border-emerald-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1 shadow-lg"
+              className="group cursor-pointer rounded-2xl overflow-hidden bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1 shadow-lg"
             >
               {/* 1. Pristine Photo Viewport (100% Unblocked, 4:3 Natural Ratio, Zero Badges Over Photo) */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-black">
@@ -82,12 +82,12 @@ export const DocumentationGallerySection: React.FC = () => {
                     <span className="px-2 py-0.5 rounded-md bg-white/5 text-slate-300 font-mono font-bold border border-white/10">
                       {item.category}
                     </span>
-                    <span className="px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20">
+                    <span className="px-2 py-0.5 rounded-md bg-orange-500/10 text-orange-400 font-mono font-bold border border-orange-500/20">
                       {item.year}
                     </span>
                   </div>
 
-                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-emerald-400 transition line-clamp-1">
+                  <h3 className="text-xs sm:text-sm font-bold text-white group-hover:text-orange-400 transition line-clamp-1">
                     {item.title}
                   </h3>
                   <p className="text-[11px] text-slate-400 line-clamp-2 leading-relaxed">
@@ -97,7 +97,7 @@ export const DocumentationGallerySection: React.FC = () => {
 
                 <div className="pt-2 flex items-center justify-between text-[10px] text-slate-400 font-semibold border-t border-white/[0.06]">
                   <span className="truncate max-w-[140px]">{item.event}</span>
-                  <span className="text-slate-300 group-hover:text-emerald-400 font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
+                  <span className="text-slate-300 group-hover:text-orange-400 font-bold group-hover:translate-x-0.5 transition flex items-center gap-0.5">
                     <span>Buka</span> &rarr;
                   </span>
                 </div>
@@ -121,7 +121,7 @@ export const DocumentationGallerySection: React.FC = () => {
             <button
               type="button"
               onClick={() => setSelectedPhoto(null)}
-              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-emerald-400 hover:text-black transition border border-white/20 cursor-pointer"
+              className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-orange-400 hover:text-black transition border border-white/20 cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -136,7 +136,7 @@ export const DocumentationGallerySection: React.FC = () => {
 
             <div className="space-y-2 pt-2">
               <div className="flex items-center space-x-2">
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono font-bold uppercase border border-emerald-500/30">
+                <span className="px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400 text-[10px] font-mono font-bold uppercase border border-orange-500/30">
                   {selectedPhoto.category}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">

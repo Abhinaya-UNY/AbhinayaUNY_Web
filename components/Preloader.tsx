@@ -52,7 +52,7 @@ export const Preloader: React.FC = () => {
       style={{ opacity }}
     >
       {/* Subtle ambient emerald glow */}
-      <div className="absolute w-72 h-72 bg-emerald-500/10 blur-[100px] pointer-events-none rounded-full" />
+      <div className="absolute w-72 h-72 bg-orange-500/10 blur-[100px] pointer-events-none rounded-full" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-xs w-full px-4">
         {/* Clean Logo Stage */}
@@ -67,7 +67,7 @@ export const Preloader: React.FC = () => {
         {/* Brand Wordmark & Telemetry */}
         <div className="text-center space-y-1">
           <p className="text-xs font-mono font-bold tracking-[0.3em] text-white uppercase">
-            ABHINAYA <span className="text-emerald-400">UNY</span>
+            ABHINAYA <span className="text-orange-400">UNY</span>
           </p>
           <p className="text-[10px] font-mono text-slate-400 tracking-wider">
             {getStatusText()}
@@ -78,14 +78,14 @@ export const Preloader: React.FC = () => {
         <div className="w-full space-y-2">
           <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden border border-white/10">
             <div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-300 rounded-full transition-all duration-100 ease-out shadow-emerald-glow-sm"
+              className="h-full bg-gradient-to-r from-orange-500 via-teal-400 to-orange-300 rounded-full transition-all duration-100 ease-out shadow-orange-glow-sm"
               style={{ width: `${progress}%` }}
             />
           </div>
 
           <div className="flex items-center justify-between text-[10px] font-mono text-slate-500">
             <span>KRTMI ROBOTICS PORTAL</span>
-            <span className="text-emerald-400 font-bold">{progress}%</span>
+            <span className="text-orange-400 font-bold">{progress}%</span>
           </div>
         </div>
       </div>

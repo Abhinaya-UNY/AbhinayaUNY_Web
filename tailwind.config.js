@@ -13,10 +13,10 @@ module.exports = {
       },
       colors: {
         brand: {
-          orange: '#10B981', // Backward-compatible alias mapping legacy orange classes to Refined Emerald
+          orange: '#FF6B00', // Signature Cyber Orange
           amber: '#F59E0B',
-          darkOrange: '#059669', // Emerald 600 hover
-          lightOrange: '#34D399', // Emerald 400 text
+          darkOrange: '#EA580C', // Orange 600 hover
+          lightOrange: '#FB923C', // Orange 400 text
           gold: '#F59E0B',
           dark: '#0B0B0E', // Deep Obsidian canvas
           card: '#121216', // Primary Card surface
@@ -49,8 +49,10 @@ module.exports = {
         },
       },
       boxShadow: {
-        'emerald-glow': '0 0 25px -5px rgba(16, 185, 129, 0.25), 0 0 10px -6px rgba(16, 185, 129, 0.2)',
-        'emerald-glow-sm': '0 0 15px -3px rgba(16, 185, 129, 0.18)',
+        'orange-glow': '0 0 25px -5px rgba(255, 107, 0, 0.35), 0 0 10px -6px rgba(255, 107, 0, 0.25)',
+        'orange-glow-sm': '0 0 15px -3px rgba(255, 107, 0, 0.2)',
+        'emerald-glow': '0 0 25px -5px rgba(255, 107, 0, 0.35), 0 0 10px -6px rgba(255, 107, 0, 0.25)', // alias for backwards compatibility
+        'emerald-glow-sm': '0 0 15px -3px rgba(255, 107, 0, 0.2)',
       },
       animation: {
         'fade-in': 'fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards',

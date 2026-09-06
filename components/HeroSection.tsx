@@ -34,7 +34,7 @@ export const HeroSection: React.FC = () => {
         
         {/* Logo + Category Line */}
         <div className="flex flex-col items-center justify-center space-y-3">
-          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white p-1.5 flex items-center justify-center shadow-lg shadow-emerald-500/10 border border-white/20">
+          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white p-1.5 flex items-center justify-center shadow-lg shadow-orange-500/10 border border-white/20">
             <img
               src={`${basePath}/assets/logo_abhinaya.png`}
               alt="Logo Abhinaya UNY"
@@ -42,11 +42,11 @@ export const HeroSection: React.FC = () => {
             />
           </div>
 
-          <div className="flex items-center space-x-2 text-emerald-400 text-[11px] font-mono font-medium uppercase tracking-[0.25em]">
+          <div className="flex items-center space-x-2 text-orange-400 text-[11px] font-mono font-medium uppercase tracking-[0.25em]">
             <DecryptedText
               text="TIM ROBOTIKA • UKM REKAYASA TEKNOLOGI UNY"
               animateOn="hover"
-              className="text-emerald-400 text-[11px] font-mono font-medium uppercase tracking-[0.25em]"
+              className="text-orange-400 text-[11px] font-mono font-medium uppercase tracking-[0.25em]"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@ export const HeroSection: React.FC = () => {
               text="UNY"
               delay={60}
               animateBy="letters"
-              className="text-emerald-400"
+              className="text-orange-400"
             />
           </h1>
           <div className="text-xs sm:text-sm font-medium text-slate-400 tracking-[0.15em] uppercase flex items-center justify-center">
@@ -93,7 +93,7 @@ export const HeroSection: React.FC = () => {
             <a
               href="#about-tim"
               onClick={(e) => scrollToSection(e, 'about-tim')}
-              className="w-full sm:w-auto px-7 sm:px-8 py-3.5 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-black font-bold text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer shadow-[0_0_20px_rgba(16,185,129,0.35)] shadow-emerald-glow hover:shadow-emerald-glow-sm"
+              className="w-full sm:w-auto px-7 sm:px-8 py-3.5 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-400 hover:to-orange-300 text-black font-bold text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer shadow-[0_0_20px_rgba(16,185,129,0.35)] shadow-orange-glow hover:shadow-orange-glow-sm"
             >
               <Flame className="w-4 h-4 text-black fill-black" />
               <span>JELAJAHI TIM &amp; BUKU PANDUAN</span>
@@ -104,9 +104,9 @@ export const HeroSection: React.FC = () => {
             <a
               href="#video-aksi"
               onClick={(e) => scrollToSection(e, 'video-aksi')}
-              className="w-full sm:w-auto px-6 sm:px-7 py-3.5 rounded-full border border-white/10 hover:border-emerald-500/40 bg-white/[0.03] hover:bg-white/[0.06] text-slate-300 hover:text-white font-medium text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer"
+              className="w-full sm:w-auto px-6 sm:px-7 py-3.5 rounded-full border border-white/10 hover:border-orange-500/40 bg-white/[0.03] hover:bg-white/[0.06] text-slate-300 hover:text-white font-medium text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer"
             >
-              <Play className="w-4 h-4 text-emerald-400 fill-emerald-400" />
+              <Play className="w-4 h-4 text-orange-400 fill-orange-400" />
               <span>SAKSIKAN AKSI ROBOT DI ARENA</span>
             </a>
           </Magnet>
@@ -116,14 +116,14 @@ export const HeroSection: React.FC = () => {
         <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs">
           <Link
             href="/krtmi"
-            className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-emerald-300 border border-white/[0.08] hover:border-emerald-500/30 bg-[#121216]/60 transition"
+            className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-orange-300 border border-white/[0.08] hover:border-orange-500/30 bg-[#121216]/60 transition"
           >
             <span>Jelajahi Arsip KRTMI</span>
             <ArrowRight className="w-3 h-3 text-slate-500" />
           </Link>
           <Link
             href="/pertandingan"
-            className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-emerald-300 border border-white/[0.08] hover:border-emerald-500/30 bg-[#121216]/60 transition"
+            className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-orange-300 border border-white/[0.08] hover:border-orange-500/30 bg-[#121216]/60 transition"
           >
             <span>Laga &amp; Hasil Pertandingan</span>
             <ArrowRight className="w-3 h-3 text-slate-500" />
@@ -137,10 +137,10 @@ export const HeroSection: React.FC = () => {
         
         {/* Floating Status Telemetry Dock (Cleanly elevated above/alongside frame, unblocking faces) */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3 mb-4">
-          <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-emerald-500/20 text-xs font-mono text-slate-300 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse flex-shrink-0" />
+          <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-orange-500/20 text-xs font-mono text-slate-300 shadow-sm">
+            <span className="w-2 h-2 rounded-full bg-orange-400 animate-pulse flex-shrink-0" />
             <span className="text-[10px] text-slate-400">STATUS:</span>
-            <span className="text-emerald-400 font-bold truncate">AUTONOMOUS</span>
+            <span className="text-orange-400 font-bold truncate">AUTONOMOUS</span>
           </div>
 
           <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-white/10 text-xs font-mono text-slate-300 shadow-sm">
@@ -156,9 +156,9 @@ export const HeroSection: React.FC = () => {
           </div>
 
           <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-white/10 text-xs font-mono text-slate-300 shadow-sm">
-            <Radio className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+            <Radio className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
             <span className="text-[10px] text-slate-400">TELEMETRI:</span>
-            <span className="text-emerald-400 font-bold truncate">ACTIVE 5.8GHz</span>
+            <span className="text-orange-400 font-bold truncate">ACTIVE 5.8GHz</span>
           </div>
         </div>
 
@@ -177,7 +177,7 @@ export const HeroSection: React.FC = () => {
             <span className="text-slate-400">
               Kontingen Resmi Tim Abhinaya UNY — Divisi KRTMI UKM Rekayasa Teknologi
             </span>
-            <span className="text-emerald-400 font-medium">
+            <span className="text-orange-400 font-medium">
               Juara 1 Wilayah I &amp; Juara 2 Nasional BPTI Puspresnas
             </span>
           </div>

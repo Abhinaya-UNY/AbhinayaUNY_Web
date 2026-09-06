@@ -80,14 +80,14 @@ export const KRIOverview: React.FC = () => {
   return (
     <section id="kri-overview" className="py-8 sm:py-10 md:py-12 bg-[#0B0B0E] border-t border-white/[0.06] relative overflow-hidden">
       {/* Background glow ambiance */}
-      <div className="absolute top-1/3 left-10 w-96 h-96 bg-emerald-500/5 blur-[120px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/3 left-10 w-96 h-96 bg-orange-500/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
         
         {/* Section Header */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
-            <Compass className="w-3.5 h-3.5 text-emerald-400" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+            <Compass className="w-3.5 h-3.5 text-orange-400" />
             <span>DIVISI RESMI KONTES ROBOT INDONESIA (KRI)</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
@@ -99,16 +99,16 @@ export const KRIOverview: React.FC = () => {
         </div>
 
         {/* SPOTLIGHT UTAMA: KRTMI (KONTES ROBOT TEMATIK INDONESIA) */}
-        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#121216] border border-emerald-500/30 space-y-6 relative overflow-hidden shadow-xl shadow-emerald-950/20">
+        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#121216] border border-orange-500/30 space-y-6 relative overflow-hidden shadow-xl shadow-orange-950/20">
           {/* Header Showcase KRTMI */}
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-white/[0.06] pb-6">
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="px-3 py-1 rounded-lg bg-emerald-400 text-black font-bold text-xs uppercase tracking-wider font-mono shadow-sm">
+                <span className="px-3 py-1 rounded-lg bg-orange-400 text-black font-bold text-xs uppercase tracking-wider font-mono shadow-sm">
                   DIVISI SPESIALISASI ABHINAYA UNY
                 </span>
-                <span className="px-3 py-1 rounded-lg bg-white/5 text-emerald-300 font-bold text-xs border border-emerald-500/20 flex items-center space-x-1 font-mono">
-                  <Flame className="w-3.5 h-3.5 text-emerald-400 fill-emerald-400" />
+                <span className="px-3 py-1 rounded-lg bg-white/5 text-orange-300 font-bold text-xs border border-orange-500/20 flex items-center space-x-1 font-mono">
+                  <Flame className="w-3.5 h-3.5 text-orange-400 fill-orange-400" />
                   <span>Juara 1 Wilayah &amp; Juara 2 Nasional</span>
                 </span>
               </div>
@@ -122,7 +122,7 @@ export const KRIOverview: React.FC = () => {
 
             <a
               href="#krtmi-story"
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-emerald-400 hover:bg-emerald-300 text-black font-bold text-xs tracking-wider transition shadow-md flex-shrink-0 cursor-pointer"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-orange-400 hover:bg-orange-300 text-black font-bold text-xs tracking-wider transition shadow-md flex-shrink-0 cursor-pointer"
             >
               <span>Lihat Bedah Regulasi KRTMI (2019–2026)</span>
               <ArrowRight className="w-4 h-4" />
@@ -136,7 +136,7 @@ export const KRIOverview: React.FC = () => {
                 key={i}
                 spotlightColor="rgba(16, 185, 129, 0.12)"
                 spotlightSize={250}
-                className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-emerald-500/30 transition space-y-2.5 group"
+                className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/30 transition space-y-2.5 group"
               >
                 <div className="space-y-2.5">
                   <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
@@ -151,7 +151,7 @@ export const KRIOverview: React.FC = () => {
 
           {/* Kronologi Singkat Perjalanan Tema KRTMI */}
           <div className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs">
-            <div className="flex items-center space-x-2 text-emerald-400 font-bold">
+            <div className="flex items-center space-x-2 text-orange-400 font-bold">
               <Trophy className="w-4 h-4 text-brand-gold flex-shrink-0" />
               <span>Evolusi Tema KRTMI:</span>
             </div>
@@ -166,7 +166,7 @@ export const KRIOverview: React.FC = () => {
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2023: Digital Twin Cyber-Physical</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-emerald-500/10 text-emerald-400 font-bold border border-emerald-500/40">2024: Pemilah Sampah Cerdas</span>
+              <span className="px-2.5 py-1 rounded-lg bg-orange-500/10 text-orange-400 font-bold border border-orange-500/40">2024: Pemilah Sampah Cerdas</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
             </div>
@@ -178,10 +178,10 @@ export const KRIOverview: React.FC = () => {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h4 className="text-lg sm:text-xl font-black text-white flex items-center space-x-2">
-              <Layers className="w-5 h-5 text-emerald-400" />
+              <Layers className="w-5 h-5 text-orange-400" />
               <span>Daftar Seluruh Divisi Kontes Robot Indonesia (KRI)</span>
             </h4>
-            <span className="text-xs text-emerald-400/80 font-mono hidden sm:inline">6 Divisi Resmi Puspresnas / BPTI</span>
+            <span className="text-xs text-orange-400/80 font-mono hidden sm:inline">6 Divisi Resmi Puspresnas / BPTI</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -192,7 +192,7 @@ export const KRIOverview: React.FC = () => {
                 spotlightSize={280}
                 className={`p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight
-                    ? 'bg-[#18181B] border-emerald-500/50 shadow-lg shadow-emerald-500/5'
+                    ? 'bg-[#18181B] border-orange-500/50 shadow-lg shadow-orange-500/5'
                     : 'bg-[#18181B] border-white/[0.08] hover:border-white/20'
                 }`}
               >
@@ -200,7 +200,7 @@ export const KRIOverview: React.FC = () => {
                   <div className="flex items-center justify-between">
                     <span
                       className={`text-xs font-bold font-mono px-3 py-1 rounded-lg ${
-                        div.isHighlight ? 'bg-emerald-400 text-black' : 'bg-white/5 text-slate-300 border border-white/10'
+                        div.isHighlight ? 'bg-orange-400 text-black' : 'bg-white/5 text-slate-300 border border-white/10'
                       }`}
                     >
                       <DecryptedText
@@ -210,8 +210,8 @@ export const KRIOverview: React.FC = () => {
                       />
                     </span>
                     {div.isHighlight && (
-                      <span className="text-[10px] font-bold uppercase text-emerald-400 tracking-wider flex items-center space-x-1 font-mono">
-                        <Flame className="w-3.5 h-3.5 text-emerald-400 fill-emerald-400" />
+                      <span className="text-[10px] font-bold uppercase text-orange-400 tracking-wider flex items-center space-x-1 font-mono">
+                        <Flame className="w-3.5 h-3.5 text-orange-400 fill-orange-400" />
                         <span>Fokus Tim Abhinaya</span>
                       </span>
                     )}

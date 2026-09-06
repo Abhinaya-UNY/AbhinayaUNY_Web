@@ -72,7 +72,7 @@ export const Achievements: React.FC = () => {
         
         {/* Header */}
         <div className="text-center space-y-3 max-w-4xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
             <Trophy className="w-3.5 h-3.5 text-amber-400" />
             <span>REKAM JEJAK KEJUARAAN RESMI</span>
           </div>
@@ -97,21 +97,21 @@ export const Achievements: React.FC = () => {
               spotlightSize={320}
               className={`p-6 sm:p-7 rounded-2xl transition-all duration-300 space-y-4 relative overflow-hidden group border ${
                 item.highlight
-                  ? 'bg-[#121216] border-emerald-500/30 hover:border-emerald-500/50 shadow-emerald-glow-sm'
+                  ? 'bg-[#121216] border-orange-500/30 hover:border-orange-500/50 shadow-orange-glow-sm'
                   : 'bg-[#121216] border-white/[0.08] hover:border-white/20'
               }`}
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-white/5 text-emerald-400 border border-white/10 font-mono">
+                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-white/5 text-orange-400 border border-white/10 font-mono">
                     <DecryptedText
                       text={item.year}
                       animateOn="hover"
-                      className="text-emerald-400 font-mono"
+                      className="text-orange-400 font-mono"
                     />
                   </span>
                   <span className={`text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase font-mono ${
-                    item.highlight ? 'bg-emerald-500 text-black font-black shadow-sm' : 'bg-white/5 text-slate-300 border border-white/10'
+                    item.highlight ? 'bg-orange-500 text-black font-black shadow-sm' : 'bg-white/5 text-slate-300 border border-white/10'
                   }`}>
                     <DecryptedText
                       text={item.badge}
@@ -122,7 +122,7 @@ export const Achievements: React.FC = () => {
                 </div>
 
                 <div className="space-y-1.5">
-                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-orange-400 transition-colors">
                     {item.title}
                   </h3>
                   <p className="text-xs text-slate-300 font-medium">
@@ -134,7 +134,7 @@ export const Achievements: React.FC = () => {
                 </div>
 
                 <div className="pt-3 border-t border-white/5 flex items-center space-x-2 text-[11px] text-slate-400">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+                  <ShieldCheck className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
                   <span>{getVerificationLabel(item.organizer)}</span>
                 </div>
               </div>

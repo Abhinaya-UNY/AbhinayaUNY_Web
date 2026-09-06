@@ -11,14 +11,14 @@ export const NewsMediaSection: React.FC = () => {
   return (
     <section id="berita-media" className="py-8 sm:py-10 md:py-12 relative border-b border-white/[0.06] bg-[#0B0B0E]">
       {/* Background Ambience */}
-      <div className="absolute top-1/2 right-10 w-96 h-96 bg-emerald-500/5 blur-[120px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 right-10 w-96 h-96 bg-orange-500/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header with Full Width on Laptop */}
         <div className="text-center space-y-2.5 max-w-5xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-mono tracking-wider border border-emerald-500/20">
-            <Newspaper className="w-3.5 h-3.5 text-emerald-400" />
+          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
+            <Newspaper className="w-3.5 h-3.5 text-orange-400" />
             <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
@@ -48,8 +48,8 @@ export const NewsMediaSection: React.FC = () => {
                 spotlightSize={350}
                 className={`group rounded-2xl bg-[#121216] border ${
                   isFirst
-                    ? 'border-emerald-500/40 hover:border-emerald-400/70 shadow-lg shadow-emerald-500/5'
-                    : 'border-white/[0.08] hover:border-emerald-500/30'
+                    ? 'border-orange-500/40 hover:border-orange-400/70 shadow-lg shadow-orange-500/5'
+                    : 'border-white/[0.08] hover:border-orange-500/30'
                 } p-5 sm:p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 relative overflow-hidden`}
               >
                 <div className="space-y-4">
@@ -72,16 +72,16 @@ export const NewsMediaSection: React.FC = () => {
                       <span className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-bold border ${article.badgeColor}`}>
                         <DecryptedText text={article.badge} animateOn="hover" />
                       </span>
-                      <div className="flex items-center space-x-1 text-emerald-400/90 text-[11px] font-bold">
-                        <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                        <DecryptedText text={article.portal} animateOn="hover" className="text-emerald-400/90 text-[11px] font-bold" />
+                      <div className="flex items-center space-x-1 text-orange-400/90 text-[11px] font-bold">
+                        <ShieldCheck className="w-3.5 h-3.5 text-orange-400" />
+                        <DecryptedText text={article.portal} animateOn="hover" className="text-orange-400/90 text-[11px] font-bold" />
                       </div>
                     </div>
 
                     {/* Date & Stats */}
                     <div className="flex items-center justify-between text-xs text-slate-400 font-mono">
-                      <span className="flex items-center gap-1 text-emerald-400/90 font-bold">
-                        <Calendar className="w-3.5 h-3.5 text-emerald-400" />
+                      <span className="flex items-center gap-1 text-orange-400/90 font-bold">
+                        <Calendar className="w-3.5 h-3.5 text-orange-400" />
                         <span>{article.date}</span>
                       </span>
                       {article.stats && (
@@ -92,7 +92,7 @@ export const NewsMediaSection: React.FC = () => {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition line-clamp-2 leading-snug">
+                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-orange-400 transition line-clamp-2 leading-snug">
                       {article.title}
                     </h3>
 
@@ -104,11 +104,11 @@ export const NewsMediaSection: React.FC = () => {
                 </div>
 
                 {/* 3. Card Footer: Action Link */}
-                <div className="pt-4 mt-4 border-t border-white/[0.06] flex items-center justify-between text-xs font-bold text-slate-300 group-hover:text-emerald-400 transition">
+                <div className="pt-4 mt-4 border-t border-white/[0.06] flex items-center justify-between text-xs font-bold text-slate-300 group-hover:text-orange-400 transition">
                   <span className="flex items-center space-x-1">
                     <span>Baca Artikel Asli</span>
                   </span>
-                  <div className="w-7 h-7 rounded-full bg-white/5 border border-white/10 group-hover:bg-emerald-400 group-hover:text-black flex items-center justify-center transition">
+                  <div className="w-7 h-7 rounded-full bg-white/5 border border-white/10 group-hover:bg-orange-400 group-hover:text-black flex items-center justify-center transition">
                     <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </div>

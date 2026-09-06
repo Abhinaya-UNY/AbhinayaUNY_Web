@@ -16,7 +16,7 @@ export default function DivisiPage() {
       
       {/* Header */}
       <div className="text-center space-y-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black uppercase tracking-wider border border-emerald-500/30 shadow-sm">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-orange-500/15 text-orange-400 text-xs font-black uppercase tracking-wider border border-orange-500/30 shadow-sm">
           <Users className="w-4 h-4" />
           <span>DIVISI &amp; KULTUR RISET TIM • UKM REKAYASA TEKNOLOGI UNY</span>
         </div>
@@ -33,10 +33,10 @@ export default function DivisiPage() {
         {TEAM_DIVISIONS.map((div) => (
           <div
             key={div.id}
-            className="p-6 sm:p-8 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-5 hover:border-emerald-500/40 transition duration-300"
+            className="p-6 sm:p-8 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-5 hover:border-orange-500/40 transition duration-300"
           >
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center border border-orange-500/20 flex-shrink-0">
                 {div.id === 'mekanik' && <Wrench className="w-6 h-6 sm:w-7 sm:h-7" />}
                 {div.id === 'elektrik' && <Zap className="w-6 h-6 sm:w-7 sm:h-7" />}
                 {div.id === 'programming' && <Code className="w-6 h-6 sm:w-7 sm:h-7" />}
@@ -57,7 +57,7 @@ export default function DivisiPage() {
             </p>
 
             <div className="pt-2 border-t border-white/[0.06] space-y-2">
-              <span className="text-xs font-mono uppercase text-emerald-400 tracking-wider block font-bold">
+              <span className="text-xs font-mono uppercase text-orange-400 tracking-wider block font-bold">
                 Fokus Keahlian &amp; Praktik:
               </span>
               <div className="flex flex-wrap gap-2">
@@ -66,7 +66,7 @@ export default function DivisiPage() {
                     key={idx}
                     className="px-3 py-1 rounded-lg bg-[#18181B] text-slate-300 text-xs font-mono border border-white/[0.08] flex items-center space-x-1.5"
                   >
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    <CheckCircle2 className="w-3.5 h-3.5 text-orange-400" />
                     <span>{skill}</span>
                   </span>
                 ))}
@@ -88,7 +88,7 @@ export default function DivisiPage() {
       {/* Freshmen FAQ & Welcome Section */}
       <div className="p-8 sm:p-12 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-6">
         <div className="space-y-2 text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center space-x-1.5 text-xs font-mono uppercase text-emerald-400 font-bold">
+          <div className="inline-flex items-center space-x-1.5 text-xs font-mono uppercase text-orange-400 font-bold">
             <Sparkles className="w-4 h-4" />
             <span>PANDUAN UNTUK MAHASISWA BARU (MABA)</span>
           </div>

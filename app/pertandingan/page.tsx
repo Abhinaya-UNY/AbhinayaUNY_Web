@@ -166,25 +166,25 @@ export default function PertandinganPage() {
     <div className="min-h-screen bg-[#0B0B0E] text-slate-100 relative overflow-hidden py-8 sm:py-12 md:py-16">
       
       {/* Background Ambience Glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-emerald-500/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-orange-500/10 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 relative z-10">
         
         {/* Page Breadcrumb & Header */}
         <div className="space-y-4 max-w-4xl">
           <div className="flex items-center space-x-2 text-xs font-mono text-slate-400">
-            <Link href="/" className="hover:text-emerald-400 transition">HOME</Link>
+            <Link href="/" className="hover:text-orange-400 transition">HOME</Link>
             <ChevronRight className="w-3.5 h-3.5" />
-            <span className="text-emerald-400 font-bold">MATCH &amp; LAGA ARENA</span>
+            <span className="text-orange-400 font-bold">MATCH &amp; LAGA ARENA</span>
           </div>
 
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-500/20 shadow-md">
-            <Trophy className="w-4 h-4 fill-emerald-400" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-orange-500/10 text-orange-400 text-xs font-bold uppercase tracking-wider border border-orange-500/20 shadow-md">
+            <Trophy className="w-4 h-4 fill-orange-400" />
             <span>OFFICIAL MATCH &amp; ARENA COMPETITION SHOWCASE</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
-            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300">Abhinaya UNY</span>
+            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-teal-300 to-amber-300">Abhinaya UNY</span>
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
@@ -300,7 +300,7 @@ export default function PertandinganPage() {
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
               <span className="text-slate-400 font-mono text-[11px] block">Sistem Kendali</span>
-              <span className="font-bold text-emerald-400 text-sm sm:text-base flex items-baseline">
+              <span className="font-bold text-orange-400 text-sm sm:text-base flex items-baseline">
                 <CountUp to={100} duration={1.5} />% Otonom
               </span>
               <span className="text-[10px] text-slate-400 block">AI Vision + Odometry</span>
@@ -312,7 +312,7 @@ export default function PertandinganPage() {
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
               <span className="text-slate-400 font-mono text-[11px] block">Kecepatan Sasis</span>
-              <span className="font-bold text-emerald-400 text-sm sm:text-base flex items-baseline">
+              <span className="font-bold text-orange-400 text-sm sm:text-base flex items-baseline">
                 <CountUp to={1.4} decimals={1} decimal="." duration={1.5} />&nbsp;m/s Max
               </span>
               <span className="text-[10px] text-slate-400 block">4WD Mecanum Holonomic</span>
@@ -324,7 +324,7 @@ export default function PertandinganPage() {
               className="p-3.5 rounded-2xl bg-[#18181B] border border-white/[0.06] text-xs space-y-1"
             >
               <span className="text-slate-400 font-mono text-[11px] block">Waktu Siklus Sortir</span>
-              <span className="font-bold text-emerald-400 text-sm sm:text-base flex items-baseline">
+              <span className="font-bold text-orange-400 text-sm sm:text-base flex items-baseline">
                 &lt;&nbsp;<CountUp to={12} duration={1.5} />&nbsp;Detik
               </span>
               <span className="text-[10px] text-slate-400 block">Pick &amp; Smart Docking</span>
@@ -357,8 +357,8 @@ export default function PertandinganPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-5">
-            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-emerald-500/40 transition">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-mono font-bold text-sm border border-emerald-500/20">
+            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-orange-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-mono font-bold text-sm border border-orange-500/20">
                 01
               </div>
               <h4 className="text-base font-bold text-white">Start &amp; Lokalisasi</h4>
@@ -367,8 +367,8 @@ export default function PertandinganPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-emerald-500/40 transition">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-300 flex items-center justify-center font-mono font-bold text-sm border border-emerald-500/20">
+            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-orange-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-300 flex items-center justify-center font-mono font-bold text-sm border border-orange-500/20">
                 02
               </div>
               <h4 className="text-base font-bold text-white">Deteksi &amp; Tracking Objek</h4>
@@ -377,8 +377,8 @@ export default function PertandinganPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-emerald-500/40 transition">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-300 flex items-center justify-center font-mono font-bold text-sm border border-emerald-500/20">
+            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-orange-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-300 flex items-center justify-center font-mono font-bold text-sm border border-orange-500/20">
                 03
               </div>
               <h4 className="text-base font-bold text-white">Gripping 2-Stage &amp; Angkut</h4>
@@ -387,8 +387,8 @@ export default function PertandinganPage() {
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-emerald-500/40 transition">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-300 flex items-center justify-center font-mono font-bold text-sm border border-emerald-500/20">
+            <div className="p-5 rounded-2xl bg-[#121216] border border-white/[0.08] space-y-3 relative group hover:border-orange-500/40 transition">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-300 flex items-center justify-center font-mono font-bold text-sm border border-orange-500/20">
                 04
               </div>
               <h4 className="text-base font-bold text-white">Docking Keranjang Cerdas</h4>
@@ -406,7 +406,7 @@ export default function PertandinganPage() {
           <div className="lg:col-span-2 space-y-5">
             <div className="space-y-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white flex items-center space-x-2">
-                <ShieldCheck className="w-5 h-5 text-emerald-400" />
+                <ShieldCheck className="w-5 h-5 text-orange-400" />
                 <span>Catatan Hasil Pertandingan KRTMI 2024</span>
               </h3>
               <p className="text-xs text-slate-400">
@@ -418,11 +418,11 @@ export default function PertandinganPage() {
               {MATCH_HISTORY.map((match) => (
                 <div
                   key={match.id}
-                  className="p-5 sm:p-6 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-emerald-500/40 transition space-y-3"
+                  className="p-5 sm:p-6 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-orange-500/40 transition space-y-3"
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.06] pb-3">
                     <div className="space-y-0.5">
-                      <span className="text-[10px] font-mono uppercase font-bold text-emerald-400">
+                      <span className="text-[10px] font-mono uppercase font-bold text-orange-400">
                         KONTES ROBOT TEMATIK INDONESIA
                       </span>
                       <h4 className="text-base font-bold text-white">{match.roundName}</h4>
@@ -431,7 +431,7 @@ export default function PertandinganPage() {
 
                     <div className="flex items-center space-x-3">
                       <div className="text-right">
-                        <div className="text-lg font-bold text-emerald-400 font-mono">
+                        <div className="text-lg font-bold text-orange-400 font-mono">
                           {match.scoreAbhinaya} - {match.scoreOpponent}
                         </div>
                         <span className="text-[9px] uppercase font-mono font-bold text-amber-400">
@@ -452,7 +452,7 @@ export default function PertandinganPage() {
                     <div className="space-y-1">
                       {match.keyHighlights.map((hl, idx) => (
                         <div key={idx} className="flex items-center space-x-2 text-xs text-slate-300">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+                          <CheckCircle2 className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
                           <span>{hl}</span>
                         </div>
                       ))}
@@ -567,7 +567,7 @@ export default function PertandinganPage() {
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link
               href="/krtmi"
-              className="px-4 py-2.5 rounded-xl bg-emerald-400 hover:bg-emerald-300 text-black font-bold text-xs flex items-center space-x-1.5 shadow-lg transition"
+              className="px-4 py-2.5 rounded-xl bg-orange-400 hover:bg-orange-300 text-black font-bold text-xs flex items-center space-x-1.5 shadow-lg transition"
             >
               <span>Arsip KRTMI (2019-2026)</span>
               <ArrowRight className="w-3.5 h-3.5" />

@@ -35,7 +35,7 @@ export default function KrtmiPage() {
       
       {/* Page Header */}
       <div className="text-center space-y-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black uppercase tracking-wider border border-emerald-500/30">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-orange-500/15 text-orange-400 text-xs font-black uppercase tracking-wider border border-orange-500/30">
           <History className="w-4 h-4" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
         </div>
@@ -70,7 +70,7 @@ export default function KrtmiPage() {
             className="p-6 sm:p-10 rounded-3xl bg-[#121216] border border-white/[0.08] shadow-2xl space-y-8 relative overflow-hidden scroll-mt-24"
           >
             {/* Top Accent Line */}
-            <div className="absolute top-0 left-0 right-0 h-[2px] bg-emerald-500/60" />
+            <div className="absolute top-0 left-0 right-0 h-[2px] bg-orange-500/60" />
 
             {/* Header: Official Cover Poster + Title, Badges, Location */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8 border-b border-white/[0.06] pb-6">
@@ -84,7 +84,7 @@ export default function KrtmiPage() {
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 brightness-95 contrast-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
-                  <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-emerald-400 text-black text-[9px] font-bold uppercase shadow">
+                  <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-orange-400 text-black text-[9px] font-bold uppercase shadow">
                     PANDUAN RESMI
                   </div>
                   <div className="absolute bottom-2 inset-x-2 text-center text-slate-300 text-[10px] font-mono font-medium">
@@ -95,7 +95,7 @@ export default function KrtmiPage() {
 
               <div className="flex-1 space-y-3 text-center md:text-left">
                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
-                  <span className="text-3xl sm:text-4xl font-bold text-emerald-400 font-mono">
+                  <span className="text-3xl sm:text-4xl font-bold text-orange-400 font-mono">
                     {story.year}
                   </span>
                   <span className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-white/5 text-slate-300 border border-white/10">
@@ -121,7 +121,7 @@ export default function KrtmiPage() {
 
                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 text-xs text-slate-300 pt-1">
                   <span className="flex items-center space-x-1 text-slate-300">
-                    <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                    <MapPin className="w-3.5 h-3.5 text-orange-400" />
                     <span>{story.location}</span>
                   </span>
                   {story.hostOrganizer && (
@@ -149,7 +149,7 @@ export default function KrtmiPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
               <div className="p-3.5 rounded-xl bg-[#18181B] border border-white/[0.06] text-center space-y-1">
                 <span className="text-[10px] uppercase font-bold text-slate-400 flex items-center justify-center space-x-1">
-                  <Clock className="w-3 h-3 text-emerald-400" />
+                  <Clock className="w-3 h-3 text-orange-400" />
                   <span>Durasi Match</span>
                 </span>
                 <span className="text-xs sm:text-sm font-bold text-white block">
@@ -172,7 +172,7 @@ export default function KrtmiPage() {
                   <Award className="w-3 h-3 text-brand-gold" />
                   <span>Kondisi Kemenangan</span>
                 </span>
-                <span className="text-xs sm:text-sm font-bold text-emerald-400 block truncate" title={story.matchProcedure?.victoryCondition}>
+                <span className="text-xs sm:text-sm font-bold text-orange-400 block truncate" title={story.matchProcedure?.victoryCondition}>
                   {story.year === '2024' ? '”BERSIH”' : story.year === '2023' ? '”DONE” / ”DAM”' : story.year === '2026' ? 'FINISH' : 'Poin Tertinggi'}
                 </span>
               </div>
@@ -191,7 +191,7 @@ export default function KrtmiPage() {
             {/* Narrative Summary */}
             <div className="p-6 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3">
               <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                <Sparkles className="w-4 h-4 text-emerald-400" />
+                <Sparkles className="w-4 h-4 text-orange-400" />
                 <span>Deskripsi Misi Lomba &amp; Tema Masalah</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
@@ -205,7 +205,7 @@ export default function KrtmiPage() {
               {/* 1. Spesifikasi Arena */}
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3 text-xs">
                 <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Compass className="w-4 h-4 text-emerald-400" />
+                  <Compass className="w-4 h-4 text-orange-400" />
                   <span>Spesifikasi Arena</span>
                 </h4>
                 <div className="space-y-2.5">
@@ -233,7 +233,7 @@ export default function KrtmiPage() {
               {/* 2. Regulasi Robot */}
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3 text-xs">
                 <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Cpu className="w-4 h-4 text-emerald-400" />
+                  <Cpu className="w-4 h-4 text-orange-400" />
                   <span>Regulasi Robot</span>
                 </h4>
                 <div className="space-y-2.5">
@@ -261,7 +261,7 @@ export default function KrtmiPage() {
               {/* 3. Objek & Prosedur Laga */}
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3 text-xs">
                 <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Box className="w-4 h-4 text-emerald-400" />
+                  <Box className="w-4 h-4 text-orange-400" />
                   <span>Objek &amp; Prosedur</span>
                 </h4>
                 <div className="space-y-2.5">
@@ -271,7 +271,7 @@ export default function KrtmiPage() {
                       <ul className="space-y-1 mt-1 text-slate-300">
                         {story.gameObjects.types.slice(0, 3).map((t, idx) => (
                           <li key={idx} className="flex items-center space-x-1">
-                            <span className="text-emerald-400">•</span>
+                            <span className="text-orange-400">•</span>
                             <span className="truncate">{t}</span>
                           </li>
                         ))}
@@ -284,7 +284,7 @@ export default function KrtmiPage() {
                   </div>
                   <div>
                     <span className="text-[10px] text-slate-400 font-bold uppercase block">Kondisi Kemenangan:</span>
-                    <span className="text-emerald-400 font-bold">{story.matchProcedure?.victoryCondition}</span>
+                    <span className="text-orange-400 font-bold">{story.matchProcedure?.victoryCondition}</span>
                   </div>
                 </div>
               </div>
@@ -292,13 +292,13 @@ export default function KrtmiPage() {
               {/* 4. Sistem Penilaian & Penalti */}
               <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3 text-xs">
                 <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                  <Layers className="w-4 h-4 text-emerald-400" />
+                  <Layers className="w-4 h-4 text-orange-400" />
                   <span>Penilaian &amp; Penalti</span>
                 </h4>
                 <ul className="space-y-1.5">
                   {story.scoringSystem.slice(0, 4).map((score, idx) => (
                     <li key={idx} className="flex items-start space-x-1.5 text-slate-300">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-orange-400 flex-shrink-0 mt-0.5" />
                       <span>{score}</span>
                     </li>
                   ))}
@@ -310,13 +310,13 @@ export default function KrtmiPage() {
             {/* Authentic Fun Facts & Research Notes */}
             <div className="p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] space-y-3">
               <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-                <Flame className="w-4 h-4 text-emerald-400" />
+                <Flame className="w-4 h-4 text-orange-400" />
                 <span>Catatan Riset &amp; Peran Divisi Abhinaya UNY</span>
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-300">
                 {story.teamRoleAndFunFacts.map((fact, idx) => (
                   <div key={idx} className="flex items-start space-x-2 p-3 rounded-xl bg-[#121216] border border-white/[0.06]">
-                    <ChevronRight className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                    <ChevronRight className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />
                     <span>{fact}</span>
                   </div>
                 ))}
@@ -343,7 +343,7 @@ export default function KrtmiPage() {
                 download={story.pdfFile}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-400 hover:bg-emerald-300 text-black font-bold text-xs flex items-center justify-center space-x-2 transition shadow-lg whitespace-nowrap uppercase tracking-wider cursor-pointer"
+                className="w-full sm:w-auto px-6 py-3 rounded-xl bg-orange-400 hover:bg-orange-300 text-black font-bold text-xs flex items-center justify-center space-x-2 transition shadow-lg whitespace-nowrap uppercase tracking-wider cursor-pointer"
               >
                 <Download className="w-4 h-4" />
                 <span>Unduh PDF Panduan</span>

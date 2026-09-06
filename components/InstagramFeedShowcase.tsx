@@ -132,7 +132,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 onClick={() => setSelectedCategory(cat)}
                 className={`flex items-center space-x-2 px-3.5 py-1.5 rounded-xl text-xs font-mono font-bold transition-all whitespace-nowrap cursor-pointer ${
                   isActive
-                    ? 'bg-emerald-400 text-black font-bold shadow-md'
+                    ? 'bg-orange-400 text-black font-bold shadow-md'
                     : 'bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 border border-white/8'
                 }`}
               >
@@ -161,7 +161,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 onClick={() => openPostModal(post)}
                 onMouseEnter={() => setHoveredPostId(post.id)}
                 onMouseLeave={() => setHoveredPostId(null)}
-                className="group cursor-pointer rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between overflow-hidden shadow-lg"
+                className="group cursor-pointer rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between overflow-hidden shadow-lg"
               >
                 {/* 1. Dedicated Card Mini-Header (Cleanly placed ABOVE photo) */}
                 <div className="px-4 py-3 bg-[#18181B] border-b border-white/[0.06] flex items-center justify-between text-xs">
@@ -214,7 +214,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                         key={idx}
                         className={`h-1.5 rounded-full transition-all duration-300 ${
                           idx === activeIdx
-                            ? 'w-5 bg-emerald-400 shadow-[0_0_8px_rgba(16,185,129,0.8)]'
+                            ? 'w-5 bg-orange-400 shadow-[0_0_8px_rgba(16,185,129,0.8)]'
                             : 'w-1.5 bg-white/20'
                         }`}
                       />
@@ -227,7 +227,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-[11px] text-slate-400 font-mono">
                       <span className="flex items-center space-x-1 text-slate-400 font-bold">
-                        <Calendar className="w-3 h-3 text-emerald-400" />
+                        <Calendar className="w-3 h-3 text-orange-400" />
                         <span>{post.timestamp.split(' ')[0]}</span>
                       </span>
                       <span className="px-2 py-0.5 rounded-md bg-white/5 text-slate-400 border border-white/10 text-[10px]">
@@ -235,7 +235,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                       </span>
                     </div>
 
-                    <h3 className="text-base font-bold text-white group-hover:text-emerald-400 transition line-clamp-2">
+                    <h3 className="text-base font-bold text-white group-hover:text-orange-400 transition line-clamp-2">
                       {post.title}
                     </h3>
 
@@ -247,7 +247,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                   </div>
 
                   {/* Footer Action */}
-                  <div className="pt-3 border-t border-white/[0.06] flex items-center justify-between text-xs font-bold text-slate-300 group-hover:text-emerald-400 transition">
+                  <div className="pt-3 border-t border-white/[0.06] flex items-center justify-between text-xs font-bold text-slate-300 group-hover:text-orange-400 transition">
                     <span className="flex items-center space-x-1">
                       <span>Buka Dokumentasi &amp; {post.images.length} Foto</span>
                     </span>

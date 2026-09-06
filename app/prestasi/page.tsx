@@ -30,7 +30,7 @@ export default function PrestasiPage() {
       {/* Official Press Releases Reference Links */}
       <div className="p-8 rounded-3xl bg-[#121216] border border-white/[0.08] space-y-6">
         <div className="flex items-center space-x-3 border-b border-white/[0.06] pb-4">
-          <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20">
+          <div className="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center border border-orange-500/20">
             <Newspaper className="w-5 h-5" />
           </div>
           <div>
@@ -48,13 +48,13 @@ export default function PrestasiPage() {
             href="http://www.uny.ac.id/index.php/id/berita/abhinaya-raih-juara-1-di-konteks-robot-tematik-indonesia-wilayah-i-tahun-2024"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-emerald-500/40 transition space-y-2 group"
+            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/40 transition space-y-2 group"
           >
             <div className="flex items-center justify-between text-brand-gold">
               <span>UNY News 2024</span>
               <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition" />
             </div>
-            <div className="font-bold text-white group-hover:text-emerald-400 transition line-clamp-2">
+            <div className="font-bold text-white group-hover:text-orange-400 transition line-clamp-2">
               Abhinaya Raih Juara 1 di KRTMI Wilayah I 2024
             </div>
             <p className="text-[10px] text-slate-400">Penyelenggara: BPTI Kemendikbudristek</p>
@@ -64,13 +64,13 @@ export default function PrestasiPage() {
             href="https://www.uny.ac.id/index.php/id/berita/abhinaya-meraih-juara-2-nasional-di-kompetisi-kri-divisi-krtmi-2024"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-emerald-500/40 transition space-y-2 group"
+            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/40 transition space-y-2 group"
           >
-            <div className="flex items-center justify-between text-emerald-400">
+            <div className="flex items-center justify-between text-orange-400">
               <span>UNY News 2024</span>
               <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition" />
             </div>
-            <div className="font-bold text-white group-hover:text-emerald-400 transition line-clamp-2">
+            <div className="font-bold text-white group-hover:text-orange-400 transition line-clamp-2">
               Abhinaya Meraih Juara 2 Nasional KRTMI 2024
             </div>
             <p className="text-[10px] text-slate-400">Edutorium Universitas Muhammadiyah Surakarta</p>
@@ -80,13 +80,13 @@ export default function PrestasiPage() {
             href="https://www.uny.ac.id/index.php/id/berita/robot-abhinaya-uny-sabet-juara-pertama-kontes-robot-tematik-indonesia"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-emerald-500/40 transition space-y-2 group"
+            className="p-4 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/40 transition space-y-2 group"
           >
-            <div className="flex items-center justify-between text-emerald-400">
+            <div className="flex items-center justify-between text-orange-400">
               <span>UNY News Archive</span>
               <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition" />
             </div>
-            <div className="font-bold text-white group-hover:text-emerald-400 transition line-clamp-2">
+            <div className="font-bold text-white group-hover:text-orange-400 transition line-clamp-2">
               Robot Abhinaya UNY Sabet Prestasi Tematik
             </div>
             <p className="text-[10px] text-slate-400">Arsip Riset &amp; Publikasi Robotika UNY</p>

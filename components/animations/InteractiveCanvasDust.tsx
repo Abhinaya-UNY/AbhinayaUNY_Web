@@ -7,7 +7,7 @@ export interface InteractiveCanvasDustProps {
   particleCount?: number;
   gridSize?: number;
   showGrid?: boolean;
-  particleColor?: string; // RGB format e.g. '16, 185, 129' (Emerald)
+  particleColor?: string; // RGB format e.g. '255, 107, 0' (Emerald)
   gridColor?: string;     // RGB format e.g. '255, 255, 255'
   maxFps?: number;
 }
@@ -27,7 +27,7 @@ export const InteractiveCanvasDust: React.FC<InteractiveCanvasDustProps> = ({
   particleCount = 35,
   gridSize = 44,
   showGrid = true,
-  particleColor = '16, 185, 129', // Emerald
+  particleColor = '255, 107, 0', // Emerald
   gridColor = '255, 255, 255',
   maxFps = 60,
 }) => {

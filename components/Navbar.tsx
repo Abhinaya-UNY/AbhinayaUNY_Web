@@ -107,8 +107,8 @@ export const Navbar: React.FC = () => {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-emerald-400 transition whitespace-nowrap leading-tight">
-                ABHINAYA<span className="text-emerald-400"> UNY</span>
+              <span className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-orange-400 transition whitespace-nowrap leading-tight">
+                ABHINAYA<span className="text-orange-400"> UNY</span>
               </span>
               <span className="text-[9px] text-slate-500 font-mono uppercase tracking-widest whitespace-nowrap leading-tight">
                 KRTMI — UKM Restek UNY
@@ -127,7 +127,7 @@ export const Navbar: React.FC = () => {
                   onClick={(e) => handleNavClick(e, link.href)}
                   className={`px-3.5 py-1.5 rounded-lg text-[11px] font-semibold tracking-widest transition whitespace-nowrap flex-shrink-0 ${
                     active
-                      ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shadow-emerald-glow-sm'
+                      ? 'bg-orange-500/10 text-orange-400 border border-orange-500/20 shadow-orange-glow-sm'
                       : 'text-slate-400 hover:text-white hover:bg-white/5 border border-transparent'
                   }`}
                 >
@@ -172,7 +172,7 @@ export const Navbar: React.FC = () => {
           <div className="flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg text-slate-400 hover:text-emerald-400 hover:bg-white/5 transition cursor-pointer"
+              className="p-2 rounded-lg text-slate-400 hover:text-orange-400 hover:bg-white/5 transition cursor-pointer"
               aria-label="Toggle Menu"
             >
               {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -193,7 +193,7 @@ export const Navbar: React.FC = () => {
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`block px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider uppercase transition ${
                   active
-                    ? 'bg-emerald-500/15 text-emerald-400 font-bold border border-emerald-500/30'
+                    ? 'bg-orange-500/15 text-orange-400 font-bold border border-orange-500/30'
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >

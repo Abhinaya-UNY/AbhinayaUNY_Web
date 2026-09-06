@@ -37,23 +37,23 @@ export const Aurora: React.FC<AuroraProps> = ({
       aria-hidden="true"
       className={`pointer-events-none absolute inset-0 overflow-hidden select-none z-0 ${opacityClass} ${className}`}
     >
-      {/* Aurora Orb 1: Subtle Refined Emerald Glow */}
+      {/* Aurora Orb 1: Vibrant Cyber Orange Glow */}
       <div
-        className={`absolute -top-32 left-1/4 w-[500px] sm:w-[720px] h-[350px] sm:h-[480px] rounded-full bg-emerald-500/12 blur-[130px] transition-transform duration-1000 ${
+        className={`absolute -top-32 left-1/4 w-[500px] sm:w-[720px] h-[350px] sm:h-[480px] rounded-full bg-orange-500/12 blur-[130px] transition-transform duration-1000 ${
           reducedMotion ? '' : 'animate-aurora-drift-1'
         }`}
       />
 
-      {/* Aurora Orb 2: Deep Teal / Mint Complementary Ambiance */}
+      {/* Aurora Orb 2: Warm Golden Amber Ambiance */}
       <div
-        className={`absolute -top-20 right-1/4 w-[400px] sm:w-[620px] h-[300px] sm:h-[420px] rounded-full bg-teal-600/8 blur-[140px] transition-transform duration-1000 ${
+        className={`absolute -top-20 right-1/4 w-[400px] sm:w-[620px] h-[300px] sm:h-[420px] rounded-full bg-amber-500/8 blur-[140px] transition-transform duration-1000 ${
           reducedMotion ? '' : 'animate-aurora-drift-2'
         }`}
       />
 
       {/* Aurora Orb 3: Bottom Grounding Ambient Light */}
       <div
-        className="absolute -bottom-40 left-1/3 w-[600px] h-[300px] rounded-full bg-emerald-600/5 blur-[150px]"
+        className="absolute -bottom-40 left-1/3 w-[600px] h-[300px] rounded-full bg-orange-600/5 blur-[150px]"
       />
 
       {/* Deep Obsidian Grounding Vignette */}

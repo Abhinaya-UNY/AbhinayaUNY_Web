@@ -99,7 +99,7 @@ test('DecryptedText: genuine scramble, SSR-safe initial state, emerald styling &
   assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
   assert(content.includes('revealDirection'), 'Must support revealDirection');
   assert(content.includes('aria-label={text}'), 'Must have aria-label for accessibility');
-  assert(content.includes('text-emerald-400'), 'Must use emerald styling by default');
+  assert(content.includes('text-emerald-400') || content.includes('text-orange-400'), 'Must use accent styling by default');
   assert(content.includes('export const DecryptedText'), 'Named export missing');
 });
 
@@ -110,7 +110,7 @@ test('ShinyText: metallic sweep, animate-shimmer, emerald gradient & literal tex
   assert(content.includes('bg-clip-text'), 'Must use bg-clip-text');
   assert(content.includes('{text}'), 'Must render literal text directly');
   assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
-  assert(content.includes('emerald'), 'Must use emerald shimmer gradient');
+  assert(content.includes('emerald') || content.includes('orange') || content.includes('FED7AA') || content.includes('FB923C'), 'Must use accent shimmer gradient');
   assert(content.includes('export const ShinyText'), 'Named export missing');
 });
 
@@ -131,7 +131,7 @@ test('SpotlightCard: CSS custom properties, emerald glow, obsidian surface & dir
   assert(content.includes('--mouse-y'), 'Must use --mouse-y CSS variable');
   assert(content.includes('--spotlight-opacity'), 'Must use --spotlight-opacity CSS variable');
   assert(content.includes('pointer-events-none'), 'Spotlight overlay must be pointer-events-none');
-  assert(content.includes('16, 185, 129'), 'Default spotlight must use Emerald (16, 185, 129)');
+  assert(content.includes('16, 185, 129') || content.includes('255, 107, 0'), 'Default spotlight must use accent glow');
   assert(content.includes('bg-[#121216]'), 'Default background must use primary card surface #121216');
   assert(content.includes('export const SpotlightCard'), 'Named export missing');
 });
@@ -160,7 +160,7 @@ test('AmbientGrid: SVG pattern, micro-grid coordinates & scanline', () => {
 test('Aurora: fluid mesh gradient glow, reduced-motion check & non-intrusive backdrop', () => {
   const content = fs.readFileSync(path.join(ANIMATIONS_DIR, 'Aurora.tsx'), 'utf8');
   assert(content.includes('prefers-reduced-motion'), 'Must check prefers-reduced-motion');
-  assert(content.includes('emerald-500'), 'Must feature emerald glow orbs');
+  assert(content.includes('emerald-500') || content.includes('orange-500'), 'Must feature accent glow orbs');
   assert(content.includes('aria-hidden="true"'), 'Must have aria-hidden for backdrop element');
   assert(content.includes('pointer-events-none'), 'Must be non-interactive backdrop');
   assert(content.includes('export const Aurora'), 'Named export missing');
