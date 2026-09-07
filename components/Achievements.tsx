@@ -75,11 +75,11 @@ export const Achievements: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Trophy className="w-3.5 h-3.5 text-amber-400" />
-              <span>REKAM JEJAK KEJUARAAN RESMI</span>
+              <span>OUR TRACK RECORD</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
               <ShinyText
-                text="Kabinet Prestasi & Jejak Podium Nasional"
+                text="History Kami"
                 speed={4}
                 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
               />

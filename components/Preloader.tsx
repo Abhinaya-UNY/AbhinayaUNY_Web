@@ -12,6 +12,10 @@ export const Preloader: React.FC = () => {
     const hasLoaded = sessionStorage.getItem('abhinaya_preloader_loaded');
     if (hasLoaded) {
       setIsLoaded(true);
+      if (typeof window !== 'undefined') {
+        (window as any).__ABHINAYA_PRELOADER_DONE = true;
+        window.dispatchEvent(new CustomEvent('abhinaya:preloader-dismiss'));
+      }
       return;
     }
 
@@ -21,10 +25,14 @@ export const Preloader: React.FC = () => {
         if (prev >= 100) {
           clearInterval(interval);
           setTimeout(() => {
+            if (typeof window !== 'undefined') {
+              (window as any).__ABHINAYA_PRELOADER_DONE = true;
+              window.dispatchEvent(new CustomEvent('abhinaya:preloader-dismiss'));
+              sessionStorage.setItem('abhinaya_preloader_loaded', 'true');
+            }
             setOpacity(0);
             setTimeout(() => {
               setIsLoaded(true);
-              sessionStorage.setItem('abhinaya_preloader_loaded', 'true');
             }, 500);
           }, 200);
           return 100;
@@ -51,12 +59,12 @@ export const Preloader: React.FC = () => {
       className="fixed inset-0 z-[9999] bg-[#0B0B0E] flex flex-col items-center justify-center transition-opacity duration-500 select-none"
       style={{ opacity }}
     >
-      {/* Subtle ambient emerald glow */}
+      {/* Subtle ambient orange glow */}
       <div className="absolute w-72 h-72 bg-orange-500/10 blur-[100px] pointer-events-none rounded-full" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-xs w-full px-4">
         {/* Clean Logo Stage */}
-        <div className="relative w-16 h-16 rounded-2xl bg-[#121216] border border-white/10 p-2 flex items-center justify-center shadow-2xl">
+        <div className="relative w-16 h-16 rounded-2xl bg-white p-1.5 flex items-center justify-center shadow-2xl border border-white/20">
           <img
             src={`${basePath}/assets/logo_abhinaya.png`}
             alt="Logo Abhinaya UNY"
@@ -74,7 +82,7 @@ export const Preloader: React.FC = () => {
           </p>
         </div>
 
-        {/* Sleek Linear Progress Bar with Emerald Gradient */}
+        {/* Sleek Linear Progress Bar with Orange Gradient */}
         <div className="w-full space-y-2">
           <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden border border-white/10">
             <div
