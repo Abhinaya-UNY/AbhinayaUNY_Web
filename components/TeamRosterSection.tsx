@@ -634,7 +634,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
               Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-slate-400 leading-relaxed max-w-3xl mx-auto">
-              Daftar resmi kontingen riset robotika Abhinaya UNY di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Menampilkan skuad teknis aktif divisi, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta penjelajah alumni lintas generasi KRI.
+              Daftar resmi kontingen KRI Tim Abhinaya UNY. Bernaung di bawah <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek)</strong>, lalu <strong className="text-slate-200">Divisi Robotika</strong>, kemudian <strong className="text-slate-200">Kontes Robot Indonesia (KRI)</strong>, barulah <strong className="text-slate-200">Abhinaya</strong> sebagai tim kontingen KRI-nya. Menampilkan skuad teknis aktif, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta arsip alumni lintas generasi.
             </p>
           </div>
         )}
@@ -1073,7 +1073,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         {(activeTab === 'all' || activeTab === 'managers') && (
           <div className="space-y-4 pt-4 border-t border-white/5">
             <HorizontalScrollMemberTrack
-              accentColor="#10B981"
+              accentColor="#F59E0B"
               customHeader={
                 <div className="p-4 sm:p-5 rounded-2xl bg-[#121216] border border-white/[0.08] relative overflow-hidden space-y-4">
                   <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
@@ -1108,7 +1108,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   {/* Horizontal Connected Timeline Bar (2020 - 2025) */}
                   <div className="pt-2 border-t border-white/5">
                     <div className="relative flex items-center justify-between px-2 sm:px-6 py-2">
-                      <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 h-0.5 bg-gradient-to-r from-orange-500/30 via-teal-400/40 to-orange-300/50 z-0" />
+                      <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 h-0.5 bg-gradient-to-r from-orange-500/30 via-amber-400/40 to-orange-300/50 z-0" />
                       {[
                         { era: '2020', name: 'Yuli Dwi S.' },
                         { era: '2023', name: 'Mustika Wahyu A.' },
@@ -1134,7 +1134,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   manager,
                   {
                     border: 'border-white/10 hover:border-orange-400/40',
-                    accent: '#10B981',
+                    accent: '#F59E0B',
                   },
                   'carousel'
                 )
