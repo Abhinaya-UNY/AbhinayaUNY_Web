@@ -6,7 +6,7 @@ import { Users, Wrench, Zap, Code, Sparkles, Heart, CheckCircle2, Trophy, ArrowR
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Divisi Tim & Roster Anggota — Tim Robotika Abhinaya UNY',
+  title: 'Divisi Tim & Daftar Anggota: Tim Robotika Abhinaya UNY',
   description: 'Mengenal divisi-divisi di Tim Abhinaya UNY (Mekanik, Elektrik, Programming & AI, Manajerial) di bawah naungan UKM Rekayasa Teknologi UNY dan susunan resmi anggota kontingen KRI.',
 };
 
@@ -21,10 +21,10 @@ export default function DivisiPage() {
           <span>DIVISI &amp; KULTUR RISET TIM • UKM REKAYASA TEKNOLOGI UNY</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-          Struktur Divisi &amp; Roster Anggota
+          Struktur Divisi &amp; Daftar Anggota
         </h1>
         <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
-          Tim Abhinaya adalah divisi riset robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — wadah kolaboratif tingkat universitas bagi mahasiswa lintas fakultas untuk belajar, bereksperimen, dan berprestasi bersama di ajang Kontes Robot Indonesia (KRI) Puspresnas BPTI.
+          Tim Abhinaya adalah divisi riset robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>, wadah kolaboratif tingkat universitas bagi mahasiswa lintas fakultas untuk belajar, bereksperimen, dan berprestasi bersama di ajang Kontes Robot Indonesia (KRI) Puspresnas BPTI.
         </p>
       </div>
 
@@ -103,7 +103,7 @@ export default function DivisiPage() {
               Apakah harus jago koding atau elektro dulu sebelum gabung?
             </h3>
             <p className="text-slate-400 leading-relaxed text-xs">
-              <strong>Sama sekali tidak!</strong> Sebagian besar anggota kami memulai tanpa pengalaman robotika sebelumnya. Di UKM Restek UNY, kami menyediakan kurikulum pelatihan bertahap—mulai dari dasar logika pemrograman mikrokontroler, pengenalan sirkuit elektronika, hingga dasar mekanik 3D CAD.
+              <strong>Sama sekali tidak!</strong> Sebagian besar anggota kami memulai tanpa pengalaman robotika sebelumnya. Di UKM Restek UNY, kami menyediakan kurikulum pelatihan bertahap, mulai dari dasar logika pemrograman mikrokontroler, pengenalan sirkuit elektronika, hingga dasar mekanik 3D CAD.
             </p>
           </div>
 

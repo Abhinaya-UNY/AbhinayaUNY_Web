@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
     { href: '/#krtmi-story', label: 'KRTMI', sectionId: 'krtmi-story' },
     { href: '/#berita-media', label: 'BERITA', sectionId: 'berita-media' },
     { href: '/pertandingan', label: 'LAGA' },
-    { href: '/#team-roster', label: 'ROSTER', sectionId: 'team-roster' },
+    { href: '/#team-roster', label: 'ANGGOTA', sectionId: 'team-roster' },
   ];
 
   // Dynamic Viewport Scroll-Spy Tracking
@@ -111,7 +111,7 @@ export const Navbar: React.FC = () => {
                 ABHINAYA<span className="text-orange-400"> UNY</span>
               </span>
               <span className="text-[9px] text-slate-500 font-mono uppercase tracking-widest whitespace-nowrap leading-tight">
-                KRTMI — UKM Restek UNY
+                KRTMI • UKM Restek UNY
               </span>
             </div>
           </Link>

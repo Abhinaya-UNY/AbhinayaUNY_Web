@@ -628,7 +628,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           <div className="text-center space-y-3 max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-mono tracking-wider border border-brand-orange/20">
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>OFFICIAL TEAM ROSTER &amp; HISTORICAL ARCHIVE</span>
+              <span>ANGGOTA TIM & ARSIP GENERASI</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-tight">
               Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY
@@ -650,7 +650,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <Star className="w-3.5 h-3.5" />
-            <span>Semua Roster &amp; Arsip</span>
+            <span>Semua Anggota &amp; Arsip</span>
           </button>
 
           <button
