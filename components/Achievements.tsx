@@ -52,7 +52,7 @@ export const Achievements: React.FC = () => {
       organizer: 'KMTETI Fakultas Teknik Universitas Gadjah Mada',
       badge: 'NASIONAL UGM',
       highlight: false,
-      image: '/images/certificates/cert_technocorner_2026.png',
+      image: '/assets/robot_action_1.jpg',
       certNumber: 'DTETI FT UGM 2026',
     },
     {
@@ -62,7 +62,7 @@ export const Achievements: React.FC = () => {
       organizer: 'BPTI Puspresnas Kemendikbudristek',
       badge: 'JUARA 1 REGIONAL',
       highlight: true,
-      image: '/images/certificates/cert_juara_1_krtmi_wilayah_2024.png',
+      image: '/images/news/uny-krtmi-juara-1-wilayah-2024.jpg',
       certNumber: '18322/BPTI/DIKTI/2024',
     },
     {
@@ -72,7 +72,7 @@ export const Achievements: React.FC = () => {
       organizer: 'BPTI Puspresnas Kemendikbudristek & UMS',
       badge: 'JUARA 2 NASIONAL',
       highlight: true,
-      image: '/images/certificates/cert_juara_2_krtmi_nasional_2024.png',
+      image: '/gallery/krtmi_podium_juara.jpg',
       certNumber: '18869/PPN/DIKTI/2024',
     },
     {
@@ -82,7 +82,7 @@ export const Achievements: React.FC = () => {
       organizer: 'Puspresnas Kemendikbudristek',
       badge: 'JUARA 3 WILAYAH',
       highlight: false,
-      image: '/images/certificates/cert_krtmi_2023_wilayah.png',
+      image: '/images/news/uny-kri-enam-juara-2023.jpg',
       certNumber: '17091/BPTI/DIKTI/2023',
     },
     {
@@ -92,7 +92,7 @@ export const Achievements: React.FC = () => {
       organizer: 'Puspresnas Kemendikbudristek & USM',
       badge: 'FINALIS NASIONAL',
       highlight: false,
-      image: '/images/certificates/cert_krtmi_2023_nasional.png',
+      image: '/gallery/krtmi_team_celebration.jpg',
       certNumber: '17819/BPTI/DIKTI/2023',
     },
   ];
@@ -102,7 +102,7 @@ export const Achievements: React.FC = () => {
       return 'Penghargaan Resmi Teknik Elektro UNDIP';
     }
     if (organizer.includes('Gadjah Mada')) {
-      return 'Sertifikasi Resmi DTETI FT UGM';
+      return 'Dokumentasi Resmi DTETI FT UGM';
     }
     return 'Puspresnas BPTI / Penghargaan Resmi Kemendikbudristek';
   };
@@ -116,18 +116,18 @@ export const Achievements: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Trophy className="w-3.5 h-3.5 text-amber-400" />
-              <span>OFFICIAL CERTIFICATES & AWARDS</span>
+              <span>OFFICIAL TEAM AWARDS & ACHIEVEMENTS</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
               <ShinyText
-                text="History & Sertifikat Kami"
+                text="Dokumentasi & Prestasi Tim"
                 speed={4}
                 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
               />
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
-            Dokumentasi dan sertifikat resmi penghargaan Tim Robotika Abhinaya UNY di panggung Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP. Klik pada kartu untuk memperbesar sertifikat.
+            Dokumentasi panggung kejuaraan dan pencapaian resmi Tim Robotika Abhinaya UNY di arena Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP. Klik pada kartu untuk melihat foto dokumentasi tim.
           </p>
         </div>
 
@@ -165,11 +165,11 @@ export const Achievements: React.FC = () => {
                   </span>
                 </div>
 
-                {/* Certificate Image Preview */}
+                {/* Team Documentation Image Preview */}
                 <div
                   onClick={() => setSelectedCert(item)}
                   className="relative w-full aspect-[16/11] rounded-xl overflow-hidden bg-black/60 border border-white/10 group-hover:border-orange-500/50 transition-all cursor-pointer shadow-inner"
-                  title="Klik untuk melihat sertifikat ukuran penuh"
+                  title="Klik untuk melihat foto dokumentasi tim"
                 >
                   <img
                     src={`${basePath}${item.image}`}
@@ -186,14 +186,14 @@ export const Achievements: React.FC = () => {
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/40 backdrop-blur-[2px]">
                     <span className="px-3 py-1.5 rounded-lg bg-orange-500 text-black font-bold text-xs flex items-center gap-1.5 shadow-lg transform translate-y-2 group-hover:translate-y-0 transition-transform">
                       <Maximize2 className="w-3.5 h-3.5" />
-                      <span>Perbesar Sertifikat</span>
+                      <span>Lihat Dokumentasi</span>
                     </span>
                   </div>
 
                   {/* Corner Badge */}
                   <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/80 backdrop-blur-sm border border-white/10 text-[10px] font-mono text-slate-300 flex items-center gap-1">
                     <Eye className="w-2.5 h-2.5 text-orange-400" />
-                    <span>Lihat Asli</span>
+                    <span>Dokumentasi Tim</span>
                   </div>
                 </div>
 
@@ -280,7 +280,7 @@ export const Achievements: React.FC = () => {
               </button>
             </div>
 
-            {/* Modal Certificate Image */}
+            {/* Modal Image */}
             <div className="flex-1 overflow-auto flex items-center justify-center bg-black/50 rounded-xl p-2 border border-white/5 min-h-[300px]">
               <img
                 src={`${basePath}${selectedCert.image}`}
@@ -293,7 +293,7 @@ export const Achievements: React.FC = () => {
             <div className="flex items-center justify-between pt-2 text-xs text-slate-400 border-t border-white/10">
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>Dokumen Otentik & Terverifikasi Puspresnas / DTETI UGM / UNDIP</span>
+                <span>Dokumentasi Resmi Kejuaraan Tim Robotika Abhinaya UNY</span>
               </div>
               <a
                 href={`${basePath}${selectedCert.image}`}
@@ -301,7 +301,7 @@ export const Achievements: React.FC = () => {
                 rel="noopener noreferrer"
                 className="px-3.5 py-1.5 rounded-lg bg-orange-500 hover:bg-orange-600 text-black font-bold flex items-center gap-1.5 transition-colors shadow"
               >
-                <span>Buka Gambar Penuh</span>
+                <span>Buka Foto Penuh</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
