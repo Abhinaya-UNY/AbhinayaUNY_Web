@@ -3,7 +3,7 @@ import { Achievements } from '@/components/Achievements';
 import { Trophy, Award, ShieldCheck, ExternalLink, Newspaper, BookOpen } from 'lucide-react';
 
 export const metadata = {
-  title: 'Kabinet Prestasi & Berita Resmi: Abhinaya UNY Robotics',
+  title: 'Daftar Prestasi & Berita Resmi: Abhinaya UNY Robotics',
   description: 'Rekam jejak kejuaraan nasional KRTMI Puspresnas BPTI Kemendikbudristek, Technocorner DTETI FT UGM 2026, UNLIMITED UNDIP 2026, dan rilis pers resmi Universitas Negeri Yogyakarta untuk Tim Robotika Abhinaya UNY.',
 };
 
@@ -15,13 +15,13 @@ export default function PrestasiPage() {
       <div className="text-center space-y-4 max-w-4xl mx-auto">
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-gold/15 text-brand-gold text-xs font-black uppercase tracking-wider border border-brand-gold/30 font-mono">
           <Trophy className="w-4 h-4" />
-          <span>REKOR KEJUARAAN NASIONAL RESMI</span>
+          <span>PRESTASI &amp; JUARA TIM RESMI</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Kabinet Juara &amp; Publikasi Prestasi UNY
+          Daftar Prestasi &amp; Juara Tim Abhinaya
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-          Dokumentasi kejuaraan resmi divisi Kontes Robot Tematik Indonesia (KRTMI) Puspresnas BPTI Kemendikbudristek RI, Technocorner DTETI FT UGM 2026, dan UNLIMITED Robotics Competition UNDIP 2026.
+          Catatan juara dan piala yang diraih Tim Robotika Abhinaya UNY di ajang Kontes Robot Indonesia (KRTMI) Kemendikbudristek, Technocorner UGM, dan UNLIMITED UNDIP.
         </p>
       </div>
 
@@ -35,10 +35,10 @@ export default function PrestasiPage() {
           </div>
           <div>
             <h3 className="text-xl font-bold text-white">
-              Daftar Tautan Rilis Pers Humas UNY &amp; BPTI
+              Berita Resmi Prestasi di Website UNY
             </h3>
             <p className="text-xs text-slate-400">
-              Verifikasi keaslian berita publikasi institusional:
+              Liputan dan artikel berita resmi dari Humas UNY:
             </p>
           </div>
         </div>

@@ -628,13 +628,13 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           <div className="text-center space-y-3 max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-mono tracking-wider border border-brand-orange/20">
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>ANGGOTA TIM & ARSIP GENERASI</span>
+              <span>ANGGOTA TIM &amp; ALUMNI</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-tight">
-              Susunan Anggota &amp; Arsip Generasi Tim Abhinaya UNY
+              Anggota Tim &amp; Alumni Abhinaya UNY
             </h2>
-            <p className="text-xs sm:text-sm md:text-base text-slate-400 leading-relaxed max-w-3xl mx-auto">
-              Daftar resmi kontingen KRI Tim Abhinaya UNY. Bernaung di bawah <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek)</strong>, lalu <strong className="text-slate-200">Divisi Robotika</strong>, kemudian <strong className="text-slate-200">Kontes Robot Indonesia (KRI)</strong>, barulah <strong className="text-slate-200">Abhinaya</strong> sebagai tim kontingen KRI-nya. Menampilkan skuad teknis aktif, baris kehormatan Ketua Tim (2020–2025), Manajerial Tim (2020–2025), serta arsip alumni lintas generasi.
+            <p className="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed max-w-3xl mx-auto">
+              Kenalan dengan orang-orang di balik robot Abhinaya UNY! Tim Abhinaya berada di bawah naungan <strong className="text-white">UKM Rekayasa Teknologi (Restek) UNY</strong> Divisi Robotika KRI. Di sini kamu bisa melihat anggota tim yang masih aktif, jajaran ketua tim, manajer, serta kakak-kakak alumni dari setiap angkatan.
             </p>
           </div>
         )}
@@ -650,7 +650,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <Star className="w-3.5 h-3.5" />
-            <span>Semua Anggota &amp; Arsip</span>
+            <span>Semua Anggota</span>
           </button>
 
           <button
@@ -662,7 +662,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <Zap className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Skuad Teknis Aktif</span>
+            <span>Anggota Aktif</span>
           </button>
 
           <button
@@ -674,7 +674,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <Crown className="w-3.5 h-3.5 text-amber-400" />
-            <span>Leaders Hall of Fame</span>
+            <span>Ketua Tim (Dari Masa ke Masa)</span>
             <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">6</span>
           </button>
 
@@ -687,7 +687,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <Briefcase className="w-3.5 h-3.5 text-orange-400" />
-            <span>Managers Showcase</span>
+            <span>Manajer Tim (Dari Masa ke Masa)</span>
             <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">4</span>
           </button>
 
@@ -700,7 +700,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <History className="w-3.5 h-3.5 text-purple-400" />
-            <span>Arsip Alumni (2020–2025)</span>
+            <span>Alumni (2020–2025)</span>
           </button>
         </div>
 
@@ -990,7 +990,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS HALL OF FAME (2020 – 2025)
+            FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS (2020 – 2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'leaders') && (
           <div className="space-y-4 pt-4 border-t border-white/5">
@@ -1006,24 +1006,24 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       <div>
                         <div className="flex items-center space-x-2">
                           <span className="text-[10px] font-mono uppercase tracking-wider text-amber-400">
-                            CHRONOLOGICAL LEADERSHIP TIMELINE
+                            RIWAYAT KETUA TIM
                           </span>
                           <span className="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 text-[10px] font-mono border border-amber-500/20">
                             2020 – 2025
                           </span>
                         </div>
                         <h3 className="text-lg sm:text-2xl font-bold text-white">
-                          Leaders Hall of Fame
+                          Ketua Tim Dari Masa ke Masa
                         </h3>
-                        <p className="text-xs text-slate-400 mt-0.5">
-                          Deretan seluruh Ketua Tim Robotika Abhinaya UNY lintas generasi dari masa perintisan otonom hingga era AI Computer Vision.
+                        <p className="text-xs text-slate-300 mt-0.5">
+                          Para ketua tim yang memimpin riset dan perjuangan lomba robotika Abhinaya UNY dari tahun 2020 hingga sekarang.
                         </p>
                       </div>
                     </div>
 
                     <div className="flex items-center space-x-2 text-xs font-mono text-amber-400 bg-white/5 px-3.5 py-1.5 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                       <Award className="w-4 h-4 text-amber-400" />
-                      <span>6 Era Kepemimpinan Resmi</span>
+                      <span>6 Ketua Tim (2020–2025)</span>
                     </div>
                   </div>
 
@@ -1068,7 +1068,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS SHOWCASE (2020 – 2025)
+            FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS (2020 – 2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'managers') && (
           <div className="space-y-4 pt-4 border-t border-white/5">
@@ -1084,24 +1084,24 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       <div>
                         <div className="flex items-center space-x-2">
                           <span className="text-[10px] font-mono uppercase tracking-wider text-orange-400">
-                            OPERATIONAL &amp; MEDIA EXCELLENCE
+                            MANAJERIAL &amp; MEDIA
                           </span>
                           <span className="px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-300 text-[10px] font-mono border border-orange-500/20">
                             2020 – 2025
                           </span>
                         </div>
                         <h3 className="text-lg sm:text-2xl font-bold text-white">
-                          Managers Showcase
+                          Manajer Tim Dari Masa ke Masa
                         </h3>
-                        <p className="text-xs text-slate-400 mt-0.5">
-                          Pilar manajerial, penganggaran riset, administrasi birokrasi Puspresnas, logistik akomodasi, dan branding resmi @abhinaya.uny.
+                        <p className="text-xs text-slate-300 mt-0.5">
+                          Pengurus yang menangani administrasi lomba, keuangan tim, logistik perlengkapan, serta media sosial resmi @abhinaya.uny.
                         </p>
                       </div>
                     </div>
 
                     <div className="flex items-center space-x-2 text-xs font-mono text-orange-400 bg-white/5 px-3.5 py-1.5 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                       <ShieldCheck className="w-4 h-4 text-orange-400" />
-                      <span>Tata Kelola Kontingen Mandiri</span>
+                      <span>Pengurus Manajerial Tim</span>
                     </div>
                   </div>
 
@@ -1144,7 +1144,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 4 (BOTTOM): INTERACTIVE ALUMNI & GENERATION EXPLORER (2020–2025)
+            FEATURE 4 (BOTTOM): ALUMNI & ANGKATAN (2020–2025)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'alumni') && (
           <div className="space-y-6 pt-4 border-t border-white/5">
@@ -1158,17 +1158,17 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   <div>
                     <div className="flex items-center space-x-2">
                       <span className="text-[10px] font-mono uppercase tracking-wider text-purple-400">
-                        ALUMNI &amp; GENERATIONS ARCHIVE
+                        ARSIP ANGKATAN &amp; ALUMNI
                       </span>
                       <span className="px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 text-[10px] font-mono border border-purple-500/20">
                         2020 – 2025
                       </span>
                     </div>
                     <h3 className="text-lg sm:text-2xl font-bold text-white">
-                      Penjelajah Kontingen Alumni Robotika
+                      Daftar Alumni Per Angkatan
                     </h3>
-                    <p className="text-xs text-slate-400 mt-0.5">
-                      Eksplorasi kontingen resmi, struktur kepengurusan, divisi teknis, dan torehan prestasi kompetisi KRTMI Puspresnas per tahun generasi.
+                    <p className="text-xs text-slate-300 mt-0.5">
+                      Lihat susunan tim dan kakak-kakak alumni Abhinaya UNY berdasarkan tahun lomba (2020–2025).
                     </p>
                   </div>
                 </div>

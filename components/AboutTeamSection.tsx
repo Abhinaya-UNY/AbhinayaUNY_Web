@@ -25,8 +25,8 @@ export const AboutTeamSection: React.FC = () => {
               Mengenal Tim Robotika Abhinaya UNY
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
-            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) UNY</strong>, unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
+            Tim Abhinaya adalah tim robotika divisi <strong className="text-white">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-white">UKM Rekayasa Teknologi (Restek) UNY</strong>. Terbuka bagi seluruh mahasiswa UNY dari semua fakultas yang ingin belajar dan berprestasi bareng di dunia robotika.
           </p>
         </div>
 
@@ -71,8 +71,8 @@ export const AboutTeamSection: React.FC = () => {
                 <span>4 Divisi Teknis</span>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-5xl">
-              Solidaritas seluruh kontingen UKM Rekayasa Teknologi UNY lintas fakultas (Mekanik, Elektrik, Pemrograman &amp; AI, serta Manajerial) seusai menuntaskan seluruh ronde pertandingan dan mempersembahkan gelar Juara 2 Nasional di Edutorium Universitas Muhammadiyah Surakarta.
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-5xl">
+              Kekompakan seluruh anggota tim lintas fakultas (Mekanik, Elektrik, Pemrograman &amp; AI, serta Manajerial) seusai berjuang di arena hingga berhasil meraih Juara 2 Nasional di Edutorium Universitas Muhammadiyah Surakarta.
             </p>
           </div>
 
@@ -83,13 +83,13 @@ export const AboutTeamSection: React.FC = () => {
           
           <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
-              Wadah Riset, Belajar dari Nol, & Meraih Prestasi Bersama
+              Wadah Belajar Dari Nol &amp; Berprestasi Bareng
             </h3>
-            <p className="text-slate-400 text-sm leading-relaxed">
-              Di lab robotika UKM Rekayasa Teknologi UNY, kami memadukan 4 pilar rekayasa: <strong className="text-slate-200">Mekanik (Desain 3D & Manufaktur)</strong>, <strong className="text-slate-200">Elektrik (Sirkuit & Manajemen Daya)</strong>, <strong className="text-slate-200">Pemrograman & AI (Firmware & Visi Komputer)</strong>, serta <strong className="text-slate-200">Manajerial & Media</strong>.
+            <p className="text-slate-300 text-sm leading-relaxed">
+              Di UKM Rekayasa Teknologi UNY, kita bekerja dan belajar bareng dalam 4 divisi: <strong className="text-white">Mekanik (desain 3D &amp; rangka)</strong>, <strong className="text-white">Elektrik (jalur kabel &amp; daya baterai)</strong>, <strong className="text-white">Pemrograman &amp; AI (koding &amp; kamera cerdas)</strong>, serta <strong className="text-white">Manajerial &amp; Media</strong>.
             </p>
-            <p className="text-slate-400 text-sm leading-relaxed">
-              Mahasiswa baru dari seluruh jurusan dan fakultas di UNY dibimbing secara bertahap mulai dari pemahaman dasar elektronika, merakit sasis mecanum, hingga memprogram algoritma otonom berbasis kecerdasan buatan.
+            <p className="text-slate-300 text-sm leading-relaxed">
+              Mahasiswa baru (maba) dari jurusan dan fakultas apa pun bisa bergabung dan belajar dari nol. Nggak perlu minder atau takut belum punya pengalaman, semua diajari bertahap mulai dari dasar kelistrikan, merakit mekanik, sampai koding robot.
             </p>
 
             <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">

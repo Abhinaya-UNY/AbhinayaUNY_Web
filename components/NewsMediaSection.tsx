@@ -20,14 +20,14 @@ export const NewsMediaSection: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Newspaper className="w-3.5 h-3.5 text-orange-400" />
-              <span>NEWS, ARTICLES &amp; MEDIA COVERAGE</span>
+              <span>BERITA &amp; LIPUTAN MEDIA</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-              Liputan Berita Resmi &amp; Publikasi Media Nasional
+              Berita &amp; Liputan Media
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
-            Kumpulan siaran pers resmi Universitas Negeri Yogyakarta (UNY), liputan video televisi nasional ANTARA News, dan publikasi Puspresnas Kemendikbudristek atas torehan prestasi kontingen robotika Abhinaya UNY.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
+            Kumpulan artikel berita resmi dari Humas UNY, video liputan berita TV ANTARA News, dan media nasional tentang prestasi tim Abhinaya UNY.
           </p>
         </div>
 

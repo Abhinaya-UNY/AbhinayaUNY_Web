@@ -26,14 +26,14 @@ export const DocumentationGallerySection: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Camera className="w-3.5 h-3.5 text-orange-400" />
-              <span>DOKUMENTASI &amp; GALERI TIM</span>
+              <span>DOKUMENTASI &amp; FOTO KEGIATAN</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
-              Galeri Jejak Riset &amp; Perjuangan Abhinaya
+              Galeri Foto Kegiatan &amp; Lomba
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
-            Dokumentasi autentik di balik panggung kompetisi KRTMI dan persiapan di lab robotika UKM Rekayasa Teknologi UNY.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-md leading-relaxed">
+            Kumpulan foto di balik layar: suasana ngulik robot di lab, latihan di arena, sampai serunya bertanding di panggung lomba.
           </p>
         </div>
 

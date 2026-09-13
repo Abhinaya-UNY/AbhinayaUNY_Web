@@ -22,24 +22,24 @@ import { SpotlightCard, DecryptedText } from '@/components/animations';
 export const KRIOverview: React.FC = () => {
   const krtmiPillars = [
     {
-      title: 'Misi Tematik Dinamis & Kontekstual',
+      title: 'Tantangan Baru Tiap Tahun',
       icon: <Target className="w-5 h-5 text-brand-orange" />,
-      desc: 'Tidak seperti divisi lain bertema tetap, KRTMI menguji adaptabilitas rekayasa dengan tema misi yang berganti tiap tahun merefleksikan persoalan nasional: otomasi pascapanen, sterilisasi medis COVID-19, limbah B3 rumah sakit, hingga sortir sampah otonom.',
+      desc: 'Berbeda dari divisi robot lain yang temanya tetap, di KRTMI aturannya berganti tiap tahun. Dari robot panen padi, robot disinfektan medis COVID-19, hingga robot pemilah sampah otomatis.',
     },
     {
-      title: 'Visi Komputer AI & Deteksi Real-Time',
+      title: 'Kamera Pintar & AI',
       icon: <Eye className="w-5 h-5 text-cyan-400" />,
-      desc: 'Robot memproses visual arena secara otonom tanpa campur tangan manusia. Algoritma deteksi YOLOv8 dan segmentasi HSV mengekstrak koordinat objek dalam hitungan milidetik guna memandu mekanisme gripper/feeder.',
+      desc: 'Robot dipasangi kamera dan kecerdasan buatan (AI) agar bisa mengenali bentuk dan warna barang sendiri, lalu mengambil keputusan otomatis tanpa disetir manusia.',
     },
     {
-      title: 'Kinematika Holonomik 4WD Mecanum',
+      title: 'Lincah Bergerak Bebas',
       icon: <Zap className="w-5 h-5 text-amber-400" />,
-      desc: 'Sasis berpenggerak empat roda Mecanum independen memungkinkan translasi omni-directional dan rotasi simultan. Kendali Closed-Loop PID dengan encoder optik presisi tinggi menjaga stabilitas manuver di atas karpet arena.',
+      desc: 'Menggunakan 4 roda khusus (roda mecanum). Robot bisa meluncur maju, mundur, menyamping, dan berputar sekaligus dengan sangat gesit dan seimbang di arena.',
     },
     {
-      title: 'Integrasi 4 Pilar Mekatronika Terpadu',
+      title: 'Kerja Sama Kompak Antar Divisi',
       icon: <Cpu className="w-5 h-5 text-brand-orange" />,
-      desc: 'KRTMI menuntut integrasi tanpa celah antara rancang bangun sasis mekanik (CAD/CAM & 3D print), keandalan distribusi daya elektrik (PCB & baterai LiFePO4), ketangguhan firmware embedded sistem, dan ketertiban tata kelola manajerial.',
+      desc: 'Mulai dari mendesain rangka bodi robot, menyolder kabel listrik, menulis kodingan program, sampai mengurus perlengkapan lomba semuanya dikerjakan bareng-bareng.',
     },
   ];
 
@@ -95,8 +95,8 @@ export const KRIOverview: React.FC = () => {
               Mengenal Kontes Robot Indonesia &amp; KRTMI
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
-            Kontes Robot Indonesia (KRI) adalah ajang kompetisi rekayasa robotika mahasiswa paling bergengsi tingkat nasional yang diselenggarakan oleh <strong className="text-slate-200">Balai Pengembangan Talenta Indonesia (BPTI) / Puspresnas Kemendikbudristek RI</strong>.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
+            Kontes Robot Indonesia (KRI) adalah kompetisi robotika mahasiswa paling bergengsi tingkat nasional yang diselenggarakan resmi oleh <strong className="text-white">Balai Pengembangan Talenta Indonesia (BPTI) / Puspresnas Kemendikbudristek RI</strong>.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ export const KRIOverview: React.FC = () => {
                 Apa Itu KRTMI (Kontes Robot Tematik Indonesia)?
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
-                KRTMI adalah salah satu divisi resmi KRI yang menguji kemampuan tim dalam menciptakan robot beroda otonom cerdas untuk menyelesaikan misi bertema khusus (*thematic mission*) yang relevan dengan kebutuhan industri dan kemanusiaan.
+                KRTMI adalah divisi di ajang KRI yang menguji kecerdasan robot otonom. Robot harus menyelesaikan misi bertema khusus secara otomatis di arena tanpa dikendalikan remote.
               </p>
             </div>
 
@@ -126,7 +126,7 @@ export const KRIOverview: React.FC = () => {
               href="#krtmi-story"
               className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-orange-400 hover:bg-orange-300 text-black font-bold text-xs tracking-wider transition shadow-md flex-shrink-0 cursor-pointer"
             >
-              <span>Lihat Bedah Regulasi KRTMI (2019–2026)</span>
+              <span>Lihat Panduan &amp; Aturan Lomba</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -155,7 +155,7 @@ export const KRIOverview: React.FC = () => {
           <div className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.06] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs">
             <div className="flex items-center space-x-2 text-orange-400 font-bold">
               <Trophy className="w-4 h-4 text-brand-gold flex-shrink-0" />
-              <span>Evolusi Tema KRTMI:</span>
+              <span>Tema Lomba Tiap Tahun:</span>
             </div>
             <div className="flex flex-wrap items-center gap-2 text-slate-300 font-mono text-[11px]">
               <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2019: Panen Padi</span>
@@ -164,11 +164,11 @@ export const KRIOverview: React.FC = () => {
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2021: Rawat Pasien Medis</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2022: Limbah B3 RS</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2022: Limbah Medis RS</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2023: Digital Twin Cyber-Physical</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2023: Pemilah Sampah Cerdas</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-orange-500/10 text-orange-400 font-bold border border-orange-500/40">2024: Pemilah Sampah Cerdas</span>
+              <span className="px-2.5 py-1 rounded-lg bg-orange-500/10 text-orange-400 font-bold border border-orange-500/40">2024: Pemilah Sampah Otonom</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
             </div>

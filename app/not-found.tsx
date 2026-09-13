@@ -93,7 +93,7 @@ export default function NotFound() {
             className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 text-slate-300 hover:text-white font-medium text-sm transition"
           >
             <Trophy className="w-4 h-4" />
-            <span>Kabinet Prestasi Juara</span>
+            <span>Prestasi &amp; Juara Tim</span>
           </Link>
         </div>
 
@@ -104,7 +104,7 @@ export default function NotFound() {
             className="inline-flex items-center space-x-2 text-xs font-mono text-slate-400 hover:text-brand-orange transition"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Atau kembali ke titik awal sistem</span>
+            <span>Kembali ke Beranda</span>
           </Link>
         </div>
 

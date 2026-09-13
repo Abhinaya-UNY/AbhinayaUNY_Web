@@ -102,14 +102,14 @@ export default function Custom500Content({ reset }: Custom500ContentProps) {
             className="flex items-center justify-center space-x-2 px-5 py-3.5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 text-slate-300 hover:text-white font-medium text-sm transition"
           >
             <Trophy className="w-4 h-4" />
-            <span>Kabinet Prestasi Juara</span>
+            <span>Prestasi &amp; Juara Tim</span>
           </Link>
         </div>
 
         {/* Failsafe Notice */}
         <div className="pt-2 flex items-center justify-center space-x-2 text-xs font-mono text-slate-400">
           <ShieldAlert className="w-3.5 h-3.5 text-orange-400" />
-          <span>Abhinaya UNY Failsafe Protocol • UKM Rekayasa Teknologi UNY</span>
+          <span>Sistem Web Abhinaya UNY • UKM Rekayasa Teknologi UNY</span>
         </div>
 
       </div>

@@ -157,12 +157,12 @@ export const HeroSection: React.FC = () => {
                 </span>
               </div>
 
-              {/* Editorial Description Text (Max-w-xl, Left-aligned) */}
+              {/* Friendly Description Text (Max-w-xl, Left-aligned) */}
               <p
-                className={`text-xs sm:text-sm text-slate-400 leading-relaxed max-w-xl pt-1 ${getEntranceClass(550)}`}
+                className={`text-xs sm:text-sm text-slate-300 leading-relaxed max-w-xl pt-1 ${getEntranceClass(550)}`}
                 style={{ transitionDelay: isPreloaderDone ? '550ms' : '0ms' }}
               >
-                Pusat riset mekatronika, visi komputer berbasis AI, dan sistem otomasi robot otonom mahasiswa Universitas Negeri Yogyakarta di bawah naungan UKM Rekayasa Teknologi, berprestasi di panggung Kontes Robot Indonesia (KRI) Puspresnas BPTI Kemendikbudristek RI.
+                Tim robotika mahasiswa Universitas Negeri Yogyakarta di bawah UKM Rekayasa Teknologi. Kami merancang robot otomatis dan sistem kamera cerdas untuk bertanding di ajang Kontes Robot Indonesia (KRI).
               </p>
             </div>
 
@@ -177,7 +177,7 @@ export const HeroSection: React.FC = () => {
                   onClick={(e) => scrollToSection(e, 'about-tim')}
                   className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-400 hover:to-orange-300 text-black font-bold text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer shadow-orange-glow hover:shadow-orange-glow-sm"
                 >
-                  <span>JELAJAHI TIM &amp; BUKU PANDUAN</span>
+                  <span>KENALAN DENGAN TIM</span>
                   <ArrowRight className="w-4 h-4 text-black" />
                 </a>
               </Magnet>
@@ -188,7 +188,7 @@ export const HeroSection: React.FC = () => {
                   className="w-full sm:w-auto px-6 py-3.5 rounded-full border border-white/10 hover:border-orange-500/40 bg-white/[0.03] hover:bg-white/[0.06] text-slate-300 hover:text-white font-medium text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center space-x-2.5 transition-all duration-300 cursor-pointer"
                 >
                   <Play className="w-4 h-4 text-orange-400 fill-orange-400" />
-                  <span>SAKSIKAN AKSI ROBOT</span>
+                  <span>TONTON AKSI ROBOT</span>
                 </a>
               </Magnet>
             </div>
@@ -202,14 +202,14 @@ export const HeroSection: React.FC = () => {
                 href="/krtmi"
                 className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-orange-300 border border-white/[0.08] hover:border-orange-500/30 bg-[#121216]/60 transition"
               >
-                <span>Jelajahi Arsip KRTMI</span>
+                <span>Cerita Lomba KRTMI</span>
                 <ArrowRight className="w-3 h-3 text-slate-500" />
               </Link>
               <Link
                 href="/pertandingan"
                 className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-slate-400 hover:text-orange-300 border border-white/[0.08] hover:border-orange-500/30 bg-[#121216]/60 transition"
               >
-                <span>Laga &amp; Hasil Pertandingan</span>
+                <span>Jadwal &amp; Hasil Laga</span>
                 <ArrowRight className="w-3 h-3 text-slate-500" />
               </Link>
             </div>
@@ -227,7 +227,7 @@ export const HeroSection: React.FC = () => {
               >
                 <span className="w-2 h-2 rounded-full bg-orange-400 animate-pulse flex-shrink-0" />
                 <span className="text-[10px] text-slate-400">STATUS:</span>
-                <span className="text-orange-400 font-bold truncate">AUTONOMOUS</span>
+                <span className="text-orange-400 font-bold truncate">OTOMATIS</span>
               </div>
 
               <div
@@ -235,7 +235,7 @@ export const HeroSection: React.FC = () => {
                 style={{ transitionDelay: isPreloaderDone ? '250ms' : '0ms' }}
               >
                 <Cpu className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">KINEMATIKA:</span>
+                <span className="text-[10px] text-slate-400">PENGGERAK:</span>
                 <span className="text-orange-300 font-bold truncate">4WD MECANUM</span>
               </div>
 
@@ -245,7 +245,7 @@ export const HeroSection: React.FC = () => {
               >
                 <ShieldCheck className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                 <span className="text-[10px] text-slate-400">TARGET:</span>
-                <span className="text-amber-300 font-bold truncate">KRI 2026 READY</span>
+                <span className="text-amber-300 font-bold truncate">SIAP KRI 2026</span>
               </div>
 
               <div
@@ -253,8 +253,8 @@ export const HeroSection: React.FC = () => {
                 style={{ transitionDelay: isPreloaderDone ? '350ms' : '0ms' }}
               >
                 <Radio className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">TELEMETRI:</span>
-                <span className="text-orange-400 font-bold truncate">ACTIVE 5.8GHz</span>
+                <span className="text-[10px] text-slate-400">KONEKSI:</span>
+                <span className="text-orange-400 font-bold truncate">WIRELESS 5.8GHz</span>
               </div>
             </div>
 

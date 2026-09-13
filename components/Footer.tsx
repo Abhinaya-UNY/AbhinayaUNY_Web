@@ -25,8 +25,8 @@ export const Footer: React.FC = () => {
                 TIM ROBOTIKA ABHINAYA UNY
               </span>
             </div>
-            <p className="text-xs leading-relaxed text-slate-400 max-w-md">
-              Tim Riset &amp; Pengembangan Robotika divisi Kontes Robot Tematik Indonesia (KRTMI) di bawah naungan UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta, mewadahi mahasiswa lintas fakultas berkreasi, berinovasi, dan meraih prestasi di kancah robotika nasional.
+            <p className="text-xs leading-relaxed text-slate-300 max-w-md">
+              Tim robotika divisi KRTMI di bawah naungan UKM Rekayasa Teknologi (Restek) UNY. Terbuka untuk seluruh mahasiswa UNY dari semua jurusan yang ingin belajar dan berprestasi bareng di kompetisi robotika nasional.
             </p>
           </div>
 

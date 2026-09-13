@@ -25,11 +25,11 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     title: 'LIVE LOMBA FULL KRTMI WILAYAH 2024 | ABHINAYA Day 2 KRI REGIONAL 2024',
     shortTitle: 'Live Lomba KRTMI 2024',
     subtitle: 'Full Match Live Arena Competition • Kontes Robot Tematik Indonesia',
-    description: 'Rekaman siaran langsung pertandingan resmi robot Abhinaya UNY bertanding di arena KRTMI Wilayah 2024 Day 2: kecepatan manuver holonomik 4WD Mecanum, deteksi sampah otonom via AI YOLO, dan aksi kejar poin di arena laga.',
+    description: 'Rekaman siaran langsung robot Abhinaya UNY bertanding di KRTMI Wilayah 2024: melihat kelincahan robot beroda mecanum, sensor kamera mendeteksi sampah otomatis, dan kejar-kejaran poin di arena.',
     type: 'action',
     aspect: '16:9',
     url: 'https://www.youtube.com/watch?v=PmxwdrhpxKg',
-    tag: 'Live Match Replay (16:9)',
+    tag: 'Siaran Laga (16:9)',
     stats: '1080p 60fps • Laga Resmi KRTMI',
     badgeColor: 'bg-brand-orange/20 text-brand-orange border-brand-orange/40',
   },
@@ -38,11 +38,11 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     title: 'Abhinaya Introduction & Perkembangan KRTMI 2019 - 2023',
     shortTitle: 'Kilas Balik 2019–2023',
     subtitle: 'Historical Tech Retrospective • Kilas Balik Riset Robotika UNY',
-    description: 'Dokumentasi perjalanan inovasi dan evolusi robot tematik Abhinaya UNY dari masa perintisan 2019 (pertanian), 2020 (disinfeksi COVID-19), 2021 (layanan medis), 2022 (limbah B3), hingga 2023 (digital twin).',
+    description: 'Perjalanan robot Abhinaya UNY dari tahun ke tahun: dari robot panen padi (2019), robot penyemprot disinfektan medis (2020), sampai robot pemilah sampah otomatis (2023).',
     type: 'action',
     aspect: '16:9',
     url: 'https://youtu.be/J5FXI2AnQxE',
-    tag: 'Tech Retrospective (16:9)',
+    tag: 'Kilas Balik (16:9)',
     stats: 'HD 60fps • Kilas Balik KRTMI',
     badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
   },
@@ -51,7 +51,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     title: 'ABHINAYA - UNY TEMATIK TEAM - OPREC',
     shortTitle: 'Open Recruitment Tim',
     subtitle: 'Open Recruitment & Kaderisasi Anggota Baru Robotika UNY',
-    description: 'Video profil ajakan bergabung bersama Tim Robotika Abhinaya UNY untuk mahasiswa baru dan calon periset mekatronika UKM Rekayasa Teknologi UNY.',
+    description: 'Video ajakan bergabung untuk mahasiswa baru UNY yang ingin belajar membuat robot dan berprestasi bareng di UKM Rekayasa Teknologi.',
     type: 'action',
     aspect: '16:9',
     url: 'https://www.youtube.com/watch?v=LyP9M_uTvMk',
@@ -184,14 +184,14 @@ export const YouTubeVideoShowcase: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
               <FaYoutube className="w-3.5 h-3.5 text-red-500" />
-              <span>OFFICIAL VIDEO INTRODUCTION &amp; SHOWCASE</span>
+              <span>VIDEO &amp; AKSI ROBOT</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-              Mengenal Abhinaya UNY Lewat Video Resmi
+              Tonton Video &amp; Aksi Robot Kami
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
-            Tonton video profil resmi Tim Robotika Abhinaya UNY untuk memahami dedikasi riset, kultur kolaborasi 4 divisi di bawah naungan UKM Rekayasa Teknologi (Restek) UNY, dan teknologi robot otonom kami.
+            Lihat langsung bagaimana robot kami beraksi di arena lomba, keseruan ngulik robot di lab, dan bagaimana kami belajar membuat robot bareng di UKM Restek UNY.
           </p>
         </div>
 

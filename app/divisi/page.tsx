@@ -18,13 +18,13 @@ export default function DivisiPage() {
       <div className="text-center space-y-4 max-w-4xl mx-auto">
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-orange-500/15 text-orange-400 text-xs font-black uppercase tracking-wider border border-orange-500/30 shadow-sm">
           <Users className="w-4 h-4" />
-          <span>DIVISI &amp; KULTUR RISET TIM • UKM REKAYASA TEKNOLOGI UNY</span>
+          <span>DIVISI TIM • UKM REKAYASA TEKNOLOGI UNY</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
           Struktur Divisi &amp; Daftar Anggota
         </h1>
         <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
-          Tim Abhinaya adalah divisi riset robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>, wadah kolaboratif tingkat universitas bagi mahasiswa lintas fakultas untuk belajar, bereksperimen, dan berprestasi bersama di ajang Kontes Robot Indonesia (KRI) Puspresnas BPTI.
+          Tim Abhinaya adalah tim robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong>. Wadah seru bagi seluruh mahasiswa UNY dari semua fakultas untuk belajar membuat robot dari nol, bereksperimen, dan berprestasi bareng di ajang Kontes Robot Indonesia (KRI).
         </p>
       </div>
 

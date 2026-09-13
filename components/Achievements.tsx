@@ -99,12 +99,12 @@ export const Achievements: React.FC = () => {
 
   const getVerificationLabel = (organizer: string) => {
     if (organizer.includes('Diponegoro')) {
-      return 'Penghargaan Resmi Teknik Elektro UNDIP';
+      return 'Lomba Robotika UNDIP';
     }
     if (organizer.includes('Gadjah Mada')) {
-      return 'Dokumentasi Resmi DTETI FT UGM';
+      return 'Lomba Robotika UGM';
     }
-    return 'Puspresnas BPTI / Penghargaan Resmi Kemendikbudristek';
+    return 'Puspresnas Kemendikbudristek RI';
   };
 
   return (
@@ -116,18 +116,18 @@ export const Achievements: React.FC = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Trophy className="w-3.5 h-3.5 text-amber-400" />
-              <span>OFFICIAL TEAM AWARDS & ACHIEVEMENTS</span>
+              <span>PRESTASI &amp; JUARA TIM</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight">
               <ShinyText
-                text="Dokumentasi & Prestasi Tim"
+                text="Prestasi & Juara Tim"
                 speed={4}
                 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight"
               />
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
-            Dokumentasi panggung kejuaraan dan pencapaian resmi Tim Robotika Abhinaya UNY di arena Kontes Robot Indonesia (KRTMI) Puspresnas BPTI, Technocorner UGM, dan UNLIMITED UNDIP. Klik pada kartu untuk melihat foto dokumentasi tim.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-md leading-relaxed">
+            Daftar piala dan juara yang berhasil dibawa pulang oleh Tim Robotika Abhinaya UNY di tingkat wilayah hingga nasional. Klik pada kartu untuk melihat foto dokumentasi tim di panggung juara.
           </p>
         </div>
 
