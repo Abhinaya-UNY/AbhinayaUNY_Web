@@ -2004,10 +2004,10 @@ export const DIVISION_BADGES: Record<TeamMember['division'], { bg: string; text:
     accent: '#EAB308',
   },
   'Manager': {
-    bg: 'bg-emerald-950/40',
-    text: 'text-emerald-300',
-    border: 'border-emerald-500/40',
-    accent: '#10B981',
+    bg: 'bg-amber-950/40',
+    text: 'text-amber-300',
+    border: 'border-amber-500/40',
+    accent: '#F59E0B',
   },
   'Program': {
     bg: 'bg-cyan-950/40',

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Custom500Content from '@/components/Custom500Content';
 
 export const metadata: Metadata = {
-  title: '500 — Anomali Sistem Internal | Abhinaya UNY Robotics',
+  title: '500: Anomali Sistem Internal | Abhinaya UNY Robotics',
   description: 'Terjadi anomali pemrosesan data internal pada sistem telemetri Abhinaya UNY. Protokol failsafe aktif.',
 };
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { AlertTriangle, Bot, Home, History, Cpu, Trophy, Terminal, Radio, ArrowLeft, ShieldCheck } from 'lucide-react';
 
 export const metadata = {
-  title: '404 — Koordinat Sinyal Hilang | Abhinaya UNY Robotics',
+  title: '404: Koordinat Sinyal Hilang | Abhinaya UNY Robotics',
   description: 'Halaman yang Anda tuju tidak ditemukan atau telah dipindahkan ke sektor lain.',
 };
 

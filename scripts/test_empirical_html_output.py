@@ -199,7 +199,7 @@ def test_css_integrity():
     total_css_size = 0
     key_classes_found = {}
     key_classes = [
-        'bg-brand-orange', 'text-brand-orange', 'text-amber-300', 'text-emerald-300',
+        'bg-brand-orange', 'text-brand-orange', 'text-amber-300',
         'grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-3', 'duration-1000'
     ]
     for c in key_classes:
@@ -218,6 +218,48 @@ def test_css_integrity():
                     key_classes_found[c] = True
 
     return {'css_files': css_files, 'total_css_size_bytes': total_css_size, 'classes_verified': key_classes_found}
+
+def test_anti_slop_compliance():
+    """
+    Empirical Anti-Slop Audit (Rule R-02):
+    - Zero Em Dashes (— / \u2014) across all exported HTML pages.
+    - Zero Unicode emojis in DOM nodes.
+    """
+    assert os.path.exists(OUT_DIR), f"Out directory missing: {OUT_DIR}"
+    html_files = []
+    for root, _, files in os.walk(OUT_DIR):
+        for f in files:
+            if f.endswith('.html'):
+                html_files.append(os.path.join(root, f))
+    assert len(html_files) > 0, "No HTML files found in out directory"
+
+    emoji_pattern = re.compile(r'[\U0001F300-\U0001FAFF\u2700-\u27BF\u2600-\u26FF]')
+    script_pattern = re.compile(r'<script\b[^<]*(?:(?!</script>)<[^<]*)*</script>', re.IGNORECASE)
+    style_pattern = re.compile(r'<style\b[^<]*(?:(?!</style>)<[^<]*)*</style>', re.IGNORECASE)
+
+    total_em_dashes = 0
+    total_emojis = 0
+
+    for hf in html_files:
+        rel = os.path.relpath(hf, OUT_DIR)
+        with open(hf, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        em_dashes = content.count('\u2014')
+        total_em_dashes += em_dashes
+        assert em_dashes == 0, f"Anti-slop violation: {em_dashes} em dashes found in {rel}"
+
+        stripped = script_pattern.sub('', content)
+        stripped = style_pattern.sub('', stripped)
+        emojis = emoji_pattern.findall(stripped)
+        total_emojis += len(emojis)
+        assert len(emojis) == 0, f"Anti-slop violation: {len(emojis)} emojis found in {rel}: {emojis}"
+
+    return {
+        'total_pages_audited': len(html_files),
+        'total_em_dashes': total_em_dashes,
+        'total_emojis': total_emojis
+    }
 
 def run_all_empirical_tests():
     print("======================================================================")
@@ -261,6 +303,12 @@ def run_all_empirical_tests():
     print(f" ✔ CSS Bundles: {css_res['css_files']} ({css_res['total_css_size_bytes']:,} bytes)")
     for c, found in css_res['classes_verified'].items():
         print(f" ✔ Utility class: {c:<25} [COMPILED]")
+
+    print("\n[TEST 8] Anti-Slop Audit (Rule R-02): Zero Em Dashes & Zero Unicode Emojis...")
+    anti_slop = test_anti_slop_compliance()
+    print(f" ✔ Total HTML pages audited: {anti_slop['total_pages_audited']}")
+    print(f" ✔ Em dashes count across all exported HTML pages: {anti_slop['total_em_dashes']} (Rule R-02 Enforced)")
+    print(f" ✔ Unicode emojis in visible text nodes: {anti_slop['total_emojis']} (Strict SVG Icons Enforced)")
 
     print("\n======================================================================")
     print(" ALL EMPIRICAL HTML OUTPUT VERIFICATIONS PASSED (100% SUCCESS)!")

@@ -3,7 +3,7 @@ import { Achievements } from '@/components/Achievements';
 import { Trophy, Award, ShieldCheck, ExternalLink, Newspaper, BookOpen } from 'lucide-react';
 
 export const metadata = {
-  title: 'Kabinet Prestasi & Berita Resmi — Abhinaya UNY Robotics',
+  title: 'Kabinet Prestasi & Berita Resmi: Abhinaya UNY Robotics',
   description: 'Rekam jejak kejuaraan nasional KRTMI Puspresnas BPTI Kemendikbudristek, Technocorner DTETI FT UGM 2026, UNLIMITED UNDIP 2026, dan rilis pers resmi Universitas Negeri Yogyakarta untuk Tim Robotika Abhinaya UNY.',
 };
 

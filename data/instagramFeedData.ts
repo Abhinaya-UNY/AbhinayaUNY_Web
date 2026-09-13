@@ -509,11 +509,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-26-11_UTC_C_0uDCjzSjL",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Kalibrasi Parameter PID Motor Penggerak Sasis Mecanum",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Proses penalaan parameter PID pada sistem penggerak roda mecanum robot KRTMI Abhinaya UNY. Pengujian respon kecepatan dan koreksi sudut heading secara real-time memastikan manuver omnidirectional tetap presisi di atas lintasan karpet arena.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #robotikaindonesia",
  "images": [
  "/images/instagram_feed/2024-09-12_16-26-11_UTC_C_0uDCjzSjL.jpg"
  ],
@@ -523,11 +523,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-26-51_UTC_C_0uH9gTkXl",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Implementasi dan Uji Inferensi Deteksi Objek YOLOv8",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Pengujian model computer vision YOLOv8 yang diintegrasikan pada mini PC onboard sasis robot. Deteksi bounding box dan estimasi jarak objek limbah medis mampu berjalan konsisten pada kecepatan 30 FPS dalam berbagai kondisi pencahayaan arena.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #computervision",
  "images": [
  "/images/instagram_feed/2024-09-12_16-26-51_UTC_C_0uH9gTkXl.jpg"
  ],
@@ -537,11 +537,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-27-12_UTC_C_0uKjOzv1u",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Optimasi Tekanan Kerja Silinder Gripper Pneumatik",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Penyelarasan regulator tekanan udara kompresor mini dan solenoid valve silinder gripper. Mekanisme capit dioptimalkan agar mencengkeram wadah target secara kuat, stabil, dan minim getaran saat robot melakukan akselerasi cepat.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #mekatronika",
  "images": [
  "/images/instagram_feed/2024-09-12_16-27-12_UTC_C_0uKjOzv1u.jpg"
  ],
@@ -551,11 +551,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-27-39_UTC_C_0uN4jT4fF",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Validasi Pembacaan Jarak Sensor Ultrasonik dan ToF",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Eksperimen pembacaan sensor jarak ultrasonik dan time-of-flight (ToF) dalam mendeteksi batas dinding serta tata letak rak penataan objek. Data filter kalman meminimalkan noise pantulan sinyal pada sudut arena.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #sensorika",
  "images": [
  "/images/instagram_feed/2024-09-12_16-27-39_UTC_C_0uN4jT4fF.jpg"
  ],
@@ -565,11 +565,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-27-52_UTC_C_0uPbYzsDQ",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Monitoring Konsumsi Daya Baterai LiFePO4 24V di Paddock",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Pemeriksaan kurva pelepasan daya baterai LiFePO4 24V melalui modul telemetri nirkabel di paddock. Pemantauan arus puncak motor dan voltase tiap sel menjamin pasokan energi robot tetap stabil selama putaran pertandingan penuh.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #telemetri",
  "images": [
  "/images/instagram_feed/2024-09-12_16-27-52_UTC_C_0uPbYzsDQ.jpg"
  ],
@@ -579,11 +579,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_16-28-05_UTC_C_0uRA8TA89",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Koordinasi Teknis Terpadu Mekanik dan Elektrikal",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika",
+ "caption": "Sesi sinkronisasi jalur perkabelan daya tinggi dan evaluasi rigiditas struktural sasis sebelum sesi uji jalan penuh. Kolaborasi lintas divisi memastikan setiap sub-sistem robot beroperasi secara harmonis dan andal.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #timrobotika",
  "images": [
  "/images/instagram_feed/2024-09-12_16-28-05_UTC_C_0uRA8TA89.jpg"
  ],
@@ -593,11 +593,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_17-49-08_UTC_C_03ipczFeM",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Performa Sempurna Robot Abhinaya di Arena KRTMI Regional",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika",
+ "caption": "Dokumentasi kejuaraan Kontes Robot Tematik Indonesia (KRTMI) tingkat regional. Strategi navigasi otonom dan efisiensi waktu pemindahan objek membawa Tim Abhinaya UNY meraih gelar Juara 1, membuktikan keandalan rekayasa sistem yang telah dirancang.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #juara1",
  "images": [
  "/images/instagram_feed/2024-09-12_17-49-08_UTC_C_03ipczFeM_1.jpg",
  "/images/instagram_feed/2024-09-12_17-49-08_UTC_C_03ipczFeM_10.jpg",
@@ -616,11 +616,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_17-49-24_UTC_C_03kmdTpNp",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Persiapan Strategis di Paddock Edutorium UMS Solo",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika",
+ "caption": "Briefing strategi pertandingan dan pemeriksaan akhir fungsionalitas robot di area paddock Edutorium UMS. Fokus, ketenangan teknis, dan kesiapan mental menjadi kunci utama menghadapi persaingan tingkat nasional.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #edutoriumums",
  "images": [
  "/images/instagram_feed/2024-09-12_17-49-24_UTC_C_03kmdTpNp.jpg"
  ],
@@ -630,11 +630,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2024-09-12_17-50-54_UTC_C_03vj8zNUB",
- "title": "Together, we’re stronger than any challenge. Every step we t...",
+ "title": "Pencapaian Podium Juara 2 KRTMI Nasional 2024",
  "category": "Team Spirit & Kebersamaan",
  "year": "2024",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2024)",
- "caption": "[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\n.\n.\n.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika",
+ "caption": "Raihan Juara 2 KRI Nasional divisi KRTMI tahun 2024. Hasil kerja keras seluruh divisi mekanik, elektronik, pemrogram, dan manajemen yang mendedikasikan waktu riset demi mengharumkan nama Universitas Negeri Yogyakarta di kancah nasional.\n.\n.\n#abhinayauny #kriuny #robotikauny #kri2024 #krtmi #kri2024nasional",
  "images": [
  "/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_1.jpg",
  "/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_10.jpg",
@@ -653,11 +653,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-35-49_UTC_DPHor8rEz4v",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Pengujian Trajektori Dinamis di Mockup Arena KRTMI 2025",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Simulasi lintasan robot pada replika arena KRTMI Puspresnas BPTI standar kompetisi. Evaluasi drift roda dan kompensasi akselerasi dilakukan untuk mengunci rute otonom tercepat menuju zona drop-off objek.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-35-49_UTC_DPHor8rEz4v.jpg"
  ],
@@ -667,11 +667,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-36-18_UTC_DPHovgbk4NE",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Penyempurnaan Algoritma Kontrol Kinematika Invers",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Optimasi algoritma invers kinematika roda mecanum berbasis mikrokontroler STM32 32-bit. Responsivitas sudut belok dan stabilitas traksi ditingkatkan guna mengatasi gesekan variabel permukaan karpet arena.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-36-18_UTC_DPHovgbk4NE.jpg"
  ],
@@ -681,11 +681,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-36-52_UTC_DPHozsjkzcZ",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Integrasi Sensor Kamera Stereo dan Pipeline AI Vision",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Pengujian pipeline penglihatan komputer dengan arsitektur neural network yang dikompilasi secara optimal pada accelerator onboard. Pelacakan objek target berlangsung stabil meski terdapat perubahan intensitas cahaya sekitar.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-36-52_UTC_DPHozsjkzcZ.jpg"
  ],
@@ -695,11 +695,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-37-34_UTC_DPHo4wEk6vW",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Rekayasa Mekanisme Pengangkut dan Gripper Adaptif",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Fabrikasi presisi mekanisme capit menggunakan kombinasi aluminium paduan dan pencetakan 3D serat karbon. Pengurangan bobot gripper meningkatkan kecepatan siklus pemindahan objek secara signifikan.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-37-34_UTC_DPHo4wEk6vW.jpg"
  ],
@@ -709,11 +709,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-37-55_UTC_DPHo7UHE-ZX",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Pengujian Manajemen Termal dan Proteksi Kelistrikan",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Uji beban penuh sistem catu daya baterai LiFePO4 dan sirkuit proteksi tegangan lebih. Sensor suhu memantau distribusi panas driver motor untuk memastikan kontinuitas performa pada sesi uji ketahanan robot.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-37-55_UTC_DPHo7UHE-ZX.jpg"
  ],
@@ -723,11 +723,11 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
  },
  {
  "id": "ig-post-2025-09-27_20-38-49_UTC_DPHpB7eE-bY",
- "title": "No challenge can defeat us when we stand together. Each step...",
+ "title": "Refleksi Inovasi Riset Abhinaya Menuju Prestasi Emas",
  "category": "Team Spirit & Kebersamaan",
  "year": "2025",
  "event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
- "caption": "No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \n\n#abhinaya2025\n#GetTheTropy #robotikauny2025",
+ "caption": "Dedikasi, disiplin riset, dan semangat eksplorasi tiada henti dari tim rekayasa teknologi UNY. Setiap iterasi rancang bangun mengantarkan Abhinaya menuju robot otonom yang lebih tangguh, cerdas, dan presisi.\n\n#abhinaya2025\n#GetTheTropy #robotikauny2025 #krtmi2025",
  "images": [
  "/images/instagram_feed/2025-09-27_20-38-49_UTC_DPHpB7eE-bY.jpg"
  ],

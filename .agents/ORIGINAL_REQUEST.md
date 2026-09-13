@@ -205,3 +205,48 @@ Zelfa Nafisah Zalna is S1 Fisika (FMIPA) with NIM 23030730048.
 Hisyam Yasid Pratowo is D4 Teknik Elektronika (Fakultas Vokasi / FV) with NIM 24090620010.
 scripts/test_challenger1_nim_faculty_oracle.py has been aligned with these verified authentic PDDikti records.
 Please continue with M2 overhaul while preserving these verified records.
+
+## 2026-09-07T02:45:16Z
+
+Elevate the official Abhinaya UNY Robotics Portal (https://abhinaya-uny.github.io/AbhinayaUNY_Web/) by implementing anti-slop design principles (from miqdadbadjuber/anti-slop), vibrant and visible text reveal/fade-in animations, dynamic alive background atmospheric motion, strict Cyber Orange accents, and a dense, cohesive layout with zero awkward empty margins.
+
+Working directory: D:\Data_Lokal\Kuliah\Tri Wahyu (22518241023)\AbhinayaUNY_Web
+Integrity mode: development
+
+## Reference Sources & Design Standards
+- Anti-Slop Guidelines: https://github.com/miqdadbadjuber/anti-slop (Hard Gates R-01 to R-38, Purpose-Driven Visuals, Human Copywriting without em dashes, Craftsmanship Standards C-1 to C-5)
+- Animation Primitives: React Bits & GSAP (BlurText, ShinyText, DecryptedText, AmbientGrid, Aurora, Magnet, InteractiveCanvasDust)
+- Signature Palette: Cyber Orange (`#FF6B00`, `#FB923C`, `#EA580C`) & Warm Amber (`#F59E0B`, `#FDE68A`) on Deep Obsidian (`#0B0B0E`)
+
+## Requirements
+
+### R1. Anti-Slop Design & Copywriting Implementation
+- Eliminate all AI slop patterns identified in `anti-slop`:
+  - Enforce Rule R-02 (Copywriting): strictly zero em dashes (`—`) across all UI headlines, descriptions, badges, and captions (replace with colon, comma, period, or parentheses).
+  - Enforce Rule R-17 (Authentic Evidence): all tournament records, PDDikti NIMs, and study programs remain 100% verified.
+  - Eliminate generic template aesthetics and trend stacking without purpose.
+
+### R2. Visible Text Reveal & Kinetic Animations
+- Ensure text animations (fade-in, slide-up, blur-reveal) are prominently visible and execute gracefully:
+  - Fix trigger timing so hero text animations trigger after preloader dismissal, ensuring the user actually experiences the fluid entrance rather than missing it behind the loading curtain.
+  - Implement smooth, purposeful stagger effects across headings, subheadings, and action buttons.
+
+### R3. Alive Background Atmosphere & Fluid Motion
+- Enhance background visual dynamism so the page feels alive and tactile, not static or sterile:
+  - Animated organic glow orbs with breathing / subtle ambient drift that react smoothly.
+  - Interactive canvas dust and ambient grid overlays that respond subtly without layout shift or frame drops.
+
+### R4. Dense, Cohesive Layout & Pure Orange Accents
+- Re-architect layout spacing to ensure tight, purposeful composition with zero awkward empty margins:
+  - Asymmetric 2-column split (Left: bold headline, single-line/tight subtitle, trophy badge, description, magnetic CTA buttons; Right: studio photo card with floating telemetry dock).
+  - Verify 100% Cyber Orange (`#FF6B00`, `#FB923C`, `#EA580C`) and Warm Amber accenting across all glowing borders, highlights, badges, and text.
+
+## Acceptance Criteria
+
+### Functionality & Verification Checks
+- [ ] `npm run build` succeeds with zero errors across all static pages.
+- [ ] Automated anti-slop audit confirms zero em dashes (`—`) and zero unicode emojis in UI copy.
+- [ ] Hero entrance animations (BlurText / fade-in) execute visibly after preloader completes.
+- [ ] Background atmospheric glow orbs exhibit continuous, fluid organic drift.
+- [ ] Responsive layout is dense and balanced across desktop (1920px), laptop (1280px), tablet (768px), and mobile (390px) with zero horizontal overflow.
+- [ ] Empirical test harnesses (`test_empirical_html_output.js`, `test_reactbits_suite.js`, `stress_test_edge_cases.js`, `test_challenger1_nim_faculty_oracle.py`) pass 100%.

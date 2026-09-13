@@ -1,0 +1,348 @@
+{
+  "emDashes": [
+    {
+      "file": "components/AboutTeamSection.tsx",
+      "line": 29,
+      "content": "Tim Abhinaya adalah tim riset robotika divisi <strong className=\"text-slate-200\">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className=\"text-slate-200\">UKM Rekayasa Teknologi (Restek) UNY</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas."
+    },
+    {
+      "file": "components/AboutTeamSection.tsx",
+      "line": 53,
+      "content": "{/* Photo — 100% unblocked */}"
+    },
+    {
+      "file": "components/Footer.tsx",
+      "line": 29,
+      "content": "Tim Riset &amp; Pengembangan Robotika divisi Kontes Robot Tematik Indonesia (KRTMI) di bawah naungan UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta — mewadahi mahasiswa lintas fakultas berkreasi, berinovasi, dan meraih prestasi di kancah robotika nasional."
+    },
+    {
+      "file": "components/Footer.tsx",
+      "line": 104,
+      "content": "Dikelola secara mandiri oleh Tim Robotika Abhinaya — UKM Rekayasa Teknologi Universitas Negeri Yogyakarta."
+    },
+    {
+      "file": "components/HeroSection.tsx",
+      "line": 176,
+      "content": "{/* Cinematic Studio Frame — 100% Unblocked Photography */}"
+    },
+    {
+      "file": "components/Navbar.tsx",
+      "line": 114,
+      "content": "KRTMI — UKM Restek UNY"
+    },
+    {
+      "file": "app/500/page.tsx",
+      "line": 6,
+      "content": "title: '500 — Anomali Sistem Internal | Abhinaya UNY Robotics',"
+    },
+    {
+      "file": "app/divisi/page.tsx",
+      "line": 9,
+      "content": "title: 'Divisi Tim & Roster Anggota — Tim Robotika Abhinaya UNY',"
+    },
+    {
+      "file": "app/divisi/page.tsx",
+      "line": 27,
+      "content": "Tim Abhinaya adalah divisi riset robotika di bawah naungan <strong>UKM Rekayasa Teknologi (Restek) Universitas Negeri Yogyakarta</strong> — wadah kolaboratif tingkat universitas bagi mahasiswa lintas fakultas untuk belajar, bereksperimen, dan berprestasi bersama di ajang Kontes Robot Indonesia (KRI) Puspresnas BPTI."
+    },
+    {
+      "file": "app/divisi/page.tsx",
+      "line": 106,
+      "content": "<strong>Sama sekali tidak!</strong> Sebagian besar anggota kami memulai tanpa pengalaman robotika sebelumnya. Di UKM Restek UNY, kami menyediakan kurikulum pelatihan bertahap—mulai dari dasar logika pemrograman mikrokontroler, pengenalan sirkuit elektronika, hingga dasar mekanik 3D CAD."
+    },
+    {
+      "file": "app/krtmi/page.tsx",
+      "line": 26,
+      "content": "title: 'Bedah Regulasi & Arsip Resmi KRTMI (2019 – 2026) — Tim Robotika Abhinaya UNY',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 24,
+      "content": "title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 25,
+      "content": "description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI). Arsip dokumentasi lomba 2019-2026.',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 47,
+      "content": "title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 48,
+      "content": "description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 56,
+      "content": "alt: 'ABHINAYA UNY — Kontes Robot Tematik Indonesia',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 64,
+      "content": "title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 65,
+      "content": "description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).',"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 85,
+      "content": "<meta property=\"og:title\" content=\"ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia\" />"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 86,
+      "content": "<meta property=\"og:description\" content=\"Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).\" />"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 94,
+      "content": "<meta property=\"og:image:alt\" content=\"ABHINAYA UNY — Kontes Robot Tematik Indonesia\" />"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 97,
+      "content": "<meta name=\"twitter:title\" content=\"ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia\" />"
+    },
+    {
+      "file": "app/layout.tsx",
+      "line": 113,
+      "content": "description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta (UKM Rekayasa Teknologi UNY) — Kontes Robot Tematik Indonesia (KRTMI) & Technocorner Transporter UGM.',"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "line": 6,
+      "content": "title: '404 — Koordinat Sinyal Hilang | Abhinaya UNY Robotics',"
+    },
+    {
+      "file": "app/prestasi/page.tsx",
+      "line": 6,
+      "content": "title: 'Kabinet Prestasi & Berita Resmi — Abhinaya UNY Robotics',"
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 516,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 530,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 544,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 558,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 572,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 586,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotikaindonesia #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 600,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 623,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 637,
+      "content": "\"caption\": \"[Together, we’re stronger than any challenge. Every step we take as a team brings us closer to victory. Keep the energy high, the focus sharp, and remember—our strength lies in our unity. Let’s keep pushing forward and making greatness happen!]\\n.\\n.\\n.\\n.\\n.\\n#abhinayauny #kriuny #robotikauny #kri2024 #robotika\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 660,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 674,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 688,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 702,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 716,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/instagramFeedData.ts",
+      "line": 730,
+      "content": "\"caption\": \"No challenge can defeat us when we stand together. Each step as a team brings us closer to success. Keep the energy high, focus sharp, and unity strong—greatness is on the way! \\n\\n#abhinaya2025\\n#GetTheTropy #robotikauny2025\","
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 68,
+      "content": "title: 'TECHNOCORNER 2026 — Transporter Robot Competition',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 97,
+      "content": "'Box Kubus Jingga (Orange) — Drop Zone Jingga',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 98,
+      "content": "'Box Kubus Merah Muda (Pink) — Drop Zone Pink',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 99,
+      "content": "'Box Kubus Biru Tua (Dark Blue) — Drop Zone Biru Tua',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 100,
+      "content": "'Box Kubus Ungu (Purple) — Drop Zone Ungu (Babak 16 Besar & Lanjut)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 101,
+      "content": "'Box Kubus Kuning (Yellow) — Drop Zone Kuning (Semifinal & Final)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 102,
+      "content": "'Box Merah (Obstacle Box) — Rintangan yang boleh digeser',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 158,
+      "content": "title: 'KRTMI 2024 — Robot Pemilah Sampah Cerdas & Dual Robot System',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 187,
+      "content": "'1. Daun (basah dan kering) — Kategori Organik',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 188,
+      "content": "'2. Kertas (warna putih dan warna) — Kategori Daur Ulang',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 189,
+      "content": "'3. Lembaran Plastik (putih dan warna) — Kategori Anorganik Plastik',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 190,
+      "content": "'4. Logam Ferro & Non-Ferro (plat tebal < 0.5 mm) — Kategori Logam',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 191,
+      "content": "'5. Botol Plastik Air 300 ml (diameter 5.8 cm, tinggi 17 cm dipres) — Kategori Botol Plastik',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 246,
+      "content": "title: 'KRTMI 2023 — Robo Game: Cyber-Physical Digital Twin',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 322,
+      "content": "pdfTitle: 'Buku Pedoman Kontes Robot Indonesia (KRI) 2023 — Buku 7 KRTMI (BPTI Kemendikbudristek)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 327,
+      "content": "title: 'KRTMI 2022 — Robot Penanganan & Pemilahan Limbah Medis Berbahaya',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 392,
+      "content": "pdfTitle: 'Buku Panduan Kontes Robot Indonesia (KRI) 2022 — Buku 7 KRTMI (Puspresnas & ITS)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 397,
+      "content": "title: 'KRTMI 2021 — Robot Pelayanan Pasien COVID-19 & Digital Twin Daring',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 461,
+      "content": "pdfTitle: 'Pedoman Kontes Robot Indonesia (KRI) 2021 — Buku 7 KRTMI (Puspresnas & UGM)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 466,
+      "content": "title: 'KRTMI 2020 — Robot Sterilisasi Radiasi UV-C & Disinfeksi Mandiri',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 530,
+      "content": "pdfTitle: 'Petunjuk Pelaksanaan KRI 2020 — KRTMI / KRSTI (Puspresnas & ITB)',"
+    },
+    {
+      "file": "data/krtmiData.ts",
+      "line": 535,
+      "content": "title: 'KRTMI 2019 — Robot Pertanian Cerdas & Otomasi Panen Padi',"
+    }
+  ],
+  "emojis": [],
+  "aiSlop": [],
+  "emeraldGreen": [
+    {
+      "file": "components/TeamRosterSection.tsx",
+      "line": 1076,
+      "content": "accentColor=\"#10B981\""
+    },
+    {
+      "file": "components/TeamRosterSection.tsx",
+      "line": 1137,
+      "content": "accent: '#10B981',"
+    },
+    {
+      "file": "data/teamData.ts",
+      "line": 2007,
+      "content": "bg: 'bg-emerald-950/40',"
+    },
+    {
+      "file": "data/teamData.ts",
+      "line": 2008,
+      "content": "text: 'text-emerald-300',"
+    },
+    {
+      "file": "data/teamData.ts",
+      "line": 2009,
+      "content": "border: 'border-emerald-500/40',"
+    },
+    {
+      "file": "data/teamData.ts",
+      "line": 2010,
+      "content": "accent: '#10B981',"
+    }
+  ]
+}

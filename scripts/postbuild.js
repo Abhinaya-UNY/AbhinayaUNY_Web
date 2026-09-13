@@ -34,7 +34,7 @@ if (fs.existsSync(out500Index)) {
   console.log(`[postbuild] Synced out/500/index.html from ${out500Root}`);
 }
 
-// 2. Ensure 404 parity
+// 2. Ensure 404 and _not-found parity
 const out404Root = path.join(OUT_DIR, '404.html');
 const out404Index = path.join(OUT_DIR, '404', 'index.html');
 
@@ -46,6 +46,16 @@ if (fs.existsSync(out404Root) && !fs.existsSync(out404Index)) {
 } else if (fs.existsSync(out404Index) && !fs.existsSync(out404Root)) {
   fs.copyFileSync(out404Index, out404Root);
   console.log(`[postbuild] Synced out/404.html from ${out404Index}`);
+}
+
+const outNotFoundDir = path.join(OUT_DIR, '_not-found');
+const outNotFoundIndex = path.join(outNotFoundDir, 'index.html');
+const outNotFoundHtml = path.join(OUT_DIR, '_not-found.html');
+if (fs.existsSync(out404Root)) {
+  if (!fs.existsSync(outNotFoundDir)) fs.mkdirSync(outNotFoundDir, { recursive: true });
+  fs.copyFileSync(out404Root, outNotFoundIndex);
+  fs.copyFileSync(out404Root, outNotFoundHtml);
+  console.log(`[postbuild] Synced out/_not-found/index.html from ${out404Root}`);
 }
 
 // 3. Mirror public/ directory into out/ if missing

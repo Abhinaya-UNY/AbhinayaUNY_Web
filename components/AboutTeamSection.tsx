@@ -26,7 +26,7 @@ export const AboutTeamSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-slate-400 max-w-lg leading-relaxed">
-            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) UNY</strong> — unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
+            Tim Abhinaya adalah tim riset robotika divisi <strong className="text-slate-200">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-slate-200">UKM Rekayasa Teknologi (Restek) UNY</strong>, unit kegiatan mahasiswa tingkat universitas yang terbuka bagi seluruh mahasiswa UNY lintas fakultas.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export const AboutTeamSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Photo — 100% unblocked */}
+          {/* Photo: 100% unblocked */}
           <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden bg-black">
             <img
               src={`${basePath}/images/team_ums_2024_web.jpg`}

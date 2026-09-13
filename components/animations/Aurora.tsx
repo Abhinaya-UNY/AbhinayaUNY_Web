@@ -51,7 +51,14 @@ export const Aurora: React.FC<AuroraProps> = ({
         }`}
       />
 
-      {/* Aurora Orb 3: Bottom Grounding Ambient Light */}
+      {/* Aurora Orb 3: Right Media Dock Accentuation */}
+      <div
+        className={`absolute top-1/4 right-10 w-[380px] h-[380px] rounded-full bg-orange-600/10 blur-[120px] transition-transform duration-1000 ${
+          reducedMotion ? '' : 'animate-pulse-glow'
+        }`}
+      />
+
+      {/* Aurora Orb 4: Bottom Grounding Ambient Light */}
       <div
         className="absolute -bottom-40 left-1/3 w-[600px] h-[300px] rounded-full bg-orange-600/5 blur-[150px]"
       />

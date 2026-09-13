@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Bedah Regulasi & Arsip Resmi KRTMI (2019 – 2026) — Tim Robotika Abhinaya UNY',
+  title: 'Bedah Regulasi & Arsip Resmi KRTMI (2019 – 2026): Tim Robotika Abhinaya UNY',
   description: 'Rekapitulasi lengkap sejarah lomba, spesifikasi arena, regulasi mekatronika robot, sistem penilaian, penalti, dan unduhan resmi PDF Buku Panduan KRTMI & Technocorner 2019-2026.',
 };
 

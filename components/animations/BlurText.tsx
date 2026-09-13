@@ -10,6 +10,7 @@ export interface BlurTextProps {
   direction?: 'top' | 'bottom';    // Slide-in direction (default: 'top')
   threshold?: number;              // Intersection threshold (default: 0.1)
   rootMargin?: string;             // Margin around viewport (default: '0px')
+  ready?: boolean;                 // Optional gate for external synchronization (default: true)
   onAnimationComplete?: () => void;
 }
 
@@ -21,9 +22,11 @@ export const BlurText: React.FC<BlurTextProps> = ({
   direction = 'top',
   threshold = 0.1,
   rootMargin = '0px',
+  ready = true,
   onAnimationComplete,
 }) => {
   const [inView, setInView] = useState<boolean>(false);
+  const [isIntersected, setIsIntersected] = useState<boolean>(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
   const containerRef = useRef<HTMLSpanElement>(null);
   const onAnimationCompleteRef = useRef(onAnimationComplete);
@@ -36,7 +39,7 @@ export const BlurText: React.FC<BlurTextProps> = ({
       const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
       if (mediaQuery.matches) {
         setPrefersReducedMotion(true);
-        setInView(true);
+        setIsIntersected(true);
         return;
       }
     }
@@ -44,7 +47,7 @@ export const BlurText: React.FC<BlurTextProps> = ({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setInView(true);
+          setIsIntersected(true);
           if (containerRef.current) {
             observer.unobserve(containerRef.current);
           }
@@ -59,6 +62,13 @@ export const BlurText: React.FC<BlurTextProps> = ({
 
     return () => observer.disconnect();
   }, [threshold, rootMargin]);
+
+  // Only trigger animation when BOTH intersected AND ready
+  useEffect(() => {
+    if (isIntersected && ready) {
+      setInView(true);
+    }
+  }, [isIntersected, ready]);
 
   // Callback on animation complete
   useEffect(() => {

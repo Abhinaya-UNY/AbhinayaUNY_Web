@@ -176,7 +176,7 @@ cssFiles.forEach(cf => {
 });
 
 const requiredClasses = [
-  'bg-brand-orange', 'text-brand-orange', 'text-amber-300', 'text-emerald-300',
+  'bg-brand-orange', 'text-brand-orange', 'text-amber-300',
   'grid-cols-1', 'duration-1000'
 ];
 
@@ -207,6 +207,36 @@ jsChunks.forEach(jf => {
 console.log('  ✔ [PASS] Total JS Chunks Count:', jsChunks.length);
 console.log('  ✔ [PASS] Total JS Static Size:', (totalJsSize / 1024).toFixed(1), 'kB');
 assert(totalJsSize > 0, 'No JS chunks found');
+results.passed++;
+
+// 10. Anti-Slop Audit (Rule R-02): Zero Em Dashes & Zero Unicode Emojis
+console.log('\n[TEST 10] Anti-Slop Audit (Rule R-02): Zero Em Dashes & Zero Unicode Emojis...');
+const allExportedHtml = getAllFiles(outDir, '.html');
+assert(allExportedHtml.length > 0, 'No HTML files found in out directory');
+const emojiRegex = /[\u{1F300}-\u{1FAFF}\u{2700}-\u{27BF}\u{2600}-\u{26FF}]/u;
+
+let totalEmDashes = 0;
+let totalEmojis = 0;
+
+allExportedHtml.forEach(hf => {
+  const content = fs.readFileSync(hf, 'utf8');
+  const rel = path.relative(outDir, hf);
+
+  const emDashCount = (content.match(/\u2014/g) || []).length;
+  totalEmDashes += emDashCount;
+  assert(emDashCount === 0, `Anti-slop violation: ${emDashCount} em dashes found in ${rel}`);
+
+  const stripped = content
+    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+    .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
+  const emojiMatches = stripped.match(new RegExp(emojiRegex, 'gu')) || [];
+  totalEmojis += emojiMatches.length;
+  assert(emojiMatches.length === 0, `Anti-slop violation: ${emojiMatches.length} emojis found in ${rel}: ${emojiMatches.join(', ')}`);
+});
+
+console.log('  ✔ [PASS] Total HTML pages audited:', allExportedHtml.length);
+console.log('  ✔ [PASS] Em dashes count across all exported HTML pages: 0 (Rule R-02 Enforced)');
+console.log('  ✔ [PASS] Unicode emojis in visible text nodes: 0 (Strict SVG Icons Enforced)');
 results.passed++;
 
 console.log('\n======================================================================');

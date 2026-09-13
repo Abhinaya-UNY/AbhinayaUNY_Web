@@ -1,6 +1,6 @@
 /**
- * E2E Test Suite — Feature 3: All-Era Managers Showcase (2020–2025) (ORIGINAL_REQUEST §R2)
- * Validates complete historical team managers across 2020-2025, co-management eras, operational specializations, and emerald theme styling.
+ * E2E Test Suite: Feature 3: All-Era Managers Showcase (2020-2025) (ORIGINAL_REQUEST R2)
+ * Validates complete historical team managers across 2020-2025, co-management eras, operational specializations, and warm amber theme styling.
  */
 
 const fs = require('fs');
@@ -71,14 +71,14 @@ function runR2ManagersTests() {
       expect(teamDataContent).toContain('Administrasi');
     });
 
-    test('R2M-05: Dedicated emerald/teal theme styling for Managers Showcase', () => {
+    test('R2M-05: Dedicated warm amber theme styling for Managers Showcase', () => {
       const teamDataContent = fs.readFileSync(TEAM_DATA_PATH, 'utf8');
       const rosterContent = fs.readFileSync(ROSTER_COMPONENT_PATH, 'utf8');
 
-      // Check DIVISION_BADGES for Manager emerald accent
+      // Check DIVISION_BADGES for Manager warm amber accent
       expect(teamDataContent).toContain("'Manager'");
-      expect(teamDataContent).toContain('#10B981'); // Emerald accent
-      expect(teamDataContent).toContain('text-emerald-300');
+      expect(teamDataContent).toContain('#F59E0B'); // Warm Amber accent
+      expect(teamDataContent).toContain('text-amber-300');
 
       // Check Roster component uses briefcase icon
       expect(rosterContent).toContain('Briefcase');

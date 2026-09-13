@@ -21,8 +21,8 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://abhinaya-uny.github.io'),
-  title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
-  description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI). Arsip dokumentasi lomba 2019-2026.',
+  title: 'ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia',
+  description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta, Kontes Robot Tematik Indonesia (KRTMI). Arsip dokumentasi lomba 2019-2026.',
   keywords: [
     'Abhinaya UNY',
     'KRTMI',
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     apple: '/AbhinayaUNY_Web/apple-icon.png?v=4',
   },
   openGraph: {
-    title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
-    description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).',
+    title: 'ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia',
+    description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta, Kontes Robot Tematik Indonesia (KRTMI).',
     url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/',
     siteName: 'Abhinaya UNY Robotics Team',
     images: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg',
         width: 1200,
         height: 630,
-        alt: 'ABHINAYA UNY — Kontes Robot Tematik Indonesia',
+        alt: 'ABHINAYA UNY: Kontes Robot Tematik Indonesia',
       },
     ],
     locale: 'id_ID',
@@ -61,8 +61,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia',
-    description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI).',
+    title: 'ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia',
+    description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta, Kontes Robot Tematik Indonesia (KRTMI).',
     images: ['https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg'],
   },
 };
@@ -82,8 +82,8 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         
         {/* OpenGraph & Twitter Meta for WhatsApp, Telegram, Discord, LinkedIn Preview */}
-        <meta property="og:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
-        <meta property="og:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta — Kontes Robot Tematik Indonesia (KRTMI)." />
+        <meta property="og:title" content="ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia" />
+        <meta property="og:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta, Kontes Robot Tematik Indonesia (KRTMI)." />
         <meta property="og:url" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
@@ -91,10 +91,10 @@ export default function RootLayout({
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="ABHINAYA UNY — Kontes Robot Tematik Indonesia" />
+        <meta property="og:image:alt" content="ABHINAYA UNY: Kontes Robot Tematik Indonesia" />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ABHINAYA UNY — Tim Robotika Kontes Robot Tematik Indonesia" />
+        <meta name="twitter:title" content="ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia" />
         <meta name="twitter:description" content="Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta." />
         <meta name="twitter:image" content="https://abhinaya-uny.github.io/AbhinayaUNY_Web/og-image-v4.jpg" />
         <meta name="theme-color" content="#0B0B0E" />
@@ -110,7 +110,7 @@ export default function RootLayout({
               alternateName: ['Abhinaya UNY', 'Robotika Abhinaya UNY', 'Abhinaya KRTMI UNY', 'Abhinaya Restek UNY'],
               url: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/',
               logo: 'https://abhinaya-uny.github.io/AbhinayaUNY_Web/favicon.png',
-              description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta (UKM Rekayasa Teknologi UNY) — Kontes Robot Tematik Indonesia (KRTMI) & Technocorner Transporter UGM.',
+              description: 'Portal resmi Tim Robotika Abhinaya Universitas Negeri Yogyakarta (UKM Rekayasa Teknologi UNY), Kontes Robot Tematik Indonesia (KRTMI) & Technocorner Transporter UGM.',
               parentOrganization: {
                 '@type': 'CollegeOrUniversity',
                 name: 'Universitas Negeri Yogyakarta',

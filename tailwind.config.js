@@ -85,12 +85,12 @@ module.exports = {
           '50%': { transform: 'translateY(-6px)' },
         },
         auroraDrift1: {
-          '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
-          '50%': { transform: 'translate(40px, 20px) scale(1.08)' },
+          '0%, 100%': { transform: 'translate(0, 0) scale(1)', opacity: '0.12' },
+          '50%': { transform: 'translate(45px, 25px) scale(1.09)', opacity: '0.18' },
         },
         auroraDrift2: {
-          '0%, 100%': { transform: 'translate(0, 0) scale(1.05)' },
-          '50%': { transform: 'translate(-30px, 25px) scale(0.95)' },
+          '0%, 100%': { transform: 'translate(0, 0) scale(1.05)', opacity: '0.08' },
+          '50%': { transform: 'translate(-35px, 30px) scale(0.96)', opacity: '0.14' },
         },
       },
     },

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
- Abhinaya UNY Robotics Portal — Team Roster Upgrade E2E Test Suite
+ Abhinaya UNY Robotics Portal: Team Roster Upgrade E2E Test Suite
 ================================================================================
  File: scripts/test_e2e_roster.py
  Framework: Python 3 standard library unittest (Zero external dependencies)
@@ -213,9 +213,9 @@ class TestTier1_R2_Managers(unittest.TestCase):
         self.assertIn("Rose Pita Nur Afifah", self.team_data)
         self.assertIn("Administrasi", self.team_data)
 
-    def test_r2m_05_emerald_theme_ui_styling(self):
-        self.assertIn("#10B981", self.team_data)
-        self.assertIn("text-emerald-300", self.team_data)
+    def test_r2m_05_amber_theme_ui_styling(self):
+        self.assertIn("#F59E0B", self.team_data)
+        self.assertIn("text-amber-300", self.team_data)
         self.assertIn("Briefcase", self.roster_comp)
 
     def test_r2m_06_manager_academic_and_badge_consistency(self):
