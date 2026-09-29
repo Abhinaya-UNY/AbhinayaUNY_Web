@@ -24,22 +24,22 @@ export const KRIOverview: React.FC = () => {
     {
       title: 'Tantangan Baru Tiap Tahun',
       icon: <Target className="w-5 h-5 text-brand-orange" />,
-      desc: 'Berbeda dari divisi robot lain yang temanya tetap, di KRTMI aturannya berganti tiap tahun. Dari robot panen padi, robot disinfektan medis COVID-19, hingga robot pemilah sampah otomatis.',
+      desc: 'Berbeda dari divisi robot lain yang temanya tetap, di KRTMI aturannya berganti tiap tahun. Dari robot panen padi, robot pembersih rumah sakit, hingga robot pemilah sampah.',
     },
     {
-      title: 'Kamera Pintar & AI',
+      title: 'Sistem Kamera Pintar',
       icon: <Eye className="w-5 h-5 text-cyan-400" />,
-      desc: 'Robot dipasangi kamera dan kecerdasan buatan (AI) agar bisa mengenali bentuk dan warna barang sendiri, lalu mengambil keputusan otomatis tanpa disetir manusia.',
+      desc: 'Robot dipasangi kamera dan sistem pintar agar bisa mengenali bentuk dan warna barang sendiri, lalu mengambil keputusan otomatis tanpa disetir manusia.',
     },
     {
       title: 'Lincah Bergerak Bebas',
       icon: <Zap className="w-5 h-5 text-amber-400" />,
-      desc: 'Menggunakan 4 roda khusus (roda mecanum). Robot bisa meluncur maju, mundur, menyamping, dan berputar sekaligus dengan sangat gesit dan seimbang di arena.',
+      desc: 'Menggunakan roda khusus yang bisa bergerak ke segala arah. Robot bisa meluncur maju, mundur, menyamping, dan berputar sekaligus dengan sangat gesit.',
     },
     {
       title: 'Kerja Sama Kompak Antar Divisi',
       icon: <Cpu className="w-5 h-5 text-brand-orange" />,
-      desc: 'Mulai dari mendesain rangka bodi robot, menyolder kabel listrik, menulis kodingan program, sampai mengurus perlengkapan lomba semuanya dikerjakan bareng-bareng.',
+      desc: 'Mulai dari membuat kerangka robot, menyambung kabel listrik, menulis kodingan program, sampai mengurus perlengkapan lomba semuanya dikerjakan bareng-bareng.',
     },
   ];
 

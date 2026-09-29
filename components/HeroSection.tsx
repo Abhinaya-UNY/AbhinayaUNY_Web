@@ -236,7 +236,7 @@ export const HeroSection: React.FC = () => {
               >
                 <Cpu className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
                 <span className="text-[10px] text-slate-400">PENGGERAK:</span>
-                <span className="text-orange-300 font-bold truncate">4WD MECANUM</span>
+                <span className="text-orange-300 font-bold truncate">RODA SEGALA ARAH</span>
               </div>
 
               <div
@@ -254,7 +254,7 @@ export const HeroSection: React.FC = () => {
               >
                 <Radio className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
                 <span className="text-[10px] text-slate-400">KONEKSI:</span>
-                <span className="text-orange-400 font-bold truncate">WIRELESS 5.8GHz</span>
+                <span className="text-orange-400 font-bold truncate">KONTROL JARAK JAUH</span>
               </div>
             </div>
 

@@ -58,7 +58,7 @@ expectedLeaders.forEach(l => {
   console.log('  ✔ [PASS] Leader in static DOM:', l.name.padEnd(25), '[' + l.year + ']');
 });
 assert(indexHtml.includes('Ketua Tim'), 'Leadership badge Ketua Tim missing');
-assert(indexHtml.includes('Leaders Hall of Fame') || indexHtml.includes('Hall of Fame') || indexHtml.includes('Deretan Ketua'), 'Leaders showcase section missing');
+assert(indexHtml.includes('Leaders Hall of Fame') || indexHtml.includes('Hall of Fame') || indexHtml.includes('Deretan Ketua') || indexHtml.includes('Ketua Tim Dari Masa ke Masa'), 'Leaders showcase section missing');
 results.passed++;
 
 // 3. Inspect Managers in Static DOM

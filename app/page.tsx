@@ -10,21 +10,52 @@ import { KrtmiChronicles } from '@/components/KrtmiChronicles';
 import { KRIOverview } from '@/components/KRIOverview';
 import { Achievements } from '@/components/Achievements';
 import { SocialMediaHub } from '@/components/SocialMediaHub';
+import { GsapReveal } from '@/components/animations/GsapReveal';
 
 export default function HomePage() {
   return (
     <div className="flex flex-col w-full overflow-x-hidden">
       <HeroSection />
-      <YouTubeVideoShowcase />
-      <AboutTeamSection />
-      <Achievements />
-      <KRIOverview />
-      <KrtmiChronicles />
-      <NewsMediaSection />
-      <InstagramFeedShowcase />
-      <DocumentationGallerySection />
-      <TeamRosterSection showAllLink={true} />
-      <SocialMediaHub />
+      
+      <GsapReveal>
+        <YouTubeVideoShowcase />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <AboutTeamSection />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <Achievements />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <KRIOverview />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <KrtmiChronicles />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <NewsMediaSection />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <InstagramFeedShowcase />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <DocumentationGallerySection />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <TeamRosterSection showAllLink={true} />
+      </GsapReveal>
+      
+      <GsapReveal>
+        <SocialMediaHub />
+      </GsapReveal>
     </div>
   );
 }
