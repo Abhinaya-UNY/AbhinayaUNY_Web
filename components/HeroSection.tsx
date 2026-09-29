@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowRight, Play, Trophy, Cpu, Radio, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Play, Trophy, Sparkles } from 'lucide-react';
 import { BlurText, ShinyText, DecryptedText, AmbientGrid, Aurora, Magnet, InteractiveCanvasDust } from '@/components/animations';
 
 function usePreloaderComplete(): boolean {
@@ -219,42 +219,32 @@ export const HeroSection: React.FC = () => {
           {/* RIGHT COLUMN: Studio Photography & Telemetry Showcase (Col 5 on Desktop) */}
           <div className="lg:col-span-5 space-y-3.5">
             
-            {/* Floating Status Telemetry Dock (2x2 on Mobile/Desktop, 1x4 on Tablet) */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-2.5">
-              <div
-                className={`flex items-center space-x-2 px-3 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-orange-500/25 text-xs font-mono text-slate-300 shadow-sm ${getEntranceClass(200)}`}
-                style={{ transitionDelay: isPreloaderDone ? '200ms' : '0ms' }}
-              >
-                <span className="w-2 h-2 rounded-full bg-orange-400 animate-pulse flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">STATUS:</span>
-                <span className="text-orange-400 font-bold truncate">OTOMATIS</span>
+            {/* Sleek Minimalist Live Status Pill */}
+            <div
+              className={`flex items-center justify-between px-4 py-2.5 rounded-2xl bg-gradient-to-r from-white/[0.04] via-orange-500/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 shadow-lg shadow-black/20 ${getEntranceClass(250)}`}
+              style={{ transitionDelay: isPreloaderDone ? '250ms' : '0ms' }}
+            >
+              <div className="flex items-center space-x-2.5 min-w-0">
+                <span className="relative flex h-2.5 w-2.5 flex-shrink-0">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                </span>
+                <span className="text-[11px] sm:text-xs font-mono font-bold tracking-wider text-emerald-400 uppercase flex-shrink-0">
+                  KONTINGEN AKTIF
+                </span>
+                <span className="text-white/20 font-mono hidden sm:inline">•</span>
+                <span className="text-[11px] sm:text-xs font-mono text-slate-300 truncate hidden sm:inline">
+                  UKM Rekayasa Teknologi UNY
+                </span>
               </div>
 
-              <div
-                className={`flex items-center space-x-2 px-3 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-white/10 text-xs font-mono text-slate-300 shadow-sm ${getEntranceClass(250)}`}
-                style={{ transitionDelay: isPreloaderDone ? '250ms' : '0ms' }}
-              >
-                <Cpu className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">PENGGERAK:</span>
-                <span className="text-orange-300 font-bold truncate">RODA SEGALA ARAH</span>
-              </div>
-
-              <div
-                className={`flex items-center space-x-2 px-3 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-white/10 text-xs font-mono text-slate-300 shadow-sm ${getEntranceClass(300)}`}
-                style={{ transitionDelay: isPreloaderDone ? '300ms' : '0ms' }}
-              >
-                <ShieldCheck className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">TARGET:</span>
-                <span className="text-amber-300 font-bold truncate">SIAP KRI 2026</span>
-              </div>
-
-              <div
-                className={`flex items-center space-x-2 px-3 py-2 rounded-xl bg-[#121216]/90 backdrop-blur-md border border-white/10 text-xs font-mono text-slate-300 shadow-sm ${getEntranceClass(350)}`}
-                style={{ transitionDelay: isPreloaderDone ? '350ms' : '0ms' }}
-              >
-                <Radio className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
-                <span className="text-[10px] text-slate-400">KONEKSI:</span>
-                <span className="text-orange-400 font-bold truncate">KONTROL JARAK JAUH</span>
+              <div className="flex items-center space-x-1.5 flex-shrink-0 pl-2">
+                <Sparkles className="w-3.5 h-3.5 text-orange-400 animate-pulse" />
+                <ShinyText
+                  text="KRTMI ROBOTICS"
+                  speed={3}
+                  className="text-[11px] font-mono font-bold text-orange-300"
+                />
               </div>
             </div>
 
