@@ -85,7 +85,7 @@ export const KRIOverview: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10 relative z-10">
         
         {/* Section Header (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Compass className="w-3.5 h-3.5 text-orange-400" />
@@ -101,7 +101,7 @@ export const KRIOverview: React.FC = () => {
         </div>
 
         {/* SPOTLIGHT UTAMA: KRTMI (KONTES ROBOT TEMATIK INDONESIA) */}
-        <div className="p-6 sm:p-8 md:p-10 rounded-2xl bg-[#121216] border border-orange-500/30 space-y-6 relative overflow-hidden shadow-xl shadow-orange-950/20">
+        <div className="reveal-on-scroll rounded-2xl bg-[#121216] border border-orange-500/30 p-6 sm:p-8 md:p-10 space-y-6 relative overflow-hidden shadow-xl shadow-orange-950/20">
           {/* Header Showcase KRTMI */}
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-white/[0.06] pb-6">
             <div className="space-y-2">
@@ -138,7 +138,9 @@ export const KRIOverview: React.FC = () => {
                 key={i}
                 spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={250}
-                className="p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/30 transition space-y-2.5 group"
+                className={`reveal-on-scroll ${
+                  i === 0 ? 'reveal-delay-75' : i === 1 ? 'reveal-delay-150' : i === 2 ? 'reveal-delay-225' : 'reveal-delay-300'
+                } p-4 sm:p-5 rounded-2xl bg-[#18181B] border border-white/[0.08] hover:border-orange-500/30 transition space-y-2.5 group`}
               >
                 <div className="space-y-2.5">
                   <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
@@ -187,12 +189,14 @@ export const KRIOverview: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {otherDivisions.map((div) => (
+            {otherDivisions.map((div, idx) => (
               <SpotlightCard
                 key={div.code}
                 spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={280}
-                className={`p-5 rounded-2xl space-y-2.5 transition border ${
+                className={`reveal-on-scroll ${
+                  idx % 3 === 0 ? 'reveal-delay-75' : idx % 3 === 1 ? 'reveal-delay-150' : 'reveal-delay-225'
+                } p-5 rounded-2xl space-y-2.5 transition border ${
                   div.isHighlight
                     ? 'bg-[#18181B] border-orange-500/50 shadow-lg shadow-orange-500/5'
                     : 'bg-[#18181B] border-white/[0.08] hover:border-white/20'

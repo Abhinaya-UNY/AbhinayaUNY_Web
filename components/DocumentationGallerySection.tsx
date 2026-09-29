@@ -22,7 +22,7 @@ export const DocumentationGallerySection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-12 relative z-10">
         
         {/* Header Title (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6 sm:pb-8">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6 sm:pb-8">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Camera className="w-3.5 h-3.5 text-orange-400" />
@@ -61,11 +61,19 @@ export const DocumentationGallerySection: React.FC = () => {
 
         {/* Gallery Grid (Unblocked 4:3 Natural Aspect Ratio & Decoupled Meta) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-          {filteredItems.map((item) => (
+          {filteredItems.map((item, idx) => (
             <div
               key={item.id}
               onClick={() => setSelectedPhoto(item)}
-              className="group cursor-pointer rounded-2xl overflow-hidden bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1 shadow-lg"
+              className={`reveal-on-scroll ${
+                idx % 4 === 0
+                  ? 'reveal-delay-75'
+                  : idx % 4 === 1
+                  ? 'reveal-delay-150'
+                  : idx % 4 === 2
+                  ? 'reveal-delay-225'
+                  : 'reveal-delay-300'
+              } group cursor-pointer rounded-2xl overflow-hidden bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1 shadow-lg`}
             >
               {/* 1. Pristine Photo Viewport (100% Unblocked, 4:3 Natural Ratio, Zero Badges Over Photo) */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-black">

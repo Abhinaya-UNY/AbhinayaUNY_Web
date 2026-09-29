@@ -90,7 +90,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-10">
         {/* Header */}
         {showHeader && (
-          <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-6">
+          <div className="reveal-on-scroll flex flex-col md:flex-row items-start md:items-end justify-between gap-6">
             <div className="space-y-3 max-w-2xl">
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
                 <Instagram className="w-3.5 h-3.5 text-pink-400" />
@@ -151,7 +151,7 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
 
         {/* Posts Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
-          {displayPosts.map((post) => {
+          {displayPosts.map((post, idx) => {
             const activeIdx = cardImageIndices[post.id] || 0;
             const currentImg = post.images[activeIdx] || post.coverImage;
 
@@ -161,7 +161,9 @@ export const InstagramFeedShowcase: React.FC<InstagramFeedShowcaseProps> = ({
                 onClick={() => openPostModal(post)}
                 onMouseEnter={() => setHoveredPostId(post.id)}
                 onMouseLeave={() => setHoveredPostId(null)}
-                className="group cursor-pointer rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between overflow-hidden shadow-lg"
+                className={`reveal-on-scroll ${
+                  idx % 3 === 0 ? 'reveal-delay-75' : idx % 3 === 1 ? 'reveal-delay-150' : 'reveal-delay-225'
+                } group cursor-pointer rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between overflow-hidden shadow-lg`}
               >
                 {/* 1. Dedicated Card Mini-Header (Cleanly placed ABOVE photo) */}
                 <div className="px-4 py-3 bg-[#18181B] border-b border-white/[0.06] flex items-center justify-between text-xs">

@@ -5,7 +5,9 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-gsap.registerPlugin(ScrollTrigger);
+if (typeof window !== 'undefined') {
+  gsap.registerPlugin(ScrollTrigger);
+}
 
 export interface GsapRevealProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
@@ -14,15 +16,19 @@ export interface GsapRevealProps extends React.HTMLAttributes<HTMLDivElement> {
   yOffset?: number;
   className?: string;
   triggerOnce?: boolean;
+  blur?: boolean;
+  stagger?: number;
 }
 
 export const GsapReveal: React.FC<GsapRevealProps> = ({
   children,
   delay = 0,
-  duration = 0.8,
-  yOffset = 40,
+  duration = 0.85,
+  yOffset = 36,
   className = '',
   triggerOnce = true,
+  blur = true,
+  stagger = 0,
   ...props
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -30,24 +36,55 @@ export const GsapReveal: React.FC<GsapRevealProps> = ({
   useGSAP(
     () => {
       // Check prefers-reduced-motion
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         return;
       }
 
-      if (containerRef.current) {
-        gsap.from(containerRef.current, {
-          scrollTrigger: {
-            trigger: containerRef.current,
-            start: 'top 85%', // trigger when top of element hits 85% of viewport
-            once: triggerOnce, // only play once
+      const initAnimation = () => {
+        if (!containerRef.current) return;
+
+        ScrollTrigger.refresh();
+
+        const targets =
+          stagger > 0 && containerRef.current.children.length > 0
+            ? Array.from(containerRef.current.children)
+            : containerRef.current;
+
+        gsap.fromTo(
+          targets,
+          {
+            opacity: 0,
+            y: yOffset,
+            filter: blur ? 'blur(8px)' : 'none',
           },
-          opacity: 0,
-          y: yOffset,
-          duration: duration,
-          delay: delay,
-          ease: 'power3.out',
-          clearProps: 'all',
-        });
+          {
+            scrollTrigger: {
+              trigger: containerRef.current,
+              start: 'top 88%',
+              once: triggerOnce,
+              invalidateOnRefresh: true,
+            },
+            opacity: 1,
+            y: 0,
+            filter: blur ? 'blur(0px)' : 'none',
+            duration: duration,
+            delay: delay,
+            stagger: stagger > 0 ? stagger : undefined,
+            ease: 'power3.out',
+            clearProps: 'filter',
+          }
+        );
+      };
+
+      // Ensure preloader has finished before animating so top sections don't fire prematurely
+      if (typeof window !== 'undefined' && (window as any).__ABHINAYA_PRELOADER_DONE) {
+        initAnimation();
+      } else if (typeof window !== 'undefined') {
+        const handleDismiss = () => {
+          setTimeout(initAnimation, 60);
+        };
+        window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
+        return () => window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
       }
     },
     { scope: containerRef }

@@ -15,7 +15,7 @@ export const AboutTeamSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Users className="w-3.5 h-3.5 text-orange-400" />
@@ -31,7 +31,7 @@ export const AboutTeamSection: React.FC = () => {
         </div>
 
         {/* Featured Team Photo */}
-        <div className="rounded-2xl overflow-hidden border border-white/[0.08] bg-[#121216] flex flex-col group shadow-xl">
+        <div className="reveal-on-scroll rounded-2xl overflow-hidden border border-white/[0.08] bg-[#121216] flex flex-col group shadow-xl">
           
           {/* Top meta bar */}
           <div className="px-5 py-3.5 sm:px-7 bg-[#18181B] border-b border-white/[0.06] flex flex-wrap items-center justify-between gap-3">
@@ -79,7 +79,7 @@ export const AboutTeamSection: React.FC = () => {
         </div>
 
         {/* 2-Columns Team Story & Workshop Photo Showcase */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-center">
+        <div className="reveal-on-scroll grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-center">
           
           <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">

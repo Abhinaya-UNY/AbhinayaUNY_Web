@@ -112,7 +112,7 @@ export const Achievements: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         
         {/* Header (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Trophy className="w-3.5 h-3.5 text-amber-400" />
@@ -138,7 +138,9 @@ export const Achievements: React.FC = () => {
               key={idx}
               spotlightColor={item.highlight ? 'rgba(255, 107, 0, 0.20)' : 'rgba(245, 158, 11, 0.12)'}
               spotlightSize={320}
-              className={`p-5 sm:p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden group border ${
+              className={`reveal-on-scroll ${
+                idx % 3 === 0 ? 'reveal-delay-75' : idx % 3 === 1 ? 'reveal-delay-150' : 'reveal-delay-225'
+              } p-5 sm:p-6 rounded-2xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden group border ${
                 item.highlight
                   ? 'bg-[#121216] border-orange-500/30 hover:border-orange-500/60 shadow-orange-glow-sm'
                   : 'bg-[#121216] border-white/[0.08] hover:border-white/20'

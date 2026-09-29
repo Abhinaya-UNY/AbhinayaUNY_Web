@@ -16,7 +16,7 @@ export const NewsMediaSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono tracking-wider border border-orange-500/20">
               <Newspaper className="w-3.5 h-3.5 text-orange-400" />
@@ -48,7 +48,9 @@ export const NewsMediaSection: React.FC = () => {
                 rel="noopener noreferrer"
                 spotlightColor="rgba(255, 107, 0, 0.15)"
                 spotlightSize={350}
-                className={`group rounded-2xl bg-[#121216] border ${
+                className={`reveal-on-scroll ${
+                  idx % 3 === 0 ? 'reveal-delay-75' : idx % 3 === 1 ? 'reveal-delay-150' : 'reveal-delay-225'
+                } group rounded-2xl bg-[#121216] border ${
                   isFirst
                     ? 'border-orange-500/40 hover:border-orange-400/70 shadow-lg shadow-orange-500/5'
                     : 'border-white/[0.08] hover:border-orange-500/30'

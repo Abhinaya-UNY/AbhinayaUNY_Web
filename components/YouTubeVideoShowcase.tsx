@@ -193,7 +193,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-8 relative z-10">
         
         {/* Section Header (Editorial Split Layout) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+        <div className="reveal-on-scroll flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
           <div className="space-y-2">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
               <FaYoutube className="w-3.5 h-3.5 text-red-500" />
@@ -209,7 +209,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
         </div>
 
         {/* Dual-Mode Tab Switcher */}
-        <div className="flex flex-col items-center justify-center space-y-3.5">
+        <div className="reveal-on-scroll reveal-delay-75 flex flex-col items-center justify-center space-y-3.5">
           <div className="inline-flex p-1.5 rounded-2xl bg-[#121216] border border-white/10 shadow-lg gap-2">
             <button
               onClick={() => handleTabChange('action')}
@@ -258,7 +258,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
         </div>
 
         {/* Video Showcase Card */}
-        <div className="max-w-5xl lg:max-w-6xl w-full mx-auto px-1 sm:px-3">
+        <div className="reveal-on-scroll reveal-delay-150 max-w-5xl lg:max-w-6xl w-full mx-auto px-1 sm:px-3">
           <div className="p-2.5 sm:p-5 md:p-6 rounded-2xl bg-[#121216] border border-white/[0.08] shadow-2xl backdrop-blur-sm space-y-5">
             
             {/* 1. Video Stage: 16:9 Widescreen (Pristine Unblocked Viewport) */}

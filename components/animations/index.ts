@@ -10,4 +10,5 @@ export * from './Aurora';
 export * from './InteractiveCanvasDust';
 export * from './TiltedCard';
 export * from './Magnet';
+export * from './ScrollObserver';
 

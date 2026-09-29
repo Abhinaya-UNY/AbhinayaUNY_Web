@@ -51,7 +51,7 @@ export const KrtmiChronicles: React.FC = () => {
   return (
     <section id="krtmi-story" className="py-12 sm:py-16 md:py-24 space-y-8 sm:space-y-12 bg-[#0B0B0E] border-t border-white/[0.06] relative overflow-hidden">
       {/* Section Header */}
-      <div className="text-center space-y-3 max-w-4xl mx-auto px-4 relative z-10">
+      <div className="reveal-on-scroll text-center space-y-3 max-w-4xl mx-auto px-4 relative z-10">
         <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono uppercase tracking-wider border border-orange-500/20">
           <History className="w-3.5 h-3.5 text-orange-400" />
           <span>ARSIP RESMI &amp; BEDAH REGULASI LOMBA</span>
@@ -65,7 +65,7 @@ export const KrtmiChronicles: React.FC = () => {
       </div>
 
       {/* Year Tabs Bar (Ordered 2026 to 2019) with Minimalist Pills */}
-      <div className="max-w-6xl mx-auto px-4 relative z-10">
+      <div className="reveal-on-scroll reveal-delay-75 max-w-6xl mx-auto px-4 relative z-10">
         <div className="flex items-center justify-start lg:justify-center space-x-2 overflow-x-auto pb-4 pt-2 no-scrollbar">
           {KRTMI_STORIES.map((story) => {
             const isSelected = story.year === activeYear;
@@ -92,7 +92,7 @@ export const KrtmiChronicles: React.FC = () => {
       </div>
 
       {/* Selected Story Detailed Card with Official Cover Showcase */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="reveal-on-scroll reveal-delay-150 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="p-6 sm:p-10 rounded-2xl bg-[#121216] border border-white/[0.08] shadow-2xl space-y-8 relative overflow-hidden">
           
           {/* 1. Header Showcase: Official Competition Cover Poster + Details */}

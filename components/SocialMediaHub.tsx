@@ -8,7 +8,7 @@ export const SocialMediaHub: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
         
         {/* Header */}
-        <div className="text-center space-y-3 max-w-5xl mx-auto">
+        <div className="reveal-on-scroll text-center space-y-3 max-w-5xl mx-auto">
           <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
             <FaInstagram className="w-3.5 h-3.5 text-pink-400" />
             <span>JARINGAN MEDIA SOSIAL RESMI</span>
@@ -29,7 +29,7 @@ export const SocialMediaHub: React.FC = () => {
             href="https://www.instagram.com/abhinaya.uny/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
+            className="reveal-on-scroll reveal-delay-75 p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
           >
             <div className="flex items-center justify-between">
               <div className="w-12 h-12 rounded-xl bg-white/5 text-pink-400 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
@@ -58,7 +58,7 @@ export const SocialMediaHub: React.FC = () => {
             href="https://www.tiktok.com/@abhinaya.uny"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
+            className="reveal-on-scroll reveal-delay-150 p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
           >
             <div className="flex items-center justify-between">
               <div className="w-12 h-12 rounded-xl bg-white/5 text-orange-400 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
@@ -87,7 +87,7 @@ export const SocialMediaHub: React.FC = () => {
             href="https://www.youtube.com/@AbhinayaUNY"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
+            className="reveal-on-scroll reveal-delay-225 p-7 rounded-2xl bg-[#121216] border border-white/[0.08] hover:border-white/20 transition-all duration-300 space-y-4 group hover:-translate-y-1 shadow-lg cursor-pointer"
           >
             <div className="flex items-center justify-between">
               <div className="w-12 h-12 rounded-xl bg-white/5 text-red-500 flex items-center justify-center border border-white/10 group-hover:scale-105 transition">
