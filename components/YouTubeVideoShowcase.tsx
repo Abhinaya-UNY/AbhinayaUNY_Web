@@ -21,6 +21,19 @@ interface VideoItem {
 
 const SHOWCASE_VIDEOS: VideoItem[] = [
   {
+    id: '3yr5uNkxA_8',
+    title: 'Kilas Balik Perjalanan & Inovasi Robotika Abhinaya UNY (2019 – 2024)',
+    shortTitle: 'Kilas Balik 2019–2024',
+    subtitle: 'Official Retrospective & Robot Showcase • Perjalanan Riset Robotika UNY',
+    description: 'Kilas balik perjalanan riset dan kompetisi robot Abhinaya UNY dari 2019 hingga 2024: transformasi desain mekanik, elektronika sensor, dan sistem otonom di Kontes Robot Tematik Indonesia.',
+    type: 'action',
+    aspect: '16:9',
+    url: 'https://www.youtube.com/watch?v=3yr5uNkxA_8',
+    tag: 'Kilas Balik Resmi (16:9)',
+    stats: 'Full HD • Kilas Balik 2019–2024',
+    badgeColor: 'bg-orange-500/20 text-orange-400 border-orange-500/40',
+  },
+  {
     id: 'PmxwdrhpxKg',
     title: 'LIVE LOMBA FULL KRTMI WILAYAH 2024 | ABHINAYA Day 2 KRI REGIONAL 2024',
     shortTitle: 'Live Lomba KRTMI 2024',
@@ -115,7 +128,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
 
 export const YouTubeVideoShowcase: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'action' | 'shorts'>('action');
-  const [selectedVideoId, setSelectedVideoId] = useState<string>('PmxwdrhpxKg');
+  const [selectedVideoId, setSelectedVideoId] = useState<string>('3yr5uNkxA_8');
   const [playingInline, setPlayingInline] = useState<Record<string, boolean>>({});
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalVideo, setModalVideo] = useState<VideoItem | null>(null);
@@ -207,7 +220,7 @@ export const YouTubeVideoShowcase: React.FC = () => {
               }`}
             >
               <MonitorPlay className="w-4 h-4" />
-              <span>Video Laga &amp; Profil (16:9)</span>
+              <span>Kilas Balik &amp; Laga (16:9)</span>
             </button>
             <button
               onClick={() => handleTabChange('shorts')}

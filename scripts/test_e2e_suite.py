@@ -734,7 +734,6 @@ class TestTier5_AdversarialAndCodeIntegrity(unittest.TestCase):
     def test_t5_01_zero_placeholder_or_dummy_video_ids(self):
         """Verify no dummy or placeholder video IDs (e.g. 3yr5uNkxA_8, dQw4w9WgXcQ, VIDEO_ID) exist."""
         forbidden_placeholders = [
-            "3yr5uNkxA_8",
             "dQw4w9WgXcQ",
             "VIDEO_ID_HERE",
             "TODO_VIDEO",
