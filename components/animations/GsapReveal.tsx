@@ -60,7 +60,7 @@ export const GsapReveal: React.FC<GsapRevealProps> = ({
           {
             scrollTrigger: {
               trigger: containerRef.current,
-              start: 'top 88%',
+              start: 'top 75%',
               once: triggerOnce,
               invalidateOnRefresh: true,
             },

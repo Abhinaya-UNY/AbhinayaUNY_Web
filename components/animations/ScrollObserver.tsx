@@ -14,21 +14,17 @@ export const ScrollObserver: React.FC = () => {
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    const revealAll = () => {
+    if (prefersReducedMotion) {
       document.querySelectorAll('.reveal-on-scroll').forEach((el) => {
         el.classList.add('is-revealed');
       });
-    };
-
-    if (prefersReducedMotion) {
-      revealAll();
       return;
     }
 
     let observer: IntersectionObserver | null = null;
+    let userHasScrolled = window.scrollY > 20;
 
     const setupObserver = () => {
-      // Refresh GSAP ScrollTrigger to ensure all section markers align with real layout
       ScrollTrigger.refresh();
 
       if (observer) {
@@ -39,6 +35,14 @@ export const ScrollObserver: React.FC = () => {
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
+              // If user has not scrolled yet and is at top of page, do NOT reveal elements below the hero!
+              if (!userHasScrolled && window.scrollY <= 20) {
+                const rect = entry.target.getBoundingClientRect();
+                if (rect.top > window.innerHeight * 0.5) {
+                  return; // Keep hidden until user scrolls
+                }
+              }
+
               entry.target.classList.add('is-revealed');
               observer?.unobserve(entry.target);
             }
@@ -46,7 +50,7 @@ export const ScrollObserver: React.FC = () => {
         },
         {
           root: null,
-          rootMargin: '0px 0px -40px 0px',
+          rootMargin: '0px 0px -60px 0px',
           threshold: 0.08,
         }
       );
@@ -56,7 +60,24 @@ export const ScrollObserver: React.FC = () => {
       });
     };
 
-    // Watch for new elements inserted into the DOM (e.g. tabs change, dynamic filters)
+    // On user scroll, activate check for any elements now entering viewport
+    const handleScroll = () => {
+      if (!userHasScrolled) {
+        userHasScrolled = true;
+      }
+      document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)').forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        // Only reveal if comfortably inside the viewport
+        if (rect.top < window.innerHeight - 60 && rect.bottom > 0) {
+          el.classList.add('is-revealed');
+          observer?.unobserve(el);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    // Watch for new elements inserted into the DOM
     const mutationObserver = new MutationObserver(() => {
       document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)').forEach((el) => {
         observer?.observe(el);
@@ -65,7 +86,6 @@ export const ScrollObserver: React.FC = () => {
 
     mutationObserver.observe(document.body, { childList: true, subtree: true });
 
-    // Handle preloader dismissal synchronization
     if ((window as any).__ABHINAYA_PRELOADER_DONE) {
       setupObserver();
     } else {
@@ -74,26 +94,16 @@ export const ScrollObserver: React.FC = () => {
       };
       window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
 
-      // Safety fallback: if event was somehow missed, activate after 2.5s
-      const fallbackTimer = setTimeout(() => {
-        setupObserver();
-      }, 2500);
-
-      // Ultimate safety fallback: after 4s, ensure all elements are visible
-      const ultimateTimer = setTimeout(() => {
-        revealAll();
-      }, 4000);
-
       return () => {
         window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
-        clearTimeout(fallbackTimer);
-        clearTimeout(ultimateTimer);
+        window.removeEventListener('scroll', handleScroll);
         mutationObserver.disconnect();
         observer?.disconnect();
       };
     }
 
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       mutationObserver.disconnect();
       observer?.disconnect();
     };
@@ -103,4 +113,5 @@ export const ScrollObserver: React.FC = () => {
 };
 
 export default ScrollObserver;
+
 
