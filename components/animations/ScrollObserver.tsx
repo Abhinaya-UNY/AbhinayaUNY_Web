@@ -1,12 +1,6 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-if (typeof window !== 'undefined') {
-  gsap.registerPlugin(ScrollTrigger);
-}
 
 export const ScrollObserver: React.FC = () => {
   useEffect(() => {
@@ -21,91 +15,68 @@ export const ScrollObserver: React.FC = () => {
       return;
     }
 
-    let observer: IntersectionObserver | null = null;
-    let userHasScrolled = window.scrollY > 20;
+    let ticking = false;
 
-    const setupObserver = () => {
-      ScrollTrigger.refresh();
+    const updateReveals = () => {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      const vh = window.innerHeight;
+      const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll');
 
-      if (observer) {
-        observer.disconnect();
+      // 1. If at the absolute top of the page, keep all elements below Hero 100% hidden
+      if (scrollY <= 30) {
+        elements.forEach((el) => {
+          el.classList.remove('is-revealed');
+        });
+        ticking = false;
+        return;
       }
 
-      observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              // If user has not scrolled yet and is at top of page, do NOT reveal elements below the hero!
-              if (!userHasScrolled && window.scrollY <= 20) {
-                const rect = entry.target.getBoundingClientRect();
-                if (rect.top > window.innerHeight * 0.5) {
-                  return; // Keep hidden until user scrolls
-                }
-              }
-
-              entry.target.classList.add('is-revealed');
-              observer?.unobserve(entry.target);
-            }
-          });
-        },
-        {
-          root: null,
-          rootMargin: '0px 0px -60px 0px',
-          threshold: 0.08,
-        }
-      );
-
-      document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)').forEach((el) => {
-        observer?.observe(el);
-      });
-    };
-
-    // On user scroll, activate check for any elements now entering viewport
-    const handleScroll = () => {
-      if (!userHasScrolled) {
-        userHasScrolled = true;
-      }
-      document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)').forEach((el) => {
+      // 2. Real-time bidirectional scroll feedback:
+      // Fade in when entering viewport, fade out when scrolling past or leaving viewport
+      elements.forEach((el) => {
         const rect = el.getBoundingClientRect();
-        // Only reveal if comfortably inside the viewport
-        if (rect.top < window.innerHeight - 60 && rect.bottom > 0) {
+        // Visible when element's top is comfortably inside the screen and hasn't completely scrolled off top
+        const isVisible = rect.top < vh - 60 && rect.bottom > 40;
+
+        if (isVisible) {
           el.classList.add('is-revealed');
-          observer?.unobserve(el);
+        } else {
+          // Real-time fade out when leaving viewport or scrolling back up!
+          el.classList.remove('is-revealed');
         }
       });
+
+      ticking = false;
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateReveals);
+        ticking = true;
+      }
+    };
 
-    // Watch for new elements inserted into the DOM
-    const mutationObserver = new MutationObserver(() => {
-      document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)').forEach((el) => {
-        observer?.observe(el);
-      });
-    });
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
 
-    mutationObserver.observe(document.body, { childList: true, subtree: true });
-
+    // Initial check: if already loaded and scrollY <= 30, keep elements hidden
     if ((window as any).__ABHINAYA_PRELOADER_DONE) {
-      setupObserver();
+      updateReveals();
     } else {
       const handleDismiss = () => {
-        setTimeout(setupObserver, 80);
+        setTimeout(updateReveals, 60);
       };
       window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
-
       return () => {
         window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
-        window.removeEventListener('scroll', handleScroll);
-        mutationObserver.disconnect();
-        observer?.disconnect();
+        window.removeEventListener('scroll', onScroll);
+        window.removeEventListener('resize', onScroll);
       };
     }
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      mutationObserver.disconnect();
-      observer?.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
     };
   }, []);
 
@@ -113,5 +84,6 @@ export const ScrollObserver: React.FC = () => {
 };
 
 export default ScrollObserver;
+
 
 
