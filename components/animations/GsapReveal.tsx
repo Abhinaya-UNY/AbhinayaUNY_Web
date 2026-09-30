@@ -25,11 +25,10 @@ export const GsapReveal: React.FC<GsapRevealProps> = ({
   ...props
 }) => {
   return (
-    <div className={`reveal-on-scroll ${className}`} {...props}>
+    <div className={`w-full ${className}`} {...props}>
       {children}
     </div>
   );
 };
 
 export default GsapReveal;
-

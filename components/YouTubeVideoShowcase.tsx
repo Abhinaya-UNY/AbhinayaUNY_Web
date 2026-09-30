@@ -51,7 +51,7 @@ const SHOWCASE_VIDEOS: VideoItem[] = [
     title: 'Abhinaya Introduction & Perkembangan KRTMI 2019 - 2023',
     shortTitle: 'Kilas Balik 2019–2023',
     subtitle: 'Historical Tech Retrospective • Kilas Balik Riset Robotika UNY',
-    description: 'Perjalanan robot Abhinaya UNY dari tahun ke tahun: dari robot panen padi (2019), robot penyemprot disinfektan medis (2020), sampai robot pemilah sampah otomatis (2023).',
+    description: 'Perjalanan robot Abhinaya UNY dari tahun ke tahun: dari robot panen padi (2019), robot penyemprot disinfektan medis (2020), robot logistik & perakitan digital twin (2021-2023), hingga robot pemilah sampah otonom (2024).',
     type: 'action',
     aspect: '16:9',
     url: 'https://youtu.be/J5FXI2AnQxE',

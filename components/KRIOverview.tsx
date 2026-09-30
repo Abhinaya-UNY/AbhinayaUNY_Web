@@ -160,19 +160,19 @@ export const KRIOverview: React.FC = () => {
               <span>Tema Lomba Tiap Tahun:</span>
             </div>
             <div className="flex flex-wrap items-center gap-2 text-slate-300 font-mono text-[11px]">
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2019: Panen Padi</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2019: Pertanian Padi</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2020: Disinfeksi COVID-19</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2021: Rawat Pasien Medis</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2021: Logistik Medis</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
               <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2022: Limbah Medis RS</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">2023: Pemilah Sampah Cerdas</span>
+              <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 text-cyan-300 font-semibold border border-cyan-500/30">2023: Roda Gigi Planet (Digital Twin)</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-orange-500/10 text-orange-400 font-bold border border-orange-500/40">2024: Pemilah Sampah Otonom</span>
+              <span className="px-2.5 py-1 rounded-lg bg-orange-500/15 text-orange-400 font-bold border border-orange-500/50">2024: Pemilah Sampah Otonom</span>
               <ArrowRight className="w-3 h-3 text-slate-500 flex-shrink-0" />
-              <span className="px-2.5 py-1 rounded-lg bg-cyan-500/10 text-cyan-400 font-bold border border-cyan-400/40">2026: Technocorner &amp; UNDIP</span>
+              <span className="px-2.5 py-1 rounded-lg bg-purple-500/10 text-purple-300 font-semibold border border-purple-400/40">2026: Transporter &amp; Robot Kreatif</span>
             </div>
           </div>
 

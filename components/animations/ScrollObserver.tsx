@@ -6,15 +6,6 @@ export const ScrollObserver: React.FC = () => {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    if (prefersReducedMotion) {
-      document.querySelectorAll('.reveal-on-scroll').forEach((el) => {
-        el.classList.add('is-revealed');
-      });
-      return;
-    }
-
     let ticking = false;
 
     const updateReveals = () => {
@@ -22,7 +13,7 @@ export const ScrollObserver: React.FC = () => {
       const vh = window.innerHeight;
       const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll');
 
-      // 1. If at the absolute top of the page, keep all elements below Hero 100% hidden
+      // 1. If at the absolute top of the page (scrollY <= 30), keep ALL elements below Hero 100% hidden
       if (scrollY <= 30) {
         elements.forEach((el) => {
           el.classList.remove('is-revealed');
@@ -56,27 +47,23 @@ export const ScrollObserver: React.FC = () => {
       }
     };
 
+    // Attach scroll and resize listeners unconditionally
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll, { passive: true });
 
-    // Initial check: if already loaded and scrollY <= 30, keep elements hidden
-    if ((window as any).__ABHINAYA_PRELOADER_DONE) {
-      updateReveals();
-    } else {
-      const handleDismiss = () => {
-        setTimeout(updateReveals, 60);
-      };
-      window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
-      return () => {
-        window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
-        window.removeEventListener('scroll', onScroll);
-        window.removeEventListener('resize', onScroll);
-      };
-    }
+    // Initial check on mount
+    updateReveals();
+
+    // Check again when preloader dismisses
+    const handleDismiss = () => {
+      setTimeout(updateReveals, 50);
+    };
+    window.addEventListener('abhinaya:preloader-dismiss', handleDismiss);
 
     return () => {
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
+      window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
     };
   }, []);
 
@@ -84,6 +71,3 @@ export const ScrollObserver: React.FC = () => {
 };
 
 export default ScrollObserver;
-
-
-
