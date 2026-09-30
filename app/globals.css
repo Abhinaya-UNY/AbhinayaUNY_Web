@@ -79,3 +79,49 @@ body {
 .reveal-delay-375 { transition-delay: 375ms; }
 .reveal-delay-450 { transition-delay: 450ms; }
 
+/* Photo Wall Infinite Marquee Animations */
+@keyframes photoMarqueeLeft {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes photoMarqueeRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-photo-marquee-left {
+  display: flex;
+  width: max-content;
+  animation: photoMarqueeLeft 75s linear infinite;
+  will-change: transform;
+}
+
+.animate-photo-marquee-right {
+  display: flex;
+  width: max-content;
+  animation: photoMarqueeRight 75s linear infinite;
+  will-change: transform;
+}
+
+.animate-photo-marquee-left-fast {
+  display: flex;
+  width: max-content;
+  animation: photoMarqueeLeft 60s linear infinite;
+  will-change: transform;
+}
+
+.animate-photo-marquee-right-fast {
+  display: flex;
+  width: max-content;
+  animation: photoMarqueeRight 60s linear infinite;
+  will-change: transform;
+}
+
+.group-marquee:hover .animate-photo-marquee-left,
+.group-marquee:hover .animate-photo-marquee-right,
+.group-marquee:hover .animate-photo-marquee-left-fast,
+.group-marquee:hover .animate-photo-marquee-right-fast {
+  animation-play-state: paused;
+}
+

@@ -42,11 +42,11 @@ export default function HomePage() {
       </GsapReveal>
       
       <GsapReveal>
-        <InstagramFeedShowcase />
-      </GsapReveal>
-      
-      <GsapReveal>
         <DocumentationGallerySection />
+      </GsapReveal>
+
+      <GsapReveal>
+        <InstagramFeedShowcase />
       </GsapReveal>
       
       <GsapReveal>
