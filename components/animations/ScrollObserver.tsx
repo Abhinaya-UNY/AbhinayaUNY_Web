@@ -13,8 +13,8 @@ export const ScrollObserver: React.FC = () => {
       const vh = window.innerHeight;
       const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll');
 
-      // 1. If at the absolute top of the page (scrollY <= 30), keep ALL elements below Hero 100% hidden
-      if (scrollY <= 30) {
+      // 1. If user is at or near the top of the page (scrollY <= 60), keep ALL elements below Hero hidden
+      if (scrollY <= 60) {
         elements.forEach((el) => {
           el.classList.remove('is-revealed');
         });
@@ -22,17 +22,19 @@ export const ScrollObserver: React.FC = () => {
         return;
       }
 
-      // 2. Real-time bidirectional scroll feedback:
-      // Fade in when entering viewport, fade out when scrolling past or leaving viewport
+      // 2. Deliberate entrance threshold:
+      // Elements only reveal when they have entered comfortably into view (approx 15-20% into viewport from bottom)
+      // and haven't completely scrolled past the top of the screen.
+      const triggerThreshold = Math.min(vh * 0.82, vh - 120);
+
       elements.forEach((el) => {
         const rect = el.getBoundingClientRect();
-        // Visible when element's top is comfortably inside the screen and hasn't completely scrolled off top
-        const isVisible = rect.top < vh - 60 && rect.bottom > 40;
+        const isVisible = rect.top < triggerThreshold && rect.bottom > 50;
 
         if (isVisible) {
           el.classList.add('is-revealed');
         } else {
-          // Real-time fade out when leaving viewport or scrolling back up!
+          // Real-time fade out when leaving viewport or scrolling back up
           el.classList.remove('is-revealed');
         }
       });
