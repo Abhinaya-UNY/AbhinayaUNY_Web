@@ -1,12 +1,16 @@
 export interface GalleryItem {
   id: string;
   title: string;
-  category: 'Semua' | 'Arena Lomba' | 'Panggung Juara' | 'Riset & Lab' | 'Behind The Scenes';
+  category: 'Semua' | 'Arena Lomba' | 'Panggung Juara' | 'Riset & Lab' | 'Behind The Scenes' | 'Video Aksi';
   year: string;
   image: string;
   caption: string;
   event: string;
   aspect?: 'wide' | 'standard' | 'panoramic' | 'square';
+  isVideo?: boolean;
+  youtubeId?: string;
+  videoDuration?: string;
+  videoUrl?: string;
 }
 
 export const GALLERY_ITEMS: GalleryItem[] = [
@@ -418,6 +422,112 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     caption: 'Langkah awal persiapan menyongsong kompetisi transporter robot di Universitas Gadjah Mada.',
     event: 'Technocorner UGM 2026',
     aspect: 'standard'
+  },
+
+  // --- VIDEO ITEMS (AKSI RESMI, KILAS BALIK & SHORTS ROBOTIKA ABHINAYA) ---
+  {
+    id: 'vid-kilas-balik-2024',
+    title: 'Kilas Balik Abhinaya 2019 - 2024 & Robot in Action',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_3yr5uNkxA_8.jpg',
+    caption: 'Video resmi kilas balik perjalanan riset dan aksi manuver robot Abhinaya UNY di ajang Kontes Robot Tematik Indonesia.',
+    event: 'Kilas Balik Resmi UNY',
+    aspect: 'wide',
+    isVideo: true,
+    youtubeId: '3yr5uNkxA_8',
+    videoDuration: 'Full HD'
+  },
+  {
+    id: 'vid-live-krtmi-2024',
+    title: 'Aksi Robot Abhinaya di KRTMI Wilayah 2024',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_PmxwdrhpxKg.jpg',
+    caption: 'Rekaman siaran langsung pertandingan KRTMI 2024: kelincahan manuver roda mecanum, deteksi kamera AI, dan perolehan poin arena.',
+    event: 'KRI Wilayah I 2024',
+    aspect: 'wide',
+    isVideo: true,
+    youtubeId: 'PmxwdrhpxKg',
+    videoDuration: '1080p 60fps'
+  },
+  {
+    id: 'vid-perjalanan-krtmi',
+    title: 'Perjalanan Riset Robotika Abhinaya 2019 - 2023',
+    category: 'Video Aksi',
+    year: '2023',
+    image: '/gallery/yt_J5FXI2AnQxE.jpg',
+    caption: 'Dokumentasi inovasi dari era panen padi (2019), disinfektan medis (2020), digital twin (2021-2023), hingga pemilah sampah otonom.',
+    event: 'Kilas Balik KRTMI',
+    aspect: 'wide',
+    isVideo: true,
+    youtubeId: 'J5FXI2AnQxE',
+    videoDuration: 'HD 60fps'
+  },
+  {
+    id: 'vid-oprec-tim',
+    title: 'Highlight & Kaderisasi Anggota Baru Robotika',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_LyP9M_uTvMk.jpg',
+    caption: 'Video profil tim, suasana laboratorium riset mekatronika, dan kaderisasi mahasiswa baru UKM Rekayasa Teknologi UNY.',
+    event: 'Kaderisasi Robotika UNY',
+    aspect: 'wide',
+    isVideo: true,
+    youtubeId: 'LyP9M_uTvMk',
+    videoDuration: 'Full HD'
+  },
+  {
+    id: 'vid-shorts-recap-2023',
+    title: 'Shorts: Manuver Robot di Arena Gelora USM Semarang',
+    category: 'Video Aksi',
+    year: '2023',
+    image: '/gallery/yt_wLusNVfFFHA.jpg',
+    caption: 'Cuplikan kilas persiapan teknis di paddock, kalibrasi kontrol elektrik, serta uji responsivitas manuver robot saat kompetisi nasional.',
+    event: 'KRTMI 2023 (USM)',
+    aspect: 'square',
+    isVideo: true,
+    youtubeId: 'wLusNVfFFHA',
+    videoDuration: 'Shorts'
+  },
+  {
+    id: 'vid-shorts-simulasi-sirkuit',
+    title: 'Shorts: Simulasi Sirkuit & Riset Mikrokontroler',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_tcsBS-6qgCs.jpg',
+    caption: 'Cuplikan simulasi rangkaian elektronik robotika menggunakan platform Tinkercad & Wokwi untuk perancangan logika embedded.',
+    event: 'Riset Elektronika UNY',
+    aspect: 'square',
+    isVideo: true,
+    youtubeId: 'tcsBS-6qgCs',
+    videoDuration: 'Shorts'
+  },
+  {
+    id: 'vid-shorts-fabrikasi-3d',
+    title: 'Shorts: Fabrikasi 3D Print Komponen Mekanik Robot',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_vjxbL5MB4-4.jpg',
+    caption: 'Proses pencetakan 3D print komponen sasis dan bracket motor robotika Abhinaya UNY untuk persiapan Kontes Robot Indonesia.',
+    event: 'Workshop Mekanik UNY',
+    aspect: 'square',
+    isVideo: true,
+    youtubeId: 'vjxbL5MB4-4',
+    videoDuration: 'Shorts'
+  },
+  {
+    id: 'vid-shorts-selebrasi-juara',
+    title: 'Shorts: Sujud Syukur & Selebrasi Podium Juara Abhinaya',
+    category: 'Video Aksi',
+    year: '2024',
+    image: '/gallery/yt_epyl7w6xZ6Y.jpg',
+    caption: 'Momen haru dan sorak gembira kontingen Abhinaya UNY saat namanya diumumkan sebagai peraih Juara Nasional KRTMI.',
+    event: 'KRI Nasional 2024',
+    aspect: 'square',
+    isVideo: true,
+    youtubeId: 'epyl7w6xZ6Y',
+    videoDuration: 'Shorts'
   }
 ];
 
@@ -426,14 +536,37 @@ export const GALLERY_CATEGORIES = [
   'Arena Lomba',
   'Panggung Juara',
   'Riset & Lab',
-  'Behind The Scenes'
+  'Behind The Scenes',
+  'Video Aksi'
 ] as const;
 
-// 5 Distinct Rows for the "BEHIND THE MACHINES" Photo Wall Collage
+// 5 Distinct Rows for the "BEHIND THE MACHINES" Photo & Video Wall Collage
+// Each row combines authentic photos and high-energy video action cards
 export const GALLERY_ROWS = {
-  row1: GALLERY_ITEMS.slice(0, 8),
-  row2: GALLERY_ITEMS.slice(8, 16),
-  row3: GALLERY_ITEMS.slice(16, 24),
-  row4: GALLERY_ITEMS.slice(24, 32),
-  row5: GALLERY_ITEMS.slice(32, 40),
+  row1: [
+    ...GALLERY_ITEMS.slice(0, 8),
+    GALLERY_ITEMS.find((it) => it.id === 'vid-kilas-balik-2024')!,
+    GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-selebrasi-juara')!
+  ],
+  row2: [
+    ...GALLERY_ITEMS.slice(8, 16),
+    GALLERY_ITEMS.find((it) => it.id === 'vid-live-krtmi-2024')!,
+    GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-recap-2023')!
+  ],
+  row3: [
+    ...GALLERY_ITEMS.slice(16, 24),
+    GALLERY_ITEMS.find((it) => it.id === 'vid-perjalanan-krtmi')!,
+    GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-fabrikasi-3d')!
+  ],
+  row4: [
+    ...GALLERY_ITEMS.slice(24, 32),
+    GALLERY_ITEMS.find((it) => it.id === 'vid-oprec-tim')!,
+    GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-simulasi-sirkuit')!
+  ],
+  row5: [
+    ...GALLERY_ITEMS.slice(32, 40),
+    GALLERY_ITEMS.find((it) => it.id === 'vid-kilas-balik-2024')!,
+    GALLERY_ITEMS.find((it) => it.id === 'vid-live-krtmi-2024')!
+  ]
 };
+

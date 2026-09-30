@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Camera, Maximize2, X, ChevronLeft, ChevronRight, ExternalLink, Sparkles, Layers } from 'lucide-react';
+import { Camera, Maximize2, X, ChevronLeft, ChevronRight, ExternalLink, Sparkles, Layers, Play, Film } from 'lucide-react';
+import { FaYoutube } from 'react-icons/fa';
 import { GALLERY_ITEMS, GALLERY_ROWS, GalleryItem } from '@/data/galleryData';
 
 export const DocumentationGallerySection: React.FC = () => {
@@ -72,14 +73,18 @@ export const DocumentationGallerySection: React.FC = () => {
     }
   };
 
-  // Reusable Photo Card Renderer
+  // Reusable Photo / Video Card Renderer
   const renderPhotoCard = (item: GalleryItem, rowIdx: number, cardIdx: number) => {
     const widthClass = getCardWidthClass(item.aspect);
     return (
       <div
         key={`${item.id}-${rowIdx}-${cardIdx}`}
         onClick={() => handleOpenPhoto(item)}
-        className={`group relative ${widthClass} h-28 sm:h-36 md:h-44 lg:h-48 rounded-2xl overflow-hidden bg-[#18181B] border border-white/[0.08] hover:border-orange-500/50 shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer flex-shrink-0 select-none`}
+        className={`group relative ${widthClass} h-28 sm:h-36 md:h-44 lg:h-48 rounded-2xl overflow-hidden bg-[#18181B] border ${
+          item.isVideo
+            ? 'border-red-500/30 hover:border-red-500/80 shadow-red-950/20'
+            : 'border-white/[0.08] hover:border-orange-500/50'
+        } shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer flex-shrink-0 select-none`}
       >
         <img
           src={`${basePath}${item.image}`}
@@ -88,8 +93,25 @@ export const DocumentationGallerySection: React.FC = () => {
           className="w-full h-full object-cover brightness-[0.92] contrast-[1.05] group-hover:brightness-100 group-hover:scale-105 transition-all duration-700 pointer-events-none"
         />
 
+        {/* Video badge in top-left */}
+        {item.isVideo && (
+          <div className="absolute top-2.5 left-2.5 z-20 flex items-center space-x-1.5 px-2 py-0.5 rounded-full bg-red-600/90 text-white text-[9px] font-mono font-bold tracking-wider shadow-lg border border-red-400/40 backdrop-blur-md">
+            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+            <span>{item.videoDuration || 'VIDEO'}</span>
+          </div>
+        )}
+
+        {/* Center Play Button for Videos */}
+        {item.isVideo && (
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-15">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black/60 group-hover:bg-red-600 text-white flex items-center justify-center backdrop-blur-md border border-white/20 group-hover:border-red-400 group-hover:scale-110 transition-all duration-300 shadow-2xl">
+              <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white translate-x-0.5" />
+            </div>
+          </div>
+        )}
+
         {/* Subtle dark gradient overlay on bottom */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-4">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-4 z-20">
           <div className="flex items-center justify-between text-[10px] font-mono text-orange-400 font-bold mb-0.5">
             <span>{item.year}</span>
             <span className="text-slate-300 truncate max-w-[130px]">{item.event}</span>
@@ -99,9 +121,13 @@ export const DocumentationGallerySection: React.FC = () => {
           </p>
         </div>
 
-        {/* Hover zoom icon pill */}
-        <div className="absolute top-2.5 right-2.5 w-7 h-7 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-200">
-          <Maximize2 className="w-3.5 h-3.5 text-orange-400" />
+        {/* Hover zoom/play icon pill */}
+        <div className="absolute top-2.5 right-2.5 z-20 w-7 h-7 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-200">
+          {item.isVideo ? (
+            <Play className="w-3.5 h-3.5 fill-red-400 text-red-400 translate-x-0.5" />
+          ) : (
+            <Maximize2 className="w-3.5 h-3.5 text-orange-400" />
+          )}
         </div>
       </div>
     );
@@ -140,7 +166,7 @@ export const DocumentationGallerySection: React.FC = () => {
 
             <div className="flex items-center justify-between text-[9px] sm:text-[10px] font-mono text-slate-400 pt-1 border-t border-white/[0.06] relative z-10">
               <span>ABHINAYA ROBOTICS ARCHIVE</span>
-              <span className="text-orange-400 font-bold">{GALLERY_ITEMS.length}+ MOMENTS</span>
+              <span className="text-orange-400 font-bold">{GALLERY_ITEMS.length}+ MOMENTS • FOTO & VIDEO</span>
             </div>
           </div>
 
@@ -245,22 +271,46 @@ export const DocumentationGallerySection: React.FC = () => {
 
           {/* Modal Content Box */}
           <div className="max-w-5xl w-full flex flex-col items-center space-y-4">
-            {/* Image Stage */}
-            <div className="relative max-h-[72vh] w-auto max-w-full rounded-2xl overflow-hidden bg-black/40 border border-white/15 shadow-2xl flex items-center justify-center">
-              <img
-                src={`${basePath}${selectedPhoto.image}`}
-                alt={selectedPhoto.title}
-                className="max-h-[72vh] w-auto object-contain rounded-2xl"
-              />
-            </div>
+            {/* Media Stage: Video or Image */}
+            {selectedPhoto.isVideo && selectedPhoto.youtubeId ? (
+              <div
+                className={`relative ${
+                  selectedPhoto.aspect === 'square'
+                    ? 'w-[300px] sm:w-[360px] aspect-[9/16]'
+                    : 'w-full max-w-4xl aspect-video'
+                } max-h-[72vh] rounded-2xl overflow-hidden bg-black border border-white/20 shadow-2xl mx-auto flex items-center justify-center`}
+              >
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${selectedPhoto.youtubeId}?autoplay=1&rel=0&modestbranding=1`}
+                  title={selectedPhoto.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            ) : (
+              <div className="relative max-h-[72vh] w-auto max-w-full rounded-2xl overflow-hidden bg-black/40 border border-white/15 shadow-2xl flex items-center justify-center">
+                <img
+                  src={`${basePath}${selectedPhoto.image}`}
+                  alt={selectedPhoto.title}
+                  className="max-h-[72vh] w-auto object-contain rounded-2xl"
+                />
+              </div>
+            )}
 
-            {/* Photo Metadata Card */}
-            <div className="w-full max-w-2xl bg-[#121216]/90 border border-white/10 rounded-2xl p-4 sm:p-5 backdrop-blur-md space-y-2 text-center">
+            {/* Photo / Video Metadata Card */}
+            <div className="w-full max-w-2xl bg-[#121216]/90 border border-white/10 rounded-2xl p-4 sm:p-5 backdrop-blur-md space-y-2.5 text-center">
               <div className="flex items-center justify-center space-x-2 text-xs font-mono">
                 <span className="px-2.5 py-0.5 rounded-full bg-orange-500/20 text-orange-400 font-bold border border-orange-500/30">
                   {selectedPhoto.year}
                 </span>
-                <span className="px-2.5 py-0.5 rounded-full bg-white/5 text-slate-300 border border-white/10">
+                <span
+                  className={`px-2.5 py-0.5 rounded-full font-bold border ${
+                    selectedPhoto.isVideo
+                      ? 'bg-red-500/20 text-red-400 border-red-500/30'
+                      : 'bg-white/5 text-slate-300 border border-white/10'
+                  }`}
+                >
                   {selectedPhoto.category}
                 </span>
                 <span className="text-slate-400">•</span>
@@ -275,8 +325,23 @@ export const DocumentationGallerySection: React.FC = () => {
                 {selectedPhoto.caption}
               </p>
 
-              <div className="pt-2 text-[10px] font-mono text-slate-500">
-                Foto {selectedIndex + 1} dari {GALLERY_ITEMS.length} • Gunakan tombol panah keyboard ← → untuk navigasi
+              {/* Action Button for Video */}
+              {selectedPhoto.isVideo && selectedPhoto.youtubeId && (
+                <div className="pt-1 flex items-center justify-center">
+                  <a
+                    href={`https://www.youtube.com/watch?v=${selectedPhoto.youtubeId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs tracking-wider transition shadow-lg shadow-red-950/40 group cursor-pointer"
+                  >
+                    <FaYoutube className="w-4 h-4 text-white group-hover:scale-110 transition" />
+                    <span>Tonton di YouTube ↗</span>
+                  </a>
+                </div>
+              )}
+
+              <div className="pt-1 text-[10px] font-mono text-slate-500">
+                Item {selectedIndex + 1} dari {GALLERY_ITEMS.length} • Gunakan tombol panah keyboard ← → untuk navigasi
               </div>
             </div>
           </div>
