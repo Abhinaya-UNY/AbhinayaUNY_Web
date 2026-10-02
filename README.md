@@ -36,6 +36,15 @@
 
 ---
 
+## 🏛️ Silsilah & Struktur Kelembagaan
+Urutan organisasi resmi:
+1. **UKM Rekayasa Teknologi (Restek) UNY** (Organisasi Unit Kegiatan Mahasiswa Induk)
+2. └── **Divisi Robotika** (Divisi struktural di bawah UKM Restek UNY)
+3. &nbsp;&nbsp;&nbsp;&nbsp;└── **Kontingen KRI (Kontes Robot Indonesia) UNY** (Wadah kontingen resmi delegasi UNY)
+4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── **Tim Abhinaya** (Nama Tim resmi yang bertanding di divisi KRTMI & kompetisi robotika nasional)
+
+---
+
 ## 🏆 Rekam Jejak Kejuaraan Nasional
 - 🥇 **Juara 1 Regional I Wilayah** — Kontes Robot Tematik Indonesia (KRTMI) 2024 *(BPTI Puspresnas Kemendikbudristek)*
 - 🥈 **Juara 2 Tingkat Nasional** — Kontes Robot Tematik Indonesia (KRTMI) 2024 *(BPTI Puspresnas & UMS)*

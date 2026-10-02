@@ -26,7 +26,7 @@ export const AboutTeamSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-slate-300 max-w-lg leading-relaxed">
-            Tim Abhinaya adalah tim robotika divisi <strong className="text-white">Kontes Robot Tematik Indonesia (KRTMI)</strong> di bawah naungan <strong className="text-white">UKM Rekayasa Teknologi (Restek) UNY</strong>. Terbuka bagi seluruh mahasiswa UNY dari semua fakultas yang ingin belajar dan berprestasi bareng di dunia robotika.
+            <strong className="text-white">Tim Abhinaya</strong> adalah tim resmi pada Kontingen <strong className="text-white">Kontes Robot Indonesia (KRI)</strong> di bawah naungan <strong className="text-white">Divisi Robotika UKM Rekayasa Teknologi (Restek) UNY</strong>. Terbuka bagi seluruh mahasiswa UNY dari semua fakultas yang ingin belajar dan berprestasi bareng di dunia robotika.
           </p>
         </div>
 

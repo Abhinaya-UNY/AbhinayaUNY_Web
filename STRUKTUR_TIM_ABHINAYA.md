@@ -6,6 +6,44 @@
 
 ---
 
+## 🏛️ Hirarki & Silsilah Kelembagaan Resmi (Institutional Hierarchy)
+
+Secara struktural organisasi kemahasiswaan di Universitas Negeri Yogyakarta (UNY), urutan kelembagaan resmi Tim Abhinaya adalah:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 1. UKM Rekayasa Teknologi (Restek) UNY                     │
+│    (Unit Kegiatan Mahasiswa Tingkat Universitas)            │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ membawahi
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. Divisi Robotika                                          │
+│    (Divisi Struktural di bawah UKM Rekayasa Teknologi)      │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ menaungi
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 3. Kontingen KRI (Kontes Robot Indonesia) UNY              │
+│    (Wadah Resmi Delegasi UNY di Kompetisi KRI Nasional)     │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ beranggotakan tim lomba
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. TIM ABHINAYA                                             │
+│    (Nama Tim Resmi Kontingen KRI Divisi KRTMI)              │
+│    *Kontes Robot Tematik Indonesia & Technocorner           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Rincian Alur Kelembagaan:
+1. **UKM Rekayasa Teknologi (Restek) UNY**: Unit Kegiatan Mahasiswa (UKM) tingkat universitas di UNY yang menaungi inovasi teknologi dan rekayasa sains terapan.
+2. **Divisi Robotika**: Salah satu divisi fungsional di bawah UKM Rekayasa Teknologi yang fokus pada riset mekatronika dan sistem otonom.
+3. **Kontingen KRI (Kontes Robot Indonesia) UNY**: Wadah kontingen resmi delegasi UNY yang berlaga di kompetisi nasional tahunan BPTI Puspresnas Kemendikbudristek RI.
+4. **Tim Abhinaya**: **Nama Tim resmi** di dalam Kontingen KRI UNY yang bertanding khusus pada divisi **Kontes Robot Tematik Indonesia (KRTMI)** dan turnamen robotika terkait (seperti Technocorner UGM & UNLIMITED UNDIP).
+
+---
+
 ## 1. Dosen Pembimbing Resmi (Advisory Board)
 
 ### 1. Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU.
