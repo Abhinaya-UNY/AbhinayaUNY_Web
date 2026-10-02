@@ -355,13 +355,13 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'uny-kri-its-2022',
-    title: 'Kontingen KRTMI 2022 di Kampus ITS Surabaya',
+    title: 'Kontingen Abhinaya KRTMI 2022 di Ajang KRI Nasional',
     category: 'Behind The Scenes',
     year: '2022',
-    image: '/images/news/uny-kri-lolos-nasional-2022.jpg',
-    caption: 'Perjuangan mengharumkan almamater UNY pada divisi tematik limbah medis rumah sakit di Surabaya.',
-    event: 'KRTMI 2022 (ITS Surabaya)',
-    aspect: 'wide'
+    image: '/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_5.jpg',
+    caption: 'Potret lengkap skuad dan pembina Abhinaya UNY bersama robot tematik penanganan limbah medis di arena KRI Nasional 2022.',
+    event: 'KRI Nasional 2022 (KRTMI)',
+    aspect: 'square'
   },
   {
     id: 'ig-krtmi-covid-2020',
@@ -375,11 +375,11 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'ig-laga-its-2022',
-    title: 'Pertandingan Digital Twin Insinerator Medis KRTMI 2022',
-    category: 'Arena Lomba',
+    title: 'Diskusi Taktik & Strategi Arena KRTMI 2022',
+    category: 'Behind The Scenes',
     year: '2022',
-    image: '/images/instagram_feed/2022-05-28_04-24-07_UTC_CeFpRStLwaE.jpg',
-    caption: 'Robot Abhinaya membawa simulasi limbah B3 menuju docking steril di arena panggung KRI 2022.',
+    image: '/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_4.jpg',
+    caption: 'Kru teknis Abhinaya UNY berdiskusi menyempurnakan strategi pergerakan robot pemilah limbah medis di atas karpet arena.',
     event: 'KRTMI 2022',
     aspect: 'square'
   },
