@@ -366,10 +366,6 @@ export const DocumentationGallerySection: React.FC = () => {
                 {selectedPhoto.title}
               </h3>
 
-              <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-                {selectedPhoto.caption}
-              </p>
-
               {/* Action Button for Video or HD Photo */}
               <div className="pt-1 flex items-center justify-center gap-2">
                 {selectedPhoto.isVideo && selectedPhoto.youtubeId ? (
