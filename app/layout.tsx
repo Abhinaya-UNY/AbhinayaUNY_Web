@@ -5,6 +5,7 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Preloader } from '@/components/Preloader';
 import { ScrollObserver } from '@/components/animations';
+import { BackgroundPreloader } from '@/components/BackgroundPreloader';
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -131,6 +132,7 @@ export default function RootLayout({
       <body className="antialiased font-sans selection:bg-orange-500 selection:text-black bg-[#0B0B0E] text-slate-100 min-h-screen">
         <Preloader />
         <ScrollObserver />
+        <BackgroundPreloader />
         <Navbar />
         <main className="min-h-[85vh]">
           {children}

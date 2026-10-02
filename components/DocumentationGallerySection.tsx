@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Camera, Maximize2, X, ChevronLeft, ChevronRight, ExternalLink, Sparkles, Layers, Play, Film } from 'lucide-react';
 import { FaYoutube } from 'react-icons/fa';
 import { GALLERY_ITEMS, GALLERY_ROWS, GalleryItem } from '@/data/galleryData';
@@ -9,7 +9,30 @@ export const DocumentationGallerySection: React.FC = () => {
   const [selectedPhoto, setSelectedPhoto] = useState<GalleryItem | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [isHdLoaded, setIsHdLoaded] = useState<boolean>(false);
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isInViewport, setIsInViewport] = useState<boolean>(false);
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+
+  // Performance: Pause infinite marquee animations when gallery is off-screen
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || typeof window === 'undefined') return;
+
+    if (!('IntersectionObserver' in window)) {
+      setIsInViewport(true);
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        setIsInViewport(entry.isIntersecting);
+      },
+      { rootMargin: '350px 0px 350px 0px' }
+    );
+
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
 
   const handleOpenPhoto = (item: GalleryItem) => {
     const idx = GALLERY_ITEMS.findIndex((p) => p.id === item.id);
@@ -158,7 +181,7 @@ export const DocumentationGallerySection: React.FC = () => {
   };
 
   return (
-    <section id="galeri-foto" className="w-full bg-[#0B0B0E] relative border-b border-white/[0.06] overflow-hidden py-10 sm:py-14 select-none">
+    <section ref={sectionRef} id="galeri-foto" className="w-full bg-[#0B0B0E] relative border-b border-white/[0.06] overflow-hidden py-10 sm:py-14 select-none">
       
       {/* Background Subtle Ambient Glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] sm:w-[1000px] h-[400px] bg-orange-500/5 blur-[160px] pointer-events-none rounded-full" />
@@ -187,7 +210,7 @@ export const DocumentationGallerySection: React.FC = () => {
       </div>
 
       {/* Main Wall Container (Collapsible Multi-Row Marquee) */}
-      <div className="space-y-3 sm:space-y-3.5 relative z-10 group-marquee">
+      <div className={`space-y-3 sm:space-y-3.5 relative z-10 group-marquee ${isInViewport ? '' : 'marquee-paused'}`}>
         
         {/* ROW 1: Dokumentasi Laga & Momen Emas (Drifting Left) */}
         <div className="overflow-hidden">
