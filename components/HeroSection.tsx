@@ -218,36 +218,6 @@ export const HeroSection: React.FC = () => {
 
           {/* RIGHT COLUMN: Studio Photography & Telemetry Showcase (Col 5 on Desktop) */}
           <div className="lg:col-span-5 space-y-3.5">
-            
-            {/* Sleek Minimalist Live Status Pill */}
-            <div
-              className={`flex items-center justify-between px-4 py-2.5 rounded-2xl bg-gradient-to-r from-white/[0.04] via-orange-500/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.08] hover:border-orange-500/30 transition-all duration-300 shadow-lg shadow-black/20 ${getEntranceClass(250)}`}
-              style={{ transitionDelay: isPreloaderDone ? '250ms' : '0ms' }}
-            >
-              <div className="flex items-center space-x-2.5 min-w-0">
-                <span className="relative flex h-2.5 w-2.5 flex-shrink-0">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-                </span>
-                <span className="text-[11px] sm:text-xs font-mono font-bold tracking-wider text-emerald-400 uppercase flex-shrink-0">
-                  KONTINGEN AKTIF
-                </span>
-                <span className="text-white/20 font-mono hidden sm:inline">•</span>
-                <span className="text-[11px] sm:text-xs font-mono text-slate-300 truncate hidden sm:inline">
-                  UKM Rekayasa Teknologi UNY
-                </span>
-              </div>
-
-              <div className="flex items-center space-x-1.5 flex-shrink-0 pl-2">
-                <Sparkles className="w-3.5 h-3.5 text-orange-400 animate-pulse" />
-                <ShinyText
-                  text="KRTMI ROBOTICS"
-                  speed={3}
-                  className="text-[11px] font-mono font-bold text-orange-300"
-                />
-              </div>
-            </div>
-
             {/* Cinematic Studio Frame: 100% Unblocked Photography */}
             <div
               className={`relative rounded-2xl overflow-hidden bg-[#121216] group border border-orange-500/20 hover:border-orange-500/40 shadow-2xl shadow-orange-950/20 transition-all duration-300 ${getEntranceClass(450)}`}
