@@ -4,6 +4,7 @@ export interface GalleryItem {
   category: 'Semua' | 'Arena Lomba' | 'Panggung Juara' | 'Riset & Lab' | 'Behind The Scenes' | 'Video Aksi';
   year: string;
   image: string;
+  thumbnail?: string;
   caption: string;
   event: string;
   aspect?: 'wide' | 'standard' | 'panoramic' | 'square' | 'portrait' | 'tall';
@@ -21,6 +22,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/gallery/krtmi_podium_juara.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_podium_juara.webp',
     caption: 'Dokumentasi penyerahan trofi Juara 2 Nasional divisi KRTMI pada Kontes Robot Indonesia (KRI) 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'wide'
@@ -31,6 +33,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/assets/team_podium_1.jpg',
+    thumbnail: '/thumbnails/assets/team_podium_1.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY di atas panggung penutupan Kontes Robot Indonesia 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -41,6 +44,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/gallery/krtmi_team_celebration.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_team_celebration.webp',
     caption: 'Dokumentasi tim Abhinaya UNY membawa piala Juara 2 Nasional divisi KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'wide'
@@ -51,6 +55,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2019',
     image: '/images/news/uny-kri-piala-nasional-2019.jpg',
+    thumbnail: '/thumbnails/images/news/uny-kri-piala-nasional-2019.webp',
     caption: 'Dokumentasi piala kejuaraan divisi KRTMI pada Kontes Robot Indonesia 2019 di UDINUS, Semarang.',
     event: 'KRI Nasional 2019 (UDINUS Semarang)',
     aspect: 'standard'
@@ -61,6 +66,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/assets/team_podium_2.jpg',
+    thumbnail: '/thumbnails/assets/team_podium_2.webp',
     caption: 'Dokumentasi penyerahan medali dan piagam penghargaan KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -71,6 +77,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/images/news/uny-krtmi-juara-pusat-2024.jpg',
+    thumbnail: '/thumbnails/images/news/uny-krtmi-juara-pusat-2024.webp',
     caption: 'Dokumentasi foto kontingen Abhinaya UNY bersama pimpinan universitas di Gedung Rektorat UNY, Yogyakarta.',
     event: 'Rektorat UNY 2024',
     aspect: 'wide'
@@ -81,6 +88,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/gallery/krtmi_celebration.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_celebration.webp',
     caption: 'Dokumentasi foto bersama kontingen Abhinaya UNY pada penutupan KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -91,6 +99,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/assets/hero_team_stage.jpg',
+    thumbnail: '/thumbnails/assets/hero_team_stage.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY di panggung utama KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -103,6 +112,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/gallery/krtmi_arena_action.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_arena_action.webp',
     caption: 'Dokumentasi pergerakan robot Abhinaya di arena pertandingan KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -113,6 +123,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/assets/robot_action_1.jpg',
+    thumbnail: '/thumbnails/assets/robot_action_1.webp',
     caption: 'Dokumentasi pengujian mekanisme robot Abhinaya pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -123,6 +134,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/gallery/krtmi_official_match.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_official_match.webp',
     caption: 'Dokumentasi pertandingan babak eliminasi KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -133,6 +145,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/assets/robot_action_2.jpg',
+    thumbnail: '/thumbnails/assets/robot_action_2.webp',
     caption: 'Dokumentasi robot Abhinaya menjalankan misi pemilahan sampah otomatis pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -143,6 +156,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/gallery/krtmi_arena_prep.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_arena_prep.webp',
     caption: 'Dokumentasi penempatan robot Abhinaya di zona start arena lomba KRTMI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -153,6 +167,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/images/news/undip-unlimited-robot-finalist.jpg',
+    thumbnail: '/thumbnails/images/news/undip-unlimited-robot-finalist.webp',
     caption: 'Dokumentasi robot Abhinaya berlaga pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'standard'
@@ -163,6 +178,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2023',
     image: '/images/instagram_feed/2023-02-03_17-08-58_UTC_CoNUUzuPX9e_2.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-02-03_17-08-58_UTC_CoNUUzuPX9e_2.webp',
     caption: 'Dokumentasi simulasi pertandingan KRTMI pada KRI 2023 di Gelora USM, Semarang.',
     event: 'KRTMI 2023 (USM Semarang)',
     aspect: 'square'
@@ -173,6 +189,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2024',
     image: '/assets/WEB_5721.jpg',
+    thumbnail: '/thumbnails/assets/WEB_5721.webp',
     caption: 'Dokumentasi robot Abhinaya di arena pertandingan KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -185,6 +202,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/gallery/krtmi_robot_tuning.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_robot_tuning.webp',
     caption: 'Dokumentasi kalibrasi dan perbaikan robot Abhinaya di paddock KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -195,6 +213,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/gallery/krtmi_paddock_tuning.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_paddock_tuning.webp',
     caption: 'Dokumentasi pengecekan komponen mekanik dan elektrik di paddock KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -205,6 +224,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/gallery/krtmi_mechanics_check.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_mechanics_check.webp',
     caption: 'Dokumentasi pengecekan roda mecanum dan sasis robot di paddock KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -215,6 +235,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_5.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_5.webp',
     caption: 'Dokumentasi suasana kerja tim Abhinaya di paddock KRI 2023 di Gelora USM, Semarang.',
     event: 'KRTMI 2023 (USM Semarang)',
     aspect: 'square'
@@ -225,6 +246,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/gallery/krtmi_robot_closeup.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_robot_closeup.webp',
     caption: 'Dokumentasi fisik robot Abhinaya KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -235,6 +257,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_01-46-44_UTC_Cw6bSByvBVA_3.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_01-46-44_UTC_Cw6bSByvBVA_3.webp',
     caption: 'Dokumentasi proses soldering dan perakitan modul elektronik di Lab Robotika UKM Rekayasa Teknologi UNY, Yogyakarta.',
     event: 'Lab Robotika UNY',
     aspect: 'square'
@@ -245,6 +268,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_2.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_2.webp',
     caption: 'Dokumentasi evaluasi teknis tim Abhinaya di paddock KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'square'
@@ -255,6 +279,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_7.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_7.webp',
     caption: 'Dokumentasi pembacaan data telemetri robot Abhinaya di paddock KRI 2023 di Gelora USM, Semarang.',
     event: 'KRTMI 2023 (USM Semarang)',
     aspect: 'square'
@@ -267,6 +292,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2024',
     image: '/gallery/krtmi_team_focus.jpg',
+    thumbnail: '/thumbnails/gallery/krtmi_team_focus.webp',
     caption: 'Dokumentasi kru teknis Abhinaya UNY memantau jalannya pertandingan KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'standard'
@@ -277,6 +303,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_02-08-37_UTC_Cw6dyWqPSoI_3.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_02-08-37_UTC_Cw6dyWqPSoI_3.webp',
     caption: 'Dokumentasi anggota divisi pemrograman Tim Abhinaya UNY tahun 2022 di kampus UNY, Yogyakarta.',
     event: 'Tim Abhinaya 2022',
     aspect: 'square'
@@ -287,6 +314,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_01-46-44_UTC_Cw6bSByvBVA_2.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_01-46-44_UTC_Cw6bSByvBVA_2.webp',
     caption: 'Dokumentasi anggota divisi elektronika Tim Abhinaya UNY tahun 2022 di kampus UNY, Yogyakarta.',
     event: 'Tim Abhinaya 2022',
     aspect: 'square'
@@ -297,6 +325,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_1.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_01-39-35_UTC_Cw6ads0v8Q2_1.webp',
     caption: 'Dokumentasi anggota divisi mekanik Tim Abhinaya UNY tahun 2022 di kampus UNY, Yogyakarta.',
     event: 'Tim Abhinaya 2022',
     aspect: 'square'
@@ -307,6 +336,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_1.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_01-27-05_UTC_Cw6ZCItPRJ-_1.webp',
     caption: 'Dokumentasi pengarahan teknis anggota tim Abhinaya UNY pada KRI 2022 di ITS Surabaya.',
     event: 'KRI 2022 (ITS Surabaya)',
     aspect: 'square'
@@ -317,6 +347,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2025',
     image: '/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_1.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2025-09-27_20-10-47_UTC_DPHl0olk4Zw_1.webp',
     caption: 'Dokumentasi riset dan pengembangan anggota tim Abhinaya tahun 2025 di Lab Robotika UNY, Yogyakarta.',
     event: 'Lab Robotika UNY 2025',
     aspect: 'portrait'
@@ -327,6 +358,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2025',
     image: '/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_1.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2025-09-27_20-17-09_UTC_DPHmjMFEwJm_1.webp',
     caption: 'Dokumentasi pengujian sistem robot Abhinaya tahun 2025 di Lab Robotika UNY, Yogyakarta.',
     event: 'Lab Robotika UNY 2025',
     aspect: 'portrait'
@@ -337,6 +369,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Riset & Lab',
     year: '2025',
     image: '/images/instagram_feed/2025-09-27_20-31-45_UTC_DPHoOJJk2NM_2.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2025-09-27_20-31-45_UTC_DPHoOJJk2NM_2.webp',
     caption: 'Dokumentasi fabrikasi mekanik sasis robot Abhinaya tahun 2025 di Lab Robotika UNY, Yogyakarta.',
     event: 'Lab Robotika UNY 2025',
     aspect: 'portrait'
@@ -349,6 +382,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/assets/hero_abhinaya.jpg',
+    thumbnail: '/thumbnails/assets/hero_abhinaya.webp',
     caption: 'Dokumentasi foto resmi seluruh anggota kontingen Abhinaya UNY pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'wide'
@@ -359,6 +393,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2022',
     image: '/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_5.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_5.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY dan pembina bersama robot tematik limbah medis pada KRI 2022 di ITS, Surabaya.',
     event: 'KRI Nasional 2022 (ITS Surabaya)',
     aspect: 'square'
@@ -369,6 +404,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2020',
     image: '/images/instagram_feed/2020-07-28_14-22-54_UTC_CDMF_hcDUwh.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2020-07-28_14-22-54_UTC_CDMF_hcDUwh.webp',
     caption: 'Dokumentasi robot sterilisasi otomatis Abhinaya pada Kontes Robot Indonesia 2020 secara daring.',
     event: 'KRTMI 2020 (Daring)',
     aspect: 'wide'
@@ -379,6 +415,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2022',
     image: '/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_4.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2022-09-02_15-06-12_UTC_CiAj23Yr7iv_4.webp',
     caption: 'Dokumentasi diskusi teknis anggota tim Abhinaya pada KRI 2022 di ITS, Surabaya.',
     event: 'KRTMI 2022 (ITS Surabaya)',
     aspect: 'square'
@@ -389,6 +426,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2023',
     image: '/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_2.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2023-09-08_02-54-52_UTC_Cw6jFIzPwDx_2.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY di arena Gelora USM pada KRI 2023 di Semarang.',
     event: 'KRTMI 2023 (USM Semarang)',
     aspect: 'square'
@@ -399,6 +437,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2024',
     image: '/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_4.jpg',
+    thumbnail: '/thumbnails/images/instagram_feed/2024-09-12_17-50-54_UTC_C_03vj8zNUB_4.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY di luar gedung Edutorium UMS pada KRI 2024 di Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'square'
@@ -409,6 +448,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2024',
     image: '/assets/IMG-20240706-WA0117.jpg',
+    thumbnail: '/thumbnails/assets/IMG-20240706-WA0117.webp',
     caption: 'Dokumentasi tim Abhinaya UNY membawa piala Juara 2 KRTMI di Edutorium UMS pada KRI 2024 di Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'wide'
@@ -419,6 +459,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/images/tournaments/technocorner_2026_cover.png',
+    thumbnail: '/thumbnails/images/tournaments/technocorner_2026_cover.webp',
     caption: 'Dokumentasi buku panduan kompetisi robot Transporter Technocorner 2026 di Universitas Gadjah Mada, Yogyakarta.',
     event: 'Technocorner UGM 2026',
     aspect: 'portrait'
@@ -431,6 +472,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_3yr5uNkxA_8.jpg',
+    thumbnail: '/thumbnails/gallery/yt_3yr5uNkxA_8.webp',
     caption: 'Dokumentasi video kilas balik perjalanan riset dan kompetisi robot Abhinaya UNY dari tahun 2019 hingga 2024.',
     event: 'Kilas Balik Resmi',
     aspect: 'wide',
@@ -444,6 +486,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_PmxwdrhpxKg.jpg',
+    thumbnail: '/thumbnails/gallery/yt_PmxwdrhpxKg.webp',
     caption: 'Dokumentasi rekaman siaran langsung pertandingan robot Abhinaya UNY pada KRTMI Wilayah 2024.',
     event: 'Siaran Laga KRTMI 2024',
     aspect: 'wide',
@@ -457,6 +500,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2023',
     image: '/gallery/yt_J5FXI2AnQxE.jpg',
+    thumbnail: '/thumbnails/gallery/yt_J5FXI2AnQxE.webp',
     caption: 'Dokumentasi video kompilasi perkembangan robot tematik Abhinaya UNY dari tahun 2019 hingga 2023.',
     event: 'Kilas Balik KRTMI',
     aspect: 'wide',
@@ -470,6 +514,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_LyP9M_uTvMk.jpg',
+    thumbnail: '/thumbnails/gallery/yt_LyP9M_uTvMk.webp',
     caption: 'Dokumentasi video profil tim dan pengenalan divisi robotika Abhinaya di UKM Rekayasa Teknologi UNY.',
     event: 'Profil Tim Robotika UNY',
     aspect: 'wide',
@@ -483,6 +528,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2023',
     image: '/gallery/yt_wLusNVfFFHA.jpg',
+    thumbnail: '/thumbnails/gallery/yt_wLusNVfFFHA.webp',
     caption: 'Dokumentasi video vertikal manuver robot Abhinaya pada KRTMI 2023 di Gelora USM, Semarang.',
     event: 'KRTMI 2023 (USM Semarang)',
     aspect: 'tall',
@@ -496,6 +542,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_tcsBS-6qgCs.jpg',
+    thumbnail: '/thumbnails/gallery/yt_tcsBS-6qgCs.webp',
     caption: 'Dokumentasi video vertikal pengujian rangkaian elektronik dan mikrokontroler di lab robotika UNY, Yogyakarta.',
     event: 'Lab Robotika UNY',
     aspect: 'tall',
@@ -509,6 +556,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_vjxbL5MB4-4.jpg',
+    thumbnail: '/thumbnails/gallery/yt_vjxbL5MB4-4.webp',
     caption: 'Dokumentasi video vertikal proses 3D printing komponen mekanik robot Abhinaya UNY di lab, Yogyakarta.',
     event: 'Lab Robotika UNY',
     aspect: 'tall',
@@ -522,6 +570,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Video Aksi',
     year: '2024',
     image: '/gallery/yt_epyl7w6xZ6Y.jpg',
+    thumbnail: '/thumbnails/gallery/yt_epyl7w6xZ6Y.webp',
     caption: 'Dokumentasi video vertikal pengumuman perolehan Juara 2 KRTMI pada KRI 2024 di Edutorium UMS, Surakarta.',
     event: 'KRI Nasional 2024 (UMS Surakarta)',
     aspect: 'tall',
@@ -535,6 +584,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_01.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_01.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -545,6 +595,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_02.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_02.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -555,6 +606,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_03.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_03.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -565,6 +617,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_04.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_04.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -575,6 +628,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_05.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_05.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -585,6 +639,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_06.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_06.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -595,6 +650,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_07.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_07.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -605,6 +661,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_08.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_08.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -615,6 +672,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_09.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_09.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -625,6 +683,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_10.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_10.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -635,6 +694,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_11.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_11.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -645,6 +705,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_12.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_12.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -655,6 +716,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_13.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_13.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -665,6 +727,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_14.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -675,6 +738,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_15.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_15.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -685,6 +749,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_16.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_16.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -695,6 +760,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_17.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_17.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -705,6 +771,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_18.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_18.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -715,6 +782,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_19.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_19.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -725,6 +793,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_20.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_20.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -735,6 +804,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_21.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_21.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -745,6 +815,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Arena Lomba',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_22.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_22.webp',
     caption: 'Dokumentasi demonstrasi robot pemilah sampah pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -755,6 +826,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_23.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_23.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -765,6 +837,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_24.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_24.webp',
     caption: 'Dokumentasi kontingen Abhinaya UNY pada kompetisi Robot Kreatif UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -775,6 +848,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_stage_action_25.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_stage_action_25.webp',
     caption: 'Dokumentasi penganugerahan piala Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -785,6 +859,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_01.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_01.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -795,6 +870,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_02.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_02.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -805,6 +881,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_03.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_03.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -815,6 +892,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_04.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_04.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -825,6 +903,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_05.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_05.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -835,6 +914,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_06.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_06.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -845,6 +925,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_07.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_07.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -855,6 +936,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_08.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_08.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -865,6 +947,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_09.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_09.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'wide'
@@ -875,6 +958,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_10.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_10.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -885,6 +969,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Behind The Scenes',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_11.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_11.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -895,6 +980,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_uny_ugm_12.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_uny_ugm_12.webp',
     caption: 'Dokumentasi bersama kontingen Abhinaya UNY dan kontingen GMRT UGM pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -905,6 +991,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_01.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_01.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -915,6 +1002,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_02.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_02.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -925,6 +1013,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_03.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_03.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -935,6 +1024,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_04.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_04.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'portrait'
@@ -945,6 +1035,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_05.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_05.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -955,6 +1046,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_06.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_06.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -965,6 +1057,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_07.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_07.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -975,6 +1068,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_08.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_08.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -985,6 +1079,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_09.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_09.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -995,6 +1090,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_10.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_10.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1005,6 +1101,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_11.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_11.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1015,6 +1112,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_12.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_12.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1025,6 +1123,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_13.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_13.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1035,6 +1134,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_14.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_14.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1045,6 +1145,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_15.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_15.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1055,6 +1156,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_16.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_16.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1065,6 +1167,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_17.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_17.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1075,6 +1178,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_18.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_18.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1085,6 +1189,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_19.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_19.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1095,6 +1200,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_20.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_20.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1105,6 +1211,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_21.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_21.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1115,6 +1222,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_22.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_22.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'
@@ -1125,6 +1233,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'Panggung Juara',
     year: '2026',
     image: '/gallery/unlimited_undip/undip_trophy_squad_23.jpg',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_23.webp',
     caption: 'Dokumentasi anggota tim Abhinaya UNY membawa trofi Juara 1 Robot Kreatif pada ajang UNLIMITED 2026 di Universitas Diponegoro, Semarang.',
     event: 'UNLIMITED UNDIP 2026',
     aspect: 'tall'

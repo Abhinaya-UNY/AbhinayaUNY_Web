@@ -8,15 +8,18 @@ import { GALLERY_ITEMS, GALLERY_ROWS, GalleryItem } from '@/data/galleryData';
 export const DocumentationGallerySection: React.FC = () => {
   const [selectedPhoto, setSelectedPhoto] = useState<GalleryItem | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
+  const [isHdLoaded, setIsHdLoaded] = useState<boolean>(false);
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
   const handleOpenPhoto = (item: GalleryItem) => {
     const idx = GALLERY_ITEMS.findIndex((p) => p.id === item.id);
     setSelectedIndex(idx >= 0 ? idx : 0);
+    setIsHdLoaded(false);
     setSelectedPhoto(item);
   };
 
   const handleNext = useCallback(() => {
+    setIsHdLoaded(false);
     setSelectedIndex((prev) => {
       const nextIdx = (prev + 1) % GALLERY_ITEMS.length;
       setSelectedPhoto(GALLERY_ITEMS[nextIdx]);
@@ -25,6 +28,7 @@ export const DocumentationGallerySection: React.FC = () => {
   }, []);
 
   const handlePrev = useCallback(() => {
+    setIsHdLoaded(false);
     setSelectedIndex((prev) => {
       const prevIdx = (prev - 1 + GALLERY_ITEMS.length) % GALLERY_ITEMS.length;
       setSelectedPhoto(GALLERY_ITEMS[prevIdx]);
@@ -34,6 +38,7 @@ export const DocumentationGallerySection: React.FC = () => {
 
   const handleClose = useCallback(() => {
     setSelectedPhoto(null);
+    setIsHdLoaded(false);
   }, []);
 
   // Keyboard controls for Lightbox
@@ -88,6 +93,7 @@ export const DocumentationGallerySection: React.FC = () => {
   const renderPhotoCard = (item: GalleryItem, rowIdx: number, cardIdx: number) => {
     const widthClass = getCardWidthClass(item.aspect);
     const isVertical = item.aspect === 'tall' || item.aspect === 'portrait';
+    const previewSrc = item.thumbnail ? `${basePath}${item.thumbnail}` : `${basePath}${item.image}`;
 
     return (
       <div
@@ -100,9 +106,10 @@ export const DocumentationGallerySection: React.FC = () => {
         } shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer flex-shrink-0 select-none`}
       >
         <img
-          src={`${basePath}${item.image}`}
+          src={previewSrc}
           alt={item.title}
           loading="lazy"
+          decoding="async"
           className={`w-full h-full ${
             isVertical ? 'object-cover object-top' : 'object-cover object-center'
           } brightness-[0.92] contrast-[1.05] group-hover:brightness-100 group-hover:scale-105 transition-all duration-700 pointer-events-none`}
@@ -300,12 +307,39 @@ export const DocumentationGallerySection: React.FC = () => {
                 />
               </div>
             ) : (
-              <div className="relative max-h-[72vh] w-auto max-w-full rounded-2xl overflow-hidden bg-black/40 border border-white/15 shadow-2xl flex items-center justify-center">
+              <div className="relative max-h-[72vh] w-auto max-w-full rounded-2xl overflow-hidden bg-black/40 border border-white/15 shadow-2xl flex items-center justify-center min-h-[240px]">
+                {/* Instant thumbnail preview while HD image loads */}
+                {selectedPhoto.thumbnail && !isHdLoaded && (
+                  <img
+                    src={`${basePath}${selectedPhoto.thumbnail}`}
+                    alt={selectedPhoto.title}
+                    className="max-h-[72vh] w-auto object-contain rounded-2xl blur-[1px] scale-100 opacity-90 transition-opacity duration-300"
+                  />
+                )}
+                {/* Full HD original image */}
                 <img
                   src={`${basePath}${selectedPhoto.image}`}
                   alt={selectedPhoto.title}
-                  className="max-h-[72vh] w-auto object-contain rounded-2xl"
+                  onLoad={() => setIsHdLoaded(true)}
+                  decoding="async"
+                  className={`max-h-[72vh] w-auto object-contain rounded-2xl transition-opacity duration-500 ${
+                    isHdLoaded ? 'opacity-100' : selectedPhoto.thumbnail ? 'opacity-0 absolute inset-0 m-auto' : 'opacity-100'
+                  }`}
                 />
+
+                {/* HD Loading Telemetry Indicator */}
+                {!isHdLoaded && (
+                  <div className="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-black/80 backdrop-blur-md text-orange-400 text-[10px] font-mono border border-orange-500/30 flex items-center space-x-1.5 shadow-lg animate-pulse">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-ping" />
+                    <span>Memuat HD...</span>
+                  </div>
+                )}
+                {isHdLoaded && (
+                  <div className="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-black/75 backdrop-blur-md text-emerald-400 text-[10px] font-mono border border-emerald-500/30 flex items-center space-x-1.5 shadow-lg">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                    <span>HD Siap</span>
+                  </div>
+                )}
               </div>
             )}
 
@@ -336,9 +370,9 @@ export const DocumentationGallerySection: React.FC = () => {
                 {selectedPhoto.caption}
               </p>
 
-              {/* Action Button for Video */}
-              {selectedPhoto.isVideo && selectedPhoto.youtubeId && (
-                <div className="pt-1 flex items-center justify-center">
+              {/* Action Button for Video or HD Photo */}
+              <div className="pt-1 flex items-center justify-center gap-2">
+                {selectedPhoto.isVideo && selectedPhoto.youtubeId ? (
                   <a
                     href={`https://www.youtube.com/watch?v=${selectedPhoto.youtubeId}`}
                     target="_blank"
@@ -348,8 +382,18 @@ export const DocumentationGallerySection: React.FC = () => {
                     <FaYoutube className="w-4 h-4 text-white group-hover:scale-110 transition" />
                     <span>Tonton di YouTube ↗</span>
                   </a>
-                </div>
-              )}
+                ) : (
+                  <a
+                    href={`${basePath}${selectedPhoto.image}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/10 text-xs font-mono transition cursor-pointer"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5 text-orange-400" />
+                    <span>Lihat Gambar Asli HD</span>
+                  </a>
+                )}
+              </div>
 
               <div className="pt-1 text-[10px] font-mono text-slate-500">
                 Item {selectedIndex + 1} dari {GALLERY_ITEMS.length} • Gunakan tombol panah keyboard ← → untuk navigasi
