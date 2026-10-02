@@ -58,24 +58,37 @@ export const DocumentationGallerySection: React.FC = () => {
     };
   }, [selectedPhoto, handleNext, handlePrev, handleClose]);
 
-  // Helper for photo width styling based on aspect
+  // Helper for photo width styling based on authentic physical aspect ratio
+  // Heights: h-28 (112px mobile) | sm:h-36 (144px) | md:h-44 (176px) | lg:h-48 (192px)
   const getCardWidthClass = (aspect?: string) => {
     switch (aspect) {
-      case 'panoramic':
-        return 'w-[280px] sm:w-[380px] md:w-[460px] lg:w-[520px]';
-      case 'wide':
-        return 'w-[240px] sm:w-[320px] md:w-[380px] lg:w-[420px]';
+      case 'tall':
+        // ~9:16 vertical ratio (Shorts, smartphone full vertical portraits)
+        return 'w-[64px] sm:w-[82px] md:w-[100px] lg:w-[110px]';
+      case 'portrait':
+        // ~3:4 or 4:5 vertical ratio (Instagram vertical, squad member & trophy portraits)
+        return 'w-[86px] sm:w-[110px] md:w-[134px] lg:w-[146px]';
       case 'square':
-        return 'w-[140px] sm:w-[180px] md:w-[210px] lg:w-[240px]';
+        // 1:1 square ratio
+        return 'w-28 sm:w-36 md:w-44 lg:w-48';
       case 'standard':
+        // 4:3 standard landscape ratio
+        return 'w-[150px] sm:w-[192px] md:w-[236px] lg:w-[256px]';
+      case 'wide':
+        // 16:9 widescreen landscape ratio (YouTube videos, arena matches)
+        return 'w-[200px] sm:w-[256px] md:w-[314px] lg:w-[342px]';
+      case 'panoramic':
       default:
-        return 'w-[200px] sm:w-[260px] md:w-[310px] lg:w-[340px]';
+        // 21:9 panoramic / ultra-wide ratio (broad stage celebration, banner photos)
+        return 'w-[260px] sm:w-[336px] md:w-[410px] lg:w-[448px]';
     }
   };
 
   // Reusable Photo / Video Card Renderer
   const renderPhotoCard = (item: GalleryItem, rowIdx: number, cardIdx: number) => {
     const widthClass = getCardWidthClass(item.aspect);
+    const isVertical = item.aspect === 'tall' || item.aspect === 'portrait';
+
     return (
       <div
         key={`${item.id}-${rowIdx}-${cardIdx}`}
@@ -90,43 +103,47 @@ export const DocumentationGallerySection: React.FC = () => {
           src={`${basePath}${item.image}`}
           alt={item.title}
           loading="lazy"
-          className="w-full h-full object-cover brightness-[0.92] contrast-[1.05] group-hover:brightness-100 group-hover:scale-105 transition-all duration-700 pointer-events-none"
+          className={`w-full h-full ${
+            isVertical ? 'object-cover object-top' : 'object-cover object-center'
+          } brightness-[0.92] contrast-[1.05] group-hover:brightness-100 group-hover:scale-105 transition-all duration-700 pointer-events-none`}
         />
 
         {/* Video badge in top-left */}
         {item.isVideo && (
-          <div className="absolute top-2.5 left-2.5 z-20 flex items-center space-x-1.5 px-2 py-0.5 rounded-full bg-red-600/90 text-white text-[9px] font-mono font-bold tracking-wider shadow-lg border border-red-400/40 backdrop-blur-md">
+          <div className="absolute top-2 left-2 z-20 flex items-center space-x-1.5 px-2 py-0.5 rounded-full bg-red-600/90 text-white text-[9px] font-mono font-bold tracking-wider shadow-lg border border-red-400/40 backdrop-blur-md">
             <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-            <span>{item.videoDuration || 'VIDEO'}</span>
+            <span className={item.aspect === 'tall' ? 'hidden sm:inline' : 'inline'}>
+              {item.videoDuration || 'VIDEO'}
+            </span>
           </div>
         )}
 
         {/* Center Play Button for Videos */}
         {item.isVideo && (
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-15">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black/60 group-hover:bg-red-600 text-white flex items-center justify-center backdrop-blur-md border border-white/20 group-hover:border-red-400 group-hover:scale-110 transition-all duration-300 shadow-2xl">
-              <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white translate-x-0.5" />
+            <div className="w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-black/60 group-hover:bg-red-600 text-white flex items-center justify-center backdrop-blur-md border border-white/20 group-hover:border-red-400 group-hover:scale-110 transition-all duration-300 shadow-2xl">
+              <Play className="w-3.5 h-3.5 sm:w-4.5 sm:h-4.5 fill-white translate-x-0.5" />
             </div>
           </div>
         )}
 
         {/* Subtle dark gradient overlay on bottom */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-4 z-20">
-          <div className="flex items-center justify-between text-[10px] font-mono text-orange-400 font-bold mb-0.5">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-2 sm:p-3 z-20">
+          <div className="flex items-center justify-between text-[9px] sm:text-[10px] font-mono text-orange-400 font-bold mb-0.5">
             <span>{item.year}</span>
-            <span className="text-slate-300 truncate max-w-[130px]">{item.event}</span>
+            <span className="text-slate-300 truncate max-w-[80px] sm:max-w-[120px]">{item.event}</span>
           </div>
-          <p className="text-white text-xs font-bold line-clamp-1 group-hover:text-orange-300 transition">
+          <p className="text-white text-[10px] sm:text-xs font-bold line-clamp-1 group-hover:text-orange-300 transition">
             {item.title}
           </p>
         </div>
 
         {/* Hover zoom/play icon pill */}
-        <div className="absolute top-2.5 right-2.5 z-20 w-7 h-7 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-200">
+        <div className="absolute top-2 right-2 z-20 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-200">
           {item.isVideo ? (
-            <Play className="w-3.5 h-3.5 fill-red-400 text-red-400 translate-x-0.5" />
+            <Play className="w-3 h-3 fill-red-400 text-red-400 translate-x-0.5" />
           ) : (
-            <Maximize2 className="w-3.5 h-3.5 text-orange-400" />
+            <Maximize2 className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-orange-400" />
           )}
         </div>
       </div>
