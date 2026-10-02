@@ -37,13 +37,13 @@ export const Achievements: React.FC = () => {
   const awards: AwardItem[] = [
     {
       year: '2026',
-      title: 'Finalis Lomba Robot Kreatif Nasional',
+      title: 'Juara 1 Lomba Robot Kreatif Nasional (Waste Environment)',
       event: 'UNLIMITED Robotics Competition UNDIP 2026',
-      organizer: 'Departemen Teknik Elektro Universitas Diponegoro',
-      badge: 'FINALIS ROBOT KREATIF',
+      organizer: 'HME FT Universitas Diponegoro Semarang',
+      badge: 'JUARA 1 ROBOT KREATIF',
       highlight: true,
-      image: '/images/news/undip-unlimited-robot-finalist.jpg',
-      certNumber: 'Finalis Nasional UNLIMITED 2026',
+      image: '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+      certNumber: 'Juara 1 Nasional UNLIMITED 2026',
     },
     {
       year: '2026',

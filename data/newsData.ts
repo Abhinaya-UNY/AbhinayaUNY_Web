@@ -73,20 +73,20 @@ export const OFFICIAL_NEWS_ARTICLES: NewsArticle[] = [
     "readTime": "2 min baca"
   },
   {
-    "id": "undip-unlimited-robot-finalist",
-    "title": "Abhinaya Lolos Sebagai Finalis Lomba Robot Kreatif Nasional UNLIMITED UNDIP 2026",
-    "publisher": "Departemen Teknik Elektro Universitas Diponegoro",
-    "portal": "UNDIP Semarang",
-    "date": "2026",
-    "category": "Inovasi Kreatif",
+    "id": "undip-unlimited-robot-juara-1",
+    "title": "Abhinaya Raih Juara 1 Robot Kreatif UNLIMITED UNDIP 2026 (Environmental Monitoring & Waste Management)",
+    "publisher": "Himpunan Mahasiswa Elektro FT Universitas Diponegoro",
+    "portal": "HME FT UNDIP Official",
+    "date": "September 2026",
+    "category": "Prestasi Nasional",
     "type": "article",
-    "summary": "Tim Robotika Abhinaya UNY membuktikan keandalan rancang bangun robot kreatif dengan melaju ke babak final kompetisi nasional UNLIMITED Robotics Competition 2026 di Universitas Diponegoro Semarang.",
+    "summary": "Tim Robotika Abhinaya UNY sukses menyabet Juara 1 pada Kompetisi Robot Kreatif divisi Environmental Monitoring & Waste Management di ajang nasional UNLIMITED 2026 Universitas Diponegoro Semarang.",
     "url": "https://www.instagram.com/p/DcEIl23oGWv/",
-    "badge": "FINALIS ROBOT KREATIF",
-    "badgeColor": "bg-amber-500/20 text-amber-400 border-amber-500/40",
-    "image": "/images/news/undip-unlimited-robot-finalist.jpg",
-    "stats": "UNLIMITED Robot 2026 • UNDIP",
-    "readTime": "2 min baca"
+    "badge": "JUARA 1 ROBOT KREATIF",
+    "badgeColor": "bg-orange-500/20 text-orange-400 border-orange-500/40",
+    "image": "/gallery/unlimited_undip/undip_stage_action_14.jpg",
+    "stats": "Juara 1 Nasional • UNDIP 2026",
+    "readTime": "3 min baca"
   },
   {
     "id": "uny-krtmi-juara-pusat-2024",

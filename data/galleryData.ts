@@ -528,6 +528,606 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     isVideo: true,
     youtubeId: 'epyl7w6xZ6Y',
     videoDuration: 'Shorts'
+  },
+  {
+    id: 'undip-stage-01',
+    title: 'Penyerahan Trofi Juara 1 Robot Kreatif UNLIMITED UNDIP 2026',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_01.jpg',
+    caption: 'Momen penganugerahan piala Juara 1 Robot Kreatif subkategori Environmental Monitoring & Waste Management di panggung utama UNDIP.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-02',
+    title: 'Selebrasi Podium Juara 1 Tim Abhinaya di UNDIP Semarang',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_02.jpg',
+    caption: 'Kontingen Abhinaya UNY merayakan kemenangan Juara 1 Robot Kreatif nasional di Gedung Serbaguna UNDIP Tembalang.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-03',
+    title: 'Pengibaran Bendera Kebanggaan UNY di Panggung Kehormatan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_03.jpg',
+    caption: 'Kebanggaan mahasiswa mekatronika dan elektro UNY membawa nama almamater ke puncak juara lomba robot kreatif.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-04',
+    title: 'Pemberian Penghargaan Juara Robot Kreatif Lingkungan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_04.jpg',
+    caption: 'Sesi serah terima piala dan plakat penghargaan dari juri dan panitia HME FT Universitas Diponegoro.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-05',
+    title: 'Piala Juara 1 Nasional & Plakat Kehormatan UNLIMITED 2026',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_05.jpg',
+    caption: 'Dokumentasi trofi Juara 1 divisi Robot Kreatif Environmental Monitoring & Waste Management.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-06',
+    title: 'Tim Abhinaya Bersama Piala Juara 1 di Backdrop Resmi UNDIP',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_06.jpg',
+    caption: 'Foto bersama seluruh delegasi teknis dan ofisial Abhinaya UNY berlatar backdrop resmi UNLIMITED 2026.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-07',
+    title: 'Suasana Haru & Syukur Atas Kemenangan Juara 1 Robotika',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_07.jpg',
+    caption: 'Ungkapan syukur dan suka cita seluruh anggota tim setelah melewati babak eliminasi dan presentasi final.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-08',
+    title: 'Aksi Robot Pemilah Sampah Otonom di Booth Pertandingan',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_08.jpg',
+    caption: 'Robot kreatif Abhinaya mendemonstrasikan sistem klasifikasi sampah otomatis berbasis sensor dan aktuator presisi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-09',
+    title: 'Pengujian Mekanisme Pemilahan Limbah di Depan Dewan Juri',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_09.jpg',
+    caption: 'Juri mengamati langsung efisiensi mekanisme pemilahan dan sorting sampah cerdas karya tim Abhinaya UNY.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-10',
+    title: 'Presentasi Teknis Sistem AI & Vision Robot Pemantau Lingkungan',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_10.jpg',
+    caption: 'Pemaparan arsitektur sistem vision dan integrasi kontrol mikrokontroler di hadapan akademisi dan juri praktisi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-11',
+    title: 'Display Robot Kreatif Waste Management Abhinaya UNY',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_11.jpg',
+    caption: 'Detail sasis, kompartemen penampung, dan modul mikrokontroler robot yang tampil prima di arena kompetisi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-12',
+    title: 'Uji Ketangkasan Navigasi & Manuver Robot di Arena UNDIP',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_12.jpg',
+    caption: 'Robot bergerak dinamis menyelesaikan simulasi rute pengumpulan limbah dan pemantauan kualitas lingkungan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-13',
+    title: 'Inspeksi Teknis & Uji Kelayakan Robot oleh Tim Juri',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_13.jpg',
+    caption: 'Proses scrutineering dan verifikasi dimensi serta kepatuhan aturan lomba robot kreatif tingkat nasional.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-14',
+    title: 'Foto Lengkap Kontingen Abhinaya Memegang Piala Juara 1',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+    caption: 'Potret kebersamaan seluruh skuad Abhinaya UNY dengan trofi Juara 1 Robot Kreatif di panggung utama.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-15',
+    title: 'Pemberian Tepuk Tangan Penghormatan dari Peserta Lomba',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_15.jpg',
+    caption: 'Apresiasi dari dewan juri dan seluruh peserta kompetisi atas keunggulan inovasi robotika lingkungan UNY.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-16',
+    title: 'Momen Pembacaan Skor Akhir & Pengumuman Juara 1',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_16.jpg',
+    caption: 'Detik-detik penentuan hasil kalkulasi poin juri yang menempatkan Abhinaya UNY di posisi teratas.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-17',
+    title: 'Diskusi Teknis Evaluasi Robot Bersama Dosen & Pembimbing',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_17.jpg',
+    caption: 'Diskusi evaluasi performa mekanik dan elektronika setelah babak penyisihan berlangsung lancar.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-18',
+    title: 'Sesi Tanya Jawab Inovasi Sensor Limbah dengan Panelis',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_18.jpg',
+    caption: 'Penjelasan interaktif mengenai sensor pembaca kelembapan, gas, dan klasifikasi jenis sampah lingkungan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-19',
+    title: 'Briefing Akhir Anggota Tim Sebelum Naik ke Panggung Presentasi',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_19.jpg',
+    caption: 'Fokus dan koordinasi divisi program, elektrik, dan mekanik memastikan kelancaran demonstrasi live.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-20',
+    title: 'Euforia Kontingen UNY Merayakan Kemenangan Bergengsi di Semarang',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_20.jpg',
+    caption: 'Sorak gembira anggota tim robotika di luar arena setelah kepastian perolehan piala Juara 1 Nasional.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-21',
+    title: 'Dokumentasi Piala Juara 1 Bersama Maskot & Panggung UNDIP',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_21.jpg',
+    caption: 'Foto piala juara berhiaskan ornamen panggung megah UNLIMITED Robotics Competition 2026.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-22',
+    title: 'Simulasi Pemilahan Sampah Berulang Tanpa Kesalahan',
+    category: 'Arena Lomba',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_22.jpg',
+    caption: 'Demonstrasi akurasi sistem pengambil dan pemilah sampah yang bekerja secara berkesinambungan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-stage-23',
+    title: 'Cek Kesiapan Baterai & Daya Sistem Sebelum Sesi Live Juri',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_23.jpg',
+    caption: 'Pengecekan voltase sel daya dan kestabilan regulator tegangan demi menjaga keandalan sistem.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-24',
+    title: 'Paddock Abhinaya UNY Menjelang Giliran Unjuk Karya',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_24.jpg',
+    caption: 'Suasana kerja yang intensif di meja kerja paddock Abhinaya sebelum giliran tampil di panggung dewan juri.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-stage-25',
+    title: 'Selebrasi Spontan Tim Robotika di Koridor Venue Kompetisi',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_stage_action_25.jpg',
+    caption: 'Keceriaan dan kebanggaan tim membawa pulang gelar juara ke kampus Universitas Negeri Yogyakarta.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-uny-ugm-01',
+    title: 'Solidaritas Robotika Yogyakarta: Kontingen UNY x UGM di UNDIP',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_01.jpg',
+    caption: 'Momen persaudaraan hangat antara tim Abhinaya UNY dan tim GMRT UGM yang sama-sama berprestasi di Semarang.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-uny-ugm-02',
+    title: 'Foto Bersama Peraih Podium: Juara 1 UNY & Juara 2 UGM',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_02.jpg',
+    caption: 'Potret bersejarah dua delegasi kampus terbaik D.I. Yogyakarta yang memborong podium subkategori Environmental Monitoring & Waste Management.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-03',
+    title: 'Saling Mendukung di Arena: Sinergi Mahasiswa Robotika Yogya',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_03.jpg',
+    caption: 'Kebersamaan anggota tim UNY dan UGM saat bertukar wawasan teknis seputar mekanika dan kecerdasan buatan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-04',
+    title: 'Kebanggaan Kontingen DIY di Ajang Robotika Nasional Semarang',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_04.jpg',
+    caption: 'Delegasi Yogyakarta membuktikan kualitas riset robotika terdepan di tingkat nasional lewat inovasi pengelolaan lingkungan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-05',
+    title: 'Sesi Foto Bersama Abhinaya UNY dan Subtim H8 GMRT UGM',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_05.jpg',
+    caption: 'Kolaborasi persahabatan antarkampus di area venue perlombaan HME FT Universitas Diponegoro.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-06',
+    title: 'Trofi Bersama: Pesta Prestasi Robotika DIY di UNLIMITED 2026',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_06.jpg',
+    caption: 'Dua piala kemenangan digenggam bersama oleh perwakilan kontingen Abhinaya UNY dan GMRT UGM.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-uny-ugm-07',
+    title: 'Diskusi Santai & Bedah Teknologi Pasca Lomba Antara UNY & UGM',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_07.jpg',
+    caption: 'Berbagi pengalaman teknis, sistem sensor limbah, dan strategi rancang bangun robot kompetisi berikutnya.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-08',
+    title: 'Foto Ceria Kolaborasi Almamater Hijau & Biru di Semarang',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_08.jpg',
+    caption: 'Senyum bangga para mahasiswa teknik dari UNY dan UGM yang sukses mengharumkan nama Yogyakarta.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-09',
+    title: 'Pose Kebersamaan Skuad UNY x UGM Membawa Trofi Penghargaan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_09.jpg',
+    caption: 'Momen foto bersama yang penuh energi positif dan kebanggaan akan kerja keras selama persiapan kompetisi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'panoramic'
+  },
+  {
+    id: 'undip-uny-ugm-10',
+    title: 'Silaturahmi Riset Robotika Lintas Kampus UNY & UGM',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_10.jpg',
+    caption: 'Menjalin relasi riset dan persaudaraan berkelanjutan antarmahasiswa penggiat robotika di Indonesia.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-uny-ugm-11',
+    title: 'Suasana Hangat Kontingen Yogya di Ruang Tunggu Venue',
+    category: 'Behind The Scenes',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_11.jpg',
+    caption: 'Dukungan moral timpal-balik antaranggota tim selama berlangsungnya proses penilaian babak final.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-uny-ugm-12',
+    title: 'Kenang-Kenangan Indah Panggung Kejuaraan UNY Bersama UGM',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_uny_ugm_12.jpg',
+    caption: 'Kenangan manis keberhasilan bersama di ajang bergengsi UNLIMITED UNDIP 2026.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-01',
+    title: 'Potret Anggota Tim Memegang Piala Juara 1 Robot Kreatif',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_01.jpg',
+    caption: 'Bangga mempersembahkan piala Juara 1 tingkat nasional bagi almamater Universitas Negeri Yogyakarta.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-02',
+    title: 'Senyum Kebanggaan Personil Abhinaya dengan Trofi Kemenangan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_02.jpg',
+    caption: 'Buah manis dari lembur riset, perancangan sasis, dan pengujian program berhari-hari di lab.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-03',
+    title: 'Genggam Erat Piala Juara: Dedikasi Divisi Teknis Robotika',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_03.jpg',
+    caption: 'Apresiasi tertinggi atas dedikasi dan kerja keras setiap divisi dalam menyempurnakan performa robot.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-04',
+    title: 'Potret Ofisial & Kru Pendukung Abhinaya UNY di Hari Kemenangan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_04.jpg',
+    caption: 'Dukungan moril dan manajemen tim yang solid menjadi kunci keberhasilan di ajang UNLIMITED 2026.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-05',
+    title: 'Kebanggaan Pribadi Membawa Pulang Trofi Juara Nasional',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_05.jpg',
+    caption: 'Momen tak terlupakan memegang piala lambang supremasi inovasi teknologi lingkungan di Semarang.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-06',
+    title: 'Pose Juara: Refleksi Perjuangan Menghadapi Persaingan Ketat',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_06.jpg',
+    caption: 'Menghadapi delegasi puluhan perguruan tinggi dengan percaya diri dan sportivitas tinggi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-07',
+    title: 'Semangat Juara Anggota Muda Abhinaya UNY',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_07.jpg',
+    caption: 'Regenerasi yang terbukti unggul dan siap meneruskan tradisi prestasi robotika UNY di kancah nasional.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-08',
+    title: 'Potret Membanggakan Kru Mekanik Bersama Hasil Karya Juara',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_08.jpg',
+    caption: 'Sistem mekanik yang presisi dan tangguh terbukti mengantarkan tim meraih skor penilaian tertinggi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-09',
+    title: 'Potret Kru Elektrik & Hardware Bersama Trofi Juara 1',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_09.jpg',
+    caption: 'Sirkuit yang andal tanpa gangguan glitch memastikan robot beroperasi sempurna di hadapan juri.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-10',
+    title: 'Potret Programmer AI & Kendali Otonom Abhinaya UNY',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_10.jpg',
+    caption: 'Logika pemilahan dan sorting sampah berjalan mulus tanpa celah berkat algoritma kontrol yang matang.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-11',
+    title: 'Pose Kemenangan di Area Backdrop Resmi Universitas Diponegoro',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_11.jpg',
+    caption: 'Mengabadikan momen bersejarah sebagai Juara 1 Kompetisi Robot Kreatif UNLIMITED 2026.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-12',
+    title: 'Senyum Penuh Rasa Syukur Kru Abhinaya di Venue Perlombaan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_12.jpg',
+    caption: 'Setiap tetes keringat dan waktu yang tercurah terbayar lunas dengan prestasi membanggakan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-13',
+    title: 'Foto Profil Juara dengan Latar Panggung Megah UNDIP',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_13.jpg',
+    caption: 'Kenangan manis kompetisi teknologi robotika tingkat nasional di Tembalang, Semarang.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-14',
+    title: 'Potret Prestasi Mahasiswa Fakultas Teknik UNY di Kancah Nasional',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_14.jpg',
+    caption: 'Membuktikan kompetensi vokasi dan rekayasa teknologi FT UNY di level tertinggi.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-15',
+    title: 'Momen Berharga Anggota Tim Mengangkat Trofi Kehormatan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_15.jpg',
+    caption: 'Simbol kebangkitan dan konsistensi prestasi tim robotika Abhinaya UNY.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-16',
+    title: 'Potret Semangat Kolaboratif Anggota Abhinaya',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_16.jpg',
+    caption: 'Kekompakan tim yang menjadi fondasi utama keberhasilan merebut juara pertama.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-17',
+    title: 'Pose Percaya Diri Memegang Piala Robot Kreatif Lingkungan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_17.jpg',
+    caption: 'Solusi nyata pemilahan sampah cerdas yang diapresiasi oleh juri akademisi dan industri.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-18',
+    title: 'Potret Kebanggaan Almamater UNY di Antara Deretan Kampus Unggulan',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_18.jpg',
+    caption: 'Menegaskan posisi Abhinaya UNY sebagai salah satu kekuatan utama robotika di tanah air.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-19',
+    title: 'Sorot Mata Optimisme & Prestasi Anggota Tim Robotika',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_19.jpg',
+    caption: 'Siap melangkah ke kompetisi dan tantangan inovasi robotika berikutnya.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-20',
+    title: 'Potret Kenangan Penganugerahan Juara di Tembalang Semarang',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_20.jpg',
+    caption: 'Mengabadikan perjalanan indah tim robotika Abhinaya di ibu kota Jawa Tengah.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-21',
+    title: 'Gaya Santai & Ceria Anggota Bersama Trofi Juara 1',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_21.jpg',
+    caption: 'Melepaskan ketegangan setelah berjuang maksimal dan menuntaskan kompetisi dengan kemenangan.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-22',
+    title: 'Potret Bersama Trofi: Bukti Nyata Kerja Keras Tanpa Henti',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_22.jpg',
+    caption: 'Komitmen menghadirkan teknologi robot yang aplikatif dan bermanfaat untuk lingkungan hidup.',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
+  },
+  {
+    id: 'undip-trophy-23',
+    title: 'Potret Simbolis Sukses Abhinaya UNY di UNLIMITED 2026',
+    category: 'Panggung Juara',
+    year: '2026',
+    image: '/gallery/unlimited_undip/undip_trophy_squad_23.jpg',
+    caption: 'Selamat kepada seluruh tim atas pencapaian luar biasa Juara 1 Robot Kreatif Nasional!',
+    event: 'UNLIMITED UNDIP 2026',
+    aspect: 'standard'
   }
 ];
 
@@ -540,31 +1140,31 @@ export const GALLERY_CATEGORIES = [
   'Video Aksi'
 ] as const;
 
-// 5 Distinct Rows for the "BEHIND THE MACHINES" Photo & Video Wall Collage
-// Each row combines authentic photos and high-energy video action cards
+// 5 Distinct Rows for the Photo & Video Marquee Wall
+// Combining historic championship moments, KRTMI arena matches, and the vibrant UNLIMITED UNDIP 2026 trophy haul
 export const GALLERY_ROWS = {
   row1: [
-    ...GALLERY_ITEMS.slice(0, 8),
+    ...GALLERY_ITEMS.filter((it) => it.category === 'Panggung Juara').slice(0, 16),
     GALLERY_ITEMS.find((it) => it.id === 'vid-kilas-balik-2024')!,
     GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-selebrasi-juara')!
   ],
   row2: [
-    ...GALLERY_ITEMS.slice(8, 16),
+    ...GALLERY_ITEMS.filter((it) => it.category === 'Arena Lomba').slice(0, 16),
     GALLERY_ITEMS.find((it) => it.id === 'vid-live-krtmi-2024')!,
     GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-recap-2023')!
   ],
   row3: [
-    ...GALLERY_ITEMS.slice(16, 24),
+    ...GALLERY_ITEMS.filter((it) => it.id.startsWith('undip-uny-ugm-') || (it.category === 'Behind The Scenes' && !it.isVideo)).slice(0, 16),
     GALLERY_ITEMS.find((it) => it.id === 'vid-perjalanan-krtmi')!,
     GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-fabrikasi-3d')!
   ],
   row4: [
-    ...GALLERY_ITEMS.slice(24, 32),
+    ...GALLERY_ITEMS.filter((it) => it.category === 'Riset & Lab' || it.id.startsWith('undip-stage-')).slice(0, 16),
     GALLERY_ITEMS.find((it) => it.id === 'vid-oprec-tim')!,
     GALLERY_ITEMS.find((it) => it.id === 'vid-shorts-simulasi-sirkuit')!
   ],
   row5: [
-    ...GALLERY_ITEMS.slice(32, 40),
+    ...GALLERY_ITEMS.filter((it) => it.id.startsWith('undip-trophy-')).slice(0, 18),
     GALLERY_ITEMS.find((it) => it.id === 'vid-kilas-balik-2024')!,
     GALLERY_ITEMS.find((it) => it.id === 'vid-live-krtmi-2024')!
   ]
