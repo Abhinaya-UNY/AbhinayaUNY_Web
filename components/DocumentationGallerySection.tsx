@@ -139,43 +139,37 @@ export const DocumentationGallerySection: React.FC = () => {
       {/* Background Subtle Ambient Glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] sm:w-[1000px] h-[400px] bg-orange-500/5 blur-[160px] pointer-events-none rounded-full" />
 
+      {/* Standalone Section Header (Outside of photo lines so text is never clipped) */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 sm:mb-8 relative z-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/[0.06] pb-6">
+          <div className="space-y-2">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-mono tracking-wider border border-white/10">
+              <Camera className="w-3.5 h-3.5 text-orange-400" />
+              <span>DOKUMENTASI &amp; ARSIP</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+              Galeri Abhinaya
+            </h2>
+          </div>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3 text-xs sm:text-sm text-slate-300 max-w-xl leading-relaxed">
+            <p className="flex-1">
+              Dokumentasi perjalanan riset, persiapan teknis, suasana paddock, dan momen perjuangan tim robotika Abhinaya UNY di arena Kontes Robot Indonesia.
+            </p>
+            <div className="inline-flex items-center px-3 py-1.5 rounded-xl bg-orange-500/10 border border-orange-500/30 text-orange-400 font-mono text-xs font-semibold whitespace-nowrap self-start sm:self-auto">
+              {GALLERY_ITEMS.length}+ MOMEN • FOTO &amp; VIDEO
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Main Wall Container (Collapsible Multi-Row Marquee) */}
       <div className="space-y-3 sm:space-y-3.5 relative z-10 group-marquee">
         
-        {/* ROW 1: Signature Title Card (Top-Left) + Drifting Photo Strip */}
-        <div className="flex items-center space-x-3 sm:space-x-3.5 overflow-hidden pl-3 sm:pl-6 lg:pl-8">
-          
-          {/* BEHIND THE MACHINES Iconic Title Card */}
-          <div className="w-[280px] sm:w-[360px] md:w-[440px] lg:w-[480px] h-28 sm:h-36 md:h-44 lg:h-48 rounded-2xl bg-gradient-to-br from-[#121216] via-[#18181B] to-[#0E0E12] border border-white/[0.12] p-4 sm:p-6 lg:p-7 flex flex-col justify-between flex-shrink-0 shadow-2xl relative overflow-hidden group">
-            {/* Ambient orange micro-glow in title card */}
-            <div className="absolute -top-12 -right-12 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl pointer-events-none" />
-            
-            <div className="space-y-1 relative z-10">
-              <div className="flex items-center space-x-2 text-[10px] sm:text-xs font-mono font-bold tracking-[0.25em] text-orange-400 uppercase">
-                <Camera className="w-3.5 h-3.5 text-orange-400" />
-                <span>GALLERY</span>
-              </div>
-            </div>
-
-            <div className="relative z-10">
-              <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black font-heading tracking-tight leading-[0.85] uppercase">
-                <span className="text-white block">BEHIND</span>
-                <span className="text-slate-400/60 block">THE MACHINES.</span>
-              </h2>
-            </div>
-
-            <div className="flex items-center justify-between text-[9px] sm:text-[10px] font-mono text-slate-400 pt-1 border-t border-white/[0.06] relative z-10">
-              <span>ABHINAYA ROBOTICS ARCHIVE</span>
-              <span className="text-orange-400 font-bold">{GALLERY_ITEMS.length}+ MOMENTS • FOTO & VIDEO</span>
-            </div>
-          </div>
-
-          {/* Row 1 Photos (Drifting Left) */}
-          <div className="overflow-hidden flex-1">
-            <div className="animate-photo-marquee-left flex items-center space-x-3 sm:space-x-3.5">
-              {GALLERY_ROWS.row1.map((item, idx) => renderPhotoCard(item, 1, idx))}
-              {GALLERY_ROWS.row1.map((item, idx) => renderPhotoCard(item, 1, idx + 100))}
-            </div>
+        {/* ROW 1: Dokumentasi Laga & Momen Emas (Drifting Left) */}
+        <div className="overflow-hidden">
+          <div className="animate-photo-marquee-left flex items-center space-x-3 sm:space-x-3.5">
+            {GALLERY_ROWS.row1.map((item, idx) => renderPhotoCard(item, 1, idx))}
+            {GALLERY_ROWS.row1.map((item, idx) => renderPhotoCard(item, 1, idx + 100))}
           </div>
         </div>
 
