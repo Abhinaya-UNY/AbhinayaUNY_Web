@@ -131,7 +131,7 @@ export const DocumentationGallerySection: React.FC = () => {
         <img
           src={previewSrc}
           alt={item.title}
-          loading="lazy"
+          loading="eager"
           decoding="async"
           className={`w-full h-full ${
             isVertical ? 'object-cover object-top' : 'object-cover object-center'

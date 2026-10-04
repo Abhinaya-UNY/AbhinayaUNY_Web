@@ -2,9 +2,15 @@
 
 import React, { useEffect } from 'react';
 
-// Essential visual assets for sections below the fold
+// Comprehensive visual assets to preload in idle time so nothing is left unloaded
 const ASSETS_TO_PRELOAD = [
-  // High-priority banners & news images
+  // 1. Critical Brand & Hero Slideshow Assets
+  '/assets/logo_abhinaya.png',
+  '/assets/hero_abhinaya.jpg',
+  '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
+  '/gallery/unlimited_undip/undip_juara_1_robot_creative.jpg',
+
+  // 2. High-priority Section Banners & News Imagery
   '/images/team_ums_2024_web.jpg',
   '/images/news/uny-kri-enam-juara-2023.jpg',
   '/images/news/uny-krtmi-juara-1-wilayah-2024.jpg',
@@ -14,12 +20,16 @@ const ASSETS_TO_PRELOAD = [
   '/images/news/uny-kri-lolos-nasional-2022.jpg',
   '/images/news/uny-kri-piala-nasional-2019.jpg',
   '/images/news/antara-kri-2024-video.jpg',
-  // Key award photos
-  '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
-  '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+
+  // 3. Key Award & Championship Stage Photos
   '/gallery/krtmi_podium_juara.jpg',
   '/gallery/krtmi_team_celebration.jpg',
-  // First marquee row thumbnails (fast WebP)
+  '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+  '/assets/team_podium_1.jpg',
+  '/assets/team_podium_2.jpg',
+  '/assets/hero_team_stage.jpg',
+
+  // 4. Marquee Photo Wall Thumbnails (Instant visual rendering on scroll)
   '/thumbnails/gallery/krtmi_podium_juara.webp',
   '/thumbnails/assets/team_podium_1.webp',
   '/thumbnails/gallery/krtmi_team_celebration.webp',
@@ -31,6 +41,7 @@ const ASSETS_TO_PRELOAD = [
   '/thumbnails/gallery/unlimited_undip/undip_stage_action_03.webp',
   '/thumbnails/gallery/unlimited_undip/undip_stage_action_04.webp',
   '/thumbnails/gallery/unlimited_undip/undip_stage_action_05.webp',
+  '/thumbnails/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
 ];
 
 export const BackgroundPreloader: React.FC = () => {
@@ -40,7 +51,7 @@ export const BackgroundPreloader: React.FC = () => {
     const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
     const executePreload = () => {
-      // Chunk preloading in requestIdleCallback or setTimeout so the main thread stays 100% idle
+      // Chunk preloading in requestIdleCallback or setTimeout so main thread stays 100% idle
       const queue = [...ASSETS_TO_PRELOAD];
 
       const step = () => {
@@ -48,9 +59,15 @@ export const BackgroundPreloader: React.FC = () => {
         // Batch 4 images at a time
         const batch = queue.splice(0, 4);
         batch.forEach((path) => {
-          const img = new Image();
-          img.decoding = 'async';
-          img.src = `${basePath}${path}`;
+          try {
+            const img = new Image();
+            img.decoding = 'async';
+            img.onload = () => {};
+            img.onerror = () => {};
+            img.src = `${basePath}${path}`;
+          } catch {
+            // Ignore individual image load errors
+          }
         });
 
         if (queue.length > 0) {
@@ -69,13 +86,13 @@ export const BackgroundPreloader: React.FC = () => {
       }
     };
 
-    // Preload triggers right after preloader dismiss, or fallback after 1.2s
+    // Preload triggers right after preloader dismiss, or fallback after 1.0s
     const handleDismiss = () => {
       executePreload();
     };
 
     window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
-    const timer = setTimeout(executePreload, 1200);
+    const timer = setTimeout(executePreload, 1000);
 
     return () => {
       window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);

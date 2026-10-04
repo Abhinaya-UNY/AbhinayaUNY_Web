@@ -82,6 +82,11 @@ export default function RootLayout({
         <link rel="canonical" href="https://abhinaya-uny.github.io/AbhinayaUNY_Web/" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow" />
+
+        {/* Preload Critical Hero & Brand Assets for Zero-Delay Display */}
+        <link rel="preload" href="/AbhinayaUNY_Web/assets/logo_abhinaya.png" as="image" />
+        <link rel="preload" href="/AbhinayaUNY_Web/assets/hero_abhinaya.jpg" as="image" />
+        <link rel="preload" href="/AbhinayaUNY_Web/gallery/unlimited_undip/undip_juara_1_robot_creative.webp" as="image" />
         
         {/* OpenGraph & Twitter Meta for WhatsApp, Telegram, Discord, LinkedIn Preview */}
         <meta property="og:title" content="ABHINAYA UNY: Tim Robotika Kontes Robot Tematik Indonesia" />

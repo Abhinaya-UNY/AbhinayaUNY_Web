@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import { ArrowRight, Play, Trophy, Sparkles } from 'lucide-react';
 import { BlurText, ShinyText, DecryptedText, AmbientGrid, Aurora, Magnet, InteractiveCanvasDust } from '@/components/animations';
@@ -79,13 +79,59 @@ export const HeroSection: React.FC = () => {
   const isPreloaderDone = usePreloaderComplete();
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
   const [currentSlide, setCurrentSlide] = useState(0);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
+  const resetTimer = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
     }, 5500);
-    return () => clearInterval(timer);
   }, []);
+
+  const handleSelectSlide = useCallback(
+    (nextIdx: number) => {
+      setCurrentSlide(nextIdx);
+      resetTimer();
+    },
+    [resetTimer]
+  );
+
+  // Persistent auto-play loop with visibility change & focus listeners
+  useEffect(() => {
+    // 1. Pre-warm and lock both hero images into browser decode memory
+    HERO_SLIDES.forEach((slide) => {
+      const img = new Image();
+      img.src = `${basePath}${slide.image}`;
+    });
+
+    const handleVisibility = () => {
+      if (typeof document !== 'undefined' && document.visibilityState === 'visible') {
+        resetTimer();
+      } else if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+
+    resetTimer();
+
+    if (typeof document !== 'undefined') {
+      document.addEventListener('visibilitychange', handleVisibility);
+    }
+    if (typeof window !== 'undefined') {
+      window.addEventListener('focus', resetTimer);
+    }
+
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+      if (typeof document !== 'undefined') {
+        document.removeEventListener('visibilitychange', handleVisibility);
+      }
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('focus', resetTimer);
+      }
+    };
+  }, [basePath, resetTimer]);
 
   const getEntranceClass = (delayMs: number) =>
     `transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:transform-none motion-reduce:opacity-100 ${
@@ -299,8 +345,9 @@ export const HeroSection: React.FC = () => {
                     key={slide.id}
                     src={`${basePath}${slide.image}`}
                     alt={slide.alt}
-                    loading={idx === 0 ? 'eager' : 'lazy'}
-                    className={`absolute inset-0 w-full h-full object-cover ${slide.objectPosition || 'object-center'} brightness-100 contrast-105 group-hover:scale-[1.02] transition-all duration-1000 ease-in-out ${
+                    loading="eager"
+                    decoding="sync"
+                    className={`absolute inset-0 w-full h-full object-cover ${slide.objectPosition || 'object-center'} brightness-100 contrast-105 group-hover:scale-[1.02] transition-opacity duration-1000 ease-in-out will-change-[opacity] ${
                       currentSlide === idx ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
                     }`}
                   />
@@ -316,7 +363,7 @@ export const HeroSection: React.FC = () => {
                 <div className="absolute inset-y-0 inset-x-2 z-20 flex items-center justify-between pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button
                     type="button"
-                    onClick={() => setCurrentSlide((prev) => (prev === 0 ? HERO_SLIDES.length - 1 : prev - 1))}
+                    onClick={() => handleSelectSlide(currentSlide === 0 ? HERO_SLIDES.length - 1 : currentSlide - 1)}
                     aria-label="Slide sebelumnya"
                     className="w-7 h-7 rounded-full bg-black/70 hover:bg-orange-500/80 text-white flex items-center justify-center backdrop-blur-md border border-white/20 hover:border-orange-400 transition pointer-events-auto shadow-lg cursor-pointer"
                   >
@@ -324,7 +371,7 @@ export const HeroSection: React.FC = () => {
                   </button>
                   <button
                     type="button"
-                    onClick={() => setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length)}
+                    onClick={() => handleSelectSlide((currentSlide + 1) % HERO_SLIDES.length)}
                     aria-label="Slide berikutnya"
                     className="w-7 h-7 rounded-full bg-black/70 hover:bg-orange-500/80 text-white flex items-center justify-center backdrop-blur-md border border-white/20 hover:border-orange-400 transition pointer-events-auto shadow-lg cursor-pointer"
                   >
@@ -342,7 +389,7 @@ export const HeroSection: React.FC = () => {
                       <button
                         key={idx}
                         type="button"
-                        onClick={() => setCurrentSlide(idx)}
+                        onClick={() => handleSelectSlide(idx)}
                         aria-label={`Lihat slide kejuaraan ${idx + 1}`}
                         className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
                           currentSlide === idx
