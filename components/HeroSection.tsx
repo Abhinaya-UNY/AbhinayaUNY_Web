@@ -40,9 +40,48 @@ function usePreloaderComplete(): boolean {
   return isComplete;
 }
 
+interface HeroSlide {
+  id: string;
+  image: string;
+  alt: string;
+  scope: string;
+  achievement: string;
+  badge: string;
+  objectPosition?: string;
+}
+
+const HERO_SLIDES: HeroSlide[] = [
+  {
+    id: 'krtmi-2024-nasional',
+    image: '/assets/hero_abhinaya.jpg',
+    alt: 'Kontingen Tim Robotika Abhinaya UNY di Panggung Kejuaraan Nasional',
+    scope: 'Kontingen Resmi KRTMI UNY',
+    achievement: 'Juara 1 Wilayah & Juara 2 Nasional',
+    badge: 'KRTMI NASIONAL 2024',
+    objectPosition: 'object-top sm:object-center',
+  },
+  {
+    id: 'undip-2026-juara-1',
+    image: '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
+    alt: 'Tim Robotika Abhinaya UNY Juara 1 Robot Kreatif UNLIMITED UNDIP 2026 Environmental Monitoring & Waste Management',
+    scope: 'UNLIMITED UNDIP 2026',
+    achievement: 'Juara 1 Robot Kreatif • Environmental Monitoring & Waste Management',
+    badge: 'JUARA 1 ROBOT KREATIF',
+    objectPosition: 'object-center',
+  },
+];
+
 export const HeroSection: React.FC = () => {
   const isPreloaderDone = usePreloaderComplete();
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
+    }, 5500);
+    return () => clearInterval(timer);
+  }, []);
 
   const getEntranceClass = (delayMs: number) =>
     `transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:transform-none motion-reduce:opacity-100 ${
@@ -216,28 +255,78 @@ export const HeroSection: React.FC = () => {
 
           </div>
 
-          {/* RIGHT COLUMN: Studio Photography & Telemetry Showcase (Col 5 on Desktop) */}
+          {/* RIGHT COLUMN: Studio Photography & Championship Showcase (Col 5 on Desktop) */}
           <div className="lg:col-span-5 space-y-3.5">
-            {/* Cinematic Studio Frame: 100% Unblocked Photography */}
+            {/* Cinematic Studio Frame: 100% Unblocked Photography Slideshow */}
             <div
               className={`relative rounded-2xl overflow-hidden bg-[#121216] group border border-orange-500/20 hover:border-orange-500/40 shadow-2xl shadow-orange-950/20 transition-all duration-300 ${getEntranceClass(450)}`}
               style={{ transitionDelay: isPreloaderDone ? '450ms' : '0ms' }}
             >
-              <div className="aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] w-full overflow-hidden bg-black">
-                <img
-                  src={`${basePath}/assets/hero_abhinaya.jpg`}
-                  alt="Kontingen Tim Robotika Abhinaya UNY di Panggung Kejuaraan Nasional"
-                  className="w-full h-full object-cover object-top sm:object-center brightness-100 contrast-105 group-hover:scale-[1.02] transition-transform duration-700"
-                />
+              {/* Photo Viewport with Smooth Crossfade */}
+              <div className="aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] w-full overflow-hidden bg-black relative">
+                {HERO_SLIDES.map((slide, idx) => (
+                  <img
+                    key={slide.id}
+                    src={`${basePath}${slide.image}`}
+                    alt={slide.alt}
+                    className={`absolute inset-0 w-full h-full object-cover ${slide.objectPosition || 'object-center'} brightness-100 contrast-105 group-hover:scale-[1.02] transition-all duration-1000 ease-in-out ${
+                      currentSlide === idx ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
+                    }`}
+                  />
+                ))}
+
+                {/* Floating Trophy Pill on Top-Right */}
+                <div className="absolute top-2.5 right-2.5 z-20 flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-black/80 backdrop-blur-md border border-white/15 text-[10px] font-mono text-orange-300 shadow-lg pointer-events-none">
+                  <Trophy className="w-3 h-3 text-amber-400 flex-shrink-0 animate-pulse" />
+                  <span className="font-bold tracking-wider">{HERO_SLIDES[currentSlide].badge}</span>
+                </div>
+
+                {/* Manual Navigation Controls (Left & Right Arrow Buttons on hover) */}
+                <div className="absolute inset-y-0 inset-x-2 z-20 flex items-center justify-between pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <button
+                    type="button"
+                    onClick={() => setCurrentSlide((prev) => (prev === 0 ? HERO_SLIDES.length - 1 : prev - 1))}
+                    aria-label="Slide sebelumnya"
+                    className="w-7 h-7 rounded-full bg-black/70 hover:bg-orange-500/80 text-white flex items-center justify-center backdrop-blur-md border border-white/20 hover:border-orange-400 transition pointer-events-auto shadow-lg cursor-pointer"
+                  >
+                    <ArrowRight className="w-3.5 h-3.5 rotate-180" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length)}
+                    aria-label="Slide berikutnya"
+                    className="w-7 h-7 rounded-full bg-black/70 hover:bg-orange-500/80 text-white flex items-center justify-center backdrop-blur-md border border-white/20 hover:border-orange-400 transition pointer-events-auto shadow-lg cursor-pointer"
+                  >
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
               </div>
               
-              {/* Bottom Meta Strip */}
-              <div className="px-4 py-3 bg-[#121216] border-t border-white/[0.06] flex items-center justify-between gap-2 text-[11px] font-mono">
-                <span className="text-slate-400 truncate">
-                  Kontingen Resmi KRTMI UNY
-                </span>
-                <span className="text-orange-400 font-medium truncate flex-shrink-0">
-                  Juara 1 Wilayah &amp; Juara 2 Nasional
+              {/* Bottom Meta Strip with Interactive Slide Dots */}
+              <div className="px-4 py-3 bg-[#121216] border-t border-white/[0.06] flex items-center justify-between gap-3 text-[11px] font-mono relative z-20">
+                <div className="flex items-center space-x-2.5 min-w-0">
+                  {/* Slide Indicators */}
+                  <div className="flex items-center space-x-1.5 flex-shrink-0" role="tablist" aria-label="Slide foto kejuaraan">
+                    {HERO_SLIDES.map((_, idx) => (
+                      <button
+                        key={idx}
+                        type="button"
+                        onClick={() => setCurrentSlide(idx)}
+                        aria-label={`Lihat slide kejuaraan ${idx + 1}`}
+                        className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                          currentSlide === idx
+                            ? 'w-5 bg-orange-400 shadow-sm shadow-orange-500/50'
+                            : 'w-1.5 bg-white/20 hover:bg-white/50'
+                        }`}
+                      />
+                    ))}
+                  </div>
+                  <span className="text-slate-400 truncate transition-opacity duration-300">
+                    {HERO_SLIDES[currentSlide].scope}
+                  </span>
+                </div>
+                <span className="text-orange-400 font-semibold truncate flex-shrink-0 transition-opacity duration-300">
+                  {HERO_SLIDES[currentSlide].achievement}
                 </span>
               </div>
             </div>

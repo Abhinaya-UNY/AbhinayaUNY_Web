@@ -900,14 +900,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     aspect: 'tall'
   },
   {
-    id: 'undip-trophy-01',
-    title: 'UNLIMITED UNDIP 2026',
+    id: 'undip-juara-1-robot-creative',
+    title: 'Juara 1 UNLIMITED UNDIP 2026 (Environmental Monitoring & Waste Management)',
     category: 'Panggung Juara',
     year: '2026',
-    image: '/gallery/unlimited_undip/undip_trophy_squad_01.jpg',
-    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_trophy_squad_01.webp',
-    event: 'UNLIMITED UNDIP 2026',
-    aspect: 'portrait'
+    image: '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
+    thumbnail: '/thumbnails/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
+    event: 'UNLIMITED UNDIP 2026 (Semarang)',
+    aspect: 'wide'
   },
   {
     id: 'krtmi-2022-perakitan-mekanik',

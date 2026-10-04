@@ -15,6 +15,7 @@ const ASSETS_TO_PRELOAD = [
   '/images/news/uny-kri-piala-nasional-2019.jpg',
   '/images/news/antara-kri-2024-video.jpg',
   // Key award photos
+  '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
   '/gallery/unlimited_undip/undip_stage_action_14.jpg',
   '/gallery/krtmi_podium_juara.jpg',
   '/gallery/krtmi_team_celebration.jpg',
