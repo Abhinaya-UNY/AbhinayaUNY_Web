@@ -184,7 +184,7 @@ export default function PertandinganPage() {
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
-            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-teal-300 to-amber-300">Abhinaya UNY</span>
+            Laga &amp; Pertandingan Robot <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-400 to-orange-400">Abhinaya UNY</span>
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">

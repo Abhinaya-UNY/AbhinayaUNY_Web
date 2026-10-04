@@ -8,24 +8,34 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
+  const normalizedPath = pathname
+    ? pathname.replace(/^\/AbhinayaUNY_Web/, '').replace(/\/$/, '') || '/'
+    : '/';
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<string>('');
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
 
-  const navLinks = [
-    { href: '/', label: 'HOME' },
-    { href: '/#about-tim', label: 'ABOUT', sectionId: 'about-tim' },
-    { href: '/#prestasi', label: 'PRESTASI', sectionId: 'prestasi' },
+  interface NavItem {
+    href: string;
+    label: string;
+    sectionId?: string;
+    matchPaths?: string[];
+  }
+
+  const navLinks: NavItem[] = [
+    { href: '/', label: 'HOME', matchPaths: ['/'] },
+    { href: '/#about-tim', label: 'ABOUT', sectionId: 'about-tim', matchPaths: ['/divisi'] },
+    { href: '/#prestasi', label: 'PRESTASI', sectionId: 'prestasi', matchPaths: ['/prestasi'] },
     { href: '/#kri-overview', label: 'KRI', sectionId: 'kri-overview' },
-    { href: '/#krtmi-story', label: 'KRTMI', sectionId: 'krtmi-story' },
+    { href: '/#krtmi-story', label: 'KRTMI', sectionId: 'krtmi-story', matchPaths: ['/krtmi'] },
     { href: '/#berita-media', label: 'BERITA', sectionId: 'berita-media' },
-    { href: '/pertandingan', label: 'LAGA' },
+    { href: '/pertandingan', label: 'LAGA', matchPaths: ['/pertandingan'] },
     { href: '/#team-roster', label: 'ANGGOTA', sectionId: 'team-roster' },
   ];
 
   // Dynamic Viewport Scroll-Spy Tracking
   useEffect(() => {
-    if (pathname !== '/') {
+    if (normalizedPath !== '/') {
       setActiveSection('');
       return;
     }
@@ -62,34 +72,50 @@ export const Navbar: React.FC = () => {
     handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [pathname]);
+  }, [normalizedPath]);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (href.startsWith('/#') && pathname === '/') {
-      e.preventDefault();
-      const targetId = href.replace('/#', '');
-      const element = document.getElementById(targetId);
-      if (element) {
-        const topOffset = 70;
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - topOffset;
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
+    if (href.startsWith('/#')) {
+      if (normalizedPath === '/') {
+        e.preventDefault();
+        const targetId = href.replace('/#', '');
+        const element = document.getElementById(targetId);
+        if (element) {
+          const topOffset = 70;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+          setActiveSection(targetId);
+        }
       }
+    } else if (href === '/' && normalizedPath === '/') {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+      setActiveSection('');
     }
     setIsOpen(false);
   };
 
-  const isLinkActive = (link: { href: string; sectionId?: string }) => {
-    if (pathname === '/') {
-      if (!link.sectionId) {
-        return activeSection === '' && link.href === '/';
+  const isLinkActive = (link: NavItem) => {
+    // If on a dedicated subpage (e.g. /pertandingan, /divisi, /krtmi, /prestasi)
+    if (normalizedPath !== '/') {
+      if (link.matchPaths && link.matchPaths.includes(normalizedPath)) {
+        return true;
       }
-      return activeSection === link.sectionId;
+      return link.href === normalizedPath;
     }
-    return pathname === link.href;
+
+    // On root page ('/')
+    if (link.href === '/' && !link.sectionId) {
+      return activeSection === '' || activeSection === 'hero';
+    }
+    return activeSection === link.sectionId;
   };
 
   return (
@@ -117,7 +143,7 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Center Nav with Scroll-Spy Active Indicator */}
-          <nav className="hidden lg:flex items-center space-x-1 flex-shrink-0">
+          <nav className="hidden lg:flex items-center space-x-1.5 flex-shrink-0">
             {navLinks.map((link) => {
               const active = isLinkActive(link);
               return (
@@ -125,13 +151,16 @@ export const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`px-3.5 py-1.5 rounded-lg text-[11px] font-semibold tracking-widest transition whitespace-nowrap flex-shrink-0 ${
+                  className={`px-3.5 py-1.5 rounded-lg text-[11px] tracking-widest transition-all whitespace-nowrap flex-shrink-0 flex items-center ${
                     active
-                      ? 'bg-orange-500/10 text-orange-400 border border-orange-500/20 shadow-orange-glow-sm'
-                      : 'text-slate-400 hover:text-white hover:bg-white/5 border border-transparent'
+                      ? 'bg-orange-500 text-black font-extrabold shadow-lg shadow-orange-500/30 scale-[1.03]'
+                      : 'text-slate-300 hover:text-white hover:bg-white/5 font-semibold border border-transparent'
                   }`}
                 >
-                  {link.label}
+                  {active && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-black animate-pulse mr-1.5 inline-block" />
+                  )}
+                  <span>{link.label}</span>
                 </Link>
               );
             })}
@@ -191,13 +220,21 @@ export const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`block px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider uppercase transition ${
+                className={`px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider uppercase transition flex items-center justify-between ${
                   active
-                    ? 'bg-orange-500/15 text-orange-400 font-bold border border-orange-500/30'
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    ? 'bg-orange-500 text-black font-extrabold shadow-lg shadow-orange-500/30'
+                    : 'text-slate-300 hover:text-white hover:bg-white/5 font-medium'
                 }`}
               >
-                {link.label}
+                <span className="flex items-center gap-2">
+                  {active && <span className="w-2 h-2 rounded-full bg-black animate-pulse" />}
+                  {link.label}
+                </span>
+                {active && (
+                  <span className="text-[10px] tracking-widest bg-black/20 px-2 py-0.5 rounded text-black font-mono">
+                    AKTIF
+                  </span>
+                )}
               </Link>
             );
           })}
