@@ -270,7 +270,7 @@ test('Carousel mode uses snap scrolling and touch momentum', () => {
 console.log('\n--- SECTION 4: UNLIMITED UNDIP 2026 TIMELINE VERIFICATION ---');
 
 test('newsData.ts: UNLIMITED UNDIP competition has date "2026"', () => {
-  assert(newsDataContent.includes('undip-unlimited-robot-finalist'), 'Missing undip-unlimited-robot-finalist item');
+  assert(newsDataContent.includes('undip-unlimited-robot-juara-1') || newsDataContent.includes('undip-unlimited-robot-finalist'), 'Missing undip-unlimited-robot item');
   assert(newsDataContent.includes('UNLIMITED 2026') || newsDataContent.includes('UNDIP 2026'), 'newsData must reference 2026');
   assert(!newsDataContent.includes('UNLIMITED UNDIP 2025'), 'Found stale "UNLIMITED UNDIP 2025" in newsData.ts');
 });

@@ -126,7 +126,7 @@ export const DocumentationGallerySection: React.FC = () => {
           item.isVideo
             ? 'border-red-500/30 hover:border-red-500/80 shadow-red-950/20'
             : 'border-white/[0.08] hover:border-orange-500/50'
-        } shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer flex-shrink-0 select-none`}
+        } shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer flex-shrink-0 select-none touch-manipulation`}
       >
         <img
           src={previewSrc}
@@ -210,7 +210,7 @@ export const DocumentationGallerySection: React.FC = () => {
       </div>
 
       {/* Main Wall Container (Collapsible Multi-Row Marquee) */}
-      <div className={`space-y-3 sm:space-y-3.5 relative z-10 group-marquee ${isInViewport ? '' : 'marquee-paused'}`}>
+      <div className={`space-y-3 sm:space-y-3.5 relative z-10 ${isInViewport ? '' : 'marquee-paused'}`}>
         
         {/* ROW 1: Dokumentasi Laga & Momen Emas (Drifting Left) */}
         <div className="overflow-hidden">

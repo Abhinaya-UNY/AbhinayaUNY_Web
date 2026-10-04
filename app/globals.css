@@ -123,10 +123,6 @@ body {
   will-change: transform;
 }
 
-.group-marquee:hover .animate-photo-marquee-left,
-.group-marquee:hover .animate-photo-marquee-right,
-.group-marquee:hover .animate-photo-marquee-left-fast,
-.group-marquee:hover .animate-photo-marquee-right-fast {
-  animation-play-state: paused;
-}
+/* Marquee intentionally keeps running on hover so cards stay clickable while drifting.
+   Only the off-screen pause (.marquee-paused) above is kept to save CPU/GPU. */
 
