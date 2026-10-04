@@ -68,6 +68,15 @@ body {
   transform: translateY(0) !important;
 }
 
+/* Reduced motion guarantee: never hide elements if animations are reduced */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 /* Pause off-screen marquee animation to keep CPU/GPU idle */
 .marquee-paused .animate-photo-marquee-left,
 .marquee-paused .animate-photo-marquee-right,

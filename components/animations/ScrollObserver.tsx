@@ -6,45 +6,70 @@ export const ScrollObserver: React.FC = () => {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll');
-    if (!elements.length) return;
+    const revealAll = () => {
+      const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll:not(.is-revealed)');
+      elements.forEach((el) => el.classList.add('is-revealed'));
+    };
 
     // Fast-path fallback if IntersectionObserver is unsupported
     if (!('IntersectionObserver' in window)) {
-      elements.forEach((el) => el.classList.add('is-revealed'));
+      revealAll();
+      return;
+    }
+
+    // Immediately reveal all elements if user prefers reduced motion
+    const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (motionQuery.matches) {
+      revealAll();
       return;
     }
 
     // High-performance native IntersectionObserver
-    // Trigger reveals 100px before element crosses viewport so it glides in seamlessly
     const observer = new IntersectionObserver(
       (entries, obs) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('is-revealed');
-            // Keep revealed elements visible without un-revealing to prevent layout recalculation
             obs.unobserve(entry.target);
           }
         });
       },
       {
         root: null,
-        rootMargin: '100px 0px -40px 0px',
-        threshold: 0.05,
+        rootMargin: '120px 0px 0px 0px',
+        threshold: 0.02,
       }
     );
 
-    elements.forEach((el) => {
-      // If already in initial viewport, reveal immediately
-      const rect = el.getBoundingClientRect();
-      if (rect.top < window.innerHeight && rect.bottom > 0) {
-        el.classList.add('is-revealed');
-      } else {
-        observer.observe(el);
-      }
-    });
+    const checkAndObserve = () => {
+      const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll:not(.is-revealed)');
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight + 100 && rect.bottom > -50) {
+          el.classList.add('is-revealed');
+        } else {
+          observer.observe(el);
+        }
+      });
+    };
+
+    checkAndObserve();
+
+    // Check again when preloader dismisses so sections below Hero reveal immediately
+    const handleDismiss = () => {
+      setTimeout(checkAndObserve, 50);
+    };
+    window.addEventListener('abhinaya:preloader-dismiss', handleDismiss);
+
+    // Global fail-safe timeout: after 1.5s, reveal all remaining elements unconditionally
+    // to guarantee no section on the website ever remains invisible or black
+    const safetyTimer = setTimeout(() => {
+      revealAll();
+    }, 1500);
 
     return () => {
+      window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
+      clearTimeout(safetyTimer);
       observer.disconnect();
     };
   }, []);

@@ -12,12 +12,16 @@ function usePreloaderComplete(): boolean {
     if (typeof window === 'undefined') return;
 
     // Fast-path: already dismissed in this session or flag set
-    if (
-      (window as any).__ABHINAYA_PRELOADER_DONE ||
-      sessionStorage.getItem('abhinaya_preloader_loaded')
-    ) {
-      setIsComplete(true);
-      return;
+    try {
+      if (
+        (window as any).__ABHINAYA_PRELOADER_DONE ||
+        (window.sessionStorage && window.sessionStorage.getItem('abhinaya_preloader_loaded'))
+      ) {
+        setIsComplete(true);
+        return;
+      }
+    } catch {
+      // Insecure storage fallback
     }
 
     // Event listener for active preloader dismissal
@@ -26,10 +30,10 @@ function usePreloaderComplete(): boolean {
     };
     window.addEventListener('abhinaya:preloader-dismiss', handleDismiss, { once: true });
 
-    // Safety fallback timeout: never block UI if preloader is absent
+    // Safety fallback timeout: fail-open quickly so UI is never stuck invisible
     const fallbackTimer = setTimeout(() => {
       setIsComplete(true);
-    }, 2000);
+    }, 800);
 
     return () => {
       window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
@@ -289,12 +293,13 @@ export const HeroSection: React.FC = () => {
               style={{ transitionDelay: isPreloaderDone ? '450ms' : '0ms' }}
             >
               {/* Photo Viewport with Smooth Crossfade */}
-              <div className="aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] w-full overflow-hidden bg-black relative">
+              <div className="aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] w-full overflow-hidden bg-[#18181B] relative">
                 {HERO_SLIDES.map((slide, idx) => (
                   <img
                     key={slide.id}
                     src={`${basePath}${slide.image}`}
                     alt={slide.alt}
+                    loading={idx === 0 ? 'eager' : 'lazy'}
                     className={`absolute inset-0 w-full h-full object-cover ${slide.objectPosition || 'object-center'} brightness-100 contrast-105 group-hover:scale-[1.02] transition-all duration-1000 ease-in-out ${
                       currentSlide === idx ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
                     }`}

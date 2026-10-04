@@ -1,16 +1,42 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+
+// Safe Session Storage wrapper to handle Incognito / Private Browsing & WebView restrictions
+const safeSession = {
+  getItem: (key: string): string | null => {
+    try {
+      if (typeof window !== 'undefined' && window.sessionStorage) {
+        return window.sessionStorage.getItem(key);
+      }
+    } catch {
+      // Insecure/denied storage access in private modes
+    }
+    return null;
+  },
+  setItem: (key: string, value: string): void => {
+    try {
+      if (typeof window !== 'undefined' && window.sessionStorage) {
+        window.sessionStorage.setItem(key, value);
+      }
+    } catch {
+      // Ignore quota or security errors
+    }
+  },
+};
 
 export const Preloader: React.FC = () => {
   const [progress, setProgress] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
   const [opacity, setOpacity] = useState(1);
   const basePath = process.env.NODE_ENV === 'production' ? '/AbhinayaUNY_Web' : '';
+  const dismissedRef = useRef(false);
 
   useEffect(() => {
-    const hasLoaded = sessionStorage.getItem('abhinaya_preloader_loaded');
+    // 1. Fast-path: already loaded in this session
+    const hasLoaded = safeSession.getItem('abhinaya_preloader_loaded');
     if (hasLoaded) {
+      dismissedRef.current = true;
       setIsLoaded(true);
       if (typeof window !== 'undefined') {
         (window as any).__ABHINAYA_PRELOADER_DONE = true;
@@ -19,30 +45,51 @@ export const Preloader: React.FC = () => {
       return;
     }
 
-    // Dynamic loading progression from 0 to 100%
-    const interval = setInterval(() => {
-      setProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setTimeout(() => {
-            if (typeof window !== 'undefined') {
-              (window as any).__ABHINAYA_PRELOADER_DONE = true;
-              window.dispatchEvent(new CustomEvent('abhinaya:preloader-dismiss'));
-              sessionStorage.setItem('abhinaya_preloader_loaded', 'true');
-            }
-            setOpacity(0);
-            setTimeout(() => {
-              setIsLoaded(true);
-            }, 500);
-          }, 200);
-          return 100;
-        }
-        const increment = Math.floor(Math.random() * 9) + 4;
-        return Math.min(prev + increment, 100);
-      });
-    }, 45);
+    // Dismissal coordinator: safe, single-execution, fail-open
+    const completeDismissal = () => {
+      if (dismissedRef.current) return;
+      dismissedRef.current = true;
 
-    return () => clearInterval(interval);
+      if (typeof window !== 'undefined') {
+        (window as any).__ABHINAYA_PRELOADER_DONE = true;
+        try {
+          window.dispatchEvent(new CustomEvent('abhinaya:preloader-dismiss'));
+        } catch {
+          // Fallback if custom events error
+        }
+        safeSession.setItem('abhinaya_preloader_loaded', 'true');
+      }
+
+      setOpacity(0);
+      setTimeout(() => {
+        setIsLoaded(true);
+      }, 400);
+    };
+
+    // 2. Hard absolute safety timer (max 1800ms) - guarantees screen is NEVER stuck black
+    const safetyTimer = setTimeout(() => {
+      completeDismissal();
+    }, 1800);
+
+    // 3. Dynamic loading progression
+    let currentProgress = 0;
+    const interval = setInterval(() => {
+      const increment = Math.floor(Math.random() * 10) + 6;
+      currentProgress = Math.min(currentProgress + increment, 100);
+      setProgress(currentProgress);
+
+      if (currentProgress >= 100) {
+        clearInterval(interval);
+        setTimeout(() => {
+          completeDismissal();
+        }, 150);
+      }
+    }, 40);
+
+    return () => {
+      clearInterval(interval);
+      clearTimeout(safetyTimer);
+    };
   }, []);
 
   if (isLoaded) return null;
@@ -56,7 +103,9 @@ export const Preloader: React.FC = () => {
 
   return (
     <div
-      className="fixed inset-0 z-[9999] bg-[#0B0B0E] flex flex-col items-center justify-center transition-opacity duration-500 select-none"
+      className={`fixed inset-0 z-[9999] bg-[#0B0B0E] flex flex-col items-center justify-center transition-opacity duration-400 select-none ${
+        opacity === 0 ? 'pointer-events-none opacity-0' : 'pointer-events-auto opacity-100'
+      }`}
       style={{ opacity }}
     >
       {/* Subtle ambient orange glow */}
