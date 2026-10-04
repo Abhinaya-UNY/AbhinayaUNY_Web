@@ -42,7 +42,7 @@ export const Achievements: React.FC = () => {
       organizer: 'HME FT Universitas Diponegoro Semarang',
       badge: 'JUARA 1 ROBOT KREATIF',
       highlight: true,
-      image: '/gallery/unlimited_undip/undip_stage_action_14.jpg',
+      image: '/gallery/unlimited_undip/undip_juara_1_robot_creative.webp',
       certNumber: 'Juara 1 Nasional UNLIMITED 2026',
     },
     {

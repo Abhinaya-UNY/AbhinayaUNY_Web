@@ -84,7 +84,7 @@ export const OFFICIAL_NEWS_ARTICLES: NewsArticle[] = [
     "url": "https://www.instagram.com/p/DcEIl23oGWv/",
     "badge": "JUARA 1 ROBOT KREATIF",
     "badgeColor": "bg-orange-500/20 text-orange-400 border-orange-500/40",
-    "image": "/gallery/unlimited_undip/undip_stage_action_14.jpg",
+    "image": "/gallery/unlimited_undip/undip_juara_1_robot_creative.webp",
     "stats": "Juara 1 Nasional • UNDIP 2026",
     "readTime": "3 min baca"
   },

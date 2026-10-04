@@ -182,18 +182,44 @@ export const HeroSection: React.FC = () => {
               </p>
 
               {/* Award Badge Pill (Left-aligned) */}
+              {/* Award Badge Pill (Left-aligned, synced with active hero slide) */}
               <div
                 className={`pt-1 ${getEntranceClass(400)}`}
                 style={{ transitionDelay: isPreloaderDone ? '400ms' : '0ms' }}
               >
-                <span className="inline-flex items-center space-x-2 text-amber-400/90 text-xs sm:text-sm font-mono bg-white/[0.03] px-3.5 py-1.5 rounded-full border border-amber-500/25 shadow-sm">
-                  <Trophy className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                  <ShinyText
-                    text="JUARA 1 WILAYAH I & JUARA 2 NASIONAL KRTMI 2024"
-                    speed={4}
-                    className="text-xs sm:text-sm font-mono text-amber-300 font-semibold"
-                  />
-                </span>
+                <div className="relative inline-flex items-center min-h-[34px]">
+                  {/* Slide 0 Badge (KRTMI 2024) */}
+                  <span
+                    className={`inline-flex items-center space-x-2 text-amber-400/90 text-xs sm:text-sm font-mono bg-white/[0.03] px-3.5 py-1.5 rounded-full border border-amber-500/25 shadow-sm transition-all duration-700 ${
+                      currentSlide === 0
+                        ? 'opacity-100 scale-100 relative z-10'
+                        : 'opacity-0 scale-95 absolute inset-0 pointer-events-none'
+                    }`}
+                  >
+                    <Trophy className="w-4 h-4 text-amber-400 flex-shrink-0" />
+                    <ShinyText
+                      text="JUARA 1 WILAYAH I & JUARA 2 NASIONAL KRTMI 2024"
+                      speed={4}
+                      className="text-xs sm:text-sm font-mono text-amber-300 font-semibold"
+                    />
+                  </span>
+
+                  {/* Slide 1 Badge (UNLIMITED UNDIP 2026) */}
+                  <span
+                    className={`inline-flex items-center space-x-2 text-orange-400/90 text-xs sm:text-sm font-mono bg-white/[0.03] px-3.5 py-1.5 rounded-full border border-orange-500/30 shadow-sm transition-all duration-700 ${
+                      currentSlide === 1
+                        ? 'opacity-100 scale-100 relative z-10'
+                        : 'opacity-0 scale-95 absolute inset-0 pointer-events-none'
+                    }`}
+                  >
+                    <Trophy className="w-4 h-4 text-orange-400 flex-shrink-0" />
+                    <ShinyText
+                      text="JUARA 1 ROBOT KREATIF • UNLIMITED UNDIP 2026"
+                      speed={4}
+                      className="text-xs sm:text-sm font-mono text-orange-300 font-semibold"
+                    />
+                  </span>
+                </div>
               </div>
 
               {/* Friendly Description Text (Max-w-xl, Left-aligned) */}
