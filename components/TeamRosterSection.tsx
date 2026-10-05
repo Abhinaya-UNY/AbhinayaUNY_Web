@@ -700,7 +700,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
             }`}
           >
             <History className="w-3.5 h-3.5 text-purple-400" />
-            <span>Alumni (2020–2025)</span>
+            <span>Alumni &amp; Angkatan (2020-2026)</span>
           </button>
         </div>
 
@@ -990,7 +990,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS (2020 – 2025)
+            FEATURE 2 (BELOW SQUAD): ALL-ERA LEADERS (2020 - 2026)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'leaders') && (
           <div className="space-y-4 pt-4 border-t border-white/5">
@@ -1009,7 +1009,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                             RIWAYAT KETUA TIM
                           </span>
                           <span className="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 text-[10px] font-mono border border-amber-500/20">
-                            2020 – 2025
+                            2020 - 2026
                           </span>
                         </div>
                         <h3 className="text-lg sm:text-2xl font-bold text-white">
@@ -1023,11 +1023,11 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
 
                     <div className="flex items-center space-x-2 text-xs font-mono text-amber-400 bg-white/5 px-3.5 py-1.5 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
                       <Award className="w-4 h-4 text-amber-400" />
-                      <span>6 Ketua Tim (2020–2025)</span>
+                      <span>7 Ketua Tim (2020-2026)</span>
                     </div>
                   </div>
 
-                  {/* Horizontal Connected Timeline Bar (2020 - 2025) */}
+                  {/* Horizontal Connected Timeline Bar (2020 - 2026) */}
                   <div className="pt-2 border-t border-white/5">
                     <div className="relative flex items-center justify-between px-2 sm:px-6 py-2">
                       <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 h-0.5 bg-gradient-to-r from-amber-500/30 via-amber-400/40 to-amber-300/50 z-0" />
@@ -1038,6 +1038,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         { year: '2023', name: 'Salsabila' },
                         { year: '2024', name: 'Ilham Widyo' },
                         { year: '2025', name: 'Farhan Yuda' },
+                        { year: '2026', name: 'Rionaldi' },
                       ].map((node) => (
                         <div key={node.year} className="relative z-10 flex flex-col items-center group cursor-pointer">
                           <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#0B0B0E] border-2 border-amber-400/80 group-hover:border-amber-300 flex items-center justify-center text-[10px] sm:text-xs font-mono font-bold text-amber-300 shadow-md group-hover:scale-110 transition-transform">
@@ -1068,7 +1069,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
         )}
 
         {/* ══════════════════════════════════════════════════════════════════════
-            FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS (2020 – 2025)
+            FEATURE 3 (BELOW LEADERS): ALL-ERA MANAGERS (2020 - 2026)
             ══════════════════════════════════════════════════════════════════════ */}
         {(activeTab === 'all' || activeTab === 'managers') && (
           <div className="space-y-4 pt-4 border-t border-white/5">
@@ -1087,7 +1088,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                             MANAJERIAL &amp; MEDIA
                           </span>
                           <span className="px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-300 text-[10px] font-mono border border-orange-500/20">
-                            2020 – 2025
+                            2020 - 2026
                           </span>
                         </div>
                         <h3 className="text-lg sm:text-2xl font-bold text-white">
@@ -1105,7 +1106,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                     </div>
                   </div>
 
-                  {/* Horizontal Connected Timeline Bar (2020 - 2025) */}
+                  {/* Horizontal Connected Timeline Bar (2020 - 2026) */}
                   <div className="pt-2 border-t border-white/5">
                     <div className="relative flex items-center justify-between px-2 sm:px-6 py-2">
                       <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 h-0.5 bg-gradient-to-r from-orange-500/30 via-amber-400/40 to-orange-300/50 z-0" />
@@ -1114,6 +1115,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         { era: '2023', name: 'Mustika Wahyu A.' },
                         { era: '2024', name: 'Rose Pita N. A.' },
                         { era: '2025', name: 'Zelfa Nafisah Z.' },
+                        { era: '2026', name: 'Zelfa & Sheiraya' },
                       ].map((node) => (
                         <div key={node.era} className="relative z-10 flex flex-col items-center group cursor-pointer">
                           <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-[#0B0B0E] border-2 border-orange-400/80 group-hover:border-orange-300 flex items-center justify-center text-[10px] sm:text-xs font-mono font-bold text-orange-300 shadow-md group-hover:scale-110 transition-transform">
@@ -1161,21 +1163,21 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                         ARSIP ANGKATAN &amp; ALUMNI
                       </span>
                       <span className="px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 text-[10px] font-mono border border-purple-500/20">
-                        2020 – 2025
+                        2020 - 2026
                       </span>
                     </div>
                     <h3 className="text-lg sm:text-2xl font-bold text-white">
-                      Daftar Alumni Per Angkatan
+                      Daftar Generasi &amp; Alumni Per Angkatan
                     </h3>
                     <p className="text-xs text-slate-300 mt-0.5">
-                      Lihat susunan tim dan kakak-kakak alumni Abhinaya UNY berdasarkan tahun lomba (2020–2025).
+                      Lihat susunan tim dan generasi Abhinaya UNY berdasarkan tahun lomba (2020-2026).
                     </p>
                   </div>
                 </div>
 
                 {/* Year Tabs Selector */}
                 <div className="flex flex-wrap items-center gap-1 bg-white/5 p-1 rounded-xl border border-white/10 self-stretch md:self-auto justify-center">
-                  {[2020, 2021, 2022, 2023, 2024, 2025].map((year) => {
+                  {[2020, 2021, 2022, 2023, 2024, 2025, 2026].map((year) => {
                     const isSelected = selectedAlumniYear === year;
                     return (
                       <button

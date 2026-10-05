@@ -41,7 +41,7 @@ requiredPages.forEach(p => {
 results.passed++;
 
 // 2. Inspect static DOM in out/index.html
-console.log('\n[TEST 2] Leaders Hall of Fame (2020-2025) in Static DOM (out/index.html)...');
+console.log('\n[TEST 2] Leaders Hall of Fame (2020-2026) in Static DOM (out/index.html)...');
 const indexHtml = fs.readFileSync(path.join(outDir, 'index.html'), 'utf8');
 
 const expectedLeaders = [
@@ -50,7 +50,8 @@ const expectedLeaders = [
   { name: 'Muhammad Iqbal Rasyid', year: '2022' },
   { name: 'Salsabila Azzahra', year: '2023' },
   { name: 'Ilham Widyo Nugroho', year: '2024' },
-  { name: 'Farhan Yuda Mahendra', year: '2025' }
+  { name: 'Farhan Yuda Mahendra', year: '2025' },
+  { name: 'Rionaldi Nugroho', year: '2026' }
 ];
 
 expectedLeaders.forEach(l => {
@@ -62,12 +63,13 @@ assert(indexHtml.includes('Leaders Hall of Fame') || indexHtml.includes('Hall of
 results.passed++;
 
 // 3. Inspect Managers in Static DOM
-console.log('\n[TEST 3] Managers Showcase (2020-2025) in Static DOM (out/index.html)...');
+console.log('\n[TEST 3] Managers Showcase (2020-2026) in Static DOM (out/index.html)...');
 const expectedManagers = [
   { name: 'Yuli Dwi Saputri', year: '2020' },
   { name: 'Mustika Wahyu Aprilia', year: '2023' },
   { name: 'Rose Pita Nur Afifah', year: '2024-2025' },
-  { name: 'Zelfa Nafisah Zalna', year: '2025' }
+  { name: 'Zelfa Nafisah Zalna', year: '2025-2026' },
+  { name: 'Sheiraya Senja Shofa', year: '2026' }
 ];
 
 expectedManagers.forEach(m => {
@@ -98,7 +100,7 @@ results.passed++;
 
 // 5. Inspect Alumni & Generation Explorer
 console.log('\n[TEST 5] Alumni & Generation Explorer in Static DOM...');
-const years = ['2020', '2021', '2022', '2023', '2024', '2025'];
+const years = ['2020', '2021', '2022', '2023', '2024', '2025', '2026'];
 years.forEach(y => {
   assert(indexHtml.includes(y), 'Generation year missing in DOM: ' + y);
   console.log('  ✔ [PASS] Generation Era:', y, '[VERIFIED]');

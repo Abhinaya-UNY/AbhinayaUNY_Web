@@ -816,6 +816,165 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
 		"coverImage": "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg",
 		"instagramUrl": "https://www.instagram.com/p/Dd_bmkYhP91/",
 		"timestamp": "2025-10-02-21-07-33 Dd_bmkYhP91"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded-08vecn4",
+		"title": "Captain & Leader Abhinaya 2026: Rionaldi Nugroho",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Introducing Abhinaya's team leader, guiding us with passion, direction, and unwavering focus on our mission to Get the Trophy! Rionaldi Nugroho.\n\n#AbhinayaUNY #Robotics #KRTMI #Leader",
+		"images": [
+			"/images/instagram/2026_cover_leader.jpg",
+			"/images/members/2026_leader_rionaldi_nugroho_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_leader.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD-08VEcn4/",
+		"timestamp": "2026-10-03 DeD-08VEcn4"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded9bb2ktqn",
+		"title": "Management Team Abhinaya 2026: Zelfa & Sheiraya",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Abhinaya's management team, coordinating resources, schedules, and operations for a smooth road to the trophy.\n1. Zelfa Nafisah Zalna (Koor)\n2. Sheiraya Senja Shofa\n\n#AbhinayaUNY #Robotics #Manager #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_manager.jpg",
+			"/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg",
+			"/images/members/2026_manager_sheiraya_senja_shofa_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_manager.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD9bB2kTQN/",
+		"timestamp": "2026-10-03 DeD9bB2kTQN"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded7jahksyw",
+		"title": "Code Crafters: Meet The Program Squad 2026",
+		"category": "Riset Robot Otonom",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Abhinaya's Code Crafters! Making sure our robot thinks, reacts, and competes with intelligence. Let's make every function count!\n1. Hisyam Yasid Pratowo (Koor)\n2. Tri Wahyu Handoyo\n3. Hanif Nur Khalis\n4. Putraku Ruliff Abbas\n5. Febri Bayu Nurcahyo\n\n#AbhinayaProgrammer #AbhinayaUNY #Robotics #CodingTheFuture #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_programmer.jpg",
+			"/images/members/2026_program_hisyam_yasid_pratowo_01.jpg",
+			"/images/members/2026_program_tri_wahyu_handoyo_01.jpg",
+			"/images/members/2026_program_hanif_nur_khalis_01.jpg",
+			"/images/members/2026_program_putraku_ruliff_abbas_01.jpg",
+			"/images/members/2026_program_febri_bayu_nurcahyo_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_programmer.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD7JahkSyW/",
+		"timestamp": "2026-10-03 DeD7JahkSyW"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded8ibmkc4i",
+		"title": "Precision & Power: Meet The Electronics Squad 2026",
+		"category": "Riset Robot Otonom",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Abhinaya's electronics team ensuring seamless power, flawless communication, and peak sensor performance. Precision matters!\n1. Aryasetya Maulana Swasdika (Koor)\n2. Naufal Farros Zainal Arifin\n3. Muhammad Khansa Ganendra\n4. Muhammad Zhefrisma Alferdinan Abiseka\n5. Dahan Rifatha Juliano\n\n#AbhinayaElectronics #AbhinayaUNY #Electronics #Robotics #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_elektronik.jpg",
+			"/images/members/2026_elektronik_aryasetya_maulana_swasdika_01.jpg",
+			"/images/members/2026_elektronik_naufal_farros_zainal_arifin_01.jpg",
+			"/images/members/2026_elektronik_muhammad_khansa_ganendra_01.jpg",
+			"/images/members/2026_elektronik_muhammad_zhefrisma_alferdinan_abiseka_01.jpg",
+			"/images/members/2026_elektronik_dahan_rifatha_juliano_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_elektronik.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD8ibMkc4I/",
+		"timestamp": "2026-10-03 DeD8ibMkc4I"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded7zg8efqa",
+		"title": "Robotics Structure & 3D Components: Meet The Mechanics Squad 2026",
+		"category": "Riset Robot Otonom",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "The mechanical team works on the robot's structure. Design custom pieces and print them in 3D to fit the robot perfectly.\n1. Andika Nanda Wijaya (Koor)\n2. Adhiyatma Fatya Ramadhani\n3. Rionaldi Nugroho\n4. Kharisma Putra Mahardika\n5. Berni Hercules\n\n#AbhinayaMechanics #AbhinayaUNY #3DComponents #Robotics #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_mekanik.jpg",
+			"/images/members/2026_mekanik_andika_nanda_wijaya_01.jpg",
+			"/images/members/2026_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+			"/images/members/2026_mekanik_rionaldi_nugroho_01.jpg",
+			"/images/members/2026_mekanik_kharisma_putra_mahardika_01.jpg",
+			"/images/members/2026_mekanik_berni_hercules_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_mekanik.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD7zg8EfqA/",
+		"timestamp": "2026-10-03 DeD7zg8EfqA"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded-jszea0r",
+		"title": "Wisdom & Guidance: Chief Advisor Prof. Ir. Moh. Khairudin",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Wisdom & Guidance! Gratitude to our dedicated Abhinaya Mentors. Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU.\n\n#AbhinayaMentors #AbhinayaUNY #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_mentor.jpg",
+			"/images/members/2026_pembimbing_prof_moh_khairudin_01.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_mentor.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD-jSZEa0R/",
+		"timestamp": "2026-10-03 DeD-jSZEa0R"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded-51irh9z",
+		"title": "End of an Era, a Legacy Remains: Abhinaya Class of 2025",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "End of an Era, a Legacy Remains. Until we meet again, Abhinaya Class of 2025. Your dedication, passion, and mentorship will always be a part of us. Good luck with your future endeavors!\n\n#Abhinaya2025 #AbhinayaUNY #RoboticsUNY #GetTheTrophy #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_legacy_2025.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_legacy_2025.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD-51IRH9z/",
+		"timestamp": "2026-10-03 DeD-51IRH9z"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded_s9sxcd2",
+		"title": "Mission Accomplished: Technocorner UGM",
+		"category": "Laga & Pertandingan KRTMI",
+		"year": "2026",
+		"event": "Technocorner UGM 2026",
+		"caption": "Mission: Technocorner UGM, Accomplished! Abhinaya gave it our all in Yogyakarta, proving our dedication and teamwork. Thank you for the incredible experience and tough competition!\n\n#AbhinayaUNY #TechnocornerUGM #RoboticsUNY #GetTheTrophy #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_technocorner_ugm.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_technocorner_ugm.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD_S9SxCD2/",
+		"timestamp": "2026-10-03 DeD_S9SxCD2"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded_cx3xu9u",
+		"title": "Ready to Compete: Fueled by Passion, Driven by Challenges",
+		"category": "Laga & Pertandingan KRTMI",
+		"year": "2026",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2026)",
+		"caption": "Fueled by passion, driven by challenges! Abhinaya is ready to take on the stage, compete with precision, and push our limits. This is what we're here for. The journey is tough, but we are tougher. Let's make it count!\n\n#AbhinayaUNY #Robotics #ReadyToCompete #GetTheTrophy #KRTMI",
+		"images": [
+			"/images/instagram/2026_cover_ready_to_compete.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_ready_to_compete.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD_cX3xu9U/",
+		"timestamp": "2026-10-03 DeD_cX3xu9U"
+	},
+	{
+		"id": "ig-post-2026-10-03_ded_os2xtsr",
+		"title": "Beyond Boundaries: Unlimited Undip",
+		"category": "Laga & Pertandingan KRTMI",
+		"year": "2026",
+		"event": "UNLIMITED UNDIP 2026 (Semarang)",
+		"caption": "Beyond Boundaries at Unlimited Undip! Abhinaya pushed our limits, learning, growing, and competing with honor. Gratitude to everyone involved and all our supporters!\n\n#AbhinayaUNY #UnlimitedUndip #Robotics #GetTheTrophy #NeverStopLearning",
+		"images": [
+			"/images/instagram/2026_cover_unlimited_undip.jpg"
+		],
+		"coverImage": "/images/instagram/2026_cover_unlimited_undip.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DeD_os2xtsr/",
+		"timestamp": "2026-10-03 DeD_os2xtsr"
 	}
 ];
 

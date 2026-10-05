@@ -426,7 +426,7 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     subRole: 'Kinematics & Microcontroller Control Programmer',
     generation: 'Angkatan 2022',
     generationYear: 2025,
-    yearsActive: [2023, 2024, 2025],
+    yearsActive: [2023, 2024, 2025, 2026],
     specialization: [
       'Kinematics Control Algorithms',
       'Servo & Gripper Actuation Logic',
@@ -465,6 +465,53 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     socials: {
       linkedin: 'https://linkedin.com',
       instagram: 'https://instagram.com/frhnyudaa',
+    },
+  },
+  {
+    year: 2026,
+    id: 'rionaldi-nugroho-leader',
+    name: 'Rionaldi Nugroho',
+    nickname: 'Rio',
+    nim: '23090620088',
+    studyProgram: 'D4 Teknik Elektronika',
+    prodi: 'D4 Teknik Elektronika',
+    faculty: 'Fakultas Vokasi (FV)',
+    division: 'Ketua Tim',
+    divisionSlug: 'leader',
+    role: 'Ketua Tim (Team Leader 2026)',
+    subRole: 'Team Leadership, Mechatronics Integration & Mechanism Engineering',
+    generation: 'Angkatan 2023',
+    generationYear: 2026,
+    yearsActive: [2024, 2025, 2026],
+    specialization: [
+      'Team Leadership & Strategy',
+      'Mechatronics Integration',
+      'Rapid Prototyping & CAD',
+      'Precision Machining & Tolerance QA',
+    ],
+    skills: ['Team Leadership', 'Mechatronics', 'CAD', 'Assembly', 'QA'],
+    bio: 'Ketua Tim Abhinaya UNY periode 2026. Memimpin kontingen robotika otonom nasional menuju kemenangan di ajang KRTMI dan kompetisi robotika bergengsi 2026.',
+    quote: 'Get the trophy with passion, precision, and unwavering dedication.',
+    image: '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
+    images: [
+      '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+        '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
+      '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
+    ],
+    photos: [
+      '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+        '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
+      '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
+    ],
+    badge: 'Ketua Tim 2026',
+    leadershipEra: 'Ketua Tim 2026',
+    achievements: ['Ketua Tim Abhinaya UNY 2026', 'Ekspedisi Unlimited Undip & Technocorner 2026'],
+    isLeader: true,
+    isActive: true,
+    socials: {
+      instagram: 'https://instagram.com/abhinaya.uny',
     },
   },
 ];
@@ -627,11 +674,11 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     faculty: 'Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)',
     division: 'Manager',
     divisionSlug: 'manager',
-    role: 'Manager Keuangan & Administrasi Operasional (Era 2025)',
+    role: 'Koordinator Manager Tim (Era 2025–2026)',
     subRole: 'Finance, Administrative Documentation & Logistics Lead',
     generation: 'Angkatan 2023',
     generationYear: 2025,
-    yearsActive: [2025],
+    yearsActive: [2025, 2026],
     specialization: [
       'Administrasi Kampus & Ormawa',
       'Financial Accounting & RAB',
@@ -641,16 +688,58 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     skills: ['Accounting', 'Administrasi', 'Logistics', 'Documentation'],
     bio: 'Manager Keuangan & Administrasi aktif periode 2025. Mengawal pembukuan dana riset, pengadaan komponen, dan registrasi berkas kontingen KRI 2025.',
     quote: 'Dedikasi di balik layar mengantarkan tim menuju podium juara.',
-    image: '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
+    image: '/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg',
     images: [
+      '/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg',
       '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
     ],
     photos: [
+      '/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg',
       '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
     ],
-    badge: 'Manager 2025',
-    leadershipEra: 'Manager Era 2025',
+    badge: 'Manager 2025–2026',
+    leadershipEra: 'Manager Era 2025–2026',
     achievements: ['Manajemen Kontingen Aktif KRI 2025', 'Tata Kelola Administrasi Tim 2025'],
+    isManager: true,
+    isActive: true,
+    socials: {
+      instagram: 'https://instagram.com/abhinaya.uny',
+    },  },
+  {
+    year: 2026,
+    id: 'sheiraya-senja-shofa-manager',
+    name: 'Sheiraya Senja Shofa',
+    nickname: 'Sheiraya',
+    nim: '25051030006',
+    studyProgram: 'S1 Teknik Elektro',
+    prodi: 'S1 Teknik Elektro',
+    faculty: 'Fakultas Teknik (FT)',
+    division: 'Manager',
+    divisionSlug: 'manager',
+    role: 'Manager Operasional & Logistik Tim (Era 2026)',
+    subRole: 'Operational Logistics & Resource Coordination Lead',
+    generation: 'Angkatan 2025',
+    generationYear: 2026,
+    yearsActive: [2026],
+    specialization: [
+      'Resource Coordination',
+      'Operational Schedules',
+      'Team Logistics & Procurement',
+      'Media Coordination',
+    ],
+    skills: ['Logistics', 'Administration', 'Event Management', 'Coordination'],
+    bio: 'Manager operasional Abhinaya UNY periode 2026. Mengoordinasikan logistik, jadwal riset, dan operasional kontingen menuju gelar juara KRTMI 2026.',
+    quote: 'Coordinating resources, schedules, and operations for a smooth road to the trophy.',
+    image: '/images/members/2026_manager_sheiraya_senja_shofa_01.jpg',
+    images: [
+      '/images/members/2026_manager_sheiraya_senja_shofa_01.jpg',
+    ],
+    photos: [
+      '/images/members/2026_manager_sheiraya_senja_shofa_01.jpg',
+    ],
+    badge: 'Manager 2026',
+    leadershipEra: 'Manager Era 2026',
+    achievements: ['Manajemen Kontingen KRTMI 2026'],
     isManager: true,
     isActive: true,
     socials: {
@@ -679,7 +768,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       subRole: 'Autonomous Navigation & AI Vision Specialist',
       generation: 'Angkatan 2022',
       generationYear: 2025,
-      yearsActive: [2023, 2024, 2025],
+      yearsActive: [2023, 2024, 2025, 2026],
       specialization: [
         'Deep Learning & YOLO Object Detection',
         'Mecanum Omnidirectional Kinematics',
@@ -695,10 +784,11 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['YOLO', 'Python', 'OpenCV', 'Mecanum', 'STM32', 'Next.js', 'Autonomous Navigation', 'Computer Vision'],
       bio: 'Memimpin riset algoritma deteksi objek sampah berbasis deep learning / YOLO, pemetaan lintasan otonom roda mecanum, komputasi edge pada Mini PC, dan perancangan portal web resmi Abhinaya UNY.',
       quote: 'Anti turu, standby setiap waktu',
-      image: '/images/members/2025_program_tri_wahyu_handoyo_01.jpg',
+      image: '/images/members/2026_program_tri_wahyu_handoyo_01.jpg',
       images: [
         '/images/members/2024_program_tri_wahyu_handoyo_01.png',
         '/images/members/2024_program_tri_wahyu_handoyo_02.png',
+        '/images/members/2026_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2025_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2024_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2023_program_tri_wahyu_handoyo_01.jpg',
@@ -706,6 +796,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       photos: [
         '/images/members/2024_program_tri_wahyu_handoyo_01.png',
         '/images/members/2024_program_tri_wahyu_handoyo_02.png',
+        '/images/members/2026_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2025_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2024_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2023_program_tri_wahyu_handoyo_01.jpg',
@@ -732,7 +823,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       subRole: 'Kinematics & Microcontroller Control Programmer',
       generation: 'Angkatan 2022',
       generationYear: 2025,
-      yearsActive: [2023, 2024, 2025],
+      yearsActive: [2023, 2024, 2025, 2026],
       specialization: [
         'Kinematics Control Algorithms',
         'Servo & Gripper Actuation Logic',
@@ -797,11 +888,13 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['C++', 'Python', 'Serial Protocol', 'Sensor Calibration', 'STM32'],
       bio: 'Bertanggung jawab atas integrasi sensor serial, kalibrasi jarak arena, scripting logika manuver robot otonom, dan telemetry testing.',
       quote: 'Kode yang efisien lahir dari algoritma yang presisi.',
-      image: '/images/members/2025_program_hanif_nurkhalis_01.jpg',
+      image: '/images/members/2026_program_hanif_nur_khalis_01.jpg',
       images: [
+        '/images/members/2026_program_hanif_nur_khalis_01.jpg',
         '/images/members/2025_program_hanif_nurkhalis_01.jpg',
       ],
       photos: [
+        '/images/members/2026_program_hanif_nur_khalis_01.jpg',
         '/images/members/2025_program_hanif_nurkhalis_01.jpg',
       ],
       badge: 'Programmer',
@@ -835,17 +928,94 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Linux', 'OpenCV', 'Python', 'Computer Vision', 'YOLO'],
       bio: 'Fokus pada konfigurasi lingkungan Linux Mini PC, pengolahan citra arena, penyesuaian frame-rate kamera deteksi, dan logging data perlombaan.',
       quote: 'Optimasi tanpa henti untuk performa terbaik.',
-      image: '/images/members/2025_program_hisyam_yasid_pratowo_01.jpg',
+      image: '/images/members/2026_program_hisyam_yasid_pratowo_01.jpg',
       images: [
+        '/images/members/2026_program_hisyam_yasid_pratowo_01.jpg',
         '/images/members/2025_program_hisyam_yasid_pratowo_01.jpg',
       ],
       photos: [
+        '/images/members/2026_program_hisyam_yasid_pratowo_01.jpg',
         '/images/members/2025_program_hisyam_yasid_pratowo_01.jpg',
       ],
       badge: 'Programmer',
       isActive: true,
       socials: {
         instagram: 'https://instagram.com/hsymptw._',
+      },
+    },
+    {
+      id: 'putraku-ruliff-abbas',
+      name: 'Putraku Ruliff Abbas',
+      nickname: 'Putra',
+      nim: '24051030020',
+      studyProgram: 'S1 Teknik Elektro',
+      prodi: 'S1 Teknik Elektro',
+      faculty: 'Fakultas Teknik (FT)',
+      division: 'Program' as DivisionType,
+      divisionSlug: 'program' as DivisionSlug,
+      role: 'Program (AI Perception & Control Systems)',
+      subRole: 'Perception Pipeline & Autonomous Navigation Engineer',
+      generation: 'Angkatan 2024',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        'AI Computer Vision',
+        'Perception Logic',
+        'Autonomous Control',
+        'Python',
+        'OpenCV',
+      ],
+      skills: ['Python', 'OpenCV', 'AI Vision', 'Control Systems'],
+      bio: 'Programmer Abhinaya UNY periode 2026 yang berfokus pada pengembangan sistem persepsi cerdas robot, pengolahan citra otonom, dan navigasi sirkuit.',
+      quote: 'Making sure our robot thinks, reacts, and competes with intelligence.',
+      image: '/images/members/2026_program_putraku_ruliff_abbas_01.jpg',
+      images: [
+        '/images/members/2026_program_putraku_ruliff_abbas_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_program_putraku_ruliff_abbas_01.jpg',
+      ],
+      badge: 'Programmer 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
+      },
+    },
+    {
+      id: 'febri-bayu-nurcahyo',
+      name: 'Febri Bayu Nurcahyo',
+      nickname: 'Febri',
+      nim: '25051030018',
+      studyProgram: 'S1 Teknik Elektro',
+      prodi: 'S1 Teknik Elektro',
+      faculty: 'Fakultas Teknik (FT)',
+      division: 'Program' as DivisionType,
+      divisionSlug: 'program' as DivisionSlug,
+      role: 'Program (Embedded Firmware & State Logic)',
+      subRole: 'State Machine & Microcontroller Interfacing Engineer',
+      generation: 'Angkatan 2025',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        'Embedded C/C++',
+        'State Machine Logic',
+        'Microcontroller Interfacing',
+        'STM32',
+      ],
+      skills: ['C/C++', 'STM32', 'Firmware', 'State Logic'],
+      bio: 'Programmer Abhinaya UNY periode 2026 yang mendalami logika state-machine kendali robot, sinkronisasi aktuator, dan keandalan eksekusi instruksi arena.',
+      quote: 'Let us make every function count!',
+      image: '/images/members/2026_program_febri_bayu_nurcahyo_01.jpg',
+      images: [
+        '/images/members/2026_program_febri_bayu_nurcahyo_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_program_febri_bayu_nurcahyo_01.jpg',
+      ],
+      badge: 'Programmer 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
       },
     },
   ],
@@ -913,7 +1083,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       subRole: 'PCB Designer & Sensor Interface Engineer',
       generation: 'Angkatan 2022',
       generationYear: 2025,
-      yearsActive: [2023, 2024, 2025],
+      yearsActive: [2023, 2024, 2025, 2026],
       specialization: [
         'Autodesk EAGLE & KiCad Custom Shield PCB',
         'Optical Rotary Encoder Signal Conditioning',
@@ -1019,11 +1189,13 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Power Distribution Board', 'Wiring QA', 'Actuator Drivers', 'PCB'],
       bio: 'Bertanggung jawab pada perakitan jalur distribusi daya robot, manajemen wiring harness berkecepatan tinggi, dan pengujian keandalan driver aktuator.',
       quote: 'Kerapian kelistrikan mencegah segala kendala di arena.',
-      image: '/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg',
+      image: '/images/members/2026_elektronik_aryasetya_maulana_swasdika_01.jpg',
       images: [
+        '/images/members/2026_elektronik_aryasetya_maulana_swasdika_01.jpg',
         '/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg',
       ],
       photos: [
+        '/images/members/2026_elektronik_aryasetya_maulana_swasdika_01.jpg',
         '/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg',
       ],
       badge: 'Elektronik Hardware',
@@ -1057,17 +1229,130 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Signal Conditioning', 'E-Stop', 'Sensor Wiring', 'PCB'],
       bio: 'Mengembangkan proteksi tegangan logika mikroprosesor, sirkuit isolasi optocoupler, dan penapisan noise sensor pada sirkuit tematik.',
       quote: 'Sinyal bersih, respon sistem cepat.',
-      image: '/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg',
+      image: '/images/members/2026_elektronik_naufal_farros_zainal_arifin_01.jpg',
       images: [
+        '/images/members/2026_elektronik_naufal_farros_zainal_arifin_01.jpg',
         '/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg',
       ],
       photos: [
+        '/images/members/2026_elektronik_naufal_farros_zainal_arifin_01.jpg',
         '/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg',
       ],
       badge: 'Elektronik Hardware',
       isActive: true,
       socials: {
         instagram: 'https://instagram.com/farros_555',
+      },
+    },
+    {
+      id: 'muhammad-khansa-ganendra',
+      name: 'Muhammad Khansa Ganendra',
+      nickname: 'Khansa',
+      nim: '24050430013',
+      studyProgram: 'S1 Pendidikan Teknik Elektronika',
+      prodi: 'S1 Pendidikan Teknik Elektronika',
+      faculty: 'Fakultas Teknik (FT)',
+      division: 'Elektronik' as DivisionType,
+      divisionSlug: 'elektronik' as DivisionSlug,
+      role: 'Elektronik (Power Distribution Board & Shielding)',
+      subRole: 'PDB Design & Signal Integrity Engineer',
+      generation: 'Angkatan 2024',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        'Custom PCB Layout',
+        'Power Distribution Board (PDB)',
+        'Microcontroller Shielding',
+        'Hardware QA',
+      ],
+      skills: ['KiCad', 'Eagle', 'PCB Design', 'Soldering'],
+      bio: 'Anggota divisi elektronik Abhinaya UNY 2026 yang berfokus pada desain layout PCB shield mikrokontroler, distribusi daya terproteksi, dan isolasi derau sinyal.',
+      quote: 'Precision engineering powers championship performance.',
+      image: '/images/members/2026_elektronik_muhammad_khansa_ganendra_01.jpg',
+      images: [
+        '/images/members/2026_elektronik_muhammad_khansa_ganendra_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_elektronik_muhammad_khansa_ganendra_01.jpg',
+      ],
+      badge: 'Elektronik 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
+      },
+    },
+    {
+      id: 'muhammad-zhefrisma-alferdinan-abiseka',
+      name: 'Muhammad Zhefrisma Alferdinan Abiseka',
+      nickname: 'Zhefris',
+      nim: '24090620051',
+      studyProgram: 'D4 Teknik Elektronika',
+      prodi: 'D4 Teknik Elektronika',
+      faculty: 'Fakultas Vokasi (FV)',
+      division: 'Elektronik' as DivisionType,
+      divisionSlug: 'elektronik' as DivisionSlug,
+      role: 'Elektronik (Motor Driver Management & Sensor Wiring)',
+      subRole: 'Actuator Driving & Sensor Harness Engineer',
+      generation: 'Angkatan 2024',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        'Motor Driver Interfacing',
+        'Sensor Harness Wiring',
+        'Voltage Regulation',
+        'Power MOSFET',
+      ],
+      skills: ['Driver Interfacing', 'Wiring', 'Power Electronics'],
+      bio: 'Spesialis instalasi driver aktuator motor brushless dan stepper, harness wiring sensor presisi, dan proteksi beban arus lebih pada sirkuit robot.',
+      quote: 'Flawless communication, seamless power execution.',
+      image: '/images/members/2026_elektronik_muhammad_zhefrisma_alferdinan_abiseka_01.jpg',
+      images: [
+        '/images/members/2026_elektronik_muhammad_zhefrisma_alferdinan_abiseka_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_elektronik_muhammad_zhefrisma_alferdinan_abiseka_01.jpg',
+      ],
+      badge: 'Elektronik 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
+      },
+    },
+    {
+      id: 'dahan-rifatha-juliano',
+      name: 'Dahan Rifatha Juliano',
+      nickname: 'Dahan',
+      nim: '25090520012',
+      studyProgram: 'D4 Teknik Elektro',
+      prodi: 'D4 Teknik Elektro',
+      faculty: 'Fakultas Vokasi (FV)',
+      division: 'Elektronik' as DivisionType,
+      divisionSlug: 'elektronik' as DivisionSlug,
+      role: 'Elektronik (Battery Management & Telemetry Rails)',
+      subRole: 'Battery Safety & Power Rails Engineer',
+      generation: 'Angkatan 2025',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        'Battery Management System (BMS)',
+        'LiPo Safety & Monitoring',
+        'Telemetry Rails',
+        'Bench Testing',
+      ],
+      skills: ['BMS', 'Power Safety', 'Bench Testing'],
+      bio: 'Fokus pada monitoring performa baterai LiPo tegangan tinggi, manajemen sistem proteksi daya terpusat, dan pengujian keandalan perangkat elektronik laga.',
+      quote: 'Maximum reliability for every millisecond on stage.',
+      image: '/images/members/2026_elektronik_dahan_rifatha_juliano_01.jpg',
+      images: [
+        '/images/members/2026_elektronik_dahan_rifatha_juliano_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_elektronik_dahan_rifatha_juliano_01.jpg',
+      ],
+      badge: 'Elektronik 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
       },
     },
   ],
@@ -1099,16 +1384,18 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Hardware Assembly', 'Tolerance QA', 'CAD', 'Gripper', 'Mounting Systems'],
       bio: 'Mahasiswa Teknik Elektronika yang berfokus pada perakitan mekatronika dan mekanik sasis robot, mounting bracket baterai, toleransi perakitan, dan verifikasi struktur fisik robot.',
       quote: 'Ikan tidak terbang dan burung tidak berenang, kecuali pinguin',
-      image: '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
+      image: '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
       images: [
         '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
         '/images/members/2024_mekanik_rionaldi_nugroho_02.png',
+        '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
         '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
         '/images/members/2024_mekanik_rionaldi_nugroho_01.jpg',
       ],
       photos: [
         '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
         '/images/members/2024_mekanik_rionaldi_nugroho_02.png',
+        '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
         '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
         '/images/members/2024_mekanik_rionaldi_nugroho_01.jpg',
       ],
@@ -1190,11 +1477,13 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['CNC Milling', 'Sheet Metal', 'CAD', 'Chassis Assembly'],
       bio: 'Spesialis dalam pemesinan CNC milling plat duralium, pembentukan sheet metal rangka robot, dan penyelarasan toleransi sudut transmisi mekanik.',
       quote: 'Presisi dalam fabrikasi, tangguh di arena laga.',
-      image: '/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
+      image: '/images/members/2026_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
       images: [
+        '/images/members/2026_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
         '/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
       ],
       photos: [
+        '/images/members/2026_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
         '/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg',
       ],
       badge: 'Mekanik Manufaktur',
@@ -1213,7 +1502,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       faculty: 'Fakultas Teknik (FT)',
       division: 'Mekanik' as DivisionType,
       divisionSlug: 'mekanik' as DivisionSlug,
-      role: 'Mekanik (Precision Lathe & Gripper Linkage Fabrication)',
+      role: 'Mekanik (Koordinator Divisi Mekanik 2026 / Precision Machining & Gripper Lead)',
       subRole: 'Lathe Turning & Mechanism Fitment Engineer',
       generation: 'Angkatan 2023',
       generationYear: 2025,
@@ -1228,14 +1517,16 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Lathe Turning', 'Gripper Linkage', 'CAD', 'Mechanical Fitment'],
       bio: 'Berfokus pada pemesinan bubut presisi poros roda, pembuatan bushing & linkage mekanisme capit (gripper), dan perakitan mekanisme gerak otonom.',
       quote: 'Tiap milimeter ketepatan adalah kunci kemenangan.',
-      image: '/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg',
+      image: '/images/members/2026_mekanik_andika_nanda_wijaya_01.jpg',
       images: [
+        '/images/members/2026_mekanik_andika_nanda_wijaya_01.jpg',
         '/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg',
       ],
       photos: [
+        '/images/members/2026_mekanik_andika_nanda_wijaya_01.jpg',
         '/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg',
       ],
-      badge: 'Mekanik Fabrikasi',
+      badge: 'Koor Mekanik 2026',
       isActive: true,
       socials: {
         instagram: 'https://instagram.com/abhinaya.uny',
@@ -1266,17 +1557,56 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['SolidWorks', '3D Print', 'CAD', 'Kinematics Prototyping', 'Gripper'],
       bio: 'Mengembangkan pemodelan CAD 3D SolidWorks komponen mekanik, simulasi kinematika lengan pengambil sampah, dan 3D printing prototipe cepat.',
       quote: 'Imaginasi diwujudkan dalam geometri mekanika.',
-      image: '/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg',
+      image: '/images/members/2026_mekanik_kharisma_putra_mahardika_01.jpg',
       images: [
+        '/images/members/2026_mekanik_kharisma_putra_mahardika_01.jpg',
         '/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg',
       ],
       photos: [
+        '/images/members/2026_mekanik_kharisma_putra_mahardika_01.jpg',
         '/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg',
       ],
       badge: 'CAD & 3D Prototyping',
       isActive: true,
       socials: {
         instagram: 'https://instagram.com/kryz_project',
+      },
+    },
+    {
+      id: 'berni-hercules',
+      name: 'Berni Hercules',
+      nickname: 'Berni',
+      nim: '25051230011',
+      studyProgram: 'S1 Teknik Manufaktur',
+      prodi: 'S1 Teknik Manufaktur',
+      faculty: 'Fakultas Teknik (FT)',
+      division: 'Mekanik' as DivisionType,
+      divisionSlug: 'mekanik' as DivisionSlug,
+      role: 'Mekanik (Custom 3D Printing & Structural Components)',
+      subRole: 'Additive Manufacturing & Rapid Prototyping Engineer',
+      generation: 'Angkatan 2025',
+      generationYear: 2026,
+      yearsActive: [2026],
+      specialization: [
+        '3D CAD Modeling',
+        'Additive Manufacturing (3D Print)',
+        'Structural Fitment',
+        'Material Prototyping',
+      ],
+      skills: ['3D Printing', 'CAD Modeling', 'Rapid Prototyping', 'Manufacturing'],
+      bio: 'Mahasiswa Teknik Manufaktur UNY yang merancang dan mencetak komponen 3D kustom presisi tinggi agar pas sempurna pada struktur mekatronika robot Abhinaya.',
+      quote: 'Custom design and 3D precision to fit the robot perfectly.',
+      image: '/images/members/2026_mekanik_berni_hercules_01.jpg',
+      images: [
+        '/images/members/2026_mekanik_berni_hercules_01.jpg',
+      ],
+      photos: [
+        '/images/members/2026_mekanik_berni_hercules_01.jpg',
+      ],
+      badge: 'Mekanik 2026',
+      isActive: true,
+      socials: {
+        instagram: 'https://instagram.com/abhinaya.uny',
       },
     },
     {
@@ -1853,7 +2183,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
   // GENERATION 2025
   {
     year: 2025,
-    contingentName: 'Kontingen Abhinaya UNY 2025 (Active Generation)',
+    contingentName: 'Kontingen Abhinaya UNY 2025 (Class of 2025 - Legacy Remains)',
     theme: 'Next-Generation High-Speed Autonomous AI Vision Robotics',
     tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2025',
     rules: 'Navigasi otonom kecepatan tinggi, deteksi objek multimodal AI YOLOv11, aktuasi capit pintar, dan telemetri wireless terintegrasi.',
@@ -1874,7 +2204,52 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
       'Pengembangan full-stack robotics portal web dan telemetri nirkabel terenkripsi',
       'Struktur sasis aluminium duralium presisi tinggi dengan toleransi < 0.05 mm',
     ],
-    groupPhoto: '/images/members/2024_program_farhan_yuda_mahendra_01.png',
+    groupPhoto: '/images/members/2025_leader_farhan_yuda_mahendra_01.jpg',
+  },
+
+  // GENERATION 2026
+  {
+    year: 2026,
+    contingentName: 'Kontingen Abhinaya UNY 2026 (Active Generation)',
+    theme: 'Intelligent Autonomous Manipulation & AI Vision Robotics',
+    tournament: 'Kontes Robot Tematik Indonesia (KRTMI) 2026',
+    rules: 'Navigasi otonom kecepatan tinggi, deteksi objek multimodal AI, aktuasi capit 3D kustom, dan telemetri wireless terintegrasi.',
+    leader: LEADERS_HALL_OF_FAME[6], // Rionaldi Nugroho
+    managers: [MANAGERS_SHOWCASE[3], MANAGERS_SHOWCASE[4]], // Zelfa & Sheiraya
+    divisions: {
+      program: [
+        ACTIVE_TECHNICAL_SQUAD.program[3], // Hisyam Yasid Pratowo (Koor)
+        ACTIVE_TECHNICAL_SQUAD.program[0], // Tri Wahyu Handoyo
+        ACTIVE_TECHNICAL_SQUAD.program[2], // Hanif Nur Khalis
+        ACTIVE_TECHNICAL_SQUAD.program[4], // Putraku Ruliff Abbas
+        ACTIVE_TECHNICAL_SQUAD.program[5], // Febri Bayu Nurcahyo
+      ],
+      elektronik: [
+        ACTIVE_TECHNICAL_SQUAD.elektronik[3], // Aryasetya Maulana Swasdika (Koor)
+        ACTIVE_TECHNICAL_SQUAD.elektronik[4], // Naufal Farros Zainal Arifin
+        ACTIVE_TECHNICAL_SQUAD.elektronik[5], // Muhammad Khansa Ganendra
+        ACTIVE_TECHNICAL_SQUAD.elektronik[6], // Muhammad Zhefrisma Alferdinan Abiseka
+        ACTIVE_TECHNICAL_SQUAD.elektronik[7], // Dahan Rifatha Juliano
+      ],
+      mekanik: [
+        ACTIVE_TECHNICAL_SQUAD.mekanik[3], // Andika Nanda Wijaya (Koor)
+        ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani
+        ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho
+        ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika
+        ACTIVE_TECHNICAL_SQUAD.mekanik[6], // Berni Hercules
+      ],
+      pembimbing: DOSEN_PEMBIMBING_LIST,
+    },
+    members: [],
+    achievements: [
+      'Kontingen Resmi Abhinaya UNY KRI 2026',
+      'Ekspedisi Technocorner UGM & Unlimited Undip 2026',
+    ],
+    highlights: [
+      'Fabrikasi komponen mekanik kustom 3D printing presisi tinggi',
+      'Arsitektur kendali otonom cerdas Code Crafters & power distribution tangguh',
+    ],
+    groupPhoto: '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
   },
 ];
 
@@ -1899,31 +2274,33 @@ ALUMNI_GENERATIONS.forEach((gen) => {
 });
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  // 1. KETUA TIM (2025)
-  LEADERS_HALL_OF_FAME[5], // Farhan Yuda Mahendra (Ketua Tim 2025)
+  // 1. KETUA TIM (2026)
+  LEADERS_HALL_OF_FAME[6], // Rionaldi Nugroho (Ketua Tim 2026)
 
-  // 2. MANAGERS (2025)
-  MANAGERS_SHOWCASE[2], // Rose Pita Nur Afifah (Manager Media & Branding 2025)
-  MANAGERS_SHOWCASE[3], // Zelfa Nafisah Zalna (Manager Keuangan & Administrasi 2025)
+  // 2. MANAGERS (2026)
+  MANAGERS_SHOWCASE[3], // Zelfa Nafisah Zalna (Koordinator Manager 2026)
+  MANAGERS_SHOWCASE[4], // Sheiraya Senja Shofa (Manager Operasional 2026)
 
-  // 3. DIVISI PROGRAM (AKTIF 2025)
+  // 3. DIVISI PROGRAM (AKTIF 2026)
+  ACTIVE_TECHNICAL_SQUAD.program[3], // Hisyam Yasid Pratowo (Koor Program)
   ACTIVE_TECHNICAL_SQUAD.program[0], // Tri Wahyu Handoyo (Lead AI & Systems)
-  ACTIVE_TECHNICAL_SQUAD.program[1], // Farhan Yuda Mahendra (Kinematics & Microcontroller Control)
-  ACTIVE_TECHNICAL_SQUAD.program[2], // Hanif NurKhalis (Sensor Integration & Serial Interfacing)
-  ACTIVE_TECHNICAL_SQUAD.program[3], // Hisyam Yasid Pratowo (Vision Pipeline & Linux Optimization)
+  ACTIVE_TECHNICAL_SQUAD.program[2], // Hanif Nur Khalis (Sensor Integration & Serial)
+  ACTIVE_TECHNICAL_SQUAD.program[4], // Putraku Ruliff Abbas (AI Perception & Control)
+  ACTIVE_TECHNICAL_SQUAD.program[5], // Febri Bayu Nurcahyo (Firmware & State Logic)
 
-  // 4. DIVISI ELEKTRONIK (AKTIF 2025)
-  ACTIVE_TECHNICAL_SQUAD.elektronik[0], // Ikhsan Nurrohman (Lead Elektronik / Telemetri & Wireless)
-  ACTIVE_TECHNICAL_SQUAD.elektronik[1], // Abdul Hasib Adzdzin Nuha (PCB Design & Sensor Wiring)
-  ACTIVE_TECHNICAL_SQUAD.elektronik[3], // Aryasetya Maulana Swasdika (Hardware & Power Systems)
-  ACTIVE_TECHNICAL_SQUAD.elektronik[4], // Naufal Farros Zainal Arifin (Signal Conditioning & Safety Rails)
+  // 4. DIVISI ELEKTRONIK (AKTIF 2026)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[3], // Aryasetya Maulana Swasdika (Koor Elektronik)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[4], // Naufal Farros Zainal Arifin (Signal Conditioning)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[5], // Muhammad Khansa Ganendra (PDB Design & Shielding)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[6], // Muhammad Zhefrisma Alferdinan Abiseka (Driver Management)
+  ACTIVE_TECHNICAL_SQUAD.elektronik[7], // Dahan Rifatha Juliano (Battery & Telemetry Rails)
 
-  // 5. DIVISI MEKANIK (AKTIF 2025)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho (Lead Mekanik / Hardware Assembly & QA)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[1], // Caesar Sokma Langgeng (CAD & Laser Fabrication Engineer)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani (CNC Milling & Sheet Metal Fabrication)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[3], // Andika Nanda Wijaya (Precision Lathe & Gripper Linkage Fabrication)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika (Chassis Assembly & Structural QA Engineer)
+  // 5. DIVISI MEKANIK (AKTIF 2026)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[3], // Andika Nanda Wijaya (Koor Mekanik)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani (CNC Machining & Metal Fabrication)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho (Hardware Assembly & Mechanism)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika (Gripper Linkages & CAD)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[6], // Berni Hercules (Custom 3D Printing & Structure)
 ];
 
 export const ALL_ROSTER_MEMBERS: TeamMember[] = [...DOSEN_PEMBIMBING_LIST, ...TEAM_MEMBERS];
