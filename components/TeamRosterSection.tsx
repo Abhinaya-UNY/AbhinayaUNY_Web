@@ -96,9 +96,11 @@ export const MemberPhotoFadeShowcase: React.FC<{
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  // Auto-advance slideshow every 3.6s-4.5s if multiple images exist
+  // Auto-advance slideshow only for multi-photo cards that are not already active animated WebPs
   useEffect(() => {
     if (images.length <= 1) return;
+    // If primary image is an animated WebP loop, preserve continuous motion without unexpected auto-flipping
+    if (images[0]?.endsWith('.webp') && !isModal) return;
 
     const seed = member.id ? member.id.charCodeAt(0) % 5 : 0;
     const intervalTime = isModal ? 4500 : 3600 + seed * 200;
@@ -108,7 +110,7 @@ export const MemberPhotoFadeShowcase: React.FC<{
     }, intervalTime);
 
     return () => clearInterval(timer);
-  }, [images.length, isModal, member.id]);
+  }, [images, isModal, member.id]);
 
   const hasCustomPhoto =
     images.length > 0 &&
@@ -524,24 +526,22 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           <div className="w-full h-full flex flex-col justify-between p-2.5 sm:p-3 pb-4 sm:pb-5">
             {/* 1. Dedicated Top Meta Bar (Badges, Era, Division) - Zero Overlays over Faces */}
             {/* Floating Top Division Pill */}
-            <div className="px-3 py-2 bg-[#18181B] border-b border-white/[0.06] rounded-t-xl flex items-center justify-between mb-2">
+            <div className="px-3 py-2.5 bg-[#18181B] border-b border-white/[0.06] rounded-t-xl flex items-center justify-between mb-2 min-h-[42px]">
               <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-md border border-white/10 text-[10px] font-mono tracking-wider text-white">
                 {isLeader ? (
-                  <Crown className="w-3 h-3 text-amber-400" />
+                  <Crown className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
                 ) : isManager ? (
-                  <Briefcase className="w-3 h-3 text-orange-400" />
+                  <Briefcase className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
                 ) : (
-                  getDivisionIcon(member.division, 'w-3 h-3')
+                  getDivisionIcon(member.division, 'w-3.5 h-3.5 flex-shrink-0')
                 )}
-                <DecryptedText
-                  text={member.division}
-                  animateOn="hover"
-                  className="font-medium uppercase"
-                />
+                <span className="font-semibold uppercase tracking-wider text-white leading-normal">
+                  {member.division}
+                </span>
               </div>
 
               {member.generationYear && (
-                <div className="px-2 py-0.5 rounded-md bg-black/75 backdrop-blur-md border border-white/10 text-amber-300 text-[10px] font-mono">
+                <div className="px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-md border border-white/10 text-amber-300 text-[10px] font-mono font-medium leading-normal">
                   <span>Era {member.generationYear}</span>
                 </div>
               )}
@@ -888,7 +888,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       </div>
 
                       {/* Responsive Multi-Device CSS Grid Layout: Mobile (1 col), Tablet (2 cols), Desktop (3 cols), Wide (4 cols) */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      <div className={membersInDiv.length === 1 ? "max-w-sm sm:max-w-md" : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"}>
                         {membersInDiv.map((member) => renderMemberCard(member, undefined, 'grid'))}
                       </div>
                     </div>
@@ -963,7 +963,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                       </div>
 
                       {/* Responsive Multi-Device CSS Grid Layout: Mobile (1 col), Tablet (2 cols), Desktop (3 cols), Wide (4 cols) */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      <div className={ALL_ROSTER_MEMBERS.filter((m) => m.division === selectedDivision).length === 1 ? "max-w-sm sm:max-w-md" : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"}>
                         {ALL_ROSTER_MEMBERS.filter((m) => m.division === selectedDivision).map((member) =>
                           renderMemberCard(member, undefined, 'grid')
                         )}

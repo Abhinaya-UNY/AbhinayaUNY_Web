@@ -504,18 +504,10 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     images: [
       '/images/members/2026_leader_rionaldi_nugroho_01.webp',
       '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
-      '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
-      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
-        '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
-      '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
     ],
     photos: [
       '/images/members/2026_leader_rionaldi_nugroho_01.webp',
       '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
-      '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
-      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
-        '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
-      '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
     ],
     badge: 'Ketua Tim 2026',
     leadershipEra: 'Ketua Tim 2026',
