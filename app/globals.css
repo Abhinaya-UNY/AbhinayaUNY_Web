@@ -54,18 +54,31 @@ body {
   color: #FB923C !important;
 }
 
-/* Scroll Reveal Animation Styles (GPU-accelerated, buttery-smooth fade & slide) */
+/* Scroll Reveal Animation Styles (GPU-accelerated, buttery-smooth bidirectional fade & slide) */
 .reveal-on-scroll {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(32px) scale(0.985);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
 .reveal-on-scroll.is-revealed {
   opacity: 1 !important;
-  transform: translateY(0) !important;
+  transform: translateY(0) scale(1) !important;
+}
+
+/* Interactive Card Hover & Motion Styles */
+.hover-card-elevate {
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+              box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+              border-color 0.35s ease;
+}
+
+.hover-card-elevate:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 16px 36px -12px rgba(255, 107, 0, 0.15),
+              0 0 20px -4px rgba(255, 107, 0, 0.08);
 }
 
 /* Reduced motion guarantee: never hide elements if animations are reduced */

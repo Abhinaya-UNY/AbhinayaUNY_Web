@@ -33,6 +33,7 @@ import {
   BookOpen,
   LayoutGrid,
   Columns,
+  Film,
 } from 'lucide-react';
 import {
   FaGithub,
@@ -177,7 +178,13 @@ export const MemberPhotoFadeShowcase: React.FC<{
         );
       })}
 
-      {/* 0% Dark Gradient Haze - Clean, Unobstructed Natural Headshot Viewport */}
+      {/* Dynamic Animated Motion Badge for 2026 Live Video / Animated WebP */}
+      {(images[currentIdx]?.endsWith('.webp') || ('videoUrl' in member && member.videoUrl)) && (
+        <div className="absolute top-2.5 right-2.5 z-20 flex items-center space-x-1.5 px-2 py-0.5 rounded-full bg-black/85 border border-brand-orange/60 text-amber-300 text-[9px] font-mono tracking-wider font-bold shadow-lg backdrop-blur-md pointer-events-none">
+          <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-ping" />
+          <span>MOTION</span>
+        </div>
+      )}
 
       {/* Multiple Photos Slide Counter & Nav Arrows if > 1 photo */}
       {images.length > 1 && (
@@ -1456,9 +1463,23 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                 <span>Data Terverifikasi UKM Rekayasa Teknologi Universitas Negeri Yogyakarta</span>
               </div>
 
-              {selectedMember.socials && (
-                <div className="flex items-center space-x-2">
-                  {selectedMember.socials.github && (
+              {/* Video Clip Link & Socials */}
+              <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2">
+                {'videoUrl' in selectedMember && selectedMember.videoUrl && (
+                  <a
+                    href={`${basePath}${selectedMember.videoUrl}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-2.5 py-1.5 rounded-xl bg-brand-orange/15 hover:bg-brand-orange/25 text-brand-orange text-xs font-mono font-semibold flex items-center space-x-1.5 transition border border-brand-orange/40 shadow-sm"
+                    title="Buka Klip Video Asli"
+                  >
+                    <Film className="w-3.5 h-3.5" />
+                    <span>Video Clip</span>
+                  </a>
+                )}
+                {selectedMember.socials && (
+                  <div className="flex items-center space-x-2">
+                    {selectedMember.socials.github && (
                     <a
                       href={selectedMember.socials.github}
                       target="_blank"
@@ -1535,6 +1556,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
                   )}
                 </div>
               )}
+              </div>
             </div>
           </div>
         </div>

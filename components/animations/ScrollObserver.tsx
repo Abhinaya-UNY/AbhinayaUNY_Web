@@ -24,52 +24,57 @@ export const ScrollObserver: React.FC = () => {
       return;
     }
 
-    // High-performance native IntersectionObserver
+    // High-performance bidirectional native IntersectionObserver
+    // Elements fade in when entering viewport and gracefully fade out when scrolled below viewport
     const observer = new IntersectionObserver(
-      (entries, obs) => {
+      (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('is-revealed');
-            obs.unobserve(entry.target);
+          } else {
+            const rect = entry.boundingClientRect;
+            // If element is below the viewport, re-prime it so it fades in again when scrolled down
+            if (rect.top > window.innerHeight) {
+              entry.target.classList.remove('is-revealed');
+            }
           }
         });
       },
       {
         root: null,
-        rootMargin: '120px 0px 0px 0px',
-        threshold: 0.02,
+        rootMargin: '0px 0px -30px 0px',
+        threshold: 0.05,
       }
     );
 
-    const checkAndObserve = () => {
-      const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll:not(.is-revealed)');
+    const observeElements = () => {
+      const elements = document.querySelectorAll<HTMLElement>('.reveal-on-scroll');
       elements.forEach((el) => {
         const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight + 100 && rect.bottom > -50) {
+        if (rect.top < window.innerHeight - 30 && rect.bottom > 0) {
           el.classList.add('is-revealed');
-        } else {
-          observer.observe(el);
         }
+        observer.observe(el);
       });
     };
 
-    checkAndObserve();
+    observeElements();
 
-    // Check again when preloader dismisses so sections below Hero reveal immediately
+    // Check again when preloader dismisses so sections below Hero reveal smoothly
     const handleDismiss = () => {
-      setTimeout(checkAndObserve, 50);
+      setTimeout(observeElements, 60);
     };
     window.addEventListener('abhinaya:preloader-dismiss', handleDismiss);
 
-    // Global fail-safe timeout: after 1.5s, reveal all remaining elements unconditionally
-    // to guarantee no section on the website ever remains invisible or black
-    const safetyTimer = setTimeout(() => {
-      revealAll();
-    }, 1500);
+    // Watch for dynamically loaded content/tabs
+    const mutationObserver = new MutationObserver(() => {
+      observeElements();
+    });
+    mutationObserver.observe(document.body, { childList: true, subtree: true });
 
     return () => {
       window.removeEventListener('abhinaya:preloader-dismiss', handleDismiss);
-      clearTimeout(safetyTimer);
+      mutationObserver.disconnect();
       observer.disconnect();
     };
   }, []);
