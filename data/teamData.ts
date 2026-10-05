@@ -484,38 +484,45 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     faculty: 'Fakultas Vokasi (FV)',
     division: 'Ketua Tim',
     divisionSlug: 'leader',
-    role: 'Ketua Tim (Team Leader 2026)',
+    role: 'Ketua Tim 2026 & Mekanik (Team Leader & Hardware Assembly)',
     subRole: 'Team Leadership, Mechatronics Integration & Mechanism Engineering',
     generation: 'Angkatan 2023',
     generationYear: 2026,
     yearsActive: [2024, 2025, 2026],
     specialization: [
       'Team Leadership & Strategy',
-      'Mechatronics Integration',
+      'Mechatronics Hardware Assembly',
+      'Chassis Fitment & Tolerance QA',
       'Rapid Prototyping & CAD',
-      'Precision Machining & Tolerance QA',
+      'Precision Machining & Quality Assurance',
     ],
-    skills: ['Team Leadership', 'Mechatronics', 'CAD', 'Assembly', 'QA'],
-    bio: 'Ketua Tim Abhinaya UNY periode 2026. Memimpin kontingen robotika otonom nasional menuju kemenangan di ajang KRTMI dan kompetisi robotika bergengsi 2026.',
+    skills: ['Team Leadership', 'Mechatronics', 'CAD', 'Hardware Assembly', 'Tolerance QA'],
+    bio: 'Ketua Tim Abhinaya UNY periode 2026 sekaligus anggota Divisi Mekanik. Memimpin kontingen robotika otonom nasional menuju kemenangan di ajang KRTMI 2026 serta aktif dalam perakitan mekatronika sasis dan verifikasi struktur fisik robot.',
     quote: 'Get the trophy with passion, precision, and unwavering dedication.',
     image: '/images/members/2026_leader_rionaldi_nugroho_01.webp',
     animationUrl: '/images/members/2026_leader_rionaldi_nugroho_01.webp',
     videoUrl: '/images/members/2026_leader_rionaldi_nugroho_01.mp4',
     images: [
       '/images/members/2026_leader_rionaldi_nugroho_01.webp',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
       '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+      '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
     ],
     photos: [
       '/images/members/2026_leader_rionaldi_nugroho_01.webp',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
       '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
+      '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+      '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
     ],
-    badge: 'Ketua Tim 2026',
+    badge: 'Ketua Tim & Mekanik',
     leadershipEra: 'Ketua Tim 2026',
-    achievements: ['Ketua Tim Abhinaya UNY 2026', 'Ekspedisi Unlimited Undip & Technocorner 2026'],
+    achievements: ['Ketua Tim Abhinaya UNY 2026', 'Divisi Mekanik KRTMI 2026', 'Ekspedisi Unlimited Undip & Technocorner 2026'],
     isLeader: true,
     isActive: true,
     socials: {
-      instagram: 'https://instagram.com/abhinaya.uny',
+      instagram: 'https://instagram.com/rionaldi.nu',
     },
   },
 ];
@@ -1417,9 +1424,10 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       role: 'Mekanik (Hardware Assembly & Mechanical QA)',
       subRole: 'Mechanical Assembly & QA Specialist',
       generation: 'Angkatan 2023',
-      generationYear: 2025,
-      yearsActive: [2024, 2025],
+      generationYear: 2026,
+      yearsActive: [2024, 2025, 2026],
       specialization: [
+        'Team Leadership & Strategy',
         'Mekatronika Hardware Assembly',
         'Chassis Fitment & Tolerance QA',
         'LiFePO4 Power Station Mounting',
@@ -1428,29 +1436,28 @@ export const ACTIVE_TECHNICAL_SQUAD = {
         'Gripper',
       ],
       skills: ['Hardware Assembly', 'Tolerance QA', 'CAD', 'Gripper', 'Mounting Systems'],
-      bio: 'Mahasiswa Teknik Elektronika yang berfokus pada perakitan mekatronika dan mekanik sasis robot, mounting bracket baterai, toleransi perakitan, dan verifikasi struktur fisik robot.',
-      quote: 'Ikan tidak terbang dan burung tidak berenang, kecuali pinguin',
+      bio: 'Ketua Tim Abhinaya UNY 2026 sekaligus anggota Divisi Mekanik yang berfokus pada perakitan mekatronika dan mekanik sasis robot, mounting bracket baterai, toleransi perakitan, dan verifikasi struktur fisik robot.',
+      quote: 'Get the trophy with passion, precision, and unwavering dedication.',
       image: '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
       animationUrl: '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
       videoUrl: '/images/members/2026_mekanik_rionaldi_nugroho_01.mp4',
       images: [
-        '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
-        '/images/members/2024_mekanik_rionaldi_nugroho_02.png',
+        '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
+        '/images/members/2026_leader_rionaldi_nugroho_01.webp',
         '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+        '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
         '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
-        '/images/members/2024_mekanik_rionaldi_nugroho_01.jpg',
       ],
       photos: [
-        '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
-        '/images/members/2024_mekanik_rionaldi_nugroho_02.png',
+        '/images/members/2026_mekanik_rionaldi_nugroho_01.webp',
+        '/images/members/2026_leader_rionaldi_nugroho_01.webp',
         '/images/members/2026_mekanik_rionaldi_nugroho_01.jpg',
+        '/images/members/2026_leader_rionaldi_nugroho_01.jpg',
         '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
-        '/images/members/2024_mekanik_rionaldi_nugroho_01.jpg',
       ],
-      badge: 'Mekanik QA',
+      badge: 'Ketua Tim & Mekanik',
       isActive: true,
       socials: {
-        linkedin: 'https://linkedin.com',
         instagram: 'https://instagram.com/rionaldi.nu',
       },
     },
@@ -2300,7 +2307,7 @@ export const ALUMNI_GENERATIONS: GenerationArchive[] = [
         ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani
         ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho
         ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika
-        ACTIVE_TECHNICAL_SQUAD.mekanik[6], // Berni Hercules
+        ACTIVE_TECHNICAL_SQUAD.mekanik[5], // Berni Hercules
       ],
       pembimbing: DOSEN_PEMBIMBING_LIST,
     },
@@ -2364,10 +2371,10 @@ export const TEAM_MEMBERS: TeamMember[] = [
   ACTIVE_TECHNICAL_SQUAD.mekanik[2], // Adhiyatma Fatya Ramadhani (CNC Machining & Metal Fabrication)
   ACTIVE_TECHNICAL_SQUAD.mekanik[0], // Rionaldi Nugroho (Hardware Assembly & Mechanism)
   ACTIVE_TECHNICAL_SQUAD.mekanik[4], // Kharisma Putra Mahardika (Gripper Linkages & CAD)
-  ACTIVE_TECHNICAL_SQUAD.mekanik[6], // Berni Hercules (Custom 3D Printing & Structure)
+  ACTIVE_TECHNICAL_SQUAD.mekanik[5], // Berni Hercules (Custom 3D Printing & Structure)
 ];
 
-export const ALL_ROSTER_MEMBERS: TeamMember[] = [...DOSEN_PEMBIMBING_LIST, ...TEAM_MEMBERS];
+export const ALL_ROSTER_MEMBERS: TeamMember[] = [DOSEN_PEMBIMBING_LIST[0], ...TEAM_MEMBERS];
 
 export const DIVISION_CATEGORIES = [
   { id: 'All', label: 'Semua Divisi', icon: 'Users', count: ALL_ROSTER_MEMBERS.length },

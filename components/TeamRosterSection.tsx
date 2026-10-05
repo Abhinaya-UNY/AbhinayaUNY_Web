@@ -682,7 +682,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           >
             <Crown className="w-3.5 h-3.5 text-amber-400" />
             <span>Ketua Tim (Dari Masa ke Masa)</span>
-            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">6</span>
+            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">{LEADERS_HALL_OF_FAME.length}</span>
           </button>
 
           <button
@@ -695,7 +695,7 @@ export const TeamRosterSection: React.FC<TeamRosterSectionProps> = ({
           >
             <Briefcase className="w-3.5 h-3.5 text-orange-400" />
             <span>Manajer Tim (Dari Masa ke Masa)</span>
-            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">4</span>
+            <span className="px-1.5 py-0.2 rounded bg-white/10 text-[10px] font-mono font-bold">{MANAGERS_SHOWCASE.length}</span>
           </button>
 
           <button
