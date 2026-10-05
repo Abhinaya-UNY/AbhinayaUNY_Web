@@ -734,6 +734,88 @@ export const INSTAGRAM_FEED_ITEMS: InstagramFeedItem[] = [
 		"coverImage": "/images/instagram_feed/2025-09-27_20-38-49_UTC_DPHpB7eE-bY.jpg",
 		"instagramUrl": "https://www.instagram.com/p/DPHpB7eE-bY/",
 		"timestamp": "2025-09-27-20-38-49 DPHpB7eE-bY"
+	},
+	{
+		"id": "ig-post-2025-09-29_00-17-22_UTC_DdzGA90Ej2d",
+		"title": "Meet The Leader & Manager Squad: Abhinaya UNY 2025",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2025",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
+		"caption": "Memperkenalkan pilar kepemimpinan dan manajemen Tim Robotika Abhinaya UNY periode 2025. Bersama Ketua Tim Farhan Yuda Mahendra serta jajaran manajerial Rose Pita Nur Afifah & Zelfa Nafisah Zalna siap mengawal kontingen menuju podium tertinggi!\n\n#AbhinayaUNY #KRTMI2025 #Leader #Manager",
+		"images": [
+			"/images/members/2025_leader_farhan_yuda_mahendra_01.jpg",
+			"/images/members/2025_manager_rose_pita_nur_afifah_01.jpg",
+			"/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg"
+		],
+		"coverImage": "/images/members/2025_leader_farhan_yuda_mahendra_01.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DdzGA90Ej2d/",
+		"timestamp": "2025-09-29-00-17-22 DdzGA90Ej2d"
+	},
+	{
+		"id": "ig-post-2025-09-30_05-22-14_UTC_DdwJOGDjwnM",
+		"title": "Meet The Program Squad: AI Vision & Autonomous Navigation 2025",
+		"category": "Riset Robot Otonom",
+		"year": "2025",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
+		"caption": "Divisi Pemrograman Abhinaya UNY 2025 berfokus pada arsitektur AI deteksi objek real-time YOLOv11, navigasi otonom omnidirectional mecanum, state-machine terintegrasi, dan optimasi komputasi edge.\n\n#AbhinayaUNY #Programmer #YOLO #AutonomousRobot",
+		"images": [
+			"/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+			"/images/members/2025_program_farhan_yuda_mahendra_01.jpg",
+			"/images/members/2025_program_hanif_nurkhalis_01.jpg",
+			"/images/members/2025_program_hisyam_yasid_pratowo_01.jpg"
+		],
+		"coverImage": "/images/members/2025_program_tri_wahyu_handoyo_01.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DdwJOGDjwnM/",
+		"timestamp": "2025-09-30-05-22-14 DdwJOGDjwnM"
+	},
+	{
+		"id": "ig-post-2025-09-30_05-21-57_UTC_Dd1Kw34vQWu",
+		"title": "Meet The Electronics Squad: Power Distribution & Wireless Telemetry 2025",
+		"category": "Riset Robot Otonom",
+		"year": "2025",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
+		"caption": "Divisi Elektronik Abhinaya UNY 2025 bertanggung jawab atas perancangan custom PCB shield, manajemen distribusi daya multi-rail, telemetri nirkabel ESP32, dan pengkondisian sinyal sensor presisi.\n\n#AbhinayaUNY #Electronics #PCBDesign #HardwareEngineering",
+		"images": [
+			"/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+			"/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg",
+			"/images/members/2025_elektronik_aryasetya_maulana_swasdika_01.jpg",
+			"/images/members/2025_elektronik_naufal_farros_zainal_arifin_01.jpg"
+		],
+		"coverImage": "/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg",
+		"instagramUrl": "https://www.instagram.com/p/Dd1Kw34vQWu/",
+		"timestamp": "2025-09-30-05-21-57 Dd1Kw34vQWu"
+	},
+	{
+		"id": "ig-post-2025-09-30_05-28-58_UTC_DdxwjQ4kc46",
+		"title": "Meet The Mechanics Squad: Precision Machining & Dynamic Gripper 2025",
+		"category": "Riset Robot Otonom",
+		"year": "2025",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
+		"caption": "Divisi Mekanik Abhinaya UNY 2025 mengedepankan fabrikasi laser cutting presisi tinggi, perakitan sasis mekatronika kokoh, perancangan mekanisme capit (gripper), dan uji toleransi mekanikal sirkuit.\n\n#AbhinayaUNY #Mechanics #CADDesign #RoboticsStructure",
+		"images": [
+			"/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+			"/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg",
+			"/images/members/2025_mekanik_andika_nanda_wijaya_01.jpg",
+			"/images/members/2025_mekanik_adhiyatma_fatya_ramadhani_01.jpg",
+			"/images/members/2025_mekanik_kharisma_putra_mahardika_01.jpg"
+		],
+		"coverImage": "/images/members/2025_mekanik_rionaldi_nugroho_01.jpg",
+		"instagramUrl": "https://www.instagram.com/p/DdxwjQ4kc46/",
+		"timestamp": "2025-09-30-05-28-58 DdxwjQ4kc46"
+	},
+	{
+		"id": "ig-post-2025-10-02_21-07-33_UTC_Dd_bmkYhP91",
+		"title": "Chief Advisor & Robotics Research Director: Prof. Ir. Moh. Khairudin",
+		"category": "Team Spirit & Kebersamaan",
+		"year": "2025",
+		"event": "Kontes Robot Tematik Indonesia (KRTMI 2025)",
+		"caption": "Dosen Pembimbing Utama Tim Robotika Abhinaya UNY, Prof. Ir. Moh. Khairudin, M.T., Ph.D., IPU., terus memberikan arahan strategis, integritas riset, dan motivasi juara dalam pengembangan teknologi robotika otonom nasional.\n\n#AbhinayaUNY #Advisor #GuruBesarRobotika #KRTMI",
+		"images": [
+			"/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg"
+		],
+		"coverImage": "/images/members/2025_pembimbing_prof_moh_khairudin_01.jpg",
+		"instagramUrl": "https://www.instagram.com/p/Dd_bmkYhP91/",
+		"timestamp": "2025-10-02-21-07-33 Dd_bmkYhP91"
 	}
 ];
 

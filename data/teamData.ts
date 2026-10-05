@@ -440,7 +440,7 @@ export const LEADERS_HALL_OF_FAME: LeaderHistoryItem[] = [
     skills: ['Kinematics', 'STM32', 'CAD', 'Mecanum', 'YOLO', 'Team Leadership'],
     bio: 'Ketua Tim Abhinaya UNY periode 2025. Mengarahkan riset integrasi AI Computer Vision YOLOv11, aktuasi presisi mekatronika, dan persiapan kontingen menghadapi Kontes Robot Indonesia 2025.',
     quote: 'Pejuang hibernasi, pantang menyerah sebelum juara.',
-    image: '/images/members/2024_program_farhan_yuda_mahendra_01.png',
+    image: '/images/members/2025_leader_farhan_yuda_mahendra_01.jpg',
     images: [
       '/images/members/2024_program_farhan_yuda_mahendra_01.png',
       '/images/members/2024_program_farhan_yuda_mahendra_02.png',
@@ -594,7 +594,7 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
     skills: ['Social Media', 'Visual Branding', 'Photography', 'Administrasi', 'Mekatronika'],
     bio: 'Koordinator Manager Abhinaya UNY periode 2024–2025. Mengarahkan branding digital media sosial resmi (@abhinaya.uny), publikasi visual laga KRI, dan koordinasi operasional kontingen aktif.',
     quote: 'Life is a stage, and we shape our best story.',
-    image: '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
+    image: '/images/members/2025_manager_rose_pita_nur_afifah_01.jpg',
     images: [
       '/images/members/2024_manager_rose_pita_nur_afifah_01.png',
       '/images/members/2024_manager_rose_pita_nur_afifah_02.png',
@@ -695,7 +695,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['YOLO', 'Python', 'OpenCV', 'Mecanum', 'STM32', 'Next.js', 'Autonomous Navigation', 'Computer Vision'],
       bio: 'Memimpin riset algoritma deteksi objek sampah berbasis deep learning / YOLO, pemetaan lintasan otonom roda mecanum, komputasi edge pada Mini PC, dan perancangan portal web resmi Abhinaya UNY.',
       quote: 'Anti turu, standby setiap waktu',
-      image: '/images/members/2024_program_tri_wahyu_handoyo_01.png',
+      image: '/images/members/2025_program_tri_wahyu_handoyo_01.jpg',
       images: [
         '/images/members/2024_program_tri_wahyu_handoyo_01.png',
         '/images/members/2024_program_tri_wahyu_handoyo_02.png',
@@ -747,7 +747,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['STM32', 'C/C++', 'Kinematics', 'State Machine', 'Gripper', 'CAD'],
       bio: 'Fokus pada pengembangan logika state-machine kendali robot, pemrograman pergerakan aktuator capit (gripper), dan sinkronisasi feedback sensor lintasan arena.',
       quote: 'Pejuang hibernasi',
-      image: '/images/members/2024_program_farhan_yuda_mahendra_01.png',
+      image: '/images/members/2025_leader_farhan_yuda_mahendra_01.jpg',
       images: [
         '/images/members/2024_program_farhan_yuda_mahendra_01.png',
         '/images/members/2024_program_farhan_yuda_mahendra_02.png',
@@ -879,7 +879,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['ESP32', 'Bluetooth', 'PDB Design', 'Power Distribution Board', 'PCB', 'STM32'],
       bio: 'Mengembangkan sistem komunikasi wireless ESP32, integrasi kendali darurat Bluetooth DualShock 4, monitoring telemetri tegangan baterai real-time, dan filtering derau daya.',
       quote: 'Always connected, zero packet loss.',
-      image: '/images/members/2024_elektronik_ikhsan_nurrohman_01.png',
+      image: '/images/members/2025_elektronik_ikhsan_nurrohman_01.jpg',
       images: [
         '/images/members/2024_elektronik_ikhsan_nurrohman_01.png',
         '/images/members/2024_elektronik_ikhsan_nurrohman_02.png',
@@ -925,7 +925,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Autodesk EAGLE', 'KiCad', 'EasyEDA', 'PCB', 'Sensor Wiring', 'Signal Conditioning', 'Power Distribution Board'],
       bio: 'Merancang skematik dan layout custom PCB shield STM32, sirkuit pengkondisi sinyal rotary encoder optik, serta instalasi sensor proximity & limit switch.',
       quote: 'Follow your dream',
-      image: '/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png',
+      image: '/images/members/2025_elektronik_abdul_hasib_adzdzin_nuha_01.jpg',
       images: [
         '/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_01.png',
         '/images/members/2024_elektronik_abdul_hasib_adzdzin_nuha_02.png',
@@ -1099,7 +1099,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['Hardware Assembly', 'Tolerance QA', 'CAD', 'Gripper', 'Mounting Systems'],
       bio: 'Mahasiswa Teknik Elektronika yang berfokus pada perakitan mekatronika dan mekanik sasis robot, mounting bracket baterai, toleransi perakitan, dan verifikasi struktur fisik robot.',
       quote: 'Ikan tidak terbang dan burung tidak berenang, kecuali pinguin',
-      image: '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
+      image: '/images/members/2025_mekanik_rionaldi_nugroho_01.jpg',
       images: [
         '/images/members/2024_mekanik_rionaldi_nugroho_01.png',
         '/images/members/2024_mekanik_rionaldi_nugroho_02.png',
@@ -1145,7 +1145,7 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       skills: ['CAD', 'Laser Cutting', '3D Print', 'SolidWorks', 'Gripper'],
       bio: 'Fokus pada fabrikasi laser cutting akrilik presisi, manufaktur bracket motor gearbox planetary bertorsi tinggi, dan optimasi rigiditas struktural komponen robot.',
       quote: 'Sometimes you win, sometimes you learn.',
-      image: '/images/members/2024_mekanik_caesar_sokma_langgeng_01.png',
+      image: '/images/members/2025_mekanik_caesar_sokma_langgeng_01.jpg',
       images: [
         '/images/members/2024_mekanik_caesar_sokma_langgeng_01.png',
         '/images/members/2024_mekanik_caesar_sokma_langgeng_02.png',
