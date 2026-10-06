@@ -96,21 +96,21 @@ export const MemberPhotoFadeShowcase: React.FC<{
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  // Auto-advance slideshow only for multi-photo cards that are not already active animated WebPs
+  // Auto-advance slideshow across all available photos (motion WebP, static JPGs, and archive photos)
   useEffect(() => {
     if (images.length <= 1) return;
-    // If primary image is an animated WebP loop, preserve continuous motion without unexpected auto-flipping
-    if (images[0]?.endsWith('.webp') && !isModal) return;
+    if (isHovered && !isModal) return; // Pause auto-advancing while user is actively inspecting on hover
 
     const seed = member.id ? member.id.charCodeAt(0) % 5 : 0;
-    const intervalTime = isModal ? 4500 : 3600 + seed * 200;
+    // For animated WebP slides, give ample time (4200ms) to enjoy the motion before advancing to the static/action photos
+    const intervalTime = isModal ? 4500 : 4200 + seed * 200;
 
     const timer = setInterval(() => {
       setCurrentIdx((prev) => (prev + 1) % images.length);
     }, intervalTime);
 
     return () => clearInterval(timer);
-  }, [images, isModal, member.id]);
+  }, [images, isModal, isHovered, member.id]);
 
   const hasCustomPhoto =
     images.length > 0 &&
