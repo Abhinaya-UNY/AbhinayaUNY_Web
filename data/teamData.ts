@@ -703,10 +703,12 @@ export const MANAGERS_SHOWCASE: ManagerHistoryItem[] = [
       animationUrl: '/images/members/2026_manager_zelfa_nafisah_zalna_01.webp',
       videoUrl: '/images/members/2026_manager_zelfa_nafisah_zalna_01.mp4',
     images: [
+      '/images/members/2026_manager_zelfa_nafisah_zalna_01.webp',
       '/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg',
       '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
     ],
     photos: [
+      '/images/members/2026_manager_zelfa_nafisah_zalna_01.webp',
       '/images/members/2026_manager_zelfa_nafisah_zalna_01.jpg',
       '/images/members/2025_manager_zelfa_nafisah_zalna_01.jpg',
     ],
@@ -803,11 +805,11 @@ export const ACTIVE_TECHNICAL_SQUAD = {
       animationUrl: '/images/members/2026_program_tri_wahyu_handoyo_01.webp',
       videoUrl: '/images/members/2026_program_tri_wahyu_handoyo_01.mp4',
       images: [
-        '/images/members/2024_program_tri_wahyu_handoyo_01.png',
-        '/images/members/2024_program_tri_wahyu_handoyo_02.png',
+        '/images/members/2026_program_tri_wahyu_handoyo_01.webp',
         '/images/members/2026_program_tri_wahyu_handoyo_01.jpg',
         '/images/members/2025_program_tri_wahyu_handoyo_01.jpg',
-        '/images/members/2024_program_tri_wahyu_handoyo_01.jpg',
+        '/images/members/2024_program_tri_wahyu_handoyo_01.png',
+        '/images/members/2024_program_tri_wahyu_handoyo_02.png',
         '/images/members/2023_program_tri_wahyu_handoyo_01.jpg',
       ],
       photos: [

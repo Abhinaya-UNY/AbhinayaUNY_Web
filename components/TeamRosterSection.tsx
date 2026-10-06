@@ -101,16 +101,17 @@ export const MemberPhotoFadeShowcase: React.FC<{
     if (images.length <= 1) return;
     if (isHovered && !isModal) return; // Pause auto-advancing while user is actively inspecting on hover
 
-    const seed = member.id ? member.id.charCodeAt(0) % 5 : 0;
-    // For animated WebP slides, give ample time (4200ms) to enjoy the motion before advancing to the static/action photos
-    const intervalTime = isModal ? 4500 : 4200 + seed * 200;
+    const currentImg = images[currentIdx] || '';
+    const isMotionWebP = currentImg.endsWith('.webp');
+    // If current image is an animated WebP, give ~3200ms for full motion play; static photos transition at 3600ms
+    const intervalTime = isModal ? (isMotionWebP ? 3400 : 4000) : (isMotionWebP ? 3200 : 3600);
 
     const timer = setInterval(() => {
       setCurrentIdx((prev) => (prev + 1) % images.length);
     }, intervalTime);
 
     return () => clearInterval(timer);
-  }, [images, isModal, isHovered, member.id]);
+  }, [images, isModal, isHovered, currentIdx]);
 
   const hasCustomPhoto =
     images.length > 0 &&

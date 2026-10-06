@@ -25,24 +25,35 @@ export const ScrollObserver: React.FC = () => {
     }
 
     // High-performance bidirectional native IntersectionObserver
-    // Elements fade in when entering viewport and gracefully fade out when scrolled below viewport
+    // Elements fade in when entering viewport.
+    // When scrolling down, elements exiting above viewport fade out smoothly (.is-scrolled-above).
+    // When scrolling back up, elements re-entering viewport fade back in seamlessly.
+    // When elements exit below viewport, they re-prime for future scroll down.
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
+          const target = entry.target as HTMLElement;
+          const rect = entry.boundingClientRect;
+
           if (entry.isIntersecting) {
-            entry.target.classList.add('is-revealed');
+            target.classList.add('is-revealed');
+            target.classList.remove('is-scrolled-above');
           } else {
-            const rect = entry.boundingClientRect;
-            // If element is below the viewport, re-prime it so it fades in again when scrolled down
-            if (rect.top > window.innerHeight) {
-              entry.target.classList.remove('is-revealed');
+            if (rect.bottom < 0) {
+              // Element is completely scrolled above the viewport -> fade out upward
+              target.classList.remove('is-revealed');
+              target.classList.add('is-scrolled-above');
+            } else if (rect.top > window.innerHeight) {
+              // Element is below the viewport -> re-prime for scrolling downward
+              target.classList.remove('is-revealed');
+              target.classList.remove('is-scrolled-above');
             }
           }
         });
       },
       {
         root: null,
-        rootMargin: '0px 0px -30px 0px',
+        rootMargin: '10px 0px 10px 0px',
         threshold: 0.05,
       }
     );
